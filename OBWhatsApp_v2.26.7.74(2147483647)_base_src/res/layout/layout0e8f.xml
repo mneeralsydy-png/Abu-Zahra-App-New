@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/selector_orange_gradient"
+    android:paddingLeft="@dimen/dimen04b5"
+    android:paddingTop="@dimen/dimen0b62"
+    android:paddingRight="@dimen/dimen04b5"
+    android:paddingBottom="@dimen/dimen0b62"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/category_layout"
+        android:background="@drawable/circular_background_primary"
+        android:layout_width="@dimen/dimen0248"
+        android:layout_height="@dimen/dimen0248"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/category_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/category_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen04b6"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/category_layout"
+        app:attr04b1="parent"
+        style="@style/style0289" />
+</androidx.constraintlayout.widget.ConstraintLayout>

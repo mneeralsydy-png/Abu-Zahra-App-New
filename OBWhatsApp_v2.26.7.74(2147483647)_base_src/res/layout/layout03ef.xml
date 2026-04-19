@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom|center"
+        android:id="@id/contact_photo_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr0838="@drawable/ic_live_location_shadow" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="7.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:background="@drawable/primary_color_circle"
+                android:layout_width="@dimen/dimen0cc7"
+                android:layout_height="@dimen/dimen0cc7" />
+            <com.whatsapp.locationsharing.location.ContactLiveLocationThumbnail
+                android:layout_gravity="center"
+                android:id="@id/contact_photo"
+                android:padding="2.5dip"
+                android:layout_width="@dimen/dimen0cc7"
+                android:layout_height="@dimen/dimen0cc7"
+                android:scaleType="fitCenter"
+                whatsapp:attr01e2="?attr0504"
+                whatsapp:attr01e3="2.0dip"
+                whatsapp:attr01e4="12"
+                whatsapp:attr08a6="?attr0503"
+                whatsapp:attr08a7="1.0dip"
+                whatsapp:attr08a9="false"
+                whatsapp:attr08aa="@dimen/dimen0cc5" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/contact_dot"
+            android:background="@drawable/primary_color_circle"
+            android:layout_width="4.0dip"
+            android:layout_height="4.0dip"
+            android:layout_marginTop="1.0dip"
+            android:scaleType="center" />
+    </LinearLayout>
+</FrameLayout>

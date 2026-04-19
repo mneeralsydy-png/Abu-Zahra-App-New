@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array0013">
+        <item>@color/color031c</item>
+        <item>@color/color0326</item>
+        <item>@color/color031d</item>
+        <item>@color/color02eb</item>
+        <item>@color/color0324</item>
+        <item>@color/color0325</item>
+        <item>@color/color031f</item>
+        <item>@color/color030b</item>
+        <item>@color/color0315</item>
+        <item>@color/color02ee</item>
+        <item>@color/color0329</item>
+        <item>@color/color02e9</item>
+        <item>@color/color0323</item>
+        <item>@color/color0316</item>
+        <item>@color/color0327</item>
+        <item>@color/color0319</item>
+        <item>@color/color02ec</item>
+        <item>@color/color02ed</item>
+        <item>@color/color031e</item>
+        <item>@color/color02f0</item>
+        <item>@color/color02ea</item>
+    </array>
+</resources>

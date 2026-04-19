@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextSwitcher
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1339"
+        android:paddingStart="@dimen/dimen1037"
+        android:paddingEnd="@dimen/dimen0ce7"
+        style="@style/style0406" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1392"
+        android:paddingStart="@dimen/dimen1037"
+        android:paddingEnd="@dimen/dimen0ce7"
+        style="@style/style0406" />
+</TextSwitcher>

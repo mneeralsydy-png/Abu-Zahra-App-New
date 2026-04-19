@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:layout_gravity="start|center"
+        android:id="@id/offer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b62"
+        android:layout_marginBottom="@dimen/dimen0b60"
+        android:layout_marginStart="@dimen/dimen1032"
+        app:attr03ae="?attr03b8"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:layout_gravity="end|center"
+        android:id="@id/offer_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b62"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen0b60"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr03ae="?attr03b8"
+        app:attr0a24="wds_font_body2" />
+</FrameLayout>

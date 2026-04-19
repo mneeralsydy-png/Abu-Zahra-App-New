@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/bootstrap_animation"
+            android:layout="@layout/layout039b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/header_image"
+            android:layout_width="@dimen/dimen0301"
+            android:layout_height="@dimen/dimen02ff"
+            android:layout_marginBottom="@dimen/dimen02fe"
+            app:attr0838="@drawable/ic_linked_android" />
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/progress_indicator"
+            android:layout_width="@dimen/dimen0303"
+            android:layout_height="wrap_content"
+            android:progressTint="?attr0a29"
+            android:indeterminateTint="?attr0a29"
+            android:indeterminateTintMode="src_atop"
+            style="progressBarStyleHorizontal" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:gravity="center"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1036"
+            android:layout_marginBottom="4.0dip"
+            android:text="@string/str0c7b"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_width="@dimen/dimen103a"
+                android:layout_height="@dimen/dimen103a"
+                app:attr0838="@drawable/ic_lock_small"
+                app:attr090d="@color/color0948" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="@color/color0948"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4.0dip"
+                android:text="@string/str128a"
+                app:attr0a24="wds_font_body3"
+                style="@style/style05a8" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </LinearLayout>
+</ScrollView>

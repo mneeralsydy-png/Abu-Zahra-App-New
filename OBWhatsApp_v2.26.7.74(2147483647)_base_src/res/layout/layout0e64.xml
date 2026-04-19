@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/report_title"
+        android:inflatedId="@id/report_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginRight="@dimen/dimen0c93"
+        android:layout_marginBottom="@dimen/dimen0ce7" />
+    <FrameLayout
+        android:id="@id/report_button"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center|left"
+            android:id="@id/report_button_icon"
+            android:paddingLeft="28.0dip"
+            android:paddingRight="28.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/ic_description"
+            app:attr090d="?attr079c" />
+        <LinearLayout
+            android:layout_gravity="center|left"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen1032"
+            android:paddingTop="16.0dip"
+            android:paddingRight="16.0dip"
+            android:paddingBottom="16.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/report_button_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str1603"
+                android:singleLine="true"
+                style="?attr07b5" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/report_button_subtitle"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                style="?attr07b5" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/report_delete"
+        android:background="?android:selectableItemBackground"
+        android:paddingTop="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center|left"
+            android:paddingLeft="28.0dip"
+            android:paddingRight="28.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/ic_delete_white"
+            app:attr090d="?attr0a4f" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center_vertical"
+            android:layout_gravity="center|left"
+            android:paddingLeft="@dimen/dimen1032"
+            android:paddingRight="16.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str15fa"
+            android:singleLine="true"
+            style="?attr07b5" />
+    </FrameLayout>
+    <ViewStub
+        android:id="@id/report_item_description"
+        android:inflatedId="@id/report_item_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginRight="@dimen/dimen0c93" />
+    <ViewStub
+        android:id="@id/report_item_footer"
+        android:inflatedId="@id/report_item_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginRight="@dimen/dimen0c93" />
+    <ViewStub
+        android:id="@id/automatic_request_report_view_place_holder"
+        android:layout="@layout/layout01bd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="?attr079a"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="@dimen/dimen0cea" />
+</LinearLayout>

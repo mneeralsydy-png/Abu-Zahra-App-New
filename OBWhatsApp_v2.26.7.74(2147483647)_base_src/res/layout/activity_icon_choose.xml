@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/yo_toolbar" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RadioGroup
+            android:id="@id/rGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginStart="40.0dip">
+            <RadioButton
+                android:id="@id/icon00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon" />
+            <RadioButton
+                android:id="@id/icon01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_01" />
+            <RadioButton
+                android:id="@id/icon02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_02" />
+            <RadioButton
+                android:id="@id/icon03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_03" />
+            <RadioButton
+                android:id="@id/icon04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_04" />
+            <RadioButton
+                android:id="@id/icon05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_05" />
+            <RadioButton
+                android:id="@id/icon06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_06" />
+            <RadioButton
+                android:id="@id/icon07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_07" />
+            <RadioButton
+                android:id="@id/icon08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_08" />
+            <RadioButton
+                android:id="@id/icon09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_09" />
+            <RadioButton
+                android:id="@id/icon10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_10" />
+            <RadioButton
+                android:id="@id/icon11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_11" />
+            <RadioButton
+                android:id="@id/icon12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_12" />
+            <RadioButton
+                android:id="@id/icon13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_13" />
+            <RadioButton
+                android:id="@id/icon14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_14" />
+            <RadioButton
+                android:id="@id/icon15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_15" />
+            <RadioButton
+                android:id="@id/icon16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_16" />
+            <RadioButton
+                android:id="@id/icon17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_17" />
+            <RadioButton
+                android:id="@id/icon18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_18" />
+            <RadioButton
+                android:id="@id/icon19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_19" />
+            <RadioButton
+                android:id="@id/icon20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_20" />
+            <RadioButton
+                android:id="@id/icon21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_21" />
+            <RadioButton
+                android:id="@id/icon22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_22" />
+            <RadioButton
+                android:id="@id/icon23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_23" />
+            <RadioButton
+                android:id="@id/icon24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_24" />
+            <RadioButton
+                android:id="@id/icon25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_25" />
+            <RadioButton
+                android:id="@id/icon26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_26" />
+            <RadioButton
+                android:id="@id/icon27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_27" />
+            <RadioButton
+                android:id="@id/icon28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_28" />
+            <RadioButton
+                android:id="@id/icon29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_29" />
+            <RadioButton
+                android:id="@id/icon30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_30" />
+            <RadioButton
+                android:id="@id/icon31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_31" />
+            <RadioButton
+                android:id="@id/icon32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_32" />
+            <RadioButton
+                android:id="@id/icon33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_33" />
+            <RadioButton
+                android:id="@id/icon34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_34" />
+            <RadioButton
+                android:id="@id/icon35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_35" />
+            <RadioButton
+                android:id="@id/icon36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_36" />
+            <RadioButton
+                android:id="@id/icon37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_37" />
+            <RadioButton
+                android:id="@id/icon38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_38" />
+            <RadioButton
+                android:id="@id/icon39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_39" />
+            <RadioButton
+                android:id="@id/icon40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_40" />
+            <RadioButton
+                android:id="@id/icon41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_41" />
+            <RadioButton
+                android:id="@id/icon42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_42" />
+            <RadioButton
+                android:id="@id/icon43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_43" />
+            <RadioButton
+                android:id="@id/icon44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_44" />
+            <RadioButton
+                android:id="@id/icon45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_45" />
+            <RadioButton
+                android:id="@id/icon46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_46" />
+            <RadioButton
+                android:id="@id/icon47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_47" />
+            <RadioButton
+                android:id="@id/icon48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_48" />
+            <RadioButton
+                android:id="@id/icon49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_49" />
+            <RadioButton
+                android:id="@id/icon50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_50" />
+            <RadioButton
+                android:id="@id/icon51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_51" />
+            <RadioButton
+                android:id="@id/icon52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_52" />
+            <RadioButton
+                android:id="@id/icon53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_53" />
+            <RadioButton
+                android:id="@id/icon54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_54" />
+            <RadioButton
+                android:id="@id/icon55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_55" />
+            <RadioButton
+                android:id="@id/icon56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_56" />
+            <RadioButton
+                android:id="@id/icon57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_57" />
+            <RadioButton
+                android:id="@id/icon58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_58" />
+            <RadioButton
+                android:id="@id/icon59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_59" />
+            <RadioButton
+                android:id="@id/icon60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_60" />
+            <RadioButton
+                android:id="@id/icon61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_61" />
+            <RadioButton
+                android:id="@id/icon62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_62" />
+            <RadioButton
+                android:id="@id/icon63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_63" />
+            <RadioButton
+                android:id="@id/icon64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_64" />
+            <RadioButton
+                android:id="@id/icon65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_65" />
+            <RadioButton
+                android:id="@id/icon66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_66" />
+            <RadioButton
+                android:id="@id/icon67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_67" />
+            <RadioButton
+                android:id="@id/icon68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_68" />
+            <RadioButton
+                android:id="@id/icon69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_69" />
+            <RadioButton
+                android:id="@id/icon70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_70" />
+            <RadioButton
+                android:id="@id/icon71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_71" />
+            <RadioButton
+                android:id="@id/icon72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_72" />
+            <RadioButton
+                android:id="@id/icon73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_73" />
+            <RadioButton
+                android:id="@id/icon74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_74" />
+            <RadioButton
+                android:id="@id/icon75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:button="@drawable/icon_75" />
+        </RadioGroup>
+    </ScrollView>
+</LinearLayout>

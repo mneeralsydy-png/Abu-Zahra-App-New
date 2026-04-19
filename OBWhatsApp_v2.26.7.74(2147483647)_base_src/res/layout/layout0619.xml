@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/description_card"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:padding="@dimen/dimen06a4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/has_description_view"
+            android:paddingTop="@dimen/dimen1030"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.text.ReadMoreTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="@color/color07a9"
+                android:id="@id/group_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr06be="3"
+                whatsapp:attr06c0="?attr0a29"
+                whatsapp:attr06c1="@string/str2aa4" />
+            <ProgressBar
+                android:id="@id/change_description_progress"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="progressBarStyleSmallInverse" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a29"
+            android:id="@id/no_description_view"
+            android:paddingTop="@dimen/dimen1030"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str01ba"
+            style="@style/style028a" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/creation_info_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            whatsapp:attr0a24="wds_font_body2" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

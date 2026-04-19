@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:id="@id/user_control_info_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0cea"
+    android:layout_marginBottom="@dimen/dimen0cea"
+    app:attr040b="?attr0a59"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/marketing_opt_out_action_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        app:attr06c6="@string/str35cb"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str35ca"
+        app:attr06ca="body1"
+        app:attr06cb="text"
+        app:attr06e2="compact"
+        app:attr06ec="wds_switch"
+        app:attr0702="none" />
+</com.whatsapp.ui.coreui.InfoCard>

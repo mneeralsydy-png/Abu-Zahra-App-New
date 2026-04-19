@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/dimen0cea"
+    android:paddingBottom="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0fdb"
+    android:paddingStart="@dimen/dimen0cea"
+    android:paddingEnd="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/event_reminder_icon"
+        android:layout_width="@dimen/dimen0fdb"
+        android:layout_height="@dimen/dimen0fdb"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0838="@drawable/wa_ic_notifications_1"
+        app:attr090d="@color/color08de" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_gravity="center_vertical"
+            android:id="@id/event_reminders_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str1388"
+            style="@style/style0406" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:layout_gravity="center_vertical"
+            android:id="@id/event_reminders_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:text="@string/str1391"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+</LinearLayout>

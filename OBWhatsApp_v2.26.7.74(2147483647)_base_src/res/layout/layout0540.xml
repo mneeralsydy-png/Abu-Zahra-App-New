@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/layout0527" />
+        <include
+            layout="@layout/layout054e" />
+        <include
+            layout="@layout/layout0588" />
+        <include
+            layout="@layout/layout10a8" />
+        <com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.InteractiveMessageView
+            android:orientation="vertical"
+            android:id="@id/interactive_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/dimen03d9" />
+        <LinearLayout
+            android:gravity="center|right"
+            android:layout_gravity="bottom|center|right"
+            android:orientation="horizontal"
+            android:id="@id/message_date_wrapper"
+            android:paddingLeft="@dimen/dimen1031"
+            android:paddingRight="@dimen/dimen1031"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/message_date"
+                android:paddingBottom="@dimen/dimen1035"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style0567" />
+        </LinearLayout>
+        <View
+            android:id="@id/button_div"
+            style="@style/style0356" />
+        <com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.components.InteractiveMessageButton
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/button"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

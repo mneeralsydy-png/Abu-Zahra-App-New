@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:icon="@drawable/abo_arab_ic_launcher"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/launchericons"
+        android:key="acjicons"
+        android:summary="@string/launchericonsSum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_notify"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoNicon"
+        android:key="yo_nicon_color"
+        android:summary="@string/yoNiconSum" />
+    <com.whatsapp.yo.ImageListPreference
+        android:icon="@drawable/abo_arab_ic_notify"
+        android:entries="@array/yo_niconss"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/yoNicon"
+        android:key="yo_nicons"
+        android:summary="@string/yoNiconSum"
+        android:defaultValue="0"
+        android:entryValues="@array/yo_niconsv"
+        app:entryImages="@array/yo_niconsi" />
+    <com.whatsapp.yo.YoFontListPreference
+        android:icon="@drawable/abo_arab_ic_text"
+        android:entries="@array/fonts_names"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/customfont"
+        android:key="font"
+        android:summary="@string/customfont_sum"
+        android:defaultValue="0"
+        android:entryValues="@array/fonts_names" />
+    <Preference
+        android:icon="@drawable/abo_arab_ic_text"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/load_customfont"
+        android:key="load_customfont"
+        android:summary="@string/customfont_sum" />
+    <Preference
+        android:layout="@layout/abu_arab_preferences_fonts" />
+</PreferenceScreen>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/chips_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr048f="true"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/chips_container">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/search_category_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/wds_picto_magnifying_glass" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0cea"
+            android:text="@string/str1090"
+            app:attr04b0="@id/search_category_image"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

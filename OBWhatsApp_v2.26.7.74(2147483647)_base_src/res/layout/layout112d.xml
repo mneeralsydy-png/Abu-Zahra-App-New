@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/browse_sticker_packs"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen103a"
+    android:layout_marginBottom="@dimen/dimen103a"
+    android:text="@string/str324e"
+    android:layout_marginStart="@dimen/dimen102e"
+    android:layout_marginEnd="@dimen/dimen102e"
+    app:attr096b="outline"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

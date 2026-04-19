@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/event_cover_image"
+        android:background="@color/color0940"
+        android:layout_width="fill_parent"
+        android:layout_height="200.0dip"
+        android:layout_margin="@dimen/dimen102e"
+        android:scaleType="centerCrop" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/event_title"
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e"
+        style="@style/style05aa" />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@id/event_tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0886="fill"
+        app:attr088c="@color/color0930"
+        app:attr088d="true"
+        app:attr0891="0.0dip"
+        app:attr0893="fixed"
+        app:attr089c="@color/color0930"
+        app:attr089e="@style/style05a5"
+        app:attr089f="@color/color0948" />
+    <View
+        style="@style/style0355" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/event_view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:background="?attr0a59"
+        android:padding="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4.0dip">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/edit_event_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str3e54" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/address_toolbar"
+        layout="@layout/layout10cb" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="16.0sp"
+        android:textColor="@color/color00cc"
+        android:id="@id/add_shipping_address"
+        android:background="@color/color0563"
+        android:padding="@dimen/dimen0a5d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0a60"
+        android:layout_marginRight="@dimen/dimen0a60"
+        android:layout_marginBottom="@dimen/dimen0a66"
+        android:text="@string/str22df"
+        android:drawablePadding="@dimen/dimen0a66"
+        app:attr02e9="@drawable/ic_add_circle"
+        app:attr04a7="parent"
+        app:attr04b0="@id/address_toolbar" />
+    <RadioGroup
+        android:id="@id/address_list"
+        android:paddingLeft="@dimen/dimen0a5d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04a7="parent"
+        app:attr04b0="@id/add_shipping_address" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/address_sharing_privacy_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0a5d"
+        android:layout_marginTop="@dimen/dimen0a5d"
+        android:layout_marginRight="@dimen/dimen0a5d"
+        android:layout_marginBottom="@dimen/dimen0a63"
+        android:text="@string/str2704"
+        android:textAlignment="center"
+        app:attr0495="@id/confirm_button"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:enabled="false"
+        android:gravity="bottom|center"
+        android:id="@id/confirm_button"
+        android:layout_marginLeft="@dimen/dimen0a5d"
+        android:layout_marginRight="@dimen/dimen0a5d"
+        android:layout_marginBottom="@dimen/dimen0a5d"
+        android:text="@string/str2572"
+        android:maxLines="1"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        style="@style/style055c" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/poll_results_user_main_layout"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="68.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/poll_results_user_picture"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="14.0dip"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:importantForAccessibility="no"
+        android:layout_alignParentStart="true"
+        app:attr0838="@drawable/avatar_contact" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="17.0sp"
+        android:textColor="@color/color05dd"
+        android:gravity="left"
+        android:id="@id/poll_results_primary_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_toLeftOf="@id/poll_results_secondary_name"
+        android:layout_toRightOf="@id/poll_results_user_picture"
+        android:layout_alignTop="@id/poll_results_user_picture"
+        android:importantForAccessibility="no"
+        android:layout_toStartOf="@id/poll_results_secondary_name"
+        android:layout_toEndOf="@id/poll_results_user_picture"
+        app:attr03ae="?attr03b8"
+        style="@style/style03c7" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="@color/color05e1"
+        android:gravity="center_vertical"
+        android:id="@id/poll_results_secondary_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="16.0dip"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_alignTop="@id/poll_results_primary_name"
+        android:layout_alignBottom="@id/poll_results_primary_name"
+        android:layout_alignParentRight="true"
+        android:importantForAccessibility="no"
+        android:layout_alignParentEnd="true"
+        app:attr0a24="wds_font_body3"
+        style="@style/style03c7" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="@color/color05e1"
+        android:id="@id/poll_results_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:layout_toRightOf="@id/poll_results_user_picture"
+        android:layout_below="@id/poll_results_primary_name"
+        android:importantForAccessibility="no"
+        android:layout_toEndOf="@id/poll_results_user_picture"
+        app:attr0a24="wds_font_body3"
+        style="@style/style03c7" />
+</RelativeLayout>

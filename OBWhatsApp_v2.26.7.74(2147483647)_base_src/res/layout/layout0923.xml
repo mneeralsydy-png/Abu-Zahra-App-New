@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        style="@style/style0266">
+        <LinearLayout
+            style="@style/style0268">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/instrumentation_companion_code_header_image"
+                app:attr0838="@drawable/smartglasses_wa"
+                style="@style/style025d" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/instrumentation_companion_code_title"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                android:text="@string/str19c1"
+                style="@style/style0267" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/instrumentation_companion_code_before"
+                android:text="@string/str19c4"
+                style="@style/style0265" />
+            <include
+                layout="@layout/layout1157" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        style="@style/style025a">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:enabled="false"
+            android:id="@id/instrumentation_companion_code_button"
+            android:text="@string/str19bf"
+            style="@style/style025b" />
+    </LinearLayout>
+</LinearLayout>

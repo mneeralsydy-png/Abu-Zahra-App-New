@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:id="@id/payment_people_container"
+        android:background="@drawable/selector_orange_gradient"
+        android:padding="@dimen/dimen0ac6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@id/payment_people_progress_bar"
+            android:visibility="gone"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginRight="@dimen/dimen0ac6"
+            android:indeterminate="true"
+            android:indeterminateOnly="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/payment_people_icon"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginRight="@dimen/dimen0ac6"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/payment_people_icon"
+            android:layout_centerInParent="true">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:id="@id/payment_send_action"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                app:attr049b="@id/open_indicator"
+                app:attr04a5="2.0"
+                app:attr04ad="parent"
+                app:attr04b1="parent"
+                app:attr0a24="wds_font_body2"
+                style="@style/style028c" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a47"
+                android:gravity="left"
+                android:id="@id/payment_people_info"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen0b62"
+                android:singleLine="false"
+                android:layout_marginEnd="@dimen/dimen0b62"
+                app:attr049b="@id/open_indicator"
+                app:attr04ad="parent"
+                app:attr04b0="@id/payment_send_action"
+                style="@style/style0289" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="14.0sp"
+                android:textColor="?attr0a46"
+                android:gravity="left"
+                android:id="@id/payment_send_action_time"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                app:attr049b="@id/open_indicator"
+                app:attr04a5="3.0"
+                app:attr04ad="parent"
+                app:attr04b0="@id/payment_people_info"
+                style="@style/style028c" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/open_indicator"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="@dimen/dimen0b62"
+                android:layout_marginStart="@dimen/dimen0b62"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ac="@id/payment_send_action_time"
+                app:attr04b1="parent"
+                app:attr0838="@drawable/ic_right_arrow"
+                app:attr0a89="true" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+    <include
+        layout="@layout/layout0882" />
+</LinearLayout>

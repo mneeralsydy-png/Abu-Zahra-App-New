@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/settings_privacy"
+    android:summary="@string/yoPrivacySum"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/settings_privacy">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_freezer"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoHideSeen"
+            android:key="yoHideSeen"
+            android:summary="@string/yoHideSeenSum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_viewonce"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/antiviewonce"
+            android:key="anti_vw_once"
+            android:summary="@string/antiviewonceS"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_enc"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoDisableFwd"
+            android:key="yoDisableFwd"
+            android:summary="@string/yoDisableFwdS"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_hidec"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_hidecount_title"
+            android:key="hideGroupCounter"
+            android:summary="@string/abu_arab_hidecount_title_sum"
+            android:defaultValue="false" />
+        <Preference
+            android:icon="@drawable/abo_arab_ic_callme"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/whocancall"
+            android:key="yoCallsPrivacy"
+            android:summary="@string/privacy_everyone" />
+        <com.whatsapp.yo.YoPreference
+            android:icon="@drawable/abo_arab_ic_specprivacy"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/specificPrivacy"
+            android:key="yoCustomPrivList"
+            android:summary="@string/view_contacts_button"
+            app:WaString="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/yoPrivacySum">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_lock"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_hideprivacy"
+            android:key="Assem_HidePrivacy"
+            android:summary="@string/abu_arab_hideprivacysum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_up"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_hidecupdates"
+            android:key="Assem_HideCUpdates"
+            android:summary="@string/abu_arab_hidecupdatesum"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/settings_privacy_status"
+        android:key="stat_cat">
+        <SwitchPreference
+            android:icon="@drawable/ic_abu3arab_channel"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_disable_channels"
+            android:key="abu_arab_channels"
+            android:summary="@string/abu_arab_disable_channels_sum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_offstats"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoHideStatusView"
+            android:key="yoHideStatViewV2"
+            android:summary="@string/yoHideStatusViewSum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_statdel"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoAntiRevokeStatus"
+            android:key="yoAntiRevokeStatus"
+            android:summary="@string/yoAntiRevokeStatusS"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_repost"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_repost"
+            android:key="abuarabrepost"
+            android:summary="@string/abu_arab_repost_sum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_hidownload"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoHideDlBtn"
+            android:key="yoHideDlBtn"
+            android:summary="@string/yoHideDlBtn_sum"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/settings_chat">
+        <SwitchPreference
+            android:icon="@drawable/abu_arab_ic_time"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_dm"
+            android:key="disappearing_message_key"
+            android:summary="@string/abu_arab_dm_sum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_cust"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_seeditedz"
+            android:key="key_chat_editview"
+            android:summary="@string/abu_arab_seeditedz_sum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_antidel"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoAntiRevoke"
+            android:key="yoAntiRevoke"
+            android:summary="@string/yoAntiRevokeS"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_cam_delete"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abuarabdeleteeveryone"
+            android:key="masdeletionofeveryone"
+            android:summary="@string/abuarabdeleteeveryones"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_six"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_settz_deltimez"
+            android:key="key_show_deltime"
+            android:summary="@string/abu_arab_settz_deltimezz"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/mesaj_sifreleme"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_unreaded_chat"
+            android:key="abu_arab_unreaded_chat"
+            android:summary="@string/abu_arab_unreaded_chat_sum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_privtick"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoBlueOnReply"
+            android:key="yoBlueOnReply"
+            android:summary="@string/yoBlueOnReplyS"
+            android:defaultValue="false" />
+        <com.whatsapp.yo.YoPreference
+            android:icon="@drawable/abo_arab_ic_privcontac"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/contacts"
+            android:key="cat_pc"
+            android:summary="@string/change_privacy_settings"
+            app:WaString="true" />
+        <com.whatsapp.yo.YoPreference
+            android:icon="@drawable/abo_arab_ic_privgrup"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/groups_participation"
+            android:key="cat_pg"
+            android:summary="@string/change_privacy_settings"
+            app:WaString="true" />
+        <com.whatsapp.yo.YoPreference
+            android:icon="@drawable/abo_arab_ic_privtarns"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/str3379"
+            android:key="cat_pb"
+            android:summary="@string/change_privacy_settings"
+            app:WaString="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

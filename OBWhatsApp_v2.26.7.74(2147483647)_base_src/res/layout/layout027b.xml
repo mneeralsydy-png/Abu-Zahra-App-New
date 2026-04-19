@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="56.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircleWaImageView
+        android:id="@id/business_avatar"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="@dimen/dimen0ce5"
+        android:layout_marginRight="@dimen/dimen0ce5"
+        android:layout_marginStart="@dimen/dimen0ce5"
+        android:layout_marginEnd="@dimen/dimen0ce5"
+        app:attr0494="parent"
+        app:attr049b="@id/business_info_layout"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/business_info_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049b="@id/delete_button"
+        app:attr04ac="@id/business_avatar"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/business_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr03ae="?attr03b8"
+            app:attr0495="@id/business_categories"
+            app:attr04b1="parent"
+            style="@style/style028a" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0495="parent"
+            app:attr04b0="@id/business_name"
+            style="@style/style0287" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/delete_button"
+        android:background="@drawable/selector_orange_gradient"
+        android:padding="14.0dip"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="30.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/str3ded"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/business_info_layout"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/vec_ic_close"
+        app:attr090d="@color/color0902" />
+</androidx.constraintlayout.widget.ConstraintLayout>

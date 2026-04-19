@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="center_horizontal"
+    android:id="@id/documentInfoView"
+    android:background="?attr0611"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/document_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:attr0495="@id/document_file_name"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr04b3="packed" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/document_file_name"
+        android:paddingLeft="@dimen/dimen103b"
+        android:paddingRight="@dimen/dimen103b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:textAlignment="center"
+        app:attr0495="@id/document_info_text"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/document_icon"
+        style="@style/style01eb" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/document_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:attr0495="@id/document_size"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/document_file_name"
+        style="@style/style01ea" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/document_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/document_info_text"
+        style="@style/style01ec" />
+</androidx.constraintlayout.widget.ConstraintLayout>

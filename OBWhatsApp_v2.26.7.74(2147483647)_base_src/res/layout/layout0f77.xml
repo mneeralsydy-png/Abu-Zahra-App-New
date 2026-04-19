@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/pix_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/wds_picto_bank_pix" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:id="@id/add_pix_header_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/pix_img"
+        style="@style/style05aa" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/add_pix_header_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen102e"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/add_pix_header_title"
+        style="@style/style05a4" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@id/smb_pix_type_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102f"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:hint="@string/str3d82"
+        app:attr00dd="8.0dip"
+        app:attr00de="8.0dip"
+        app:attr00df="8.0dip"
+        app:attr00e0="8.0dip"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/add_pix_header_message"
+        style="@style/style06ee">
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@id/smb_pix_type_dropdown"
+            android:longClickable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textIsSelectable="false"
+            style="@style/style0588" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.whatsapp.ui.wds.components.textfield.WDSTextField
+        android:id="@id/smb_pix_key_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102f"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:hint="@string/str070c"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/smb_pix_type_field"
+        app:attr08e4="single_line"
+        style="@style/style0587" />
+    <com.whatsapp.ui.wds.components.textfield.WDSTextField
+        android:id="@id/smb_pix_full_name_field"
+        android:paddingBottom="@dimen/dimen0cea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102f"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:hint="@string/str01e0"
+        android:maxLines="1"
+        android:inputType="text"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/smb_pix_key_field"
+        app:attr08e4="single_line"
+        style="@style/style0587" />
+    <ViewStub
+        android:id="@id/consumer_add_pix_privacy_setting_view_stub"
+        android:layout="@layout/layout03b4"
+        android:inflatedId="@id/consumer_add_pix_privacy_setting_view_inflated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04b0="@id/smb_pix_full_name_field" />
+</androidx.constraintlayout.widget.ConstraintLayout>

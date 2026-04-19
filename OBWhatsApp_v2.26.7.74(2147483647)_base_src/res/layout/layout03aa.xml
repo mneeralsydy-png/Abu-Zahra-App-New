@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/amount_container_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str199a"
+            android:layout_toLeftOf="@id/total_amount_value_text"
+            android:layout_toStartOf="@id/parent"
+            app:attr03ae="?attr03b8"
+            app:attr0a24="wds_font_body1"
+            style="@style/style0289" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:id="@id/total_amount_value_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            app:attr03ae="?attr03b8"
+            app:attr0a24="wds_font_body1"
+            style="@style/style0289" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1996"
+            android:layout_toLeftOf="@id/due_today_value_text"
+            android:layout_toStartOf="@id/parent"
+            app:attr0a24="wds_font_body1"
+            style="@style/style0289" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:id="@id/due_today_value_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            app:attr0a24="wds_font_body1"
+            style="@style/style0289" />
+    </RelativeLayout>
+</LinearLayout>

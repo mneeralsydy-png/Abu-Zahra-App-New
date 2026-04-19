@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/main_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:orientation="vertical"
+        android:id="@id/payments_settings_scroll_view_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/payment_setting_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/nux_static_header_container_viewstub"
+                android:inflatedId="@id/nux_static_header_container_viewstub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/nux_container"
+                android:background="?attr0a59"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/account_section_container"
+                android:layout="@layout/layout0cd1"
+                android:inflatedId="@id/account_section_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/send_money_tiles_section_viewstub"
+                android:inflatedId="@id/send_money_tiles_section_viewstub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:id="@id/action_required_container"
+                android:background="?attr0a59"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:id="@id/payment_custom_header_row"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/send_again_container_v2_viewstub"
+                android:inflatedId="@id/send_again_container_v2_viewstub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/bill_payments_recent_billers_viewstub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/billpayments_viewstub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/action_needed_container_viewstub"
+                android:layout="@layout/layout0041"
+                android:inflatedId="@id/action_needed_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <view
+                android:id="@id/requests_container"
+                android:background="?attr0a59"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr075f="@drawable/view_history_icon"
+                class="com.whatsapp.payments.common.ui.widget.TransactionsExpandableView" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/recent_merchants_container"
+                android:background="?attr0a59"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/payment_recent_merchants_header"
+                    android:background="?attr0a59"
+                    android:text="@string/str265d"
+                    style="@style/style02e0" />
+                <include
+                    layout="@layout/layout0d02" />
+            </LinearLayout>
+            <ViewStub
+                android:id="@id/bill_payments_mobile_recharge_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/book_tickets_container"
+                android:background="?attr0a59"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+                    android:id="@id/payment_book_tickets_header"
+                    android:background="?attr0a59"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/dimen0ac6"
+                    android:paddingEnd="@dimen/dimen0ac6"
+                    app:attr0039="@string/str266d"
+                    app:attr003a="textButton"
+                    app:attr03ee="@string/str265a"
+                    app:attr03ef="emphasized" />
+                <include
+                    layout="@layout/layout0cff" />
+            </LinearLayout>
+            <ViewStub
+                android:id="@id/explore_payments_section_viewstub"
+                android:inflatedId="@id/explore_payments_section_viewstub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/send_again_container"
+                android:background="?attr0a59"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/payment_send_again_header"
+                    android:background="?attr0a59"
+                    android:text="@string/str2670"
+                    style="@style/style02e0" />
+                <include
+                    layout="@layout/layout0d01" />
+            </LinearLayout>
+            <view
+                android:id="@id/payment_history_container"
+                android:background="?attr0a59"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr075f="@drawable/view_history_icon"
+                class="com.whatsapp.payments.common.ui.widget.TransactionsExpandableView" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/payment_info_container"
+                android:background="?attr0a59"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/title_account_actions_section"
+                    android:text="@string/str2651"
+                    style="@style/style02e0" />
+                <include
+                    layout="@layout/layout0e62" />
+                <include
+                    layout="@layout/layout0e4f" />
+            </LinearLayout>
+            <FrameLayout
+                android:id="@id/recurring_payment_container"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/payment_methods_container"
+                android:background="?attr0a59"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/payment_methods_header"
+                    android:text="@string/str2669"
+                    style="@style/style02e0" />
+                <ViewStub
+                    android:id="@id/banner_viewstub"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen0ac6"
+                    android:layout_marginEnd="@dimen/dimen0ac6" />
+                <ListView
+                    android:id="@id/methods_list"
+                    android:scrollbars="none"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:listSelector="@android:color/transparent"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@null"
+                    android:choiceMode="none"
+                    android:headerDividersEnabled="false"
+                    android:footerDividersEnabled="false" />
+                <include
+                    layout="@layout/layout0102" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/pin_container"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="?attr0a59"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:text="@string/str266c"
+                        style="@style/style02e0" />
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:id="@id/change_pin"
+                        android:background="?android:selectableItemBackground"
+                        android:paddingLeft="@dimen/dimen0c93"
+                        android:paddingTop="@dimen/dimen0c98"
+                        android:paddingRight="@dimen/dimen0c93"
+                        android:paddingBottom="@dimen/dimen0c98"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.whatsapp.ui.coreui.base.WaImageView
+                            android:id="@id/change_pin_icon"
+                            android:layout_width="@dimen/dimen0ac8"
+                            android:layout_height="@dimen/dimen0ac8"
+                            android:layout_marginRight="@dimen/dimen0c8a"
+                            app:attr0838="@drawable/ic_lock" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textSize="@dimen/dimen0fb0"
+                            android:textColor="?attr0a47"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str265c"
+                            app:attr0a24="wds_font_body1" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:id="@id/fingerprint_container"
+                        android:background="?android:selectableItemBackground"
+                        android:paddingLeft="@dimen/dimen0c93"
+                        android:paddingTop="@dimen/dimen0c98"
+                        android:paddingRight="@dimen/dimen0c93"
+                        android:paddingBottom="@dimen/dimen0c98"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.whatsapp.ui.coreui.base.WaImageView
+                            android:id="@id/fingerprint_setting_icon"
+                            android:layout_width="@dimen/dimen0ac8"
+                            android:layout_height="@dimen/dimen0ac8"
+                            android:layout_marginRight="@dimen/dimen0c8a"
+                            app:attr0838="@drawable/settings_fingerprint_icon" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textSize="@dimen/dimen0fb0"
+                            android:textColor="?attr0a47"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str265e"
+                            android:layout_weight="1.0"
+                            app:attr0a24="wds_font_body1" />
+                        <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                            android:id="@id/toggle_fingerprint"
+                            android:focusable="false"
+                            android:clickable="false"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/pay_hub_container"
+                android:background="?attr0a59"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/payment_settings_services_section_header"
+                    android:text="@string/str2672"
+                    style="@style/style02e0" />
+                <ViewStub
+                    android:id="@id/pay_hub_ext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="13.0sp"
+                    android:textColor="?attr0a46"
+                    android:id="@id/fb_pay_hub_section_desc"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen0ac6"
+                    android:layout_marginTop="@dimen/dimen1030"
+                    android:layout_marginRight="@dimen/dimen0ac6"
+                    android:layout_marginBottom="8.0dip"
+                    android:text="@string/str2673" />
+                <include
+                    android:id="@id/fb_pay_hub"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout0c56" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/payment_settings_row_container"
+                android:background="?attr0a59"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <include
+                    android:id="@id/payment_settings_row"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout0cd6" />
+                <include
+                    android:id="@id/payment_settings_row_add_method"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout0102" />
+                <include
+                    android:id="@id/request_dyi_report_button"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout0e61" />
+                <include
+                    android:id="@id/payment_settings_row_remove_method"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout0e4f" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/payment_support_section"
+                android:background="?attr0a59"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:text="@string/str2655"
+                    style="@style/style02e0" />
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:id="@id/remove_account_container"
+                    android:background="?attr0a59"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <include
+                        android:id="@id/payment_row_remove_method"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/layout0e50" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:id="@id/payment_support_container"
+                    android:background="?android:selectableItemBackground"
+                    android:paddingLeft="@dimen/dimen0c93"
+                    android:paddingTop="@dimen/dimen0c98"
+                    android:paddingRight="@dimen/dimen0c93"
+                    android:paddingBottom="@dimen/dimen0c98"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/dimen0c93"
+                    android:paddingEnd="@dimen/dimen0c93">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:id="@id/payment_support_icon"
+                        android:layout_width="@dimen/dimen0ac8"
+                        android:layout_height="@dimen/dimen0ac8"
+                        app:attr0838="@drawable/ic_help"
+                        app:attr0a89="true" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textSize="@dimen/dimen0fb0"
+                        android:textColor="?attr0a47"
+                        android:id="@id/payment_support_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen0c93"
+                        android:layout_marginRight="@dimen/dimen0c93"
+                        android:text="@string/str4226"
+                        android:layout_marginStart="@dimen/dimen0c93"
+                        android:layout_marginEnd="@dimen/dimen0c93"
+                        app:attr0a24="wds_font_body1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:id="@id/invite_container"
+                    android:background="?android:selectableItemBackground"
+                    android:paddingLeft="@dimen/dimen0c93"
+                    android:paddingTop="@dimen/dimen0c98"
+                    android:paddingRight="@dimen/dimen0c93"
+                    android:paddingBottom="@dimen/dimen0c98"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:id="@id/invite_icon"
+                        android:layout_width="@dimen/dimen0ac8"
+                        android:layout_height="@dimen/dimen0ac8"
+                        android:layout_marginRight="@dimen/dimen0c8a"
+                        app:attr0838="@drawable/ic_drafts" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textSize="@dimen/dimen0fb0"
+                        android:textColor="?attr0a47"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str25cd"
+                        android:layout_weight="1.0"
+                        app:attr0a24="wds_font_body1" />
+                </LinearLayout>
+            </LinearLayout>
+            <include
+                android:id="@id/manage_payments_section_container"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout0cd4" />
+            <FrameLayout
+                android:id="@id/custom_footer_container"
+                android:visibility="invisible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginBottom="52.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <include
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/send_payment_fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0ac6"
+        layout="@layout/layout0d00" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

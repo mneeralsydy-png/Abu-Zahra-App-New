@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:id="@id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/backgroundHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen102a"
+        android:layout_marginTop="@dimen/dimen1029"
+        android:layout_marginBottom="@dimen/dimen1026"
+        android:layout_marginStart="@dimen/dimen1028"
+        android:layout_marginEnd="@dimen/dimen1027"
+        style="@style/style0582">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a7d="true"
+            style="@style/style0583" />
+        <com.whatsapp.ui.wds.components.edittext.WDSEditText
+            android:id="@id/search_src_text"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            style="@style/style0584" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/trailing_button"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/vec_ic_close"
+            app:attr0a7d="true"
+            style="@style/style0585" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval">
+            <size
+                android:height="64.0dip"
+                android:width="64.0dip" />
+            <solid
+                android:color="@color/color0904" />
+        </shape>
+    </item>
+    <item
+        android:left="14.0dip"
+        android:top="14.0dip"
+        android:right="14.0dip"
+        android:bottom="14.0dip">
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/pix_logo"
+            android:tint="@color/color0347" />
+    </item>
+</layer-list>

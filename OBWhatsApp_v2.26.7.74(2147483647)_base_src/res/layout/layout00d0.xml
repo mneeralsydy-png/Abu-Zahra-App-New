@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/review_groups_permissions_back"
+        android:background="?attr076e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:contentDescription="@string/str3dac"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_arrow_back_white"
+        app:attr090d="@color/color08df"
+        style="@style/style0001" />
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="0.0dip"
+        android:layout_weight="1.0"
+        app:attr0495="@id/footer"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/review_groups_permissions_back">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:gravity="center"
+                    android:id="@id/review_groups_permissions_description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="@dimen/dimen0125"
+                    app:attr0a24="wds_font_body2" />
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:id="@id/review_groups_permissions_community_photo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fc0"
+                    android:textColor="?attr0a47"
+                    android:gravity="center_horizontal"
+                    android:id="@id/review_groups_permissions_community_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen02c5"
+                    android:layout_marginBottom="@dimen/dimen0cea"
+                    android:lineSpacingExtra="@dimen/dimen02c4"
+                    android:paddingStart="@dimen/dimen0cea"
+                    android:paddingEnd="@dimen/dimen0cea"
+                    app:attr03ae="?attr03b8"
+                    app:attr0a24="wds_font_headline1" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:gravity="start"
+                    android:id="@id/review_groups_permissions_community_desc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen0cea"
+                    android:lineSpacingExtra="@dimen/dimen02bf"
+                    android:paddingStart="@dimen/dimen0cea"
+                    android:paddingEnd="@dimen/dimen0cea"
+                    app:attr0a24="wds_font_body2" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@id/linked_existing_groups"
+                    android:paddingBottom="@dimen/dimen02d4"
+                    android:clipToPadding="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/footer"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginBottom="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/scroll_view"
+        style="@style/style01a2">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center"
+            android:id="@id/review_groups_permissions_confirm_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen02c3"
+            android:layout_marginRight="@dimen/dimen02c3"
+            android:layout_marginBottom="@dimen/dimen0ce8"
+            android:text="@string/str2cad"
+            style="@style/style0555" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

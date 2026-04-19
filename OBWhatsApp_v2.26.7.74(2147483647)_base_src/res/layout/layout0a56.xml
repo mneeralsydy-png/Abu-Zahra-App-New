@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen08b2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textStyle="bold"
+        android:textColor="?attr0a46"
+        android:id="@id/media_section"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_weight="1.0"
+        android:textAllCaps="true" />
+    <CheckBox
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/media_select_all_checkbox"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8.0dip"
+        android:button="@null"
+        android:drawableRight="?android:listChoiceIndicatorMultiple"
+        app:attr0101="@null" />
+</LinearLayout>

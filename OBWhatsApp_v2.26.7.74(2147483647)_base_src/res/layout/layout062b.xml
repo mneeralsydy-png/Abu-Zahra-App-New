@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen103b"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingRight="@dimen/dimen1034"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/delete_media_container"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginBottom="@dimen/dimen1030">
+        <CheckBox
+            android:id="@id/delete_media_checkbox"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5.0dip"
+            android:layout_marginRight="11.0dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:id="@id/delete_media_checkbox_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/delete_starred_container"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginBottom="@dimen/dimen1030">
+        <CheckBox
+            android:id="@id/delete_starred_checkbox"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5.0dip"
+            android:layout_marginRight="11.0dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str3daa"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+</LinearLayout>

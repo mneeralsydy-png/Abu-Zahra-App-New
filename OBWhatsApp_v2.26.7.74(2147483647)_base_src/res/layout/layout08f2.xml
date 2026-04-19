@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/manage_account_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/manage_account_section_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0ac6"
+        android:paddingEnd="@dimen/dimen0ac6"
+        app:attr03ee="@string/str1c2a"
+        app:attr03ef="emphasized" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/manage_account_remove_payments_info_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str266a"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str266b"
+        app:attr06f6="@drawable/vec_ic_trash"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/manage_account_invite_others_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str265f"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str25cd"
+        app:attr06f6="@drawable/ic_group_add_filled"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/manage_payments_support_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str2662"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2663"
+        app:attr06f6="@drawable/wa_ic_help"
+        app:attr0702="icon" />
+</LinearLayout>

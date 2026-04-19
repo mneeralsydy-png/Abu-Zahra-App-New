@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/buttons"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/invite"
+        android:visibility="gone"
+        android:text="@string/str1a0d"
+        style="@style/style0555" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/inviteNewContactList"
+        android:visibility="gone"
+        android:text="@string/str1a0d"
+        style="@style/style0557" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textSize="@dimen/dimen0fb6"
+        android:layout_gravity="center_vertical"
+        android:id="@id/chat"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone"
+        android:clickable="false"
+        android:text="@string/str1aab"
+        style="@style/style0555" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:gravity="center|right"
+        android:id="@id/contactpicker_button_one"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0351"
+        android:layout_height="@dimen/dimen034b"
+        android:contentDescription="@string/str3d5c"
+        whatsapp:attr0838="@drawable/ic_call_white"
+        whatsapp:attr090d="?attr0a29"
+        style="@style/style0006" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:gravity="center|right"
+        android:id="@id/contactpicker_button_two"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0351"
+        android:layout_height="@dimen/dimen034b"
+        android:contentDescription="@string/str4307"
+        whatsapp:attr0838="@drawable/ic_videocam_white"
+        whatsapp:attr090d="?attr0a29"
+        style="@style/style0006" />
+</LinearLayout>

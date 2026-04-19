@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="1.0dip"
+        android:top="1.0dip"
+        android:right="1.0dip"
+        android:bottom="1.0dip">
+        <shape
+            android:shape="oval">
+            <size
+                android:height="@dimen/space_xxLoose"
+                android:width="@dimen/space_xxLoose" />
+            <solid
+                android:color="@color/subgroup_facepile_second_circle_color_conversation" />
+        </shape>
+    </item>
+</layer-list>

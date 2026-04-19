@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.ui.conversationrow.AiPlannerSummaryView
+    android:gravity="start"
+    android:orientation="vertical"
+    android:id="@id/ai_planner_summary_layout"
+    android:padding="@dimen/dimen0ce7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen0cf0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@id/ai_planner_summary_shimmer_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr07d5="1.0"
+        app:attr07d6="@color/color004e"
+        app:attr07d8="true"
+        app:attr07d9="left_to_right"
+        app:attr07da="1.0"
+        app:attr07db="2000"
+        app:attr07df="1.0"
+        app:attr07e0="@color/color004d"
+        app:attr07e7="20.0">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a8"
+            android:textStyle="italic"
+            android:textColor="@color/color004e"
+            android:id="@id/ai_planner_summary_step_count"
+            android:paddingLeft="@dimen/dimen0cec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textDirection="locale"
+            android:textAlignment="viewStart" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a5"
+        android:ellipsize="end"
+        android:id="@id/ai_planner_summary_title"
+        android:paddingLeft="@dimen/dimen0cec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:textDirection="locale"
+        android:textAlignment="viewStart"
+        app:attr0a24="wds_font_body1_emphasized" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08dd"
+            android:ellipsize="end"
+            android:id="@id/ai_planner_summary_see_details_button"
+            android:background="?android:selectableItemBackground"
+            android:paddingLeft="@dimen/dimen0cec"
+            android:paddingTop="@dimen/dimen0ce9"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str036e"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            app:attr0a24="wds_font_body2_emphasized"
+            style="@style/style05a7" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/ai_planner_summary_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen0ce7"
+            style="@style/style0567" />
+    </LinearLayout>
+</com.whatsapp.conversation.ui.conversationrow.AiPlannerSummaryView>

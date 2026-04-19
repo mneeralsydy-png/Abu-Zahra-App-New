@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_sheet_background"
+        android:paddingLeft="@dimen/dimen103b"
+        android:paddingRight="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/rl_attribution_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            app:attr0838="@drawable/vec_sg_photo_attribution" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05aa"
+            android:textColor="@color/color0897"
+            android:gravity="center"
+            android:id="@id/rl_attribution_title"
+            android:paddingTop="@dimen/dimen103b"
+            android:paddingBottom="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_headline1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a6"
+            android:textColor="@color/color0897"
+            android:gravity="center_horizontal"
+            android:id="@id/rl_attribution_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center_horizontal"
+            android:id="@id/learn_more_btn"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginRight="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen103b"
+            android:text="@string/str3ec9"
+            style="@style/style0555" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

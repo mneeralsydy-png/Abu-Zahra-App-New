@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="top"
+        android:id="@id/event_info_reminder_icon"
+        android:layout_width="@dimen/dimen0fdb"
+        android:layout_height="@dimen/dimen0fdb"
+        android:layout_marginTop="@dimen/dimen0cf0"
+        whatsapp:attr0838="@drawable/wa_ic_notifications_1"
+        whatsapp:attr090d="@color/color0347" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/event_info_reminder_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str138b"
+            android:layout_marginStart="@dimen/dimen0cea"
+            whatsapp:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:id="@id/event_info_reminder_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen0cea"
+            whatsapp:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+</LinearLayout>

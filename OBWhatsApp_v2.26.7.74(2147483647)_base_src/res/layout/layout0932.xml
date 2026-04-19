@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:fillViewport="true"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen1034"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/interest_quiz_icon"
+                    android:layout_width="@dimen/dimen0fe9"
+                    android:layout_height="@dimen/dimen0fe9"
+                    android:layout_marginTop="@dimen/dimen103b"
+                    android:layout_marginBottom="@dimen/dimen1034"
+                    android:scaleType="fitCenter"
+                    app:attr0838="@drawable/wds_favorites_filters" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textAppearance="@style/style05aa"
+                    android:textColor="?android:textColorPrimary"
+                    android:gravity="center"
+                    android:id="@id/interest_quiz_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen1039"
+                    android:text="" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textAppearance="@style/style05a6"
+                    android:textColor="?android:textColorSecondary"
+                    android:gravity="center"
+                    android:id="@id/interest_quiz_subtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen103b"
+                    android:text="" />
+                <com.whatsapp.ui.wds.components.chip.WDSChipGroup
+                    android:id="@id/interest_quiz_chip_group"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen1039"
+                    android:layout_marginEnd="@dimen/dimen1039"
+                    app:attr01cf="@dimen/dimen1039"
+                    app:attr01d0="@dimen/dimen1039"
+                    app:attr0817="false" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textAppearance="@style/style05a7"
+                    android:textColor="?attr0a29"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/interest_quiz_show_more"
+                    android:background="?android:selectableItemBackground"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen1034"
+                    android:layout_marginBottom="@dimen/dimen1033"
+                    android:text="@string/str19e8" />
+            </LinearLayout>
+        </ScrollView>
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/interest_quiz_continue_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginRight="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen1039"
+            app:attr0009="normal"
+            app:attr096b="filled" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

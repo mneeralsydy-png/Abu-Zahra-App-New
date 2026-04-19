@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@id/initialise_new_user_root"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/dimen0bd8"
+    android:layout_marginRight="@dimen/dimen0bd8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/splash_screen_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_horizontal"
+        android:id="@id/splash_screen_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36.0dip"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:text="@string/str2b4d"
+        app:attr0a24="wds_font_headline1"
+        style="@style/style05aa" />
+    <LinearLayout
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:id="@id/initial_sync_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen103b">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/splash_screen_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str2b4b"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/logo"
+        android:layout_width="260.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        app:attr0838="@drawable/dont_miss" />
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/photo_progress"
+            android:visibility="invisible"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_marginBottom="@dimen/dimen1039"
+            style="progressBarStyleLarge" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:paddingBottom="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a49"
+            android:gravity="center"
+            android:id="@id/pay_ed_contact_support"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2ae5"
+            android:contentDescription="@string/str2ae5"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+</LinearLayout>

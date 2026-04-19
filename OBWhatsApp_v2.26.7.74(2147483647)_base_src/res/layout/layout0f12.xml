@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/send_cart_cta"
+        android:background="?attr0a59"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <View
+            android:id="@id/send_cart_cta_divider"
+            style="@style/style0356" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0c76"
+            android:layout_marginRight="@dimen/dimen0c76">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:id="@id/send_cart_cta_save_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0c75"
+                android:text="@string/str098f"
+                android:lineSpacingMultiplier="1.43"
+                app:attr04ad="parent"
+                app:attr04b1="parent"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="@color/color0922"
+                android:id="@id/send_cart_cta_save_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.43"
+                app:attr0492="@id/send_cart_cta_save_label"
+                app:attr049a="parent"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr066e"
+                android:id="@id/send_cart_cta_estimated_total_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0c77"
+                android:text="@string/str347b"
+                android:lineSpacingMultiplier="1.5"
+                android:fontFamily="?attr03b8"
+                app:attr04ad="parent"
+                app:attr04b0="@id/send_cart_cta_save_label"
+                app:attr04c1="@dimen/dimen0c75"
+                app:attr0a24="wds_font_body1" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr066e"
+                android:id="@id/send_cart_cta_estimated_total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                app:attr0492="@id/send_cart_cta_estimated_total_label"
+                app:attr049a="parent"
+                app:attr0a24="wds_font_body1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fbc"
+            android:gravity="start"
+            android:id="@id/send_cart_cta_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0c76"
+            android:layout_marginTop="@dimen/dimen0c77"
+            android:layout_marginRight="@dimen/dimen0c76"
+            android:text="@string/str2e24"
+            android:fontFamily="?attr03b6"
+            android:textAlignment="viewStart"
+            app:attr0a24="wds_font_body3" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center_horizontal"
+            android:id="@id/send_cart_cta_btn"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="@dimen/dimen0c73"
+            android:layout_marginTop="@dimen/dimen0c74"
+            android:layout_marginRight="@dimen/dimen0c73"
+            android:layout_marginBottom="@dimen/dimen0c74"
+            android:text="@string/str2e23"
+            style="@style/style0555" />
+    </LinearLayout>
+</merge>

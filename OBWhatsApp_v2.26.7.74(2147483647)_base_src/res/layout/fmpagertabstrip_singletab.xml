@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="?android:selectableItemBackground"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/tab_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.yo.tf
+        android:textSize="16.0sp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:tag="title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:maxWidth="70.0dip"
+        android:text="chats"
+        android:maxLines="1"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium" />
+    <com.whatsapp.yo.tf
+        android:textSize="11.0sp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="end|center"
+        android:tag="badge"
+        android:background="@drawable/call_h_scroll_badge_background"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:minWidth="21.0dip"
+        android:minHeight="21.0dip"
+        android:text="7"
+        android:singleLine="true"
+        android:layout_marginStart="5.0dip"
+        android:layout_marginEnd="3.0dip" />
+    <ImageView
+        android:layout_gravity="bottom|center"
+        android:tag="divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mtrl_tabs_default_indicator" />
+</FrameLayout>

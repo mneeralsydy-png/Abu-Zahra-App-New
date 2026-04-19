@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:paddingLeft="@dimen/dimen0ac6"
+    android:paddingRight="@dimen/dimen0ac6"
+    android:paddingBottom="@dimen/dimen0ac6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/complaint_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1038"
+        android:text="@string/str076e"
+        style="@style/style055d" />
+    <LinearLayout
+        android:gravity="start"
+        android:orientation="vertical"
+        android:id="@id/transaction_complaint_status"
+        android:background="@drawable/txn_details_rounded_blurb_bg"
+        android:paddingLeft="@dimen/dimen0ac6"
+        android:paddingTop="@dimen/dimen0aad"
+        android:paddingRight="@dimen/dimen0ac6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/transaction_complaint_status_icon"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginRight="18.0dip"
+                android:scaleType="fitCenter" />
+            <LinearLayout
+                android:gravity="start"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textStyle="bold"
+                    android:textColor="?attr066e"
+                    android:id="@id/transaction_complaint_status_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    app:attr04d0="20.0dip" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr066e"
+                    android:id="@id/transaction_complaint_status_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    app:attr04d0="20.0dip"
+                    app:attr0a24="wds_font_body2" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/dimen1035"
+            android:paddingRight="@dimen/dimen0ac6"
+            android:paddingBottom="@dimen/dimen0aad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/transaction_complaint_status_icon_placeholder"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginRight="18.0dip"
+                android:scaleType="fitCenter" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fbc"
+                android:textColor="?attr0a46"
+                android:id="@id/transaction_complaint_status_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen0ac6"
+                android:layout_marginEnd="@dimen/dimen0ac6"
+                app:attr04d0="@dimen/dimen0ac6" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

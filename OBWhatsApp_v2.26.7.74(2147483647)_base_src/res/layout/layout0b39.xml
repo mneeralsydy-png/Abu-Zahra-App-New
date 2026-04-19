@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/call_action"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/video_call"
+            android:background="@drawable/calls_history_call_action_background"
+            android:layout_width="@dimen/dimen0337"
+            android:layout_height="@dimen/dimen0336"
+            android:contentDescription="@string/str4307"
+            app:attr090d="?attr0a44" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/voice_call"
+            android:background="@drawable/calls_history_call_action_background"
+            android:layout_width="@dimen/dimen0337"
+            android:layout_height="@dimen/dimen0336"
+            android:contentDescription="@string/str3d5c"
+            app:attr090d="?attr0a44" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/voice_chat_action"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/voice_chat"
+            android:background="@drawable/calls_history_call_action_background"
+            android:layout_width="@dimen/dimen0337"
+            android:layout_height="@dimen/dimen0336"
+            android:contentDescription="@string/str39d5"
+            app:attr090d="?attr0a44" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="?attr030e"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/sticker_grid"
+        android:paddingBottom="@dimen/dimen0ae7"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen0ae7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:layout_gravity="center"
+            android:id="@id/pack_loading"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:indeterminate="true"
+            android:indeterminateOnly="false"
+            android:indeterminateTint="?attr0a29"
+            android:indeterminateTintMode="src_atop"
+            app:attr028b="?attr030e"
+            app:attr028c="?attr0a29"
+            app:attr0290="4.0" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/pack_loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:layout_marginBottom="12.0dip"
+            android:text="@string/str3231"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center_horizontal"
+            android:id="@id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str3d9b"
+            style="@style/style0558" />
+    </LinearLayout>
+</FrameLayout>

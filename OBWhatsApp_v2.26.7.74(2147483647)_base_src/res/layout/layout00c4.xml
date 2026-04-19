@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/icon_sponsor_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1033"
+        android:src="@drawable/wds_picto_sponsor_control"
+        android:contentDescription="@string/str4183"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:id="@id/text_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:text="@string/str4183"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/icon_sponsor_control"
+        app:attr0a24="wds_font_headline1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/text_description"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:text="@string/str4182"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/text_title"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/button_unblock_sponsor"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:text="@string/str4181"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

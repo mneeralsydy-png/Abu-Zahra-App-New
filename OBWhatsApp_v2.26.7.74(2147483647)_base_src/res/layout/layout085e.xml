@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_gravity="bottom"
+    android:id="@id/filter_sheet_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.mediacomposer.doodle.ImagePreviewContentLayout
+        android:id="@id/media_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            layout="@layout/layout085c" />
+    </com.whatsapp.mediacomposer.doodle.ImagePreviewContentLayout>
+    <include
+        layout="@layout/layout0a59" />
+    <include
+        layout="@layout/layout066f" />
+    <include
+        layout="@layout/layout066b" />
+    <FrameLayout
+        android:gravity="bottom"
+        android:id="@id/filter_bottom_sheet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewStub
+            android:layout_gravity="bottom|center"
+            android:id="@id/filter_sheet_stub"
+            android:layout="@layout/layout0733"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="bottom|center"
+            android:id="@id/filter_sheet_new_stub"
+            android:layout="@layout/layout0734"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub
+        android:layout_gravity="top"
+        android:id="@id/effects_toolbar"
+        android:layout="@layout/layout085d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/button_regenerate"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen0ce8"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        app:attr0009="media"
+        app:attr0083="@color/color08a0"
+        app:attr0411="@drawable/ic_regenerate_with_paddings"
+        app:attr096b="tonal"
+        app:attr09ea="normal" />
+    <ViewStub
+        android:id="@id/eyedropper_color_picker_stub"
+        android:layout="@layout/layout0989"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/play_button"
+        android:layout="@layout/layout0992"
+        android:inflatedId="@id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/motion_photo_tools"
+        android:layout="@layout/layout0b0d"
+        android:inflatedId="@id/motion_photo_tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

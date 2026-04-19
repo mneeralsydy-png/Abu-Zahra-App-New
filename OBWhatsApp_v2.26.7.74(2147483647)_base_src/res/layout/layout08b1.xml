@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+            android:id="@id/upi_incentive_primer_cashback_props_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            app:attr03bd="content_end"
+            app:attr0489="view" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="@style/style05a8"
+            android:gravity="center_horizontal"
+            android:id="@id/upi_incentive_terms_of_services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:lineSpacingMultiplier="1.33"
+            android:layout_marginStart="@dimen/dimen0b5d"
+            android:layout_marginEnd="@dimen/dimen0b5d" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="@style/style05a8"
+            android:gravity="center_horizontal"
+            android:id="@id/terms_of_services_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:lineSpacingMultiplier="1.33"
+            android:layout_marginStart="@dimen/dimen0b5d"
+            android:layout_marginEnd="@dimen/dimen0b5d" />
+        <com.whatsapp.ui.coreui.WaButtonWithLoader
+            android:textColor="?attr0a2f"
+            android:gravity="bottom|center"
+            android:id="@id/upi_incentive_primer_continue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:layout_marginBottom="@dimen/dimen0b5d" />
+    </LinearLayout>
+</ScrollView>

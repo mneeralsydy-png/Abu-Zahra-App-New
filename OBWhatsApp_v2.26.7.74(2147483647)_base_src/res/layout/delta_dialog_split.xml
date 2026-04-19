@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abu3arab.mas.view.RoundedTag
+    android:id="@id/idRounded"
+    android:tag="top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/idSettingParent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="8.0dip">
+            <abu3arab.mas.views.AccentImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rc_dot_dialog" />
+            <abu3arab.mas.views.AccentImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="70.0dip"
+                android:layout_height="fill_parent"
+                android:src="@drawable/rc_dotline_dialog" />
+            <abu3arab.mas.views.AccentImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rc_dot_dialog" />
+        </LinearLayout>
+        <abu3arab.mas.home.views.CardView
+            android:id="@id/idFrameView"
+            android:layout_width="fill_parent"
+            android:layout_height="200.0dip"
+            android:layout_margin="16.0dip">
+            <abu3arab.mas.view.RoundedFrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="4.0dip"
+                app:z_rdBackgroundColor="@color/delta_black"
+                app:z_rdRadius="18.0dip">
+                <VideoView
+                    android:layout_gravity="center"
+                    android:id="@id/mVideoView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </abu3arab.mas.view.RoundedFrameLayout>
+        </abu3arab.mas.home.views.CardView>
+        <com.whatsapp.yo.tf
+            android:textSize="15.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/abo_arab_accent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4.0dip"
+            android:text="@string/abu_arab_splitduration"
+            android:layout_marginStart="16.0dip" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+            <SeekBar
+                android:layout_gravity="center_vertical"
+                android:id="@id/idSplitDuration"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:maxHeight="10.0dip"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:minHeight="2.0dip"
+                android:thumb="@drawable/seekbar_thumb"
+                android:layout_weight="1.0"
+                android:splitTrack="false" />
+            <TextView
+                android:textSize="25.0sp"
+                android:id="@id/idDurationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8.0dip" />
+            <abu3arab.mas.view.AccentButton
+                android:layout_gravity="end"
+                android:id="@id/mSplitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Split" />
+        </LinearLayout>
+        <abu3arab.mas.home.views.CardView
+            android:id="@id/idErrorMessage"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16.0dip"
+            android:minHeight="46.0dip">
+            <com.whatsapp.yo.tf
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abu_arab_splitlengthvideo" />
+        </abu3arab.mas.home.views.CardView>
+    </LinearLayout>
+</abu3arab.mas.view.RoundedTag>

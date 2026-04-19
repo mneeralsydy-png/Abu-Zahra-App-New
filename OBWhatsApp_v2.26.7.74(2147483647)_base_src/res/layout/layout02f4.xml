@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/call_row_container"
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr046c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/contact_photo_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr049c="@dimen/dimen0745" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/call_icon_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr009c="left"
+        whatsapp:attr0243="video_call, voice_call" />
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="center"
+        android:id="@id/contact_photo"
+        android:layout_width="?attr0630"
+        android:layout_height="?attr0630"
+        android:layout_marginTop="@dimen/dimen01fb"
+        android:scaleType="fitCenter"
+        whatsapp:attr04a7="parent"
+        whatsapp:attr04ab="@id/contact_photo_guideline"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr08a9="true"
+        whatsapp:attr08aa="@dimen/dimen0cc5" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/calls_row_avatar_half_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr049c="?attr062f" />
+    <com.whatsapp.contactphotos.contact.photos.MultiContactThumbnail
+        android:layout_gravity="center"
+        android:id="@id/multi_contact_photo"
+        android:visibility="gone"
+        android:layout_width="?attr0630"
+        android:layout_height="?attr0630"
+        android:layout_marginTop="@dimen/dimen01fb"
+        whatsapp:attr04a7="parent"
+        whatsapp:attr04ab="@id/contact_photo_guideline"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr0568="0.75dip"
+        whatsapp:attr0569="?attr0567" />
+    <ViewStub
+        android:id="@id/profile_badge_icon_stub"
+        android:layout="@layout/layout12c1"
+        android:layout_width="@dimen/dimen1005"
+        android:layout_height="@dimen/dimen1005"
+        android:layout_marginBottom="@dimen/dimen0ce9"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ab="@id/contact_photo_guideline"
+        whatsapp:attr04b1="@id/calls_row_avatar_half_height"
+        whatsapp:attr04b2="1.0" />
+    <com.whatsapp.ui.coreui.components.SelectionCheckView
+        android:id="@id/selection_check"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0c6e"
+        android:layout_height="@dimen/dimen0c6e"
+        android:layout_marginRight="@dimen/dimen0350"
+        android:layout_marginBottom="@dimen/dimen034f"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04aa="@id/contact_photo_guideline" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="left"
+        android:id="@id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr0490="true"
+        whatsapp:attr0495="@id/calls_row_avatar_half_height"
+        whatsapp:attr04a3="0.0"
+        whatsapp:attr04a4="packed"
+        whatsapp:attr04a8="@id/contact_photo_guideline"
+        whatsapp:attr04aa="@id/count"
+        style="?attr04e1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/count"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen01e3"
+        whatsapp:attr0494="@id/contact_name"
+        whatsapp:attr04a8="@id/contact_name"
+        whatsapp:attr04aa="@id/call_icon_barrier"
+        whatsapp:attr04b1="@id/contact_name"
+        style="?attr04e1" />
+    <FrameLayout
+        android:id="@id/push_name_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        whatsapp:attr04a8="@id/contact_photo_guideline"
+        whatsapp:attr04aa="@id/call_icon_barrier"
+        whatsapp:attr04b0="@id/calls_row_avatar_half_height"
+        whatsapp:attr04b2="0.5"
+        whatsapp:attr04b3="packed">
+        <ViewStub
+            android:id="@id/push_name_stub"
+            android:layout="@layout/layout02fb"
+            android:inflatedId="@id/push_name_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/call_type_icon"
+        android:layout_width="@dimen/dimen01e5"
+        android:layout_height="@dimen/dimen01e5"
+        whatsapp:attr0494="@id/subtitle"
+        whatsapp:attr04a3="0.0"
+        whatsapp:attr04a4="packed"
+        whatsapp:attr04a7="@id/contact_name"
+        whatsapp:attr04aa="@id/subtitle"
+        whatsapp:attr04b1="@id/subtitle" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:gravity="left"
+        android:id="@id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen01fc"
+        android:singleLine="true"
+        whatsapp:attr0490="true"
+        whatsapp:attr04a8="@id/call_type_icon"
+        whatsapp:attr04aa="@id/date_time"
+        whatsapp:attr04b0="@id/push_name_container"
+        style="?attr04e0" />
+    <ViewStub
+        android:id="@id/date_time"
+        android:layout="@layout/layout02f8"
+        android:inflatedId="@id/date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr04a8="@id/subtitle"
+        whatsapp:attr04ab="@id/call_icon_barrier"
+        whatsapp:attr04b0="@id/push_name_container" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:gravity="left"
+        android:id="@id/silenced_reason_label"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:singleLine="false"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04a8="@id/contact_photo_guideline"
+        whatsapp:attr04aa="@id/call_icon_barrier"
+        whatsapp:attr04b0="@id/subtitle"
+        style="?attr04e0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/voice_call"
+        android:background="@drawable/calls_history_call_action_background"
+        android:layout_width="@dimen/dimen0e9b"
+        android:layout_height="?attr010d"
+        android:layout_marginRight="@dimen/dimen0e9a"
+        android:scaleType="center"
+        android:contentDescription="@string/str3d5c"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04aa="@id/video_call"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr0838="@drawable/ic_call_white"
+        whatsapp:attr090d="?attr0a44" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/video_call"
+        android:background="@drawable/calls_history_call_action_background"
+        android:layout_width="@dimen/dimen0e78"
+        android:layout_height="?attr010d"
+        android:layout_marginRight="@dimen/dimen0e9a"
+        android:scaleType="center"
+        android:contentDescription="@string/str4307"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr0838="@drawable/ic_videocam_white"
+        whatsapp:attr090d="?attr0a44" />
+</androidx.constraintlayout.widget.ConstraintLayout>

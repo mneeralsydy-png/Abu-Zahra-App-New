@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/payment_methods_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/upi_number_section_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0ac6"
+        android:paddingEnd="@dimen/dimen0ac6"
+        app:attr03ee="@string/str378c"
+        app:attr03ef="emphasized" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@id/upi_numbers_list"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@color/color0790"
+        android:divider="@null"
+        android:choiceMode="none"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:splitMotionEvents="false"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/add_upi_number_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str36ae"
+        app:attr06ca="body1"
+        app:attr06f6="@drawable/ic_add_circle"
+        app:attr06f7="neutral"
+        app:attr06fb="borderless"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/recover_upi_number_row"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str37b4"
+        app:attr06ca="body1"
+        app:attr06f6="@drawable/ic_add_circle"
+        app:attr06f7="neutral"
+        app:attr06fb="borderless"
+        app:attr0702="icon" />
+</LinearLayout>

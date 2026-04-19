@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d notifications</item>
+        <item quantity="one">%1$d notification</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+</resources>

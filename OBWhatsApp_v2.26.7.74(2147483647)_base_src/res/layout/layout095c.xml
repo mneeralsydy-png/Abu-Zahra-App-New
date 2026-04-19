@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/item_meta_ai_recommendation_layout"
+    android:background="@drawable/item_meta_ai_recommendation_background"
+    android:paddingLeft="@dimen/dimen103a"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen102e"
+    android:layout_marginRight="@dimen/dimen102e"
+    android:layout_marginBottom="@dimen/dimen103a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/recommendation_icon"
+        android:layout_width="@dimen/dimen0f38"
+        android:layout_height="@dimen/dimen0f38"
+        android:src="@drawable/vec_ic_voicechat"
+        android:tint="?attr0a47"
+        android:layout_marginEnd="@dimen/dimen1039"
+        android:tintMode="src_atop" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="none"
+        android:id="@id/recommendation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        style="@style/style05a6" />
+</LinearLayout>

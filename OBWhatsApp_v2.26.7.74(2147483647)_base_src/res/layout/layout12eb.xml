@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/large_thumb_frame"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip">
+        <ViewStub
+            android:id="@id/large_thumb_stub"
+            android:layout="@layout/layout12ec"
+            android:inflatedId="@id/large_thumb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <View
+            android:layout_gravity="center"
+            android:id="@id/inline_layer"
+            android:background="?attr0a2d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.ui.coreui.text.ShadowDimsTextView
+            android:textSize="@dimen/dimen0fbc"
+            android:textColor="?attr0a2f"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:id="@id/inline_indication"
+            android:paddingBottom="@dimen/dimen1031"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50.0dip"
+            android:layout_marginRight="50.0dip"
+            android:text="@string/str3eae"
+            android:drawableTop="@drawable/ic_pip_indication"
+            android:drawablePadding="6.0dip"
+            android:layout_marginStart="50.0dip"
+            android:layout_marginEnd="50.0dip"
+            app:attr07c4="@color/color05cd"
+            app:attr07c6="1.0dip"
+            app:attr07c7="6.0dip" />
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:layout_gravity="center"
+            android:id="@id/large_progress"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:indeterminateOnly="true"
+            app:attr028b="@color/color0790"
+            app:attr028c="@color/color0541"
+            app:attr028d="@color/color0790"
+            app:attr028e="@color/color0542"
+            app:attr028f="1.0dip"
+            app:attr0290="10.0" />
+        <FrameLayout
+            android:layout_gravity="center"
+            android:id="@id/play_frame"
+            android:background="@drawable/download_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/play_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str28f7"
+                app:attr0838="@drawable/ic_video_play_conv" />
+        </FrameLayout>
+        <ViewStub
+            android:layout_gravity="start|bottom|center"
+            android:id="@id/webpage_preview_video_metadata_view"
+            android:layout="@layout/layout12e5"
+            android:inflatedId="@id/web_page_preview_video_metadata_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/logo_button"
+            android:padding="@dimen/dimen06b6"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str22ce" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/low_light_btn_stub"
+    android:layout_width="@dimen/dimen020d"
+    android:layout_height="@dimen/dimen020c"
+    android:layout_marginTop="@dimen/dimen0ce7"
+    android:layout_marginBottom="@dimen/dimen0ce7"
+    android:layout_toLeftOf="@id/flash_btn_container"
+    android:layout_alignParentTop="true"
+    android:layout_marginEnd="@dimen/dimen0ced"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:layout_gravity="center"
+        android:background="@drawable/btn_gray_circle_background"
+        android:layout_width="@dimen/dimen020e"
+        android:layout_height="@dimen/dimen020e" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/low_light_btn"
+        android:padding="@dimen/dimen0ce8"
+        android:layout_width="@dimen/dimen09e0"
+        android:layout_height="@dimen/dimen09e0"
+        app:attr0838="@drawable/ic_camera_low_light_on" />
+</FrameLayout>

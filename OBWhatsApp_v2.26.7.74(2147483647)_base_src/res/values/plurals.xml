@@ -1,0 +1,2713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals0000">
+        <item quantity="other">Emoji search returned %d emojis.</item>
+        <item quantity="one">Emoji search returned %d emoji.</item>
+    </plurals>
+    <plurals name="plurals0001">
+        <item quantity="other">%1$s, %2$d unread statuses</item>
+        <item quantity="one">%1$s, %2$d unread status</item>
+    </plurals>
+    <plurals name="plurals0002">
+        <item quantity="other">%d more groups in common</item>
+        <item quantity="one">%d more group in common</item>
+    </plurals>
+    <plurals name="plurals0003">
+        <item quantity="other">%1$s, checkbox checked, %2$s votes, you voted</item>
+        <item quantity="one">%1$s, checkbox checked, %2$s vote, you voted</item>
+    </plurals>
+    <plurals name="plurals0004">
+        <item quantity="other">%1$s, checkbox not checked, %2$s votes</item>
+        <item quantity="one">%1$s, checkbox not checked, %2$s vote</item>
+    </plurals>
+    <plurals name="plurals0005">
+        <item quantity="other">Trim from %1$d to %2$d seconds</item>
+        <item quantity="one">Trim from %1$d to %2$d seconds</item>
+    </plurals>
+    <plurals name="plurals0006">
+        <item quantity="other">"%d members can't be added to the community. You can invite them privately to join this group through its invite link."</item>
+        <item quantity="one">"This member can't be added to the community. You can invite them privately to join this group through its invite link."</item>
+    </plurals>
+    <plurals name="plurals0007">
+        <item quantity="other">"Couldn't add stickers to \"%s\""</item>
+        <item quantity="one">"Couldn't add sticker to \"%s\""</item>
+    </plurals>
+    <plurals name="plurals0008">
+        <item quantity="other">Adding group statuses…</item>
+        <item quantity="one">Adding group status…</item>
+    </plurals>
+    <plurals name="plurals0009">
+        <item quantity="other">Adding %d…</item>
+        <item quantity="one">Adding…</item>
+    </plurals>
+    <plurals name="plurals000a">
+        <item quantity="other">"Couldn't send the admin invites. Please try again."</item>
+        <item quantity="one">"Couldn't send the admin invite. Please try again."</item>
+    </plurals>
+    <plurals name="plurals000b">
+        <item quantity="other">Only %s admin invites were sent.</item>
+        <item quantity="one">Only %s admin invite was sent.</item>
+    </plurals>
+    <plurals name="plurals000c">
+        <item quantity="other">"
+Couldn't send invite to %1$s and %2$s others"</item>
+        <item quantity="one">"
+Couldn't send invite to %1$s and %2$s other"</item>
+    </plurals>
+    <plurals name="plurals000d">
+        <item quantity="other">Confirm you are %1$d years old</item>
+        <item quantity="one">Confirm you are %1$d year old</item>
+    </plurals>
+    <plurals name="plurals000e">
+        <item quantity="other">Confirm they are %1$d years old</item>
+        <item quantity="one">Confirm they are %1$d year old</item>
+    </plurals>
+    <plurals name="plurals000f">
+        <item quantity="other">Are you %1$d years old?</item>
+        <item quantity="one">Are you %1$d year old?</item>
+    </plurals>
+    <plurals name="plurals0010">
+        <item quantity="other">Are they %1$d years old?</item>
+        <item quantity="one">Are they %1$d year old?</item>
+    </plurals>
+    <plurals name="plurals0011">
+        <item quantity="other">%1$d years old</item>
+        <item quantity="one">%1$d year old</item>
+    </plurals>
+    <plurals name="plurals0012">
+        <item quantity="other">%s messages</item>
+        <item quantity="one">%s message</item>
+    </plurals>
+    <plurals name="plurals0013">
+        <item quantity="other">Enabled after %d minutes</item>
+        <item quantity="one">Enabled after %d minute</item>
+    </plurals>
+    <plurals name="plurals0014">
+        <item quantity="other">After %d minutes</item>
+        <item quantity="one">After %d minute</item>
+    </plurals>
+    <plurals name="plurals0015">
+        <item quantity="other">Archive %1$s groups?</item>
+        <item quantity="one">Archive %1$s group?</item>
+    </plurals>
+    <plurals name="plurals0016">
+        <item quantity="other">Your audience includes %1$d unique recipients from the labels you selected.</item>
+        <item quantity="one">Your audience includes %1$d unique recipient from the labels you selected.</item>
+    </plurals>
+    <plurals name="plurals0017">
+        <item quantity="other">Your audience includes %1$d unique recipients from the lists you selected.</item>
+        <item quantity="one">Your audience includes %1$d unique recipient from the lists you selected.</item>
+    </plurals>
+    <plurals name="plurals0018">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="plurals0019">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="plurals001a">
+        <item quantity="other">%s joined</item>
+        <item quantity="one">%s joined</item>
+    </plurals>
+    <plurals name="plurals001b">
+        <item quantity="other">%1$s likes</item>
+        <item quantity="one">%1$s like</item>
+    </plurals>
+    <plurals name="plurals001c">
+        <item quantity="other">%1$s followers</item>
+        <item quantity="one">%1$s follower</item>
+    </plurals>
+    <plurals name="plurals001d">
+        <item quantity="other">%1$d days before</item>
+        <item quantity="one">%1$d day before</item>
+    </plurals>
+    <plurals name="plurals001e">
+        <item quantity="other">%1$d hours before</item>
+        <item quantity="one">%1$d hour before</item>
+    </plurals>
+    <plurals name="plurals001f">
+        <item quantity="other">%1$d weeks before</item>
+        <item quantity="one">%1$d week before</item>
+    </plurals>
+    <plurals name="plurals0021">
+        <item quantity="other">Broadcast List · %d recipients</item>
+        <item quantity="one">Broadcast List · %d recipient</item>
+    </plurals>
+    <plurals name="plurals0022">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="plurals0023">
+        <item quantity="other">Broadcast or create a new group with a maximum of %1$d people at a time.</item>
+        <item quantity="one">Broadcast or create a new group with a maximum of %1$d person at a time.</item>
+    </plurals>
+    <plurals name="plurals0024">
+        <item quantity="other">Broadcast to a maximum of %1$d people at a time.</item>
+        <item quantity="one">Broadcast to a maximum of %1$d person at a time.</item>
+    </plurals>
+    <plurals name="plurals0025">
+        <item quantity="other">%d chats archived</item>
+        <item quantity="one">%d chat archived</item>
+    </plurals>
+    <plurals name="plurals0026">
+        <item quantity="other">%d chats deleted</item>
+        <item quantity="one">%d chat deleted</item>
+    </plurals>
+    <plurals name="plurals0027">
+        <item quantity="other">Exit %1$d selected groups?</item>
+        <item quantity="one">Exit %1$d selected group?</item>
+    </plurals>
+    <plurals name="plurals0028">
+        <item quantity="other">%1$s Followers</item>
+        <item quantity="one">%1$s Follower</item>
+    </plurals>
+    <plurals name="plurals0029">
+        <item quantity="other">%1$d joined · %2$s</item>
+        <item quantity="one">%1$d joined · %2$s</item>
+    </plurals>
+    <plurals name="plurals002a">
+        <item quantity="other">%1$d people</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="plurals002b">
+        <item quantity="other">%1$s, %2$s &amp; %3$d other joined your link</item>
+        <item quantity="one">%1$s, %2$s &amp; %3$d other joined your link</item>
+    </plurals>
+    <plurals name="plurals002c">
+        <item quantity="other">Group · %d members</item>
+        <item quantity="one">Group · %d member</item>
+    </plurals>
+    <plurals name="plurals002d">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="plurals002e">
+        <item quantity="other">%1$s • %2$d joined</item>
+        <item quantity="one">%1$s • %2$d joined</item>
+    </plurals>
+    <plurals name="plurals002f">
+        <item quantity="other">%1$d invited</item>
+        <item quantity="one">%1$d invited</item>
+    </plurals>
+    <plurals name="plurals0030">
+        <item quantity="other">%1$d invited · No answer</item>
+        <item quantity="one">%1$d invited · No answer</item>
+    </plurals>
+    <plurals name="plurals0031">
+        <item quantity="other">%1$d invited · %2$s left</item>
+        <item quantity="one">%1$d invited · %2$s left</item>
+    </plurals>
+    <plurals name="plurals0032">
+        <item quantity="other">%1$d invited · You left</item>
+        <item quantity="one">%1$d invited · You left</item>
+    </plurals>
+    <plurals name="plurals0033">
+        <item quantity="other">%1$s · %2$d joined</item>
+        <item quantity="one">%1$s · %2$d joined</item>
+    </plurals>
+    <plurals name="plurals0034">
+        <item quantity="other">%1$d joined · You left</item>
+        <item quantity="one">%1$d joined · You left</item>
+    </plurals>
+    <plurals name="plurals0035">
+        <item quantity="other">%1$d joined</item>
+        <item quantity="one">%1$d joined</item>
+    </plurals>
+    <plurals name="plurals0036">
+        <item quantity="other">Call %d selected</item>
+        <item quantity="one">Call %d selected</item>
+    </plurals>
+    <plurals name="plurals0037">
+        <item quantity="other">You can only pin up to %1$d chats</item>
+        <item quantity="one">You can only pin up to %1$d chat</item>
+    </plurals>
+    <plurals name="plurals0038">
+        <item quantity="other">You can only pin up to %1$d channels</item>
+        <item quantity="one">You can only pin %1$d channel</item>
+    </plurals>
+    <plurals name="plurals0039">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="plurals003a">
+        <item quantity="other">Loading %1$d of %2$d messages…</item>
+        <item quantity="one">Loading %1$d of %2$d message…</item>
+    </plurals>
+    <plurals name="plurals003b">
+        <item quantity="other">Your new number will be shared with your groups and &lt;a href=\"contacts-link\">%d contacts&lt;/a>.</item>
+        <item quantity="one">Your new number will be shared with your groups and &lt;a href=\"contacts-link\">%d contact&lt;/a>.</item>
+    </plurals>
+    <plurals name="plurals003c">
+        <item quantity="other">I want to share updates from the %1$s channel with you on WhatsApp! Download at %2$s</item>
+        <item quantity="one">I want to share an update from the %1$s channel with you on WhatsApp! Download at %2$s</item>
+    </plurals>
+    <plurals name="plurals003d">
+        <item quantity="other">%1$d years of chat history</item>
+        <item quantity="one">%1$d year of chat history</item>
+    </plurals>
+    <plurals name="plurals003e">
+        <item quantity="other">%1$d chats deleted</item>
+        <item quantity="one">%1$d chat deleted</item>
+    </plurals>
+    <plurals name="plurals003f">
+        <item quantity="other">Clear %d chats?</item>
+        <item quantity="one">Clear this chat?</item>
+    </plurals>
+    <plurals name="plurals0040">
+        <item quantity="other">Sending replies is unavailable when the group has over %d members.</item>
+        <item quantity="one">Sending replies is unavailable when the group has over %d member.</item>
+    </plurals>
+    <plurals name="plurals0041">
+        <item quantity="other">%1$d replies</item>
+        <item quantity="one">%1$d reply</item>
+    </plurals>
+    <plurals name="plurals0042">
+        <item quantity="other">&lt;a href=\"common-group\">%d groups in common&lt;/a></item>
+        <item quantity="one">&lt;a href=\"common-group\">%d group in common&lt;/a></item>
+    </plurals>
+    <plurals name="plurals0043">
+        <item quantity="other">New groups \"%1$s,\" \"%2$s\" and %3$d more added</item>
+        <item quantity="one">New groups \"%1$s,\" \"%2$s\" and %3$d more added</item>
+    </plurals>
+    <plurals name="plurals0044">
+        <item quantity="other">%d new groups added</item>
+        <item quantity="one">New group added</item>
+    </plurals>
+    <plurals name="plurals0045">
+        <item quantity="other">Add %d people to community?</item>
+        <item quantity="one">Add %d person to community?</item>
+    </plurals>
+    <plurals name="plurals0046">
+        <item quantity="other">They will be added to the community and its announcement group.</item>
+        <item quantity="one">They will be added to the community and its announcement group.</item>
+    </plurals>
+    <plurals name="plurals0047">
+        <item quantity="other">Add %d people to group and community?</item>
+        <item quantity="one">Add %d person to group and community?</item>
+    </plurals>
+    <plurals name="plurals0048">
+        <item quantity="other">"Couldn't add %s to the community announcement group, so they were not added to the community. You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %s to the community announcement group, so they were not added to the community. You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="plurals0049">
+        <item quantity="other">"Couldn't add %1s to the community announcement group, so they were not added to the community. Message history will not be shared.
+
+You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %1s to the community announcement group, so they were not added to the community. Message history will not be shared.
+
+You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="plurals004a">
+        <item quantity="other">%s items</item>
+        <item quantity="one">%s item</item>
+    </plurals>
+    <plurals name="plurals004b">
+        <item quantity="other">%s items</item>
+        <item quantity="one">%s item</item>
+    </plurals>
+    <plurals name="plurals004c">
+        <item quantity="other">Please download all the files first.</item>
+        <item quantity="one">Please download the file first.</item>
+    </plurals>
+    <plurals name="plurals004d">
+        <item quantity="other">%d community members</item>
+        <item quantity="one">%d community member</item>
+    </plurals>
+    <plurals name="plurals004e">
+        <item quantity="other">%s are no longer community admins</item>
+        <item quantity="one">%s is no longer a community admin</item>
+    </plurals>
+    <plurals name="plurals004f">
+        <item quantity="other">You, %s are no longer community admins</item>
+        <item quantity="one">You and %s are no longer community admins</item>
+    </plurals>
+    <plurals name="plurals0050">
+        <item quantity="other">%s are now community admins</item>
+        <item quantity="one">%s is now a community admin</item>
+    </plurals>
+    <plurals name="plurals0051">
+        <item quantity="other">You, %s are now community admins</item>
+        <item quantity="one">You and %s are now community admins</item>
+    </plurals>
+    <plurals name="plurals0052">
+        <item quantity="other">"You can't select more than %1$d members."</item>
+        <item quantity="one">"You can't select more than %1$d member."</item>
+    </plurals>
+    <plurals name="plurals0053">
+        <item quantity="other">If approved by community admins, people in these groups will be added to the community and the announcement group, and can join other community groups. You can review group permissions:</item>
+        <item quantity="one">If approved by community admins, people in this group will be added to the community and the announcement group, and can join other community groups. You can review group permissions:</item>
+    </plurals>
+    <plurals name="plurals0054">
+        <item quantity="other">%1$d groups</item>
+        <item quantity="one">%1$d group</item>
+    </plurals>
+    <plurals name="plurals0055">
+        <item quantity="other">Only %1$d of %2$d pending group suggestions will be approved because this community is full.</item>
+        <item quantity="one">Only %1$d of %2$d pending group suggestions will be approved because this community is full.</item>
+    </plurals>
+    <plurals name="plurals0056">
+        <item quantity="other">%1$s, %2$s and %3$d more were added</item>
+        <item quantity="one">%1$s, %2$s and %3$d more were added</item>
+    </plurals>
+    <plurals name="plurals0057">
+        <item quantity="other">%1$d upcoming</item>
+        <item quantity="one">%1$d upcoming</item>
+    </plurals>
+    <plurals name="plurals0058">
+        <item quantity="other">Send %1$d audio messages to %2$s?</item>
+        <item quantity="one">Send %1$d audio message to %2$s?</item>
+    </plurals>
+    <plurals name="plurals0059">
+        <item quantity="other">Send %1$d documents to %2$s?</item>
+        <item quantity="one">Send %1$d document to %2$s?</item>
+    </plurals>
+    <plurals name="plurals005a">
+        <item quantity="other">Upload %1$d documents to send to %2$s?</item>
+        <item quantity="one">Upload %1$d document to send to %2$s?</item>
+    </plurals>
+    <plurals name="plurals005b">
+        <item quantity="other">Share %1$d items with %2$s?</item>
+        <item quantity="one">Share %1$d item with %2$s?</item>
+    </plurals>
+    <plurals name="plurals005c">
+        <item quantity="other">"You can't select more than %1$d contacts."</item>
+        <item quantity="one">"You can't select more than %1$d contact."</item>
+    </plurals>
+    <plurals name="plurals005d">
+        <item quantity="other">%d members are sharing</item>
+        <item quantity="one">%d member is sharing</item>
+    </plurals>
+    <plurals name="plurals005e">
+        <item quantity="other">You and %d others are sharing</item>
+        <item quantity="one">You and %d other are sharing</item>
+    </plurals>
+    <plurals name="plurals005f">
+        <item quantity="other">%1$s (%2$d messages)</item>
+        <item quantity="one">%1$s (%2$d message)</item>
+    </plurals>
+    <plurals name="plurals0060">
+        <item quantity="other">%1$s and %2$d other contacts</item>
+        <item quantity="one">%1$s and %2$d other contact</item>
+    </plurals>
+    <plurals name="plurals0061">
+        <item quantity="other">%1$d members</item>
+        <item quantity="one">%1$d member</item>
+    </plurals>
+    <plurals name="plurals0062">
+        <item quantity="other">%d online</item>
+        <item quantity="one">%d online</item>
+    </plurals>
+    <plurals name="plurals0063">
+        <item quantity="other">%1$s &amp; %2$d others are typing…</item>
+        <item quantity="one">%1$s &amp; %2$d other are typing…</item>
+    </plurals>
+    <plurals name="plurals0064">
+        <item quantity="other">%d chats unarchived</item>
+        <item quantity="one">%d chat unarchived</item>
+    </plurals>
+    <plurals name="plurals0065">
+        <item quantity="other">Voice chat starting in %d seconds…</item>
+        <item quantity="one">Voice chat starting in %d second…</item>
+    </plurals>
+    <plurals name="plurals0067">
+        <item quantity="other">Delete %d chats?</item>
+        <item quantity="one">Delete this chat?</item>
+    </plurals>
+    <plurals name="plurals0068">
+        <item quantity="other">Delete %d communities</item>
+        <item quantity="one">Delete community</item>
+    </plurals>
+    <plurals name="plurals0069">
+        <item quantity="other">Delete %d communities?</item>
+        <item quantity="one">Delete this community?</item>
+    </plurals>
+    <plurals name="plurals006a">
+        <item quantity="other">Delete %d messages?</item>
+        <item quantity="one">Delete %d message?</item>
+    </plurals>
+    <plurals name="plurals006b">
+        <item quantity="other">Delete %d updates?</item>
+        <item quantity="one">Delete %d update?</item>
+    </plurals>
+    <plurals name="plurals006c">
+        <item quantity="other">Delete %d status updates?</item>
+        <item quantity="one">Delete %d status update?</item>
+    </plurals>
+    <plurals name="plurals006d">
+        <item quantity="other">Delete %1$d chats?</item>
+        <item quantity="one">Delete %1$d chat?</item>
+    </plurals>
+    <plurals name="plurals006e">
+        <item quantity="other">Deleting %d…</item>
+        <item quantity="one">Deleting…</item>
+    </plurals>
+    <plurals name="plurals006f">
+        <item quantity="other">"The description you entered is too long. Enter a description that's %d characters or less and try again."</item>
+        <item quantity="one">"The description you entered is too long. Enter a description that's %d character or less and try again."</item>
+    </plurals>
+    <plurals name="plurals0070">
+        <item quantity="other">Clear %d chats</item>
+        <item quantity="one">Clear chat</item>
+    </plurals>
+    <plurals name="plurals0071">
+        <item quantity="other">Clear chats (%1$s)</item>
+        <item quantity="one">Clear chat (%1$s)</item>
+    </plurals>
+    <plurals name="plurals0072">
+        <item quantity="other">All messages in these chats will be deleted. This cannot be undone.</item>
+        <item quantity="one">All messages in this chat will be deleted. This cannot be undone.</item>
+    </plurals>
+    <plurals name="plurals0073">
+        <item quantity="other">You can add up to %1$d people to Favorites.</item>
+        <item quantity="one">You can add up to %1$d person to Favorites.</item>
+    </plurals>
+    <plurals name="plurals0074">
+        <item quantity="other">%s followers</item>
+        <item quantity="one">%s follower</item>
+    </plurals>
+    <plurals name="plurals0075">
+        <item quantity="other">You applied a %1$s message timer to %2$d of your existing chats.</item>
+        <item quantity="one">You applied a %1$s message timer to %2$d of your existing chats.</item>
+    </plurals>
+    <plurals name="plurals0076">
+        <item quantity="other">%1$d chats using disappearing messages</item>
+        <item quantity="one">%1$d chat using disappearing messages</item>
+    </plurals>
+    <plurals name="plurals0077">
+        <item quantity="other">Downloading %d documents</item>
+        <item quantity="one">Downloading document</item>
+    </plurals>
+    <plurals name="plurals0078">
+        <item quantity="other">Downloading %d files</item>
+        <item quantity="one">Downloading file</item>
+    </plurals>
+    <plurals name="plurals0079">
+        <item quantity="other">Downloading %d videos</item>
+        <item quantity="one">Downloading video</item>
+    </plurals>
+    <plurals name="plurals007a">
+        <item quantity="other">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+    </plurals>
+    <plurals name="plurals007b">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">%1$d hour</item>
+    </plurals>
+    <plurals name="plurals007c">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="plurals007d">
+        <item quantity="other">%1$d seconds</item>
+        <item quantity="one">%1$d second</item>
+    </plurals>
+    <plurals name="plurals007e">
+        <item quantity="other">%1$d weeks</item>
+        <item quantity="one">%1$d week</item>
+    </plurals>
+    <plurals name="plurals0080">
+        <item quantity="other">Message privately with your %d WhatsApp contacts, no matter what device they use.</item>
+        <item quantity="one">Message privately with your WhatsApp contacts, no matter what device they use.</item>
+    </plurals>
+    <plurals name="plurals0081">
+        <item quantity="other">Chat with your %d WhatsApp contacts, or invite a friend to WhatsApp.</item>
+        <item quantity="one">WhatsApp is better with friends. Use the button below to invite your contacts.</item>
+    </plurals>
+    <plurals name="plurals0082">
+        <item quantity="other">%d-digit encryption key</item>
+        <item quantity="one">%d-digit encryption key</item>
+    </plurals>
+    <plurals name="plurals0083">
+        <item quantity="other">Use an automatically created %d-digit key to protect your backup.</item>
+        <item quantity="one">Use an automatically created %d-digit key to protect your backup.</item>
+    </plurals>
+    <plurals name="plurals0084">
+        <item quantity="other">If you move to a new device, you can use your %d-digit encryption key to restore your chats.</item>
+        <item quantity="one">If you move to a new device, you can use your %d-digit encryption key to restore your chats.</item>
+    </plurals>
+    <plurals name="plurals0085">
+        <item quantity="other">Your backup is protected with a %d-digit encryption-key</item>
+        <item quantity="one">Your backup is protected with a %d-digit encryption-key</item>
+    </plurals>
+    <plurals name="plurals0086">
+        <item quantity="other">I Saved My %d-digit Key</item>
+        <item quantity="one">I Saved My %d-digit Key</item>
+    </plurals>
+    <plurals name="plurals0087">
+        <item quantity="other">Did you save your full %d-digit encryption key?</item>
+        <item quantity="one">Did you save your full %d-digit encryption key?</item>
+    </plurals>
+    <plurals name="plurals0088">
+        <item quantity="other">Generate your %d-digit key</item>
+        <item quantity="one">Generate your %d-digit key</item>
+    </plurals>
+    <plurals name="plurals0089">
+        <item quantity="other">Must contain at least %1$d characters and 1 letter</item>
+        <item quantity="one">Must contain at least %1$d character and 1 letter</item>
+    </plurals>
+    <plurals name="plurals008a">
+        <item quantity="other">Must contain at least %1$d letters</item>
+        <item quantity="one">Must contain at least %1$d letter</item>
+    </plurals>
+    <plurals name="plurals008b">
+        <item quantity="other">Must contain at least %1$d characters</item>
+        <item quantity="one">Must contain at least %1$d character</item>
+    </plurals>
+    <plurals name="plurals008c">
+        <item quantity="other">Your account is not associated with a password. Please enter your %d-digit encryption key instead.</item>
+        <item quantity="one">Your account is not associated with a password. Please enter your %d-digit encryption key instead.</item>
+    </plurals>
+    <plurals name="plurals008d">
+        <item quantity="other">To restore your end-to-end encrypted backup, enter your %d-digit encryption key.</item>
+        <item quantity="one">To restore your end-to-end encrypted backup, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="plurals008e">
+        <item quantity="other">You chose to protect your backup with a %d-digit encryption key. If you would rather protect it with a password, you can create one.</item>
+        <item quantity="one">You chose to protect your backup with a %d-digit encryption key. If you would rather protect it with a password, you can create one.</item>
+    </plurals>
+    <plurals name="plurals008f">
+        <item quantity="other">Use %d-digit encryption key instead</item>
+        <item quantity="one">Use %d-digit encryption key instead</item>
+    </plurals>
+    <plurals name="plurals0090">
+        <item quantity="other">Enter the %d-digit key you use to protect your end-to-end encrypted backup.</item>
+        <item quantity="one">Enter the %d-digit key you use to protect your end-to-end encrypted backup.</item>
+    </plurals>
+    <plurals name="plurals0091">
+        <item quantity="other">To begin, enter your %d-digit encryption key.</item>
+        <item quantity="one">To begin, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="plurals0092">
+        <item quantity="other">To turn off end-to-end encryption for your backup, enter your %d-digit encryption key.</item>
+        <item quantity="one">To turn off end-to-end encryption for your backup, enter your %d-digit encryption key.</item>
+    </plurals>
+    <plurals name="plurals0093">
+        <item quantity="other">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+    </plurals>
+    <plurals name="plurals0094">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">%1$d hour</item>
+    </plurals>
+    <plurals name="plurals0095">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="plurals0096">
+        <item quantity="other">%1$d seconds</item>
+        <item quantity="one">%1$d second</item>
+    </plurals>
+    <plurals name="plurals0097">
+        <item quantity="other">This message will disappear from the chat after %d days.</item>
+        <item quantity="one">This message will disappear from the chat after %d day.</item>
+    </plurals>
+    <plurals name="plurals0098">
+        <item quantity="other">This message will disappear from the chat after %d hours.</item>
+        <item quantity="one">This message will disappear from the chat after %d hour.</item>
+    </plurals>
+    <plurals name="plurals0099">
+        <item quantity="other">This message will disappear from the chat after %d minutes.</item>
+        <item quantity="one">This message will disappear from the chat after %d minute.</item>
+    </plurals>
+    <plurals name="plurals009a">
+        <item quantity="other">This message will disappear from the chat after %d seconds.</item>
+        <item quantity="one">This message will disappear from the chat after %d second.</item>
+    </plurals>
+    <plurals name="plurals009b">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="plurals009c">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="plurals009d">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="plurals009e">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="plurals009f">
+        <item quantity="other">"You couldn't add %d members because they left the group recently. Try again later."</item>
+        <item quantity="one">"You couldn't add %d member because they left the group recently. Try again later."</item>
+    </plurals>
+    <plurals name="plurals00a0">
+        <item quantity="other">This photo is too small. Please select a photo with height and width of at least %d pixels.</item>
+        <item quantity="one">This photo is too small. Please select a photo with height and width of at least %d pixel.</item>
+    </plurals>
+    <plurals name="plurals00a1">
+        <item quantity="other">%d going</item>
+        <item quantity="one">%d going</item>
+    </plurals>
+    <plurals name="plurals00a2">
+        <item quantity="other">Until %1$d hours after event starts</item>
+        <item quantity="one">Until %1$d hour after event starts</item>
+    </plurals>
+    <plurals name="plurals00a3">
+        <item quantity="other">%d upcoming</item>
+        <item quantity="one">%d upcoming</item>
+    </plurals>
+    <plurals name="plurals00a4">
+        <item quantity="other">%d upcoming</item>
+        <item quantity="one">%d upcoming</item>
+    </plurals>
+    <plurals name="plurals00a5">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="plurals00a6">
+        <item quantity="other">Delete community with %d groups?</item>
+        <item quantity="one">Delete community with %d group?</item>
+    </plurals>
+    <plurals name="plurals00a7">
+        <item quantity="other">Exit community with %d groups?</item>
+        <item quantity="one">Exit community with %d group?</item>
+    </plurals>
+    <plurals name="plurals00a8">
+        <item quantity="other">"Exit group and community?
+You have %1$d unsent messages in this chat."</item>
+        <item quantity="one">"Exit group and community?
+You have %1$d unsent message in this chat."</item>
+    </plurals>
+    <plurals name="plurals00a9">
+        <item quantity="other">"Exit \"%1$s\" group?
+You have %2$d unsent messages in this chat."</item>
+        <item quantity="one">"Exit \"%1$s\" group?
+You have %2$d unsent message in this chat."</item>
+    </plurals>
+    <plurals name="plurals00aa">
+        <item quantity="other">Also exit %d groups</item>
+        <item quantity="one">Also exit %d group</item>
+    </plurals>
+    <plurals name="plurals00ab">
+        <item quantity="other">Facebook • %1$s Likes</item>
+        <item quantity="one">Facebook • %1$s Like</item>
+    </plurals>
+    <plurals name="plurals00ac">
+        <item quantity="other">%1$s • %2$s Likes</item>
+        <item quantity="one">%1$s • %2$s Like</item>
+    </plurals>
+    <plurals name="plurals00ad">
+        <item quantity="other">%d members cannot be added because the community is full.</item>
+        <item quantity="one">Member cannot be added because the community is full.</item>
+    </plurals>
+    <plurals name="plurals00ae">
+        <item quantity="other">%d members cannot be added to the community.</item>
+        <item quantity="one">Member cannot be added to the community.</item>
+    </plurals>
+    <plurals name="plurals00af">
+        <item quantity="other">You reached the maximum of %1$d admins for this community</item>
+        <item quantity="one">You reached the maximum of %1$d admin for this community</item>
+    </plurals>
+    <plurals name="plurals00b0">
+        <item quantity="other">%1$d groups cannot be added because the community is full</item>
+        <item quantity="one">%1$d group cannot be added because the community is full</item>
+    </plurals>
+    <plurals name="plurals00b1">
+        <item quantity="other">"Couldn't send %d"</item>
+        <item quantity="one">"Couldn't send"</item>
+    </plurals>
+    <plurals name="plurals00b2">
+        <item quantity="other">"Couldn't add %d"</item>
+        <item quantity="one">"Couldn't add"</item>
+    </plurals>
+    <plurals name="plurals00b3">
+        <item quantity="other">Try again in %d hours</item>
+        <item quantity="one">Try again in %d hour</item>
+    </plurals>
+    <plurals name="plurals00b4">
+        <item quantity="other">You can only select %1$d people</item>
+        <item quantity="one">You can only select %1$d person</item>
+    </plurals>
+    <plurals name="plurals00b5">
+        <item quantity="other">%1$d stars</item>
+        <item quantity="one">%1$d star</item>
+    </plurals>
+    <plurals name="plurals00b6">
+        <item quantity="other">%d files deleted from your device</item>
+        <item quantity="one">%d file deleted from your device</item>
+    </plurals>
+    <plurals name="plurals00b7">
+        <item quantity="other">This status update will be sent to your contacts excluding %d.</item>
+        <item quantity="one">This status update will be sent to your contacts excluding %d.</item>
+    </plurals>
+    <plurals name="plurals00b8">
+        <item quantity="other">This status update will be sent to %d contacts.</item>
+        <item quantity="one">This status update will be sent to %d contact.</item>
+    </plurals>
+    <plurals name="plurals00b9">
+        <item quantity="other">%1$d captions</item>
+        <item quantity="one">%1$d caption</item>
+    </plurals>
+    <plurals name="plurals00ba">
+        <item quantity="other">%1$d documents</item>
+        <item quantity="one">%1$d document</item>
+    </plurals>
+    <plurals name="plurals00bb">
+        <item quantity="other">%1$d GIFs</item>
+        <item quantity="one">%1$d GIF</item>
+    </plurals>
+    <plurals name="plurals00bc">
+        <item quantity="other">%1$d links</item>
+        <item quantity="one">%1$d link</item>
+    </plurals>
+    <plurals name="plurals00bd">
+        <item quantity="other">%1$d others</item>
+        <item quantity="one">%1$d other</item>
+    </plurals>
+    <plurals name="plurals00be">
+        <item quantity="other">%1$d photos</item>
+        <item quantity="one">%1$d photo</item>
+    </plurals>
+    <plurals name="plurals00bf">
+        <item quantity="other">%1$d videos</item>
+        <item quantity="one">%1$d video</item>
+    </plurals>
+    <plurals name="plurals00c0">
+        <item quantity="other">"Your report will be ready in about %1$d days. You'll have a few weeks to download your report after it's available.
+
+Your request will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+        <item quantity="one">"Your report will be ready in about %1$d day. You'll have a few weeks to download your report after it's available.
+
+Your request will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+    </plurals>
+    <plurals name="plurals00c1">
+        <item quantity="other">Gifs set to default quality</item>
+        <item quantity="one">Gif set to default quality</item>
+    </plurals>
+    <plurals name="plurals00c2">
+        <item quantity="other">%1$d gifs set to HD quality</item>
+        <item quantity="one">Gif set to HD quality</item>
+    </plurals>
+    <plurals name="plurals00c3">
+        <item quantity="other">%1$d gifs set to original quality</item>
+        <item quantity="one">Gif set to original quality</item>
+    </plurals>
+    <plurals name="plurals00c4">
+        <item quantity="other">%d contacts excluded</item>
+        <item quantity="one">%d contact excluded</item>
+    </plurals>
+    <plurals name="plurals00c5">
+        <item quantity="other">"Couldn't add %s. You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %s. You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="plurals00c6">
+        <item quantity="other">"Couldn't add %1s. Message history will not be shared.
+
+You can invite them privately to join this group."</item>
+        <item quantity="one">"Couldn't add %1s. Message history will not be shared.
+
+You can invite them privately to join this group."</item>
+    </plurals>
+    <plurals name="plurals00c7">
+        <item quantity="other">%d members</item>
+        <item quantity="one">%d member</item>
+    </plurals>
+    <plurals name="plurals00c8">
+        <item quantity="other">%s joined from the community</item>
+        <item quantity="one">%s joined from the community</item>
+    </plurals>
+    <plurals name="plurals00c9">
+        <item quantity="other">Members joined from the community</item>
+        <item quantity="one">A member joined from the community</item>
+    </plurals>
+    <plurals name="plurals00ca">
+        <item quantity="other">%1$s, %2$s &amp; %3$d others are on a call</item>
+        <item quantity="one">%1$s, %2$s &amp; %3$d other are on a call</item>
+    </plurals>
+    <plurals name="plurals00cb">
+        <item quantity="other">Maximum group capacity of %1$d members reached.</item>
+        <item quantity="one">Maximum group capacity of %1$d member reached.</item>
+    </plurals>
+    <plurals name="plurals00cc">
+        <item quantity="other">Send %1$d audio messages to \"%2$s\"?</item>
+        <item quantity="one">Send %1$d audio message to \"%2$s\"?</item>
+    </plurals>
+    <plurals name="plurals00cd">
+        <item quantity="other">Send %1$d documents to \"%2$s\"?</item>
+        <item quantity="one">Send %1$d document to \"%2$s\"?</item>
+    </plurals>
+    <plurals name="plurals00ce">
+        <item quantity="other">Share %1$d items with \"%2$s\"?</item>
+        <item quantity="one">Share %1$d item with \"%2$s\"?</item>
+    </plurals>
+    <plurals name="plurals00cf">
+        <item quantity="other">and %1$d Invited</item>
+        <item quantity="one">and %1$d Invited</item>
+    </plurals>
+    <plurals name="plurals00d0">
+        <item quantity="other">You are sending message history to the selected members.</item>
+        <item quantity="one">You are sending message history to the selected member.</item>
+    </plurals>
+    <plurals name="plurals00d1">
+        <item quantity="other">Last %1$d</item>
+        <item quantity="one">Last %1$d</item>
+    </plurals>
+    <plurals name="plurals00d2">
+        <item quantity="other">Send the last message to the selected members.</item>
+        <item quantity="one">Send the last message to the selected member.</item>
+    </plurals>
+    <plurals name="plurals00d3">
+        <item quantity="other">Send the last %1$d messages to the selected members.</item>
+        <item quantity="one">Send the last %1$d messages to the selected members.</item>
+    </plurals>
+    <plurals name="plurals00d4">
+        <item quantity="other">Send the last %1$d messages to the selected member.</item>
+        <item quantity="one">Send the last %1$d messages to the selected member.</item>
+    </plurals>
+    <plurals name="plurals00d5">
+        <item quantity="other">Send the &lt;a href=\"%2$s\">last %1$d messages&lt;/a> to the selected members.</item>
+        <item quantity="one">Send the &lt;a href=\"%2$s\">last message&lt;/a> to the selected members.</item>
+    </plurals>
+    <plurals name="plurals00d6">
+        <item quantity="other">Send the &lt;a href=\"%2$s\">last %1$d messages&lt;/a> to the selected member.</item>
+        <item quantity="one">Send the &lt;a href=\"%2$s\">last message&lt;/a> to the selected member.</item>
+    </plurals>
+    <plurals name="plurals00d7">
+        <item quantity="other">Group · %1d members</item>
+        <item quantity="one">Group · %1d member</item>
+    </plurals>
+    <plurals name="plurals00d8">
+        <item quantity="other">Group · &lt;a href=\"members-ref\">%1d members&lt;/a></item>
+        <item quantity="one">Group · &lt;a href=\"members-ref\">%1d member&lt;/a></item>
+    </plurals>
+    <plurals name="plurals00d9">
+        <item quantity="other">%s were added this group</item>
+        <item quantity="one">%s was added this group</item>
+    </plurals>
+    <plurals name="plurals00da">
+        <item quantity="other">%1$s · %2$d members</item>
+        <item quantity="one">%1$s · %2$d member</item>
+    </plurals>
+    <plurals name="plurals00db">
+        <item quantity="other">"%d people not shown because they aren't in your contacts"</item>
+        <item quantity="one">"%d person not shown because they aren't in your contacts"</item>
+    </plurals>
+    <plurals name="plurals00dc">
+        <item quantity="other">Only %1$1d of %2$2d pending requests will be approved because the group has reached capacity.</item>
+        <item quantity="one">Only %1$1d of %2$2d pending request will be approved because the group has reached capacity.</item>
+    </plurals>
+    <plurals name="plurals00dd">
+        <item quantity="other">"Group name can't be more than %1$d characters."</item>
+        <item quantity="one">"Group name can't be more than %1$d character."</item>
+    </plurals>
+    <plurals name="plurals00de">
+        <item quantity="other">%s were added</item>
+        <item quantity="one">%s was added</item>
+    </plurals>
+    <plurals name="plurals00df">
+        <item quantity="other">%s are no longer admins</item>
+        <item quantity="one">%s is no longer an admin</item>
+    </plurals>
+    <plurals name="plurals00e0">
+        <item quantity="other">You, %s are no longer admins</item>
+        <item quantity="one">You and %s are no longer admins</item>
+    </plurals>
+    <plurals name="plurals00e1">
+        <item quantity="other">%s are now admins</item>
+        <item quantity="one">%s is now an admin</item>
+    </plurals>
+    <plurals name="plurals00e2">
+        <item quantity="other">You, %s are now admins</item>
+        <item quantity="one">You and %s are now admins</item>
+    </plurals>
+    <plurals name="plurals00e3">
+        <item quantity="other">%s were removed</item>
+        <item quantity="one">%s was removed</item>
+    </plurals>
+    <plurals name="plurals00e4">
+        <item quantity="other">You invited %s</item>
+        <item quantity="one">You invited %s</item>
+    </plurals>
+    <plurals name="plurals00e5">
+        <item quantity="other">&lt;font color=#%1$s>&lt;b>Review&lt;/b>&lt;/font> %2$d requests to join</item>
+        <item quantity="one">&lt;font color=#%1$s>&lt;b>Review&lt;/b>&lt;/font> %2$d request to join</item>
+    </plurals>
+    <plurals name="plurals00e6">
+        <item quantity="other">%d pending requests</item>
+        <item quantity="one">%d pending request</item>
+    </plurals>
+    <plurals name="plurals00e7">
+        <item quantity="other">Remove %1$s members</item>
+        <item quantity="one">Remove %1$s member</item>
+    </plurals>
+    <plurals name="plurals00e8">
+        <item quantity="other">This group has over %1$d members so now only admins can edit the group settings.</item>
+        <item quantity="one">This group has over %1$d member so now only admins can edit the group settings.</item>
+    </plurals>
+    <plurals name="plurals00e9">
+        <item quantity="other">%1$d members</item>
+        <item quantity="one">%1$d member</item>
+    </plurals>
+    <plurals name="plurals00ea">
+        <item quantity="other">You can select up to %1$d groups</item>
+        <item quantity="one">You can only select one group</item>
+    </plurals>
+    <plurals name="plurals00eb">
+        <item quantity="other">%1$d likes</item>
+        <item quantity="one">%1$d like</item>
+    </plurals>
+    <plurals name="plurals00ec">
+        <item quantity="other">You can only select %1$d people</item>
+        <item quantity="one">You can only select %1$d person</item>
+    </plurals>
+    <plurals name="plurals00ed">
+        <item quantity="other">"You can't select more than %1$d members."</item>
+        <item quantity="one">"You can't select more than %1$d member."</item>
+    </plurals>
+    <plurals name="plurals00ee">
+        <item quantity="other">%d Groups in common</item>
+        <item quantity="one">%d Group in common</item>
+    </plurals>
+    <plurals name="plurals00ef">
+        <item quantity="other">Found %1$d contact cards for this number. Add to your contacts?</item>
+        <item quantity="one">Found %1$d contact card for this number. Add to your contacts?</item>
+    </plurals>
+    <plurals name="plurals00f0">
+        <item quantity="other">Hide %d groups?</item>
+        <item quantity="one">Hide %d group?</item>
+    </plurals>
+    <plurals name="plurals00f1">
+        <item quantity="other">This status will be shared with your contacts excluding %d.</item>
+        <item quantity="one">This status will be shared with your contacts excluding %d.</item>
+    </plurals>
+    <plurals name="plurals00f2">
+        <item quantity="other">This status will be shared with %d contacts.</item>
+        <item quantity="one">This status will be shared with %d contact.</item>
+    </plurals>
+    <plurals name="plurals00f3">
+        <item quantity="other">Instagram • %1$s Followers</item>
+        <item quantity="one">Instagram • %1$s Follower</item>
+    </plurals>
+    <plurals name="plurals00f4">
+        <item quantity="other">%1$s • %2$s Followers</item>
+        <item quantity="one">%1$s • %2$s Follower</item>
+    </plurals>
+    <plurals name="plurals00f5">
+        <item quantity="other">Expires in %d days</item>
+        <item quantity="one">Expires in %d day</item>
+    </plurals>
+    <plurals name="plurals00f6">
+        <item quantity="other">Invited %1$d days ago</item>
+        <item quantity="one">Invited %1$d day ago</item>
+    </plurals>
+    <plurals name="plurals00f7">
+        <item quantity="other">%1$s joined using an invite from %2$s</item>
+        <item quantity="one">%1$s joined using an invite from %2$s</item>
+    </plurals>
+    <plurals name="plurals00f8">
+        <item quantity="other">Invites sent</item>
+        <item quantity="one">Invite sent</item>
+    </plurals>
+    <plurals name="plurals00f9">
+        <item quantity="other">%1$d Invited</item>
+        <item quantity="one">%1$d Invited</item>
+    </plurals>
+    <plurals name="plurals00fa">
+        <item quantity="other">%1$s and %2$d others are typing…</item>
+        <item quantity="one">%1$s and %2$d other are typing…</item>
+    </plurals>
+    <plurals name="plurals00fc">
+        <item quantity="other">Choose up to %d photos for your layout.</item>
+        <item quantity="one">Choose up to %d photo for your layout.</item>
+    </plurals>
+    <plurals name="plurals00fd">
+        <item quantity="other">Current layout missing %d photos</item>
+        <item quantity="one">Current layout missing %d photo</item>
+    </plurals>
+    <plurals name="plurals00fe">
+        <item quantity="other">%1$d rows by %2$d column, grid</item>
+        <item quantity="one">%1$d row by %2$d column, grid</item>
+    </plurals>
+    <plurals name="plurals00ff">
+        <item quantity="other">%1$d rows by %2$d columns, grid</item>
+        <item quantity="one">%1$d row by %2$d columns, grid</item>
+    </plurals>
+    <plurals name="plurals0100">
+        <item quantity="other">%d members</item>
+        <item quantity="one">%d member</item>
+    </plurals>
+    <plurals name="plurals0101">
+        <item quantity="other">"You can't add more than %1$d groups."</item>
+        <item quantity="one">"You can't add more than %1$d group."</item>
+    </plurals>
+    <plurals name="plurals0102">
+        <item quantity="other">"You can't add more than %1$d groups."</item>
+        <item quantity="one">"You can't add more than %1$d group."</item>
+    </plurals>
+    <plurals name="plurals0103">
+        <item quantity="other">You can only add %1$d groups when creating a community. You can add more after this community is created.</item>
+        <item quantity="one">You can only add %1$d group when creating a community. You can add more after this community is created.</item>
+    </plurals>
+    <plurals name="plurals0104">
+        <item quantity="other">Add %1$s groups to \"%2$s\"?</item>
+        <item quantity="one">Add %1$s group to \"%2$s\"?</item>
+    </plurals>
+    <plurals name="plurals0105">
+        <item quantity="other">Add \"%1$s\", \"%2$s\" &amp; %3$d others to community?</item>
+        <item quantity="one">Add \"%1$s\", \"%2$s\" &amp; %3$d other to community?</item>
+    </plurals>
+    <plurals name="plurals0106">
+        <item quantity="other">Add these groups to community?</item>
+        <item quantity="one">Add this group to community?</item>
+    </plurals>
+    <plurals name="plurals0107">
+        <item quantity="other">The people in these groups will be added to the community and its announcement group.</item>
+        <item quantity="one">The people in this group will be added to the community and its announcement group.</item>
+    </plurals>
+    <plurals name="plurals0108">
+        <item quantity="other">Add %1$s groups to community?</item>
+        <item quantity="one">Add %1$s group to community?</item>
+    </plurals>
+    <plurals name="plurals0109">
+        <item quantity="other">Community • %1$d groups</item>
+        <item quantity="one">Community • %1$d group</item>
+    </plurals>
+    <plurals name="plurals010a">
+        <item quantity="other">Logging out in %1$d days</item>
+        <item quantity="one">Logging out in %1$d day</item>
+    </plurals>
+    <plurals name="plurals010b">
+        <item quantity="other">%d connected</item>
+        <item quantity="one">%d connected</item>
+    </plurals>
+    <plurals name="plurals010c">
+        <item quantity="other">%s were added to the list</item>
+        <item quantity="one">%s was added to the list</item>
+    </plurals>
+    <plurals name="plurals010d">
+        <item quantity="other">%s were removed from the list</item>
+        <item quantity="one">%s was removed from the list</item>
+    </plurals>
+    <plurals name="plurals010e">
+        <item quantity="other">Added to lists</item>
+        <item quantity="one">Added to list</item>
+    </plurals>
+    <plurals name="plurals010f">
+        <item quantity="other">Removed from lists</item>
+        <item quantity="one">Removed from list</item>
+    </plurals>
+    <plurals name="plurals0110">
+        <item quantity="other">"You can't select more than %1$d contacts."</item>
+        <item quantity="one">"You can't select more than %1$d contact."</item>
+    </plurals>
+    <plurals name="plurals0112">
+        <item quantity="other">Sharing in %d chats</item>
+        <item quantity="one">Sharing in %d chat</item>
+    </plurals>
+    <plurals name="plurals0113">
+        <item quantity="other">Location marker for %s</item>
+        <item quantity="one">Location marker for %s</item>
+    </plurals>
+    <plurals name="plurals0114">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="plurals0115">
+        <item quantity="other">%d people stopped sharing</item>
+        <item quantity="one">%d person stopped sharing</item>
+    </plurals>
+    <plurals name="plurals0116">
+        <item quantity="other">Accurate to %d meters</item>
+        <item quantity="one">Accurate to %d meter</item>
+    </plurals>
+    <plurals name="plurals0117">
+        <item quantity="other">"Can't send more than %d audio messages at a time"</item>
+        <item quantity="one">"Can't send more than %d audio message at a time"</item>
+    </plurals>
+    <plurals name="plurals0118">
+        <item quantity="other">Photos set to default quality</item>
+        <item quantity="one">Photo set to default quality</item>
+    </plurals>
+    <plurals name="plurals0119">
+        <item quantity="other">%1$d photos set to HD quality</item>
+        <item quantity="one">Photo set to HD quality</item>
+    </plurals>
+    <plurals name="plurals011a">
+        <item quantity="other">%1$d photos set to original quality</item>
+        <item quantity="one">Photo set to original quality</item>
+    </plurals>
+    <plurals name="plurals011b">
+        <item quantity="other">%d new group suggestions</item>
+        <item quantity="one">%d new group suggestion</item>
+    </plurals>
+    <plurals name="plurals011c">
+        <item quantity="other">%d group suggestions</item>
+        <item quantity="one">%d group suggestion</item>
+    </plurals>
+    <plurals name="plurals011d">
+        <item quantity="other">%d group suggestions</item>
+        <item quantity="one">%d group suggestion</item>
+    </plurals>
+    <plurals name="plurals011e">
+        <item quantity="other">%d pending groups</item>
+        <item quantity="one">%d pending group</item>
+    </plurals>
+    <plurals name="plurals011f">
+        <item quantity="other">You have %d minutes to start and then finish editing a message.</item>
+        <item quantity="one">You have %d minute to start and then finish editing a message.</item>
+    </plurals>
+    <plurals name="plurals0121">
+        <item quantity="other">%d messages copied</item>
+        <item quantity="one">%d message copied</item>
+    </plurals>
+    <plurals name="plurals0122">
+        <item quantity="other">%d messages deleted</item>
+        <item quantity="one">%d message deleted</item>
+    </plurals>
+    <plurals name="plurals0123">
+        <item quantity="other">%d messages deleted for me</item>
+        <item quantity="one">Message deleted for me</item>
+    </plurals>
+    <plurals name="plurals0124">
+        <item quantity="other">%d messages forwarded to chat.</item>
+        <item quantity="one">%d message forwarded to chat.</item>
+    </plurals>
+    <plurals name="plurals0125">
+        <item quantity="other">%d minutes left</item>
+        <item quantity="one">1 minute left</item>
+    </plurals>
+    <plurals name="plurals0126">
+        <item quantity="other">☎ %1$2d missed calls from %2$1s</item>
+        <item quantity="one">☎ Missed call from %1s</item>
+    </plurals>
+    <plurals name="plurals0127">
+        <item quantity="other">☎ %d missed calls</item>
+        <item quantity="one">☎ Missed call</item>
+    </plurals>
+    <plurals name="plurals0128">
+        <item quantity="other">☎ %1$2d missed video calls from %2$1s</item>
+        <item quantity="one">☎ Missed video call from %1s</item>
+    </plurals>
+    <plurals name="plurals0129">
+        <item quantity="other">☎ %d missed video calls</item>
+        <item quantity="one">☎ Missed video call</item>
+    </plurals>
+    <plurals name="plurals012a">
+        <item quantity="other">☎ %1$2d missed voice calls from %2$1s</item>
+        <item quantity="one">☎ Missed voice call from %1s</item>
+    </plurals>
+    <plurals name="plurals012b">
+        <item quantity="other">☎ %d missed voice calls</item>
+        <item quantity="one">☎ Missed voice call</item>
+    </plurals>
+    <plurals name="plurals012c">
+        <item quantity="other">%d missed calls</item>
+        <item quantity="one">%d missed call</item>
+    </plurals>
+    <plurals name="plurals012d">
+        <item quantity="other">%d missed voice calls</item>
+        <item quantity="one">%d missed voice call</item>
+    </plurals>
+    <plurals name="plurals012e">
+        <item quantity="other">%d missed voice chats</item>
+        <item quantity="one">%d missed voice chat</item>
+    </plurals>
+    <plurals name="plurals012f">
+        <item quantity="other">Items set to default quality</item>
+        <item quantity="one">Item set to default quality</item>
+    </plurals>
+    <plurals name="plurals0130">
+        <item quantity="other">%1$d items set to HD quality</item>
+        <item quantity="one">Item set to HD quality</item>
+    </plurals>
+    <plurals name="plurals0131">
+        <item quantity="other">Items set to HD quality</item>
+        <item quantity="one">Item set to HD quality</item>
+    </plurals>
+    <plurals name="plurals0132">
+        <item quantity="other">%1$d items set to original quality</item>
+        <item quantity="one">Item set to original quality</item>
+    </plurals>
+    <plurals name="plurals0133">
+        <item quantity="other">Items set to original quality</item>
+        <item quantity="one">Item set to original quality</item>
+    </plurals>
+    <plurals name="plurals0134">
+        <item quantity="other">"%1$s is needed on this device for transfer. Please clear out space by using WhatsApp's storage management tool."</item>
+        <item quantity="one">"%1$s is needed on this device for transfer. Please clear out space by using WhatsApp's storage management tool."</item>
+    </plurals>
+    <plurals name="plurals0135">
+        <item quantity="other">Only %1$d of %2$d pending group suggestions will be approved because this community is full.</item>
+        <item quantity="one">Only %1$d of %2$d pending group suggestions will be approved because this community is full.</item>
+    </plurals>
+    <plurals name="plurals0136">
+        <item quantity="other">%d groups added</item>
+        <item quantity="one">Group added</item>
+    </plurals>
+    <plurals name="plurals0137">
+        <item quantity="other">%d suggestions canceled</item>
+        <item quantity="one">Suggestion canceled</item>
+    </plurals>
+    <plurals name="plurals0138">
+        <item quantity="other">%d groups rejected</item>
+        <item quantity="one">Group rejected</item>
+    </plurals>
+    <plurals name="plurals0139">
+        <item quantity="other">You can only share with up to %1$d chats</item>
+        <item quantity="one">You can only share with up to %1$d chat</item>
+    </plurals>
+    <plurals name="plurals013a">
+        <item quantity="other">Mute channels</item>
+        <item quantity="one">Mute channel</item>
+    </plurals>
+    <plurals name="plurals013b">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="plurals013c">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="plurals013d">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="plurals013e">
+        <item quantity="other">At least %d contacts must be selected</item>
+        <item quantity="one">At least %d contact must be selected</item>
+    </plurals>
+    <plurals name="plurals013f">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="plurals0140">
+        <item quantity="other">%d added</item>
+        <item quantity="one">%d added</item>
+    </plurals>
+    <plurals name="plurals0141">
+        <item quantity="other">%d Groups in common</item>
+        <item quantity="one">%d Group in common</item>
+    </plurals>
+    <plurals name="plurals0142">
+        <item quantity="other">%d items selected</item>
+        <item quantity="one">%d item selected</item>
+    </plurals>
+    <plurals name="plurals0143">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="plurals0144">
+        <item quantity="other">%d more</item>
+        <item quantity="one">%d more</item>
+    </plurals>
+    <plurals name="plurals0145">
+        <item quantity="other">%1$d of %2$d selected</item>
+        <item quantity="one">%1$d of %2$d selected</item>
+    </plurals>
+    <plurals name="plurals0146">
+        <item quantity="other">%1$d of %2$d</item>
+        <item quantity="one">%1$d of %2$d</item>
+    </plurals>
+    <plurals name="plurals0147">
+        <item quantity="other">%1$d of %2$d selected</item>
+        <item quantity="one">%1$d of %2$d selected</item>
+    </plurals>
+    <plurals name="plurals0148">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="plurals0149">
+        <item quantity="other">Remove %d stickers?</item>
+        <item quantity="one">Remove %d sticker?</item>
+    </plurals>
+    <plurals name="plurals014a">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="plurals014b">
+        <item quantity="other">%1$d stickers added to \"%2$s\"</item>
+        <item quantity="one">%1$d sticker added to \"%2$s\"</item>
+    </plurals>
+    <plurals name="plurals014c">
+        <item quantity="other">%d stickers moved to top</item>
+        <item quantity="one">%d sticker moved to top</item>
+    </plurals>
+    <plurals name="plurals014d">
+        <item quantity="other">%1$d/%2$d stickers</item>
+        <item quantity="one">%1$d/%2$d stickers</item>
+    </plurals>
+    <plurals name="plurals014e">
+        <item quantity="other">%d stickers removed</item>
+        <item quantity="one">%d sticker removed</item>
+    </plurals>
+    <plurals name="plurals014f">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="plurals0150">
+        <item quantity="other">%1$d votes</item>
+        <item quantity="one">%1$d vote</item>
+    </plurals>
+    <plurals name="plurals0151">
+        <item quantity="other">%1$d others</item>
+        <item quantity="one">%1$d other</item>
+    </plurals>
+    <plurals name="plurals0152">
+        <item quantity="other">Add up to %d people</item>
+        <item quantity="one">Add up to %d person</item>
+    </plurals>
+    <plurals name="plurals0153">
+        <item quantity="other">%1$s forwards</item>
+        <item quantity="one">%1$s forward</item>
+    </plurals>
+    <plurals name="plurals0154">
+        <item quantity="other">"Your report will be ready in about %1$d days. You'll have a few weeks to download your report after it's available.
+
+Your report will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+        <item quantity="one">"Your report will be ready in about %1$d day. You'll have a few weeks to download your report after it's available.
+
+Your report will be canceled if you make changes to your account such as changing your number or deleting your account."</item>
+    </plurals>
+    <plurals name="plurals0155">
+        <item quantity="other">Insights for last %1$d days</item>
+        <item quantity="one">Insights for last %1$d day</item>
+    </plurals>
+    <plurals name="plurals0156">
+        <item quantity="other">%s listeners</item>
+        <item quantity="one">%s listener</item>
+    </plurals>
+    <plurals name="plurals0157">
+        <item quantity="other">%1$s reactions</item>
+        <item quantity="one">%1$s reaction</item>
+    </plurals>
+    <plurals name="plurals0158">
+        <item quantity="other">%s viewers</item>
+        <item quantity="one">%s viewer</item>
+    </plurals>
+    <plurals name="plurals0159">
+        <item quantity="other">%1$s responses to: %2$s</item>
+        <item quantity="one">%1$s response to: %2$s</item>
+    </plurals>
+    <plurals name="plurals015a">
+        <item quantity="other">%1$s responses to %2$s</item>
+        <item quantity="one">%1$s response to %2$s</item>
+    </plurals>
+    <plurals name="plurals015b">
+        <item quantity="other">%1$s reactions to: %2$s</item>
+        <item quantity="one">%1$s reaction to: %2$s</item>
+    </plurals>
+    <plurals name="plurals015c">
+        <item quantity="other">%1$s reactions to your update</item>
+        <item quantity="one">%1$s reaction to your update</item>
+    </plurals>
+    <plurals name="plurals015d">
+        <item quantity="other">%1$s responses to: %2$s</item>
+        <item quantity="one">%1$s response to: %2$s</item>
+    </plurals>
+    <plurals name="plurals015e">
+        <item quantity="other">%1$s responses to %2$s</item>
+        <item quantity="one">%1$s response to %2$s</item>
+    </plurals>
+    <plurals name="plurals015f">
+        <item quantity="other">%1$s votes in: %2$s</item>
+        <item quantity="one">%1$s vote in: %2$s</item>
+    </plurals>
+    <plurals name="plurals0160">
+        <item quantity="other">%1$s votes in %2$s</item>
+        <item quantity="one">%1$s vote in %2$s</item>
+    </plurals>
+    <plurals name="plurals0161">
+        <item quantity="other">🎉 Your channel has %1$s followers</item>
+        <item quantity="one">🎉 Your channel has %1$s new follower</item>
+    </plurals>
+    <plurals name="plurals0162">
+        <item quantity="other">You can only share to %1$d channels.</item>
+        <item quantity="one">You can only share to %1$d channel.</item>
+    </plurals>
+    <plurals name="plurals0163">
+        <item quantity="other">%s reactions from contacts</item>
+        <item quantity="one">%s reaction from contacts</item>
+    </plurals>
+    <plurals name="plurals0164">
+        <item quantity="other">%1$s responses</item>
+        <item quantity="one">%1$s response</item>
+    </plurals>
+    <plurals name="plurals0165">
+        <item quantity="other">%1$d of %2$d verified channels</item>
+        <item quantity="zero">%1$d of %2$d verified channels</item>
+        <item quantity="one">%1$d of %2$d verified channels</item>
+    </plurals>
+    <plurals name="plurals0166">
+        <item quantity="other">%1$d of 1 verified channel</item>
+        <item quantity="zero">%1$d of 1 verified channel</item>
+        <item quantity="one">%1$d of 1 verified channel</item>
+    </plurals>
+    <plurals name="plurals0167">
+        <item quantity="other">%d unread</item>
+        <item quantity="one">%d unread</item>
+    </plurals>
+    <plurals name="plurals0168">
+        <item quantity="other">Channel • %s followers</item>
+        <item quantity="one">Channel • %s follower</item>
+    </plurals>
+    <plurals name="plurals0169">
+        <item quantity="other">Channel • %s new updates</item>
+        <item quantity="one">Channel • %s new update</item>
+    </plurals>
+    <plurals name="plurals016a">
+        <item quantity="other">%s followers</item>
+        <item quantity="one">%s follower</item>
+    </plurals>
+    <plurals name="plurals016b">
+        <item quantity="other">%1$s and %2$d more files</item>
+        <item quantity="one">%1$s and %2$d more file</item>
+    </plurals>
+    <plurals name="plurals016c">
+        <item quantity="other">from %1$s and %2$d more files</item>
+        <item quantity="one">from %1$s and %2$d more file</item>
+    </plurals>
+    <plurals name="plurals016d">
+        <item quantity="other">Missed calls</item>
+        <item quantity="one">Missed call</item>
+    </plurals>
+    <plurals name="plurals016e">
+        <item quantity="other">%d new messages</item>
+        <item quantity="one">%d new message</item>
+    </plurals>
+    <plurals name="plurals016f">
+        <item quantity="other">%d messages</item>
+        <item quantity="one">%d message</item>
+    </plurals>
+    <plurals name="plurals0170">
+        <item quantity="other">%1$s from %2$d chats</item>
+        <item quantity="one">%1$s from %2$d chat</item>
+    </plurals>
+    <plurals name="plurals0171">
+        <item quantity="other">%1$s from %2$d channels</item>
+        <item quantity="one">%1$s from %2$d channel</item>
+    </plurals>
+    <plurals name="plurals0172">
+        <item quantity="other">You have several notifications about your payments account or activity.</item>
+        <item quantity="one">You have one notification about your payments account or activity.</item>
+    </plurals>
+    <plurals name="plurals0173">
+        <item quantity="other">%1s New messages</item>
+        <item quantity="one">%1s New message</item>
+    </plurals>
+    <plurals name="plurals0174">
+        <item quantity="other">%1$s %2$s: New messages</item>
+        <item quantity="one">%1$s %2$s: New message</item>
+    </plurals>
+    <plurals name="plurals0175">
+        <item quantity="other">New messages from %1d chats</item>
+        <item quantity="one">New messages from %1d chat</item>
+    </plurals>
+    <plurals name="plurals0176">
+        <item quantity="other">"You can't select more than %1$d contacts."</item>
+        <item quantity="one">"You can't select more than %1$d contact."</item>
+    </plurals>
+    <plurals name="plurals0177">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="plurals0178">
+        <item quantity="other">%d HD items</item>
+        <item quantity="one">%d HD item</item>
+    </plurals>
+    <plurals name="plurals0179">
+        <item quantity="other">%d new photos</item>
+        <item quantity="one">%d new photo</item>
+    </plurals>
+    <plurals name="plurals017a">
+        <item quantity="other">%d new videos</item>
+        <item quantity="one">%d new video</item>
+    </plurals>
+    <plurals name="plurals017b">
+        <item quantity="other">%d pages</item>
+        <item quantity="one">%d page</item>
+    </plurals>
+    <plurals name="plurals017c">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">%d photo</item>
+    </plurals>
+    <plurals name="plurals017d">
+        <item quantity="other">%d HD photos</item>
+        <item quantity="one">%d HD photo</item>
+    </plurals>
+    <plurals name="plurals017e">
+        <item quantity="other">%d replies</item>
+        <item quantity="one">1 reply</item>
+    </plurals>
+    <plurals name="plurals017f">
+        <item quantity="other">%d sheets</item>
+        <item quantity="one">%d sheet</item>
+    </plurals>
+    <plurals name="plurals0180">
+        <item quantity="other">%d slides</item>
+        <item quantity="one">%d slide</item>
+    </plurals>
+    <plurals name="plurals0181">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="plurals0182">
+        <item quantity="other">%d HD videos</item>
+        <item quantity="one">%d HD video</item>
+    </plurals>
+    <plurals name="plurals0183">
+        <item quantity="other">%d views</item>
+        <item quantity="one">%d view</item>
+    </plurals>
+    <plurals name="plurals0184">
+        <item quantity="other">You have %1$d contacts on WhatsApp</item>
+        <item quantity="one">You have %1$d contact on WhatsApp</item>
+    </plurals>
+    <plurals name="plurals0185">
+        <item quantity="other">&lt;b>%1$s&lt;/b> and %2$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> and %2$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="plurals0186">
+        <item quantity="other">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b>, &lt;b>%3$s&lt;/b> and %4$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b>, &lt;b>%3$s&lt;/b> and %4$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="plurals0187">
+        <item quantity="other">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b> and %3$d more of your contacts are on WhatsApp</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b>, &lt;b>%2$s&lt;/b> and %3$d other contact is on WhatsApp</item>
+    </plurals>
+    <plurals name="plurals0188">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="plurals0189">
+        <item quantity="other">"Couldn't add %s. You can invite them privately to join this community."</item>
+        <item quantity="one">"Couldn't add %s. You can invite them privately to join this community."</item>
+    </plurals>
+    <plurals name="plurals018a">
+        <item quantity="other">"Couldn't add %1s. Message history will not be shared.
+
+You can invite them privately to join this community."</item>
+        <item quantity="one">"Couldn't add %1s. Message history will not be shared.
+
+You can invite them privately to join this community."</item>
+    </plurals>
+    <plurals name="plurals018b">
+        <item quantity="other">Community · %1$d groups</item>
+        <item quantity="one">Community · %1$d group</item>
+    </plurals>
+    <plurals name="plurals018c">
+        <item quantity="other">last seen %1$d hours ago</item>
+        <item quantity="one">last seen %1$d hour ago</item>
+    </plurals>
+    <plurals name="plurals018d">
+        <item quantity="other">last seen %1$d minutes ago</item>
+        <item quantity="one">last seen %1$d minute ago</item>
+    </plurals>
+    <plurals name="plurals018e">
+        <item quantity="other">%1$s &amp; %2$d others</item>
+        <item quantity="one">%1$s &amp; %2$d other</item>
+    </plurals>
+    <plurals name="plurals018f">
+        <item quantity="other">"%d members not displayed because they aren't in your contacts"</item>
+        <item quantity="one">"%d member not displayed because they aren't in your contacts"</item>
+    </plurals>
+    <plurals name="plurals0190">
+        <item quantity="other">%d remaining</item>
+        <item quantity="one">%d remaining</item>
+    </plurals>
+    <plurals name="plurals0191">
+        <item quantity="other">%d members</item>
+        <item quantity="one">%d member</item>
+    </plurals>
+    <plurals name="plurals0192">
+        <item quantity="other">People who left or were removed in the last %d days. &lt;a href=\"learn-more\">Learn&amp;nbsp;more&lt;/a></item>
+        <item quantity="one">People who left or were removed in the last %d day. &lt;a href=\"learn-more\">Learn&amp;nbsp;more&lt;/a></item>
+    </plurals>
+    <plurals name="plurals0193">
+        <item quantity="other">%d attempts remaining</item>
+        <item quantity="one">%d attempt remaining</item>
+    </plurals>
+    <plurals name="plurals0194">
+        <item quantity="other">%d attempts left. You’ll need to set up payments again after too many incorrect attempts.</item>
+        <item quantity="one">%d attempt left. You’ll need to set up payments again after too many incorrect attempts.</item>
+    </plurals>
+    <plurals name="plurals0195">
+        <item quantity="other">"You can't invite more than %1$d people to payments at a time."</item>
+        <item quantity="one">"You can't invite more than %1$d person to payments at a time."</item>
+    </plurals>
+    <plurals name="plurals0196">
+        <item quantity="other">You can only send %d payment requests each day. Try again later.</item>
+        <item quantity="one">You can only send %d payment request each day. Try again later.</item>
+    </plurals>
+    <plurals name="plurals0197">
+        <item quantity="other">expires in %1$s</item>
+        <item quantity="one">expires in %1$s</item>
+    </plurals>
+    <plurals name="plurals0198">
+        <item quantity="other">Sending invites to %1$d contacts</item>
+        <item quantity="one">Sending invite to %1$d contact</item>
+    </plurals>
+    <plurals name="plurals0199">
+        <item quantity="other">%1$s requested %2$s from %3$s</item>
+        <item quantity="one">%1$s requested %2$s from %3$s</item>
+    </plurals>
+    <plurals name="plurals019a">
+        <item quantity="other">You requested %1$s from %2$s</item>
+        <item quantity="one">You requested %1$s from %2$s</item>
+    </plurals>
+    <plurals name="plurals019b">
+        <item quantity="other">%1$s requested %2$s from You</item>
+        <item quantity="one">%1$s requested %2$s from You</item>
+    </plurals>
+    <plurals name="plurals019e">
+        <item quantity="other">Pending requests</item>
+        <item quantity="one">Pending request</item>
+    </plurals>
+    <plurals name="plurals019f">
+        <item quantity="other">%1$s sent %2$s to %3$s</item>
+        <item quantity="one">%1$s sent %2$s to %3$s</item>
+    </plurals>
+    <plurals name="plurals01a0">
+        <item quantity="other">You sent %1$s to %2$s</item>
+        <item quantity="one">You sent %1$s to %2$s</item>
+    </plurals>
+    <plurals name="plurals01a1">
+        <item quantity="other">%1$s sent %2$s to You</item>
+        <item quantity="one">%1$s sent %2$s to You</item>
+    </plurals>
+    <plurals name="plurals01a2">
+        <item quantity="other">%1$s sent you %2$s.</item>
+        <item quantity="one">%1$s sent you %2$s.</item>
+    </plurals>
+    <plurals name="plurals01a3">
+        <item quantity="other">Sent you %1$s. Tap to accept.</item>
+        <item quantity="one">Sent you %1$s. Tap to accept.</item>
+    </plurals>
+    <plurals name="plurals01a4">
+        <item quantity="other">Sent %1$s to %2$s</item>
+        <item quantity="one">Sent %1$s to %2$s</item>
+    </plurals>
+    <plurals name="plurals01a5">
+        <item quantity="other">Sent %1$s to You</item>
+        <item quantity="one">Sent %1$s to You</item>
+    </plurals>
+    <plurals name="plurals01a6">
+        <item quantity="other">%1$s sent you %2$s. Tap to accept.</item>
+        <item quantity="one">%1$s sent you %2$s. Tap to accept.</item>
+    </plurals>
+    <plurals name="plurals01a7">
+        <item quantity="other">Invite sent %1$d days ago</item>
+        <item quantity="one">Invite sent %1$d day ago</item>
+    </plurals>
+    <plurals name="plurals01a8">
+        <item quantity="other">Invite sent %1$d weeks ago</item>
+        <item quantity="one">Invite sent %1$d week ago</item>
+    </plurals>
+    <plurals name="plurals01a9">
+        <item quantity="other">&lt;font color=#%1$s>&lt;b>Review&lt;/b>&lt;/font> %2$d group suggestions</item>
+        <item quantity="one">&lt;font color=#%1$s>&lt;b>Review&lt;/b>&lt;/font> %2$d group suggestion</item>
+    </plurals>
+    <plurals name="plurals01aa">
+        <item quantity="other">Pin channels</item>
+        <item quantity="one">Pin channel</item>
+    </plurals>
+    <plurals name="plurals01ab">
+        <item quantity="other">Many options have %1$d votes. %2$s.</item>
+        <item quantity="one">Many options have %1$d vote. %2$s.</item>
+    </plurals>
+    <plurals name="plurals01ac">
+        <item quantity="other">Top vote count %1$s %2$d votes. %3$s.</item>
+        <item quantity="one">Top vote count %1$s %2$d vote. %3$s.</item>
+    </plurals>
+    <plurals name="plurals01ad">
+        <item quantity="other">%1$d options • %2$s</item>
+        <item quantity="one">%1$d option • %2$s</item>
+    </plurals>
+    <plurals name="plurals01ae">
+        <item quantity="other">+ %d more options</item>
+        <item quantity="one">+ 1 more option</item>
+    </plurals>
+    <plurals name="plurals01af">
+        <item quantity="other">%1$s and %2$s others</item>
+        <item quantity="one">%1$s and %2$s other</item>
+    </plurals>
+    <plurals name="plurals01b0">
+        <item quantity="other">%1d contacts included</item>
+        <item quantity="one">%1d contact included</item>
+    </plurals>
+    <plurals name="plurals01b1">
+        <item quantity="other">%d contacts selected</item>
+        <item quantity="one">%d contact selected</item>
+    </plurals>
+    <plurals name="plurals01b2">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="plurals01b3">
+        <item quantity="other">Profile picture deleted across %1$d profiles</item>
+        <item quantity="one">Profile picture deleted across %1$d profile</item>
+    </plurals>
+    <plurals name="plurals01b4">
+        <item quantity="other">Delete your profile picture across %1$d profiles?</item>
+        <item quantity="one">Delete your profile picture across %1$d profile?</item>
+    </plurals>
+    <plurals name="plurals01b5">
+        <item quantity="other">"The %s emojis aren't allowed in your name."</item>
+        <item quantity="one">"The %s emoji isn't allowed in your name."</item>
+    </plurals>
+    <plurals name="plurals01b6">
+        <item quantity="other">Only %d of these items are currently available.</item>
+        <item quantity="one">Only %d of these items is currently available.</item>
+    </plurals>
+    <plurals name="plurals01b7">
+        <item quantity="other">"You've sent %1$d broadcasts this month. You'll be able to send more on %2$s."</item>
+        <item quantity="one">"You've sent %1$d broadcast this month. You'll be able to send more on %2$s."</item>
+    </plurals>
+    <plurals name="plurals01b8">
+        <item quantity="other">"You've sent %1$d broadcasts this month. You'll be able to send more on %2$s.&lt;br>&lt;br>If you're a business, you can get advanced messaging tools on the &lt;a href=\"%3$s\">WhatsApp Business app&lt;/a>."</item>
+        <item quantity="one">"You've sent %1$d broadcast this month. You'll be able to send more on %2$s.&lt;br>&lt;br>If you're a business, you can get advanced messaging tools on the &lt;a href=\"%3$s\">WhatsApp Business app&lt;/a>."</item>
+    </plurals>
+    <plurals name="plurals01b9">
+        <item quantity="other">Limit of %1$s groups reached</item>
+        <item quantity="one">Limit of %1$s group reached</item>
+    </plurals>
+    <plurals name="plurals01ba">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="plurals01bb">
+        <item quantity="other">All %1$s reactions tab</item>
+        <item quantity="one">All %1$s reaction tab</item>
+    </plurals>
+    <plurals name="plurals01bc">
+        <item quantity="other">%1$s %2$s reactions tab</item>
+        <item quantity="one">%1$s %2$s reaction tab</item>
+    </plurals>
+    <plurals name="plurals01bd">
+        <item quantity="other">All %1$s</item>
+        <item quantity="one">All %1$s</item>
+    </plurals>
+    <plurals name="plurals01be">
+        <item quantity="other">%s reactions</item>
+        <item quantity="one">%s reaction</item>
+    </plurals>
+    <plurals name="plurals01bf">
+        <item quantity="other">%1$s +%2$s others @ %3$s</item>
+        <item quantity="one">%1$s +%2$s other @ %3$s</item>
+    </plurals>
+    <plurals name="plurals01c0">
+        <item quantity="other">%1$s +%2$s others</item>
+        <item quantity="one">%1$s +%2$s other</item>
+    </plurals>
+    <plurals name="plurals01c1">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="plurals01c2">
+        <item quantity="other">Your code needs to be %d digits.</item>
+        <item quantity="one">Your code needs to be %d digit.</item>
+    </plurals>
+    <plurals name="plurals01c3">
+        <item quantity="other">"Don't forget to join our community %1$s on WhatsApp! This invite is good for %2$d days. %3$s"</item>
+        <item quantity="one">"Don't forget to join our community %1$s on WhatsApp! This invite is good for %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="plurals01c4">
+        <item quantity="other">"Don't forget to join our group chat %1$s on WhatsApp! This invite is good for %2$d days. %3$s"</item>
+        <item quantity="one">"Don't forget to join our group chat %1$s on WhatsApp! This invite is good for %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="plurals01c5">
+        <item quantity="other">"Don't forget to join %1$s on WhatsApp! This invite expires in %2$d days. %3$s"</item>
+        <item quantity="one">"Don't forget to join %1$s on WhatsApp! This invite expires in %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="plurals01c6">
+        <item quantity="other">"Don't forget to join our community on WhatsApp! This invite is good for %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our community on WhatsApp! This invite is good for %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01c7">
+        <item quantity="other">"Don't forget to join our community on WhatsApp! This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our community on WhatsApp! This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01c8">
+        <item quantity="other">"Don't forget to join our community on WhatsApp, the world's most popular messaging app! This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our community on WhatsApp, the world's most popular messaging app! This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01c9">
+        <item quantity="other">"Don't forget to join our group chat on WhatsApp! This invite is good for %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our group chat on WhatsApp! This invite is good for %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01ca">
+        <item quantity="other">"Don't forget to join our group on WhatsApp! This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our group on WhatsApp! This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01cb">
+        <item quantity="other">"Don't forget to join our group chat on WhatsApp, the world's most popular messaging app! This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"Don't forget to join our group chat on WhatsApp, the world's most popular messaging app! This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01cc">
+        <item quantity="other">In %d hours</item>
+        <item quantity="one">In %d hour</item>
+    </plurals>
+    <plurals name="plurals01cd">
+        <item quantity="other">%1$s tried to reach you %2$d days ago</item>
+        <item quantity="one">%1$s tried to reach you %2$d day ago</item>
+    </plurals>
+    <plurals name="plurals01ce">
+        <item quantity="other">%1$s tried to reach you %2$d hours ago</item>
+        <item quantity="one">%1$s tried to reach you %2$d hour ago</item>
+    </plurals>
+    <plurals name="plurals01cf">
+        <item quantity="other">Remove %1$d stickers from \"%2$s\"?</item>
+        <item quantity="one">Remove %1$d sticker from \"%2$s\"?</item>
+    </plurals>
+    <plurals name="plurals01d0">
+        <item quantity="other">%1$s and %2$s others replied to your announcement message</item>
+        <item quantity="one">%1$s and %2$s other replied to your announcement message</item>
+    </plurals>
+    <plurals name="plurals01d1">
+        <item quantity="other">%1$s and %2$s others replied to your announcement messages</item>
+        <item quantity="one">%1$s and %2$s other replied to your announcement messages</item>
+    </plurals>
+    <plurals name="plurals01d2">
+        <item quantity="other">Sent for review by &lt;font color=#%1$s>%2$d members&lt;/font></item>
+        <item quantity="one">Sent for review by &lt;font color=#%1$s>%2$d member&lt;/font></item>
+    </plurals>
+    <plurals name="plurals01d3">
+        <item quantity="other">"The last %d messages from this group will be forwarded to WhatsApp, excluding any replies to announcements. 
+
+If you exit this group and delete the chat, messages will only be removed from this device and your devices on the newer versions of WhatsApp. 
+
+No one in this group will be notified."</item>
+        <item quantity="one">"The last %d message from this group will be forwarded to WhatsApp, excluding any replies to announcements. 
+
+If you exit this group and delete the chat, messages will only be removed from this device and your devices on the newer versions of WhatsApp. 
+
+No one in this group will be notified."</item>
+    </plurals>
+    <plurals name="plurals01d4">
+        <item quantity="other">The last %d messages from this group will be forwarded to WhatsApp, excluding any replies to announcements. No one in this group will be notified.</item>
+        <item quantity="one">The last %d message from this group will be forwarded to WhatsApp, excluding any replies to announcements. No one in this group will be notified.</item>
+    </plurals>
+    <plurals name="plurals01d5">
+        <item quantity="other">You can request a new code in &lt;b>%d hours&lt;/b></item>
+        <item quantity="one">You can request a new code in &lt;b>%d hour&lt;/b></item>
+    </plurals>
+    <plurals name="plurals01d6">
+        <item quantity="other">People in these groups will be added to the community and the announcement group, and can join other community groups. You can review group permissions:</item>
+        <item quantity="one">People in this group will be added to the community and the announcement group, and can join other community groups. You can review group permissions:</item>
+    </plurals>
+    <plurals name="plurals01d7">
+        <item quantity="other">%1$d Items</item>
+        <item quantity="one">%1$d Item</item>
+    </plurals>
+    <plurals name="plurals01d8">
+        <item quantity="other">Order summary (%1$d items)</item>
+        <item quantity="one">Order summary (%1$d item)</item>
+    </plurals>
+    <plurals name="plurals01d9">
+        <item quantity="other">%s are also in this group</item>
+        <item quantity="one">%s is also in this group</item>
+    </plurals>
+    <plurals name="plurals01da">
+        <item quantity="other">%s are also in this group</item>
+        <item quantity="one">%s is also in this group</item>
+    </plurals>
+    <plurals name="plurals01db">
+        <item quantity="other">At least %1$d contacts must be selected.</item>
+        <item quantity="one">At least %1$d contact must be selected.</item>
+    </plurals>
+    <plurals name="plurals01dc">
+        <item quantity="other">%d selected recipients</item>
+        <item quantity="one">%d selected recipient</item>
+    </plurals>
+    <plurals name="plurals01dd">
+        <item quantity="other">"Hey, join our community %1$s on WhatsApp! Here's an invite link — it's good for %2$d days. %3$s"</item>
+        <item quantity="one">"Hey, join our community %1$s on WhatsApp! Here's an invite link — it's good for %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="plurals01de">
+        <item quantity="other">Documents need to have less than %d pages.</item>
+        <item quantity="one">Documents need to have less than %d page.</item>
+    </plurals>
+    <plurals name="plurals01df">
+        <item quantity="other">"Hey, join our group chat %1$s on WhatsApp! Here's an invite link — it's good for %2$d days. %3$s"</item>
+        <item quantity="one">"Hey, join our group chat %1$s on WhatsApp! Here's an invite link — it's good for %2$d day. %3$s"</item>
+    </plurals>
+    <plurals name="plurals01e0">
+        <item quantity="other">"Hey, join our community on WhatsApp! Here's an invite link — it's good for %1$d days. %2$s"</item>
+        <item quantity="one">"Hey, join our community on WhatsApp! Here's an invite link — it's good for %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01e1">
+        <item quantity="other">"You're invited to join a community on WhatsApp! It's the world's most popular messaging app. This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"You're invited to join a community on WhatsApp! It's the world's most popular messaging app. This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01e2">
+        <item quantity="other">"Hey, join our group chat on WhatsApp! Here's an invite link — it's good for %1$d days. %2$s"</item>
+        <item quantity="one">"Hey, join our group chat on WhatsApp! Here's an invite link — it's good for %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01e3">
+        <item quantity="other">"You're invited to join a group chat on WhatsApp! It's the world's most popular messaging app. This invite expires in %1$d days. %2$s"</item>
+        <item quantity="one">"You're invited to join a group chat on WhatsApp! It's the world's most popular messaging app. This invite expires in %1$d day. %2$s"</item>
+    </plurals>
+    <plurals name="plurals01e4">
+        <item quantity="other">Send SMS invites?</item>
+        <item quantity="one">Send SMS invite?</item>
+    </plurals>
+    <plurals name="plurals01e5">
+        <item quantity="other">Send %d media items</item>
+        <item quantity="one">Send %d media</item>
+    </plurals>
+    <plurals name="plurals01e6">
+        <item quantity="other">"%1$d items couldn't be sent"</item>
+        <item quantity="one">"%1$d item couldn't be sent"</item>
+    </plurals>
+    <plurals name="plurals01e7">
+        <item quantity="other">%1$d videos you selected will be trimmed to %2$d MB in size.</item>
+        <item quantity="one">A video you selected will be trimmed to %2$d MB in size.</item>
+    </plurals>
+    <plurals name="plurals01e8">
+        <item quantity="other">Long videos will be trimmed</item>
+        <item quantity="one">Long video will be trimmed</item>
+    </plurals>
+    <plurals name="plurals01e9">
+        <item quantity="other">View videos</item>
+        <item quantity="one">View video</item>
+    </plurals>
+    <plurals name="plurals01ea">
+        <item quantity="other">%d excluded</item>
+        <item quantity="one">%d excluded</item>
+    </plurals>
+    <plurals name="plurals01eb">
+        <item quantity="other">%d included</item>
+        <item quantity="one">%d included</item>
+    </plurals>
+    <plurals name="plurals01ec">
+        <item quantity="other">Sending %1$d audio files to %2$s</item>
+        <item quantity="one">Sending %1$d audio to %2$s</item>
+    </plurals>
+    <plurals name="plurals01ed">
+        <item quantity="other">Sending %d audio files</item>
+        <item quantity="one">Sending %d audio</item>
+    </plurals>
+    <plurals name="plurals01ee">
+        <item quantity="other">Sending %1$d files to %2$s</item>
+        <item quantity="one">Sending %1$d file to %2$s</item>
+    </plurals>
+    <plurals name="plurals01ef">
+        <item quantity="other">Sending %d files</item>
+        <item quantity="one">Sending %d file</item>
+    </plurals>
+    <plurals name="plurals01f0">
+        <item quantity="other">Sending %1$d GIFs to %2$s</item>
+        <item quantity="one">Sending %1$d GIF to %2$s</item>
+    </plurals>
+    <plurals name="plurals01f1">
+        <item quantity="other">Sending %d GIFs</item>
+        <item quantity="one">Sending %d GIF</item>
+    </plurals>
+    <plurals name="plurals01f2">
+        <item quantity="other">Sending group status updates…</item>
+        <item quantity="one">Sending group status update…</item>
+    </plurals>
+    <plurals name="plurals01f3">
+        <item quantity="other">Sending %1$d photos to %2$s</item>
+        <item quantity="one">Sending %1$d photo to %2$s</item>
+    </plurals>
+    <plurals name="plurals01f4">
+        <item quantity="other">Sending %d photos</item>
+        <item quantity="one">Sending %d photo</item>
+    </plurals>
+    <plurals name="plurals01f5">
+        <item quantity="other">Sending %d…</item>
+        <item quantity="one">Sending…</item>
+    </plurals>
+    <plurals name="plurals01f6">
+        <item quantity="other">Sending %1$d sticker packs to %2$s</item>
+        <item quantity="one">Sending %1$d sticker pack to %2$s</item>
+    </plurals>
+    <plurals name="plurals01f7">
+        <item quantity="other">Sending %d sticker packs</item>
+        <item quantity="one">Sending %d sticker pack</item>
+    </plurals>
+    <plurals name="plurals01f8">
+        <item quantity="other">Sending %1$d stickers to %2$s</item>
+        <item quantity="one">Sending %1$d sticker to %2$s</item>
+    </plurals>
+    <plurals name="plurals01f9">
+        <item quantity="other">Sending %d stickers</item>
+        <item quantity="one">Sending %d sticker</item>
+    </plurals>
+    <plurals name="plurals01fa">
+        <item quantity="other">Sending %1$d videos to %2$s</item>
+        <item quantity="one">Sending %1$d video to %2$s</item>
+    </plurals>
+    <plurals name="plurals01fb">
+        <item quantity="other">Sending %d videos</item>
+        <item quantity="one">Sending %d video</item>
+    </plurals>
+    <plurals name="plurals01fc">
+        <item quantity="other">%s backed up</item>
+        <item quantity="one">%s backed up</item>
+    </plurals>
+    <plurals name="plurals01fd">
+        <item quantity="other">%s to be uploaded</item>
+        <item quantity="one">%s to be uploaded</item>
+    </plurals>
+    <plurals name="plurals01fe">
+        <item quantity="other">%1$s incoming</item>
+        <item quantity="one">%1$s incoming</item>
+    </plurals>
+    <plurals name="plurals01ff">
+        <item quantity="other">%1$s outgoing</item>
+        <item quantity="one">%1$s outgoing</item>
+    </plurals>
+    <plurals name="plurals0200">
+        <item quantity="other">%1$s received</item>
+        <item quantity="one">%1$s received</item>
+    </plurals>
+    <plurals name="plurals0201">
+        <item quantity="other">%1$s sent</item>
+        <item quantity="one">%1$s sent</item>
+    </plurals>
+    <plurals name="plurals0202">
+        <item quantity="other">%1$s received</item>
+        <item quantity="one">%1$s received</item>
+    </plurals>
+    <plurals name="plurals0203">
+        <item quantity="other">%1$s sent</item>
+        <item quantity="one">%1$s sent</item>
+    </plurals>
+    <plurals name="plurals0204">
+        <item quantity="other">"Can't share more than %d media items."</item>
+        <item quantity="one">"Can't share more than %d media item."</item>
+    </plurals>
+    <plurals name="plurals0208">
+        <item quantity="other">%d new statuses</item>
+        <item quantity="one">%d new status</item>
+    </plurals>
+    <plurals name="plurals0209">
+        <item quantity="other">This version of WhatsApp needs to be updated in %d days. Update to the latest version?</item>
+        <item quantity="one">This version of WhatsApp needs to be updated in %d day. Update to the latest version?</item>
+    </plurals>
+    <plurals name="plurals020a">
+        <item quantity="other">Updates will be kept on your device for up to %d days and can be used to create ads on Facebook &amp; Instagram. Only you can see your archived updates.</item>
+        <item quantity="one">Updates will be kept on your device for up to %d day and can be used to create ads on Facebook &amp; Instagram. Only you can see your archived updates.</item>
+    </plurals>
+    <plurals name="plurals020b">
+        <item quantity="other">Only share with - %d included</item>
+        <item quantity="one">Only share with - %d included</item>
+    </plurals>
+    <plurals name="plurals020c">
+        <item quantity="other">%d included</item>
+        <item quantity="one">%d included</item>
+    </plurals>
+    <plurals name="plurals020d">
+        <item quantity="other">%d excluded</item>
+        <item quantity="one">%d excluded</item>
+    </plurals>
+    <plurals name="plurals020e">
+        <item quantity="other">Close friends - %d included</item>
+        <item quantity="one">Close friends - %d included</item>
+    </plurals>
+    <plurals name="plurals020f">
+        <item quantity="other">Contacts except - %d excluded</item>
+        <item quantity="one">Contacts except - %d excluded</item>
+    </plurals>
+    <plurals name="plurals0210">
+        <item quantity="other">You can select groups with up to %d members.</item>
+        <item quantity="one">You can select groups with up to %d member.</item>
+    </plurals>
+    <plurals name="plurals0211">
+        <item quantity="other">You can select up to %d groups.</item>
+        <item quantity="one">You can select up to %d group.</item>
+    </plurals>
+    <plurals name="plurals0212">
+        <item quantity="other">Status (%d included)</item>
+        <item quantity="one">Status (%d included)</item>
+    </plurals>
+    <plurals name="plurals0213">
+        <item quantity="other">Status (%d excluded)</item>
+        <item quantity="one">Status (%d excluded)</item>
+    </plurals>
+    <plurals name="plurals0214">
+        <item quantity="other">%d excluded</item>
+        <item quantity="one">%d excluded</item>
+    </plurals>
+    <plurals name="plurals0215">
+        <item quantity="other">%d contacts excluded</item>
+        <item quantity="one">%d contact excluded</item>
+    </plurals>
+    <plurals name="plurals0216">
+        <item quantity="other">%d contacts or groups included</item>
+        <item quantity="one">%d contact or group included</item>
+    </plurals>
+    <plurals name="plurals0217">
+        <item quantity="other">%d contacts selected</item>
+        <item quantity="one">%d contact selected</item>
+    </plurals>
+    <plurals name="plurals0218">
+        <item quantity="other">%1$s and %2$d others</item>
+        <item quantity="one">%1$s and %2$d other</item>
+    </plurals>
+    <plurals name="plurals0219">
+        <item quantity="other">%d contacts selected</item>
+        <item quantity="one">%d contact selected</item>
+    </plurals>
+    <plurals name="plurals021a">
+        <item quantity="other">%1$d mentions is the limit</item>
+        <item quantity="one">%1$d mentions is the limit</item>
+    </plurals>
+    <plurals name="plurals021b">
+        <item quantity="other">%d included</item>
+        <item quantity="one">%d included</item>
+    </plurals>
+    <plurals name="plurals021c">
+        <item quantity="other">%d excluded</item>
+        <item quantity="one">%d excluded</item>
+    </plurals>
+    <plurals name="plurals021d">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="plurals021e">
+        <item quantity="other">Share status with a maximum of %1$d people at a time.</item>
+        <item quantity="one">Share status with a maximum of %1$d person at a time.</item>
+    </plurals>
+    <plurals name="plurals021f">
+        <item quantity="other">%1$s &amp; %2$d others online</item>
+        <item quantity="one">%1$s &amp; %2$d other online</item>
+    </plurals>
+    <plurals name="plurals0220">
+        <item quantity="other">%d responses</item>
+        <item quantity="one">%d response</item>
+    </plurals>
+    <plurals name="plurals0221">
+        <item quantity="other">%d sticker reactions</item>
+        <item quantity="one">%d sticker reaction</item>
+    </plurals>
+    <plurals name="plurals0222">
+        <item quantity="other">Deleting %d status updates…</item>
+        <item quantity="one">Deleting %d status update…</item>
+    </plurals>
+    <plurals name="plurals0223">
+        <item quantity="other">%1$s stickers</item>
+        <item quantity="one">%1$s sticker</item>
+    </plurals>
+    <plurals name="plurals0224">
+        <item quantity="other">%d stickers</item>
+        <item quantity="one">%d sticker</item>
+    </plurals>
+    <plurals name="plurals0225">
+        <item quantity="other">This will remove the whole sticker pack, including %d stickers.</item>
+        <item quantity="one">This will remove the whole sticker pack, including %d sticker.</item>
+    </plurals>
+    <plurals name="plurals0226">
+        <item quantity="other">Stickers already in \"%1$s\"</item>
+        <item quantity="one">Sticker already in \"%1$s\"</item>
+    </plurals>
+    <plurals name="plurals0227">
+        <item quantity="other">%d stickers</item>
+        <item quantity="one">%d sticker</item>
+    </plurals>
+    <plurals name="plurals0228">
+        <item quantity="other">"%d channels not displayed because they're taking up a small amount of storage"</item>
+        <item quantity="one">%d channel not displayed because it is taking up a small amount of storage</item>
+    </plurals>
+    <plurals name="plurals0229">
+        <item quantity="other">"%d chats not displayed because they're taking up a small amount of storage"</item>
+        <item quantity="one">%d chat not displayed because it is taking up a small amount of storage</item>
+    </plurals>
+    <plurals name="plurals022a">
+        <item quantity="other">%s deleted</item>
+        <item quantity="one">%s deleted</item>
+    </plurals>
+    <plurals name="plurals022b">
+        <item quantity="other">Free</item>
+        <item quantity="one">Free</item>
+    </plurals>
+    <plurals name="plurals022c">
+        <item quantity="other">Used</item>
+        <item quantity="one">Used</item>
+    </plurals>
+    <plurals name="plurals022d">
+        <item quantity="other">View all (%1$d more)</item>
+        <item quantity="one">View all (%1$d more)</item>
+    </plurals>
+    <plurals name="plurals022e">
+        <item quantity="other">%d apps selected</item>
+        <item quantity="one">%d app selected</item>
+    </plurals>
+    <plurals name="plurals022f">
+        <item quantity="other">If the groups are approved by an admin, the people in these groups will be added to the community and its announcement group.</item>
+        <item quantity="one">If the group is approved by an admin, the people in this group will be added to the community and its announcement group.</item>
+    </plurals>
+    <plurals name="plurals0230">
+        <item quantity="other">Only %1$d of %2$d group suggestions could be sent for admin approval.</item>
+        <item quantity="one">Only %1$d of %2$d group suggestions could be sent for admin approval.</item>
+    </plurals>
+    <plurals name="plurals0231">
+        <item quantity="other">Summarize %1$d unread</item>
+        <item quantity="one">Summarize %1$d unread</item>
+    </plurals>
+    <plurals name="plurals0232">
+        <item quantity="other">Groups deleted.</item>
+        <item quantity="one">Group deleted.</item>
+    </plurals>
+    <plurals name="plurals0233">
+        <item quantity="other">Delete %d groups?</item>
+        <item quantity="one">Delete %d group?</item>
+    </plurals>
+    <plurals name="plurals0234">
+        <item quantity="other">%d suspicious links</item>
+        <item quantity="one">%d suspicious link</item>
+    </plurals>
+    <plurals name="plurals0235">
+        <item quantity="other">%3$s deactivated the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">%3$s deactivated the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="plurals0236">
+        <item quantity="other">Groups \"%1$s\" &amp; %2$d others were deactivated</item>
+        <item quantity="one">Groups \"%1$s\" &amp; %2$d other were deactivated</item>
+    </plurals>
+    <plurals name="plurals0237">
+        <item quantity="other">You deactivated the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">You deactivated the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="plurals0238">
+        <item quantity="other">%2$s deactivated %1$1d groups</item>
+        <item quantity="one">%2$s deactivated a group</item>
+    </plurals>
+    <plurals name="plurals0239">
+        <item quantity="other">%1$d groups were deactivated</item>
+        <item quantity="one">A group was deactivated</item>
+    </plurals>
+    <plurals name="plurals023a">
+        <item quantity="other">You deactivated %1$d groups</item>
+        <item quantity="one">You deactivated a group</item>
+    </plurals>
+    <plurals name="plurals023b">
+        <item quantity="other">%3$s added the groups \"%1$s,\" \"%2$s\" &amp; %4$d others</item>
+        <item quantity="one">%3$s added the groups \"%1$s,\" \"%2$s\" &amp; %4$d other</item>
+    </plurals>
+    <plurals name="plurals023c">
+        <item quantity="other">Groups \"%1$s,\" \"%2$s\" &amp; %4$d others were added</item>
+        <item quantity="one">Groups \"%1$s,\" \"%2$s\" &amp; %4$d other were added</item>
+    </plurals>
+    <plurals name="plurals023d">
+        <item quantity="other">You added the groups \"%1$s,\" \"%2$s\" &amp; %4$d others</item>
+        <item quantity="one">You added the groups \"%1$s,\" \"%2$s\" &amp; %4$d other</item>
+    </plurals>
+    <plurals name="plurals023e">
+        <item quantity="other">%2$s added %1$1d groups</item>
+        <item quantity="one">%2$s added a group</item>
+    </plurals>
+    <plurals name="plurals023f">
+        <item quantity="other">%2$s added %1$1d groups</item>
+        <item quantity="one">%2$s added a group. View group</item>
+    </plurals>
+    <plurals name="plurals0240">
+        <item quantity="other">%1$d groups were added</item>
+        <item quantity="one">A group was added</item>
+    </plurals>
+    <plurals name="plurals0241">
+        <item quantity="other">%1$d groups were added</item>
+        <item quantity="one">A group was added. View group</item>
+    </plurals>
+    <plurals name="plurals0242">
+        <item quantity="other">You added %1$d groups</item>
+        <item quantity="one">You added a group</item>
+    </plurals>
+    <plurals name="plurals0243">
+        <item quantity="other">You added %1$d groups</item>
+        <item quantity="one">You added a group. View group</item>
+    </plurals>
+    <plurals name="plurals0244">
+        <item quantity="other">%3$s removed the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">%3$s removed the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="plurals0245">
+        <item quantity="other">Groups \"%1$s\" &amp; %2$d others were removed</item>
+        <item quantity="one">Groups \"%1$s\" &amp; %2$d other were removed</item>
+    </plurals>
+    <plurals name="plurals0246">
+        <item quantity="other">You removed the groups \"%1$s\" &amp; %2$d others</item>
+        <item quantity="one">You removed the groups \"%1$s\" &amp; %2$d other</item>
+    </plurals>
+    <plurals name="plurals0247">
+        <item quantity="other">%2$s removed %1$1d groups</item>
+        <item quantity="one">%2$s removed a group</item>
+    </plurals>
+    <plurals name="plurals0248">
+        <item quantity="other">%1$d groups were removed</item>
+        <item quantity="one">A group was removed</item>
+    </plurals>
+    <plurals name="plurals0249">
+        <item quantity="other">You removed %1$d groups</item>
+        <item quantity="one">You removed a group</item>
+    </plurals>
+    <plurals name="plurals024a">
+        <item quantity="other">%s new updates</item>
+        <item quantity="one">%s new update</item>
+    </plurals>
+    <plurals name="plurals024b">
+        <item quantity="other">New messages will disappear from this chat after %d days.</item>
+        <item quantity="one">New messages will disappear from this chat after %d day.</item>
+    </plurals>
+    <plurals name="plurals024c">
+        <item quantity="other">New messages will disappear from this chat after %d hours.</item>
+        <item quantity="one">New messages will disappear from this chat after %d hour.</item>
+    </plurals>
+    <plurals name="plurals024d">
+        <item quantity="other">New messages will disappear from this chat after %d minutes.</item>
+        <item quantity="one">New messages will disappear from this chat after %d minute.</item>
+    </plurals>
+    <plurals name="plurals024e">
+        <item quantity="other">New messages will disappear from this chat after %d seconds.</item>
+        <item quantity="one">New messages will disappear from this chat after %d second.</item>
+    </plurals>
+    <plurals name="plurals024f">
+        <item quantity="other">%d new updates</item>
+        <item quantity="one">%d new update</item>
+    </plurals>
+    <plurals name="plurals0250">
+        <item quantity="other">%d viewed updates</item>
+        <item quantity="one">%d viewed update</item>
+    </plurals>
+    <plurals name="plurals0251">
+        <item quantity="other">"%1$s's status. %2$d new updates"</item>
+        <item quantity="one">"%1$s's status. %2$d new update"</item>
+    </plurals>
+    <plurals name="plurals0252">
+        <item quantity="other">"%1$s's status. %2$d viewed updates"</item>
+        <item quantity="one">"%1$s's status. %2$d viewed update"</item>
+    </plurals>
+    <plurals name="plurals0253">
+        <item quantity="other">%d characters remaining</item>
+        <item quantity="one">%d character remaining</item>
+    </plurals>
+    <plurals name="plurals0254">
+        <item quantity="other">Text sent to My Status will be trimmed to the first %d characters.</item>
+        <item quantity="one">Text sent to My Status will be trimmed to the first %d character.</item>
+    </plurals>
+    <plurals name="plurals0255">
+        <item quantity="other">Text shared to My Status will be trimmed to the first %d characters.</item>
+        <item quantity="one">Text shared to My Status will be trimmed to the first %d character.</item>
+    </plurals>
+    <plurals name="plurals0256">
+        <item quantity="other">%1$s files • %2$s</item>
+        <item quantity="one">%1$s file • %2$s</item>
+    </plurals>
+    <plurals name="plurals0257">
+        <item quantity="other">Share %d files with…</item>
+        <item quantity="one">Share %d file with…</item>
+    </plurals>
+    <plurals name="plurals0258">
+        <item quantity="other">%s left</item>
+        <item quantity="one">%s left</item>
+    </plurals>
+    <plurals name="plurals0259">
+        <item quantity="other">%1$s members were added to %2$s</item>
+        <item quantity="one">%1$s was added to %2$s</item>
+    </plurals>
+    <plurals name="plurals025a">
+        <item quantity="other">%1$s members were added to %2$s</item>
+        <item quantity="one">%1$s was added to %2$s</item>
+    </plurals>
+    <plurals name="plurals025b">
+        <item quantity="other">%1$s members added to your contacts.</item>
+        <item quantity="one">%1$s member added to your contacts.</item>
+    </plurals>
+    <plurals name="plurals025c">
+        <item quantity="other">You can only share with up to %1$d chats.</item>
+        <item quantity="one">You can only share with %1$d chat.</item>
+    </plurals>
+    <plurals name="plurals025d">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="plurals025e">
+        <item quantity="other">You have %1$s to respond to this request</item>
+        <item quantity="one">You have %1$s to respond to this request</item>
+    </plurals>
+    <plurals name="plurals025f">
+        <item quantity="other">%1$s has %2$s to respond to your request</item>
+        <item quantity="one">%1$s has %2$s to respond to your request</item>
+    </plurals>
+    <plurals name="plurals0260">
+        <item quantity="other">%1$s has %2$s to accept this payment</item>
+        <item quantity="one">%1$s has %2$s to accept this payment</item>
+    </plurals>
+    <plurals name="plurals0261">
+        <item quantity="other">You have %1$s to accept this payment</item>
+        <item quantity="one">You have %1$s to accept this payment</item>
+    </plurals>
+    <plurals name="plurals0262">
+        <item quantity="other">%1$d contacts</item>
+        <item quantity="one">%1$d contact</item>
+    </plurals>
+    <plurals name="plurals0263">
+        <item quantity="other">%1$d members,</item>
+        <item quantity="one">%1$d member,</item>
+    </plurals>
+    <plurals name="plurals0264">
+        <item quantity="other">Are you sure you want to unfollow %s channels?</item>
+        <item quantity="one">Are you sure you want to unfollow %s channel?</item>
+    </plurals>
+    <plurals name="plurals0265">
+        <item quantity="other">Are you sure you want to unfollow %s channels? Stars will be removed from updates in these channels.</item>
+        <item quantity="one">Are you sure you want to unfollow %s channel? Stars will be removed from updates in this channel.</item>
+    </plurals>
+    <plurals name="plurals0266">
+        <item quantity="other">Unmute channels</item>
+        <item quantity="one">Unmute channel</item>
+    </plurals>
+    <plurals name="plurals0267">
+        <item quantity="other">Unpin channels</item>
+        <item quantity="one">Unpin channel</item>
+    </plurals>
+    <plurals name="plurals0268">
+        <item quantity="other">%d unread messages</item>
+        <item quantity="one">%d unread message</item>
+    </plurals>
+    <plurals name="plurals0269">
+        <item quantity="other">You have %1$d unread messages from %2$s, %3$s and more.</item>
+        <item quantity="one">You have %1$d unread message from %2$s, %3$s and more.</item>
+    </plurals>
+    <plurals name="plurals026a">
+        <item quantity="other">You have %1$d unread messages from %2$s.</item>
+        <item quantity="one">You have %1$d unread message from %2$s.</item>
+    </plurals>
+    <plurals name="plurals026b">
+        <item quantity="other">You have %1$d unread messages from %2$s and %3$s.</item>
+        <item quantity="one">You have %1$d unread message from %2$s and %3$s.</item>
+    </plurals>
+    <plurals name="plurals026c">
+        <item quantity="other">%1$d unread responses</item>
+        <item quantity="one">%1$d unread response</item>
+    </plurals>
+    <plurals name="plurals026d">
+        <item quantity="other">%d unread updates</item>
+        <item quantity="one">%d unread update</item>
+    </plurals>
+    <plurals name="plurals026e">
+        <item quantity="other">%1$s has %2$d new statuses.</item>
+        <item quantity="one">%1$s has %2$d new status.</item>
+    </plurals>
+    <plurals name="plurals026f">
+        <item quantity="other">%1$s has %2$d new status updates.</item>
+        <item quantity="one">%1$s has %2$d new status update.</item>
+    </plurals>
+    <plurals name="plurals0270">
+        <item quantity="other">New statuses</item>
+        <item quantity="one">New status</item>
+    </plurals>
+    <plurals name="plurals0271">
+        <item quantity="other">New status updates</item>
+        <item quantity="one">New status update</item>
+    </plurals>
+    <plurals name="plurals0272">
+        <item quantity="other">"Don't miss these updates"</item>
+        <item quantity="one">"Don't miss this update"</item>
+    </plurals>
+    <plurals name="plurals0273">
+        <item quantity="other">You have %1$d unsent messages in selection.</item>
+        <item quantity="one">You have %1$d unsent message in selection.</item>
+    </plurals>
+    <plurals name="plurals0274">
+        <item quantity="other">"Exit group: \"%1$s\"?
+You have %2$d unsent messages in this chat"</item>
+        <item quantity="one">"Exit group: \"%1$s\"?
+You have %2$d unsent message in this chat"</item>
+    </plurals>
+    <plurals name="plurals0275">
+        <item quantity="other">You have %1$s to approve this request</item>
+        <item quantity="one">You have %1$s to approve this request</item>
+    </plurals>
+    <plurals name="plurals0276">
+        <item quantity="other">Verified merchant • Send up to ₹%1$d Lakhs</item>
+        <item quantity="one">Verified merchant • Send up to ₹%1$d Lakh</item>
+    </plurals>
+    <plurals name="plurals0277">
+        <item quantity="other">%d talking now</item>
+        <item quantity="one">%d connected</item>
+    </plurals>
+    <plurals name="plurals0278">
+        <item quantity="other">Enter %1$d-character code, %2$d of %1$d</item>
+        <item quantity="one">Enter %1$d-character code, %2$d of %1$d</item>
+    </plurals>
+    <plurals name="plurals027a">
+        <item quantity="other">Ongoing video call - Waiting for others… This call will end in %d minutes if no one joins.</item>
+        <item quantity="one">Ongoing video call - Waiting for others… This call will end in %d minute if no one joins.</item>
+    </plurals>
+    <plurals name="plurals027b">
+        <item quantity="other">%d missed video calls</item>
+        <item quantity="one">%d missed video call</item>
+    </plurals>
+    <plurals name="plurals027c">
+        <item quantity="other">Videos set to default quality</item>
+        <item quantity="one">Video set to default quality</item>
+    </plurals>
+    <plurals name="plurals027d">
+        <item quantity="other">%1$d videos set to HD quality</item>
+        <item quantity="one">Video set to HD quality</item>
+    </plurals>
+    <plurals name="plurals027e">
+        <item quantity="other">%1$d videos set to original quality</item>
+        <item quantity="one">Video set to original quality</item>
+    </plurals>
+    <plurals name="plurals027f">
+        <item quantity="other">Videos sent to My Status will be trimmed to the first %d seconds.</item>
+        <item quantity="one">Videos sent to My Status will be trimmed to the first %d second.</item>
+    </plurals>
+    <plurals name="plurals0280">
+        <item quantity="other">Videos shared to My status will be trimmed to the first %d seconds.</item>
+        <item quantity="one">Videos shared to My status will be trimmed to the first %d second.</item>
+    </plurals>
+    <plurals name="plurals0281">
+        <item quantity="other">Video will be trimmed to the first %d seconds.</item>
+        <item quantity="one">Video will be trimmed to the first %d second.</item>
+    </plurals>
+    <plurals name="plurals0282">
+        <item quantity="other">View all (%d more)</item>
+        <item quantity="one">View all (%d more)</item>
+    </plurals>
+    <plurals name="plurals0283">
+        <item quantity="other">%d views</item>
+        <item quantity="one">%d view</item>
+    </plurals>
+    <plurals name="plurals0284">
+        <item quantity="other">View %d more</item>
+        <item quantity="one">View one more</item>
+    </plurals>
+    <plurals name="plurals0285">
+        <item quantity="other">Viewed by %d</item>
+        <item quantity="one">Viewed by %d</item>
+    </plurals>
+    <plurals name="plurals0286">
+        <item quantity="other">"You're the only one here. Voice chat ending in %1d seconds."</item>
+        <item quantity="one">"You're the only one here. Voice chat ending in %1d second."</item>
+    </plurals>
+    <plurals name="plurals0287">
+        <item quantity="other">Ongoing voice chat - Waiting for others… This voice chat will end in %d minutes if no one joins.</item>
+        <item quantity="one">Ongoing voice chat - Waiting for others… This voice chat will end in %d minute if no one joins.</item>
+    </plurals>
+    <plurals name="plurals0288">
+        <item quantity="other">Time extended by %1d minutes. Waiting for people to join.</item>
+        <item quantity="one">Time extended by %1d minute. Waiting for people to join.</item>
+    </plurals>
+    <plurals name="plurals0289">
+        <item quantity="other">Ongoing voice call - Waiting for others… This call will end in %d minutes if no one joins.</item>
+        <item quantity="one">Ongoing voice call - Waiting for others… This call will end in %d minute if no one joins.</item>
+    </plurals>
+    <plurals name="plurals028a">
+        <item quantity="other">You can only add %1$d people to this call.</item>
+        <item quantity="one">You can only add %1$d person to this call.</item>
+    </plurals>
+    <plurals name="plurals028b">
+        <item quantity="other">Add people</item>
+        <item quantity="one">Add person</item>
+    </plurals>
+    <plurals name="plurals028c">
+        <item quantity="other">"Couldn't add %1$s &amp; %2$d others"</item>
+        <item quantity="one">"Couldn't add %1$s &amp; %2$d other"</item>
+    </plurals>
+    <plurals name="plurals028d">
+        <item quantity="other">"Couldn't add %s"</item>
+        <item quantity="one">"Couldn't add %s"</item>
+    </plurals>
+    <plurals name="plurals028e">
+        <item quantity="other">Everyone in the call needs the latest version of WhatsApp for calls with %d people</item>
+        <item quantity="one">Everyone in the call needs the latest version of WhatsApp for calls with %d person</item>
+    </plurals>
+    <plurals name="plurals028f">
+        <item quantity="other">"Several people are using an old version of WhatsApp.
+
+To start calls with %d people, everyone in the call needs the latest version of WhatsApp."</item>
+        <item quantity="one">"Several people are using an old version of WhatsApp.
+
+To start calls with %d person, everyone in the call needs the latest version of WhatsApp."</item>
+    </plurals>
+    <plurals name="plurals0290">
+        <item quantity="other">"%1$s is using an old version of WhatsApp.
+
+To start calls with %2$d people, everyone in the call needs the latest version of WhatsApp."</item>
+        <item quantity="one">"%1$s is using an old version of WhatsApp.
+
+To start calls with %2$d person, everyone in the call needs the latest version of WhatsApp."</item>
+    </plurals>
+    <plurals name="plurals0291">
+        <item quantity="other">%s are unable to join WhatsApp group calls at this time.</item>
+        <item quantity="one">%s is unable to join WhatsApp group calls at this time.</item>
+    </plurals>
+    <plurals name="plurals0292">
+        <item quantity="other">"Couldn't place call. WhatsApp only supports a maximum of %d people in a group call"</item>
+        <item quantity="one">"Couldn't place call. WhatsApp only supports a maximum of %d person in a group call"</item>
+    </plurals>
+    <plurals name="plurals0293">
+        <item quantity="other">%s joined.</item>
+        <item quantity="one">%s joined.</item>
+    </plurals>
+    <plurals name="plurals0294">
+        <item quantity="other">%s invited to the call</item>
+        <item quantity="one">%s invited to the call</item>
+    </plurals>
+    <plurals name="plurals0295">
+        <item quantity="other">%s were invited.</item>
+        <item quantity="one">%s was invited.</item>
+    </plurals>
+    <plurals name="plurals0296">
+        <item quantity="other">%s are unable to receive WhatsApp calls at this time.</item>
+        <item quantity="one">%s is unable to receive WhatsApp calls at this time.</item>
+    </plurals>
+    <plurals name="plurals0297">
+        <item quantity="other">%1$d people have requested to join</item>
+        <item quantity="one">%1$d person has requested to join</item>
+    </plurals>
+    <plurals name="plurals0298">
+        <item quantity="other">%1$d participants approved</item>
+        <item quantity="one">%1$d participant approved</item>
+    </plurals>
+    <plurals name="plurals0299">
+        <item quantity="other">Facebook Page · %1$d followers</item>
+        <item quantity="one">Facebook Page · %1$d follower</item>
+    </plurals>
+    <plurals name="plurals029a">
+        <item quantity="other">Facebook Page · %1$s likes</item>
+        <item quantity="one">Facebook Page · %1$s like</item>
+    </plurals>
+    <plurals name="plurals029b">
+        <item quantity="other">You created broadcast list \"%1$s\" with %2$d recipients</item>
+        <item quantity="one">You created broadcast list \"%1$s\" with %2$d recipient</item>
+    </plurals>
+    <plurals name="plurals029c">
+        <item quantity="other">You created a broadcast list with %d recipients</item>
+        <item quantity="one">You created a broadcast list with %d recipient</item>
+    </plurals>
+    <plurals name="plurals029d">
+        <item quantity="other">%s joined using your invite</item>
+        <item quantity="one">%s joined using your invite</item>
+    </plurals>
+    <plurals name="plurals029e">
+        <item quantity="other">List of %d items</item>
+        <item quantity="one">List of %d item</item>
+    </plurals>
+    <plurals name="plurals029f">
+        <item quantity="other">You can only select %1$d people</item>
+        <item quantity="one">You can only select %1$d person</item>
+    </plurals>
+    <plurals name="plurals02a0">
+        <item quantity="other">You can only change this setting once every %d hours.</item>
+        <item quantity="one">You can only change this setting once every %d hour.</item>
+    </plurals>
+    <plurals name="plurals02a1">
+        <item quantity="other">Failed to leave %d groups. Try again.</item>
+        <item quantity="one">Failed to leave %d group. Try again.</item>
+    </plurals>
+    <plurals name="plurals02a2">
+        <item quantity="other">%s items</item>
+        <item quantity="one">%s item</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%d notifications</item>
+        <item quantity="one">%d notification</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="plurals02a5">
+        <item quantity="other">%1$d chats</item>
+        <item quantity="one">%1$d chat</item>
+    </plurals>
+</resources>

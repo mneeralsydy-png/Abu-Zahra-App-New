@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="top"
+        android:id="@id/event_info_location_icon"
+        android:layout_width="@dimen/dimen0fdb"
+        android:layout_height="@dimen/dimen0fdb"
+        android:layout_marginTop="@dimen/dimen0cf0"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        whatsapp:attr0838="@drawable/ic_location_on"
+        whatsapp:attr090d="@color/color0347" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.text.ReadMoreTextView
+            android:layout_gravity="center_vertical"
+            android:id="@id/event_info_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            whatsapp:attr06be="4"
+            whatsapp:attr06c0="?attr0a29"
+            whatsapp:attr06c1="@string/str2aa4"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color0397"
+            android:id="@id/event_view_on_maps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str13ab"
+            whatsapp:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+</LinearLayout>

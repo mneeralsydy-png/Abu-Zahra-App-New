@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:background="@color/yosettings_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:title="settings_general"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/yo_toolbar" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/participants_card"
+            android:background="@drawable/rounded_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="@dimen/settings_divider_text_margin_top"
+            android:layout_marginRight="16.0dip">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/yoColors"
+                android:tag="@string/yoColors"
+                android:background="?android:selectableItemBackground"
+                android:padding="@dimen/info_screen_padding"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:background="@drawable/Abo_Arab_WA5"
+                    android:padding="8.0dip"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:src="@drawable/universal_colors"
+                    android:scaleType="centerInside"
+                    android:tint="@color/icon_primary"
+                    android:layout_marginStart="12.0dip" />
+                <com.whatsapp.yo.tf
+                    android:text="@string/yoColors"
+                    android:singleLine="false"
+                    style="@style/YoSettings_row_more" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="@dimen/settings_row_horizontal_padding"
+                android:layout_marginRight="@dimen/settings_row_horizontal_padding"
+                android:layout_marginStart="@dimen/settings_row_horizontal_padding"
+                android:layout_marginEnd="@dimen/settings_row_horizontal_padding"
+                style="@style/FlatCardSeparator" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/yoStyling"
+                android:tag="@string/yoStyling"
+                android:background="?android:selectableItemBackground"
+                android:padding="@dimen/info_screen_padding"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:background="@drawable/Abo_Arab_WA5"
+                    android:padding="8.0dip"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:src="@drawable/universal_styles"
+                    android:scaleType="centerInside"
+                    android:tint="@color/icon_primary"
+                    android:layout_marginStart="12.0dip" />
+                <com.whatsapp.yo.tf
+                    android:text="@string/yoStyling"
+                    android:singleLine="false"
+                    style="@style/YoSettings_row_more" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="@dimen/settings_row_horizontal_padding"
+                android:layout_marginRight="@dimen/settings_row_horizontal_padding"
+                android:layout_marginStart="@dimen/settings_row_horizontal_padding"
+                android:layout_marginEnd="@dimen/settings_row_horizontal_padding"
+                style="@style/FlatCardSeparator" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/media_visibility_layout"
+                android:tag="@string/yo_hidemedia"
+                android:background="?android:selectableItemBackground"
+                android:padding="@dimen/info_screen_padding"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:background="@drawable/Abo_Arab_WA5"
+                    android:padding="8.0dip"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:src="@drawable/universal_hide_media"
+                    android:scaleType="centerInside"
+                    android:tint="@color/icon_primary"
+                    android:layout_marginStart="12.0dip" />
+                <com.whatsapp.yo.tf
+                    android:text="@string/yo_hidemedia"
+                    android:singleLine="false"
+                    style="@style/YoSettings_row_more" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="@dimen/settings_row_horizontal_padding"
+                android:layout_marginRight="@dimen/settings_row_horizontal_padding"
+                android:layout_marginStart="@dimen/settings_row_horizontal_padding"
+                android:layout_marginEnd="@dimen/settings_row_horizontal_padding"
+                style="@style/FlatCardSeparator" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/chat_backup_preference"
+                android:tag="@string/yoBackupRestore"
+                android:background="?android:selectableItemBackground"
+                android:padding="@dimen/info_screen_padding"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:background="@drawable/Abo_Arab_WA5"
+                    android:padding="8.0dip"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:src="@drawable/universal_backup"
+                    android:scaleType="centerInside"
+                    android:tint="@color/icon_primary"
+                    android:layout_marginStart="12.0dip" />
+                <com.whatsapp.yo.tf
+                    android:text="@string/yoBackupRestore"
+                    style="@style/YoSettings_row_more" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="@dimen/settings_row_horizontal_padding"
+                android:layout_marginRight="@dimen/settings_row_horizontal_padding"
+                android:layout_marginStart="@dimen/settings_row_horizontal_padding"
+                android:layout_marginEnd="@dimen/settings_row_horizontal_padding"
+                style="@style/FlatCardSeparator" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/menuitem_settings"
+                android:tag="@string/action_settings"
+                android:background="?android:selectableItemBackground"
+                android:padding="@dimen/info_screen_padding"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:background="@drawable/Abo_Arab_WA5"
+                    android:padding="8.0dip"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:src="@drawable/universal_settings"
+                    android:scaleType="centerInside"
+                    android:tint="@color/icon_primary"
+                    android:layout_marginStart="12.0dip" />
+                <com.whatsapp.yo.tf
+                    android:text="@string/action_settings"
+                    style="@style/YoSettings_row_more" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

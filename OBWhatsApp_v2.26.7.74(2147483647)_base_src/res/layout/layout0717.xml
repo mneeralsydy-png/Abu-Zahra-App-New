@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen0e46"
+    android:layout_height="@dimen/dimen0e46"
+    android:layout_marginLeft="@dimen/dimen05d0"
+    android:layout_marginRight="@dimen/dimen05d0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.mediacomposer.doodle.eyedropper.EyedropperColorPickerButton
+        android:layout_gravity="center"
+        android:id="@id/color_item_button"
+        android:layout_width="@dimen/dimen02b4"
+        android:layout_height="@dimen/dimen02b4"
+        app:attr035b="@drawable/eyedropper"
+        app:attr05fc="@dimen/dimen058a"
+        app:attr085f="@dimen/dimen058b" />
+</FrameLayout>

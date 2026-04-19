@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:cacheColorHint="@color/color0790"
+        android:choiceMode="none"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style01a2" />
+    <ScrollView
+        android:id="@id/block_list_empty"
+        android:paddingTop="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="36.0dip"
+                    android:paddingTop="@dimen/dimen103b"
+                    android:paddingRight="36.0dip"
+                    android:paddingBottom="@dimen/dimen102e"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:id="@id/block_list_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="center"
+                        app:attr0838="@drawable/settings_privacy_blocked_contacts" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textSize="@dimen/dimen0fb0"
+                        android:textColor="?attr0a47"
+                        android:id="@id/block_list_primary_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen103b"
+                        android:text="@string/str218b"
+                        app:attr03ae="?attr03b8"
+                        app:attr0a24="wds_font_body1" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textSize="@dimen/dimen0fb0"
+                        android:textColor="?attr0a47"
+                        android:gravity="center_horizontal"
+                        android:id="@id/block_list_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen103a"
+                        android:textAlignment="center"
+                        app:attr0a24="wds_font_body1" />
+                </LinearLayout>
+                <View
+                    android:background="?attr0a4d"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:layout_marginTop="@dimen/dimen1039"
+                    android:layout_marginBottom="@dimen/dimen1039" />
+                <ViewStub
+                    android:id="@id/block_list_info"
+                    android:inflatedId="@id/block_list_info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen103b"
+                    android:layout_marginRight="36.0dip" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

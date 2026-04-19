@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a46"
+        android:textColorLink="?attr0a49"
+        android:gravity="center"
+        android:id="@id/backup_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1032"
+        style="@style/style05a6" />
+    <View
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/stay_button"
+            android:text="@string/str011e"
+            style="@style/style055e" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/move_button"
+            android:text="@string/str011b"
+            style="@style/style055e" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

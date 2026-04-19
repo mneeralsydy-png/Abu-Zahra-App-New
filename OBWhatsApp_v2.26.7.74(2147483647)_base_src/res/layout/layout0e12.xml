@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textColor="?attr0a35"
+    android:id="@id/quote_view_replies_text"
+    android:paddingTop="2.0dip"
+    android:paddingBottom="2.0dip"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:maxLines="1"
+    android:singleLine="true"
+    app:attr0a24="wds_font_chat_body2_emphasized"
+    style="?attr09f7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

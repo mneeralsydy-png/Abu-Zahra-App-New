@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.aura.WaThemableLottieAnimationView
+    android:layout_gravity="center_horizontal"
+    android:id="@id/empty_community_row_hero_image"
+    android:paddingTop="@dimen/dimen0542"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr051c="@raw/wds_anim_communities_empty_state"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

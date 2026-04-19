@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/newsletter_directory_photo_container"
+        android:layout_width="76.0dip"
+        android:layout_height="72.0dip"
+        android:importantForAccessibility="noHideDescendants"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:layout_gravity="center"
+            android:id="@id/newsletter_directory_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            whatsapp:attr0675="medium" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/newsletter_info_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049b="@id/remove"
+        whatsapp:attr04ac="@id/newsletter_directory_photo_container"
+        whatsapp:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/newsletter_name"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b1="parent"
+            whatsapp:attr04b2="0.0"
+            style="?attr08d4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:gravity="start"
+            android:id="@id/newsletter_sub_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            whatsapp:attr0494="parent"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b0="@id/newsletter_name"
+            whatsapp:attr04b2="0.0"
+            style="?attr04e0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="end|center"
+        android:id="@id/remove"
+        android:padding="8.0dip"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginEnd="16.0dip"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr0838="@drawable/ic_close"
+        whatsapp:attr090d="@color/color0948" />
+</androidx.constraintlayout.widget.ConstraintLayout>

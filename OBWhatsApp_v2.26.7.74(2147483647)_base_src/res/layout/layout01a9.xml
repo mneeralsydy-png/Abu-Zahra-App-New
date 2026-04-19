@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaDynamicRoundCornerImageView
+        android:id="@id/tile_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@color/color07f1"
+        app:attr069e="?attr010f" />
+    <ViewStub
+        android:id="@id/call_grid_blur_background_stub"
+        android:layout="@layout/layout02b2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <View
+        android:id="@id/speaking_border"
+        android:background="@drawable/call_grid_speaking_border"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <include
+        android:id="@id/picture_in_picture_container"
+        layout="@layout/layout0d1d" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:id="@id/audio_call_grid"
+        android:padding="@dimen/dimen0ea1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="30.0dip"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/audio_call_participant_name"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:maxLines="2"
+            android:fontFamily="?attr03b6"
+            app:attr0495="@id/audio_call_participant_photo"
+            app:attr04b1="parent"
+            app:attr04b3="packed" />
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:id="@id/audio_call_participant_photo"
+            android:focusable="false"
+            android:visibility="visible"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:importantForAccessibility="no"
+            app:attr0495="@id/audio_call_participant_wave"
+            app:attr0499="h,1:1"
+            app:attr049a="parent"
+            app:attr04a0="@dimen/dimen01b6"
+            app:attr04a2="0.33"
+            app:attr04ad="parent"
+            app:attr04b0="@id/audio_call_participant_name"
+            app:attr04b6="@dimen/dimen01b6"
+            app:attr0838="@drawable/vec_avatar_contact_voice_call" />
+        <com.whatsapp.calling.ui.callgrid.view.VoiceParticipantAudioWave
+            android:id="@id/audio_call_participant_wave"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_marginBottom="@dimen/dimen0ea1"
+            app:attr0494="parent"
+            app:attr0499="h,2:1"
+            app:attr049a="@id/audio_call_participant_photo"
+            app:attr04ad="@id/audio_call_participant_photo"
+            app:attr04b0="@id/audio_call_participant_photo" />
+        <ViewStub
+            android:id="@id/corner_loading_spinner"
+            android:visibility="gone"
+            android:layout="@layout/layout05c4"
+            android:inflatedId="@id/corner_loading_spinner"
+            android:layout_width="@dimen/dimen01c2"
+            android:layout_height="@dimen/dimen01c2"
+            app:attr049a="parent"
+            app:attr04b1="parent" />
+        <ViewStub
+            android:id="@id/call_participant_raise_hand"
+            android:layout="@layout/layout02b9"
+            android:inflatedId="@id/call_participant_raise_hand"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="@dimen/dimen01f1"
+            android:layout_marginBottom="@dimen/dimen01f1"
+            android:layout_marginStart="@dimen/dimen01f1"
+            app:attr0494="parent"
+            app:attr0499="h,1:1"
+            app:attr04ad="parent"
+            app:attr04b2="1.0" />
+        <ViewStub
+            android:id="@id/call_participant_reaction"
+            android:layout="@layout/layout02b9"
+            android:inflatedId="@id/call_participant_reaction"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="@dimen/dimen01f1"
+            android:layout_marginBottom="@dimen/dimen01f1"
+            android:layout_marginStart="@dimen/dimen01f1"
+            app:attr0494="parent"
+            app:attr0499="h,1:1"
+            app:attr04ac="@id/call_participant_raise_hand"
+            app:attr04b2="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub
+        android:id="@id/status_container_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout02e2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr04b6="wrap" />
+    <View
+        android:id="@id/dark_overlay"
+        android:background="@drawable/voice_call_grid_dark_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.0" />
+</FrameLayout>

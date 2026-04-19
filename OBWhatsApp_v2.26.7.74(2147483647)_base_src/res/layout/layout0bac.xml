@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/newsletter_directory_row_container"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0450"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/newsletter_directory_photo_container"
+        android:layout_width="@dimen/dimen0744"
+        android:layout_height="@dimen/dimen0450"
+        android:importantForAccessibility="noHideDescendants"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04a7="parent"
+        whatsapp:attr04b1="parent">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:layout_gravity="center"
+            android:id="@id/newsletter_directory_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0cf0"
+            whatsapp:attr0675="medium" />
+        <ViewStub
+            android:id="@id/selection_check"
+            android:layout="@layout/layout11e8"
+            android:inflatedId="@id/selection_check"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginLeft="46.0dip"
+            android:layout_marginTop="40.0dip" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/newsletter_info_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049b="@id/quick_follow_icon"
+        whatsapp:attr04ac="@id/newsletter_directory_photo_container"
+        whatsapp:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:ellipsize="end"
+            android:id="@id/newsletter_name"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b1="parent"
+            whatsapp:attr04b2="0.0"
+            style="?attr08d4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen04c7"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:id="@id/newsletter_follow_count"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b0="@id/newsletter_name"
+            whatsapp:attr04b2="0.0"
+            style="?attr04e0" />
+        <ViewStub
+            android:id="@id/newsletter_description_stub"
+            android:layout="@layout/layout11df"
+            android:inflatedId="@id/newsletter_description"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            whatsapp:attr0494="parent"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b0="@id/newsletter_follow_count"
+            whatsapp:attr04b2="0.0" />
+        <ViewStub
+            android:id="@id/newsletter_pcitem_marker_hidden"
+            android:layout="@layout/layout0be1"
+            android:inflatedId="@id/newsletter_pcitem_marker_hidden"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b0="@id/newsletter_name"
+            whatsapp:attr04b2="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/quick_follow_icon"
+        android:paddingTop="@dimen/dimen04c9"
+        android:paddingBottom="@dimen/dimen04c9"
+        android:layout_width="@dimen/dimen04ca"
+        android:layout_height="@dimen/dimen0450"
+        android:contentDescription="@string/str2a42"
+        android:paddingStart="@dimen/dimen04c8"
+        android:paddingEnd="@dimen/dimen04c8"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr0838="@drawable/quick_follow_background"
+        whatsapp:attr090d="?attr0a29" />
+    <ViewStub
+        android:id="@id/quick_follow_progressBar_container"
+        android:layout="@layout/layout0e0e"
+        android:inflatedId="@id/quick_follow_progressBar_container"
+        android:layout_width="@dimen/dimen04ca"
+        android:layout_height="@dimen/dimen0450"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/quick_follow_button_container"
+        android:layout="@layout/layout0e0d"
+        android:inflatedId="@id/quick_follow_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen0450"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b1="parent" />
+    <View
+        android:id="@id/newsletter_directory_item_divider"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="@id/newsletter_info_layout"
+        style="@style/style0355" />
+</androidx.constraintlayout.widget.ConstraintLayout>

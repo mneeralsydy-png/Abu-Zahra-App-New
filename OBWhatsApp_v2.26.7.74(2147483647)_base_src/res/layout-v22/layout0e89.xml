@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/rich_response_table_block"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0cea"
+    android:layout_marginBottom="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/rich_response_table_header_wrapper"
+        android:background="@drawable/rich_response_table_block_header_border"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0495="@id/rich_response_table_block_content"
+        app:attr049a="parent"
+        app:attr04ad="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/rich_response_table_block_icon"
+            android:layout_width="@dimen/dimen0bf0"
+            android:layout_height="@dimen/dimen0bee"
+            android:src="@drawable/bot_rich_response_table_icon"
+            android:scaleType="centerInside"
+            android:tint="@color/color08de"
+            android:paddingStart="@dimen/dimen0ce8"
+            android:paddingEnd="@dimen/dimen0ce8"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a4"
+            android:ellipsize="end"
+            android:id="@id/rich_response_table_block_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2cf1"
+            android:maxLines="1"
+            android:textDirection="locale"
+            android:textAlignment="viewStart"
+            app:attr04ac="@id/rich_response_table_block_icon"
+            app:attr04b1="@id/rich_response_table_block_icon"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a9"
+            android:textColor="@color/color08dd"
+            android:id="@id/rich_response_table_block_link"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2cee"
+            android:textAlignment="viewStart"
+            app:attr04ac="@id/rich_response_table_block_icon"
+            app:attr04b0="@id/rich_response_table_block_header"
+            app:attr0a24="wds_font_body3_emphasized" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:id="@id/rich_response_table_block_content"
+        android:background="@drawable/rich_response_table_block_content_border"
+        android:padding="@dimen/dimen0c10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:translationY="@dimen/dimen0c11"
+        android:clipToOutline="true"
+        app:attr04b0="@id/rich_response_table_header_wrapper">
+        <com.whatsapp.conversation.ui.conversationrow.TruncatableWrapperLayout
+            android:id="@id/truncatable_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <HorizontalScrollView
+                android:id="@id/table_scroll_view"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TableLayout
+                    android:id="@id/table_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:stretchColumns="*" />
+            </HorizontalScrollView>
+        </com.whatsapp.conversation.ui.conversationrow.TruncatableWrapperLayout>
+        <ViewStub
+            android:layout_gravity="bottom"
+            android:id="@id/rich_response_table_block_overlay_stub"
+            android:background="@drawable/bot_rich_response_code_overlay_background"
+            android:layout="@layout/layout0e84"
+            android:inflatedId="@id/rich_response_code_block_overlay_inflated"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0bf2" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

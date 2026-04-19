@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.actiontile.WDSActionTileGroup
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:id="@id/newsletter_details_actions"
+    android:paddingTop="@dimen/dimen0ce7"
+    android:paddingBottom="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen103a"
+    android:layout_marginRight="@dimen/dimen103a"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_add_white"
+        android:id="@id/action_follow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str1525"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_forward_white"
+        android:id="@id/action_forward"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str2166"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_share_small"
+        android:id="@id/action_share"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str424a"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_search_white"
+        android:id="@id/action_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str420c"
+        android:layout_weight="1.0" />
+</com.whatsapp.ui.wds.components.actiontile.WDSActionTileGroup>

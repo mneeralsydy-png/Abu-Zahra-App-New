@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:background="@drawable/ctwa_flow_context_loading_toolbar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.flows.ui.PercentageBasedMaxHeightLinearLayout
+        android:orientation="vertical"
+        android:id="@id/ctwa_flow_context_loading_bottom_sheet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:id="@id/toolbar_layout"
+            android:background="?attr0a5a"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+                android:theme="@style/style04ce"
+                android:id="@id/ctwa_flow_context_loading_toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr05ca="@string/str3dac" />
+            <View
+                android:id="@id/divider_under_nav_bar"
+                android:layout_below="@id/ctwa_flow_context_loading_toolbar"
+                style="@style/style0355" />
+            <FrameLayout
+                android:id="@id/loading_error_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="240.0dip"
+                android:layout_below="@id/divider_under_nav_bar"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true">
+                <com.whatsapp.ui.coreui.CircularProgressBar
+                    android:layout_gravity="center"
+                    android:id="@id/loading"
+                    android:layout_width="32.0dip"
+                    android:layout_height="32.0dip"
+                    android:indeterminate="true"
+                    android:indeterminateOnly="false"
+                    android:indeterminateTint="?attr0a29"
+                    android:indeterminateTintMode="src_atop"
+                    app:attr028b="?attr030e"
+                    app:attr028c="?attr0a29"
+                    app:attr0290="4.0" />
+                <ViewStub
+                    android:layout_gravity="center"
+                    android:id="@id/error_view_stub"
+                    android:layout="@layout/layout05e3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/dimen1038"
+                    android:layout_marginRight="@dimen/dimen1038" />
+            </FrameLayout>
+        </RelativeLayout>
+    </com.whatsapp.flows.ui.PercentageBasedMaxHeightLinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

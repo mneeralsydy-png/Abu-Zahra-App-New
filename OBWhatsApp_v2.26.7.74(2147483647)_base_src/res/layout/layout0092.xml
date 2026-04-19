@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.search.WDSSearchBar
+        android:id="@id/wds_search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/header_space"
+        android:layout_width="fill_parent"
+        android:layout_height="68.0dip"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/wds_search_bar">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/contact_icon"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:src="@drawable/avatar_contact"
+            app:attr04a7="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/name_or_number"
+            android:layout_width="wrap_content"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:singleLine="true"
+            app:attr0495="@id/operator_and_region"
+            app:attr04a8="@id/contact_icon"
+            app:attr04b1="parent"
+            app:attr04b3="packed"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:id="@id/operator_and_region"
+            android:layout_width="wrap_content"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:singleLine="true"
+            app:attr0494="parent"
+            app:attr04a8="@id/contact_icon"
+            app:attr04b0="@id/name_or_number"
+            style="@style/style05a8" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:gravity="center_vertical"
+            android:id="@id/change_operator_and_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen1039"
+            android:text="@string/str0539"
+            android:maxLines="1"
+            app:attr0494="parent"
+            app:attr04ab="parent"
+            app:attr04b1="parent"
+            style="@style/style0558" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:id="@id/header_divider"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/header_space"
+        style="@style/style0355" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@id/plan_types_list"
+        android:paddingTop="@dimen/dimen1039"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen1037"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e"
+        app:attr0488="LinearLayoutManager"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/header_divider" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@id/plan_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0488="LinearLayoutManager"
+        app:attr0495="@id/select_plan_btn"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/plan_types_list"
+        app:attr04b3="spread_inside" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:enabled="false"
+        android:gravity="bottom|center"
+        android:id="@id/select_plan_btn"
+        android:layout_marginLeft="@dimen/dimen0a5d"
+        android:layout_marginRight="@dimen/dimen0a5d"
+        android:text="@string/str0540"
+        android:maxLines="1"
+        app:attr0495="@id/bbps_branding_footer"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        style="@style/style055c" />
+    <include
+        android:id="@id/bbps_branding_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0693"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        layout="@layout/layout01de" />
+</androidx.constraintlayout.widget.ConstraintLayout>

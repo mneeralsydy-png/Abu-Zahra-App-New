@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/bill_containet"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="68.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/user_receipt_icon_layout"
+        android:background="@drawable/recent_biller_account_icon_bg"
+        android:layout_width="@dimen/dimen0bbc"
+        android:layout_height="@dimen/dimen0bbc"
+        android:layout_marginLeft="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_width="@dimen/dimen0bbb"
+            android:layout_height="@dimen/dimen0bbb"
+            android:src="@drawable/ic_receipt"
+            app:attr090d="?attr0a46" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/user_account_pending_action_cta"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen0bbd"
+        android:text="@string/str263c"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr09ea="small"
+        style="@style/style0555" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/account_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:singleLine="true"
+        app:attr0495="@id/bill_due_details"
+        app:attr04ac="@id/user_receipt_icon_layout"
+        app:attr04b1="parent"
+        app:attr04b3="packed"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/bill_due_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:singleLine="true"
+        app:attr0494="parent"
+        app:attr04ac="@id/user_receipt_icon_layout"
+        app:attr04b0="@id/account_id"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

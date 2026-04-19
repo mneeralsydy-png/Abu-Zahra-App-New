@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.fab.WDSFab
+    android:id="@id/ok_btn"
+    android:src="@drawable/ic_check_white_small"
+    android:layout_weight="0.0"
+    android:contentDescription="@string/str0e72"
+    app:attr0495="@id/expression_tray_barrier"
+    app:attr049a="parent"
+    app:attr04b1="parent"
+    app:attr04b2="1.0"
+    app:attr04b3="packed"
+    app:attr04b4="1.0"
+    style="@style/style055f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

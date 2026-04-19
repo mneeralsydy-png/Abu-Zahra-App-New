@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:background="@drawable/download_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr0494="parent"
+    app:attr04a7="parent"
+    app:attr04ab="parent"
+    app:attr04b1="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:layout_gravity="center"
+        android:id="@id/progress_bar"
+        android:visibility="gone"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip"
+        android:indeterminateOnly="false"
+        app:attr028b="@color/color0790"
+        app:attr028c="?attr0a79"
+        app:attr028d="@color/color0790"
+        app:attr028e="?attr00af"
+        app:attr028f="1.0dip"
+        app:attr0290="5.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/cancel_btn"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0838="@drawable/ic_close_white_small" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/control_btn"
+        android:text="@string/str07f2"
+        style="@style/style01b4" />
+</FrameLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/color05f3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@id/header"
+        android:background="@color/color05e5"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip">
+        <ImageView
+            android:id="@id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="2.0dip"
+            android:src="@drawable/actionbar_logo"
+            android:contentDescription="@string/str3ed3"
+            android:layout_marginStart="5.0dip"
+            android:layout_marginEnd="2.0dip" />
+        <LinearLayout
+            android:gravity="start"
+            android:orientation="vertical"
+            android:paddingBottom="3.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/title"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3ed3"
+                android:singleLine="true"
+                style="@style/style0454" />
+            <TextView
+                android:ellipsize="end"
+                android:id="@id/subtitle"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3.0dip"
+                android:singleLine="true"
+                style="@style/style0451" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ListView
+            android:id="@id/list_view_widget"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/divider_gray"
+            android:dividerHeight="0.5dip" />
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="?android:textColorSecondaryNoDisable"
+            android:gravity="center"
+            android:id="@id/empty_view"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:text="@string/str4084" />
+        <TextView
+            android:textSize="18.0sp"
+            android:textColor="?android:textColorSecondaryNoDisable"
+            android:gravity="center"
+            android:id="@id/status_empty_view"
+            android:paddingTop="8.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="@dimen/dimen105a"
+            android:layout_marginRight="8.0dip"
+            android:text="@string/str4084" />
+    </FrameLayout>
+</LinearLayout>

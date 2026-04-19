@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/out_of_chat_layout"
+    android:background="?attr05ee"
+    android:layout_width="fill_parent"
+    android:layout_height="52.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/out_of_chat_playback_btn"
+        android:background="?attr05ee"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:layout_width="56.0dip"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/inline_audio_pause"
+        app:attr090d="?attr0a2f" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/out_of_chat_picture_title_container"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr04a8="@id/out_of_chat_playback_btn"
+        app:attr04aa="@id/out_of_chat_close_btn"
+        app:attr04b1="parent">
+        <FrameLayout
+            android:id="@id/out_of_chat_picture_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr04a7="parent"
+            app:attr04aa="@id/out_of_chat_title"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/out_of_chat_picture"
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip"
+                android:layout_marginRight="5.0dip"
+                android:scaleType="fitCenter"
+                app:attr0838="@drawable/avatar_contact" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="bottom|center|right"
+                android:id="@id/out_of_chat_headphone_overlay"
+                android:background="@drawable/headphone_background_incoming"
+                android:visibility="gone"
+                android:layout_width="18.0dip"
+                android:layout_height="18.0dip"
+                android:layout_marginLeft="24.0dip"
+                android:scaleType="fitXY"
+                android:tint="?attr0a2f"
+                android:backgroundTint="?attr05ee"
+                app:attr0838="@drawable/headphone_played" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="bottom|center|right"
+                android:id="@id/out_of_chat_mic_overlay"
+                android:background="@drawable/mic_background_incoming"
+                android:layout_width="12.0dip"
+                android:layout_height="22.0dip"
+                android:scaleType="fitXY"
+                android:tint="?attr0a2f"
+                android:backgroundTint="?attr05ee"
+                app:attr0838="@drawable/mic_played" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/out_of_chat_audio_icon"
+                android:padding="8.0dip"
+                android:visibility="gone"
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip"
+                android:layout_marginRight="5.0dip"
+                android:scaleType="fitCenter"
+                app:attr0838="@drawable/ic_headphones_white" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/out_of_chat_mic_icon"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                app:attr0838="@drawable/ic_mic_white_large_3" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a2f"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:id="@id/out_of_chat_title"
+            android:layout_width="wrap_content"
+            android:layout_height="47.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            app:attr0490="true"
+            app:attr0494="parent"
+            app:attr04a8="@id/out_of_chat_picture_frame"
+            app:attr04ab="parent"
+            app:attr04b1="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/out_of_chat_close_btn"
+        android:background="?attr05ee"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:layout_width="56.0dip"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/str3dac"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_cam_close"
+        app:attr090d="?attr0a2f" />
+    <com.whatsapp.voicerecorder.VoiceNoteSeekBar
+        android:id="@id/out_of_chat_seekbar"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr097f="@color/color0566"
+        app:attr0980="3.0dip"
+        app:attr0981="3.0dip"
+        style="@style/style0547" />
+</androidx.constraintlayout.widget.ConstraintLayout>

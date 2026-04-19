@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/notification_activity_floating_banner_content"
+    android:paddingTop="@dimen/dimen026e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0114"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/notif_banner_header"
+        android:paddingLeft="@dimen/dimen026c"
+        android:paddingRight="@dimen/dimen026c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen026d"
+        android:layout_marginBottom="@dimen/dimen026b"
+        android:lineSpacingExtra="4.0sp" />
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/action_view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="@dimen/dimen0fb6"
+            android:id="@id/notif_action_view_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="@dimen/dimen0fb6"
+            android:id="@id/notif_action_view_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

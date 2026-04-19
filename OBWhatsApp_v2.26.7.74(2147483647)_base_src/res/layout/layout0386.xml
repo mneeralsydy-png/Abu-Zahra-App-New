@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/community_media_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/community_media_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr000d"
+        app:attr02dd="gone"
+        style="@style/style0520" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/media_search_input_container"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen102a"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen1026"
+        android:layout_marginStart="@dimen/dimen1027"
+        android:layout_marginEnd="@dimen/dimen1028">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="start|center"
+            android:id="@id/media_search_input_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/ic_search_white"
+            app:attr090d="@color/color0776"
+            style="?attr0015" />
+        <com.whatsapp.searchui.search.views.TokenizedSearchInput
+            android:id="@id/media_search_input_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@id/community_media_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+</LinearLayout>

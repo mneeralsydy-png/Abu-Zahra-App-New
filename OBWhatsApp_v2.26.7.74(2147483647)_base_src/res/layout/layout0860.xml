@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:transitionGroup="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/document_gallery_banner_stub"
+        android:layout="@layout/layout0657"
+        android:inflatedId="@id/document_gallery_banner_stub"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/grid_view_stub"
+        android:inflatedId="@id/grid"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b0="@id/document_gallery_banner_stub" />
+    <com.whatsapp.ui.coreui.scroller.RecyclerFastScroller
+        android:id="@id/scroller"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/no_media"
+        android:layout="@layout/layout0862"
+        android:inflatedId="@id/no_media"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/progress_bar"
+        android:layout="@layout/layout0861"
+        android:inflatedId="@id/progress_bar"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <View
+        android:id="@id/transition_clipper_top"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen08b2"
+        android:transitionName="@string/str42df"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <View
+        android:id="@id/header_transition"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="-56.0dip"
+        android:transitionName="@string/str42e2"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <View
+        android:id="@id/transition_clipper_bottom"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:transitionName="@string/str42de"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent" />
+    <View
+        android:id="@id/gallery_filter_swipe_transition"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:transitionName="@string/str42e0"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent" />
+    <View
+        android:id="@id/gallery_send_button_transition"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginRight="44.0dip"
+        android:transitionName="@string/str42e7"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/attribution_artwork_icon"
+    android:layout_width="@dimen/dimen09a4"
+    android:layout_height="@dimen/dimen09a4"
+    android:tint="?attr0a47"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:background="?attr0798"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="@color/color08de"
+                android:id="@id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str23ba"
+                app:attr04ad="parent"
+                app:attr04b1="parent"
+                app:attr0a24="wds_font_body2"
+                style="@style/style05a6" />
+            <RadioGroup
+                android:orientation="vertical"
+                android:id="@id/reason_types"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr04ad="parent"
+                app:attr04b0="@id/description">
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reason_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str4097" />
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reason_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str4098" />
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reason_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str4099" />
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reason_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str409a" />
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reason_5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str409b" />
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reason_other"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str409c" />
+            </RadioGroup>
+            <com.whatsapp.ui.wds.components.textfield.WDSTextField
+                android:id="@id/reason_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:hint="@string/str23bc"
+                android:maxLength="1000"
+                app:attr0285="true"
+                app:attr04ad="parent"
+                app:attr04b0="@id/reason_types"
+                style="@style/style0587" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="@color/color08de"
+                android:id="@id/disclaimer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:text="@string/str23bb"
+                app:attr04ad="parent"
+                app:attr04b0="@id/reason_text"
+                app:attr0a24="wds_font_body3"
+                style="@style/style05a8" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1039">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/skip_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str23bd"
+            app:attr096b="outline"
+            style="@style/style055d" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:enabled="false"
+            android:id="@id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str23be"
+            app:attr096b="filled"
+            style="@style/style0555" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

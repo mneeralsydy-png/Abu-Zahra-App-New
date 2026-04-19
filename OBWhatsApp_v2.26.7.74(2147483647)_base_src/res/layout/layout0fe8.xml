@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.status.playback.content.BlurFrameLayout
+        android:layout_gravity="center"
+        android:id="@id/blur_container"
+        android:paddingTop="@dimen/dimen0d71"
+        android:paddingBottom="@dimen/dimen0d71"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.status.playback.widget.VoiceStatusContentView
+            android:id="@id/message_voice"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0d72"
+            android:layout_marginLeft="@dimen/dimen0d73"
+            android:layout_marginRight="@dimen/dimen0d73" />
+    </com.whatsapp.status.playback.content.BlurFrameLayout>
+</merge>

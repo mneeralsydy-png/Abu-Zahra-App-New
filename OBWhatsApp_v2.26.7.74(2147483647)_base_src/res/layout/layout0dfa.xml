@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen103b"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/qr_code_container"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.QrImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/qr_code"
+            android:background="@drawable/qrcode_bg"
+            android:padding="@dimen/dimen1039"
+            android:layout_width="250.0dip"
+            android:layout_height="250.0dip"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen102e"
+            app:attr07ef="false"
+            app:attr083c="@drawable/ic_qr_walogo" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/qr_code_instruction_title"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:text="@string/str19d7"
+            style="@style/style0267" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/qr_code_instruction_text"
+            android:text="@string/str19d6"
+            style="@style/style0262" />
+    </LinearLayout>
+</LinearLayout>

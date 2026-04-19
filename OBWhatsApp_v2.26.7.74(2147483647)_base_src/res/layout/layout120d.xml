@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.util.ClippingLayout
+    android:layout_gravity="bottom"
+    android:id="@id/voice_note_clipping_layout"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/voice_note_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/voice_note_pulse"
+            android:layout_width="47.0dip"
+            android:layout_height="47.0dip"
+            android:scaleType="center"
+            app:attr0838="@drawable/ic_mic_red" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="20.0sp"
+            android:textColor="?attr0a46"
+            android:gravity="center|left"
+            android:id="@id/voice_note_info"
+            android:layout_width="84.0dip"
+            android:layout_height="47.0dip"
+            android:text="00:00"
+            android:maxLines="1"
+            app:attr006d="20.0sp"
+            app:attr006e="@dimen/dimen0fbc"
+            app:attr0071="uniform" />
+        <FrameLayout
+            android:id="@id/voice_note_slide_to_cancel_layout"
+            android:clipChildren="true"
+            android:layout_width="0.0dip"
+            android:layout_height="47.0dip"
+            android:layout_weight="1.0">
+            <FrameLayout
+                android:id="@id/voice_note_slide_to_cancel_scroller"
+                android:clipChildren="true"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr0a46"
+                    android:ellipsize="none"
+                    android:gravity="center"
+                    android:layout_gravity="center|right"
+                    android:id="@id/voice_note_slide_to_cancel"
+                    android:paddingLeft="16.0dip"
+                    android:paddingRight="@dimen/dimen1034"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/str39fb"
+                    android:scrollHorizontally="false"
+                    android:singleLine="true"
+                    android:drawablePadding="8.0dip"
+                    app:attr02e9="@drawable/ic_arrow_back_ios_new"
+                    app:attr0a24="wds_font_body1" />
+            </FrameLayout>
+            <View
+                android:id="@id/voice_note_slide_to_cancel_animation"
+                android:background="@drawable/slide_cancel_animation_background"
+                android:paddingLeft="@dimen/dimen1034"
+                android:paddingRight="@dimen/dimen1034"
+                android:layout_width="94.0dip"
+                android:layout_height="fill_parent" />
+            <View
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/slide_to_cancel_fade"
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</com.whatsapp.ui.coreui.util.ClippingLayout>

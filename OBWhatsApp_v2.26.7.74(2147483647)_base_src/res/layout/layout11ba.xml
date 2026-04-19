@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:gravity="center"
+    android:layout_gravity="bottom"
+    android:id="@id/view_once_toggle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="center"
+    app:attr0838="@drawable/view_once_selector"
+    app:attr090d="@color/color06c6"
+    style="@style/style0006"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/background"
+        android:background="#fffafafa"
+        android:padding="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/actionbar"
+            android:background="#fffafafa"
+            android:padding="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@id/back"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back_white"
+                android:scaleType="center" />
+            <TextView
+                android:textSize="18.0sp"
+                android:textColor="#ff616161"
+                android:gravity="center|left"
+                android:layout_gravity="center|left"
+                android:id="@id/title"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fancy"
+                android:singleLine="true"
+                android:layout_weight="1.0" />
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@id/about"
+                android:padding="4.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abu_arab_status_font"
+                android:scaleType="center" />
+        </LinearLayout>
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="#ff009788"
+            android:gravity="center|left"
+            android:layout_gravity="center|left"
+            android:id="@id/text_title"
+            android:padding="8.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abu_arab_settings_fancy_help_title" />
+        <EditText
+            android:textSize="16.0sp"
+            android:textColor="#ff757575"
+            android:textColorHint="#ff757575"
+            android:gravity="center|left"
+            android:layout_gravity="center|left"
+            android:id="@id/imput"
+            android:background="#fff5f5f5"
+            android:padding="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mas"
+            android:singleLine="true"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView
+        android:id="@id/listview"
+        android:background="#ffffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:dividerHeight="0.0dip"
+        android:choiceMode="none" />
+</LinearLayout>

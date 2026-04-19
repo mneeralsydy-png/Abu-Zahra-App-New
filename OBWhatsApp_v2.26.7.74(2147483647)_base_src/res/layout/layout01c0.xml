@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dimen0ce8"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/dimen0cee"
+        android:layout_marginEnd="@dimen/dimen0cee">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr066e"
+            android:ellipsize="end"
+            android:layout_gravity="start"
+            android:id="@id/language_name"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:layout_gravity="start"
+            android:id="@id/language_name_translated"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/download_action"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/dimen0e25"
+        android:layout_height="@dimen/dimen0e25"
+        android:layout_marginEnd="@dimen/dimen0cee"
+        app:attr0838="@drawable/ic_download"
+        app:attr090d="@color/color0346" />
+    <ViewStub
+        android:layout_gravity="center_vertical"
+        android:id="@id/progress_stub"
+        android:layout="@layout/layout10e0"
+        android:layout_width="@dimen/dimen0e25"
+        android:layout_height="@dimen/dimen0e25"
+        android:layout_marginEnd="@dimen/dimen0cee" />
+</LinearLayout>

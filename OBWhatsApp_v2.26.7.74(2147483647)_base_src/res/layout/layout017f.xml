@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="start"
+        android:id="@id/media_container"
+        android:paddingLeft="0.0dip"
+        android:paddingTop="@dimen/dimen1030"
+        android:paddingRight="0.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="@dimen/dimen03c6"
+        android:layout_height="@dimen/dimen03c6"
+        android:layout_marginBottom="@dimen/dimen1030">
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/lottie_animation_view_stub"
+            android:layout="@layout/layout0180"
+            android:layout_width="@dimen/dimen03c3"
+            android:layout_height="@dimen/dimen03c3" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.WaLinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|center|left"
+        android:orientation="horizontal"
+        android:id="@id/date_wrapper"
+        android:paddingLeft="@dimen/dimen040d"
+        android:paddingRight="@dimen/dimen040d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:elevation="-1.0dip">
+        <ViewStub
+            android:id="@id/newsletter_message_view_count"
+            android:layout="@layout/layout0bdf"
+            android:inflatedId="@id/newsletter_message_view_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/date"
+            android:layout="@layout/layout04b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/wamosub_indicator"
+            android:layout="@layout/layout0584"
+            android:inflatedId="@id/wamosub_indicator"
+            android:layout_width="@dimen/dimen0f29"
+            android:layout_height="@dimen/dimen0f28" />
+    </com.whatsapp.ui.coreui.WaLinearLayout>
+</merge>

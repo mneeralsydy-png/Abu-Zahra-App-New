@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0ac6"
+        android:paddingEnd="@dimen/dimen0ac6"
+        app:attr03ee="@string/str0537"
+        app:attr03ef="emphasized" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/recharges_only_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str0536"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str0532"
+        app:attr06f6="@drawable/ic_mobile_recharge"
+        app:attr0702="icon" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.banner.MetaAiBannerView
+    android:id="@id/meta_ai_banner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen102e"
+    android:layout_marginBottom="@dimen/dimen1030"
+    android:layout_marginStart="@dimen/dimen102e"
+    android:layout_marginEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

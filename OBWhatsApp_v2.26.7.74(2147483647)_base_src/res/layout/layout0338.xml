@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/chat_footer_qp_upsell_layout_content"
+    android:background="@drawable/footer_bg"
+    android:padding="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/chat_footer_upsell_title"
+        android:paddingLeft="@dimen/dimen1039"
+        android:paddingRight="@dimen/dimen1039"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1039"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/chat_footer_upsell_action_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/chat_footer_upsell_secondary_btn"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str4087"
+            app:attr096b="outline"
+            app:attr09ea="small" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/chat_footer_upsell_primary_btn"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:attr096b="outline"
+            app:attr09ea="small" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

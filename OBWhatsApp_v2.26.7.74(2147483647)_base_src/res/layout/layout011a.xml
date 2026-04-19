@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/ai_creation_toolbar"
+        android:background="?attr0923"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1030"
+        android:layout_marginRight="@dimen/dimen1030"
+        android:minHeight="?attr000d"
+        app:attr02dd="gone"
+        app:attr0655="@style/style058c"
+        app:attr08f4="@style/style051d" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@id/ai_creation_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen1039"
+        app:attr0432="@color/color08bf"
+        app:attr0936="@color/color08f8"
+        app:attr0939="@dimen/dimen0f91" />
+    <FrameLayout
+        android:id="@id/fragment_container_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewStub
+            android:id="@id/config_error_layout_stub"
+            android:layout="@layout/layout012b"
+            android:inflatedId="@id/config_error_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

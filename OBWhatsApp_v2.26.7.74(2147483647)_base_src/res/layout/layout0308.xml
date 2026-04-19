@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaAsyncImageButton
+    android:orientation="vertical"
+    android:id="@id/camera_btn"
+    android:visibility="gone"
+    android:layout_width="@dimen/dimen03a6"
+    android:layout_height="@dimen/dimen03a5"
+    android:scaleType="center"
+    android:contentDescription="@string/str3d99"
+    app:attr0837="@drawable/ic_photo_camera"
+    app:attr090d="?attr0a46"
+    style="@style/style0006"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

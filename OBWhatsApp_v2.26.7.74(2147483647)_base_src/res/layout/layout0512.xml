@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/shimmer"
+    android:background="@drawable/conversation_row_media_shimmer_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@id/shimmer_layout"
+        android:background="@drawable/conversation_row_media_shimmer_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr07d4="true"
+        app:attr07d5="1.0"
+        app:attr07d6="?attr0a5c"
+        app:attr07d8="true"
+        app:attr07da="0.4"
+        app:attr07db="1500"
+        app:attr07df="1.0"
+        app:attr07e0="?attr0a39"
+        app:attr07e7="0.0" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1039"
+        style="@style/style05a6" />
+</FrameLayout>

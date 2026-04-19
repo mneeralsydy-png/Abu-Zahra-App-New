@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/status_question_container"
+    android:background="@drawable/status_question_shape_background"
+    android:layout_width="@dimen/dimen0d30"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textSize="@dimen/dimen0d2b"
+        android:textColor="@color/color08ff"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@id/status_question_prompt"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen0d2c"
+        android:paddingRight="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen0d2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:fontFamily="@dimen/dimen0fcd"
+        android:textAlignment="center"
+        android:letterSpacing="@dimen/dimen0fb8"
+        app:attr03ae="@dimen/dimen0fcd"
+        app:attr04d0="16.0dip" />
+    <View
+        android:id="@id/divider"
+        android:background="@color/color090d"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0f9a" />
+    <TextView
+        android:textSize="@dimen/dimen0d29"
+        android:textColor="@color/color08ff"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@id/status_answer"
+        android:padding="@dimen/dimen103a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str4298"
+        android:maxLines="3"
+        android:fontFamily="@dimen/dimen0fce"
+        android:textAlignment="center"
+        android:letterSpacing="@dimen/dimen0fae"
+        app:attr03ae="@dimen/dimen0fce"
+        app:attr04d0="24.0dip" />
+</LinearLayout>

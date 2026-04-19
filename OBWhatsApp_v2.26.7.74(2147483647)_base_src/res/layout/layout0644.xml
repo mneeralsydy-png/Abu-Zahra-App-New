@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0b5e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/error_message"
+        android:paddingLeft="@dimen/dimen0b5d"
+        android:paddingRight="@dimen/dimen0b5d"
+        android:paddingBottom="@dimen/dimen0b5e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center"
+        android:id="@id/settings_btn"
+        android:paddingLeft="@dimen/dimen04ba"
+        android:paddingTop="@dimen/dimen04b7"
+        android:paddingRight="@dimen/dimen04ba"
+        android:paddingBottom="@dimen/dimen04b7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str05d3"
+        app:attr08b7="true"
+        app:attr0a24="wds_font_body2"
+        style="@style/style014e" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center"
+        android:id="@id/retry_button"
+        android:paddingLeft="@dimen/dimen04ba"
+        android:paddingTop="@dimen/dimen04b7"
+        android:paddingRight="@dimen/dimen04ba"
+        android:paddingBottom="@dimen/dimen04b7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3563"
+        app:attr08b7="true"
+        app:attr0a24="wds_font_body2"
+        style="@style/style014e" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center"
+        android:id="@id/fallback_action_button"
+        android:paddingLeft="@dimen/dimen04ba"
+        android:paddingTop="@dimen/dimen04b7"
+        android:paddingRight="@dimen/dimen04ba"
+        android:paddingBottom="@dimen/dimen04b7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08b7="true"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style014e" />
+</LinearLayout>

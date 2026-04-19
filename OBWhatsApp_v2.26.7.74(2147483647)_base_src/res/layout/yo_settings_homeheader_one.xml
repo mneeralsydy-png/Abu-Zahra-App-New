@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/root_view"
+    android:tag="one_top_card"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <rc.whatsapp.rounded.RoundedLayout
+        android:id="@id/holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_gravity="bottom"
+            android:id="@id/one_toolbar"
+            android:background="@color/primary_v2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </rc.whatsapp.rounded.RoundedLayout>
+</FrameLayout>

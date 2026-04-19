@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_width="@dimen/dimen0ceb"
+    android:layout_height="@dimen/dimen0ceb"
+    android:scaleType="fitStart"
+    android:contentDescription="@string/str3efe"
+    whatsapp:attr0838="@drawable/ic_alternate_email_small"
+    whatsapp:attr090d="?attr0953"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

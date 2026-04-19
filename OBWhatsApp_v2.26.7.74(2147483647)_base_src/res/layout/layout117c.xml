@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textColor="?attr0a2f"
+        android:id="@id/button_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0555" />
+    <ProgressBar
+        android:id="@id/loader_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0ce7"
+        android:layout_alignLeft="@id/button_view"
+        android:layout_alignTop="@id/button_view"
+        android:layout_alignRight="@id/button_view"
+        android:layout_alignBottom="@id/button_view"
+        android:layout_centerInParent="true" />
+</merge>

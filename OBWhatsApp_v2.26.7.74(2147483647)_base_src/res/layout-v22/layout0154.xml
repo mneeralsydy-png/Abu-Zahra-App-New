@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0cee"
+        android:paddingEnd="@dimen/dimen0cee">
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="horizontal"
+            android:id="@id/imagine_spotlight_carousel_recycler_view"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/imagine_icebreakers_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="20.0sp"
+                android:textColor="@color/color0904"
+                android:id="@id/icebreaker_layout_header"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen066d"
+                android:text="@string/str18fd"
+                android:fontFamily="@font/TextAppearance.Compat.Notification.Media"
+                android:textFontWeight="500" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="22.0sp"
+                android:textColor="@color/color0904"
+                android:id="@id/icebreaker_layout_header_alt"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen066d"
+                android:text="@string/str18fe"
+                android:textFontWeight="400" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:orientation="vertical"
+                android:id="@id/imagine_icebreaker_recycler_view"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

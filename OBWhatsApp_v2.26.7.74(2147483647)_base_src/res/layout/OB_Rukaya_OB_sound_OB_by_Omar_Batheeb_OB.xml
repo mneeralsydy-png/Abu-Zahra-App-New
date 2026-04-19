@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingRight="?android:scrollbarSize"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ob_note1_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob" />
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ob_note2_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob" />
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ob_note3_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob" />
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ob_note4_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob" />
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ob_note5_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob" />
+    <com.OB.MODS.by.Omar.Batheeb.OB_evening_OB_sound_OB_by_Omar_Batheeb_OB
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

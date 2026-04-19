@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0617"
+    android:layout_marginStart="@dimen/dimen0618"
+    android:layout_marginEnd="@dimen/dimen0618"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.calling.ui.psa.view.GroupCallGroupPhoto
+        android:id="@id/group_photo"
+        android:focusable="false"
+        style="@style/style0198" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?android:textColorPrimary"
+        android:id="@id/group_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="@dimen/dimen0616"
+        android:layout_height="@dimen/dimen0616"
+        app:attr0838="@drawable/vec_ic_arrow_forward_ios"
+        app:attr090d="@color/color02ef"
+        app:attr0a89="true" />
+</LinearLayout>

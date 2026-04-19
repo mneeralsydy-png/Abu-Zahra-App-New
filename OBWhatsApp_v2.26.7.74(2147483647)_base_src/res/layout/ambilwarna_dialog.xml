@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/ambilwarna_dialogView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/ambilwarna_viewContainer"
+        android:clipToPadding="true"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <RelativeLayout
+                android:id="@id/container_hue"
+                android:layout_width="24.0dip"
+                android:layout_height="@dimen/tinggi_aw">
+                <ImageView
+                    android:id="@id/ambilwarna_viewHue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/delta_aw_hue"
+                    android:scaleType="fitXY" />
+                <ImageView
+                    android:id="@id/ambilwarna_cursor"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginLeft="4.0dip"
+                    android:layout_marginRight="4.0dip"
+                    android:src="@drawable/delta_aw_cursor"
+                    android:scaleType="matrix" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@id/container_satbri"
+                android:layout_width="0.0dip"
+                android:layout_height="@dimen/tinggi_aw"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_weight="1.0">
+                <abu3arab.mas.preferences.colorpicker.AmbilWarnaSquare
+                    android:id="@id/ambilwarna_viewSatBri"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layerType="software" />
+                <ImageView
+                    android:id="@id/ambilwarna_target"
+                    android:layout_width="15.0dip"
+                    android:layout_height="15.0dip"
+                    android:src="@drawable/delta_aw_target"
+                    android:scaleType="matrix" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@id/container_alpha"
+                android:layout_width="24.0dip"
+                android:layout_height="@dimen/tinggi_aw">
+                <ImageView
+                    android:id="@id/ambilwarna_alphaCheckered"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/delta_aw_alphacheckered_tiled"
+                    android:scaleType="fitXY" />
+                <View
+                    android:id="@id/ambilwarna_overlay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+                <ImageView
+                    android:id="@id/ambilwarna_alphaCursor"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginLeft="4.0dip"
+                    android:layout_marginRight="4.0dip"
+                    android:src="@drawable/delta_aw_cursor"
+                    android:scaleType="matrix" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

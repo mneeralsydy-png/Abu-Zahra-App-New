@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/conversation_contact"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="?attr000d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/back_container"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:importantForAccessibility="no"
+        android:layout_alignParentStart="true">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="start|center"
+            android:id="@id/whatsapp_toolbar_home"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="@dimen/dimen0047"
+            android:layout_height="@dimen/dimen0047"
+            android:scaleType="center"
+            android:contentDescription="@string/str3d0d"
+            app:attr0838="?android:homeAsUpIndicator"
+            app:attr090d="?attr0a47" />
+        <FrameLayout
+            android:layout_gravity="center|left"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0.0dip">
+            <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+                android:layout_gravity="center|left"
+                android:id="@id/conversation_contact_photo"
+                android:layout_width="@dimen/dimen0047"
+                android:layout_height="@dimen/dimen0047"
+                android:layout_margin="@dimen/dimen0cec"
+                android:scaleType="fitCenter"
+                app:attr0675="small"
+                style="@style/style01c9" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/conversation_contact_name_holder"
+        android:background="?android:selectableItemBackground"
+        android:paddingTop="0.0dip"
+        android:paddingBottom="@dimen/dimen0cf0"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingStart="@dimen/dimen0cec"
+        android:paddingEnd="@dimen/dimen0cec">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="@style/style0453"
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/conversation_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="@style/style0450"
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/conversation_contact_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:singleLine="true" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/whatsapp_toolbar_menu"
+        android:background="@drawable/meta_ai_conversation_menu_item_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:contentDescription="@string/str3d0d"
+        android:layout_marginEnd="@dimen/dimen08d9"
+        android:layout_alignParentEnd="true"
+        app:attr0838="@drawable/ic_history"
+        app:attr090d="?attr0a47" />
+</RelativeLayout>

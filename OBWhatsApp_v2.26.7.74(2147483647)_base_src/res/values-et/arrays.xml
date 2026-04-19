@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array001a">
+        <item>mina</item>
+        <item>kujutle mind</item>
+    </string-array>
+    <string-array name="array001b">
+        <item>mina</item>
+        <item>kujutle mind</item>
+    </string-array>
+</resources>

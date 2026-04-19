@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.icon.WDSIcon
+    android:id="@id/search_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/dimen1030"
+    app:attr0411="@drawable/ic_search_white"
+    app:attr0a17="neutral"
+    app:attr0a19="medium"
+    app:attr0a1a="borderless"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

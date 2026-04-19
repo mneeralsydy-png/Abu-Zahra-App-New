@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/close_button"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:layout_width="@dimen/dimen0cee"
+            android:layout_height="@dimen/dimen0cee"
+            android:layout_margin="@dimen/dimen0cea"
+            android:src="@drawable/vec_ic_close"
+            android:contentDescription="@string/str3dac"
+            app:attr090d="@color/color08df" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str4004"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/dimen08d8"
+            style="@style/style05ab" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.textfield.WDSTextField
+        android:ellipsize="none"
+        android:id="@id/name_text_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str1e2f"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:inputType="text"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0285="true"
+        app:attr0286="100"
+        app:attr0321="clear_text"
+        app:attr08e4="single_line"
+        style="@style/style0587" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/save_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:text="@string/str2d07"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        style="@style/style0555" />
+</LinearLayout>

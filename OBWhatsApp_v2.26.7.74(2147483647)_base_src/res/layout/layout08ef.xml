@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:text="@string/str37a3"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr03ae="?attr03b8" />
+    <com.whatsapp.payments.common.ui.widget.PaymentMethodRow
+        android:id="@id/debit_card_option"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.payments.common.ui.widget.PaymentMethodRow
+        android:id="@id/aadhaar_card_option"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

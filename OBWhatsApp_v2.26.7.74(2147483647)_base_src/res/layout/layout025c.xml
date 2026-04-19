@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:id="@id/business_compliance_error_empty"
+    android:layout_marginLeft="@dimen/dimen0b5d"
+    android:layout_marginRight="@dimen/dimen0b5d"
+    android:layout_marginBottom="@dimen/dimen0b62"
+    android:text="@string/str07ca"
+    app:attr04d0="@dimen/dimen0faf"
+    style="@style/style018b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

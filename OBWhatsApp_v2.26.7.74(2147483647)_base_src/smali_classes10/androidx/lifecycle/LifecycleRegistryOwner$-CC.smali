@@ -1,0 +1,14 @@
+.class public final synthetic Landroidx/lifecycle/LifecycleRegistryOwner$-CC;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method public static synthetic $default$getLifecycle(Landroidx/lifecycle/LifecycleRegistryOwner;)Landroidx/lifecycle/Lifecycle;
+    .locals 1
+
+    invoke-interface {p0}, Landroidx/lifecycle/LifecycleRegistryOwner;->getLifecycle()Landroidx/lifecycle/LifecycleRegistry;
+
+    move-result-object v0
+
+    return-object v0
+.end method

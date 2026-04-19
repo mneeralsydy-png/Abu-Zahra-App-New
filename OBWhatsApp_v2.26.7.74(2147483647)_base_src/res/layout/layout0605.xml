@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen103b"
+        android:paddingRight="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103b">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/change_number_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/ic_send_to_mobile"
+            app:attr090d="?attr0a46" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:id="@id/change_number_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen103b"
+            android:text="@string/str2ef9"
+            android:lineSpacingExtra="@dimen/dimen1030"
+            app:attr0a24="wds_font_body1" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/delete_account_change_number_option"
+        android:layout_marginLeft="@dimen/dimen1032"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103b"
+        android:text="@string/str2ee3"
+        style="@style/style0555" />
+</LinearLayout>

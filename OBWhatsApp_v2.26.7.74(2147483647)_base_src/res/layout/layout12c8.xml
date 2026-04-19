@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="@drawable/mentions_row_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen08bc"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/contact_photo"
+        style="@style/style0197" />
+    <ViewStub
+        android:id="@id/subgroup_photo"
+        android:visibility="gone"
+        android:layout="@layout/layout11eb"
+        android:inflatedId="@id/subgroup_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/style0197" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/dimen075d"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingEnd="@dimen/dimen075d">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:gravity="center_vertical"
+            android:id="@id/primary_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:layout_toStartOf="@id/secondary_name"
+            android:layout_alignParentStart="true"
+            style="@style/style0285" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="@style/style03eb"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/secondary_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="100.0dip"
+            android:maxLines="1"
+            android:layout_alignTop="@id/primary_name"
+            android:layout_alignBottom="@id/primary_name"
+            android:layout_marginStart="@dimen/dimen0ced"
+            android:layout_alignParentEnd="true"
+            style="@style/style0286" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_below="@id/primary_name"
+            style="@style/style0286" />
+    </RelativeLayout>
+</LinearLayout>

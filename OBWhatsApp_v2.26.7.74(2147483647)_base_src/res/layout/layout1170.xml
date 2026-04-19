@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.ui.conversationrow.media.component.VideoInfoView
+    android:layout_gravity="start|bottom|center"
+    android:id="@id/video_info_view"
+    android:paddingTop="@dimen/dimen0ce4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

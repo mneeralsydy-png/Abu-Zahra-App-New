@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/ti_bubble"
+    android:paddingLeft="@dimen/dimen0cea"
+    android:paddingRight="@dimen/dimen0ce7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout0574" />
+</FrameLayout>

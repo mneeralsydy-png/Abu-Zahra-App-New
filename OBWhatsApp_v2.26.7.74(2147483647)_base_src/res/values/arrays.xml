@@ -1,0 +1,2258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notification_action">
+        <item>@string/str3d24</item>
+        <item>@string/str3d27</item>
+        <item>@string/str3d26</item>
+        <item>@string/str3d25</item>
+    </string-array>
+    <string-array name="notification_action_tombstone">
+        <item>@string/str3d28</item>
+        <item>@string/str3d38</item>
+        <item>@string/str3d22</item>
+    </string-array>
+    <string-array name="notification_media_action">
+        <item>@string/str3d23</item>
+        <item>@string/str3d28</item>
+        <item>@string/str3d38</item>
+        <item>@string/str3d22</item>
+    </string-array>
+    <array name="notification_media_cancel_action">
+        <item>#ff0064e0</item>
+        <item>#ff0bbee9</item>
+        <item>#ff6ce6d8</item>
+        <item>#ff4fd7ab</item>
+        <item>#ff640150</item>
+    </array>
+    <array name="notification_template_big_media">
+        <item>@color/color074e</item>
+        <item>@color/color074d</item>
+        <item>@color/color0750</item>
+        <item>@color/color074f</item>
+        <item>@color/color0752</item>
+        <item>@color/color0751</item>
+        <item>@color/color0754</item>
+        <item>@color/color0753</item>
+        <item>@color/color0756</item>
+        <item>@color/color0755</item>
+        <item>@color/color0758</item>
+        <item>@color/color0757</item>
+        <item>@color/color075a</item>
+        <item>@color/color0759</item>
+        <item>@color/color075c</item>
+        <item>@color/color075b</item>
+        <item>@color/color075e</item>
+        <item>@color/color075d</item>
+        <item>@color/color0760</item>
+        <item>@color/color075f</item>
+        <item>@color/color0762</item>
+        <item>@color/color0761</item>
+        <item>@color/color0764</item>
+        <item>@color/color0763</item>
+        <item>@color/color0766</item>
+        <item>@color/color0765</item>
+        <item>@color/color0768</item>
+        <item>@color/color0767</item>
+        <item>@color/color076a</item>
+        <item>@color/color0769</item>
+        <item>@color/color076c</item>
+        <item>@color/color076b</item>
+        <item>@color/color076e</item>
+        <item>@color/color076d</item>
+        <item>@color/color0770</item>
+        <item>@color/color076f</item>
+        <item>@color/color074a</item>
+        <item>@color/color0749</item>
+        <item>@color/color074c</item>
+        <item>@color/color074b</item>
+    </array>
+    <string-array name="notification_template_big_media_custom">
+        <item>wearos_alt_linking_prefill</item>
+        <item>wearos_crscv3_pairing</item>
+    </string-array>
+    <string-array name="notification_template_big_media_narrow">
+        <item>A close-up of a pink flower with purple petals.</item>
+        <item>A close-up of a purple light, showing an abstract pattern.</item>
+        <item>Palm trees sitting on meringues with a light pink background.</item>
+        <item>A variety of flowers floating on water.</item>
+        <item>A close-up of neutral colored dandelions.</item>
+        <item>A group of purple fruits.</item>
+        <item></item>
+        <item>A close-up photo of a pink orchid flower with red accents.</item>
+        <item>A close-up of a yellow flower</item>
+        <item>A group of orange &amp; rose gold sunglasses.</item>
+        <item>A close-up of a green leaf.</item>
+        <item>An aerial view of a beach with a body of water, featuring teal colored waves.</item>
+        <item>A group of mint green macarons.</item>
+        <item>A close-up of feathers in an icy blue color.</item>
+        <item>A close-up of a blue fabric, showing an abstract pattern.</item>
+        <item>A blue tiled surface with an abstract pattern.</item>
+        <item></item>
+        <item>A beach with blue water under a clear sky.</item>
+        <item>A close-up of a green plant. The focus is on the details of the leaves.</item>
+        <item>A green field with white lines, resembling a sports field or stadium.</item>
+        <item>A tree standing in water with clouds in the sky</item>
+        <item>A close-up view of a wave in the ocean</item>
+        <item>A group of green vegetables</item>
+        <item></item>
+        <item>A close-up of a pink flower with detailed petals</item>
+        <item>A close-up of an orange fabric, showing an abstract pattern.</item>
+        <item>A close-up of a green plant. The focus is on the shape of the plant.</item>
+        <item>A shadow of a tree against a white wall.</item>
+        <item>A black and white image of sand dunes. Shadows accentuate the curves of the dunes.</item>
+        <item>A close-up of a beach, showing sand dunes and the ocean waves in black and white.</item>
+        <item>Snowy mountain at sunrise.</item>
+        <item>A close-up of a peach-colored drink with ice.</item>
+        <item>Dark green ocean waves.</item>
+        <item>Colorful curtains with a shadow.</item>
+        <item>Ancient stone pyramid.</item>
+        <item>Mosque with tall towers.</item>
+        <item>Bright yellow flowers in a field.</item>
+        <item>City skyline at sunset.</item>
+        <item>Orange sunset over a mountain.</item>
+        <item>Bright city street at night.</item>
+        <item>Desert with a hot air balloon.</item>
+        <item>White sand dunes and blue water.</item>
+        <item>Green rice terraces on a hillside.</item>
+        <item>City skyline with a snowy volcano.</item>
+        <item>Sharp, rocky mountain peak.</item>
+        <item>Many animals grazing in a field.</item>
+        <item>Paris, France, with the Eiffel Tower.</item>
+        <item>Red and orange desert mountains.</item>
+        <item>Two birds flying in front of moon.</item>
+        <item>A tall, red modern building.</item>
+        <item>A single cloud above sand dunes.</item>
+        <item>A fluffy baby swan chick.</item>
+        <item>A big glass dome building.</item>
+        <item>Blue mountains and river.</item>
+        <item>Black and white tulip.</item>
+        <item>Big castle in the desert.</item>
+        <item>Icy blue iceberg in the ocean.</item>
+        <item>Blue ocean waves.</item>
+        <item>Big Ben clock tower at night.</item>
+        <item>Snowy mountain range at night.</item>
+        <item>Colorful shapes.</item>
+        <item>Abstract landscape with sun.</item>
+        <item>Crescent moon in dark sky.</item>
+        <item>Red birds on a black background.</item>
+        <item>Black and white mountain and moon.</item>
+        <item>Tall dark building at night.</item>
+        <item>Taj Mahal at sunset.</item>
+        <item>Yellow flowers on a dark branch.</item>
+        <item>Dark green forest.</item>
+        <item>White flowers on a black background.</item>
+        <item>Neon lines in a dark room.</item>
+        <item>Night city view.</item>
+        <item>Dark green leaf close-up.</item>
+        <item>Dark gray textured background.</item>
+        <item>Dark green leaves on a black background.</item>
+        <item>Lit-up ancient temple at night.</item>
+        <item>Boat on dark water.</item>
+        <item>Swirly light trails in the dark.</item>
+        <item>Dark gray textured background.</item>
+        <item>Black and white flower.</item>
+        <item>Night city lights.</item>
+        <item>Snowy mountains under starry sky.</item>
+        <item>Purple jellyfish in the ocean.</item>
+        <item>Earth from space.</item>
+        <item>Dark flower bud.</item>
+        <item>Dark wavy water.</item>
+        <item>Dark fish in a dark tank.</item>
+        <item>Dark blue sand dunes.</item>
+        <item>Dark sandy hills at night.</item>
+        <item>Dark swirly shapes.</item>
+        <item>Night scene with mountains and moon.</item>
+    </string-array>
+    <string-array name="notification_template_big_media_narrow_custom">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="notification_template_custom_big">
+        <item>@string/str421e</item>
+        <item>@string/str421c</item>
+        <item>@string/str421f</item>
+        <item>@string/str421d</item>
+    </string-array>
+    <string-array name="notification_template_media">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="notification_template_part_chronometer">
+        <item>@string/str4308</item>
+        <item>@string/str430b</item>
+    </string-array>
+    <array name="notification_template_part_time" />
+    <string-array name="notification_template_media_custom">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="array000d">
+        <item>@string/str428e</item>
+        <item>@string/str4290</item>
+        <item>@string/str428c</item>
+        <item>@string/str428b</item>
+        <item>@string/str428d</item>
+        <item>@string/str428f</item>
+        <item>@string/str4291</item>
+        <item>@string/str4292</item>
+        <item>@string/str428a</item>
+        <item>@string/str4293</item>
+        <item>@string/str4294</item>
+    </string-array>
+    <string-array name="array000e">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="array000f">
+        <item>@string/str3e83</item>
+        <item>@string/str3e82</item>
+        <item>@string/str3e81</item>
+    </string-array>
+    <string-array name="array0010">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="array0011">
+        <item>@color/color02ff</item>
+        <item>@color/color0302</item>
+        <item>@color/color0303</item>
+        <item>@color/color0304</item>
+        <item>@color/color0305</item>
+        <item>@color/color0306</item>
+        <item>@color/color0307</item>
+        <item>@color/color0308</item>
+        <item>@color/color0309</item>
+        <item>@color/color0300</item>
+        <item>@color/color0301</item>
+    </array>
+    <array name="array0012">
+        <item>@color/color02f4</item>
+        <item>@color/color02f7</item>
+        <item>@color/color02f8</item>
+        <item>@color/color02f9</item>
+        <item>@color/color02fa</item>
+        <item>@color/color02fb</item>
+        <item>@color/color02fc</item>
+        <item>@color/color02fd</item>
+        <item>@color/color02fe</item>
+        <item>@color/color02f5</item>
+        <item>@color/color02f6</item>
+    </array>
+    <array name="array0013">
+        <item>@color/color031c</item>
+        <item>@color/color02f1</item>
+        <item>@color/color031d</item>
+        <item>@color/color02eb</item>
+        <item>@color/color0324</item>
+        <item>@color/color031b</item>
+        <item>@color/color031f</item>
+        <item>@color/color02e8</item>
+        <item>@color/color02f2</item>
+        <item>@color/color02ee</item>
+        <item>@color/color0329</item>
+        <item>@color/color030b</item>
+        <item>@color/color0323</item>
+        <item>@color/color0312</item>
+        <item>@color/color0313</item>
+        <item>@color/color02f3</item>
+        <item>@color/color0314</item>
+        <item>@color/color0328</item>
+        <item>@color/color0321</item>
+        <item>@color/color0322</item>
+    </array>
+    <array name="array0014">
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+        <item>@color/color08c4</item>
+    </array>
+    <string-array name="array0015">
+        <item>@string/str3e9d</item>
+        <item>@string/str3d71</item>
+    </string-array>
+    <string-array name="array0016">
+        <item>@string/str3e9c</item>
+        <item>@string/str3d71</item>
+    </string-array>
+    <string-array name="array0017">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="array0018">
+        <item>000000</item>
+        <item>FFFFFF</item>
+        <item>FF0000</item>
+        <item>FFFF00</item>
+        <item>00FF00</item>
+        <item>00FFFF</item>
+        <item>0000FF</item>
+        <item>FF00FF</item>
+    </string-array>
+    <string-array name="array0019">
+        <item>@string/str1d80</item>
+        <item>@string/str1d84</item>
+    </string-array>
+    <string-array name="array001a">
+        <item>me</item>
+        <item>imagine me</item>
+    </string-array>
+    <string-array name="array001b">
+        <item>me</item>
+        <item>imagine me</item>
+    </string-array>
+    <string-array name="array001c">
+        <item>@string/str41d2</item>
+        <item>@string/str41d4</item>
+        <item>@string/str41d3</item>
+        <item>@string/str41d1</item>
+    </string-array>
+    <string-array name="array001d">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="array001e">
+        <item>@string/str3d70</item>
+        <item>@string/str3d71</item>
+    </string-array>
+    <array name="array001f">
+        <item>@color/color0815</item>
+        <item>@color/color081c</item>
+        <item>@color/color081b</item>
+        <item>@color/color0811</item>
+        <item>@color/color080f</item>
+        <item>@color/color0818</item>
+        <item>@color/color0826</item>
+        <item>@color/color081f</item>
+        <item>@color/color0824</item>
+        <item>@color/color0817</item>
+        <item>@color/color0816</item>
+        <item>@color/color0823</item>
+        <item>@color/color081d</item>
+        <item>@color/color0813</item>
+        <item>@color/color0812</item>
+        <item>@color/color0821</item>
+        <item>@color/color080e</item>
+        <item>@color/color0822</item>
+        <item>@color/color0819</item>
+        <item>@color/color0814</item>
+        <item>@color/color0827</item>
+        <item>@color/color081e</item>
+        <item>@color/color0810</item>
+        <item>@color/color081a</item>
+        <item>@color/color0820</item>
+        <item>@color/color0828</item>
+        <item>@color/color0825</item>
+    </array>
+    <array name="array0020">
+        <item>@color/color0816</item>
+        <item>@color/color0823</item>
+        <item>@color/color081d</item>
+        <item>@color/color081a</item>
+        <item>@color/color0817</item>
+        <item>@color/color0824</item>
+        <item>@color/color0820</item>
+        <item>@color/color0828</item>
+        <item>@color/color081e</item>
+        <item>@color/color0827</item>
+        <item>@color/color0813</item>
+        <item>@color/color0814</item>
+        <item>@color/color0822</item>
+        <item>@color/color080e</item>
+        <item>@color/color0821</item>
+        <item>@color/color081b</item>
+        <item>@color/color0819</item>
+        <item>@color/color0811</item>
+        <item>@color/color080f</item>
+        <item>@color/color081f</item>
+        <item>@color/color0826</item>
+        <item>@color/color0818</item>
+        <item>@color/color0815</item>
+        <item>@color/color081c</item>
+        <item>@color/color0825</item>
+        <item>@color/color0812</item>
+        <item>@color/color0810</item>
+    </array>
+    <array name="array0021">
+        <item>@color/color074e</item>
+        <item>@color/color074d</item>
+        <item>@color/color0750</item>
+        <item>@color/color074f</item>
+    </array>
+    <array name="array0022">
+        <item>@color/color0752</item>
+        <item>@color/color0751</item>
+        <item>@color/color0754</item>
+        <item>@color/color0753</item>
+    </array>
+    <array name="array0023">
+        <item>@color/color0756</item>
+        <item>@color/color0755</item>
+        <item>@color/color0758</item>
+        <item>@color/color0757</item>
+    </array>
+    <array name="array0024">
+        <item>@color/color075a</item>
+        <item>@color/color0759</item>
+        <item>@color/color075c</item>
+        <item>@color/color075b</item>
+    </array>
+    <array name="array0025">
+        <item>@color/color075e</item>
+        <item>@color/color075d</item>
+        <item>@color/color0760</item>
+        <item>@color/color075f</item>
+    </array>
+    <string-array name="array0026">
+        <item>@string/str42a2</item>
+        <item>@string/str42a4</item>
+        <item>@string/str42a3</item>
+        <item>@string/str42a5</item>
+        <item>@string/str42a1</item>
+    </string-array>
+    <string-array name="array0027">
+        <item>@string/str4305</item>
+        <item>@string/str4303</item>
+        <item>@string/str4306</item>
+        <item>@string/str4304</item>
+    </string-array>
+    <string-array name="array0028">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <array name="array0029">
+        <item>@color/color031c</item>
+        <item>@color/color0326</item>
+        <item>@color/color031d</item>
+        <item>@color/color02eb</item>
+        <item>@color/color0324</item>
+        <item>@color/color0325</item>
+        <item>@color/color031f</item>
+        <item>@color/color030b</item>
+        <item>@color/color0315</item>
+        <item>@color/color02ee</item>
+        <item>@color/color0329</item>
+        <item>@color/color02e9</item>
+        <item>@color/color0323</item>
+        <item>@color/color0316</item>
+        <item>@color/color0327</item>
+        <item>@color/color0319</item>
+        <item>@color/color02ec</item>
+        <item>@color/color02ed</item>
+        <item>@color/color031e</item>
+        <item>@color/color02f0</item>
+        <item>@color/color02ea</item>
+    </array>
+    <array name="array002a">
+        <item>@color/color0833</item>
+        <item>@color/color0840</item>
+        <item>@color/color083a</item>
+        <item>@color/color0837</item>
+        <item>@color/color0834</item>
+        <item>@color/color0841</item>
+        <item>@color/color083d</item>
+        <item>@color/color0845</item>
+        <item>@color/color083b</item>
+        <item>@color/color0844</item>
+        <item>@color/color0830</item>
+        <item>@color/color0831</item>
+        <item>@color/color083f</item>
+        <item>@color/color082b</item>
+        <item>@color/color083e</item>
+        <item>@color/color0838</item>
+        <item>@color/color0836</item>
+        <item>@color/color082e</item>
+        <item>@color/color082c</item>
+        <item>@color/color083c</item>
+        <item>@color/color0843</item>
+        <item>@color/color0835</item>
+        <item>@color/color0832</item>
+        <item>@color/color0839</item>
+        <item>@color/color0842</item>
+        <item>@color/color082f</item>
+        <item>@color/color082d</item>
+    </array>
+    <string-array name="hide_notify_array">
+        <item>@string/hide_no</item>
+        <item>@string/hide_notifybar_groups</item>
+        <item>@string/hide_notifybar_groups_mute</item>
+        <item>@string/hide_notifybar_contacts</item>
+        <item>@string/hide_notifybar_always</item>
+    </string-array>
+    <string-array name="hide_notify_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="home_theme">
+        <item>YOWA</item>
+        <item>Telegram</item>
+        <item>WAMOD</item>
+        <item>WACA</item>
+        <item>WANH</item>
+        <item>NL MODS</item>
+        <item>Old WAMD</item>
+        <item>Stock</item>
+    </string-array>
+    <string-array name="home_theme_values">
+        <item>yowa</item>
+        <item>telegram</item>
+        <item>wamod</item>
+        <item>waca</item>
+        <item>wanh</item>
+        <item>nlmods</item>
+        <item>wamd</item>
+        <item>yousef</item>
+    </string-array>
+    <string-array name="language_names">
+        <item>@string/Default</item>
+        <item>@string/Arabic</item>
+        <item>@string/English</item>
+        <item>@string/Spanish</item>
+        <item>@string/Italian</item>
+        <item>@string/Brazilian</item>
+        <item>@string/Hindi</item>
+        <item>@string/Punjabi</item>
+        <item>@string/German</item>
+        <item>@string/Turkish</item>
+        <item>@string/Russian</item>
+        <item>@string/Indonesian</item>
+        <item>@string/Urdu</item>
+        <item>@string/Azerbaijani</item>
+    </string-array>
+    <string-array name="language_val">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>9</item>
+        <item>10</item>
+        <item>13</item>
+        <item>15</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="online_tone_mode">
+        <item>@string/tone_top</item>
+        <item>@string/tone_center</item>
+        <item>@string/tone_bottom</item>
+    </string-array>
+    <string-array name="online_tone_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="stories_entry">
+        <item>STOCK</item>
+        <item>RC NOTIFY</item>
+        <item>RC FACEBOOK</item>
+        <item>RC CONCEPT V2</item>
+        <item>RC CONCEPT</item>
+    </string-array>
+    <string-array name="stories_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="tick_style_entries">
+        <item>Stock</item>
+        <item>Allo</item>
+        <item>Alien</item>
+        <item>Alt CrayonV2</item>
+        <item>Alt Crayon</item>
+        <item>Aran</item>
+        <item>Bar</item>
+        <item>Bat</item>
+        <item>BBM</item>
+        <item>Blend</item>
+        <item>NG Android Bot</item>
+        <item>BPG Circle</item>
+        <item>Circles</item>
+        <item>Samyadeep Circles</item>
+        <item>Coalfield</item>
+        <item>Color Simple</item>
+        <item>Ctoon</item>
+        <item>Eclipsis</item>
+        <item>Face Switch</item>
+        <item>Feet</item>
+        <item>Flat Circles</item>
+        <item>Gifcon</item>
+        <item>Google V2</item>
+        <item>Google</item>
+        <item>GRW</item>
+        <item>Sidzy HD</item>
+        <item>SV Heart</item>
+        <item>Hike</item>
+        <item>Inbox</item>
+        <item>Insect</item>
+        <item>iOS</item>
+        <item>Jalopy</item>
+        <item>Jessy</item>
+        <item>Joaquins</item>
+        <item>Joker Traffic</item>
+        <item>Letter</item>
+        <item>Like</item>
+        <item>Love Switch</item>
+        <item>Material V2</item>
+        <item>Material Switch</item>
+        <item>Messenger</item>
+        <item>Mickey Hands</item>
+        <item>Minions</item>
+        <item>New Waca</item>
+        <item>NEY Heart</item>
+        <item>NHSC</item>
+        <item>Naza NH</item>
+        <item>NL Circle</item>
+        <item>Old Waca</item>
+        <item>Pacman</item>
+        <item>Pixelated</item>
+        <item>Pokemon</item>
+        <item>Quinn</item>
+        <item>SnapChat</item>
+        <item>SDot</item>
+        <item>Seasons</item>
+        <item>Smile</item>
+        <item>Star</item>
+        <item>Flat Switch</item>
+        <item>Time Bomb</item>
+        <item>Joker Traffic</item>
+        <item>Treble</item>
+        <item>Twitter Concept</item>
+        <item>WBG</item>
+        <item>X</item>
+        <item>Pointer</item>
+        <item>TIC TIC circle 2</item>
+        <item>Ice Cream</item>
+        <item>Pony</item>
+        <item>Kitty</item>
+        <item>Flower</item>
+        <item>Sticker</item>
+        <item>RC iOS 11</item>
+        <item>BBM V2</item>
+        <item>B.W Ticks</item>
+        <item>CirCheck</item>
+        <item>Circle Print</item>
+        <item>Gab Circle</item>
+        <item>Gab Face</item>
+        <item>Gab iflo</item>
+        <item>Green Tick</item>
+        <item>iOS 2</item>
+        <item>Letter Circle</item>
+        <item>RC Alo</item>
+        <item>RC Tick</item>
+        <item>Triangle</item>
+        <item>VantCircle</item>
+    </string-array>
+    <string-array name="tick_style_values">
+        <item>stockorg</item>
+        <item>allo</item>
+        <item>alien</item>
+        <item>altcrayonv2</item>
+        <item>altcrayon</item>
+        <item>aran</item>
+        <item>bar</item>
+        <item>bat</item>
+        <item>bbm</item>
+        <item>blend</item>
+        <item>bot</item>
+        <item>bpg</item>
+        <item>circles</item>
+        <item>circle</item>
+        <item>coalfield</item>
+        <item>colorsimple</item>
+        <item>ctoon</item>
+        <item>eclipsis</item>
+        <item>face</item>
+        <item>feet</item>
+        <item>flatcircles</item>
+        <item>gifcon</item>
+        <item>googlev2</item>
+        <item>google</item>
+        <item>grw</item>
+        <item>hd</item>
+        <item>heart</item>
+        <item>hike</item>
+        <item>inbox</item>
+        <item>insect</item>
+        <item>ios</item>
+        <item>jalopy</item>
+        <item>jessy</item>
+        <item>joaquins</item>
+        <item>joker</item>
+        <item>letter</item>
+        <item>like</item>
+        <item>love</item>
+        <item>materialv2</item>
+        <item>material</item>
+        <item>messenger</item>
+        <item>mickeyhands</item>
+        <item>minions</item>
+        <item>newwaca</item>
+        <item>ney</item>
+        <item>nhsc</item>
+        <item>nh</item>
+        <item>nlmod2</item>
+        <item>oldwaca</item>
+        <item>pacman</item>
+        <item>pix</item>
+        <item>pokemon</item>
+        <item>quinn</item>
+        <item>sc</item>
+        <item>SDot</item>
+        <item>seasons</item>
+        <item>smail</item>
+        <item>star</item>
+        <item>switchMe</item>
+        <item>tb</item>
+        <item>traffic</item>
+        <item>treble</item>
+        <item>twitter</item>
+        <item>wbg</item>
+        <item>x</item>
+        <item>pointer</item>
+        <item>circle2</item>
+        <item>icecream</item>
+        <item>pony</item>
+        <item>kitty</item>
+        <item>flor</item>
+        <item>sticker</item>
+        <item>rcios11</item>
+        <item>bbm2</item>
+        <item>bwticks</item>
+        <item>circheck</item>
+        <item>circleprint</item>
+        <item>gabcircle</item>
+        <item>gabface</item>
+        <item>gabiflo</item>
+        <item>greentick</item>
+        <item>ios2</item>
+        <item>lettercircle</item>
+        <item>rcalo</item>
+        <item>rctick</item>
+        <item>triangle</item>
+        <item>vantcircle</item>
+    </string-array>
+    <string-array name="time_online_toast_array">
+        <item>@string/default_wallpaper</item>
+        <item>@string/time_online_toast_3</item>
+        <item>@string/time_online_toast_4</item>
+        <item>@string/time_online_toast_5</item>
+        <item>@string/time_online_toast_6</item>
+        <item>@string/time_online_toast_7</item>
+        <item>@string/time_online_toast_8</item>
+        <item>@string/time_online_toast_9</item>
+    </string-array>
+    <string-array name="time_online_toast_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="ui_home_style">
+        <item>ONE UI</item>
+        <item>WhatsApp UI Stock</item>
+        <item>IOS STYLE</item>
+        <item>BUBBLES TAB STYLE</item>
+        <item>BASIC TAB STYLE</item>
+        <item>WhatsApp OLD UI</item>
+    </string-array>
+    <string-array name="ui_home_styleV">
+        <item>one</item>
+        <item>stock</item>
+        <item>ios</item>
+        <item>bubble</item>
+        <item>basic</item>
+        <item>oldstock</item>
+    </string-array>
+    <string-array name="listanimation_entry">
+        <item>Standard</item>
+        <item>Grow</item>
+        <item>Cards</item>
+        <item>Curl</item>
+        <item>Wave</item>
+        <item>Flip</item>
+        <item>Fly</item>
+        <item>Reserve Fly</item>
+        <item>Helix</item>
+        <item>Fan</item>
+        <item>Tilt</item>
+        <item>Zipper</item>
+        <item>Fade</item>
+        <item>Twirl</item>
+        <item>Slide In</item>
+    </string-array>
+    <string-array name="listanimation_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="transformer_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="transformer_entry">
+        <item>Default</item>
+        <item>Accordion</item>
+        <item>Background To Foreground</item>
+        <item>Flip Vertical</item>
+        <item>Flip Horizontal</item>
+        <item>Tablet</item>
+        <item>Rotate Down</item>
+        <item>Rotate Up</item>
+        <item>Stack</item>
+    </string-array>
+    <string-array name="Abo_Arab_Speed_Dial">
+        <item>AboArabWA New</item>
+        <item>Stock</item>
+        <item>AboArabWA Old</item>
+        <item>AboArabWA New2</item>
+        <item>FullScreen ID</item>
+        <item>Google Material</item>
+        <item>Ios Stock</item>
+    </string-array>
+    <string-array name="Abo_Arab_Speed_Dial_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="aero_ayarlar_isimleri">
+        <item>Gold Mods</item>
+        <item>Gold Mods2</item>
+        <item>Gold Mods3</item>
+        <item>Gold Mods4</item>
+        <item>Gold Mods5</item>
+    </string-array>
+    <string-array name="aero_ayarlar_degerleri">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="abu_arab_effects_snow_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="abu_arab_effects_snow_labels">
+        <item>Bubble</item>
+        <item>Snow</item>
+        <item>Moth</item>
+        <item>Love</item>
+        <item>Rain</item>
+        <item>Rose</item>
+        <item>Heart</item>
+        <item>Drop</item>
+        <item>Music</item>
+        <item>flower</item>
+        <item>Bird</item>
+        <item>Dad</item>
+        <item>Rose2</item>
+        <item>kiss</item>
+        <item>Paper</item>
+    </string-array>
+    <string-array name="abu_arab_effects_snow_niconsi">
+        <item>masffect1</item>
+        <item>masffect2</item>
+        <item>masffect3</item>
+        <item>masffect4</item>
+        <item>masffect5</item>
+        <item>masffect6</item>
+        <item>masffect7</item>
+        <item>masffect8</item>
+        <item>masffect9</item>
+        <item>masffect10</item>
+        <item>masffect11</item>
+        <item>masffect12</item>
+        <item>masffect13</item>
+        <item>masffect14</item>
+        <item>masffect15</item>
+    </string-array>
+    <string-array name="abu_arab_admin_icons">
+        <item>@string/vibrate_length_default</item>
+        <item>Admin 1</item>
+        <item>Admin 2</item>
+        <item>Admin 3</item>
+        <item>Admin 4</item>
+        <item>Admin 5</item>
+        <item>Admin 6</item>
+        <item>Admin 7</item>
+        <item>Admin 8</item>
+        <item>Admin 9</item>
+        <item>Admin 10</item>
+        <item>Admin 11</item>
+        <item>Admin 12</item>
+        <item>Admin 13</item>
+        <item>Admin 14</item>
+        <item>Admin 15</item>
+        <item>Admin 16</item>
+        <item>Admin 17</item>
+        <item>Admin 18</item>
+        <item>Admin 19</item>
+        <item>Admin 20</item>
+        <item>Admin 21</item>
+        <item>Admin 22</item>
+        <item>Invisible</item>
+    </string-array>
+    <string-array name="abu_arab_admin_icons_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="abu_arab_admin_icons_img">
+        <item>admin_shield</item>
+        <item>admin_shield_1</item>
+        <item>admin_shield_2</item>
+        <item>admin_shield_3</item>
+        <item>admin_shield_4</item>
+        <item>admin_shield_5</item>
+        <item>admin_shield_6</item>
+        <item>admin_shield_7</item>
+        <item>admin_shield_8</item>
+        <item>admin_shield_9</item>
+        <item>admin_shield_10</item>
+        <item>admin_shield_11</item>
+        <item>admin_shield_12</item>
+        <item>admin_shield_13</item>
+        <item>admin_shield_14</item>
+        <item>admin_shield_15</item>
+        <item>admin_shield_16</item>
+        <item>admin_shield_17</item>
+        <item>admin_shield_18</item>
+        <item>admin_shield_19</item>
+        <item>admin_shield_20</item>
+        <item>admin_shield_21</item>
+        <item>admin_shield_22</item>
+        <item>admin_shield_23</item>
+    </string-array>
+    <string-array name="abu_arab_upmsg_style">
+        <item>@string/vibrate_length_default</item>
+        <item>Abu Arab Arrow 1</item>
+        <item>Abu Arab Arrow 2</item>
+        <item>Abu Arab Arrow 3</item>
+        <item>Abu Arab Arrow 4</item>
+        <item>Abu Arab Arrow 5</item>
+        <item>Abu Arab Arrow 6</item>
+        <item>Abu Arab Arrow 7</item>
+        <item>Abu Arab Arrow 8</item>
+        <item>Abu Arab Arrow 9</item>
+        <item>Abu Arab Arrow 10</item>
+    </string-array>
+    <string-array name="abu_arab_upmsg_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="abu_arab_upmsg_style_imgs">
+        <item>fast_scroll_arrow_up</item>
+        <item>go_tomsg_up_1</item>
+        <item>go_tomsg_up_2</item>
+        <item>go_tomsg_up_3</item>
+        <item>go_tomsg_up_4</item>
+        <item>go_tomsg_up_5</item>
+        <item>go_tomsg_up_6</item>
+        <item>go_tomsg_up_7</item>
+        <item>go_tomsg_up_8</item>
+        <item>go_tomsg_up_9</item>
+        <item>go_tomsg_up_10</item>
+    </string-array>
+    <string-array name="abu_arab_downmsg_style_imgs">
+        <item>fast_scroll_arrow_down</item>
+        <item>go_tomsg_1</item>
+        <item>go_tomsg_2</item>
+        <item>go_tomsg_3</item>
+        <item>go_tomsg_4</item>
+        <item>go_tomsg_5</item>
+        <item>go_tomsg_6</item>
+        <item>go_tomsg_7</item>
+        <item>go_tomsg_8</item>
+        <item>go_tomsg_9</item>
+        <item>go_tomsg_10</item>
+    </string-array>
+    <string-array name="fonts_names">
+        <item>Default</item>
+        <item>Custom (Load font)</item>
+        <item>Roboto-Light</item>
+        <item>Roboto-Medium</item>
+        <item>ProductSans</item>
+        <item>FrutigerLTStdRoman</item>
+        <item>Bariol</item>
+        <item>ComicSans</item>
+        <item>BebasNeue</item>
+        <item>Comfortaa</item>
+        <item>Transformers</item>
+        <item>HappyGiraffe</item>
+        <item>Passing_Notes</item>
+        <item>CaviarDreams</item>
+        <item>Raleway</item>
+        <item>BacktoBlack</item>
+        <item>Cheri</item>
+        <item>HaryPotter</item>
+        <item>Courgette</item>
+        <item>MavenPro</item>
+        <item>Pacifico</item>
+        <item>SourceSansPro</item>
+        <item>Satisfy</item>
+        <item>Smoolthan-Thin</item>
+        <item>Helvetica</item>
+        <item>Bryndan-Write</item>
+        <item>Norican-Regular</item>
+        <item>Oswald-Heavy</item>
+        <item>Slate_OnePlus</item>
+        <item>Ehsan</item>
+        <item>BeStillKnowHB</item>
+        <item>BowBabyFlo</item>
+        <item>Capture_it</item>
+        <item>Donut</item>
+        <item>Fanlovexo</item>
+        <item>Cocon</item>
+        <item>MohanadBold(Arabic)</item>
+        <item>sfblod-iphone(Arabic)</item>
+        <item>iPhone-BB(Arabic)</item>
+        <item>line-vamp-iphone(Arabic)</item>
+        <item>normal-handsome-iphone(Arabic)</item>
+        <item>orbitron-bold-iphone(Arabic)</item>
+        <item>Persian-iphone(Arabic)</item>
+        <item>San-Francisco-iPhone(Arabic)</item>
+        <item>Wide-iPhone(Arabic)</item>
+        <item>Digi-Madasi-Bold(Arabic)</item>
+        <item>DGAgnadeen(Arabic)</item>
+        <item>QadasiRegular(Arabic)</item>
+        <item>Mobily(Arabic)</item>
+        <item>SC_REHAN(Arabic)</item>
+        <item>ALMajd(Arabic)</item>
+        <item>Motken_noqta_ii(Arabic)</item>
+        <item>SC_HANI(Arabic)</item>
+        <item>SC_REHAN(Arabic)</item>
+        <item>Andalus(Arabic)</item>
+        <item>Motla_bold(Arabic)</item>
+        <item>Hacen_Liner_Screen(Arabic)</item>
+        <item>Kufi_moderate(Arabic)</item>
+        <item>Alarabiya(Arabic)</item>
+        <item>Aljazeera(Arabic)</item>
+        <item>Iphone(Arabic)</item>
+        <item>Zaman(Arabic)</item>
+        <item>Hacen_Liner_Screen(Arabic)</item>
+        <item>Kufi_moderate(Arabic)</item>
+        <item>DroidKufi(Arabic)</item>
+        <item>Nekar(Arabic)</item>
+        <item>Mohanad(Arabic)</item>
+        <item>Nekar(Arabic)</item>
+        <item>Rekaa(Arabic)</item>
+        <item>Dubai(Arabic)</item>
+    </string-array>
+    <string-array name="online_toast_location">
+        <item>Top</item>
+        <item>Center</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="pic_location">
+        <item>@string/first_message</item>
+        <item>@string/last_message</item>
+        <item>@string/yo_all</item>
+    </string-array>
+    <string-array name="pic_location_values">
+        <item>1</item>
+        <item>3</item>
+        <item>99</item>
+    </string-array>
+    <string-array name="repetition_alert">
+        <item>repetition_1</item>
+        <item>repetition_2</item>
+        <item>repetition_3</item>
+        <item>repetition_4</item>
+        <item>repetition_5</item>
+    </string-array>
+    <string-array name="tick_style_valuesI">
+        <item>stockorg_message_got_read_receipt_from_target</item>
+        <item>allo_message_got_read_receipt_from_target</item>
+        <item>alien_message_got_read_receipt_from_target</item>
+        <item>altcrayonv2_message_got_read_receipt_from_target</item>
+        <item>altcrayon_message_got_read_receipt_from_target</item>
+        <item>aran_message_got_read_receipt_from_target</item>
+        <item>bar_message_got_read_receipt_from_target</item>
+        <item>bat_message_got_read_receipt_from_target</item>
+        <item>bbm_message_got_read_receipt_from_target</item>
+        <item>blend_message_got_read_receipt_from_target</item>
+        <item>bot_message_got_read_receipt_from_target</item>
+        <item>bpg_message_got_read_receipt_from_target</item>
+        <item>circles_message_got_read_receipt_from_target</item>
+        <item>circle_message_got_read_receipt_from_target</item>
+        <item>coalfield_message_got_read_receipt_from_target</item>
+        <item>colorsimple_message_got_read_receipt_from_target</item>
+        <item>ctoon_message_got_read_receipt_from_target</item>
+        <item>eclipsis_message_got_read_receipt_from_target</item>
+        <item>face_message_got_read_receipt_from_target</item>
+        <item>feet_message_got_read_receipt_from_target</item>
+        <item>flatcircles_message_got_read_receipt_from_target</item>
+        <item>gifcon_message_got_read_receipt_from_target</item>
+        <item>googlev2_message_got_read_receipt_from_target</item>
+        <item>google_message_got_read_receipt_from_target</item>
+        <item>grw_message_got_read_receipt_from_target</item>
+        <item>hd_message_got_read_receipt_from_target</item>
+        <item>heart_message_got_read_receipt_from_target</item>
+        <item>hike_message_got_read_receipt_from_target</item>
+        <item>inbox_message_got_read_receipt_from_target</item>
+        <item>insect_message_got_read_receipt_from_target</item>
+        <item>ios_message_got_read_receipt_from_target</item>
+        <item>jalopy_message_got_read_receipt_from_target</item>
+        <item>jessy_message_got_read_receipt_from_target</item>
+        <item>joaquins_message_got_read_receipt_from_target</item>
+        <item>joker_message_got_read_receipt_from_target</item>
+        <item>letter_message_got_read_receipt_from_target</item>
+        <item>like_message_got_read_receipt_from_target</item>
+        <item>love_message_got_read_receipt_from_target</item>
+        <item>materialv2_message_got_read_receipt_from_target</item>
+        <item>material_message_got_read_receipt_from_target</item>
+        <item>messenger_message_got_read_receipt_from_target</item>
+        <item>mickeyhands_message_got_read_receipt_from_target</item>
+        <item>minions_message_got_read_receipt_from_target</item>
+        <item>newwaca_message_got_read_receipt_from_target</item>
+        <item>ney_message_got_read_receipt_from_target</item>
+        <item>nhsc_message_got_read_receipt_from_target</item>
+        <item>nh_message_got_read_receipt_from_target</item>
+        <item>nlmod2_message_got_read_receipt_from_target</item>
+        <item>oldwaca_message_got_read_receipt_from_target</item>
+        <item>pacman_message_got_read_receipt_from_target</item>
+        <item>pix_message_got_read_receipt_from_target</item>
+        <item>pokemon_message_got_read_receipt_from_target</item>
+        <item>quinn_message_got_read_receipt_from_target</item>
+        <item>sc_message_got_read_receipt_from_target</item>
+        <item>SDot_message_got_read_receipt_from_target</item>
+        <item>seasons_message_got_read_receipt_from_target</item>
+        <item>smail_message_got_read_receipt_from_target</item>
+        <item>star_message_got_read_receipt_from_target</item>
+        <item>switchMe_message_got_read_receipt_from_target</item>
+        <item>tb_message_got_read_receipt_from_target</item>
+        <item>traffic_message_got_read_receipt_from_target</item>
+        <item>treble_message_got_read_receipt_from_target</item>
+        <item>twitter_message_got_read_receipt_from_target</item>
+        <item>wbg_message_got_read_receipt_from_target</item>
+        <item>x_message_got_read_receipt_from_target</item>
+        <item>pointer_message_got_read_receipt_from_target</item>
+        <item>circle2_message_got_read_receipt_from_target</item>
+        <item>icecream_message_got_read_receipt_from_target</item>
+        <item>pony_message_got_read_receipt_from_target</item>
+        <item>kitty_message_got_read_receipt_from_target</item>
+        <item>flor_message_got_read_receipt_from_target</item>
+        <item>sticker_message_got_read_receipt_from_target</item>
+        <item>rcios11_message_got_read_receipt_from_target</item>
+        <item>bbm2_message_got_read_receipt_from_target</item>
+        <item>bwticks_message_got_read_receipt_from_target</item>
+        <item>circheck_message_got_read_receipt_from_target</item>
+        <item>circleprint_message_got_read_receipt_from_target</item>
+        <item>gabcircle_message_got_read_receipt_from_target</item>
+        <item>gabface_message_got_read_receipt_from_target</item>
+        <item>gabiflo_message_got_read_receipt_from_target</item>
+        <item>greentick_message_got_read_receipt_from_target</item>
+        <item>ios2_message_got_read_receipt_from_target</item>
+        <item>lettercircle_message_got_read_receipt_from_target</item>
+        <item>rcalo_message_got_read_receipt_from_target</item>
+        <item>rctick_message_got_read_receipt_from_target</item>
+        <item>triangle_message_got_read_receipt_from_target</item>
+        <item>vantcircle_message_got_read_receipt_from_target</item>
+    </string-array>
+    <string-array name="translation_preference">
+        <item>@string/translate_serverone</item>
+        <item>@string/translate_gapp</item>
+    </string-array>
+    <string-array name="translation_preferenceVals">
+        <item>in-y</item>
+        <item>gapp</item>
+    </string-array>
+    <string-array name="translation_to_preference">
+        <item>@string/show_all</item>
+        <item>@string/Arabic</item>
+        <item>@string/English</item>
+        <item>@string/French</item>
+        <item>@string/Spanish</item>
+        <item>@string/Italian</item>
+        <item>@string/Russian</item>
+        <item>@string/Portuguese</item>
+        <item>@string/Turkish</item>
+        <item>@string/Indonesian</item>
+        <item>@string/Hindi</item>
+        <item>@string/German</item>
+        <item>@string/Malay</item>
+        <item>@string/Vietnamese</item>
+        <item>@string/Tamil</item>
+        <item>@string/Urdu</item>
+        <item>@string/Gujarati</item>
+        <item>@string/Punjabi</item>
+        <item>@string/Bengali</item>
+    </string-array>
+    <string-array name="translation_to_preferenceVals">
+        <item>all</item>
+        <item>ar</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>it</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>id</item>
+        <item>hi</item>
+        <item>de</item>
+        <item>ms</item>
+        <item>vi</item>
+        <item>ta</item>
+        <item>ur</item>
+        <item>gu</item>
+        <item>pa</item>
+        <item>bn</item>
+    </string-array>
+    <string-array name="yo_niconsi">
+        <item>yo_notifybar_0</item>
+        <item>yo_notifybar_1</item>
+        <item>yo_notifybar_2</item>
+        <item>yo_notifybar_3</item>
+        <item>yo_notifybar_4</item>
+        <item>yo_notifybar_5</item>
+        <item>yo_notifybar_6</item>
+        <item>yo_notifybar_7</item>
+        <item>yo_notifybar_8</item>
+        <item>yo_notifybar_9</item>
+        <item>yo_notifybar_10</item>
+        <item>yo_notifybar_11</item>
+        <item>yo_notifybar_12</item>
+        <item>yo_notifybar_13</item>
+        <item>yo_notifybar_14</item>
+        <item>yo_notifybar_15</item>
+        <item>yo_notifybar_16</item>
+        <item>yo_notifybar_17</item>
+        <item>yo_notifybar_18</item>
+        <item>yo_notifybar_19</item>
+        <item>yo_notifybar_20</item>
+        <item>yo_notifybar_21</item>
+        <item>yo_notifybar_22</item>
+        <item>yo_notifybar_23</item>
+        <item>yo_notifybar_24</item>
+        <item>yo_notifybar_25</item>
+        <item>yo_notifybar_26</item>
+        <item>yo_notifybar_27</item>
+        <item>yo_notifybar_28</item>
+        <item>yo_notifybar_29</item>
+        <item>yo_notifybar_30</item>
+        <item>yo_notifybar_31</item>
+        <item>yo_notifybar_32</item>
+        <item>yo_notifybar_33</item>
+        <item>yo_notifybar_34</item>
+        <item>yo_notifybar_35</item>
+        <item>yo_notifybar_36</item>
+        <item>yo_notifybar_37</item>
+        <item>yo_notifybar_38</item>
+        <item>yo_notifybar_39</item>
+        <item>yo_notifybar_40</item>
+        <item>yo_notifybar_41</item>
+        <item>yo_notifybar_42</item>
+        <item>yo_notifybar_43</item>
+        <item>yo_notifybar_44</item>
+        <item>yo_notifybar_45</item>
+        <item>yo_notifybar_46</item>
+        <item>yo_notifybar_47</item>
+        <item>yo_notifybar_48</item>
+        <item>yo_notifybar_49</item>
+        <item>yo_notifybar_50</item>
+    </string-array>
+    <string-array name="yo_niconss">
+        <item>White</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Gold</item>
+        <item>Cyan</item>
+        <item>Pink</item>
+        <item>Magenta</item>
+        <item>Purple</item>
+        <item>Blue</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Gold</item>
+        <item>Cyan</item>
+        <item>Pink</item>
+        <item>Magenta</item>
+        <item>RC Notif 1</item>
+        <item>RC Notif 2</item>
+        <item>RC Notif 3</item>
+        <item>RC Notif 4</item>
+        <item>RC Notif 5</item>
+        <item>RC Notif 6</item>
+        <item>yoNotifify</item>
+        <item>Notifybar 7</item>
+        <item>Notifybar 8</item>
+        <item>Notifybar 9</item>
+        <item>Notifybar 10</item>
+        <item>Notifybar 11</item>
+        <item>Notifybar 12</item>
+        <item>Notifybar 13</item>
+        <item>Notifybar 14</item>
+        <item>Notifybar 15</item>
+        <item>Notifybar 16</item>
+        <item>Notifybar 17</item>
+        <item>Notifybar 18</item>
+        <item>Notifybar 19</item>
+        <item>Notifybar 20</item>
+        <item>Notifybar 21</item>
+        <item>Notifybar 22</item>
+        <item>Notifybar 23</item>
+        <item>Notifybar 24</item>
+        <item>Notifybar 25</item>
+        <item>Notifybar 26</item>
+        <item>Notifybar 27</item>
+    </string-array>
+    <string-array name="yo_niconsv">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="quick_entry">
+        <item>@string/Top</item>
+        <item>@string/Right</item>
+        <item>@string/Left</item>
+    </string-array>
+    <string-array name="quick_value">
+        <item>top</item>
+        <item>right</item>
+        <item>left</item>
+    </string-array>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="autodownload">
+        <item>@string/settings_autodownload_images</item>
+        <item>@string/settings_autodownload_audio</item>
+        <item>@string/settings_autodownload_videos</item>
+        <item>@string/settings_autodownload_documents</item>
+    </string-array>
+    <string-array name="autodownload_cellular_defaults">
+        <item>0</item>
+    </string-array>
+    <array name="autodownload_roaming_defaults" />
+    <string-array name="autodownload_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="autodownload_wifi_defaults">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="call_link_types">
+        <item>@string/video_call_link</item>
+        <item>@string/voice_call_link</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="default_statuses">
+        <item>@string/status_default_available</item>
+        <item>@string/status_default_busy</item>
+        <item>@string/status_default_at_school</item>
+        <item>@string/status_default_at_movies</item>
+        <item>@string/status_default_at_work</item>
+        <item>@string/status_default_battery_die</item>
+        <item>@string/status_default_cannot_talk</item>
+        <item>@string/status_default_in_meeting</item>
+        <item>@string/status_default_at_gym</item>
+        <item>@string/status_default_sleeping</item>
+        <item>@string/status_default_urgent</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="directory_search_hints">
+        <item>@string/biz_dir_search_hint_pizza</item>
+        <item>@string/biz_dir_search_hint_school</item>
+        <item>@string/biz_dir_search_hint_cafe</item>
+    </string-array>
+    <string-array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="font_size">
+        <item>@string/font_small</item>
+        <item>@string/font_medium</item>
+        <item>@string/font_large</item>
+        <item>Extra Large</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="led_color_values">
+        <item>000000</item>
+        <item>FFFFFF</item>
+        <item>FF0000</item>
+        <item>FFFF00</item>
+        <item>00FF00</item>
+        <item>00FFFF</item>
+        <item>0000FF</item>
+        <item>FF00FF</item>
+    </string-array>
+    <integer-array name="night_solid_color_wallpaper_values">
+        <item>26</item>
+        <item>24</item>
+        <item>17</item>
+        <item>19</item>
+        <item>10</item>
+        <item>21</item>
+    </integer-array>
+    <string-array name="popup_mode">
+        <item>@string/popup_notification_mode_none</item>
+        <item>@string/popup_notification_mode_screen_on</item>
+        <item>@string/popup_notification_mode_screen_off</item>
+        <item>@string/popup_notification_mode_always</item>
+    </string-array>
+    <string-array name="popup_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="profile_photo_actions">
+        <item>@string/biz_profile_action_view_photo</item>
+        <item>@string/biz_profile_action_view_status</item>
+    </string-array>
+    <string-array name="vibrate_lengths">
+        <item>@string/vibrate_length_off</item>
+        <item>@string/vibrate_length_default</item>
+        <item>@string/vibrate_length_short</item>
+        <item>@string/vibrate_length_long</item>
+    </string-array>
+    <string-array name="vibrate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="home_entry">
+        <item>DELTA</item>
+        <item>Stock WhatsApp</item>
+    </string-array>
+    <string-array name="home_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tab_entry">
+        <item>Bottom Tab V1</item>
+        <item>Bottom Tab V2</item>
+        <item>Bottom Tab V3</item>
+        <item>Bottom Tab V4</item>
+    </string-array>
+    <string-array name="tab_value">
+        <item>v1</item>
+        <item>v2</item>
+        <item>v3</item>
+        <item>v4</item>
+    </string-array>
+    <string-array name="theme_entry">
+        <item>@string/Light_Theme</item>
+        <item>@string/Dark_Theme</item>
+        <item>@string/Transparent_Theme</item>
+    </string-array>
+    <string-array name="theme_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="hazar_bozkurt_sesler_gelenmesaj">
+        <item>@string/mas_sesler_gelenmesaj1</item>
+        <item>@string/mas_sesler_gelenmesaj2</item>
+        <item>@string/mas_sesler_gelenmesaj3</item>
+        <item>@string/mas_sesler_gelenmesaj4</item>
+        <item>@string/mas_sesler_gelenmesaj5</item>
+        <item>@string/mas_sesler_gelenmesaj6</item>
+        <item>@string/mas_sesler_gelenmesaj7</item>
+        <item>@string/mas_sesler_gelenmesaj8</item>
+        <item>@string/mas_sesler_gelenmesaj9</item>
+        <item>@string/mas_sesler_gelenmesaj10</item>
+        <item>@string/mas_sesler_gelenmesaj11</item>
+        <item>@string/mas_sesler_gelenmesaj12</item>
+        <item>@string/mas_sesler_gelenmesaj13</item>
+        <item>@string/mas_sesler_gelenmesaj14</item>
+        <item>@string/mas_sesler_gelenmesaj15</item>
+        <item>@string/mas_sesler_gelenmesaj16</item>
+        <item>@string/mas_sesler_gelenmesaj17</item>
+        <item>@string/mas_sesler_gelenmesaj18</item>
+        <item>@string/mas_sesler_gelenmesaj19</item>
+        <item>@string/mas_sesler_gelenmesaj20</item>
+        <item>@string/mas_sesler_gelenmesaj21</item>
+        <item>@string/mas_sesler_gelenmesaj22</item>
+        <item>@string/mas_sesler_gelenmesaj23</item>
+        <item>@string/mas_sesler_gelenmesaj24</item>
+        <item>@string/mas_sesler_gelenmesaj25</item>
+        <item>@string/mas_sesler_gelenmesaj26</item>
+        <item>@string/mas_sesler_gelenmesaj27</item>
+        <item>@string/mas_sesler_gelenmesaj28</item>
+        <item>@string/mas_sesler_gelenmesaj29</item>
+        <item>@string/mas_sesler_gelenmesaj30</item>
+        <item>@string/mas_sesler_gelenmesaj31</item>
+        <item>@string/mas_sesler_gelenmesaj32</item>
+        <item>@string/mas_sesler_gelenmesaj33</item>
+        <item>@string/mas_sesler_gelenmesaj34</item>
+        <item>@string/mas_sesler_gelenmesaj35</item>
+        <item>@string/mas_sesler_gelenmesaj36</item>
+        <item>@string/mas_sesler_gelenmesaj37</item>
+        <item>@string/mas_sesler_gelenmesaj38</item>
+        <item>@string/mas_sesler_gelenmesaj39</item>
+        <item>@string/mas_sesler_gelenmesaj40</item>
+        <item>@string/mas_sesler_gelenmesaj41</item>
+        <item>@string/mas_sesler_gelenmesaj42</item>
+        <item>@string/mas_sesler_gelenmesaj43</item>
+        <item>@string/mas_sesler_gelenmesaj44</item>
+        <item>@string/mas_sesler_gelenmesaj45</item>
+        <item>@string/mas_sesler_gelenmesaj46</item>
+        <item>@string/mas_sesler_gelenmesaj47</item>
+        <item>@string/mas_sesler_gelenmesaj48</item>
+        <item>@string/mas_sesler_gelenmesaj49</item>
+        <item>@string/mas_sesler_gelenmesaj50</item>
+        <item>@string/mas_sesler_gelenmesaj51</item>
+        <item>@string/mas_sesler_gelenmesaj52</item>
+        <item>@string/mas_sesler_gelenmesaj53</item>
+        <item>@string/mas_sesler_gelenmesaj54</item>
+        <item>@string/mas_sesler_gelenmesaj55</item>
+        <item>@string/mas_sesler_gelenmesaj56</item>
+        <item>@string/mas_sesler_gelenmesaj57</item>
+        <item>@string/mas_sesler_gelenmesaj58</item>
+        <item>@string/mas_sesler_gelenmesaj59</item>
+        <item>@string/mas_sesler_gelenmesaj60</item>
+        <item>@string/mas_sesler_gelenmesaj61</item>
+        <item>@string/mas_sesler_gelenmesaj62</item>
+        <item>@string/mas_sesler_gelenmesaj63</item>
+        <item>@string/mas_sesler_gelenmesaj64</item>
+        <item>@string/mas_sesler_gelenmesaj65</item>
+        <item>@string/mas_sesler_gelenmesaj66</item>
+        <item>@string/mas_sesler_gelenmesaj67</item>
+        <item>@string/mas_sesler_gelenmesaj68</item>
+        <item>@string/mas_sesler_gelenmesaj69</item>
+        <item>@string/mas_sesler_gelenmesaj70</item>
+        <item>@string/mas_sesler_gelenmesaj71</item>
+        <item>@string/mas_sesler_gelenmesaj72</item>
+    </string-array>
+    <string-array name="hazar_bozkurt_sesler_gelenmesaj_degerler">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+    </string-array>
+    <string-array name="mas_toast_sure_isimler">
+        <item>@string/hazar_aero_varsayilan</item>
+        <item>@string/aero_toast_sure_3</item>
+        <item>@string/aero_toast_sure_4</item>
+        <item>@string/aero_toast_sure_5</item>
+        <item>@string/aero_toast_sure_6</item>
+        <item>@string/aero_toast_sure_7</item>
+        <item>@string/aero_toast_sure_8</item>
+        <item>@string/aero_toast_sure_9</item>
+    </string-array>
+    <string-array name="mas_toast_sure_degerler">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="mas_toast_pozisyon_isimler">
+        <item>@string/aero_toast_pozisyon_ustte</item>
+        <item>@string/aero_toast_pozisyon_merkez</item>
+        <item>@string/aero_toast_pozisyon_altta</item>
+    </string-array>
+    <string-array name="mas_toast_pozisyon_degerler">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="archive_entry">
+        <item>Stock</item>
+        <item>DELTA Stock</item>
+        <item>DELTA Stock 2</item>
+        <item>DELTA Card</item>
+        <item>DELTA Large</item>
+        <item>DELTA Rounded</item>
+    </string-array>
+    <string-array name="archive_value">
+        <item>stock</item>
+        <item>card_stock</item>
+        <item>card</item>
+        <item>deltacard</item>
+        <item>large_card</item>
+        <item>rounded</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="delight_theme_entry">
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+    </string-array>
+    <string-array name="delight_theme_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toast_gravity_entry">
+        <item>TOP</item>
+        <item>CENTER</item>
+        <item>BOTTOM</item>
+    </string-array>
+    <string-array name="toast_gravity_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toast_duration_entry">
+        <item>Default</item>
+        <item>@string/time_online_toast_3</item>
+        <item>@string/time_online_toast_4</item>
+        <item>@string/time_online_toast_5</item>
+        <item>@string/time_online_toast_6</item>
+        <item>@string/time_online_toast_7</item>
+        <item>@string/time_online_toast_8</item>
+        <item>@string/time_online_toast_9</item>
+    </string-array>
+    <string-array name="toast_duration_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="navigation_tab_entry">
+        <item>YOWA</item>
+        <item>DELTA</item>
+        <item>HIDDEN</item>
+    </string-array>
+    <string-array name="navigation_tab_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="hide_online_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="hide_online_array">
+        <item>Text</item>
+        <item>Dot</item>
+        <item>Dot with Text</item>
+        <item>Ring</item>
+        <item>Ring with Text</item>
+    </string-array>
+    <string-array name="quicks_entry">
+        <item>Quick Contact v1</item>
+        <item>Quick Contact v2</item>
+    </string-array>
+    <string-array name="quicks_value">
+        <item>v1</item>
+        <item>v2</item>
+    </string-array>
+    <string-array name="stories_entrys">
+        <item>Instagram</item>
+        <item>Facebook</item>
+        <item>Facebook V2</item>
+        <item>Rounded</item>
+        <item>Card</item>
+        <item>Card V2</item>
+        <item>Chip</item>
+        <item>Chip V2</item>
+        <item>Right Round</item>
+        <item>Instagram Gradient Ring</item>
+    </string-array>
+    <string-array name="stories_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="fab_entry">
+        <item>Floating Action Button</item>
+        <item>Floating Action Extended</item>
+        <item>Floating Action Chat</item>
+        <item>Hidden</item>
+    </string-array>
+    <string-array name="fab_value">
+        <item>view</item>
+        <item>extended</item>
+        <item>extended_chat</item>
+        <item>gone</item>
+    </string-array>
+    <string-array name="ig_entry">
+        <item>None</item>
+        <item>Stories</item>
+        <item>Recent Online</item>
+    </string-array>
+    <string-array name="ig_value">
+        <item>0</item>
+        <item>stories</item>
+        <item>online</item>
+    </string-array>
+    <string-array name="conversation_bubbleStyleList">
+        <item>Stock</item>
+        <item>Facebook Messenger</item>
+        <item>Old Hangouts</item>
+        <item>3D</item>
+        <item>Rounded</item>
+        <item>Materialized</item>
+        <item>MD</item>
+        <item>Samyadeep Crayon Alt</item>
+        <item>New Hangouts 4.0</item>
+        <item>WA+ Paper Redesigned</item>
+        <item>Transparent</item>
+        <item>Twitter</item>
+        <item>Whatsapp LB</item>
+        <item>BBM</item>
+        <item>iOS</item>
+        <item>Hike</item>
+        <item>Textra SMS</item>
+        <item>Go SMS</item>
+        <item>Bubble Drop</item>
+        <item>Samyadeep Dual</item>
+        <item>Plus Messenger ED</item>
+        <item>WA+ Chat On</item>
+        <item>Telegram</item>
+        <item>In</item>
+        <item>Bryed</item>
+        <item>Fold</item>
+        <item>Fold v2</item>
+        <item>Ilkhang</item>
+        <item>Line</item>
+        <item>Popzup</item>
+        <item>DoodleHang</item>
+        <item>Aranbor</item>
+        <item>Win</item>
+        <item>Mood</item>
+        <item>Cr Messenger</item>
+        <item>RC BURBUJA 2</item>
+        <item>RC BURBUJA 5</item>
+        <item>3D V2</item>
+        <item>Kitty</item>
+        <item>Amor</item>
+        <item>RC SAMS BORD</item>
+        <item>RC IOS 11</item>
+        <item>RC GOOGLE ASSISTAN</item>
+        <item>Gabi Outline</item>
+        <item>Gabi Squa</item>
+        <item>Gabi Dot</item>
+        <item>Rc line</item>
+        <item>Gabi Dot 2</item>
+        <item>Roundle</item>
+        <item>Gaby Ron</item>
+        <item>CV ios</item>
+        <item>Rc Pal</item>
+        <item>Rc ios Line</item>
+        <item>Rc IM Line</item>
+        <item>Rc Go SMS</item>
+        <item>Rc tran Line</item>
+        <item>Rc Imess</item>
+        <item>Gabi Mess</item>
+        <item>Rc Fancy</item>
+    </string-array>
+    <string-array name="conversation_bubbleStyleListValues">
+        <item>yousef</item>
+        <item>fbm</item>
+        <item>hangouts</item>
+        <item>d3</item>
+        <item>rounded</item>
+        <item>materialized</item>
+        <item>md</item>
+        <item>altcr</item>
+        <item>hang</item>
+        <item>wapaper</item>
+        <item>trans</item>
+        <item>twitter</item>
+        <item>walb</item>
+        <item>bbm</item>
+        <item>apple</item>
+        <item>hike</item>
+        <item>textra</item>
+        <item>gosms</item>
+        <item>bdrop</item>
+        <item>dual</item>
+        <item>ed</item>
+        <item>chaton</item>
+        <item>telegram</item>
+        <item>in</item>
+        <item>bryed</item>
+        <item>fold</item>
+        <item>foldv2</item>
+        <item>ilkhang</item>
+        <item>line</item>
+        <item>popzup</item>
+        <item>doodlehang</item>
+        <item>aranbor</item>
+        <item>win</item>
+        <item>mood</item>
+        <item>crmessenger</item>
+        <item>rcburbuja2</item>
+        <item>rcburbuja5</item>
+        <item>3d2</item>
+        <item>kitty</item>
+        <item>amor</item>
+        <item>bubble</item>
+        <item>ios11</item>
+        <item>bolha</item>
+        <item>gabioutline</item>
+        <item>gabisqua</item>
+        <item>gabidot</item>
+        <item>rcline</item>
+        <item>gabidot2</item>
+        <item>roundle</item>
+        <item>gabyron</item>
+        <item>cvios</item>
+        <item>rcpal</item>
+        <item>rciosline</item>
+        <item>rcimline</item>
+        <item>rcgosms</item>
+        <item>rctranline</item>
+        <item>rcimess</item>
+        <item>gabymess</item>
+        <item>rcfancy</item>
+    </string-array>
+    <string-array name="conversation_bubbleStyleListValuesI">
+        <item>balloon_outgoing_normal</item>
+        <item>fbm</item>
+        <item>hangouts</item>
+        <item>d3</item>
+        <item>rounded</item>
+        <item>materialized</item>
+        <item>md</item>
+        <item>altcr</item>
+        <item>hang</item>
+        <item>wapaper</item>
+        <item>trans</item>
+        <item>twitter</item>
+        <item>walb</item>
+        <item>bbm</item>
+        <item>apple</item>
+        <item>hike</item>
+        <item>textra</item>
+        <item>gosms</item>
+        <item>bdrop</item>
+        <item>dual</item>
+        <item>ed</item>
+        <item>chaton</item>
+        <item>telegram</item>
+        <item>in</item>
+        <item>bryed</item>
+        <item>fold</item>
+        <item>foldv2</item>
+        <item>ilkhang</item>
+        <item>line</item>
+        <item>popzup</item>
+        <item>doodlehang</item>
+        <item>aranbor</item>
+        <item>win</item>
+        <item>mood</item>
+        <item>crmessenger</item>
+        <item>rcburbuja2</item>
+        <item>rcburbuja5</item>
+        <item>3d2</item>
+        <item>kitty</item>
+        <item>amor</item>
+        <item>bubble</item>
+        <item>ios11</item>
+        <item>bolha</item>
+        <item>gabioutline</item>
+        <item>gabisqua</item>
+        <item>gabidot</item>
+        <item>rcline</item>
+        <item>gabidot2</item>
+        <item>roundle</item>
+        <item>gabyron</item>
+        <item>cvios</item>
+        <item>rcpal</item>
+        <item>rciosline</item>
+        <item>rcimline</item>
+        <item>rcgosms</item>
+        <item>rctranline</item>
+        <item>rcimess</item>
+        <item>gabymess</item>
+        <item>rcfancy</item>
+    </string-array>
+    <string-array name="conversation_style_entry">
+        <item>YOWA Style</item>
+        <item>WAMOD</item>
+        <item>Hangouts</item>
+        <item>Simple</item>
+        <item>Aran V2</item>
+        <item>Mood</item>
+        <item>WANH</item>
+        <item>Stock</item>
+        <item>Hangouts V2</item>
+        <item>Dribble</item>
+        <item>Dribble V2</item>
+        <item>Allo</item>
+        <item>Rounded</item>
+        <item>Old Stock (2016)</item>
+        <item>RC-MSG Google</item>
+        <item>RC-Telegram X iOS</item>
+        <item>RC-IOS 11</item>
+        <item>RC-Line</item>
+        <item>Concept</item>
+        <item>Instagram</item>
+        <item>iOS 14</item>
+        <item>FB Messenger</item>
+        <item>RC Mess</item>
+    </string-array>
+    <string-array name="conversation_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="conversation_style_toolbar">
+        <item>Stock</item>
+        <item>Stock centered</item>
+        <item>WAMOD</item>
+        <item>WAMOD centered</item>
+    </string-array>
+    <string-array name="conversation_style_toolbar_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="update_label">
+        <item>Old Status UI</item>
+        <item>Old Status with View More</item>
+        <item>Old Status with Thumbnail</item>
+        <item>New Status UI</item>
+        <item>New Grid Status UI</item>
+        <item>Thumbnail List</item>
+    </string-array>
+    <string-array name="update_values">
+        <item>0</item>
+        <item>4</item>
+        <item>3</item>
+        <item>1</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="stories_label">
+        <item>Instagram</item>
+        <item>Circle</item>
+        <item>MAS CONCEPT V2</item>
+        <item>Facebook</item>
+        <item>Rounded</item>
+        <item>Squircle Profile with Badge</item>
+        <item>Squircle Thumbnail with Badge</item>
+        <item>Squircle Thumbnail and Profile</item>
+        <item>Banner</item>
+    </string-array>
+    <string-array name="stories_values_v2">
+        <item>view</item>
+        <item>circle</item>
+        <item>concept2</item>
+        <item>thumbnail</item>
+        <item>thumbnail_v2</item>
+        <item>squircle_profile</item>
+        <item>squircle</item>
+        <item>squircle_profile_v2</item>
+        <item>banner</item>
+    </string-array>
+</resources>

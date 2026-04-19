@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.TextEmojiLabel
+    android:textSize="@dimen/dimen0fbc"
+    android:ellipsize="end"
+    android:id="@id/product_section"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen102e"
+    android:layout_marginBottom="@dimen/dimen1039"
+    android:maxLines="1"
+    android:textAllCaps="true"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

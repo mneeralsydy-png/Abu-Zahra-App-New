@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen054a"
+            android:layout_marginRight="@dimen/dimen054a">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:text="@string/str4224"
+                style="@style/style0203" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen054b"
+                android:layout_marginTop="@dimen/dimen1038"
+                android:rotation="45.0"
+                app:attr0838="@drawable/ic_key_large"
+                app:attr090d="?attr0a29" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:layout_marginTop="@dimen/dimen0b62"
+                android:text="@string/str1238"
+                style="@style/style01fb" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen054b"
+                android:layout_marginTop="@dimen/dimen1038"
+                app:attr0838="@drawable/ic_warning_large"
+                app:attr090d="?attr0a4f" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:layout_marginTop="@dimen/dimen0b62"
+                android:text="@string/str1237"
+                style="@style/style01fb" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/enable_education_create_password_button"
+        android:text="@string/str1236"
+        style="@style/style01ff" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/enable_education_use_encryption_key_button"
+        style="@style/style0200" />
+</LinearLayout>

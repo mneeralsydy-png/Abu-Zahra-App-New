@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/close_button"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/dimen0ce7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_close_themed" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="19.0sp"
+        android:id="@id/title"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str429d"
+        android:paddingStart="@dimen/dimen0fe5"
+        android:paddingEnd="@dimen/dimen0fe5"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style0289" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/pack_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

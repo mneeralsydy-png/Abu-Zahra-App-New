@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_showall"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yo_universal"
+        android:key="ModConPickColor"
+        android:summary="@string/yo_universal_sum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_colortxt"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yo_uaction"
+        android:key="HomeBarText"
+        android:summary="@string/yo_uactionS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_contrafundo"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/acj_bg"
+        android:key="ModConBackColor"
+        android:summary="@string/acj_uni_bg_sum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_OneUiList"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/listBackground"
+        android:key="list_bg_color"
+        android:summary="@string/listBackgroundSum" />
+    <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+        android:icon="@drawable/abo_arab_ic_selecionada"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/acj_statbar"
+        android:key="ModDarkConPickColor"
+        android:summary="@string/acj_uni_stat_sum" />
+    <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+        android:icon="@drawable/abo_arab_ic_downbar"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/acj_navbar"
+        android:key="ModDarkConPickColorNav"
+        android:summary="@string/acj_uni_nav_sum" />
+</PreferenceScreen>

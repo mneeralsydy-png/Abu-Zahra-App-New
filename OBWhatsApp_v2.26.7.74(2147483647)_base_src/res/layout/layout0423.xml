@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_gravity="bottom|center|right"
+    android:background="@drawable/primary_color_circle"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr0083="?attr0926"
+    app:attr0838="@drawable/ic_ephemeral"
+    app:attr090d="?attr073a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

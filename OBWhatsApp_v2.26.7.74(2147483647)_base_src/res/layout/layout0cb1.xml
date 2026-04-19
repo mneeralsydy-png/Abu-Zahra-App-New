@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/start_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ac0"
+        app:attr049c="@dimen/dimen0ac0" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/end_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        app:attr049d="16.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/sending_label"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:text="@string/str36f4"
+        android:lineSpacingExtra="4.0sp"
+        app:attr04ad="@id/start_guideline"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/sending_value"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:lineSpacingExtra="4.0sp"
+        app:attr049a="@id/end_guideline"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/exchange_label"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:text="@string/str36f1"
+        android:lineSpacingExtra="4.0sp"
+        app:attr04ad="@id/start_guideline"
+        app:attr04b0="@id/sending_label"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/exchange_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:lineSpacingExtra="4.0sp"
+        app:attr049a="@id/end_guideline"
+        app:attr04b0="@id/sending_value"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/fees_label"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:text="@string/str36f2"
+        android:lineSpacingExtra="4.0sp"
+        app:attr04ad="@id/start_guideline"
+        app:attr04b0="@id/exchange_label"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/fees_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:lineSpacingExtra="4.0sp"
+        app:attr049a="@id/end_guideline"
+        app:attr04b0="@id/exchange_rate"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style0331"
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr066e"
+        android:id="@id/total_label"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:text="@string/str36f3"
+        android:lineSpacingExtra="4.0sp"
+        app:attr04ad="@id/start_guideline"
+        app:attr04b0="@id/fees_label"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style0331"
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr066e"
+        android:id="@id/total_value"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:lineSpacingExtra="4.0sp"
+        app:attr049a="@id/end_guideline"
+        app:attr04b0="@id/fees_rate"
+        app:attr0a24="wds_font_body2_emphasized" />
+    <View
+        android:id="@id/total_value_divider"
+        android:background="@drawable/payments_divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="12.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/total_value" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="?attr0a33"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginRight="16.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/total_value_divider">
+        <CheckBox
+            android:layout_gravity="center_vertical"
+            android:id="@id/send_payment_agreement_checkbox"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fbc"
+            android:textColor="?attr0a46"
+            android:layout_gravity="center_vertical"
+            android:id="@id/send_payment_amount_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8.0dip"
+            android:text="@string/str36ed"
+            app:attr0a24="wds_font_body3" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

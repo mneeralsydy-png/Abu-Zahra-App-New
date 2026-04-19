@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:background="@drawable/community_divider_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/transfer_ownership_btn"
+        android:layout="@layout/layout0373"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/exit_community_btn"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str13ce"
+        app:attr04e6="@drawable/ic_logout"
+        app:attr04e7="?attr0a4f"
+        app:attr04e9="@string/str13ce"
+        app:attr04ea="?attr0a4f"
+        app:attr04eb="17.0sp" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/delete_community_btn"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str0fc1"
+        app:attr04e6="@drawable/ic_delete_white"
+        app:attr04e7="?attr0a4f"
+        app:attr04e9="@string/str0fc1"
+        app:attr04ea="?attr0a4f"
+        app:attr04eb="17.0sp" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/report_community_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str2bdd"
+        app:attr04e6="@drawable/ic_thumb_down"
+        app:attr04e7="?attr0a4f"
+        app:attr04e8="false"
+        app:attr04e9="@string/str2bdd"
+        app:attr04ea="?attr0a4f"
+        app:attr04eb="17.0sp" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/deactivate_community_btn"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str0efe"
+        app:attr04e6="@drawable/vec_ic_dangerous"
+        app:attr04e7="?attr0a4f"
+        app:attr04e9="@string/str0efe"
+        app:attr04ea="?attr0a4f"
+        app:attr04eb="17.0sp" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen02eb"
+        android:gravity="center"
+        android:id="@id/community_no_longer_description"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen02ea"
+        android:layout_marginBottom="@dimen/dimen02e9"
+        android:text="@string/str0c1f"
+        android:layout_marginStart="@dimen/dimen02e8"
+        android:layout_marginEnd="@dimen/dimen02e8" />
+</LinearLayout>

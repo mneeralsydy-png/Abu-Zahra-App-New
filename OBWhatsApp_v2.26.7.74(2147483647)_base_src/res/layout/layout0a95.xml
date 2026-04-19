@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/member_suggested_groups_management_description_background"
+    android:padding="@dimen/dimen0ce8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr04a8="@id/avatar"
+    app:attr04ab="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/description"
+        android:layout="@layout/layout0a93"
+        android:inflatedId="@id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/member_suggested_groups_management_participant_count"
+        android:layout="@layout/layout0a90"
+        android:inflatedId="@id/member_suggested_groups_management_participant_count"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/member_suggested_groups_management_hidden_subgroup"
+        android:layout="@layout/layout0a8f"
+        android:inflatedId="@id/member_suggested_groups_management_hidden_subgroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

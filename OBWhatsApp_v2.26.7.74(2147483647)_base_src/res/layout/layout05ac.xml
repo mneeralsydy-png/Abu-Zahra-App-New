@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/conversations_requests_header"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0395"
+    style="@style/style002f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/requests_row_image"
+        android:layout_width="@dimen/dimen0362"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        app:attr0838="@drawable/wds_ic_person_pending"
+        app:attr090d="?attr0059" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@id/requests_row_text"
+        android:layout_width="@dimen/dimen102c"
+        android:layout_height="fill_parent"
+        android:text="@string/str415a"
+        android:layout_weight="1.0"
+        style="?attr08d4" />
+    <ViewStub
+        android:layout_gravity="center_vertical"
+        android:id="@id/requests_row_badge_stub"
+        android:layout="@layout/layout0451"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen0747" />
+</LinearLayout>

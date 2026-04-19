@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="@dimen/dimen103b"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fc0"
+        android:textColor="?attr066e"
+        android:id="@id/title"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0786"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a46"
+        android:id="@id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0784"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/button_cancel"
+        android:text="@string/str0783"
+        app:attr049a="parent"
+        app:attr04b0="@id/message"
+        style="@style/style0557" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/button_submit_anyway"
+        android:text="@string/str0785"
+        app:attr049a="parent"
+        app:attr04b0="@id/button_cancel"
+        style="@style/style0557" />
+</androidx.constraintlayout.widget.ConstraintLayout>

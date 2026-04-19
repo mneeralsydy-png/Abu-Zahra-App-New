@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com">
+    <ListPreference
+        android:icon="@drawable/abo_arab_ic_lang"
+        android:entries="@array/language_names"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/settings_language"
+        android:key="Language"
+        android:defaultValue="0"
+        android:entryValues="@array/language_val" />
+    <ListPreference
+        android:icon="@drawable/abo_arab_ic_translatedialog"
+        android:entries="@array/translation_preference"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/inconvo_trans_option"
+        android:key="inconvo_trans_option"
+        android:summary="@string/inconvo_trans_option_explainer"
+        android:defaultValue="in-y"
+        android:entryValues="@array/translation_preferenceVals" />
+    <ListPreference
+        android:icon="@drawable/abo_arab_ic_jsntranslator"
+        android:entries="@array/translation_to_preference"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/trans_option_def_to"
+        android:key="trans_def_to"
+        android:defaultValue="all"
+        android:entryValues="@array/translation_to_preferenceVals" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_multicard"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/multiChat"
+        android:key="multiChats"
+        android:summary="@string/multiChatsS"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_hands"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoHeds"
+        android:key="Pop_Heds"
+        android:summary="@string/yoHedsSum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_six"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoDisableBCounter"
+        android:key="disable_bcounter"
+        android:summary="@string/yoDisableBCounterS"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_audioff"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoDisableAudioHeads"
+        android:key="disable_audioheads"
+        android:summary="@string/yoDisableAudioHeadsS"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_reply_universal"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoFwdLim"
+        android:key="fwd_lim_incr"
+        android:summary="@string/yoFwdLimSum"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_close"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoDisableChatSwipe"
+        android:key="disable_chatswipeV2"
+        android:summary="@string/yoDisableChatSwipeS"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_always"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoAOnline"
+        android:key="always_online"
+        android:summary="@string/yoAOnlineSum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_gif"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="Tenor/Giphy GIF provider"
+        android:key="tenor_giphy"
+        android:summary="Off = Tenor, On = Giphy"
+        android:defaultValue="false" />
+    <Preference
+        android:icon="@drawable/abo_arab_ic_register"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/clearlogs"
+        android:key="clear_logs" />
+    <PreferenceCategory
+        android:icon="@drawable/abo_arab_ic_quality"
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/yoImg"
+        android:key="cat_img">
+        <com.whatsapp.yo.SeekBarPreference
+            android:max="6"
+            android:title="@string/yoImgHiBtn"
+            android:key="Img_highres_seek"
+            android:summary="@string/yoImgHiBtnSum"
+            android:defaultValue="1"
+            robobunny:max="3"
+            robobunny:min="1"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight="MB" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageButton
+    android:id="@id/wave_one_btn"
+    android:background="@null"
+    android:layout_width="34.0dip"
+    android:layout_height="45.0dip"
+    app:attr085e="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

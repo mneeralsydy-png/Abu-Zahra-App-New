@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0189"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/contact_photo_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="@dimen/dimen0745" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/add_favorite_icon"
+        android:background="@drawable/circular_background_primary"
+        android:layout_width="?attr0630"
+        android:layout_height="?attr0630"
+        android:scaleType="centerInside"
+        app:attr0083="?attr0a29"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="@id/contact_photo_guideline"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/call_log_add_favorite"
+        app:attr090d="?attr0215" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3d3d"
+        app:attr0494="@id/add_favorite_icon"
+        app:attr04a8="@id/contact_photo_guideline"
+        app:attr04b1="@id/add_favorite_icon"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="@style/style05a5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

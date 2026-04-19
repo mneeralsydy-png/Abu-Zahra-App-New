@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/conversation_row_call_link_preview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/bubble_bg"
+        android:background="@drawable/conversation_row_call_log_bubble_background"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_margin="@dimen/dimen0ce6"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/call_type_icon"
+        android:background="@drawable/bubble_circle_incoming"
+        android:padding="@dimen/dimen01df"
+        android:layout_width="@dimen/dimen0f84"
+        android:layout_height="@dimen/dimen0f84"
+        android:layout_margin="@dimen/dimen01e1"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05a7"
+        android:ellipsize="end"
+        android:id="@id/call_link_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ced"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen01e2"
+        app:attr0490="true"
+        app:attr0495="@id/call_link_subtitle_and_date"
+        app:attr049a="parent"
+        app:attr04a3="0.0"
+        app:attr04ac="@id/call_type_icon"
+        app:attr04b1="parent"
+        app:attr04b3="packed" />
+    <com.whatsapp.ui.coreui.components.TextAndDateLayout
+        android:layout_gravity="start"
+        android:id="@id/call_link_subtitle_and_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ced"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen01e1"
+        app:attr02a9="0.0dip"
+        app:attr02ab="@dimen/dimen0ce8"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04a3="0.0"
+        app:attr04ac="@id/call_type_icon"
+        app:attr04b0="@id/call_link_title"
+        app:attr04c1="@dimen/dimen01dd">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="@style/style05a6"
+            android:textColor="?attr0a35"
+            android:ellipsize="end"
+            android:layout_gravity="start|center|top"
+            android:id="@id/call_link_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str084c"
+            android:maxLines="1" />
+        <LinearLayout
+            android:layout_gravity="end|bottom|center"
+            android:orientation="horizontal"
+            android:id="@id/date_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen01de">
+            <ViewStub
+                android:id="@id/date"
+                android:layout="@layout/layout04b8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen1030" />
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.components.TextAndDateLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

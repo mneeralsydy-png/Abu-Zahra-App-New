@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.metaai.voice.app.ui.MetaAiSpeechIndicatorView
+    android:layout_gravity="center"
+    android:id="@id/full_sheet_animation"
+    android:layout_width="@dimen/dimen0076"
+    android:layout_height="@dimen/dimen0076"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

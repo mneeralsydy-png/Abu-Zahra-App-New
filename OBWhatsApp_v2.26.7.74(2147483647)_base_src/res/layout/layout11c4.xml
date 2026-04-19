@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:gravity="center"
+    android:layout_gravity="center_vertical"
+    android:id="@id/conversations_row_chevron"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/dimen1006"
+    android:minHeight="@dimen/dimen1006"
+    android:paddingStart="@dimen/dimen1031"
+    android:layout_marginStart="@dimen/dimen1030"
+    app:attr02ed="?attr0a46"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/style012c"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style012c">
+        <View
+            android:layout_gravity="left"
+            android:background="@color/color00df"
+            android:layout_width="120.0dip"
+            android:layout_height="120.0dip"
+            style="BusinessLoadingFilterBarShimmerItem" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

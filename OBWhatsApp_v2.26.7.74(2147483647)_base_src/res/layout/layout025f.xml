@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:id="@id/business_compliance_frame_layout"
+    android:background="?attr00f7"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/business_compliance_progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/business_compliance_network_error_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0175"
+        android:layout_marginRight="@dimen/dimen0175">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/business_compliance_network_error_text"
+            android:layout_marginLeft="@dimen/dimen0b5d"
+            android:text="@string/str07c1"
+            app:attr04d0="@dimen/dimen0faf"
+            style="@style/style018b" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="@dimen/dimen0fb6"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/business_compliance_network_error_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:text="@string/str07ce"
+            app:attr04d0="@dimen/dimen0faf"
+            style="@style/style012f" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@id/business_compliance_wrapper_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr011f="@dimen/dimen0b5f">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/business_compliance_recyclerview"
+            android:background="?attr0a59"
+            android:paddingBottom="@dimen/dimen0b62"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

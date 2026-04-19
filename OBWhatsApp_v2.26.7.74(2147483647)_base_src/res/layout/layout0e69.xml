@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:layout_gravity="center"
+        android:id="@id/responses_loading_progress_bar"
+        android:layout_width="@dimen/dimen0cf1"
+        android:layout_height="@dimen/dimen0cf1"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginBottom="@dimen/dimen0cee"
+        android:indeterminate="true"
+        whatsapp:attr028b="@color/color0790"
+        whatsapp:attr028c="?attr0a29"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b1="parent"
+        style="progressBarStyle" />
+</FrameLayout>

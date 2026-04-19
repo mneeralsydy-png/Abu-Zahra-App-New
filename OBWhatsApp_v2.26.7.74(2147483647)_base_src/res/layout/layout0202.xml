@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="@dimen/dimen0564"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/color02b5"
+        android:padding="@dimen/dimen0564"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color02b7"
+            android:ellipsize="end"
+            android:id="@id/bloks_error_title_text"
+            android:padding="@dimen/dimen0564"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2" />
+        <LinearLayout
+            android:gravity="end"
+            android:paddingTop="@dimen/dimen0563"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/dimen0566"
+                android:textStyle="bold"
+                android:textColor="@color/color02b6"
+                android:id="@id/bloks_error_mute_button"
+                android:padding="@dimen/dimen0564"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MUTE" />
+            <TextView
+                android:textSize="@dimen/dimen0566"
+                android:textStyle="bold"
+                android:textColor="@color/color02b6"
+                android:id="@id/bloks_error_view_button"
+                android:padding="@dimen/dimen0564"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0565"
+                android:layout_marginRight="@dimen/dimen0565"
+                android:text="VIEW" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

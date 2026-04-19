@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/dimen103b"
+    android:paddingEnd="@dimen/dimen103b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="20.0sp"
+        android:textColor="?attr066e"
+        android:gravity="center"
+        android:id="@id/something_went_wrong_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150.0dip"
+        android:text="@string/str063b"
+        android:fontFamily="?attr03b8"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/get_help_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str1676"
+        android:fontFamily="?attr03b6"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/something_went_wrong_title"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/get_help_in_browser"
+        android:layout_marginTop="36.0dip"
+        android:text="@string/str3e61"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/get_help_description"
+        style="@style/style0555" />
+</androidx.constraintlayout.widget.ConstraintLayout>

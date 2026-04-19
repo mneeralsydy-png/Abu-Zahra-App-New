@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:id="@id/suggested_contacts_progress_bar"
+        android:layout_width="@dimen/dimen0cf1"
+        android:layout_height="@dimen/dimen0cf1"
+        android:indeterminate="true"
+        app:attr028b="@color/color0790"
+        app:attr028c="?attr0a29"
+        style="progressBarStyle" />
+</FrameLayout>

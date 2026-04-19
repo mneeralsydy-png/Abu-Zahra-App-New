@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/conversation_placeholder"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.wallpaper.WDSWallpaper
+        android:id="@id/placeholder_background"
+        android:background="@null"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:alpha="0.28" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/image_placeholder"
+            android:layout_width="@dimen/dimen0642"
+            android:layout_height="@dimen/dimen0642"
+            app:attr0838="@drawable/vec_ic_star"
+            app:attr090d="?attr0a46" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fc0"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/txt_placeholder_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen03c1"
+            android:text="@string/str0e1f"
+            app:attr0a24="wds_font_headline1" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen03c0">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/e2ee_description_image"
+            android:layout_width="wrap_content"
+            android:layout_height="14.0dip"
+            android:layout_marginLeft="@dimen/dimen0ceb"
+            app:attr0838="@drawable/ic_lock_small_3"
+            app:attr090d="@color/color0905" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:gravity="center_horizontal"
+            android:id="@id/txt_home_placeholder_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0527"
+            android:layout_marginRight="@dimen/dimen0528"
+            android:text="@string/str0e1e" />
+    </LinearLayout>
+</FrameLayout>

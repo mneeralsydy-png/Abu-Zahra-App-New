@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/buttonPanel"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollIndicators="bottom|top"
+    style="?attr00ff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.ButtonBarLayout
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="?attr02cc"
+        android:paddingTop="@dimen/dimen0f32"
+        android:paddingRight="?attr02cc"
+        android:paddingBottom="@dimen/dimen0f32"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="locale">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@android:id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr00fd" />
+        <android.widget.Space
+            android:id="@id/spacer"
+            android:visibility="?attr052d"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@android:id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr00fc" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@android:id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr00fe" />
+    </androidx.appcompat.widget.ButtonBarLayout>
+</ScrollView>

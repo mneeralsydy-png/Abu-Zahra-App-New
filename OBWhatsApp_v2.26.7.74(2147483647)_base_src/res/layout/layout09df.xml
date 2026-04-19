@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/static_linear_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/static_filter_content"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/dimen103b">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:id="@id/static_filter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/dimen0faf"
+            android:maxLines="1"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08de"
+            android:ellipsize="end"
+            android:id="@id/subtitle_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/dimen0fb5"
+            android:text="@string/str2959"
+            android:maxLines="1"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center"
+        android:id="@id/add_again"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str01a6"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr096b="tonal"
+        app:attr09ea="small" />
+</LinearLayout>

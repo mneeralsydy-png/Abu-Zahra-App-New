@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/Abo_Arab_ozellestirmeler">
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_stylectt"
+            android:entries="@array/Abo_Arab_Speed_Dial"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/Abo_Arab_Speed_Dial_Baslik"
+            android:key="abu_arab_quickcontact"
+            android:summary="@string/Abo_Arab_Speed_Dial_Aciklama"
+            android:defaultValue="0"
+            android:entryValues="@array/Abo_Arab_Speed_Dial_values" />
+        <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+            android:icon="@drawable/abo_arab_ic_homerow"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_background_quickcontact"
+            android:key="key_mas_setBackground_quick"
+            android:summary="%s"
+            android:defaultValue="@color/abo_arab_primary" />
+        <abu3arab.mas.preferences.colorpicker.ColorPickerPreference
+            android:icon="@drawable/abo_arab_textorecado"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_background_quick2"
+            android:key="mas_latarkontak2"
+            android:summary="%s"
+            android:defaultValue="@color/abo_arab_accent" />
+        <abu3arab.mas.preferences.colorpicker.ColorPickerPreference
+            android:icon="@drawable/abo_arab_wave_color1"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_icon_quickcontact"
+            android:key="key_mas_icon_quickcontact"
+            android:summary="%s" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/abu_arab_avatar_quickcontact_title">
+        <abu3arab.mas.preferences.colorpicker.ColorPickerPreference
+            android:icon="@drawable/abo_arab_ic_fab_entry"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_avatar_border_color"
+            android:key="key_mas_border_avatar_quick_contact"
+            android:summary="%s" />
+        <abu3arab.mas.preferences.colorpicker.ColorPickerPreference
+            android:icon="@drawable/abo_arab_ic_border_quick"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_border_avatar2"
+            android:key="mas_lingkaran_kontak2"
+            android:summary="%s" />
+        <abu3arab.mas.preferences.colorpicker.ColorPickerPreference
+            android:icon="@drawable/abo_arab_ic_border_quick"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_border_avatar3"
+            android:key="mas_lingkaran_kontak3"
+            android:summary="%s" />
+        <abu3arab.mas.preferences.colorpicker.ColorPickerPreference
+            android:icon="@drawable/abo_arab_ic_hidenamedat"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoContactNameC"
+            android:key="key_mas_setText_contact_name"
+            android:summary="%s" />
+    </PreferenceCategory>
+</PreferenceScreen>

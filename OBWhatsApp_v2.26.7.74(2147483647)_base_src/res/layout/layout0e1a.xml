@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center|top"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:layout_gravity="center"
+        android:id="@id/time_till_end_progress_bar"
+        android:layout_width="120.0dip"
+        android:layout_height="120.0dip"
+        android:indeterminateOnly="false"
+        app:attr028b="@color/color08df"
+        app:attr028c="@color/color08df"
+        app:attr0290="40.0"
+        app:attr0291="@color/color08df" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_width="44.0dip"
+        android:layout_height="44.0dip"
+        android:layout_alignBottom="@id/time_till_end_progress_bar"
+        android:layout_alignEnd="@id/time_till_end_progress_bar"
+        app:attr0838="@drawable/wds_warning_badge_pictograms" />
+</RelativeLayout>

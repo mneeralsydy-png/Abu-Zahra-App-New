@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaLinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/status_viewer_title_panel"
+    android:background="@drawable/wds_bottom_sheet_background"
+    android:paddingTop="10.0dip"
+    android:paddingBottom="@dimen/dimen1030"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr09b2="?attr0a59"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:layout_gravity="center|top"
+        android:id="@id/status_viewer_handle_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/layout12a2" />
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/status_viewer_top_bar"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr02dd="visible"
+        app:attr057c="@menu/menu002b"
+        app:attr0655="@style/style0007"
+        app:attr091d="?attr0a47" />
+</com.whatsapp.ui.coreui.WaLinearLayout>

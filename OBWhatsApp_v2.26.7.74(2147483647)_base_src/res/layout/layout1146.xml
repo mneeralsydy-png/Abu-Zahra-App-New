@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/text_variants_selection_dismiss"
+        app:attr04a7="parent"
+        app:attr04b1="parent"
+        style="@style/style044d" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/variants_screen_title"
+        app:attr0494="@id/text_variants_selection_dismiss"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="@id/text_variants_selection_dismiss"
+        style="@style/style044e" />
+    <View
+        android:layout_gravity="top"
+        android:id="@id/shadow_top"
+        android:background="@drawable/list_downward_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0b62"
+        app:attr04ad="parent"
+        app:attr04b0="@id/text_variants_selection_dismiss" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/text_variants_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="@id/shadow_top" />
+</androidx.constraintlayout.widget.ConstraintLayout>

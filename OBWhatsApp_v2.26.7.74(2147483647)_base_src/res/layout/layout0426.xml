@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/custom_view"
+    android:paddingLeft="@dimen/dimen0392"
+    android:paddingRight="@dimen/dimen0392"
+    android:paddingBottom="@dimen/dimen0393"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="?attr000d"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout0427" />
+    <include
+        layout="@layout/layout0421" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/cart_items_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen064c"
+        android:layout_below="@id/order_detail_title"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+    <include
+        layout="@layout/theme_conversation_stock_entry" />
+    <include
+        layout="@layout/layout0f12" />
+</merge>

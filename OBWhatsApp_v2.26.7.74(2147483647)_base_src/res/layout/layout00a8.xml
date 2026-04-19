@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/color08ca"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:layout_gravity="top"
+        android:id="@id/tool_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d" />
+    <ScrollView
+        android:id="@id/task_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea">
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:textSize="24.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/color08df"
+                    android:id="@id/task_name_edit_text"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="24.0sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/color08df"
+                    android:id="@id/task_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+            <View
+                style="@style/style0355" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cee">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_width="@dimen/dimen0fdb"
+                    android:layout_height="@dimen/dimen0fdb"
+                    android:layout_marginBottom="-6.0dip"
+                    android:layout_marginEnd="@dimen/dimen0cea"
+                    app:attr0838="@drawable/vec_ic_calendar_month"
+                    app:attr090d="@color/color08de" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:gravity="start"
+                    android:id="@id/task_date_frequent"
+                    android:background="?android:selectableItemBackground"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen1035"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginEnd="@dimen/dimen0cea"
+                    style="@style/style0406" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:gravity="end"
+                    android:id="@id/task_time"
+                    android:background="?android:selectableItemBackground"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen1035"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:singleLine="true"
+                    style="@style/style0406" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_width="@dimen/dimen0fdb"
+                    android:layout_height="@dimen/dimen0fdb"
+                    android:layout_marginBottom="-6.0dip"
+                    android:layout_marginEnd="@dimen/dimen0cea"
+                    app:attr0838="@drawable/ic_repeatable"
+                    app:attr090d="@color/color08de" />
+                <LinearLayout
+                    android:gravity="start"
+                    android:orientation="vertical"
+                    android:background="?android:selectableItemBackground"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen1035"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginEnd="@dimen/dimen0cea">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str402d"
+                        style="@style/style0406" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textColor="@color/color08de"
+                        android:id="@id/repeat_task"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/style040b" />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                style="@style/style0355" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_width="@dimen/dimen0fdb"
+                    android:layout_height="@dimen/dimen0fdb"
+                    android:layout_marginBottom="-6.0dip"
+                    android:layout_marginEnd="@dimen/dimen0cea"
+                    app:attr0838="@drawable/ic_delete_filled_red" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textColor="@color/color08e8"
+                    android:gravity="start"
+                    android:id="@id/delete_task_btn"
+                    android:background="?android:selectableItemBackground"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen1035"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str4018"
+                    android:layout_weight="1.0"
+                    android:layout_marginEnd="@dimen/dimen0cea"
+                    style="@style/style0406" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/task_edit_button"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:text="@string/str402e"
+        style="@style/style0555" />
+</LinearLayout>

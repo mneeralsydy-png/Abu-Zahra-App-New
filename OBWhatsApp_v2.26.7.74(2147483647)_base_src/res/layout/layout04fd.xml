@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/content"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/conversation_row_participant_header_view_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/layout054e" />
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/map_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen03ea"
+        android:layout_marginLeft="@dimen/dimen043d"
+        android:layout_marginTop="@dimen/dimen043d"
+        android:layout_marginRight="@dimen/dimen043d"
+        android:layout_marginBottom="0.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/thumb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
+            whatsapp:attr0838="@drawable/map_loading" />
+        <com.whatsapp.locationsharing.location.WaMapView
+            android:id="@id/map_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <View
+            android:layout_gravity="center"
+            android:background="@drawable/ic_live_location_places"
+            android:visibility="visible"
+            android:layout_width="@dimen/dimen0cc6"
+            android:layout_height="@dimen/dimen0cc6" />
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:layout_gravity="center"
+            android:id="@id/contact_thumbnail"
+            android:visibility="visible"
+            android:layout_width="@dimen/dimen0cc7"
+            android:layout_height="@dimen/dimen0cc7"
+            android:src="@drawable/avatar_contact"
+            android:scaleType="fitCenter"
+            whatsapp:attr08a6="?attr0503"
+            whatsapp:attr08a7="1.0dip"
+            whatsapp:attr08a9="false"
+            whatsapp:attr08aa="@dimen/dimen0cc5" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/contact_thumbnail_overlay"
+            android:visibility="visible"
+            android:layout_width="@dimen/dimen0cc7"
+            android:layout_height="@dimen/dimen0cc7"
+            whatsapp:attr0838="@drawable/live_location_expired_contact_mask" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/thumb_button"
+            android:background="@drawable/selector_orange_gradient"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/str0e23"
+            whatsapp:attr0a24="wds_font_chat_body2" />
+        <ProgressBar
+            android:layout_gravity="bottom|center|left"
+            android:id="@id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen03e4"
+            android:layout_height="@dimen/dimen03e4"
+            android:layout_margin="@dimen/dimen1039" />
+    </FrameLayout>
+    <RelativeLayout
+        android:paddingBottom="@dimen/dimen1030"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/live_location_info_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/layout0501" />
+            <ViewStub
+                android:id="@id/suspicious_link_indicator_holder"
+                android:layout="@layout/layout1098"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.components.TextAndDateLayout
+            android:id="@id/text_and_date"
+            android:paddingTop="@dimen/dimen1035"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textAppearance="?attr09f0"
+                android:layout_gravity="left"
+                android:id="@id/live_location_caption"
+                android:paddingLeft="@dimen/dimen03e4"
+                android:paddingRight="@dimen/dimen03e4"
+                android:paddingBottom="@dimen/dimen043d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-1.0dip" />
+            <LinearLayout
+                android:layout_gravity="bottom|center|right"
+                android:orientation="horizontal"
+                android:id="@id/date_wrapper"
+                android:paddingLeft="@dimen/dimen03ba"
+                android:paddingRight="@dimen/dimen0166"
+                android:paddingBottom="@dimen/dimen03b9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ViewStub
+                    android:id="@id/date"
+                    android:layout="@layout/layout04b8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </com.whatsapp.ui.coreui.components.TextAndDateLayout>
+    </RelativeLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/btn_divider"
+        android:visibility="gone"
+        android:layout_marginTop="-4.0dip"
+        style="@style/style0356" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="@drawable/flat_button_link_color_incoming"
+        android:layout_gravity="center"
+        android:id="@id/stop_share_btn"
+        android:paddingTop="5.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1be8"
+        style="@style/style01c7" />
+</LinearLayout>

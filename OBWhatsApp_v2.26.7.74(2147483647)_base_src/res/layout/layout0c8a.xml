@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr0a5a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:id="@id/shipping_info_title"
+        android:paddingLeft="@dimen/dimen0a5d"
+        android:paddingTop="@dimen/dimen0a5d"
+        android:paddingRight="@dimen/dimen0a5d"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str232f"
+        app:attr04a7="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/shipping_address"
+        android:paddingLeft="@dimen/dimen0a5d"
+        android:paddingTop="@dimen/dimen1030"
+        android:paddingRight="@dimen/dimen0a5d"
+        android:paddingBottom="@dimen/dimen0a5d"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        app:attr04a7="parent"
+        app:attr04aa="@id/chevron_right"
+        app:attr04b0="@id/shipping_info_title"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/chevron_right"
+        android:layout_width="@dimen/dimen0fd9"
+        android:layout_height="@dimen/dimen0fd9"
+        android:layout_marginLeft="@dimen/dimen0a5d"
+        android:layout_marginRight="@dimen/dimen0a5d"
+        android:src="@drawable/wa_ic_chevron_right"
+        app:attr04ab="parent"
+        app:attr04b0="@id/shipping_info_title" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/dashed_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/shipping_address"
+        app:attr0838="@drawable/order_details_dashed_underline_gray" />
+</androidx.constraintlayout.widget.ConstraintLayout>

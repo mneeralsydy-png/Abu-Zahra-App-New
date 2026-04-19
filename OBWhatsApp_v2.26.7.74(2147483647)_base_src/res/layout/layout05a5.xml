@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversationslist.FillListViewContainer
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?android:textColorSecondary"
+            android:gravity="center"
+            android:id="@id/no_filter_text"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip"
+            android:focusable="true"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textAppearance="@style/style05a7"
+            android:gravity="center"
+            android:id="@id/to_view_all_chats"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip"
+            android:focusable="true"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/str391b"
+            style="@style/style0557" />
+    </LinearLayout>
+</com.whatsapp.conversationslist.FillListViewContainer>

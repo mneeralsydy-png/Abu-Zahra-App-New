@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="@dimen/dimen04b5"
+    android:paddingTop="@dimen/dimen0b62"
+    android:paddingRight="@dimen/dimen04b5"
+    android:paddingBottom="@dimen/dimen0b62"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen024d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/category_avatar"
+        android:background="@drawable/business_avatar_template"
+        android:layout_width="@dimen/dimen0248"
+        android:layout_height="@dimen/dimen0248"
+        app:attr0494="parent"
+        app:attr049b="@id/category_name"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <View
+        android:id="@id/category_name"
+        android:background="@drawable/business_line_template"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen04c4"
+        android:layout_marginLeft="@dimen/dimen04b6"
+        android:layout_marginStart="@dimen/dimen04b6"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/category_avatar"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

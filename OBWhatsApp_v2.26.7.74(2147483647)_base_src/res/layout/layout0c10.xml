@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen103b"
+    android:paddingRight="@dimen/dimen103b"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:id="@id/avatar_not_available_image_set"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaNetworkResourceImageView
+            android:id="@id/avatar_not_available_image"
+            android:layout_width="@dimen/dimen00f2"
+            android:layout_height="@dimen/dimen00f2"
+            app:attr05d4=""
+            app:attr0838="@drawable/ic_avatar_empty_first" />
+        <com.whatsapp.ui.coreui.base.WaNetworkResourceImageView
+            android:id="@id/avatar_not_available_image2"
+            android:layout_width="@dimen/dimen00f1"
+            android:layout_height="@dimen/dimen00f1"
+            app:attr05d4=""
+            app:attr0838="@drawable/ic_avatar_empty_second" />
+        <com.whatsapp.ui.coreui.base.WaNetworkResourceImageView
+            android:id="@id/avatar_not_available_image3"
+            android:layout_width="@dimen/dimen00f2"
+            android:layout_height="@dimen/dimen00f2"
+            app:attr05d4=""
+            app:attr0838="@drawable/ic_avatar_empty_third" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb5"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/no_avatar_available_text_view"
+        android:paddingTop="@dimen/dimen103a"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str048a" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textSize="@dimen/dimen0fb0"
+        android:textStyle="bold"
+        android:id="@id/no_avatar_available_create_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3200"
+        style="@style/style0555" />
+</LinearLayout>

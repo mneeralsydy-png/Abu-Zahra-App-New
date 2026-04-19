@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen0575"
+    android:layout_height="@dimen/dimen0575"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08dd"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/more_sticker_count"
+        android:background="@drawable/sticker_pack_more_ripple"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="@dimen/dimen0a7e"
+        android:layout_height="@dimen/dimen0a7e"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style05a7" />
+</FrameLayout>

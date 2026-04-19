@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/crossposting_contextual_upsell_background"
+    android:paddingBottom="10.0dip"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/str3038"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/anchor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="121.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        app:attr0838="@drawable/ic_waffle_crossposting_status_upsell_anchor"
+        app:attr090d="?attr0a2a" />
+    <com.whatsapp.ui.coreui.WaLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/anchor">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:id="@id/text1"
+            android:paddingLeft="8.0dip"
+            android:paddingTop="8.0dip"
+            android:paddingBottom="8.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:text="@string/str0ecb"
+            android:maxLines="2"
+            android:layout_weight="1.0"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="end|center"
+            android:id="@id/close"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:layout_marginRight="12.0dip"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close" />
+    </com.whatsapp.ui.coreui.WaLinearLayout>
+</RelativeLayout>

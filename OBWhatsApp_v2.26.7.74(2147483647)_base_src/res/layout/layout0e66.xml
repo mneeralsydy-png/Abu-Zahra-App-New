@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="center"
+    android:id="@id/requested_payment_amount_container"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/requested_payment_amount_expressive_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="20.0sp"
+        android:textColor="?attr0622"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/requested_payment_amount_text"
+        android:paddingLeft="@dimen/dimen0ce7"
+        android:paddingRight="@dimen/dimen0ce7"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:maxLines="1" />
+</FrameLayout>

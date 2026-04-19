@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="?attr0a59"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:id="@id/payment_expressive_background_container"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        app:attr011e="8.0dip"
+        app:attr011f="0.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/payment_expressive_background"
+            android:layout_width="@dimen/dimen0585"
+            android:layout_height="@dimen/dimen0584"
+            android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="56.0sp"
+            android:textColor="?attr0622"
+            android:layout_gravity="center"
+            android:id="@id/display_payment_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:singleLine="true" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:layout_gravity="center"
+            android:id="@id/payment_amount_subtext"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            app:attr0a24="wds_font_body1" />
+    </LinearLayout>
+</FrameLayout>

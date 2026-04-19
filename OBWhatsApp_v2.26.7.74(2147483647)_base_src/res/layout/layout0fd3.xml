@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MainChildCoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr0566="@id/bottom_sheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.analytics.uxlogging.components.LoggingAwareRelativeLayout
+        android:id="@id/content_sheet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <View
+                android:id="@id/outside_content_click_handler"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <FrameLayout
+                android:id="@id/content"
+                style="@style/style039e" />
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="horizontal"
+                android:id="@id/wamo_caption_vertical_guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr049e="0.15" />
+            <View
+                android:id="@id/wamo_caption_background"
+                android:visibility="gone"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                app:attr0494="@id/content"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="@id/wamo_caption" />
+            <ViewStub
+                android:id="@id/wamo_caption"
+                android:layout="@layout/layout101f"
+                android:inflatedId="@id/wamo_caption"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="150.0dip"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="8.0dip"
+                app:attr048f="true"
+                app:attr0495="@id/action_button"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="@id/wamo_caption_vertical_guideline"
+                app:attr04b2="1.0" />
+            <ViewStub
+                android:id="@id/wamo_caption_scroll_gradient"
+                android:visibility="gone"
+                android:layout="@layout/layout126e"
+                android:inflatedId="@id/wamo_caption_scroll_gradient"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                app:attr0494="@id/wamo_caption"
+                app:attr049a="@id/wamo_caption"
+                app:attr04a2="0.15"
+                app:attr04ad="@id/wamo_caption"
+                app:attr04b1="@id/wamo_caption"
+                app:attr04b2="1.0" />
+            <ViewStub
+                android:layout_gravity="bottom|center"
+                android:id="@id/action_button"
+                android:visibility="gone"
+                android:layout="@layout/layout0fc2"
+                android:inflatedId="@id/action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/dwell_action_button"
+                android:inflatedId="@id/dwell_action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="22.0sp"
+            android:textColor="?attr0a2f"
+            android:gravity="center"
+            android:id="@id/error"
+            android:padding="16.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <View
+            android:id="@id/click_handler"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ViewStub
+            android:layout_gravity="bottom|center"
+            android:id="@id/view_stub_status_reshare_button_emphasized"
+            android:layout="@layout/layout0fe0"
+            android:inflatedId="@id/status_reshare_button_emphasized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0d45"
+            android:layout_above="@id/caption_container"
+            android:layout_centerHorizontal="true" />
+        <ViewStub
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/floating_reactions_container"
+            android:layout="@layout/layout0744"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/caption_container" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/caption_container"
+            android:background="?attr00b5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <com.whatsapp.media.ui.MediaCaptionTextView
+                android:textSize="18.0sp"
+                android:textColor="?attr0a2f"
+                android:layout_gravity="bottom"
+                android:id="@id/caption"
+                android:paddingLeft="16.0dip"
+                android:paddingTop="10.0dip"
+                android:paddingRight="16.0dip"
+                android:paddingBottom="10.0dip"
+                android:focusable="true"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:shadowColor="?attr0a2d"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="2.5"
+                android:lineSpacingMultiplier="1.12"
+                android:importantForAccessibility="yes"
+                app:attr06be="3"
+                app:attr06bf="true"
+                app:attr06c0="?attr0a2f"
+                app:attr06c1="@string/str2aa4" />
+            <ViewStub
+                android:id="@id/future_proof_message"
+                android:layout="@layout/layout099a"
+                android:inflatedId="@id/future_proof_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:id="@id/caption_padding"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen0cff" />
+        </LinearLayout>
+        <FrameLayout
+            android:id="@id/control_frame"
+            android:background="@drawable/download_background"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <com.whatsapp.ui.coreui.CircularProgressBar
+                android:layout_gravity="center"
+                android:id="@id/progress_bar"
+                android:visibility="gone"
+                android:layout_width="64.0dip"
+                android:layout_height="64.0dip"
+                android:indeterminateOnly="false"
+                app:attr028b="@color/color0790"
+                app:attr028c="?attr0a79"
+                app:attr028d="@color/color0790"
+                app:attr028e="?attr00af"
+                app:attr028f="1.0dip"
+                app:attr0290="5.0" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/cancel_btn"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0838="@drawable/ic_close_white_small" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/control_btn"
+                android:text="@string/str07f2"
+                style="@style/style01b4" />
+        </FrameLayout>
+        <View
+            android:id="@id/status_details_background"
+            android:background="?attr00b5"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ViewStub
+            android:id="@id/view_stub_likes_received_animation"
+            android:layout="@layout/layout098b"
+            android:inflatedId="@id/lottie_status_likes_received"
+            android:layout_width="@dimen/dimen0d15"
+            android:layout_height="@dimen/dimen0d14"
+            android:layout_marginBottom="@dimen/dimen0cff"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </com.whatsapp.analytics.uxlogging.components.LoggingAwareRelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/bottom_sheet"
+        android:paddingTop="96.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr00a7="@dimen/dimen0d0f"
+        app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <ViewStub
+            android:id="@id/info"
+            android:layout="@layout/layout0fcf"
+            android:inflatedId="@id/info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/reply_bar"
+            android:layout="@layout/layout0fdd"
+            android:inflatedId="@id/reply_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/poster_bottom_bar"
+            android:layout="@layout/layout0fd8"
+            android:inflatedId="@id/poster_bottom_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/content" />
+        <ViewStub
+            android:id="@id/poster_bottom_bar_smb"
+            android:layout="@layout/layout0fd9"
+            android:inflatedId="@id/poster_bottom_bar_smb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/content" />
+        <ViewStub
+            android:id="@id/group_status_poster_bottom_bar"
+            android:layout="@layout/layout0fda"
+            android:inflatedId="@id/group_status_poster_bottom_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/content" />
+        <ViewStub
+            android:id="@id/poster_linking_upsell_bottom_bar"
+            android:layout="@layout/layout0fdc"
+            android:inflatedId="@id/poster_linking_upsell_bottom_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/content" />
+        <ViewStub
+            android:id="@id/mentions_receiver_nux_panel"
+            android:layout="@layout/layout0fbc"
+            android:inflatedId="@id/mentions_receiver_nux_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ViewStub
+            android:id="@id/mentions_list_panel"
+            android:layout="@layout/layout0fba"
+            android:inflatedId="@id/mentions_list_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <FrameLayout
+            android:id="@id/extra_padding"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.components.MainChildCoordinatorLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.search.WDSSearchView
+        android:id="@id/search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen1026"
+        app:attr0a22="clear"
+        app:attr0a23="normal"
+        style="@style/style0582" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/account_list_view"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0488="LinearLayoutManager" />
+</LinearLayout>

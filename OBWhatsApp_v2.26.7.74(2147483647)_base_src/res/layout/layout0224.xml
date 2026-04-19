@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="center_horizontal"
+    android:id="@id/parent"
+    android:background="@android:color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/video_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.videoplayback.ExoPlayerErrorFrame
+        android:id="@id/exoplayer_error_elements"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.videoplayback.HeroPlaybackControlView
+        android:id="@id/controlView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <include
+        android:id="@id/footer"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b2="1.0"
+        layout="@layout/layout0a7f" />
+</androidx.constraintlayout.widget.ConstraintLayout>

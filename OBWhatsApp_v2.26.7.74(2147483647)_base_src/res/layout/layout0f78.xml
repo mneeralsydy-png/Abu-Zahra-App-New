@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.business.biz.BusinessHoursView
+        android:id="@id/business_hours"
+        android:visibility="gone"
+        style="@style/style0132" />
+    <com.whatsapp.business.biz.BusinessProfileFieldView
+        android:id="@id/business_categories"
+        android:visibility="gone"
+        app:attr00e7="@drawable/ic_category"
+        style="@style/style0132" />
+    <com.whatsapp.business.biz.BusinessProfileFieldView
+        android:id="@id/business_description_v2"
+        android:visibility="gone"
+        android:paddingEnd="@dimen/dimen0a26"
+        app:attr00e7="@drawable/ic_store"
+        style="@style/style0132" />
+    <com.whatsapp.business.biz.BusinessProfileFieldView
+        android:id="@id/business_location"
+        android:visibility="gone"
+        app:attr00e7="@drawable/ic_location_on"
+        style="@style/style0132" />
+    <com.whatsapp.business.biz.BusinessProfileFieldView
+        android:id="@id/business_email"
+        android:visibility="gone"
+        app:attr00e5="end"
+        app:attr00e7="@drawable/ic_mail"
+        app:attr00e8="true"
+        style="@style/style0132" />
+    <com.whatsapp.business.biz.BusinessProfileFieldView
+        android:id="@id/business_link"
+        android:tag="website"
+        android:visibility="gone"
+        app:attr00e5="end"
+        app:attr00e7="@drawable/ic_public"
+        app:attr00e8="true"
+        style="@style/style0132" />
+    <com.whatsapp.business.biz.BusinessProfileFieldView
+        android:id="@id/business_link_2"
+        android:tag="website"
+        android:visibility="gone"
+        app:attr00e5="end"
+        app:attr00e7="@drawable/ic_public"
+        app:attr00e8="true"
+        style="@style/style0132" />
+</LinearLayout>

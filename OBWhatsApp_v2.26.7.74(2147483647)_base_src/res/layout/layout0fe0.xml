@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/status_reshare_button_emphasized"
+    android:paddingTop="@dimen/dimen0d4d"
+    android:paddingBottom="@dimen/dimen0d4d"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str31ca"
+    android:paddingStart="@dimen/dimen0d4c"
+    android:paddingEnd="@dimen/dimen0d4c"
+    app:attr0009="media"
+    app:attr0411="@drawable/ic_add_to_status"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

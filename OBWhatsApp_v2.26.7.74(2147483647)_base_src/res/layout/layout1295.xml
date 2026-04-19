@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0ea8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/audio_call_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/wave_all_icon"
+            android:background="@drawable/wave_all_view_background"
+            android:padding="@dimen/dimen103b"
+            android:focusable="false"
+            android:visibility="visible"
+            android:layout_width="@dimen/dimen0eb1"
+            android:layout_height="@dimen/dimen0eb1"
+            android:layout_margin="@dimen/dimen102f"
+            android:importantForAccessibility="no"
+            app:attr0495="@id/wave_all_text"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <ViewStub
+            android:id="@id/wave_all_lottie_view_stub"
+            android:layout="@layout/layout1294"
+            android:inflatedId="@id/wave_all_lottie_view"
+            android:layout_width="@dimen/dimen0eb1"
+            android:layout_height="@dimen/dimen0eb1"
+            app:attr0494="@id/wave_all_icon"
+            app:attr049a="@id/wave_all_icon"
+            app:attr04ad="@id/wave_all_icon"
+            app:attr04b1="@id/wave_all_icon" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/wave_all_text"
+            android:visibility="visible"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ea2"
+            android:text="@string/str3d51"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="?attr03b6"
+            android:paddingStart="@dimen/dimen0eb0"
+            android:paddingEnd="@dimen/dimen0eb0"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

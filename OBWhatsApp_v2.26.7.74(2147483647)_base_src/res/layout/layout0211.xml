@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:gravity="center_vertical"
+            android:id="@id/booking_reminder_close_button"
+            android:layout_width="@dimen/dimen0cee"
+            android:layout_height="@dimen/dimen0cee"
+            android:tint="@color/color0347"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:id="@id/booking_reminder_bottom_sheet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2b64"
+            android:fontFamily="?attr03b6"
+            style="@style/style0121" />
+    </FrameLayout>
+    <View
+        style="@style/style0355" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:gravity="center"
+            android:id="@id/booking_reminder_education"
+            android:paddingTop="@dimen/dimen103b"
+            android:paddingBottom="@dimen/dimen103b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str06ab"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:id="@id/booking_reminder_preset_options_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/booking_reminder_duration_custom"
+            android:text="@string/str2b6a"
+            style="@style/style0119" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

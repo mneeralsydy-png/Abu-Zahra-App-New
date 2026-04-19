@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+    android:id="@id/remove_account_preference"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr06c9="@string/str11d4"
+    app:attr06e1="true"
+    app:attr06e2="compact"
+    app:attr06f6="@drawable/ic_mail"
+    app:attr0702="icon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

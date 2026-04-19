@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewStub
+    android:id="@id/create_new_group_stub"
+    android:layout="@layout/layout05cf"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0ccb"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

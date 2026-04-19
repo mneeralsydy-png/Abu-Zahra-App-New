@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View
+    android:layout_gravity="end|center"
+    android:id="@id/side_chat_drag_handle"
+    android:background="@drawable/side_chat_drag_handle"
+    android:layout_width="@dimen/dimen0cb3"
+    android:layout_height="@dimen/dimen0cb2"
+    android:alpha="0.5"
+    android:layout_marginEnd="@dimen/dimen0cb4"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

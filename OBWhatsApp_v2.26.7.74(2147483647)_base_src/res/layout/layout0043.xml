@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/action_sheet_button"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12.0dip"
+    android:layout_marginTop="14.0dip"
+    android:layout_marginRight="12.0dip"
+    android:layout_marginBottom="14.0dip"
+    android:letterSpacing="0.125"
+    style="@style/style0557"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

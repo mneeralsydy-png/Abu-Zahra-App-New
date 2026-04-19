@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/speaker_btn_stub"
+        android:layout="@layout/layout01b1"
+        android:inflatedId="@id/speaker_btn_stub"
+        android:layout_width="@dimen/dimen0ea3"
+        android:layout_height="@dimen/dimen0ea3"
+        app:attr0494="parent"
+        app:attr049b="@id/bluetooth_btn_stub"
+        app:attr04a4="packed"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/bluetooth_btn_stub"
+        android:layout="@layout/layout01b1"
+        android:inflatedId="@id/bluetooth_btn_stub"
+        android:layout_width="@dimen/dimen0ea3"
+        android:layout_height="@dimen/dimen0ea3"
+        app:attr0494="parent"
+        app:attr049b="@id/mute_btn_stub"
+        app:attr04ac="@id/speaker_btn_stub"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/mute_btn_stub"
+        android:inflatedId="@id/mute_btn_stub"
+        android:layout_width="@dimen/dimen0ea3"
+        android:layout_height="@dimen/dimen0ea3"
+        app:attr0494="parent"
+        app:attr049b="@id/leave_btn_stub"
+        app:attr04ac="@id/bluetooth_btn_stub"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/leave_btn_stub"
+        android:layout="@layout/layout01b1"
+        android:inflatedId="@id/leave_btn_stub"
+        android:layout_width="@dimen/dimen0ea3"
+        android:layout_height="@dimen/dimen0ea3"
+        app:attr0494="parent"
+        app:attr049b="@id/join_btn_stub"
+        app:attr04ac="@id/mute_btn_stub"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/join_btn_stub"
+        android:layout="@layout/layout01b2"
+        android:inflatedId="@id/join_btn_stub"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr049b="@id/start_voice_chat_button_stub"
+        app:attr04ac="@id/leave_btn_stub"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/start_voice_chat_button_stub"
+        android:layout="@layout/layout01b2"
+        android:inflatedId="@id/start_voice_chat_button_stub"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/join_btn_stub"
+        app:attr04b1="parent" />
+</merge>

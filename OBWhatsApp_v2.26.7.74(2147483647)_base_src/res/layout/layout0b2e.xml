@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:id="@id/multi_skin_tone_selection_item"
+    android:background="@drawable/multi_skin_tone_emoji_selector"
+    android:padding="@dimen/dimen0997"
+    android:layout_width="@dimen/dimen0995"
+    android:layout_height="@dimen/dimen0995"
+    android:layout_marginLeft="@dimen/dimen1030"
+    android:layout_marginTop="@dimen/dimen1030"
+    android:layout_marginRight="@dimen/dimen1030"
+    android:layout_marginBottom="@dimen/dimen1030"
+    android:contentDescription="@string/str1f07"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

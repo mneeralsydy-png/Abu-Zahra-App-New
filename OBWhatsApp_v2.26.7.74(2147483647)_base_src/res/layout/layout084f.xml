@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0002"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center|left"
+        android:id="@id/search_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3d62"
+        app:attr0838="@drawable/ic_arrow_back_white"
+        app:attr090d="?attr0a46"
+        style="?attr0015" />
+    <androidx.appcompat.widget.SearchView
+        android:layout_gravity="center_vertical"
+        android:id="@id/search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20.0dip"
+        style="@style/style0603" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center|right"
+        android:id="@id/search_filter"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr090d="?attr066c"
+        style="?attr0015" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center|right"
+        android:id="@id/search_dialpad"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0838="@drawable/ic_dialpad_gray"
+        style="?attr0015" />
+</merge>

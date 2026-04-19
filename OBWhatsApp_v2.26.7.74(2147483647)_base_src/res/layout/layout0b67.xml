@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0777"
+        android:id="@id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cee"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginRight="@dimen/dimen0cee"
+        android:text="Select options to mute"
+        style="@style/style03c8" />
+    <RadioGroup
+        android:id="@id/mute_options_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginStart="@dimen/dimen0cef"
+        android:layout_marginEnd="@dimen/dimen0cea" />
+</LinearLayout>

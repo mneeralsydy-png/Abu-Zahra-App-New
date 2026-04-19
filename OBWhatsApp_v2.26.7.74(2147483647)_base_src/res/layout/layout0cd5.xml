@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingTop="@dimen/dimen103b"
+    android:paddingRight="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen1030"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/payment_nux_illustration"
+        android:layout_width="@dimen/dimen0aca"
+        android:layout_height="@dimen/dimen0ac9"
+        android:layout_marginBottom="@dimen/dimen103b"
+        app:attr0838="@drawable/wds_ill_send_receive" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:id="@id/payment_nux_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:text="@string/str3eab"
+        app:attr0a24="wds_font_headline1" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/payment_nux_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:text="@string/str3eaa"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/payment_nux_add_bank_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="200.0dip"
+        android:text="@string/str195a"
+        app:attr096b="filled" />
+</LinearLayout>

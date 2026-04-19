@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.banners.WDSBanner
+    android:id="@id/interop_reach_banner"
+    android:layout_margin="@dimen/dimen0ce7"
+    style="@style/style0571"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

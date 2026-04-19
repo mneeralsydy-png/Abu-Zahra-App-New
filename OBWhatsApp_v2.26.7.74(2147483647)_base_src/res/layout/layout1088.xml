@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:id="@id/summary_shimmer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr07d4="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039">
+        <View
+            android:id="@id/first_shimmer_view"
+            android:background="@drawable/summarization_rounded_shimmer_background"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/dimen0dc9"
+            app:attr04a7="parent"
+            app:attr04b1="parent"
+            app:attr04b8="1.0" />
+        <View
+            android:id="@id/second_shimmer_view"
+            android:background="@drawable/summarization_rounded_shimmer_background"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/dimen0dc9"
+            android:layout_marginTop="@dimen/dimen1039"
+            app:attr04a7="parent"
+            app:attr04b0="@id/first_shimmer_view"
+            app:attr04b8="0.69" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

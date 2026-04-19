@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/conversation_row_participant_header_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            layout="@layout/layout054e" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_gravity="center_horizontal"
+            android:id="@id/media_container"
+            android:paddingLeft="@dimen/dimen043d"
+            android:paddingTop="@dimen/dimen043d"
+            android:paddingRight="@dimen/dimen043d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@id/image_banner_top"
+                android:visibility="gone"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                app:attr0495="@id/image"
+                app:attr04a7="@id/image"
+                app:attr04ab="@id/image" />
+            <ViewStub
+                android:id="@id/image"
+                android:layout="@layout/layout0e95"
+                android:inflatedId="@id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr04a7="parent"
+                app:attr04b0="@id/image_banner_top" />
+            <View
+                android:id="@id/image_banner_bottom"
+                android:visibility="gone"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                app:attr04a7="@id/image"
+                app:attr04ab="@id/image"
+                app:attr04b0="@id/image" />
+            <ViewStub
+                android:id="@id/image_url_attribution_content"
+                android:layout="@layout/layout111a"
+                android:inflatedId="@id/image_url_attribution"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                app:attr04a7="@id/image"
+                app:attr04ab="@id/image"
+                app:attr04b0="@id/image" />
+            <com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.components.InfoLabelView
+                android:id="@id/info_label_view"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginStart="8.0dip"
+                app:attr0494="@id/image"
+                app:attr04ad="@id/image" />
+            <FrameLayout
+                android:layout_gravity="center"
+                android:id="@id/control_frame"
+                android:background="@drawable/download_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0494="@id/image"
+                app:attr04a7="@id/image"
+                app:attr04ab="@id/image"
+                app:attr04b1="@id/image">
+                <ViewStub
+                    android:layout_gravity="center"
+                    android:id="@id/progress_bar"
+                    android:layout="@layout/layout0350"
+                    android:inflatedId="@id/progress_bar"
+                    android:layout_width="@dimen/dimen03d1"
+                    android:layout_height="@dimen/dimen03d1" />
+                <ViewStub
+                    android:layout_gravity="center"
+                    android:id="@id/cancel_download"
+                    android:layout="@layout/layout0318"
+                    android:inflatedId="@id/cancel_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/control_btn"
+                    style="@style/style01b4" />
+            </FrameLayout>
+            <ViewStub
+                android:id="@id/control_frame_view_stub"
+                android:layout="@layout/layout041a"
+                android:inflatedId="@id/control_frame_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0494="@id/image"
+                app:attr04a7="@id/image"
+                app:attr04ab="@id/image"
+                app:attr04b1="@id/image" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout0927" />
+        <View
+            android:id="@id/button_div"
+            style="@style/style0356" />
+        <com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.components.InteractiveMessageButton
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/button"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

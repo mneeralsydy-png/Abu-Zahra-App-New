@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_width="@dimen/dimen08e3"
+    android:layout_height="@dimen/dimen08e2"
+    android:scaleType="centerInside"
+    app:attr0838="@drawable/vec_ic_videocam_white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

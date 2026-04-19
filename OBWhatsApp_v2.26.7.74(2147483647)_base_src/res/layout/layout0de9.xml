@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="start"
+    android:orientation="horizontal"
+    android:background="@drawable/key_info_background"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen1030"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/profile_settings_row_info_card_icon"
+        android:layout_width="@dimen/dimen0f36"
+        android:layout_height="@dimen/dimen0f36"
+        android:scaleType="fitCenter"
+        app:attr090d="?attr0a46" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color08de"
+        android:layout_gravity="center_vertical"
+        android:id="@id/profile_settings_row_info_card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1030"
+        android:singleLine="true"
+        android:labelFor="@id/profile_settings_row_text"
+        app:attr03ae="?attr03b6"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

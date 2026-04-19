@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ce5"
+        android:layout_marginRight="@dimen/dimen0ce5">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_width="132.0dip"
+            android:layout_height="88.0dip"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginBottom="@dimen/dimen103b"
+            app:attr0838="@drawable/vec_upi_mapper_nux_illustration" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?attr0a47"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1c49" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="?attr0a47"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce5"
+            android:text="@string/str1c48" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:gravity="center"
+            android:id="@id/continue_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce5"
+            android:layout_marginBottom="@dimen/dimen0ce5"
+            android:text="@string/str1c47" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_marginBottom="@dimen/dimen102e"
+            style="@style/style010f" />
+    </LinearLayout>
+</ScrollView>

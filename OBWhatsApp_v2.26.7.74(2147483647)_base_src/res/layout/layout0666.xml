@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/document_title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen0518"
+    android:layout_alignParentTop="true"
+    android:transitionName="@string/str42e2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/document_multi_selection_preview_back"
+        android:layout_width="@dimen/dimen0517"
+        android:layout_height="@dimen/dimen0517"
+        android:layout_marginRight="@dimen/dimen103b"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/str3d62"
+        app:attr0838="@drawable/ic_arrow_back_white"
+        style="@style/style0006" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="22.0dip"
+        android:textColor="?attr0a2f"
+        android:ellipsize="end"
+        android:id="@id/document_multi_selection_preview_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:drawablePadding="@dimen/dimen1035"
+        android:layout_toRightOf="@id/document_multi_selection_preview_back"
+        android:layout_centerVertical="true"
+        android:textAllCaps="true" />
+</RelativeLayout>

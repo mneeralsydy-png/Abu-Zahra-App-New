@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/page_info_header"
+            android:paddingTop="@dimen/dimen103a"
+            android:paddingBottom="@dimen/dimen103a"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/dimen0450"
+            android:paddingStart="@dimen/dimen102e"
+            android:paddingEnd="@dimen/dimen102e">
+            <FrameLayout
+                android:id="@id/item_photo_container"
+                android:layout_width="@dimen/dimen1012"
+                android:layout_height="0.0dip"
+                whatsapp:attr0494="parent"
+                whatsapp:attr04ad="parent"
+                whatsapp:attr04b1="parent">
+                <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+                    android:layout_gravity="center"
+                    android:id="@id/page_photo_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    whatsapp:attr0675="x_small" />
+            </FrameLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/item_info_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen102e"
+                whatsapp:attr0494="parent"
+                whatsapp:attr049a="parent"
+                whatsapp:attr04ac="@id/item_photo_container"
+                whatsapp:attr04b1="parent">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="@dimen/dimen0fb0"
+                    android:ellipsize="end"
+                    android:id="@id/wamo_page_title"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04a3="0.0"
+                    whatsapp:attr04ad="parent"
+                    whatsapp:attr04b1="parent"
+                    whatsapp:attr04b2="0.0"
+                    style="?attr09f0" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:ellipsize="end"
+                    android:id="@id/wamo_page_subtitle"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="1.0"
+                    whatsapp:attr04a3="0.0"
+                    whatsapp:attr04ad="parent"
+                    whatsapp:attr04b0="@id/wamo_page_title"
+                    whatsapp:attr04b2="0.0"
+                    style="?attr09f6" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ViewStub
+            android:id="@id/wamo_page_description_view_id"
+            android:layout="@layout/layout1275"
+            android:inflatedId="@id/wamo_page_description_view_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/wamo_page_link_view_id"
+            android:layout="@layout/layout1277"
+            android:inflatedId="@id/wamo_page_link_view_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/wamo_page_facebook_view_id"
+            android:layout="@layout/layout1276"
+            android:inflatedId="@id/wamo_page_facebook_view_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:id="@id/activity_button_divider"
+            android:background="?attr0a4d"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/wamo_page_loading_id"
+                android:layout="@layout/layout1278"
+                android:inflatedId="@id/wamo_page_loading_id"
+                android:layout_width="@dimen/dimen1034"
+                android:layout_height="@dimen/dimen1034"
+                android:layout_marginStart="@dimen/dimen102e"
+                whatsapp:attr0494="parent"
+                whatsapp:attr04ad="parent"
+                whatsapp:attr04b1="parent" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/wamo_hide_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr0494="parent"
+                whatsapp:attr04ad="parent"
+                whatsapp:attr04b1="parent"
+                whatsapp:attr06e1="true"
+                whatsapp:attr06e2="compact"
+                whatsapp:attr06e5="?attr0a29"
+                whatsapp:attr06f1="spacing_double"
+                whatsapp:attr06f2="spacing_double"
+                whatsapp:attr06f6="@drawable/vec_ic_visibility_off"
+                whatsapp:attr06fa="medium"
+                whatsapp:attr0702="icon"
+                whatsapp:attr0704="spacing_double" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/wamo_unhide_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr0494="parent"
+                whatsapp:attr04ad="parent"
+                whatsapp:attr04b1="parent"
+                whatsapp:attr06e1="true"
+                whatsapp:attr06e2="compact"
+                whatsapp:attr06e5="?attr0a29"
+                whatsapp:attr06f1="spacing_double"
+                whatsapp:attr06f2="spacing_double"
+                whatsapp:attr06f6="@drawable/ic_visibility"
+                whatsapp:attr06fa="medium"
+                whatsapp:attr0702="icon"
+                whatsapp:attr0704="spacing_double" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

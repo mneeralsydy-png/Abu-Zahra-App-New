@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:layout_gravity="top"
+        android:id="@id/shade_top"
+        android:layout="@layout/layout1177"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen041e" />
+    <ViewStub
+        android:layout_gravity="bottom"
+        android:id="@id/shade_bottom"
+        android:layout="@layout/layout1176"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen041d" />
+</merge>

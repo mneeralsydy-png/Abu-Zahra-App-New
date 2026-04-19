@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_instagramstories"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/igStories"
+        android:key="home_stories_key"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_homestts"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_carouselview"
+        android:key="key_carousel_view"
+        android:summary="@string/igStories"
+        android:defaultValue="false" />
+    <ListPreference
+        android:icon="@drawable/abo_arab_ic_homestts"
+        android:entries="@array/stories_label"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/story_style"
+        android:key="home_stories_style"
+        android:summary="%s"
+        android:defaultValue="view"
+        android:entryValues="@array/stories_values_v2" />
+    <ListPreference
+        android:icon="@drawable/abo_arab_ic_statusbar"
+        android:entries="@array/update_label"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/abu_arab_new_story"
+        android:key="key_status_ui"
+        android:summary="%s"
+        android:defaultValue="3"
+        android:entryValues="@array/update_values" />
+    <abu3arab.mas.preferences.widget.EditTextPreference
+        android:icon="@drawable/abo_arab_ic_disable_heart"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/abu_arab_status_reaction"
+        android:key="status_reaction"
+        android:summary="%s"
+        android:defaultValue="💚" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_reccentxt"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/statusesTitleBack"
+        android:key="statuses_bar_bg_picker"
+        android:summary="@string/statusesTitleBackS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_colortxt"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/statusesTitleText"
+        android:key="statuses_bar_text_picker"
+        android:summary="@string/statusesTitleTextS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_sttsname"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/name_contact_sto"
+        android:key="key_name_stories"
+        android:summary="@string/name_contact_sto_sum"
+        android:defaultValue="@color/white" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_toast"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/SeenST"
+        android:key="SeenColor"
+        android:summary="@string/SeenSTS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_recentnow"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/UnSeenST"
+        android:key="UnSeenColor"
+        android:summary="@string/UnSeenSTS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_contrafundo"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/bg_counter_color"
+        android:key="key_counter_bg"
+        android:summary="@string/bg_counter_color_sum"
+        android:defaultValue="@color/accent" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_countercolor"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/text_counter_color"
+        android:key="key_counter_tx"
+        android:summary="@string/text_counter_color_sum"
+        android:defaultValue="@color/white" />
+    <SwitchPreference
+        android:icon="@drawable/Abo_Arab_ic_fabmenudelta"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/Abo_Arab_ringprof"
+        android:key="abu_arab_status_and_photo"
+        android:summary="@string/Abo_Arab_ringprof_sum"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_hidownload"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/statuspage_extras"
+        android:key="enable_statuspage_extras"
+        android:summary="@string/statuspage_extras_desc"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_tumbstts"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/change_p_s"
+        android:key="key_with_thumb"
+        android:summary="@string/sum_change_p_s"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_audio"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_media_status_audio"
+        android:key="abu3arab_status_audio"
+        android:summary="@string/abu_arab_status_audio_sem"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_imagehidden"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/convo_confirm_before_sendingStatus"
+        android:key="status_wantsendconfirmation"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_fivemin"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoFiveMinStatus"
+        android:key="enable_fivminstatus"
+        android:summary="@string/yoFiveMinStatusS"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_silenciado"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/hidesMStatus"
+        android:key="imsHideMStatus"
+        android:summary="@string/hidesMStatussum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_visualizado"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/hidesVStatus"
+        android:key="imsHideVStatus"
+        android:summary="@string/hidesVStatussum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_recent"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/hideRStatus"
+        android:key="imsHideRStatus"
+        android:summary="@string/hideRstatussum"
+        android:defaultValue="false" />
+</PreferenceScreen>

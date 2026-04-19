@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="@color/color00ff" />
+        </shape>
+    </item>
+    <item
+        android:left="12.0dip"
+        android:top="12.0dip"
+        android:right="12.0dip"
+        android:bottom="12.0dip">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_campaign"
+            android:tint="@color/color0100" />
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_width="@dimen/dimen05d5"
+    android:layout_height="@dimen/dimen05d5"
+    android:adjustViewBounds="true"
+    android:contentDescription="@string/str41e1"
+    app:attr0838="@drawable/vec_logo_placeholder"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

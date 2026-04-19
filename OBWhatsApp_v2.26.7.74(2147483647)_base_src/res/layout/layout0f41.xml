@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:orientation="vertical"
+    android:id="@id/settings_privacy_row"
+    android:background="?android:selectableItemBackground"
+    android:paddingLeft="@dimen/dimen0c93"
+    android:paddingTop="@dimen/dimen0c97"
+    android:paddingRight="@dimen/dimen0c93"
+    android:paddingBottom="@dimen/dimen0c97"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/settings_privacy_row_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="?attr07b5" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/settings_privacy_row_subtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07b1" />
+</merge>

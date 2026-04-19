@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.banners.WDSBannerCompact
+    android:icon="@drawable/ic_campaign"
+    android:id="@id/events_promotion_wdsbanner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

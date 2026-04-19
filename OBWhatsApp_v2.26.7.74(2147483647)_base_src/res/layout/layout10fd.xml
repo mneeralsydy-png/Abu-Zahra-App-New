@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        app:attr0495="@id/schedule_call_button"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/empty_illustration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wds_ill_calendar_schedule_call"
+                android:scaleType="centerCrop"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent"
+                app:attr04b2="0.3" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:layout_gravity="center"
+                android:id="@id/illustration_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:text="@string/str2d28"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/empty_illustration"
+                style="@style/style05aa" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textColor="@color/color0948"
+                android:layout_gravity="center"
+                android:id="@id/illustration_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:text="@string/str2d30"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/illustration_title"
+                style="@style/style05a6" />
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="bottom|center"
+        android:id="@id/schedule_call_button"
+        android:layout_margin="16.0dip"
+        android:text="@string/str2d28"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        style="@style/style055c" />
+</androidx.constraintlayout.widget.ConstraintLayout>

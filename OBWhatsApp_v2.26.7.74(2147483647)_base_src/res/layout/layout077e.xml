@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.KeyboardPopupLayout
+    android:id="@id/lists_manager_fragment_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/lists_manager_coordinator"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/recycler_view"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:layout_weight="1.0"
+                app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/create_list_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen1039"
+                android:text="@string/str01dd" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.whatsapp.emoji.search.EmojiSearchContainer
+        android:id="@id/emoji_search_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</com.whatsapp.ui.coreui.KeyboardPopupLayout>

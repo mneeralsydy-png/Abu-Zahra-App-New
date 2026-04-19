@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/contact_photo_layout"
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/contact_photo"
+        android:background="?attr00b4"
+        android:layout_width="@dimen/dimen018c"
+        android:layout_height="@dimen/dimen018c"
+        android:scaleType="fitCenter"
+        tools:attr0308="6.0dip"
+        tools:attr0838="@drawable/vec_avatar_contact_voice_call" />
+    <ViewStub
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom|center"
+        android:id="@id/audio_wave_view_stub"
+        android:layout="@layout/layout071a"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/peers_not_in_face_pile_count_text_stub"
+        android:layout="@layout/layout0d09"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen018c"
+        android:layout_marginLeft="@dimen/dimen0cec"
+        android:layout_marginRight="@dimen/dimen0cec" />
+    <ViewStub
+        android:layout_gravity="end|center|top"
+        android:id="@id/call_participant_reaction"
+        android:layout="@layout/layout02b9"
+        android:inflatedId="@id/call_participant_reaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1031" />
+</FrameLayout>

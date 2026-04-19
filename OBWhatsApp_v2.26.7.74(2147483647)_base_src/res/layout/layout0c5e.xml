@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:padding="@dimen/dimen102e"
+    android:paddingTop="@dimen/dimen0cea"
+    android:paddingBottom="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:id="@id/select_bank_app_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str28ed" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="start"
+        android:id="@id/select_bank_app_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:text="@string/str28ec"
+        app:attr0a24="wds_font_body2" />
+    <include
+        layout="@layout/layout0f62" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/bank_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0488="LinearLayoutManager" />
+</LinearLayout>

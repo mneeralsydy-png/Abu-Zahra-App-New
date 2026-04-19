@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/warning_container"
+    android:paddingBottom="@dimen/dimen0b5d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0b5d"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:layout_marginRight="@dimen/dimen0b5d">
+        <FrameLayout
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/warning_icon"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:scaleType="fitXY"
+                app:attr0838="@drawable/ic_verified_user" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:id="@id/warning_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0b5d"
+            app:attr0a24="wds_font_body1" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/cta_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0b5d"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:layout_marginRight="@dimen/dimen0b5d"
+        style="@style/style020c" />
+</LinearLayout>

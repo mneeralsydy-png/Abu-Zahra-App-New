@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/para_1_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+            android:id="@id/automator_para_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr02de="false"
+            app:attr03ee="@string/str0466"
+            app:attr03ef="emphasized"
+            app:attr0862="@string/str0464" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/automator_para_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr02de="false"
+        app:attr03ee="@string/str0467"
+        app:attr03ef="emphasized"
+        app:attr0862="@string/str0465" />
+</LinearLayout>

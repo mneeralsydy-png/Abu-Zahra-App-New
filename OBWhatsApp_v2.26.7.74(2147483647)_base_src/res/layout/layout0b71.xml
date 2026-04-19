@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/root_view"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:cacheColorHint="@color/color0790"
+        android:divider="@drawable/status_contact_picker_divider"
+        android:dividerHeight="0.5dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style01a2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="17.0sp"
+        android:textColor="@color/color09bc"
+        android:gravity="center"
+        android:id="@android:id/empty"
+        android:padding="@dimen/dimen1034"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="@android:id/list"
+        app:attr049a="@android:id/list"
+        app:attr04ad="@android:id/list"
+        app:attr04b1="@android:id/list"
+        style="progressBarStyleInverse" />
+    <com.whatsapp.ui.wds.components.fab.WDSFab
+        android:id="@id/fab"
+        android:layout_marginLeft="@dimen/dimen058e"
+        android:src="@drawable/ic_photo_camera"
+        android:contentDescription="@string/str3f02"
+        android:layout_marginStart="@dimen/dimen058e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr090d="?attr0a2f"
+        style="@style/style055f" />
+    <com.whatsapp.ui.wds.components.fab.WDSFab
+        android:id="@id/fab_second"
+        android:layout_marginRight="@null"
+        android:contentDescription="@string/str1d04"
+        android:layout_marginEnd="@null"
+        app:attr0494="parent"
+        app:attr049a="@id/fab"
+        app:attr04ad="@id/fab"
+        app:attr090d="?attr0366"
+        style="@style/style0563" />
+</androidx.constraintlayout.widget.ConstraintLayout>

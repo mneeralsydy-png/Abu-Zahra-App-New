@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">Ocorreu um erro ao sair de %d grupos. Tente novamente.</item>
+        <item quantity="one">Ocorreu um erro ao sair de %d grupo. Tente novamente.</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+</resources>

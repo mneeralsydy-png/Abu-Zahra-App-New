@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textAppearance="@style/style05a6"
+    android:textColor="?attr066e"
+    android:ellipsize="end"
+    android:id="@id/india_upi_no_savings_offer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen0b62"
+    android:maxLines="1"
+    app:attr0a24="wds_font_body2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

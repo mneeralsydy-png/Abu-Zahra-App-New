@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:gravity="start|bottom|center"
+    android:id="@id/mtrl_picker_header_selection_text"
+    android:paddingBottom="@dimen/dimen092e"
+    app:attr0071="uniform"
+    app:attr0386="@dimen/dimen0930"
+    app:attr04d0="@dimen/dimen0924"
+    style="?attr053c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

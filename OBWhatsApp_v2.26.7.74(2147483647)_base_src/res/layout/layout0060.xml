@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:elevation="?attr002f"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style0520" />
+    <ScrollView
+        android:id="@id/pose_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.avatar.style2.AvatarStyle2UpsellView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e"
+                app:attr0836="ProfilePicture" />
+            <FrameLayout
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen102e">
+                <com.whatsapp.avatar.ui.profilephoto.AvatarProfilePhotoImageView
+                    android:layout_gravity="center"
+                    android:id="@id/avatar_pose"
+                    android:layout_width="@dimen/dimen00f9"
+                    android:layout_height="@dimen/dimen00f9"
+                    app:attr0835="height" />
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:id="@id/profile_image_progress"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:progressTint="?attr0a2f"
+                    android:indeterminateTint="?attr0a2f"
+                    android:indeterminateTintMode="src_atop" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View
+        android:id="@id/photo_divider"
+        android:background="?attr0a4d"
+        android:layout_width="0.0dip"
+        android:layout_height="1.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/pose_layout" />
+    <androidx.core.widget.NestedScrollView
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen102e"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/avatar_profile_photo_options"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/photo_divider">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a46"
+                android:id="@id/poses_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen102e"
+                android:layout_marginRight="@dimen/dimen102e"
+                android:text="@string/str049e"
+                style="@style/style040e" />
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@id/pose_shimmer"
+                android:paddingLeft="@dimen/dimen102e"
+                android:paddingTop="@dimen/dimen1030"
+                android:paddingRight="@dimen/dimen102e"
+                android:paddingBottom="@dimen/dimen1030"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                app:attr07d4="false">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:orientation="horizontal"
+                    android:id="@id/avatar_pose_recycler"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a46"
+                android:id="@id/background_color_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen102e"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginRight="@dimen/dimen102e"
+                android:text="@string/str049d"
+                style="@style/style040e" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:orientation="horizontal"
+                android:id="@id/avatar_color_recycler"
+                android:paddingLeft="@dimen/dimen102e"
+                android:paddingTop="@dimen/dimen1030"
+                android:paddingRight="@dimen/dimen102e"
+                android:paddingBottom="@dimen/dimen1030"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/avatar_profile_photo_options"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:text="@string/str3d5e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        style="@style/style055d" />
+</androidx.constraintlayout.widget.ConstraintLayout>

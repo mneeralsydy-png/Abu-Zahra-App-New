@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/media_view_cta_root_layout"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_alignWithParentIfMissing="true"
+    android:paddingStart="@dimen/dimen0ce8"
+    android:paddingEnd="@dimen/dimen0ce8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:gravity="bottom"
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/media_view_cta_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0ce8"
+        android:paddingEnd="@dimen/dimen0ce8"
+        app:attr09ea="small" />
+</FrameLayout>

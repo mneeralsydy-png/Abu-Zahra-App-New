@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/about_content_scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="20.0sp"
+            android:textStyle="normal"
+            android:textColor="?attr0a47"
+            android:gravity="center"
+            android:id="@id/eula_title"
+            android:paddingTop="7.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.0dip"
+            android:text="@string/yowav" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/version"
+            android:paddingLeft="@dimen/dimen1030"
+            android:paddingTop="@dimen/dimen1035"
+            android:paddingRight="@dimen/dimen1030"
+            android:paddingBottom="@dimen/dimen1031"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1039"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="16.0sp"
+            android:textStyle="normal"
+            android:textColor="#ffff0000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingTop="7.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.0dip"
+            android:text="this update on" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="16.0sp"
+            android:textStyle="normal"
+            android:textColor="#ffff0000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingTop="7.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.0dip"
+            android:text="تاريخ النشر" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="16.0sp"
+            android:textStyle="normal"
+            android:textColor="#ffff0000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingTop="7.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.0dip"
+            android:text="1/4/2026" />
+        <com.whatsapp.yo.tf
+            android:textSize="16.0sp"
+            android:textStyle="normal"
+            android:textColor="#ff33b5e5"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/mod_by"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_me"
+            android:layout_below="@id/version" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/logo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:contentDescription="@string/str0061"
+            app:attr0838="@drawable/icon_01" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="15.0sp"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen1030"
+            android:paddingTop="10.0dip"
+            android:paddingRight="@dimen/dimen1030"
+            android:paddingBottom="@dimen/dimen1031"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:text="@string/str4334" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="17.0sp"
+            android:textColor="#ff49d0fc"
+            android:id="@id/about_licenses"
+            android:background="@drawable/selector_transparent_gray"
+            android:padding="@dimen/dimen1031"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:minWidth="128.0dip"
+            android:text="@string/str3942" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="12.0sp"
+            android:textColor="#ff86a9a8"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingLeft="4.0dip"
+            android:paddingTop="10.0dip"
+            android:paddingRight="4.0dip"
+            android:paddingBottom="6.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:text="تذكر أن إستخدامك لأي نسخة واتساب معدلة يكون على مسئوليتك الشخصيه." />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="12.0sp"
+            android:textColor="#ff86a9a8"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingLeft="4.0dip"
+            android:paddingTop="10.0dip"
+            android:paddingRight="4.0dip"
+            android:paddingBottom="6.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:text="Remember: that your use of any modified version of WhatsApp is at your own risk." />
+    </LinearLayout>
+</ScrollView>

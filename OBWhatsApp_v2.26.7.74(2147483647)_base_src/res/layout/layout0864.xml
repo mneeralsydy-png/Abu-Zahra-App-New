@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:id="@id/image_preview_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/media_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/video_container"
+        android:layout="@layout/layout0b0e"
+        android:inflatedId="@id/video_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.mediaview.api.PhotoView
+        android:id="@id/photo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/str3d0a" />
+</merge>

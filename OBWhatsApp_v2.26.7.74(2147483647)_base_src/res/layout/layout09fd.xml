@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+    android:id="@id/nearby_places_header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="36.0dip"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    app:attr03ee="@string/str1bfa"
+    app:attr03ef="defaultHeader"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

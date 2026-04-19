@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/effects_content_container"
+    android:paddingBottom="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/effects_styles_container"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout107e" />
+    <com.whatsapp.metaai.ui.imaginev2.effects.EditActionsView
+        android:id="@id/effects_edit_container"
+        android:paddingLeft="@dimen/dimen0cea"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:paddingRight="@dimen/dimen0cea"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/catalog_item_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:id="@id/catalog_list_product_image"
+            style="@style/style031e" />
+        <ViewStub
+            android:id="@id/hidden_item_indicator_stub"
+            android:inflatedId="@id/hidden_item_indicator"
+            style="@style/style031e" />
+        <ViewStub
+            android:layout_gravity="center|left|top"
+            android:id="@id/corner_indicator_stub"
+            android:inflatedId="@id/corner_indicator"
+            android:layout_width="@dimen/dimen0c6e"
+            android:layout_height="@dimen/dimen0c6e"
+            android:layout_marginLeft="@dimen/dimen1039" />
+        <com.whatsapp.ui.coreui.components.SelectionCheckView
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/selection_check"
+            android:layout_width="@dimen/dimen0c6e"
+            android:layout_height="@dimen/dimen0c6e" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen102f">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/catalog_list_product_title"
+            android:duplicateParentState="true"
+            style="@style/style0320" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="@color/color06d1"
+            android:ellipsize="end"
+            android:id="@id/catalog_list_product_description"
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/catalog_list_product_price"
+            android:duplicateParentState="true"
+            style="@style/style031f" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/catalog_list_product_variant_description"
+            android:duplicateParentState="true"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:textAllCaps="true"
+            style="@style/style0322" />
+    </LinearLayout>
+</merge>

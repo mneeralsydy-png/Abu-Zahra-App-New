@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a6"
+            android:textColor="@color/color08de"
+            android:id="@id/subtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:textAlignment="center"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.wds.components.divider.WDSDivider
+            android:id="@id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039"
+            app:attr02db="thin" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/content_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen102e" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

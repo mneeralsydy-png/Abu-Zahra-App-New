@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen1044"
+        android:textColor="@color/color08df"
+        android:gravity="start"
+        android:id="@id/ordered_by_label"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str2cd4"
+        android:textDirection="locale"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/business_logo"
+        android:layout_width="@dimen/dimen0a58"
+        android:layout_height="@dimen/dimen0a58"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="@dimen/dimen102e"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b0="@id/ordered_by_label" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen1044"
+        android:textColor="@color/color08df"
+        android:gravity="start"
+        android:id="@id/business_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ac="@id/business_logo"
+        whatsapp:attr04b1="@id/business_logo" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen1041"
+        android:textColor="@color/color08de"
+        android:id="@id/business_account_label"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:textDirection="locale"
+        whatsapp:attr0494="@id/business_logo"
+        whatsapp:attr049a="@id/business_name"
+        whatsapp:attr04ad="@id/business_name"
+        whatsapp:attr04b0="@id/business_name" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr009c="bottom"
+        whatsapp:attr0243="business_logo,business_account_label" />
+    <View
+        android:id="@id/bottom_divider"
+        android:background="?attr0a4d"
+        android:layout_width="0.0dip"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="@dimen/dimen103b"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b0="@id/barrier" />
+</androidx.constraintlayout.widget.ConstraintLayout>

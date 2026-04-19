@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.KeyboardPopupLayout
+    android:id="@id/send_payment_keyboard_popup_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@id/payment_tabs"
+        android:background="?attr05d7"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:elevation="?attr002f"
+        whatsapp:attr0687="@color/color0790"
+        whatsapp:attr088c="?attr0a29"
+        whatsapp:attr089c="?attr066e" />
+    <include
+        layout="@layout/layout0cfa" />
+</com.whatsapp.ui.coreui.KeyboardPopupLayout>

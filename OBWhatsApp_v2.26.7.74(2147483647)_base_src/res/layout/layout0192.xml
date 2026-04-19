@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen009b"
+    android:layout_height="@dimen/dimen009b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaDynamicRoundCornerImageView
+        android:id="@id/loading_view"
+        android:layout_width="@dimen/dimen009b"
+        android:layout_height="@dimen/dimen009b"
+        android:src="@color/color0073"
+        app:attr069e="@dimen/dimen009c" />
+    <com.whatsapp.ui.coreui.WaDynamicRoundCornerImageView
+        android:id="@id/image_view"
+        android:layout_width="@dimen/dimen009b"
+        android:layout_height="@dimen/dimen009b"
+        android:src="@color/color0062"
+        app:attr069e="@dimen/dimen009c" />
+</FrameLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.KeyboardPopupLayout
+    android:orientation="vertical"
+    android:id="@id/main"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/content_container"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:attr0495="@id/expression_tray_barrier"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+                android:id="@id/toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr05cb="?attr0405" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimen102e"
+                android:paddingRight="@dimen/dimen102e"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen102e">
+                    <FrameLayout
+                        android:id="@id/emoji_container"
+                        android:background="@drawable/gray_circle"
+                        android:layout_width="64.0dip"
+                        android:layout_height="64.0dip">
+                        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                            android:textSize="34.0sp"
+                            android:layout_gravity="center"
+                            android:id="@id/selected_emoji_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center" />
+                    </FrameLayout>
+                    <com.whatsapp.ui.wds.components.button.WDSButton
+                        android:id="@id/emoji_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen1039"
+                        android:text="@string/str0b64"
+                        app:attr096b="borderless" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.textfield.WDSTextField
+                    android:id="@id/name_input"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen102e"
+                    android:hint="@string/str0b67"
+                    app:attr08e4="single_line"
+                    style="@style/style0587" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/create_audience_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen102e"
+                    android:text="@string/str0b65" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/reset_audience_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen1039"
+                    android:text="Reset Audience" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/expression_tray_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr009c="top"
+            app:attr0243="emoji_search_container,linear_layout_expressions_tray_holder,emoji_search_keyboard_container" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/linear_layout_expressions_tray_holder"
+            android:paddingTop="@dimen/dimen102f"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+        <ViewStub
+            android:id="@id/emoji_search_keyboard_container"
+            android:layout="@layout/layout043b"
+            android:inflatedId="@id/emoji_search_keyboard_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+        <com.whatsapp.emoji.search.EmojiSearchKeyboardContainer
+            android:id="@id/emoji_search_container"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.whatsapp.ui.coreui.KeyboardPopupLayout>

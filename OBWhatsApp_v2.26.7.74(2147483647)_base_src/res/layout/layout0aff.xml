@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@id/waiting_room_content_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:id="@id/waiting_room_spinner"
+            android:layout_width="14.0dip"
+            android:layout_height="14.0dip"
+            android:indeterminate="true"
+            android:alpha="0.4"
+            android:layout_marginEnd="@dimen/dimen1039"
+            app:attr028c="@color/color0904" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color0952"
+            android:ellipsize="middle"
+            android:id="@id/call_link_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            app:attr0a24="wds_font_body2_emphasized"
+            style="@style/style05a7" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0904"
+        android:ellipsize="end"
+        android:id="@id/waiting_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1035"
+        android:text="@string/str3b48"
+        android:singleLine="true"
+        android:alpha="0.5"
+        style="@style/style05a8" />
+</LinearLayout>

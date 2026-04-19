@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar
+    android:layout_gravity="center_vertical"
+    android:id="@id/google_drive_progress"
+    android:visibility="gone"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    android:progressTint="?attr0573"
+    android:indeterminateTint="?attr0573"
+    android:indeterminateTintMode="src_atop"
+    style="progressBarStyleHorizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

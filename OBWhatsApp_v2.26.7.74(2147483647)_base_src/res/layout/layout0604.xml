@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/scroll_view"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/action_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen0126"
+        style="@style/style01a4">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr066e"
+            android:id="@id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:text="@string/str0f78"
+            android:importantForAccessibility="yes"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103a"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/change_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103a"
+            app:attr06c9="@string/str0f77"
+            app:attr06e2="compact"
+            app:attr06f6="@drawable/call_log_bubble_voice_call_outgoing"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/transfer_chats"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str0f7b"
+            app:attr06e2="compact"
+            app:attr06f6="@drawable/ic_send_to_mobile"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/change_device"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str2ee2"
+            app:attr06e2="compact"
+            app:attr06f6="@drawable/ic_send_to_mobile"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/privacy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str0f7c"
+            app:attr06e2="compact"
+            app:attr06f6="@drawable/ic_lock"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/free_up_storage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str0f79"
+            app:attr06e2="compact"
+            app:attr06f6="@drawable/ic_folder"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/add_account"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str0f76"
+            app:attr06e2="compact"
+            app:attr06f6="@drawable/ic_person_add"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/get_help"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str0f7a"
+            app:attr06e2="compact"
+            app:attr06f6="@drawable/ic_info_2"
+            app:attr06f8="true"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/delete_account"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str4223"
+            app:attr06e2="compact"
+            app:attr06f6="@drawable/ic_delete"
+            app:attr06f7="destructive"
+            app:attr06f8="true"
+            app:attr0702="icon" />
+    </LinearLayout>
+</ScrollView>

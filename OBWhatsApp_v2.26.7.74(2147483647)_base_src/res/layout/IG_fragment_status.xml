@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/statuses_recyclerview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:id="@id/stock_statuses_fragment"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip" />
+</FrameLayout>

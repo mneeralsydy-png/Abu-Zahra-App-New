@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:orientation="vertical"
+    android:id="@id/me_tab_profile_info_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout0f35" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/me_tab_profile_info_name_area"
+        android:background="?attr0a59"
+        android:paddingTop="@dimen/dimen089a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e">
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/centerGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr049e="0.5" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@id/me_tab_profile_info_name"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="false"
+            app:attr0494="parent"
+            app:attr049b="@id/centerGuideline"
+            app:attr04a3="1.0"
+            app:attr04a4="packed"
+            app:attr04ac="@id/centerGuideline"
+            app:attr04b1="parent"
+            app:attr04b6="wrap"
+            app:attr04b8="0.8"
+            style="@style/style02a9" />
+        <include
+            android:id="@id/me_tab_account_switcher_chevron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen1030"
+            android:layout_marginEnd="@dimen/dimen1035"
+            app:attr0494="parent"
+            app:attr04ac="@id/me_tab_profile_info_name"
+            app:attr04b1="parent"
+            layout="@layout/layout0a32" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/thumb"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+    <RelativeLayout
+        android:id="@id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="top"
+            android:id="@id/gradient_overlay"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:importantForAccessibility="no"
+            app:attr0838="@drawable/reel_preview_view_gradient_top" />
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:id="@id/profile_photo"
+            android:layout_width="@dimen/dimen0bd1"
+            android:layout_height="@dimen/dimen0bd1"
+            android:layout_marginLeft="@dimen/dimen0ce9"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fbc"
+            android:textColor="@color/color0671"
+            android:ellipsize="end"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0ce7"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:layout_marginRight="@dimen/dimen0ce9"
+            android:maxLines="1"
+            android:layout_toRightOf="@id/profile_photo"
+            android:layout_alignParentTop="true"
+            android:fontFamily="?attr03b8"
+            app:attr04d0="@dimen/dimen0bd2"
+            app:attr0a24="wds_font_body3_emphasized" />
+    </RelativeLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:importantForAccessibility="no"
+        app:attr0838="@drawable/reel_preview_view_gradient_bottom" />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@id/shimmer_layout"
+        android:background="@color/color066e"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/dimen0ce9"
+        android:layout_marginBottom="@dimen/dimen0ce9">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/reel_icon"
+            android:layout_width="@dimen/dimen0bd1"
+            android:layout_height="@dimen/dimen0bd1"
+            android:layout_alignParentBottom="true"
+            app:attr0838="@drawable/ic_reels" />
+    </RelativeLayout>
+</FrameLayout>

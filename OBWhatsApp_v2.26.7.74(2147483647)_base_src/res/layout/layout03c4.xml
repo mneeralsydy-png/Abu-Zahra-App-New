@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/contact_form_content"
+    android:paddingBottom="@dimen/dimen032a"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/layout10cb" />
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/keyboard_aware_save_button"
+        android:layout_below="@id/toolbar">
+        <include
+            android:id="@id/contact_form_fields"
+            layout="@layout/layout03c5" />
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/keyboard_aware_save_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0328"
+        android:layout_marginTop="@dimen/dimen032a"
+        android:layout_marginRight="@dimen/dimen0328"
+        android:text="@string/str2d07"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/style0555" />
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:id="@id/keyboard_aware_save_in_progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen032a"
+        android:layout_alignBottom="@id/keyboard_aware_save_button"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

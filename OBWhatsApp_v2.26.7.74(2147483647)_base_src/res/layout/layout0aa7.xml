@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/order_detail_container"
+    android:background="?attr0a5a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/merchant_photo"
+        android:background="@drawable/divider_gray_border"
+        android:layout_width="@dimen/dimen0a6d"
+        android:layout_height="@dimen/dimen0a6d"
+        android:layout_marginTop="@dimen/dimen0a5e" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0a68"
+        android:textColor="?attr066e"
+        android:layout_gravity="center"
+        android:id="@id/merchant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0a5b"
+        android:lineSpacingMultiplier="1.2"
+        android:fontFamily="?attr03b8" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/reference_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0a60"
+        android:lineSpacingMultiplier="1.14"
+        android:textIsSelectable="true"
+        android:fontFamily="?attr03b8"
+        android:letterSpacing="0.09" />
+</LinearLayout>

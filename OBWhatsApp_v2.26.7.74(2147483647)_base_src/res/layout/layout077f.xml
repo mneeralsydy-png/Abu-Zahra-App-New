@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/main"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.search.WDSSearchBar
+        android:id="@id/search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:transitionName="@string/str42e6"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/search_result_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/search_bar" />
+    <ViewStub
+        android:id="@id/empty_state"
+        android:layout="@layout/layout09f6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04ac="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/search_bar" />
+    <ViewStub
+        android:id="@id/loading_state"
+        android:layout="@layout/layout0a07"
+        android:inflatedId="@id/loading_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04ac="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/search_bar" />
+    <ViewStub
+        android:id="@id/permission_required"
+        android:layout="@layout/layout0d0d"
+        android:inflatedId="@id/permission_required"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04ac="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/search_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/phone_number_details_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/cc_phone_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/phone_number_details_container"
+        app:attr04b1="@id/phone_number_details_container">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/country_code_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="50.0dip"
+            app:attr0330="true">
+            <com.whatsapp.ui.coreui.WaEditText
+                android:id="@id/country_code_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr02ed="@color/color0347"
+                style="@style/style026a" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/phone_input_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen1035"
+            app:attr0330="true">
+            <com.whatsapp.ui.coreui.WaEditText
+                android:id="@id/phone_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                style="@style/style026b" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginBottom="@dimen/dimen0cec"
+        style="@style/style035a" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/event_cancel_row"
+        android:background="?android:selectableItemBackground"
+        android:padding="@dimen/dimen0cea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen0fdb">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/dimen0fdd"
+            android:layout_height="@dimen/dimen0fdd"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            app:attr0838="@drawable/ic_delete"
+            app:attr090d="@color/color08e8" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08e8"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str1348"
+            style="@style/style0406" />
+    </LinearLayout>
+    <View
+        android:layout_marginTop="@dimen/dimen0cec"
+        style="@style/style035a" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:text="@string/str1368"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0a24="wds_font_body3"
+        style="@style/style05a8" />
+</LinearLayout>

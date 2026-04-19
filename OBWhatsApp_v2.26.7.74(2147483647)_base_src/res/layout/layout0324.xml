@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:background="@drawable/cart_circle"
+    android:padding="26.0dip"
+    android:layout_width="112.0dip"
+    android:layout_height="112.0dip"
+    app:attr0838="@drawable/ic_add_shopping_cart"
+    app:attr090d="?attr0313"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

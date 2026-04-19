@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen1039"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/poll_option_check_box"
+                android:inflatedId="@id/poll_option_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen102f" />
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:textColorHint="?attr0a46"
+                    android:id="@id/poll_option_edit_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen1039"
+                    android:layout_marginBottom="@dimen/dimen1039"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:imeOptions="actionNext"
+                    android:importantForAccessibility="yes"
+                    android:layout_marginEnd="@dimen/dimen1039"
+                    app:attr02ff="outline"
+                    style="@style/style05a4" />
+                <ViewStub
+                    android:layout_gravity="end|center"
+                    android:id="@id/poll_option_media_button"
+                    android:layout="@layout/layout0d36"
+                    android:inflatedId="@id/poll_option_media_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+        <ViewStub
+            android:id="@id/duplicated_option"
+            android:layout="@layout/layout0d31"
+            android:inflatedId="@id/duplicated_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen1035" />
+        <ViewStub
+            android:id="@id/max_option_text_view"
+            android:layout="@layout/layout0d34"
+            android:inflatedId="@id/max_option_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes"
+            android:layout_marginStart="@dimen/dimen1035" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/poll_option_media"
+        android:layout="@layout/layout0d35"
+        android:inflatedId="@id/poll_option_media"
+        android:layout_width="@dimen/dimen0b17"
+        android:layout_height="@dimen/dimen0b17"
+        android:layout_marginStart="@dimen/dimen103a" />
+    <ViewStub
+        android:id="@id/poll_option_handle"
+        android:layout="@layout/layout0d32"
+        android:inflatedId="@id/poll_option_handle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102f" />
+</LinearLayout>

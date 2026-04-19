@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.ui.conversationrow.audio.TranscriptionView
+    android:paddingBottom="@dimen/dimen0e23"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0e1d"
+    android:paddingEnd="@dimen/dimen0e1c"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

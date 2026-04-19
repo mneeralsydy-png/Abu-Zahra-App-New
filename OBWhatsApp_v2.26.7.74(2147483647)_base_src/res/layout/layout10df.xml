@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.ChipGroup
+    android:id="@id/feedback_chip_group"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr01cf="@dimen/dimen0cee"
+    app:attr01d0="@dimen/dimen0ceb"
+    app:attr0817="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.chip.Chip
+        android:id="@id/translation_feedback_incorrect_grammar_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str42eb"
+        android:checkable="true"
+        style="@style/style0724" />
+    <com.google.android.material.chip.Chip
+        android:id="@id/translation_feedback_ambiguous_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str42e9"
+        android:checkable="true"
+        style="@style/style0724" />
+    <com.google.android.material.chip.Chip
+        android:id="@id/translation_feedback_bad_punctuation_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str42d3"
+        android:checkable="true"
+        style="@style/style0724" />
+    <com.google.android.material.chip.Chip
+        android:id="@id/translation_feedback_words_missing_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str42d5"
+        android:checkable="true"
+        style="@style/style0724" />
+    <com.google.android.material.chip.Chip
+        android:id="@id/translation_feedback_bad_formatting_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str42ea"
+        android:checkable="true"
+        style="@style/style0724" />
+    <com.google.android.material.chip.Chip
+        android:id="@id/transcription_feedback_other_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str42d2"
+        android:checkable="true"
+        style="@style/style0724" />
+</com.google.android.material.chip.ChipGroup>

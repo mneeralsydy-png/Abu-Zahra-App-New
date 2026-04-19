@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/music_bottom_sheet_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/music_category_see_all_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0912="true" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/music_category_see_all_recycler"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

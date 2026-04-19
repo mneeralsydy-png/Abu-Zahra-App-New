@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/voice_settings_main_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+                android:id="@id/toolbar"
+                app:attr02dd="gone"
+                app:attr0910="@string/str1e54"
+                style="@style/style0520" />
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.collections.centeredrecyclerview.CenteredSelectionRecyclerView
+                    android:layout_gravity="bottom|center"
+                    android:orientation="horizontal"
+                    android:id="@id/voice_selection_row"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cee"
+                    android:layout_marginBottom="@dimen/dimen0cea"
+                    app:attr0488="LinearLayoutManager" />
+                <ViewStub
+                    android:layout_gravity="center|top"
+                    android:id="@id/meta_ai_voice_selection_animation_view_stub"
+                    android:layout_width="128.0dip"
+                    android:layout_height="128.0dip"
+                    android:layout_marginTop="@dimen/dimen0cf4" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/voice_option_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200.0dip"
+                    android:minHeight="@dimen/dimen0cee">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textAppearance="@style/style05a5"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:id="@id/voice_option_title"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            app:attr0a24="wds_font_body1_emphasized" />
+                    </LinearLayout>
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textAppearance="@style/style05a8"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@id/voice_option_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:attr0a24="wds_font_body3" />
+                </LinearLayout>
+            </FrameLayout>
+            <View
+                android:id="@id/voice_option_description_divider"
+                android:background="?android:listDivider"
+                android:paddingTop="@dimen/dimen102e"
+                android:paddingBottom="@dimen/dimen102e"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+            <ViewStub
+                android:id="@id/default_voice_setting_view_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

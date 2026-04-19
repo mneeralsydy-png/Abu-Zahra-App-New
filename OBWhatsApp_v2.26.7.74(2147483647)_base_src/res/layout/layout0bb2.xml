@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style02b9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        app:attr0838="@drawable/wa_ic_info"
+        style="@style/style02b8" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/newsletter_eu_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4.0sp"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

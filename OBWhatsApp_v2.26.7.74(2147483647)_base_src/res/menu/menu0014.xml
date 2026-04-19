@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@id/favorites_menu_edit_group">
+        <item
+            android:icon="@drawable/menu_favorites_edit"
+            android:id="@id/edit_favorites"
+            android:orderInCategory="100"
+            android:title="@string/str3efc"
+            app:attr07f1="always" />
+    </group>
+    <group
+        android:id="@id/favorites_menu_add_group">
+        <item
+            android:icon="@drawable/vec_ic_person_add"
+            android:id="@id/add_favorites"
+            android:orderInCategory="200"
+            android:title="@string/str3d3d"
+            app:attr07f1="always" />
+    </group>
+</menu>

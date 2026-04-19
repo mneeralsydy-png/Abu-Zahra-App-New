@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/newsletter_info_insights_card"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/style0257"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.SectionHeaderView
+                android:id="@id/insights_action_info"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+            <include
+                layout="@layout/layout0ef2" />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.insights.InsightsTileViewGroup
+                android:orientation="horizontal"
+                android:id="@id/insights_actions"
+                android:paddingTop="@dimen/dimen1039"
+                android:paddingBottom="@dimen/dimen1039"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen103a"
+                android:paddingEnd="@dimen/dimen103a">
+                <com.whatsapp.ui.coreui.insights.InsightsTileView
+                    android:id="@id/insights_action_accounts_reached"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="@dimen/dimen1030"
+                    android:layout_marginEnd="@dimen/dimen1030"
+                    app:attr090b="@string/str2098" />
+                <com.whatsapp.ui.coreui.insights.InsightsTileView
+                    android:id="@id/insights_action_net_follows"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="@dimen/dimen1030"
+                    android:layout_marginEnd="@dimen/dimen1030"
+                    app:attr090b="@string/str407a" />
+            </com.whatsapp.ui.coreui.insights.InsightsTileViewGroup>
+            <ViewStub
+                android:layout_gravity="center_vertical"
+                android:id="@id/insights_error_stub"
+                android:layout="@layout/layout0bcd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08de"
+            android:id="@id/insights_minimum_followers_note"
+            android:paddingTop="@dimen/dimen103a"
+            android:paddingBottom="@dimen/dimen1039"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str209e"
+            android:paddingStart="@dimen/dimen102e"
+            android:paddingEnd="@dimen/dimen102e"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

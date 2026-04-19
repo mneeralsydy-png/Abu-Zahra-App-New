@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/mtrl_picker_fullscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout0b28" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@id/mtrl_calendar_frame"
+        android:paddingLeft="@dimen/dimen0916"
+        android:paddingRight="@dimen/dimen0916"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0916"
+        android:paddingEnd="@dimen/dimen0916" />
+</LinearLayout>

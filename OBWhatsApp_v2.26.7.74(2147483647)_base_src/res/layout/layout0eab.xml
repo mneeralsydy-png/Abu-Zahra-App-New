@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    android:textColor="?attr0a2f"
+    android:id="@id/search_context_category_chip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="27.0dip"
+    app:attr01c3="?attr0756"
+    app:attr01ca="@color/color0922"
+    app:attr01eb="true"
+    app:attr01ef="?attr0a2f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

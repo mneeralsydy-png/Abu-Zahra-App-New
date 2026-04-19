@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/music_editor_dialog_delete"
+    android:background="@drawable/music_editor_icon_background"
+    android:layout_width="@dimen/dimen0fe4"
+    android:layout_height="@dimen/dimen0fe4"
+    android:contentDescription="@string/str3ded"
+    app:attr0838="@drawable/vec_ic_trash"
+    app:attr090d="@color/color09be"
+    style="@style/style0006"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

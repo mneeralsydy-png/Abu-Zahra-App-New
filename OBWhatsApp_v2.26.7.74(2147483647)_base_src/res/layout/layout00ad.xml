@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:layout_marginStart="@dimen/dimen0f3f"
+        android:layout_marginEnd="@dimen/dimen0f3f"
+        app:attr048f="true"
+        app:attr0495="@id/scrollview"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout087f" />
+    <View
+        android:id="@id/dummy_constrained_view"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style01a1" />
+    <ScrollView
+        android:id="@id/scrollview"
+        android:clipChildren="false"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0"
+        android:fadeScrollbars="false"
+        app:attr0495="@id/gdrive_new_user_setup_btn"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/wdsbanner">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:clipChildren="false"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="@dimen/dimen0126"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <ViewStub
+                    android:id="@id/backup_settings_header_view"
+                    android:inflatedId="@id/backup_settings_header_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/settings_gdrive_change_account_view"
+                    android:inflatedId="@id/settings_gdrive_change_account_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/settings_gdrive_change_frequency_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr06c7="1"
+                    app:attr06c8="body2"
+                    app:attr06c9="@string/str2f29"
+                    app:attr06ca="body1"
+                    app:attr06e1="true"
+                    app:attr06f1="spacing_triple"
+                    app:attr06f2="spacing_double"
+                    app:attr0704="spacing_double" />
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/include_video_setting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4.0dip"
+                    app:attr06c8="body2"
+                    app:attr06c9="@string/str2f2a"
+                    app:attr06ca="body1"
+                    app:attr06e1="true"
+                    app:attr06ec="wds_switch"
+                    app:attr06f1="spacing_triple"
+                    app:attr06f2="spacing_double"
+                    app:attr0704="spacing_double" />
+                <ViewStub
+                    android:id="@id/settings_gdrive_network_settings_view"
+                    android:inflatedId="@id/settings_gdrive_network_settings_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    style="@style/style0360" />
+                <ViewStub
+                    android:id="@id/e2e_encryption_header_view"
+                    android:inflatedId="@id/e2e_encryption_header_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/settings_gdrive_e2e_encryption"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr06c6="@string/str2f10"
+                    app:attr06c8="body2"
+                    app:attr06c9="@string/str4224"
+                    app:attr06ca="body1"
+                    app:attr06e1="true"
+                    app:attr06f1="spacing_triple"
+                    app:attr06f2="spacing_double"
+                    app:attr06f6="@drawable/ic_lock"
+                    app:attr0702="icon"
+                    app:attr0704="spacing_double" />
+                <View
+                    android:id="@id/gdrive_new_user_setup_footer_settings_divider"
+                    style="@style/style0360" />
+                <ViewStub
+                    android:id="@id/gdrive_new_user_setup_footer_info"
+                    android:inflatedId="@id/gdrive_new_user_setup_footer_info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen0cea"
+                    android:layout_marginEnd="@dimen/dimen0cea" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/gdrive_new_user_setup_btn"
+        android:text="@string/str3e2a"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0495="@id/gdrive_new_user_setup_not_now_btn"
+        app:attr04ad="@id/dummy_constrained_view"
+        style="@style/style055c" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/gdrive_new_user_setup_not_now_btn"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:text="@string/str4087"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04ad="@id/gdrive_new_user_setup_btn"
+        style="@style/style055e" />
+</androidx.constraintlayout.widget.ConstraintLayout>

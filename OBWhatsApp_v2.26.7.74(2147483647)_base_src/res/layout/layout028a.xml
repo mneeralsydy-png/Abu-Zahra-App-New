@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/selector_orange_gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/layout_business_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_alignRight="@id/delete_button"
+        android:layout_alignParentLeft="true"
+        layout="@layout/layout0289" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/delete_button"
+        android:background="@drawable/selector_orange_gradient"
+        android:padding="@dimen/dimen1039"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="@color/color0948" />
+</RelativeLayout>

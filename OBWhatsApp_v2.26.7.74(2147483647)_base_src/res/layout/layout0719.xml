@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:id="@id/fab_tool_tip"
+    android:contentDescription="@string/str1fc1"
+    android:textIsSelectable="true"
+    style="@style/style0564"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

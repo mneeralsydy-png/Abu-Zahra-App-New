@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/profile_avatar"
+        android:layout_width="@dimen/dimen0d76"
+        android:layout_height="@dimen/dimen0d76"
+        android:scaleType="centerCrop" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom"
+        android:id="@id/mic_overlay"
+        android:background="@drawable/mic_background_incoming_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0d75"
+        android:scaleType="fitCenter"
+        whatsapp:attr0838="@drawable/mic_played"
+        whatsapp:attr090d="?attr0a2f" />
+</merge>

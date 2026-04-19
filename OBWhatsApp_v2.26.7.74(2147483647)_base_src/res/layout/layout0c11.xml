@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:gravity="center"
+    android:id="@id/no_call_action_info"
+    android:background="?attr076e"
+    android:layout_width="@dimen/dimen0047"
+    android:layout_height="@dimen/dimen0047"
+    android:src="@drawable/wa_ic_info"
+    android:scaleType="center"
+    android:tint="?attr0a44"
+    style="@style/style05d9"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

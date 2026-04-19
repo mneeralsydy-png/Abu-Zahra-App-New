@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/wa_ic_notifications_1"
+        android:id="@id/menu_manage_notifications"
+        android:title="@string/str413b"
+        app:attr041f="@color/color08de"
+        app:attr07f1="never" />
+    <item
+        android:icon="@drawable/ic_password_2"
+        android:id="@id/menu_change_sponsor_pin"
+        android:title="@string/str413a"
+        app:attr041f="@color/color08de"
+        app:attr07f1="never" />
+    <item
+        android:icon="@drawable/wa_ic_link_off"
+        android:id="@id/menu_unlink_managed_account"
+        android:title="@string/str413e"
+        app:attr041f="@color/color08e8"
+        app:attr07f1="never" />
+</menu>

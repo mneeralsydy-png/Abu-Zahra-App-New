@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/event_going_btn"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/event_going_circle"
+            android:layout_width="@dimen/dimen0fd9"
+            android:layout_height="@dimen/dimen0fd9"
+            android:layout_marginTop="@dimen/dimen0ce8"
+            android:layout_marginBottom="@dimen/dimen0ce8"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            app:attr0838="@drawable/vec_circle_outline"
+            app:attr090d="?attr0a46" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen0ce8"
+            android:text="@string/str136f"
+            app:attr0a24="wds_font_body1_emphasized"
+            style="@style/style05a5" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/going_with_guest_btn_viewstub"
+        android:layout="@layout/layout11d5"
+        android:inflatedId="@id/going_with_guest_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/maybe_btn_viewstub"
+        android:layout="@layout/layout11dd"
+        android:inflatedId="@id/event_maybe_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/event_not_going_btn"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/event_not_going_circle"
+            android:layout_width="@dimen/dimen0fd9"
+            android:layout_height="@dimen/dimen0fd9"
+            android:layout_marginTop="@dimen/dimen0ce8"
+            android:layout_marginBottom="@dimen/dimen0ce8"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            app:attr0838="@drawable/vec_circle_outline"
+            app:attr090d="?attr0a46" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen0ce8"
+            android:text="@string/str1380"
+            app:attr0a24="wds_font_body1_emphasized"
+            style="@style/style05a5" />
+    </LinearLayout>
+</LinearLayout>

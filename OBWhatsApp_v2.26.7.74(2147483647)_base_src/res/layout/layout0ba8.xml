@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@id/newsletter_mv_create_channel_layout"
+    android:background="?attr076d"
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen102e"
+    android:focusable="true"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    app:attr0495="@id/unverified_newsletter_list_title"
+    app:attr049a="parent"
+    app:attr04ad="parent"
+    app:attr04b0="@id/verified_newsletter_list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/newsletter_mv_create_verified_channel_button"
+        android:background="@drawable/newsletter_grey_circle"
+        android:padding="@dimen/dimen103a"
+        android:clickable="false"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:src="@drawable/vec_ic_add_gray"
+        android:contentDescription="@string/str20c0"
+        app:attr090d="@color/color053b" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color053b"
+        android:ellipsize="end"
+        android:id="@id/newsletter_mv_create_verified_channel_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str20bf"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:letterSpacing="0.01"
+        style="@style/style03fb" />
+</LinearLayout>

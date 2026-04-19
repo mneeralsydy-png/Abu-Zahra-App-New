@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">‎%d గ్రూప్‌లను విడిచిపెట్టడంలో విఫలమైంది. మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="one">‎%d గ్రూప్ నుండి విడిచిపెట్టడంలో విఫలమైంది. మళ్లీ ప్రయత్నించండి.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d నోటిఫికేషన్‌లు</item>
+        <item quantity="one">%1$d నోటిఫికేషన్‌</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
+        <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
+    </plurals>
+</resources>

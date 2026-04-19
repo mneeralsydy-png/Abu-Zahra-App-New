@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingBottom="@dimen/dimen1031"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2.0dip"
+    android:layout_marginStart="4.0dip"
+    android:layout_marginEnd="4.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/sticker_maker_button"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr0499="1:1"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/action_button"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str321a"
+            app:attr0083="@color/color0930"
+            app:attr02ed="?attr0a2f"
+            app:attr096b="filled"
+            app:attr09ea="large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textStyle="bold"
+            android:textColor="@color/color0930"
+            android:id="@id/action_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str321c"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

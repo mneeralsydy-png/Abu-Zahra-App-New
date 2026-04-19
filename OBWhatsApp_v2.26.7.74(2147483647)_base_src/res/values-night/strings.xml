@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str3d8a">Medium Brown</string>
+    <string name="str3d8b">Dark Brown</string>
+    <string name="str3da7">Olive Green</string>
+    <string name="str3da8">Dark Gray Green</string>
+    <string name="str3de3">Dark Lemon</string>
+    <string name="str3de4">Dark Cream</string>
+    <string name="str3de7">Dark Navy</string>
+    <string name="str3de8">Dark Indigo Blue</string>
+    <string name="str3e2d">Medium Gray</string>
+    <string name="str3e2e">Dark Gray</string>
+    <string name="str3e42">Dark Emerald</string>
+    <string name="str3e43">Dark Emerald</string>
+    <string name="str3eca">Dark Lemon</string>
+    <string name="str3ecb">Dark Yellow</string>
+    <string name="str3ecc">Dark Lime</string>
+    <string name="str3ecd">Dark Lime</string>
+    <string name="str3f0d">Dark Teal</string>
+    <string name="str3f0e">Dark Green Blue</string>
+    <string name="str41ba">Dark Purple</string>
+    <string name="str41bb">Dark Blue Gray</string>
+    <string name="str41bd">Dark Red Brown</string>
+    <string name="str41c1">Medium Pink</string>
+    <string name="str41c2">Dark Pink</string>
+    <string name="str41fd">Medium Red</string>
+    <string name="str41fe">Dark Red</string>
+    <string name="str4209">Dark Blue</string>
+    <string name="str420a">Dark Navy</string>
+    <string name="str42a7">Sunset Orange</string>
+    <string name="str42a8">Dark Orange</string>
+    <string name="str42a9">Dark Orange</string>
+    <string name="str42aa">Dark Brown</string>
+    <string name="str42f3">Medium Purple</string>
+    <string name="str42f4">Dark Red Purple</string>
+    <string name="str4328">Dark Gold</string>
+    <string name="str4329">Dark Warm Yellow</string>
+    <string name="str4335">Dark WhatsApp Green</string>
+    <string name="str4336">Dark Green</string>
+</resources>

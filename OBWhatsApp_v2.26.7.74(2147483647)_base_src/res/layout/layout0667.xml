@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/dogfood_toolbar"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr000d"
+        style="@style/style0520" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        style="@style/style0358" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@id/dogfood_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:background="@color/color0883"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/color0883">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/dogfood_suppress_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suppress"
+            app:attr096b="borderless" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/dogfood_submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

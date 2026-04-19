@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textSize="@dimen/dimen0fb6"
+    android:textColor="?attr066e"
+    android:gravity="center_vertical"
+    android:id="@id/disappearing_messages_text"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="@dimen/dimen102e"
+    android:paddingStart="@dimen/dimen102f"
+    android:paddingEnd="@dimen/dimen102f"
+    whatsapp:attr02e9="@drawable/ic_group_ephemeral_v2"
+    whatsapp:attr02ed="?attr0a46"
+    whatsapp:attr0a24="wds_font_body2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.metaai.ui.imagine.InterceptKeyboardPopupLayout
+    android:orientation="vertical"
+    android:background="@drawable/imagine_bottom_sheet_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/imagine_bottom_sheet_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/top_left_image_button"
+            android:background="@null"
+            android:layout_width="@dimen/dimen0e10"
+            android:layout_height="@dimen/dimen0e10"
+            android:layout_marginTop="@dimen/dimen0ce8"
+            android:tint="@color/color0904"
+            android:contentDescription="@string/str3dac"
+            android:layout_marginStart="@dimen/dimen0ce8"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/ic_close"
+            app:attr0a7d="true" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/overflow_icon_view_stub"
+            android:layout="@layout/layout1238"
+            android:inflatedId="@id/overflow_button"
+            android:layout_width="@dimen/dimen0e10"
+            android:layout_height="@dimen/dimen0e10"
+            android:layout_marginTop="@dimen/dimen0a7a"
+            android:layout_marginBottom="@dimen/dimen0a7a"
+            android:tint="@color/color0904"
+            android:contentDescription="@string/str3ea7"
+            android:layout_marginStart="@dimen/dimen0a79"
+            android:layout_marginEnd="@dimen/dimen0a79"
+            app:attr049a="parent"
+            app:attr04b1="parent"
+            app:attr0a7d="true" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen1044"
+            android:textColor="@color/color0904"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/meta_ai_characters_create_edit_text"
+            android:background="@null"
+            android:visibility="invisible"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:attr0494="@id/top_left_image_button"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="@id/top_left_image_button" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/top_meta_ai_logo"
+            android:background="@null"
+            android:visibility="invisible"
+            android:layout_width="@dimen/dimen014e"
+            android:layout_height="@dimen/dimen014e"
+            android:layout_marginTop="@dimen/dimen0ce9"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/imagine_creation_logo"
+            android:layout_width="@dimen/dimen1037"
+            android:layout_height="@dimen/dimen1037"
+            app:attr0495="@id/null_state_text"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="22.0sp"
+            android:textColor="@color/color09be"
+            android:gravity="center_horizontal"
+            android:id="@id/imagine_creation_text_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce5"
+            android:layout_marginStart="36.0dip"
+            android:layout_marginEnd="36.0dip"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/imagine_creation_logo"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08de"
+            android:gravity="center_horizontal"
+            android:id="@id/imagine_creation_text_summary"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce6"
+            android:layout_marginStart="36.0dip"
+            android:layout_marginEnd="36.0dip"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/imagine_creation_text_title"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@id/null_state_full_logo"
+            android:layout_width="@dimen/dimen014d"
+            android:layout_height="@dimen/dimen014d"
+            app:attr0495="@id/null_state_text"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr04b3="packed" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color09be"
+            android:gravity="center_horizontal"
+            android:id="@id/null_state_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0152"
+            android:layout_marginBottom="@dimen/dimen0ce5"
+            android:text="@string/str18f6"
+            app:attr0495="@id/empty_state_suggestions"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/null_state_full_logo"
+            app:attr04b3="packed"
+            app:attr0a24="wds_font_large_title2"
+            style="@style/style05ad" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/empty_state_suggestions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0156"
+            android:layout_marginStart="@dimen/dimen0ce7"
+            app:attr0494="@id/bottom_element_guideline"
+            app:attr04b0="@id/null_state_text"
+            app:attr04b3="packed" />
+        <ViewStub
+            android:id="@id/imagine_spotlight_layout_holder"
+            android:layout="@layout/layout0154"
+            android:inflatedId="@id/imagine_spotlight_layout_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cf6"
+            app:attr04b0="@id/top_meta_ai_logo" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/ai_imagine_save_button_holder"
+            android:background="@null"
+            android:layout="@layout/layout0153"
+            android:inflatedId="@id/ai_imagine_save_button_holder"
+            android:layout_width="@dimen/dimen0e10"
+            android:layout_height="@dimen/dimen0e10"
+            android:layout_marginTop="@dimen/dimen0ce8"
+            android:contentDescription="@string/str3ea6"
+            android:layout_marginEnd="@dimen/dimen0ce8"
+            app:attr04ab="parent"
+            app:attr04b1="parent"
+            app:attr0a7d="true" />
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="horizontal"
+            android:id="@id/bottom_element_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr049d="@dimen/dimen0cf1" />
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="horizontal"
+            android:id="@id/vertical_carousel_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr049d="190.0dip" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub
+        android:id="@id/imagine_edit_options_error_state"
+        android:layout="@layout/layout086a"
+        android:inflatedId="@id/imagine_edit_options_error_state"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/all_dynamic_bottom_views"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50.0dip">
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/displayed_image_bottom_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr009c="top"
+            app:attr0243="displayed_image_bottom_guideline, image_options_stub, input_prompt_stub, editing_options_stub, imagine_edit_prefix_options, cancel_request_button" />
+        <ViewStub
+            android:id="@id/imagine_edit_prefix_options"
+            android:layout="@layout/layout023b"
+            android:inflatedId="@id/imagine_edit_prefix_options"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen0ce7"
+            android:layout_marginEnd="@dimen/dimen0ce7"
+            app:attr0495="@id/input_prompt_stub" />
+        <ViewStub
+            android:id="@id/input_prompt_stub"
+            android:visibility="visible"
+            android:layout="@layout/layout0919"
+            android:inflatedId="@id/input_prompt_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr0495="@id/imagine_bottom_spacing" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/cancel_request_button"
+            android:paddingTop="@dimen/dimen0ce7"
+            android:paddingBottom="@dimen/dimen0ce8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/dimen0668"
+            android:text="@string/str18f9"
+            app:attr0009="media"
+            app:attr0083="@color/color0907"
+            app:attr0495="@id/imagine_bottom_spacing"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr096b="tonal"
+            app:attr09ea="normal" />
+        <ViewStub
+            android:id="@id/editing_options_stub"
+            android:layout="@layout/layout023c"
+            android:inflatedId="@id/editing_options_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0666"
+            app:attr0495="@id/edit_bottom_barrier"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/edit_bottom_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr009c="top"
+            app:attr0243="input_prompt_stub, image_options_stub, cancel_request_button" />
+        <ViewStub
+            android:id="@id/imagine_carousel_holder"
+            android:layout="@layout/layout0239"
+            android:inflatedId="@id/imagine_carousel_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            app:attr0495="@id/image_options_stub" />
+        <Space
+            android:id="@id/displayed_image_bottom_guideline"
+            android:layout_width="fill_parent"
+            android:layout_height="122.0dip"
+            app:attr0495="@id/image_options_stub" />
+        <ViewStub
+            android:id="@id/image_options_stub"
+            android:layout="@layout/layout023d"
+            android:inflatedId="@id/image_options_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0ceb"
+            app:attr0495="@id/imagine_bottom_spacing" />
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@id/displayed_image_view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:attr0495="@id/displayed_image_bottom_barrier"
+            app:attr04b1="parent" />
+        <FrameLayout
+            android:id="@id/imagine_bottom_spacing"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:attr0494="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/display_image_animation_container"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="@dimen/dimen0cec"
+            app:attr0495="@id/displayed_image_bottom_barrier"
+            app:attr04b1="parent">
+            <FrameLayout
+                android:id="@id/display_image_container"
+                android:padding="@dimen/dimen0662"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_gravity="center"
+                    android:id="@id/generated_selected_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    app:attr07d0="@style/style024d" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@id/imagine_loading_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <ViewStub
+                    android:id="@id/imagine_loading_screen_stub"
+                    android:layout="@layout/layout0870"
+                    android:inflatedId="@id/imagine_loading_screen_stub"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </FrameLayout>
+            <ViewStub
+                android:id="@id/imagine_animate_stub"
+                android:layout="@layout/layout0868"
+                android:inflatedId="@id/imagine_animate_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.whatsapp.metaai.ui.imagine.InterceptKeyboardPopupLayout>

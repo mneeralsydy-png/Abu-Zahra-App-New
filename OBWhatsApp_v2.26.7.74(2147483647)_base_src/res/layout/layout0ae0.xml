@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="?attr08c7"
+        android:id="@id/memory_text"
+        android:padding="@dimen/dimen102e"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04aa="@id/delete"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/delete"
+        android:background="?attr076e"
+        android:layout_width="@dimen/dimen0f5a"
+        android:layout_height="@dimen/dimen0f5a"
+        android:contentDescription="@string/str3ded"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04a8="@id/memory_text"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_delete"
+        app:attr090d="?attr0a46" />
+</androidx.constraintlayout.widget.ConstraintLayout>

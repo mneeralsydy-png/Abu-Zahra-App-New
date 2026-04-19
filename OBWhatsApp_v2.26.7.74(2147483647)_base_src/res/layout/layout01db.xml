@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/biller_container"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0120"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/biller_image"
+        android:layout_width="@dimen/dimen0121"
+        android:layout_height="@dimen/dimen0121"
+        android:src="@drawable/ic_receipt"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr090d="?attr0a47" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/biller_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:maxLines="2"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+</LinearLayout>

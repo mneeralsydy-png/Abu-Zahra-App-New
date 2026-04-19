@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/meta_ai_imagine_me_consent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="start"
+        android:id="@id/meta_ai_imagine_me_consent_close"
+        android:background="?attr076e"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:src="@drawable/xmds_close"
+        android:contentDescription="@string/str1da5"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr090d="@color/color034d" />
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/meta_ai_imagine_me_consent_content_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

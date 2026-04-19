@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/status_rings_container"
+    android:background="@color/color05f3"
+    android:paddingTop="@dimen/dimen1059"
+    android:paddingBottom="@dimen/dimen1059"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen1059"
+    android:paddingEnd="@dimen/dimen1059"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/status_ring_0"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_1"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_2"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_3"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_4"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_5"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_6"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_7"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_8"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_9"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_10"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_11"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_12"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_13"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_14"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_15"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_16"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_17"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_18"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+    <ImageView
+        android:id="@id/status_ring_19"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen105a"
+        android:scaleType="fitCenter"
+        android:layout_weight="1.0"
+        android:contentDescription="@string/str4287" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/add_third_party_sticker_dialog_view"
+    android:paddingLeft="@dimen/dimen0d81"
+    android:paddingTop="@dimen/dimen0d85"
+    android:paddingRight="@dimen/dimen0d81"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/progress_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0495="@id/barrier"
+        app:attr049a="parent"
+        app:attr04ad="parent">
+        <ProgressBar
+            android:id="@id/progress_bar"
+            android:layout_width="@dimen/dimen0d83"
+            android:layout_height="@dimen/dimen0d84" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0d82"
+            android:layout_gravity="center"
+            android:id="@id/message_text_view"
+            android:paddingLeft="@dimen/dimen064c"
+            android:paddingRight="@dimen/dimen064c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:id="@id/buttons_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0d80"
+        android:layout_marginBottom="@dimen/dimen0d80"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/progress_container">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str3d9b"
+            style="buttonBarButtonStyle" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str01e8"
+            style="buttonBarButtonStyle" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str22a9"
+            style="buttonBarButtonStyle" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str367e"
+            style="buttonBarButtonStyle" />
+    </LinearLayout>
+    <View
+        android:id="@id/bottom_margin_view"
+        android:visibility="invisible"
+        android:layout_width="@dimen/dimen0d7f"
+        android:layout_height="@dimen/dimen0d85"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/progress_container" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="top"
+        app:attr0243="bottom_margin_view,buttons_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

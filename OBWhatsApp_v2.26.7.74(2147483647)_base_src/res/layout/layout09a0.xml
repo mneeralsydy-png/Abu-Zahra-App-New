@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/dim_slider_container"
+    android:layout_width="@dimen/dimen0280"
+    android:layout_height="@dimen/dimen0278"
+    android:layout_marginBottom="@dimen/dimen0277"
+    app:attr0494="parent"
+    app:attr049a="@id/dark_mode_button"
+    app:attr04ad="@id/dark_mode_button"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.slider.Slider
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/dim_slider"
+        android:background="@drawable/bg_dim_slider"
+        android:visibility="gone"
+        android:saveEnabled="false"
+        android:layout_width="@dimen/dimen0278"
+        android:layout_height="@dimen/dimen0280"
+        android:valueFrom="0.0"
+        android:valueTo="100.0"
+        android:rotation="270.0"
+        app:attr0479="gone"
+        app:attr08fb="28.0dip"
+        app:attr0937="@color/color090b"
+        app:attr0938="@color/color099d"
+        app:attr093d="@dimen/dimen027f" />
+</FrameLayout>

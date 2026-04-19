@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:background="@drawable/media_caption_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/left_button_spacer"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0217"
+        android:layout_height="0.0dip"
+        android:importantForAccessibility="no" />
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/left_button_holder"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/counter"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/emoji_picker_btn"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str3e44"
+            app:attr0838="@drawable/ic_mood_black"
+            app:attr090d="?attr056f"
+            style="@style/style0006" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/keyboard_btn"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str1a90"
+            app:attr0838="@drawable/ic_keyboard"
+            app:attr090d="?attr056f"
+            style="@style/style0006" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/add_button"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str01c4"
+            app:attr0838="@drawable/ic_add_photo_alternate"
+            app:attr090d="@color/color06b7"
+            style="@style/style0006" />
+    </LinearLayout>
+    <com.whatsapp.mentions.ui.MentionableEntry
+        android:scrollbarThumbVertical="?attr0a46"
+        android:textColor="?attr0571"
+        android:textColorHint="?attr056f"
+        android:layout_gravity="center_vertical"
+        android:id="@id/caption"
+        android:background="@color/color0148"
+        android:paddingTop="@dimen/dimen021a"
+        android:paddingBottom="@dimen/dimen021a"
+        android:scrollbars="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen0218"
+        android:hint="@string/str3d3a"
+        android:maxLines="6"
+        android:layout_weight="1.0"
+        style="?attr02fe" />
+    <View
+        android:id="@id/view_once_toggle_spacer"
+        android:visibility="visible"
+        android:layout_width="@dimen/dimen0219"
+        android:layout_height="0.0dip"
+        android:importantForAccessibility="no" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@id/view_once_toggle"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:attr0838="@drawable/view_once_selector"
+        app:attr090d="@color/color06c6"
+        style="@style/style0006" />
+    <com.whatsapp.status.ui.mentions.StatusMentionsView
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@id/status_mentions"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        style="@style/style0006" />
+</merge>

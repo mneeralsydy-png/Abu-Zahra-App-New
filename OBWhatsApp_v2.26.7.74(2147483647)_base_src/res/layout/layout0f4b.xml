@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:id="@id/shape"
+        android:layout_width="@dimen/dimen0517"
+        android:layout_height="@dimen/dimen0517"
+        android:scaleType="center"
+        android:contentDescription="@string/str110b"
+        app:attr0838="@drawable/ic_cam_sticker" />
+</FrameLayout>

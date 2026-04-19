@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center_vertical"
+            android:id="@id/close_button"
+            android:background="?attr076e"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:tint="?attr0a47"
+            android:layout_marginStart="@dimen/dimen103a"
+            app:attr0494="@id/title_add_reason"
+            app:attr04ad="parent"
+            app:attr04b1="@id/title_add_reason"
+            app:attr0838="@drawable/vec_ic_close" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/title_add_reason"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str3437"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/description_provide_feedback"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:text="@string/str1018"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/title_add_reason"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <CheckBox
+            android:id="@id/checkbox_not_relevant"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginStart="@dimen/dimen1034"
+            app:attr04ad="parent"
+            app:attr04b0="@id/description_provide_feedback"
+            style="@style/style05a4" />
+        <CheckBox
+            android:id="@id/checkbox_not_accurate"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen1034"
+            app:attr04ad="parent"
+            app:attr04b0="@id/checkbox_not_relevant"
+            style="@style/style05a4" />
+        <CheckBox
+            android:id="@id/checkbox_too_repetitive"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen1034"
+            app:attr04ad="parent"
+            app:attr04b0="@id/checkbox_not_accurate"
+            style="@style/style05a4" />
+        <CheckBox
+            android:id="@id/checkbox_harmful"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen1034"
+            app:attr04ad="parent"
+            app:attr04b0="@id/checkbox_too_repetitive"
+            style="@style/style05a4" />
+        <CheckBox
+            android:id="@id/checkbox_other"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen1034"
+            app:attr04ad="parent"
+            app:attr04b0="@id/checkbox_harmful"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/submit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:text="@string/str32e9"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b"
+            app:attr04ad="parent"
+            app:attr04b0="@id/checkbox_other"
+            style="@style/style0555" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

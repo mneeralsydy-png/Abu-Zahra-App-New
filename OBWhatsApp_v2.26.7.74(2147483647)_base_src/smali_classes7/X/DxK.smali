@@ -1,0 +1,15 @@
+.class public LX/DxK;
+.super LX/Ed3;
+.source ""
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Throwable;)V
+    .locals 1
+
+    const/16 v0, 0x271f
+
+    invoke-direct {p0, v0, p1}, LX/Ed3;-><init>(ILjava/lang/Throwable;)V
+
+    return-void
+.end method

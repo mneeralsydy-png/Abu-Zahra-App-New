@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/product_bottom_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr066e"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dimen0b47"
+        android:layout_marginEnd="@dimen/dimen0b47"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_headline2"
+        style="@style/style05ab" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr066e"
+        android:gravity="center_horizontal"
+        android:id="@id/price"
+        android:paddingTop="@dimen/dimen0b48"
+        android:paddingBottom="@dimen/dimen0b48"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0b47"
+        android:layout_marginEnd="@dimen/dimen0b47"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/open_full_screen_button"
+        android:padding="@dimen/dimen0b44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_open_in_full"
+        android:layout_marginEnd="@dimen/dimen0b46"
+        app:attr0494="@id/price"
+        app:attr049a="parent"
+        app:attr04b1="@id/title"
+        app:attr090d="?attr066e" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/variants_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04ad="parent"
+        app:attr04b0="@id/price">
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@id/variants_carousel_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/cart_container"
+        android:background="?attr0a59"
+        android:padding="@dimen/dimen0b5c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04ad="parent"
+        app:attr04b0="@id/variants_wrapper">
+        <com.whatsapp.business.biz.catalog.view.widgets.QuantitySelector
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/quantity_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_marginEnd="@dimen/dimen0b60" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center_horizontal"
+            android:id="@id/action_button"
+            android:layout_width="fill_parent"
+            android:text="@string/str3926"
+            style="@style/style0555" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

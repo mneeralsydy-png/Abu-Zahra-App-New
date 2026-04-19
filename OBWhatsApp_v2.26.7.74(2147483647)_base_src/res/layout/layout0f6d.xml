@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/similar_newsletters_banner_header"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str3062"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea"
+        app:attr0495="@id/similar_newsletters_banner_barrier"
+        app:attr049b="@id/similar_newsletters_banner_close_button"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body3_emphasized"
+        style="@style/style05a9" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/similar_newsletters_banner_close_button"
+        android:padding="@dimen/dimen0ce9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="@color/color08de"
+        app:attr0495="@id/similar_newsletters_banner_barrier"
+        app:attr049a="parent"
+        app:attr04ac="@id/similar_newsletters_banner_header"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/vec_ic_close" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/similar_newsletters_banner_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="similar_newsletters_banner_header,similar_newsletters_banner_close_button" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@id/similar_newsletters_banner_recycler_view"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        android:paddingStart="@dimen/dimen0ce8"
+        android:paddingEnd="@dimen/dimen0ce8"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/similar_newsletters_banner_barrier" />
+    <View
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen1047"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

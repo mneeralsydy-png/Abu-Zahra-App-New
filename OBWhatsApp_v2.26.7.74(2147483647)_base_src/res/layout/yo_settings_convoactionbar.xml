@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/yosettings_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/yo_toolbar" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/preview"
+        android:background="@color/primary_v2"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_marginLeft="@dimen/settings_divider_vertical_margin"
+        android:layout_marginTop="@dimen/settings_divider_text_margin_top"
+        android:layout_marginRight="@dimen/settings_divider_vertical_margin">
+        <LinearLayout
+            android:enabled="false"
+            android:orientation="horizontal"
+            android:id="@id/back"
+            android:paddingLeft="@dimen/conversation_navigation_up_padding"
+            android:paddingRight="@dimen/conversation_navigation_up_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/green_alert_interstitial_back_button_content_description"
+            style="@style/style0006">
+            <ImageView
+                android:layout_gravity="center|left"
+                android:id="@id/up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="?android:homeAsUpIndicator"
+                android:scaleType="center" />
+            <FrameLayout
+                android:layout_gravity="center|left"
+                android:id="@id/icon_layout_anchor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.0dip">
+                <ImageView
+                    android:id="@id/conversation_contact_photo"
+                    android:layout_width="35.0dip"
+                    android:layout_height="35.0dip"
+                    android:src="@drawable/avatar_contact"
+                    android:scaleType="fitCenter" />
+                <View
+                    android:id="@id/transition_start"
+                    android:layout_width="35.0dip"
+                    android:layout_height="35.0dip" />
+                <ViewStub
+                    android:layout_gravity="center"
+                    android:id="@id/change_photo_progress_stub"
+                    android:layout="@layout/layout03e2"
+                    android:layout_width="35.0dip"
+                    android:layout_height="35.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/conversation_contact"
+            android:background="?android:selectableItemBackground"
+            android:paddingLeft="4.0dip"
+            android:paddingTop="0.0dip"
+            android:paddingRight="0.0dip"
+            android:paddingBottom="2.0dip"
+            android:clickable="true"
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_weight="5.0"
+            android:layout_toRightOf="@id/back"
+            android:layout_centerVertical="true"
+            android:animateLayoutChanges="true"
+            style="@style/ConversationTitleGroup">
+            <com.whatsapp.yo.tf
+                android:ellipsize="end"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:id="@id/conversation_contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:scrollHorizontally="true"
+                android:singleLine="true" />
+            <com.whatsapp.yo.tf
+                android:ellipsize="end"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:id="@id/conversation_contact_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online"
+                android:lines="1"
+                android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="end|center"
+            android:layout_gravity="end|center"
+            android:id="@id/actions"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_call"
+                android:scaleType="fitCenter"
+                style="@style/style0006" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_videocall"
+                android:scaleType="fitCenter"
+                style="@style/style0006" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_more_shadow"
+                android:scaleType="fitCenter"
+                style="@style/style0006" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.whatsapp.yo.tf
+        android:textSize="13.0sp"
+        android:textStyle="normal"
+        android:textColor="@android:color/white"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:id="@id/conversation_contact_global_status"
+        android:background="#44000000"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/settings_divider_vertical_margin"
+        android:layout_marginRight="@dimen/settings_divider_vertical_margin"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:marqueeRepeatLimit="marquee_forever" />
+    <ListView
+        android:id="@android:id/list"
+        android:background="@drawable/rounded_card"
+        android:padding="@dimen/info_screen_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="@dimen/settings_divider_text_margin_top"
+        android:layout_marginRight="16.0dip"
+        android:divider="@drawable/divider_gray" />
+</LinearLayout>

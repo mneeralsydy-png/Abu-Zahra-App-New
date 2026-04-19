@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/status_detail_audience_crosspost_upsell_title"
+        android:paddingLeft="@dimen/dimen0ced"
+        android:paddingRight="@dimen/dimen0ced"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        app:attr02de="true"
+        app:attr03ee="@string/str3b28"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/status_detail_audience_upsell_fb_share"
+        android:layout="@layout/layout0fa2"
+        android:inflatedId="@id/status_detail_audience_upsell_fb_share"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        app:attr049b="@id/status_detail_audience_upsell_ig_share"
+        app:attr04a3="0.0"
+        app:attr04ad="parent"
+        app:attr04b0="@id/status_detail_audience_crosspost_upsell_title"
+        app:attr04b8="0.5" />
+    <ViewStub
+        android:id="@id/status_detail_audience_upsell_ig_share"
+        android:layout="@layout/layout0fa2"
+        android:inflatedId="@id/status_detail_audience_upsell_ig_share"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        app:attr049a="parent"
+        app:attr04ac="@id/status_detail_audience_upsell_fb_share"
+        app:attr04b0="@id/status_detail_audience_crosspost_upsell_title"
+        app:attr04b8="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

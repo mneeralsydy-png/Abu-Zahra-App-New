@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="16.0dip"
+    android:paddingBottom="16.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/seller_education_content_layout"
+        android:padding="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0495="@id/link_a_payment_partner_button"
+        app:attr04ad="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/seller_payment_upsell_logo"
+            android:background="@drawable/sky_blue_75_circle"
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip"
+            app:attr0838="@drawable/ic_credit_card_white"
+            app:attr090d="@color/color0985" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fc0"
+            android:textStyle="bold"
+            android:textColor="?attr066e"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/seller_education_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24.0dip"
+            android:text="@string/str2e1b" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/seller_education_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:text="@string/str2e1c"
+            app:attr0a24="wds_font_body1" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/link_a_payment_partner_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:text="@string/str1b1a"
+        app:attr04b0="@id/seller_education_content_layout"
+        style="@style/style0555" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/not_now_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:text="@string/str4087"
+        app:attr04b0="@id/link_a_payment_partner_button"
+        style="@style/style0557" />
+</androidx.constraintlayout.widget.ConstraintLayout>

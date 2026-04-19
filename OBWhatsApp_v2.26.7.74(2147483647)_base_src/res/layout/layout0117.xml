@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:background="@color/color0806"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/age_remediation_result_wa_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen102e"
+            android:src="@drawable/wa_wordmark"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/age_remediation_result_image"
+            android:layout_width="88.0dip"
+            android:layout_height="88.0dip"
+            app:attr0495="@id/age_remediation_result_title"
+            app:attr049a="@id/age_remediation_result_title"
+            app:attr04ad="@id/age_remediation_result_title"
+            app:attr04b1="parent"
+            app:attr04b3="packed" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fc0"
+            android:textColor="@color/color0897"
+            android:gravity="center"
+            android:id="@id/age_remediation_result_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b"
+            app:attr0495="@id/age_remediation_result_subtitle"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/age_remediation_result_image"
+            app:attr0a24="wds_font_headline1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fbc"
+            android:textColor="@color/color0897"
+            android:gravity="center"
+            android:id="@id/age_remediation_result_subtitle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b"
+            app:attr0495="@id/age_remediation_result_cta"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/age_remediation_result_title"
+            app:attr0a24="wds_font_body3" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/age_remediation_result_cta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            app:attr0494="parent"
+            app:attr049a="@id/age_remediation_result_title"
+            app:attr04ad="@id/age_remediation_result_title"
+            app:attr04b0="@id/age_remediation_result_subtitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

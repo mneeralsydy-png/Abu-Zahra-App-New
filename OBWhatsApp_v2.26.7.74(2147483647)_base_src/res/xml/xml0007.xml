@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition
+        motion:attr0241="@id/end"
+        motion:attr0242="@id/start"
+        motion:attr05b1="easeInOut" />
+    <ConstraintSet
+        android:id="@id/start">
+        <Constraint
+            android:id="@id/wds_search_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1.0"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b1="parent" />
+        <Constraint
+            android:id="@id/me_tab_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1.0"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b0="@id/wds_search_bar" />
+        <Constraint
+            android:ellipsize="end"
+            android:id="@id/toolbar_profile_name"
+            android:paddingTop="@dimen/dimen1031"
+            android:paddingBottom="@dimen/dimen1031"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/dimen0002"
+            android:alpha="0.0"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen0b63"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b1="parent" />
+    </ConstraintSet>
+    <ConstraintSet
+        android:id="@id/end">
+        <Constraint
+            android:id="@id/me_tab_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.0"
+            android:translationY="50.0dip"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b1="parent" />
+        <Constraint
+            android:id="@id/wds_search_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="?attr000d"
+            android:alpha="1.0"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b0="@id/me_tab_container" />
+        <Constraint
+            android:id="@id/toolbar_profile_name"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:alpha="1.0"
+            android:layout_marginStart="@dimen/dimen102e"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b0="@id/me_tab_container" />
+    </ConstraintSet>
+</MotionScene>

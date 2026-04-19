@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/sticker_store_row_container"
+    android:background="?attr0a59"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="100.0sp"
+    android:foreground="?android:selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.stickers.ui.store.StickerStoreRowHeaderLayout
+        android:orientation="horizontal"
+        android:id="@id/sticker_pack_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginRight="16.0dip">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a47"
+            android:ellipsize="marquee"
+            android:id="@id/sticker_pack_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/sticker_animationlist"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dimen1030"
+            android:layout_marginRight="@dimen/dimen1030"
+            app:attr0838="@drawable/sticker_animationlist"
+            app:attr090d="@color/color0721"
+            app:attr0a89="true" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fbc"
+            android:textColor="?attr0a46"
+            android:ellipsize="marquee"
+            android:id="@id/sticker_pack_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginStart="@dimen/dimen1030"
+            app:attr0a24="wds_font_body3" />
+        <LinearLayout
+            android:id="@id/sticker_row_dont_clip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAlignedChildIndex="0">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/bullet_file_size"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                style="@style/style01ae" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fbc"
+                android:textColor="?attr0a46"
+                android:id="@id/sticker_pack_filesize"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginEnd="5.0dip"
+                app:attr0a24="wds_font_body3" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="10.0sp"
+                android:textStyle="bold"
+                android:textColor="?attr0a2f"
+                android:layout_gravity="center_vertical"
+                android:id="@id/new_pack_badge"
+                android:background="@drawable/new_pack_bubble"
+                android:paddingLeft="8.0sp"
+                android:paddingTop="1.0sp"
+                android:paddingRight="8.0sp"
+                android:paddingBottom="1.0sp"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3227"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+    </com.whatsapp.stickers.ui.store.StickerStoreRowHeaderLayout>
+    <com.whatsapp.stickers.ui.TouchDiscardLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_below="@id/sticker_pack_info"
+        android:layout_toStartOf="@id/buttons">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_gravity="center_vertical"
+            android:id="@id/sticker_row_recycler"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip" />
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:layout_gravity="center"
+            android:id="@id/sticker_row_loading"
+            android:visibility="gone"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:indeterminate="true"
+            android:indeterminateOnly="true"
+            app:attr028c="?attr0a29"
+            app:attr0290="4.0" />
+    </com.whatsapp.stickers.ui.TouchDiscardLayout>
+    <FrameLayout
+        android:layout_gravity="end"
+        android:id="@id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="64.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8.0dip"
+        android:layout_alignParentEnd="true">
+        <FrameLayout
+            android:layout_gravity="end|center"
+            android:id="@id/sticker_update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8.0dip">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a29"
+                android:id="@id/sticker_update_text"
+                android:background="@drawable/sticker_update_button"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3242"
+                android:contentDescription="@string/str3243"
+                android:textAllCaps="true"
+                app:attr0a24="wds_font_body2" />
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@id/pack_update_progress"
+                android:visibility="gone"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:indeterminate="true" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_gravity="end|center"
+            android:id="@id/trailing_buttons_container"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/button_one"
+                android:visibility="gone"
+                app:attr090d="?attr0a44"
+                style="@style/style03ba" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/button_two"
+                android:visibility="gone"
+                app:attr090d="@color/color0722"
+                style="@style/style03ba" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/sticker_pack_avatar_info_button"
+                android:visibility="gone"
+                app:attr090d="@color/color0347"
+                style="@style/style03ba" />
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@id/pack_download_progress"
+                android:visibility="gone"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_margin="12.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

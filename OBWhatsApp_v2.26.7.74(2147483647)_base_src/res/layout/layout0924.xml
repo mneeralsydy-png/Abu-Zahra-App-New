@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:paddingRight="@dimen/dimen0cea"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:touchscreenBlocksFocus="false"
+        app:attr024c="0.0dip"
+        app:attr024e="0.0dip"
+        app:attr024f="0.0dip"
+        app:attr0250="0.0dip">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style0410"
+            android:layout_gravity="center"
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cee"
+            android:layout_marginStart="@dimen/dimen0cee" />
+    </com.whatsapp.ui.wds.components.topbar.WDSToolbar>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style0404"
+        android:layout_gravity="center_vertical"
+        android:id="@id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cee"
+        android:layout_marginStart="@dimen/dimen0cee" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/intent_recycler"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7" />
+</LinearLayout>

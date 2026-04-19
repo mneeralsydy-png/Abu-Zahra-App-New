@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:id="@id/shimmer_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr07d5="1.0"
+    app:attr07d6="?attr00c4"
+    app:attr07d8="true"
+    app:attr07da="0.9"
+    app:attr07db="1000"
+    app:attr07df="1.0"
+    app:attr07e0="@color/color0103"
+    app:attr07e7="0.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

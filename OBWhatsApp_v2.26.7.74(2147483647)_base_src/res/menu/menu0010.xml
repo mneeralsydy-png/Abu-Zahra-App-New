@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_search_white"
+        android:id="@id/menuitem_search"
+        android:title="@string/str420c"
+        app:attr07f1="always" />
+    <item
+        android:icon="@drawable/ic_action_sort"
+        android:enabled="true"
+        android:id="@id/menuitem_sort"
+        android:visible="true"
+        android:title="@string/str427f"
+        app:attr07f1="always">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:icon="@null"
+                    android:id="@id/menuitem_sort_by_name"
+                    android:title="@string/str427e" />
+                <item
+                    android:icon="@null"
+                    android:id="@id/menuitem_sort_by_date"
+                    android:title="@string/str427c" />
+            </group>
+        </menu>
+    </item>
+</menu>

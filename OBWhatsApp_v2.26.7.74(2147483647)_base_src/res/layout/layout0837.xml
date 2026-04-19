@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.ui.conversationrow.media.component.HdControlFrameView
+    android:layout_gravity="start|bottom|center"
+    android:id="@id/hd_control_frame_view"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen1039"
+    android:paddingEnd="@dimen/dimen1039"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

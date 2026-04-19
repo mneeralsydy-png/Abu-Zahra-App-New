@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/status_tile_layout"
+    android:background="@drawable/rounded_status_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen0cea"
+    android:layout_marginTop="@dimen/dimen0cf0"
+    android:layout_marginRight="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/no_contact_placeholder"
+        android:layout="@layout/layout12fc"
+        android:layout_width="@dimen/dimen1011"
+        android:layout_height="@dimen/dimen1011"
+        android:layout_margin="@dimen/dimen0ce8"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+        android:id="@id/wds_profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0ce8"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="start|center"
+        android:id="@id/contact_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:layout_marginBottom="@dimen/dimen0d19"
+        android:text="@string/str1f61"
+        android:fontFamily="?attr03b8"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        whatsapp:attr04a8="@id/wds_profile_picture"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b1="parent"
+        style="@style/style0289" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:id="@id/subtitle_text_view"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        android:text="@string/str1f63"
+        android:singleLine="true"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        whatsapp:attr04a8="@id/wds_profile_picture"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b0="@id/contact_name"
+        style="?attr04e0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

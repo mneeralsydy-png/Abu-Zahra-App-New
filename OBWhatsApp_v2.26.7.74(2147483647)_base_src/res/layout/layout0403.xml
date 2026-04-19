@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/contact_selector"
+    android:layout_width="@dimen/dimen0362"
+    android:layout_height="@dimen/dimen034b"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:enabled="false"
+        android:layout_gravity="center"
+        android:id="@id/contactpicker_row_photo"
+        android:layout_width="@dimen/dimen0334"
+        android:layout_height="@dimen/dimen0334"
+        android:scaleType="fitCenter"
+        whatsapp:attr08a9="false"
+        whatsapp:attr08aa="@dimen/dimen0cc5" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/contactpicker_row_ephemeral_status"
+        android:background="@drawable/primary_color_circle"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0c6e"
+        android:layout_height="@dimen/dimen0c6e"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        whatsapp:attr0838="@drawable/ic_chatlist_ephemeral"
+        whatsapp:attr090d="@color/color0503" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/contactpicker_row_merchant_verified_status"
+        android:background="@drawable/primary_color_circle"
+        android:padding="2.0dip"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0e6e"
+        android:layout_height="@dimen/dimen0e6e"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        whatsapp:attr0838="@drawable/ic_verified" />
+    <com.whatsapp.ui.coreui.components.SelectionCheckView
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/selection_check"
+        android:layout_width="@dimen/dimen0c6e"
+        android:layout_height="@dimen/dimen0c6e"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="@dimen/dimen034f" />
+</FrameLayout>

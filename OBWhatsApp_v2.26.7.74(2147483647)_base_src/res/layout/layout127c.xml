@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/dimen0f18"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/item_row_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0f14"
+        android:layout_margin="@dimen/dimen0f18"
+        android:scaleType="centerInside"
+        app:attr0838="@drawable/ic_thumb_down"
+        app:attr090d="@color/color08de" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/item_row_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0f18"
+            android:layout_marginRight="@dimen/dimen0f18"
+            android:layout_marginBottom="@dimen/dimen0c96"
+            android:text="@string/str3bbb"
+            android:textAlignment="center"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color0897"
+            android:id="@id/item_row_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0f18"
+            android:layout_marginTop="@dimen/dimen0f19"
+            android:layout_marginRight="@dimen/dimen0f18"
+            android:layout_marginBottom="@dimen/dimen0c96"
+            android:textAlignment="viewStart"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@id/phone_number_hiding_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/pnh_image"
+            android:layout_width="220.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            whatsapp:attr0495="@id/pnh_title"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b1="parent"
+            whatsapp:attr04b3="packed"
+            whatsapp:attr0838="@drawable/vec_pn_sharing_image"
+            whatsapp:attr0a89="true" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/contact_photo"
+            android:background="?attr0a2f"
+            android:padding="@dimen/dimen102c"
+            android:visibility="gone"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginTop="66.0dip"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="28.0dip"
+            whatsapp:attr04a7="@id/pnh_image"
+            whatsapp:attr04b1="@id/pnh_image"
+            whatsapp:attr0675="small" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="20.0dip"
+            android:textColor="@color/color06ed"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:id="@id/pnh_own_number"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen1037"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:layout_marginRight="@dimen/dimen103b"
+            android:singleLine="true"
+            android:layout_marginStart="@dimen/dimen1037"
+            android:layout_marginEnd="@dimen/dimen103b"
+            whatsapp:attr03ae="?attr03b8"
+            whatsapp:attr0494="@id/pnh_image"
+            whatsapp:attr049a="@id/pnh_image"
+            whatsapp:attr04ad="@id/pnh_image"
+            whatsapp:attr04b1="@id/pnh_image" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/pnh_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen103b"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginRight="@dimen/dimen103b"
+            whatsapp:attr03ae="?attr03b8"
+            whatsapp:attr0495="@id/pnh_bullets"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b0="@id/pnh_image"
+            style="@style/style0411" />
+        <LinearLayout
+            android:gravity="start"
+            android:orientation="vertical"
+            android:id="@id/pnh_bullets"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            whatsapp:attr0495="@id/pnh_primary_button"
+            whatsapp:attr049a="@id/pnh_title"
+            whatsapp:attr04ad="@id/pnh_title"
+            whatsapp:attr04b0="@id/pnh_title">
+            <com.whatsapp.chatinfo.view.custom.PnhListItem
+                android:id="@id/pnh_point_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr04e2="@string/str41cb"
+                whatsapp:attr04e6="@drawable/ic_visibility_off"
+                whatsapp:attr04e7="?attr0a44"
+                whatsapp:attr04e8="true"
+                whatsapp:attr04eb="16.0sp" />
+            <com.whatsapp.chatinfo.view.custom.PnhListItem
+                android:id="@id/pnh_point_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr04e2="@string/str41cc"
+                whatsapp:attr04e6="@drawable/ic_dialpad_gray"
+                whatsapp:attr04e7="?attr0a44"
+                whatsapp:attr04e8="true"
+                whatsapp:attr04eb="16.0sp" />
+            <com.whatsapp.chatinfo.view.custom.PnhListItem
+                android:id="@id/pnh_point_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr04e2="@string/str41cd"
+                whatsapp:attr04e6="@drawable/vec_ic_account_circle"
+                whatsapp:attr04e7="?attr0a44"
+                whatsapp:attr04e8="true"
+                whatsapp:attr04e9="@string/str41ce"
+                whatsapp:attr04eb="16.0sp" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/pnh_primary_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            whatsapp:attr03ae="?attr03b8"
+            whatsapp:attr0495="@id/pnh_secondary_button"
+            whatsapp:attr049a="@id/pnh_title"
+            whatsapp:attr04ad="@id/pnh_title"
+            whatsapp:attr04b0="@id/pnh_bullets"
+            whatsapp:attr096b="filled"
+            style="@style/style055e" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/pnh_secondary_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1039"
+            whatsapp:attr03ae="?attr03b8"
+            whatsapp:attr0494="parent"
+            whatsapp:attr049a="@id/pnh_title"
+            whatsapp:attr04ad="@id/pnh_title"
+            whatsapp:attr04b0="@id/pnh_primary_button"
+            whatsapp:attr096b="borderless"
+            style="@style/style055e" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

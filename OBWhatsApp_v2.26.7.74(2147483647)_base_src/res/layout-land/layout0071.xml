@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout037e" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/community_home_coordinator"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@id/app_bar"
+            android:background="@color/color0790"
+            android:fitsSystemWindows="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/layout0381" />
+            <androidx.appcompat.widget.SearchView
+                android:layout_gravity="center_vertical"
+                android:id="@id/search_view"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="flagNoExtractUi"
+                style="@style/style0354" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <include
+            layout="@layout/layout0380" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

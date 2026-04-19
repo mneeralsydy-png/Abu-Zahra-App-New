@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/ai_voice_disclosure"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="start"
+        android:id="@id/ai_voice_disclosure_close"
+        android:background="?attr076e"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:src="@drawable/xmds_close"
+        android:layout_marginStart="@dimen/dimen0cea" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/ai_voice_disclosure_content_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cea"
+            android:paddingEnd="@dimen/dimen0cea">
+            <FrameLayout
+                android:id="@id/voice_disclosure_logo"
+                android:layout_width="120.0dip"
+                android:layout_height="120.0dip"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center"
+                    android:id="@id/meta_ai_static_logo"
+                    android:visibility="gone"
+                    android:layout_width="120.0dip"
+                    android:layout_height="120.0dip" />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_gravity="top"
+                    android:id="@id/meta_ai_animated_logo"
+                    android:visibility="gone"
+                    android:layout_width="120.0dip"
+                    android:layout_height="120.0dip"
+                    app:attr0510="true"
+                    app:attr051a="true"
+                    app:attr051c="@raw/meta_ai_particle_reveal" />
+            </FrameLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/disclosure_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ceb"
+                android:text="@string/str0381"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/voice_disclosure_logo"
+                style="@style/style0712" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/disclosure_list_item_1_icon"
+                android:layout_width="@dimen/dimen0755"
+                android:layout_height="@dimen/dimen0755"
+                android:layout_marginTop="@dimen/dimen0ceb"
+                android:src="@drawable/speech_bubble_stacked"
+                app:attr04ad="parent"
+                app:attr04b0="@id/disclosure_title" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="start"
+                android:id="@id/disclosure_list_item_1_title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str037e"
+                android:layout_marginStart="@dimen/dimen0ce8"
+                app:attr049a="parent"
+                app:attr04ac="@id/disclosure_list_item_1_icon"
+                app:attr04b1="@id/disclosure_list_item_1_icon"
+                style="@style/style0715" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="start"
+                android:id="@id/disclosure_list_item_1_subtitle"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str037d"
+                app:attr049a="parent"
+                app:attr04ad="@id/disclosure_list_item_1_title"
+                app:attr04b0="@id/disclosure_list_item_1_title"
+                style="@style/style0717" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/disclosure_list_item_2_icon"
+                android:layout_width="@dimen/dimen0755"
+                android:layout_height="@dimen/dimen0755"
+                android:layout_marginTop="@dimen/dimen0ceb"
+                android:src="@drawable/three_vertical_lines_circle"
+                app:attr04ad="parent"
+                app:attr04b0="@id/disclosure_list_item_1_subtitle" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="start"
+                android:id="@id/disclosure_list_item_2_title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str0380"
+                android:layout_marginStart="@dimen/dimen0ce8"
+                app:attr049a="parent"
+                app:attr04ac="@id/disclosure_list_item_2_icon"
+                app:attr04b1="@id/disclosure_list_item_2_icon"
+                style="@style/style0715" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="start"
+                android:id="@id/disclosure_list_item_2_subtitle"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str037f"
+                app:attr049a="parent"
+                app:attr04ad="@id/disclosure_list_item_2_title"
+                app:attr04b0="@id/disclosure_list_item_2_title"
+                style="@style/style0717" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/disclosure_footer_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce9"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        style="@style/style0714" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/disclosure_continue_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea"
+        android:text="@string/str037a"
+        app:attr0009="xmds"
+        style="@style/style0711" />
+</LinearLayout>

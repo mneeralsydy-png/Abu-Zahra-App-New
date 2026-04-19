@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0776"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0776"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/location_icon"
+        android:background="@drawable/new_place_icon_background"
+        android:padding="@dimen/dimen0af3"
+        android:layout_width="@dimen/dimen0772"
+        android:layout_height="@dimen/dimen0772"
+        android:src="@drawable/location_pin_outline"
+        android:layout_marginStart="@dimen/dimen0778"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr090d="?attr0a47" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="start"
+        android:id="@id/location_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:drawablePadding="4.0dip"
+        android:layout_marginStart="@dimen/dimen0778"
+        android:layout_marginEnd="@dimen/dimen0778"
+        app:attr0495="@id/location_description"
+        app:attr04ac="@id/location_icon"
+        app:attr04b1="parent"
+        app:attr04b3="packed"
+        style="@style/style0294" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="start"
+        android:id="@id/location_description"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginStart="@dimen/dimen0778"
+        android:layout_marginEnd="@dimen/dimen0778"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/location_icon"
+        app:attr04b0="@id/location_name"
+        style="@style/style0293" />
+</androidx.constraintlayout.widget.ConstraintLayout>

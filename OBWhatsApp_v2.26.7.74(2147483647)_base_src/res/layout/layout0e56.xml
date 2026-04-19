@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/report_bottom_sheet_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/report_close"
+        android:background="?attr076e"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:src="@drawable/xmds_close"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/report_text_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce4"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:text="@string/str1e15"
+        android:layout_marginStart="@dimen/dimen0ce5"
+        android:layout_marginEnd="@dimen/dimen0ce5"
+        app:attr0495="@id/report_text_description"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/report_close"
+        style="@style/style0712" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/report_text_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen066b"
+        android:text="@string/str1e14"
+        android:layout_marginStart="@dimen/dimen0ce5"
+        android:layout_marginEnd="@dimen/dimen0ce5"
+        app:attr0495="@id/report_submit_button"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        style="@style/style070f" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/report_submit_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:text="@string/str32e9"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0009="xmds"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        style="@style/style0711" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen066c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/icebreaker_item_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@id/icebreaker_image"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:adjustViewBounds="true"
+                app:attr04ad="parent"
+                app:attr04b1="parent"
+                app:attr07d0="@style/style024e" />
+            <ViewStub
+                android:id="@id/icebreaker_image_placeholder_default"
+                android:layout="@layout/layout086e"
+                android:inflatedId="@id/icebreaker_image_placeholder_inflated"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                app:attr0499="1:1"
+                app:attr04ad="parent"
+                app:attr04b1="parent" />
+            <ViewStub
+                android:id="@id/icebreaker_image_placeholder_portrait"
+                android:layout="@layout/layout086e"
+                android:inflatedId="@id/icebreaker_image_placeholder_inflated"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                app:attr0499="9:16"
+                app:attr04ad="parent"
+                app:attr04b1="parent" />
+            <View
+                android:layout_gravity="bottom"
+                android:background="@drawable/background_dark_half_gradient"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                app:attr0494="parent"
+                app:attr04a2="0.5"
+                app:attr04ad="parent" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="14.0sp"
+                android:textColor="@color/color09be"
+                android:ellipsize="end"
+                android:id="@id/icebreaker_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                android:maxLines="2"
+                android:shadowColor="@color/color00f0"
+                android:shadowDx="0.0"
+                android:shadowDy="2.0"
+                android:shadowRadius="8.0"
+                android:textDirection="locale"
+                android:paddingStart="@dimen/dimen0ce8"
+                android:paddingEnd="@dimen/dimen0ce8"
+                app:attr0494="parent"
+                app:attr04ad="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</LinearLayout>

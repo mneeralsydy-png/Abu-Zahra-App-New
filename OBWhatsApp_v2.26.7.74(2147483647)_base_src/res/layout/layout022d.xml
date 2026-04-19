@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/bot_rich_response_table_bottom_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/bot_rich_response_table_bottom_sheet_header"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0048">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="start|center"
+            android:id="@id/bot_rich_response_table_bottom_sheet_close_button"
+            android:background="@color/color0790"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0cea"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/vec_ic_close"
+            app:attr090d="@color/color08df" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/bot_rich_response_table_bottom_sheet_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/TextAppearance.Compat.Notification.Media"
+            android:layout_marginStart="@dimen/dimen0bed"
+            android:layout_marginEnd="@dimen/dimen0bed"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="end|center"
+            android:id="@id/bot_rich_response_table_bottom_sheet_copy_button"
+            android:background="?attr076e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0cea"
+            android:contentDescription="@string/str0e59"
+            app:attr0838="@drawable/ic_content_copy"
+            app:attr090d="@color/color08df" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/bot_rich_response_table_bottom_sheet_scroll"
+        android:background="@drawable/rich_response_code_block_border"
+        android:clipToPadding="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c0c"
+        android:layout_marginTop="@dimen/dimen0cef"
+        android:layout_marginRight="@dimen/dimen0c0c"
+        android:layout_marginBottom="@dimen/dimen0c0b"
+        android:fillViewport="true">
+        <HorizontalScrollView
+            android:orientation="horizontal"
+            android:scrollbars="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:id="@id/table_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:stretchColumns="*"
+                android:elevation="@dimen/dimen0cf0" />
+        </HorizontalScrollView>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

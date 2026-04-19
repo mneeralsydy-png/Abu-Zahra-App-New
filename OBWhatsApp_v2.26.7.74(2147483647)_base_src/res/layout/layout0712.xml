@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/top_border"
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/title_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="close_button,themes_title" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3dac"
+        app:attr04a4="packed"
+        app:attr04ad="parent"
+        app:attr04b0="@id/top_border"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="@color/color01cd"
+        style="?attr0015" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style03ca"
+        android:textSize="@dimen/dimen0fb0"
+        android:textStyle="normal"
+        android:textColor="?attr066e"
+        android:id="@id/themes_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen031f"
+        android:layout_marginRight="@dimen/dimen031f"
+        app:attr0494="@id/close_button"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="@id/close_button" />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@id/expressive_bg_loading_shimmer"
+        android:paddingLeft="11.0dip"
+        android:paddingTop="18.0dip"
+        android:paddingRight="11.0dip"
+        android:paddingBottom="42.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="134.0dip"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title_barrier"
+        style="@style/style02dd">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <include
+                layout="@layout/layout0713" />
+            <include
+                layout="@layout/layout0713" />
+            <include
+                layout="@layout/layout0713" />
+            <include
+                layout="@layout/layout0713" />
+            <include
+                layout="@layout/layout0713" />
+            <include
+                layout="@layout/layout0713" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/backgrounds_download_error_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0584"
+        app:attr04ad="parent"
+        app:attr04b0="@id/themes_title">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style03c8"
+            android:textColor="?attr066e"
+            android:id="@id/download_error_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5e"
+            android:text="@string/str04b6"
+            android:contentDescription="@string/str04b6"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/retry_backgrounds_download"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42.0dip"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:layout_marginRight="42.0dip"
+            android:text="@string/str04b7"
+            android:contentDescription="@string/str04b7"
+            android:layout_marginStart="42.0dip"
+            android:layout_marginEnd="42.0dip"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/download_error_message"
+            style="@style/style055d" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@id/expressive_themes_list"
+        android:paddingLeft="11.0dip"
+        android:paddingTop="18.0dip"
+        android:paddingRight="11.0dip"
+        android:paddingBottom="42.0dip"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="134.0dip"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title_barrier" />
+</androidx.constraintlayout.widget.ConstraintLayout>

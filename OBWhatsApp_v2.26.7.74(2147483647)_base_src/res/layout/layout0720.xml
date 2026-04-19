@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/faq_screen_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@id/toolbar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+                android:id="@id/toolbar"
+                style="@style/style0520" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <WebView
+            android:id="@id/faq_item_web_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:id="@id/not_helpful_button_container"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/not_helpful_button"
+            android:layout_margin="@dimen/dimen1039"
+            android:text="@string/str0d8a"
+            style="@style/style055c" />
+    </LinearLayout>
+</FrameLayout>

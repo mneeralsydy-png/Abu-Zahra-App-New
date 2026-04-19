@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        style="@style/style0355" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fbc"
+        android:gravity="center_horizontal"
+        android:id="@id/terms_of_services_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:lineSpacingMultiplier="1.33"
+        style="@style/style05a8" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/branding_image"
+        android:layout_width="@dimen/dimen0695"
+        android:layout_height="@dimen/dimen0694"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:src="@drawable/bharat_connect" />
+</LinearLayout>

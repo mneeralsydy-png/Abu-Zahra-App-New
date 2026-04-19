@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:tag="container"
+    android:layout_width="fill_parent"
+    android:layout_height="56.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:tag="chats_tab"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:src="@drawable/vec_ic_home_tab_chats_filled" />
+        <com.whatsapp.yo.tf
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/settings_chat" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:tag="groups_tab"
+        android:visibility="visible"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:src="@drawable/vec_groups_unfilled" />
+        <com.whatsapp.yo.tf
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/groups_participation" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:tag="status_tab"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:src="@drawable/vec_ic_home_tab_status_unfilled" />
+        <com.whatsapp.yo.tf
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/yowaUpdate" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:tag="calls_tab"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:src="@drawable/vec_ic_home_tab_calls_unfilled" />
+        <com.whatsapp.yo.tf
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/tab_calls" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:tag="community_tab"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:src="@drawable/vec_ic_home_tab_communities_unfilled" />
+        <com.whatsapp.yo.tf
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/str0bf0" />
+    </LinearLayout>
+</LinearLayout>
