@@ -11,7 +11,7 @@
         android:layout="@layout/abu_arab_preference_cevron"
         android:title="@string/abu_arab_settz_armanagz">
         <intent
-            android:targetPackage="com.obwhatsapp"
+            android:targetPackage="com.zahra.whatsapp"
             android:action="android.intent.action.VIEW"
             android:targetClass="com.whatsapp.storage.StorageUsageActivity" />
     </Preference>

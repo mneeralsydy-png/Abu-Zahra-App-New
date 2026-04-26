@@ -5413,7 +5413,7 @@
     <style name="OB8_ob">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">#ff640150</item>
+        <item name="android:background">#ff0A3D2E</item>
         <item name="android:padding">12.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -5421,7 +5421,7 @@
     <style name="OB9_ob">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">#ff640150</item>
+        <item name="android:background">#ff0A3D2E</item>
         <item name="android:padding">12.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -11792,7 +11792,7 @@
     <style name="abu3arabmas_alert">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:gravity">fill_horizontal</item>
-        <item name="android:background">#ff640150</item>
+        <item name="android:background">#ff0A3D2E</item>
         <item name="android:padding">12.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>

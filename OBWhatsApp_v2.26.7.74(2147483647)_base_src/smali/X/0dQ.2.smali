@@ -198,7 +198,7 @@
 
     check-cast v1, Ljava/lang/String;
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     new-instance v2, Landroid/accounts/Account;
 
@@ -811,7 +811,7 @@
 
     check-cast v5, Landroid/accounts/AccountManager;
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v5, v0}, Landroid/accounts/AccountManager;->getAccountsByType(Ljava/lang/String;)[Landroid/accounts/Account;
 

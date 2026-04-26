@@ -9,7 +9,7 @@
         <clip-path
             android:pathData="M0,0h180v120H0z" />
         <path
-            android:fillColor="#ff25d366"
+            android:fillColor="#ffD4AF37"
             android:pathData="M93.53,13.75a16,16 0,0 1,19.7 -10.98L154.7,14.4a16,16 0,0 1,9.87 8.02l3.56,6.83a16,16 0,0 1,1.39 3.77l4.13,17.74c0.6,2.62 0.54,5.35 -0.18,7.94l-13.18,47.05a16,16 0,0 1,-19.82 11.06l-55.34,-15.9a16,16 0,0 1,-10.96 -19.8l19.36,-67.36Z"
             android:strokeColor="#ff111b21"
             android:strokeWidth="1.5" />
@@ -21,7 +21,7 @@
             android:strokeLineCap="round"
             android:strokeLineJoin="round" />
         <path
-            android:fillColor="#ff25d366"
+            android:fillColor="#ffD4AF37"
             android:pathData="M141.27,38.83 L110,28.97l31.26,9.86ZM93.87,78.69 L144.6,95.16L93.86,78.7ZM101.93,53.83 L152.68,70.3 101.93,53.83Z" />
         <path
             android:fillColor="#00000000"

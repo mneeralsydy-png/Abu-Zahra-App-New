@@ -33,7 +33,7 @@
 
     if-eqz v0, :cond_0
 
-    const-class v0, Lcom/obwhatsapp/Me;
+    const-class v0, Lcom/zahra/whatsapp/Me;
 
     invoke-static {v0}, Ljava/io/ObjectStreamClass;->lookup(Ljava/lang/Class;)Ljava/io/ObjectStreamClass;
 

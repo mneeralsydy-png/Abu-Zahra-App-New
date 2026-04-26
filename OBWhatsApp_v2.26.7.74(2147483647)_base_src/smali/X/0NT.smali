@@ -198,7 +198,7 @@
 
     move-result-object v1
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     new-instance v10, Ljava/io/File;
 
@@ -478,7 +478,7 @@
 
     if-eqz v1, :cond_2
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     new-instance v3, Ljava/io/File;
 
@@ -591,7 +591,7 @@
 
     move-result-object v1
 
-    const-string v0, "Media/OBWhatsApp "
+    const-string v0, "Media/Abu Zahra WhatsApp "
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
@@ -619,7 +619,7 @@
 .method public A08(Ljava/lang/String;)Ljava/io/File;
     .locals 2
 
-    const-string v0, "Media/OBWhatsApp "
+    const-string v0, "Media/Abu Zahra WhatsApp "
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -692,7 +692,7 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "Media/OBWhatsApp "
+    const-string v0, "Media/Abu Zahra WhatsApp "
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 

@@ -676,7 +676,7 @@
     <string name="HangoutsBt">Samtale UI-knapfarve</string>
     <string name="HangoutsBtS">Skift indtastningsikonets farve</string>
     <string name="HideFAB">Skjul flydende handlingsknap (FAB)</string>
-    <string name="Lock">OBWhatsApp-lås</string>
+    <string name="Lock">واتس الزهراء-lås</string>
     <string name="MainSize">Hovedskærmens tekststørrelse/opkald/kontakt</string>
     <string name="MainSizeS">Skift tekststørrelse på tværs af startskærmen</string>
     <string name="MentionIndicatorBackgroundColor">Nævn indikatorbaggrund</string>
@@ -792,7 +792,7 @@
     <string name="chats_hide_cam_icon">Skjul kameraikon</string>
     <string name="chats_hide_cam_icon_summary">Skjul kameraikon fra overskriften.</string>
     <string name="clearemoji">Slet seneste emojis</string>
-    <string name="clearlogs">Ryd OBWhatsApp-logfiler</string>
+    <string name="clearlogs">Ryd واتس الزهراء-logfiler</string>
     <string name="color_new_color">Ny farve</string>
     <string name="color_old_color">gammel farve</string>
     <string name="color_select_color">Vælg én farve</string>
@@ -953,11 +953,11 @@
     <string name="recent_chats_sum">Skjul seneste chats forfra</string>
     <string name="reset">Nulstil</string>
     <string name="resetPriv">Nulstil privatlivets fred</string>
-    <string name="resetPrivSum">Nulstil OBWhatsApp standard privatliv</string>
+    <string name="resetPrivSum">Nulstil واتس الزهراء standard privatliv</string>
     <string name="resetPrivacyonly">Vil du gemme det aktuelle tema?</string>
     <string name="resetPrivacyonlyS">"'Fixed': Behold temaet anvendt 'Nulstil': Standard/WhatsApp lagerfarver"</string>
     <string name="resetThemes">Nulstil præferencer</string>
-    <string name="resetThemesSum">Gendan OBWhatsApp standardindstillinger</string>
+    <string name="resetThemesSum">Gendan واتس الزهراء standardindstillinger</string>
     <string name="reset_themes_confirma">Er du sikker på, at du vil nulstille alle temapræferencer?</string>
     <string name="restoreTheme">Gendan tema</string>
     <string name="restoreThemeS">Indlæs tema gemt i (/Download/Themes)</string>
@@ -1048,7 +1048,7 @@
     <string name="yoAudioEarsSum">Undgå at skifte højttaler/ørestykke, mens du spiller</string>
     <string name="yoAudioSensor">Aktiver nærhedssensor</string>
     <string name="yoAudioSensorSum">Aktiveret som standard, deaktiver for at slå det fra.</string>
-    <string name="yoBackup">Sikkerhedskopier OBWhatsApp-data</string>
+    <string name="yoBackup">Sikkerhedskopier واتس الزهراء-data</string>
     <string name="yoBackupDone">Sikkerhedskopieringen er fuldført!</string>
     <string name="yoBackupFail">Sikkerhedskopiering mislykkedes!</string>
     <string name="yoBackupMsg">Sikkerhedskopierer data...</string>
@@ -1110,7 +1110,7 @@
     <string name="yoHideRecord">Skjul optagelse...</string>
     <string name="yoHideRecordSum">Fortæl ikke afsenderen, at du optager en talebesked.</string>
     <string name="yoHideSeen">Frys sidst set</string>
-    <string name="yoHideSeenSum">Genstart OBWhatsApp for at ændringerne træder i kraft.</string>
+    <string name="yoHideSeenSum">Genstart واتس الزهراء for at ændringerne træder i kraft.</string>
     <string name="yoHideStatusView">Skjul Vis status</string>
     <string name="yoHideStatusViewSum">Fortæl ikke kontakter, at du har set deres status</string>
     <string name="yoHomeUIStyle">Navigationsstil UI</string>
@@ -1130,7 +1130,7 @@
     <string name="yoNicon">Skift meddelelsesikon</string>
     <string name="yoNiconSum">Dette er ikonet, der vises på din statuslinje</string>
     <string name="yoNific">Vis kun beskedens afsendernavn ud for meddelelseslinjeikonet</string>
-    <string name="yoNoBackup">"Kunne ikke finde backup i '/sdcard/OBWhatsApp'!"</string>
+    <string name="yoNoBackup">"Kunne ikke finde backup i '/sdcard/واتس الزهراء'!"</string>
     <string name="yoNotif">Formindsk notifikationer</string>
     <string name="yoOnline">Aktiveret som standard! Aktiver det, hvis du ikke vil have Toast Online</string>
     <string name="yoOnlineHome">Deaktiver kontakter online/senest set status</string>
@@ -1140,7 +1140,7 @@
     <string name="yoPrivacySum">Særligt privatliv</string>
     <string name="yoProfilePic">Skjul kontaktprofilbillede</string>
     <string name="yoProfilePicS">Fjerner kontaktprofilbillede fra overskriften på samtaleskærmen</string>
-    <string name="yoRestore">Gendan OBWhatsApp-data</string>
+    <string name="yoRestore">Gendan واتس الزهراء-data</string>
     <string name="yoRestoreDone">Gendannelse fuldført!</string>
     <string name="yoRestoreFail">Gendannelse mislykkedes!</string>
     <string name="yoRestoreMsg">Gendanner data...</string>
@@ -1155,7 +1155,7 @@
     <string name="yoSendBtn">Send knap farve</string>
     <string name="yoSendBtnS">Send/mikrofonknapfarve på samtaleskærmen</string>
     <string name="yoShare">Del</string>
-    <string name="yoShareSum">Del OBWhatsApp</string>
+    <string name="yoShareSum">Del واتس الزهراء</string>
     <string name="yoStyling">Stil (Udseende og følelse)</string>
     <string name="yoSwipeRow">Swipe Line</string>
     <string name="yoSwipeRowS">Giver dig mulighed for at stryge hver samtalelinje til venstre eller højre for at udføre hurtige handlinger</string>
@@ -1185,7 +1185,7 @@
     <string name="yo_UpToDate">Din seneste version</string>
     <string name="yo_airplane_mode_warning">Når flytilstand er aktiveret, vil du ikke være i stand til at sende/modtage beskeder.</string>
     <string name="yo_all">Alle</string>
-    <string name="yo_changelog">OBWhatsApp-ændringsliste</string>
+    <string name="yo_changelog">واتس الزهراء-ændringsliste</string>
     <string name="yo_changelogS">Se, hvad der er nyt i denne version!</string>
     <string name="yo_enable_old">Gammel brugergrænseflade (2014)</string>
     <string name="yo_follow">Følg mig for at holde dig opdateret!</string>
@@ -1202,7 +1202,7 @@
     <string name="yo_universal">Almindelig farve</string>
     <string name="yo_universal_sum">Skift farver hvor som helst, inklusive brugergrænseflade!</string>
     <string name="yo_webdl">Download web</string>
-    <string name="yo_webdlS">Download OBWhatsApp fra den officielle hjemmeside</string>
+    <string name="yo_webdlS">Download واتس الزهراء fra den officielle hjemmeside</string>
     <string name="yocent">Stil til samtaleværktøjslinje</string>
     <string name="yocentS">Skift header-stil på samtaleskærmen</string>
     <string name="yoconh">hjem stil</string>
@@ -1218,7 +1218,7 @@
     <string name="yo_activate">Aktiver</string>
     <string name="airplane_mode">Flytilstand</string>
     <string name="yo_FoundUp">Ny opdatering fundet! Den seneste WhatsApp-version er %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">Tilmeld dig Google+ WhatsApp-fællesskabet</string>
     <string name="yoUpdate">Hyldest til en legende!</string>
     <string name="yoReport">Der er et problem? Send os en e-mail!</string>
@@ -1294,7 +1294,7 @@
     <string name="media_in_gallery">Hvis mediet stadig ikke vises i galleriet</string>
     <string name="restart_phone">Genstart din telefon</string>
     <string name="add_account">Skift konto</string>
-    <string name="info_add_this_account">Bemærk: Før du bruger funktionen tilføj ny konto i OBWhatsApp, skal du sikkerhedskopiere data fra OBWA-indstillinger > Universal > Sikkerhedskopiering og gendannelse > Sikkerhedskopiér OBWhatsApp-data, så du ikke mister samtaler. Er du sikker på, at du vil tilføje denne konto?</string>
+    <string name="info_add_this_account">Bemærk: Før du bruger funktionen tilføj ny konto i واتس الزهراء, skal du sikkerhedskopiere data fra OBWA-indstillinger > Universal > Sikkerhedskopiering og gendannelse > Sikkerhedskopiér واتس الزهراء-data, så du ikke mister samtaler. Er du sikker på, at du vil tilføje denne konto?</string>
     <string name="Mask_media">Brugerdefineret medie automatisk download</string>
     <string name="specificMedia_sum">Juster mulighederne for mediedownload for hver kontakt/gruppe separat</string>
     <string name="yoMPhoto">Download ikke billedmærkater</string>
@@ -1385,7 +1385,7 @@
     <string name="abo_arab_mesajyaz">Skriv en besked</string>
     <string name="ob_ooaa">Vergiss nicht Allah zu erwähnen und zum Propheten zu beten</string>
     <string name="aboarab_tercih_kaydet">holde</string>
-    <string name="masmods">OBWhatsApp-opdatering</string>
+    <string name="masmods">واتس الزهراء-opdatering</string>
     <string name="abo_arab_download_wap">Opdatering fra officiel hjemmeside</string>
     <string name="abo_arab_download_telegram">opdatering fra telegram</string>
     <string name="privacy_preferences_are_cleared">Privatlivspræferencer fjernet: Genstart WhatsApp.</string>
@@ -1418,7 +1418,7 @@
     <string name="mesaj_sifreleme_sifredegistir_1">Skift kodeord</string>
     <string name="mesaj_sifreleme_sifredegistir_2">"Du kan sende beskeder krypteret med den adgangskode, du har angivet, eller beskeder, du modtager dekrypteret med den adgangskode. Du kan også ændre denne adgangskode i enhver samtale: tryk og hold beskeden >> tryk derefter på de 3 prikker ovenfor for at få adgang til dekrypteringspanelet. "</string>
     <string name="mesaj_sifreleme_baslik">Beskrivelse</string>
-    <string name="mesaj_sifreleme_bilgi">Hej, jeg har lige sendt en krypteret besked. Denne krypterede beskedfunktion er blot en af ​​hundredvis af OBWhatsApp-funktioner, og du kan kun se disse krypterede beskeder ved hjælp af OBWhatsApp. Officielt downloadlink til OBWhatsApp og andre Madalah-apps: https://ww.download4.app/wa (Dette er en automatisk besked og sendes én gang.)</string>
+    <string name="mesaj_sifreleme_bilgi">Hej, jeg har lige sendt en krypteret besked. Denne krypterede beskedfunktion er blot en af ​​hundredvis af واتس الزهراء-funktioner, og du kan kun se disse krypterede beskeder ved hjælp af واتس الزهراء. Officielt downloadlink til واتس الزهراء og andre Madalah-apps: https://ww.download4.app/wa (Dette er en automatisk besked og sendes én gang.)</string>
     <string name="mesaj_sifreleme_panel_baslik">Meddelelsesbeskrivelse:</string>
     <string name="mesaj_sifreleme_panel_parola">Adgangskode dekryptering:</string>
     <string name="mesaj_sifreleme_hata">Ugyldig meddelelsestekstkryptering eller adgangskode!</string>
@@ -1427,7 +1427,7 @@
     <string name="mesaj_sifreleme_etkin_a">Godt. Skriv en besked til enhver person eller gruppe, og tryk og hold send-knappen nede! For at ændre adgangskoden til beskedkrypteringen skal du bruge mulighederne nedenfor eller klikke på en besked og gå ind i dekrypteringspanelet fra de muligheder, der vises.</string>
     <string name="mesaj_sifreleme_etkin_b">Beskedkryptering er blevet deaktiveret.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Send informationsbesked</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">Vi vil give den person/gruppe, der sendte den krypterede besked, besked om, at beskeden kan dekrypteres ved hjælp af OBWhatsApp.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">Vi vil give den person/gruppe, der sendte den krypterede besked, besked om, at beskeden kan dekrypteres ved hjælp af واتس الزهراء.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Baggrundsfarve på dekoderpanel</string>
     <string name="mesaj_sifreleme_panel_metin">Tekstfarve i set-top-boksen.</string>
     <string name="mesaj_sifreleme_panel_metin1">Tekstfarve på titel i set-top-boksen.</string>
@@ -1562,7 +1562,7 @@
     <string name="abu_arab_hideprivacy">Privatsphäre-Option ausblenden</string>
     <string name="abu_arab_hideprivacysum">Verstecke die Privatsphäre-Option aus dem Optionsmenü des Startbildschirms.</string>
     <string name="abu_arab_hidecupdates">Update-Option ausblenden</string>
-    <string name="abu_arab_hidecupdatesum">Verstecke die OBWhatsApp-Update-Option aus dem Startbildschirm-Optionsmenü.</string>
+    <string name="abu_arab_hidecupdatesum">Verstecke die واتس الزهراء-Update-Option aus dem Startbildschirm-Optionsmenü.</string>
     <string name="abu_arab_roundedQuickContact_title">QuickContact Background Corner</string>
     <string name="abu_arab_background_quickcontact">QuickContact-baggrund</string>
     <string name="abu_arab_background_quick2">Anden baggrund2</string>
@@ -1579,7 +1579,7 @@
     <string name="abu_arab_extsendzz">Afsenderen vil blive tvunget til at åbne samtalen for at kunne læse beskeden</string>
     <string name="abu_arab_extltz">Skjult beskedtitel</string>
     <string name="abu_arab_exthiddenz">!!Skjult besked!!</string>
-    <string name="Abo_Arab_Features">Abu Arab-funktioner</string>
+    <string name="Abo_Arab_Features">أبو الزهراء السعيدي-funktioner</string>
     <string name="abu_arab_settz_extnosendz">Bloker udgående besked</string>
     <string name="abu_arab_settz_extnosendz_sum">Du kan ikke sende beskeder (kun du kan modtage beskeder)</string>
     <string name="abu_arab_settz_extnorecptz">Bloker indgående meddelelse</string>
@@ -1642,10 +1642,10 @@ _*gammel besked*_:
     <string name="abu_arab_chat_moved">Chat wurde verschoben!</string>
     <string name="abu_arab_chat_moved_sum">Ihre Unterhaltungen und Medien wurden erfolgreich verschoben. Öffnen Sie WhatsApp, geben Sie Ihre Telefonnummer ein und aktivieren Sie es!</string>
     <string name="abu_arab_please_wait">Bitte warten Sie einen Moment...</string>
-    <string name="abu_arab_chat_moved_wa">Chats zu OBWhatsApp verschieben</string>
+    <string name="abu_arab_chat_moved_wa">Chats zu واتس الزهراء verschieben</string>
     <string name="abu_arab_chat_moved_wa_sum">Ist Ihre Nummer auf einer zweiten Version aktiviert? Möchten Sie Ihre Unterhaltungen hier mit einem Tastendruck übertragen?</string>
     <string name="yo_sethidepass">Indstil PIN/mønster først, før du skjuler chatten!</string>
-    <string name="yoShareSum_abo_arab">Del OBWhatsApp med dine venner ❤️!</string>
+    <string name="yoShareSum_abo_arab">Del واتس الزهراء med dine venner ❤️!</string>
     <string name="color_hex_invalid">Ugyldig farve</string>
     <string name="conversation_chat_pics_summary">Indtast her for at ændre kontaktbilledets konfiguration på chatskærmen</string>
     <string name="hide_lastseen">Skjul sidst set</string>
@@ -1659,7 +1659,7 @@ _*gammel besked*_:
     <string name="limit">Vis kun de sidste timer</string>
     <string name="read_log_pref">Åbn Log</string>
     <string name="show_name">Vis navn</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Udseende</string>
     <string name="yoImgQuickCamHold">Hurtigt kamera i fuld opløsning</string>
     <string name="yoImgQuickCamHoldSum">Tryk og hold hurtig kameraknap for at sende billede i fuld opløsning</string>

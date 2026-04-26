@@ -941,7 +941,7 @@
 .method public static A11(Landroid/content/Intent;Lcom/whatsapp/infra/core/jid/Jid;Ljava/lang/String;)V
     .locals 2
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     const-string v1, "jid"
 

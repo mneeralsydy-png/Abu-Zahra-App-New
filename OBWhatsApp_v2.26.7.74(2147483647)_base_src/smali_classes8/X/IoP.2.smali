@@ -492,7 +492,7 @@
 
     const-string v4, "com.garmin.android.connectiq.SEND_MESSAGE_STATUS"
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     new-instance v3, LX/Iyl;
 

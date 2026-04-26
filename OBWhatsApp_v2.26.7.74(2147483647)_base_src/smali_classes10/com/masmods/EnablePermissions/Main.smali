@@ -118,7 +118,7 @@
 
     move-result-object v0
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

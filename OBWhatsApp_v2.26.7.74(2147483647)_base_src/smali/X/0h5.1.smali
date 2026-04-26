@@ -34,7 +34,7 @@
     :try_start_0
     iget-object v0, p0, LX/0h5;->A00:LX/07t;
 
-    invoke-virtual {v0}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v1
 

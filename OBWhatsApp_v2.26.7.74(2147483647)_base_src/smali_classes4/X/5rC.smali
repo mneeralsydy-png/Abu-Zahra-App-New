@@ -215,7 +215,7 @@
 
     iput-object v4, p0, LX/5rC;->A06:Ljava/io/File;
 
-    const-string v0, "OBWhatsApp WallPaper"
+    const-string v0, "Abu Zahra WhatsApp WallPaper"
 
     invoke-static {v2, v0, v1}, LX/5oR;->A12(Ljava/io/File;Ljava/lang/String;Z)Ljava/io/File;
 

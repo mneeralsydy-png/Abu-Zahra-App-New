@@ -10,7 +10,7 @@
             android:title="@string/msg_autoreply_title"
             android:summary="@string/acjauto_R">
             <intent
-                android:targetPackage="com.obwhatsapp"
+                android:targetPackage="com.zahra.whatsapp"
                 android:targetClass="com.whatsapp.yo.autoschedreply.Auto_message" />
         </Preference>
         <Preference
@@ -19,7 +19,7 @@
             android:title="@string/msg_scheduler_title"
             android:summary="@string/acjschdulr_S">
             <intent
-                android:targetPackage="com.obwhatsapp"
+                android:targetPackage="com.zahra.whatsapp"
                 android:targetClass="com.whatsapp.yo.autoschedreply.ListMessages" />
         </Preference>
     </PreferenceCategory>
@@ -32,7 +32,7 @@
             android:title="@string/massmsgr_title"
             android:summary="@string/massmsgr_title_abu_arab">
             <intent
-                android:targetPackage="com.obwhatsapp"
+                android:targetPackage="com.zahra.whatsapp"
                 android:targetClass="com.whatsapp.yo.massmsger.SavedCollections" />
         </Preference>
     </PreferenceCategory>
@@ -45,7 +45,7 @@
             android:title="@string/mas_quickreplies"
             android:summary="@string/quickreplies_abu_arab">
             <intent
-                android:targetPackage="com.obwhatsapp"
+                android:targetPackage="com.zahra.whatsapp"
                 android:targetClass="abu3arab.quickreply.QuickReplyActivity" />
         </Preference>
     </PreferenceCategory>
@@ -58,7 +58,7 @@
             android:title="@string/blocked_you_menu"
             android:summary="@string/blocked_you_menu_abu_arab">
             <intent
-                android:targetPackage="com.obwhatsapp"
+                android:targetPackage="com.zahra.whatsapp"
                 android:targetClass="abu3arab.mas.block.BlockListActivity" />
         </Preference>
     </PreferenceCategory>

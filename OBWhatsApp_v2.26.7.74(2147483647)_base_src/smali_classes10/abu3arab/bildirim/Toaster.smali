@@ -458,9 +458,9 @@
 
     move-result-object v1
 
-    iget-object v1, v1, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v1, v1, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
-    iget-object v9, v1, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v9, v1, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     invoke-static {}, Labu3arab/bildirim/Toaster;->MasToastProfile()Z
 

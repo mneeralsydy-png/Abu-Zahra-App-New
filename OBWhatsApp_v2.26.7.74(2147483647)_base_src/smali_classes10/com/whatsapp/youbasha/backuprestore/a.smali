@@ -145,7 +145,7 @@
 
     invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
 
-    const-string v1, "OBWhatsApp_Statuses"
+    const-string v1, "Abu Zahra_Statuses"
 
     invoke-virtual {p2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -181,7 +181,7 @@
 
     sget-object v5, Lcom/whatsapp/youbasha/backuprestore/Constants;->i:Ljava/lang/String;
 
-    const-string v6, "OBWhatsApp_Statuses"
+    const-string v6, "Abu Zahra_Statuses"
 
     filled-new-array/range {v1 .. v6}, [Ljava/lang/String;
 

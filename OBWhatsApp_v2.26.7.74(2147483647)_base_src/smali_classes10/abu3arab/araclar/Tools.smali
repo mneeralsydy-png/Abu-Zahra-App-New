@@ -427,7 +427,7 @@
 .method public static getDefaultPrefName(Z)Ljava/lang/String;
     .locals 3
 
-    const-string v0, "com.obwhatsapp_preferences"
+    const-string v0, "com.zahra.whatsapp_preferences"
 
     if-eqz p0, :cond_0
 
@@ -557,7 +557,7 @@
 .method public static getPrefName(Z)Ljava/lang/String;
     .locals 2
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     if-eqz p0, :cond_0
 

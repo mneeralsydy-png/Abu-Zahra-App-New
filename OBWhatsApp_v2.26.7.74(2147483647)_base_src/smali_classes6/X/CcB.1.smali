@@ -115,7 +115,7 @@
 
     iget-object v3, p0, LX/CcB;->A02:Ljava/lang/Object;
 
-    check-cast v3, Lcom/obwhatsapp/Me;
+    check-cast v3, Lcom/zahra/whatsapp/Me;
 
     invoke-static {}, LX/000;->A04()Ljava/lang/StringBuilder;
 
@@ -165,11 +165,11 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v0, v3, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v3, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v0, v3, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v3, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     invoke-static {v0, v1}, LX/000;->A03(Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
 

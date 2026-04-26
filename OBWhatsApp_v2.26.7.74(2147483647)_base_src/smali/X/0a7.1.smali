@@ -177,7 +177,7 @@
 
     iput-object v0, p0, LX/0a7;->A04:LX/0Kb;
 
-    const-string v1, "com.obwhatsapp.provider.MigrationContentProvider"
+    const-string v1, "com.zahra.whatsapp.provider.MigrationContentProvider"
 
     iget-object v0, v2, LX/0Xn;->A04:Ljava/util/Set;
 
@@ -907,7 +907,7 @@
 
     move-result-object v2
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     const/4 v0, 0x1
 

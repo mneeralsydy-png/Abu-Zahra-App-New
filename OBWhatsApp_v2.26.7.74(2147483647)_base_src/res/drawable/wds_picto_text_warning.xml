@@ -6,10 +6,10 @@
     android:viewportHeight="88.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M49.84,12.3H26.15a6.8,6.8 0,0 0,-4.98 2.07,6.77 6.77,0 0,0 -2.07,4.98v49.31c0,1.93 0.69,3.6 2.07,4.98a6.77,6.77 0,0 0,4.98 2.07h37.78a6.8,6.8 0,0 0,4.98 -2.07,6.77 6.77,0 0,0 2.07,-4.98V33.43L49.84,12.3Z" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M49.84,12.3v14.15a6.99,6.99 0,0 0,6.98 6.98h14.15" />
     <path
         android:fillColor="#ff111b21"

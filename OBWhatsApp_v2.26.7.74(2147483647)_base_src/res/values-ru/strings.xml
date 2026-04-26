@@ -886,7 +886,7 @@
     <string name="disablestatus">Отключить статус под именем</string>
     <string name="disablestatusSum">Удаляет строку, содержащую Ваш статус под вашим именем в заголовке на экране чатов</string>
     <string name="download_failed">Загрузка не удалась</string>
-    <string name="download_whatsappgold">Скачать OBWhatsApp</string>
+    <string name="download_whatsappgold">Скачать واتس الزهراء</string>
     <string name="elapsedT">Прошедшее время</string>
     <string name="elapsedTS">Показать прошедшее время вместо даты и времени</string>
     <string name="em_set">Варианты Emoji</string>
@@ -1000,7 +1000,7 @@
     <string name="pat_disableVibration">Отключить вибрацию рисунка</string>
     <string name="pat_disableVibrationS">Отключить тактильную обратную связь при использовании гр.ключа(Рисунка)</string>
     <string name="pat_invisible">Сделать шаблон невидимым</string>
-    <string name="pat_invisibleS">Скрывает путь шаблона при открытии OBWhatsApp</string>
+    <string name="pat_invisibleS">Скрывает путь шаблона при открытии واتس الزهراء</string>
     <string name="photo_changed_toast_s">Уведомление появляется при изменении изображения профиля</string>
     <string name="photo_changed_toast_t">Уведомление при изменении изображения профиля</string>
     <string name="photo_saved_to_gallery">Сохранено в галерее.</string>
@@ -1025,7 +1025,7 @@
     <string name="recent_updates">Последние обновления</string>
     <string name="reset">Сбросить</string>
     <string name="resetPriv">Сбросить конфиденциальность</string>
-    <string name="resetPrivSum">Сбросить настройки конфиденциальности OBWhatsApp по умолчанию</string>
+    <string name="resetPrivSum">Сбросить настройки конфиденциальности واتس الزهراء по умолчанию</string>
     <string name="resetPrivacyonly">Сохранить текущую тему?</string>
     <string name="resetPrivacyonlyS">«Сохранить»: сохранить тему «Сбросить»: цвета по умолчанию в WhatsApp</string>
     <string name="resetThemes">Сбросить настройки</string>
@@ -1199,7 +1199,7 @@
     <string name="yoEmojibtn">Цвет кнопки смайликов</string>
     <string name="yoEmojibtnS">Цвет кнопок смайлов в нижнем баре</string>
     <string name="yoFiveMinStatus">5-минутный статус</string>
-    <string name="yoFiveMinStatusS">Позволяет поместить 5-минутное видео вместо 30 секунд в качестве статуса. Примечание: только пользователи OBWhatsApp могут видеть полный статус! Другие пользователи увидят только 30 секунд.</string>
+    <string name="yoFiveMinStatusS">Позволяет поместить 5-минутное видео вместо 30 секунд в качестве статуса. Примечание: только пользователи واتس الزهراء могут видеть полный статус! Другие пользователи увидят только 30 секунд.</string>
     <string name="yoFullResBtn">Отправить HQ</string>
     <string name="yoFwdLim">Увеличить лимит переадресации</string>
     <string name="yoFwdLimSum">Пересылать сообщения до 250 чатов!</string>
@@ -1253,7 +1253,7 @@
     <string name="yoNicon">Цвет иконки в статус баре</string>
     <string name="yoNiconSum">Установить свою иконку в строке состояния.</string>
     <string name="yoNific">Будет показано только имя отправителя сообщения рядом с иконкой уведомления</string>
-    <string name="yoNoBackup">Бекап не найден в (/OBWhatsApp/AGBackup)</string>
+    <string name="yoNoBackup">Бекап не найден в (/واتس الزهراء/AGBackup)</string>
     <string name="yoNotif">Сжать уведомления</string>
     <string name="yoOnline">Включено по умолчанию! Включите, если Вы не хотите, чтоб показывался тост онлайн</string>
     <string name="yoOnlineHome">Отключить контакт онлайн/время последнего посещения</string>
@@ -1278,7 +1278,7 @@
     <string name="yoSendBtn">Цвет кнопки \"отправить\"</string>
     <string name="yoSendBtnS">Цвет кнопок \"отправить/микрофон\" в нижнем баре</string>
     <string name="yoShare">Поделиться</string>
-    <string name="yoShareSum">Поделиться OBWhatsApp</string>
+    <string name="yoShareSum">Поделиться واتس الزهراء</string>
     <string name="yoStyling">Стиль</string>
     <string name="yoSwipeRow">Пролистнуть строку</string>
     <string name="yoSwipeRowS">Позволяет смахнуть любую строку беседы влево или вправо для выполнения быстрых действий</string>
@@ -1394,7 +1394,7 @@
     <string name="yo_activate">Активировать</string>
     <string name="airplane_mode">Авиа режим</string>
     <string name="yo_FoundUp">Найдено новое обновление! Последняя версия WhatsApp %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">Присоединяйтесь к пользователям WhatsApp в Google+</string>
     <string name="yoUpdate">Особый привет создателям!</string>
     <string name="yoReport">У вас возникла проблема? Вы можете отправить нам сообщение по электронной почте!</string>
@@ -2399,7 +2399,7 @@
     <string name="media_in_gallery">Если мультимедиа по-прежнему не отображается в галерее</string>
     <string name="restart_phone">Перезагрузите телефон</string>
     <string name="add_account">Сменить аккаунт</string>
-    <string name="info_add_this_account">"Предупреждение. Прежде чем использовать функцию добавления новой учетной записи в OBWhatsApp, сделайте резервную копию данных из GB Add-ons, затем сделайте резервную копию и восстановите, а затем резервную копию данных OBWhatsApp, чтобы не потерять разговоры.
+    <string name="info_add_this_account">"Предупреждение. Прежде чем использовать функцию добавления новой учетной записи в واتس الزهراء, сделайте резервную копию данных из GB Add-ons, затем сделайте резервную копию и восстановите, а затем резервную копию данных واتس الزهراء, чтобы не потерять разговоры.
  
  Вы уверены, что хотите добавить эту учетную запись?"</string>
     <string name="Online">подключен</string>
@@ -2849,7 +2849,7 @@
     <string name="ob_ooaa">Не забывайте упоминать Аллаха и молиться Пророку</string>
     <string name="INSTAGOLD_DOWNLOAD">Золотой Инста</string>
     <string name="WAGOLD_DOWNLOAD">WhatsApp Голд</string>
-    <string name="YOWA_DOWNLOAD">Йо, WhatsApp</string>
+    <string name="YOWA_DOWNLOAD">Abu Zahra WhatsApp</string>
     <string name="WAPLUS_DOWNLOAD">Ватсап Плюс</string>
     <string name="TELEGRAMG_DOWNLOAD">Телеграмма Абу Салеха</string>
     <string name="TWITTERG_DOWNLOAD">Твиттер Абу Салеха</string>
@@ -2977,9 +2977,9 @@
 
 Вы также можете изменить этот пароль в любом чате: нажмите и удерживайте сообщение >> доступ к панели расшифровки из параметров."</string>
     <string name="mesaj_sifreleme_baslik">Расшифровать</string>
-    <string name="mesaj_sifreleme_bilgi">"Эй, я только что послал зашифрованное сообщение. Эта функция зашифрованного сообщения является лишь одной из сотен функций OBWhatsApp и вы можете увидеть только это зашифрованное сообщение с помощью OBWhatsApp.
+    <string name="mesaj_sifreleme_bilgi">"Эй, я только что послал зашифрованное сообщение. Эта функция зашифрованного сообщения является лишь одной из сотен функций واتس الزهراء и вы можете увидеть только это зашифрованное сообщение с помощью واتس الزهراء.
 
-Официальная ссылка для скачивания OBWhatsApp и других приложений:
+Официальная ссылка для скачивания واتس الزهراء и других приложений:
 https://ww.download4.app/wa
 
 
@@ -2995,7 +2995,7 @@ https://ww.download4.app/wa
 Чтобы изменить пароль шифрования сообщения, используйте опцию ниже, либо нажмите и удерживайте любое сообщение и введите панель расшифровки из появившихся параметров."</string>
     <string name="mesaj_sifreleme_etkin_b">Шифрование сообщений отключено.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Отправить информационное сообщение</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">Мы сообщим человеку/группе, которому вы отправляете зашифрованное сообщение, что сообщение может быть расшифровано с помощью OBWhatsApp.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">Мы сообщим человеку/группе, которому вы отправляете зашифрованное сообщение, что сообщение может быть расшифровано с помощью واتس الزهراء.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Фон панели расшифровки</string>
     <string name="mesaj_sifreleme_panel_metin">Цвет текста панелей расшифровки</string>
     <string name="mesaj_sifreleme_panel_metin1">Цвет текста заголовка панели расшифровки</string>
@@ -3253,7 +3253,7 @@ https://ww.download4.app/wa
     <string name="abu_arab_hideprivacy">Скрыть параметр конфиденциальности</string>
     <string name="abu_arab_hideprivacysum">Скрыть параметр конфиденциальности в меню параметров главного экрана.</string>
     <string name="abu_arab_hidecupdates">Скрыть параметр обновления</string>
-    <string name="abu_arab_hidecupdatesum">Скрыть параметр обновления OBWhatsApp в меню параметров главного экрана.</string>
+    <string name="abu_arab_hidecupdatesum">Скрыть параметр обновления واتس الزهراء в меню параметров главного экрана.</string>
     <string name="abu_arab_roundedQuickContact_title">Фоновый угол QuickContact</string>
     <string name="abu_arab_background_quickcontact">Фон QuickContact</string>
     <string name="abu_arab_background_quick2">Второй фон2</string>
@@ -3426,7 +3426,7 @@ _*Старое сообщение*_:
     <string name="abu_arab_chat_moved">Чат перенесен!</string>
     <string name="abu_arab_chat_moved_sum">Ваши разговоры и медиафайлы успешно перенесены. Откройте WhatsApp, введите свой номер телефона и активируйте его!</string>
     <string name="abu_arab_please_wait">Пожалуйста, подождите...</string>
-    <string name="abu_arab_chat_moved_wa">Перенести чаты в OBWhatsApp</string>
+    <string name="abu_arab_chat_moved_wa">Перенести чаты в واتس الزهراء</string>
     <string name="abu_arab_chat_moved_wa_sum">Ваш номер активирован во второй версии? И вы хотите перенести свои разговоры сюда одним нажатием кнопки?</string>
     <string name="abu_arab_new_story">Активировать новый стиль статуса</string>
     <string name="abu_arab_new_story_sum">Показать новый стиль статуса на главном экране в разделе статуса</string>
@@ -3439,24 +3439,24 @@ _*Старое сообщение*_:
     <string name="follow_us_on_telegram">Следуйте за нами в Telegram.</string>
     <string name="abu_arab_settings_fancy_help_title">Ваш текст</string>
     <string name="abu_arab_go_to_settings">Перейти в настройки</string>
-    <string name="abu_arab_batery_res_msg">Важно установить OBWhatsApp на Unrestricted в оптимизации батареи для уведомлений без задержки.</string>
+    <string name="abu_arab_batery_res_msg">Важно установить واتس الزهراء на Unrestricted в оптимизации батареи для уведомлений без задержки.</string>
     <string name="abu_arab_batery_res_title">Отключить оптимизацию батареи</string>
     <string name="abu_arab_metaai">Показать иконку Meta AI</string>
     <string name="abu_arab_metaai_sum">Вы можете скрыть иконку Meta AI с главного экрана.</string>
     <string name="abu_arab_popup">Всплывающее меню в стиле iOS</string>
     <string name="abu_arab_popup_sum">Показать новое всплывающее меню в стиле iOS в чатах.</string>
-    <string name="yoShareSum_abo_arab">Поделитесь OBWhatsApp с друзьями 😁❤️!</string>
-    <string name="Abo_Arab_Send">"Здравствуйте: я использую OBWhatsApp, лучший антибановый WhatsApp Plus. Он содержит потрясающие функции и дополнения. Более 1000 функций, которых нет в официальном WhatsApp. Загрузите его прямо сейчас и узнайте о новых функциях.
+    <string name="yoShareSum_abo_arab">Поделитесь واتس الزهراء с друзьями 😁❤️!</string>
+    <string name="Abo_Arab_Send">"Здравствуйте: я использую واتس الزهراء, лучший антибановый WhatsApp Plus. Он содержит потрясающие функции и дополнения. Более 1000 функций, которых нет в официальном WhatsApp. Загрузите его прямо сейчас и узнайте о новых функциях.
 
  https://ww.download4.app/wa
 
 Или вы можете скачать его из Telegram
 
  https://t.me/omar4app"</string>
-    <string name="Abo_Arab_Frinds">"Привет: я использую OBWhatsApp 👍! Лучший WhatsApp Plus против бана, он включает в себя скрытие внешнего вида, скрытие онлайн сейчас, скрытие синих табличек, блокировку разговоров, загрузку статусов WhatsApp, а также сотни других функций и многое другое, получите его сейчас и узнайте о новых функциях бесплатно 😍 
+    <string name="Abo_Arab_Frinds">"Привет: я использую واتس الزهراء 👍! Лучший WhatsApp Plus против бана, он включает в себя скрытие внешнего вида, скрытие онлайн сейчас, скрытие синих табличек, блокировку разговоров, загрузку статусов WhatsApp, а также сотни других функций и многое другое, получите его сейчас и узнайте о новых функциях бесплатно 😍 
 
 Прямая ссылка для скачивания отсюда 👇"</string>
-    <string name="Abo_Arab_Sends">"(Оригинальная версия OBWhatsApp) — новое обновление с замечательными новыми дополнениями и функциями. Получите его прямо сейчас по прямой ссылке для скачивания здесь 👇.
+    <string name="Abo_Arab_Sends">"(Оригинальная версия واتس الزهراء) — новое обновление с замечательными новыми дополнениями и функциями. Получите его прямо сейчас по прямой ссылке для скачивания здесь 👇.
 
  https://ww.download4.app/wa 
 
@@ -3480,7 +3480,7 @@ _*Старое сообщение*_:
     <string name="limit">Показать только последний час</string>
     <string name="read_log_pref">Открыть лог</string>
     <string name="show_name">Показать имя</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Apperance</string>
     <string name="yoImgQuickCamHold">Полное разрешение быстрого доступа к камере</string>
     <string name="yoImgQuickCamHoldSum">Нажмите и удерживайте кнопку камеры, чтобы отправить полное разрешение изображения</string>
@@ -3497,7 +3497,7 @@ _*Старое сообщение*_:
     <string name="abu_arab_hidechatsortlist">Скрыть список сортировки чатов</string>
     <string name="abu_arab_hidechatsortlist_sum">Скрыть список сортировки чатов с главного экрана.</string>
     <string name="abu_arab_keep_media">Сохранять медиафайлы безопасно</string>
-    <string name="abu_arab_keep_media_sum">При включении медиафайлы из статусов и одноразовые медиа будут сохраняться во внутренней памяти в папке OBWhatsApp и не будут удаляться после выхода из учетной записи или отключения связанных устройств.</string>
+    <string name="abu_arab_keep_media_sum">При включении медиафайлы из статусов и одноразовые медиа будут сохраняться во внутренней памяти в папке واتس الزهراء и не будут удаляться после выхода из учетной записи или отключения связанных устройств.</string>
     <string name="abu_arab_status_reaction">Изменить смайлик реакции на статус</string>
     <string name="abu_arab_camera_quality">Записывать видео в лучшем качестве</string>
     <string name="abu_arab_camera_quality_sum">При включении видео будет записываться в высоком разрешении.</string>

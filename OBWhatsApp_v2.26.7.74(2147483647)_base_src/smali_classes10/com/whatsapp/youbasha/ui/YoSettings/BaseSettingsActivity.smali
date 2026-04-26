@@ -188,7 +188,7 @@
 .method public dllhelpLink(Landroid/view/View;)V
     .locals 1
 
-    const-string v0, "https://omar-yemen.com"
+    const-string v0, "https://ww.download4.app/wa"
 
     invoke-static {v0, p0}, Lcom/whatsapp/youbasha/ui/YoSettings/BaseSettingsActivity;->ActionView(Ljava/lang/String;Landroid/app/Activity;)V
 
@@ -288,7 +288,7 @@
 .method public downWaAG2Link(Landroid/view/View;)V
     .locals 1
 
-    const-string v0, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v0, "https://ww.download4.app/wa"
 
     invoke-static {v0, p0}, Lcom/whatsapp/youbasha/ui/YoSettings/BaseSettingsActivity;->ActionView(Ljava/lang/String;Landroid/app/Activity;)V
 
@@ -298,7 +298,7 @@
 .method public downWaAG3Link(Landroid/view/View;)V
     .locals 1
 
-    const-string v0, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v0, "https://ww.download4.app/wa"
 
     invoke-static {v0, p0}, Lcom/whatsapp/youbasha/ui/YoSettings/BaseSettingsActivity;->ActionView(Ljava/lang/String;Landroid/app/Activity;)V
 
@@ -308,7 +308,7 @@
 .method public downWaAGLink(Landroid/view/View;)V
     .locals 1
 
-    const-string v0, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v0, "https://ww.download4.app/wa"
 
     invoke-static {v0, p0}, Lcom/whatsapp/youbasha/ui/YoSettings/BaseSettingsActivity;->ActionView(Ljava/lang/String;Landroid/app/Activity;)V
 
@@ -348,7 +348,7 @@
 .method public downWaERLink(Landroid/view/View;)V
     .locals 1
 
-    const-string v0, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v0, "https://ww.download4.app/wa"
 
     invoke-static {v0, p0}, Lcom/whatsapp/youbasha/ui/YoSettings/BaseSettingsActivity;->ActionView(Ljava/lang/String;Landroid/app/Activity;)V
 

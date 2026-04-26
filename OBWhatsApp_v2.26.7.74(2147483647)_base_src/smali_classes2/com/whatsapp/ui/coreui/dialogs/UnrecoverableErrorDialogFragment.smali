@@ -103,7 +103,7 @@
 
     move-result-object v19
 
-    const-string v5, "market://details?id=com.obwhatsapp"
+    const-string v5, "market://details?id=com.zahra.whatsapp"
 
     invoke-virtual {v4, v5}, LX/0Nb;->A00(Ljava/lang/String;)Landroid/net/Uri;
 

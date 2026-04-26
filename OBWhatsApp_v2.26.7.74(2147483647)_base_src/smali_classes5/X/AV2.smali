@@ -1937,7 +1937,7 @@
 
     iput v5, v0, LX/AV2;->A00:I
 
-    const-string v7, "com.obwhatsapp"
+    const-string v7, "com.zahra.whatsapp"
 
     const-string v8, "wa_public_beta"
 
@@ -2114,7 +2114,7 @@
 
     iput v2, v0, LX/AV2;->A00:I
 
-    const-string v6, "com.obwhatsapp"
+    const-string v6, "com.zahra.whatsapp"
 
     const-string v7, "wa_public_beta"
 

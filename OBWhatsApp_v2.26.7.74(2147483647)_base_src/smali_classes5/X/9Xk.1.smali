@@ -433,7 +433,7 @@
     :cond_4
     const-string v1, "app_id"
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v10, v1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 

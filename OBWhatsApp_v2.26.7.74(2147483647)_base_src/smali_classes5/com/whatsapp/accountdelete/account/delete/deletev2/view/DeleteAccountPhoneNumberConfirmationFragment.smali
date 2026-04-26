@@ -1298,17 +1298,17 @@
 
     iget-object v0, p0, Lcom/whatsapp/accountdelete/account/delete/deletev2/view/DeleteAccountPhoneNumberConfirmationFragment;->A0M:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v3
 
     if-eqz v3, :cond_b
 
-    iget-object v2, v3, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v2, v3, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     iput-object v2, p0, Lcom/whatsapp/accountdelete/account/delete/deletev2/view/DeleteAccountPhoneNumberConfirmationFragment;->A0A:Ljava/lang/String;
 
-    iget-object v1, v3, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v1, v3, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     sget-object v0, LX/0JT;->A06:Ljava/nio/charset/Charset;
 
@@ -1329,7 +1329,7 @@
     if-eqz v0, :cond_9
 
     :cond_8
-    iget-object v0, v3, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v3, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-static {v0}, LX/0JT;->A00(Ljava/lang/String;)Ljava/lang/String;
 

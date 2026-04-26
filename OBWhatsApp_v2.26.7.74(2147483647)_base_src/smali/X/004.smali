@@ -87,7 +87,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "com.obwhatsapp_preferences_light"
+    const-string v0, "com.zahra.whatsapp_preferences_light"
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

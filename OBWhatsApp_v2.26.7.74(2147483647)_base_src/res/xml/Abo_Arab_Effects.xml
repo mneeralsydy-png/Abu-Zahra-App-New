@@ -41,7 +41,7 @@
             android:title="@string/abu_arab_snow_hctitle"
             android:summary="@string/abu_arab_snow_hctitle_sum">
             <intent
-                android:targetPackage="com.obwhatsapp"
+                android:targetPackage="com.zahra.whatsapp"
                 android:action="android.intent.action.VIEW"
                 android:targetClass="abu3arab.snowfalling.xml.snow_xml" />
         </Preference>

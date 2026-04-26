@@ -67,7 +67,7 @@
 
     iput-object v3, p0, Lcom/whatsapp/stickers/ui/storage/WhitelistPackQueryContentProvider;->A00:Landroid/content/UriMatcher;
 
-    const-string v2, "com.obwhatsapp.provider.sticker_whitelist_check"
+    const-string v2, "com.zahra.whatsapp.provider.sticker_whitelist_check"
 
     const-string v1, "is_whitelisted"
 
@@ -255,7 +255,7 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v0, "com.obwhatsapp.provider.sticker_whitelist_check"
+    const-string v0, "com.zahra.whatsapp.provider.sticker_whitelist_check"
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

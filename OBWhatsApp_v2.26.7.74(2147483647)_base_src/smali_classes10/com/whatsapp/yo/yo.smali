@@ -84,9 +84,9 @@
     .end annotation
 .end field
 
-.field public static mpack:Ljava/lang/String; = "com.obwhatsapp"
+.field public static mpack:Ljava/lang/String; = "com.zahra.whatsapp"
 
-.field public static pname:Ljava/lang/String; = "OBWhatsApp"
+.field public static pname:Ljava/lang/String; = "Abu Zahra WhatsApp"
 
 .field private static resCache:Landroid/util/SparseArray;
     .annotation system Ldalvik/annotation/Signature;

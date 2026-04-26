@@ -825,7 +825,7 @@
     check-cast v5, Landroid/net/Uri;
 
     :try_start_0
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     invoke-virtual {v0, v1, v5, v4}, Landroid/content/Context;->grantUriPermission(Ljava/lang/String;Landroid/net/Uri;I)V
 

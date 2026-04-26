@@ -777,7 +777,7 @@
 
     invoke-direct/range {v10 .. v15}, LX/FjJ;-><init>(Landroid/app/Activity;Landroid/content/Context;LX/Gxd;LX/F60;LX/FSF;)V
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     new-instance v0, LX/E34;
 
@@ -1077,7 +1077,7 @@
 
     sget-object v0, LX/9JL;->A01:Ljava/lang/String;
 
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     sget-object v0, LX/9JL;->A00:Landroid/net/Uri;
 
@@ -4647,7 +4647,7 @@
 
     if-eqz v0, :cond_51
 
-    const-string v3, "com.obwhatsapp"
+    const-string v3, "com.zahra.whatsapp"
 
     const-string v0, "terms_of_service_accepted"
 

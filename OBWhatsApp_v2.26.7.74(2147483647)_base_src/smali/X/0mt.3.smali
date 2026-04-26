@@ -1714,13 +1714,13 @@
 
     move-result-object v8
 
-    invoke-virtual {v9}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v9}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_12
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-eqz v1, :cond_12
 
@@ -1828,7 +1828,7 @@
 
     invoke-virtual/range {v34 .. v34}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_14
 
@@ -2276,7 +2276,7 @@
 
     move-object/from16 v0, v34
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
     :try_end_9
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_9 .. :try_end_9} :catch_4
     .catch Ljava/lang/Exception; {:try_start_9 .. :try_end_9} :catch_3

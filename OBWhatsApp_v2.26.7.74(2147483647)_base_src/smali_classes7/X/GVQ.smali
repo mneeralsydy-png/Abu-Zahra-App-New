@@ -97,7 +97,7 @@
 
     check-cast v6, LX/Fnn;
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
 

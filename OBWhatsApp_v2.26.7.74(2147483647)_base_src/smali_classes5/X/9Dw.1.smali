@@ -45,7 +45,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-static {v0, p0}, LX/3bG;->A1a(Ljava/lang/String;Ljava/lang/String;)Z
 

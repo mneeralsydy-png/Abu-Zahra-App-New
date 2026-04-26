@@ -233,7 +233,7 @@
 
     invoke-static {v1, v0, v2}, LX/AhD;->A1O(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     const-string v0, "/data/misc/profiles/cur/0"
 

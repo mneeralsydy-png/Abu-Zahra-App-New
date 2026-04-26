@@ -10179,7 +10179,7 @@
 
     move-result-object v1
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-static {v0, v1}, LX/9t6;->A01(Ljava/lang/String;Ljava/util/Set;)LX/9sH;
 

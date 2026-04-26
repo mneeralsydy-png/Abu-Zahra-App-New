@@ -11,7 +11,7 @@
 .method static final constructor <clinit>()V
     .locals 1
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     sput-object v0, Lcom/mod/tools/utils/Prefs;->PREF_NAME:Ljava/lang/String;
 

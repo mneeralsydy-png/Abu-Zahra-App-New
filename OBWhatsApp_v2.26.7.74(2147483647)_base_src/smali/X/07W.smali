@@ -29,7 +29,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v3, "com.obwhatsapp"
+    const-string v3, "com.zahra.whatsapp"
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -437,7 +437,7 @@
 
     const/16 v1, 0x1e
 
-    const-string v0, "com.obwhatsapp_preferences_waffle_client_cache"
+    const-string v0, "com.zahra.whatsapp_preferences_waffle_client_cache"
 
     aput-object v0, v4, v1
 
@@ -481,7 +481,7 @@
 
     aput-object v5, v1, v20
 
-    const-string v0, "com.obwhatsapp_preferences_light"
+    const-string v0, "com.zahra.whatsapp_preferences_light"
 
     aput-object v0, v1, v19
 

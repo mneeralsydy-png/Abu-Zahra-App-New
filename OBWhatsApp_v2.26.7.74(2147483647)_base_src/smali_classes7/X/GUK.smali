@@ -80,7 +80,7 @@
 
     invoke-direct {v2}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     iput-object v0, v2, LX/FB7;->A06:Ljava/lang/String;
 

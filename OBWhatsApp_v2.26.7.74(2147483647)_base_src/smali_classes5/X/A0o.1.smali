@@ -1852,7 +1852,7 @@
 
     move-result-object v1
 
-    const-string v0, "https://play.google.com/store/apps/details?id=com.obwhatsapp"
+    const-string v0, "https://play.google.com/store/apps/details?id=com.zahra.whatsapp"
 
     invoke-static {v0, v2, v1}, LX/1ah;->A0n(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
 

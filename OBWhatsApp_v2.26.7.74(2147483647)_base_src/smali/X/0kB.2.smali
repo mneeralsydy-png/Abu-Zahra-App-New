@@ -1938,7 +1938,7 @@
     return-object v2
 .end method
 
-.method public final A05()Lcom/obwhatsapp/Me;
+.method public final A05()Lcom/zahra/whatsapp/Me;
     .locals 4
 
     iget-object v0, p0, LX/0kB;->A0a:LX/05f;
@@ -1955,9 +1955,9 @@
 
     move-result-object v1
 
-    new-instance v0, Lcom/obwhatsapp/Me;
+    new-instance v0, Lcom/zahra/whatsapp/Me;
 
-    invoke-direct {v0, v3, v2, v1}, Lcom/obwhatsapp/Me;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v3, v2, v1}, Lcom/zahra/whatsapp/Me;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -1967,7 +1967,7 @@
 
     iget-object v6, p0, LX/0kB;->A0Y:LX/07t;
 
-    invoke-virtual {v6}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v6}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v5
 
@@ -2392,11 +2392,11 @@
 
     invoke-virtual {v0, v2}, LX/0Nm;->A00(Z)V
 
-    invoke-virtual {p0}, LX/0kB;->A05()Lcom/obwhatsapp/Me;
+    invoke-virtual {p0}, LX/0kB;->A05()Lcom/zahra/whatsapp/Me;
 
     move-result-object v1
 
-    iget-object v0, v1, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v1, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
@@ -2411,7 +2411,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    invoke-static {v1, v0}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v1, v0}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
     invoke-direct {p0}, LX/0kB;->A01()LX/0Bh;
 
@@ -2505,7 +2505,7 @@
 
     invoke-direct {v1, p3}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v1, v0}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -2587,7 +2587,7 @@
 
     invoke-direct {v1, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v1, v0}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -2749,11 +2749,11 @@
 
     invoke-static {v0}, Lcom/whatsapp/infra/logging/Log;->i(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, LX/0kB;->A05()Lcom/obwhatsapp/Me;
+    invoke-virtual {p0}, LX/0kB;->A05()Lcom/zahra/whatsapp/Me;
 
     move-result-object v2
 
-    iget-object v1, v2, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v1, v2, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -2770,7 +2770,7 @@
 
     const-string v0, "me"
 
-    invoke-static {v2, v0}, LX/07t;->A04(Lcom/obwhatsapp/Me;Ljava/lang/String;)Z
+    invoke-static {v2, v0}, LX/07t;->A04(Lcom/zahra/whatsapp/Me;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -2778,7 +2778,7 @@
 
     invoke-virtual {v1}, LX/07t;->A0I()V
 
-    invoke-static {v2, v1}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v2, v1}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
     iget-object v0, p0, LX/0kB;->A1F:LX/0Jp;
 
@@ -3033,7 +3033,7 @@
 
     iget-object v4, p0, LX/0kB;->A0Y:LX/07t;
 
-    invoke-virtual {v4}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v4}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v1
 
@@ -3045,7 +3045,7 @@
 
     const-string v0, "me"
 
-    invoke-static {v1, v0}, LX/07t;->A04(Lcom/obwhatsapp/Me;Ljava/lang/String;)Z
+    invoke-static {v1, v0}, LX/07t;->A04(Lcom/zahra/whatsapp/Me;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -3053,11 +3053,11 @@
 
     invoke-virtual {v4}, LX/07t;->A0I()V
 
-    invoke-static {v1, v4}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v1, v4}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
-    iget-object v2, v1, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v2, v1, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v1, v1, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v1, v1, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     const/4 v0, 0x0
 
@@ -3151,11 +3151,11 @@
 .method public final A0J()Z
     .locals 2
 
-    invoke-virtual {p0}, LX/0kB;->A05()Lcom/obwhatsapp/Me;
+    invoke-virtual {p0}, LX/0kB;->A05()Lcom/zahra/whatsapp/Me;
 
     move-result-object v1
 
-    iget-object v0, v1, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v1, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
@@ -3172,7 +3172,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    invoke-static {v1, v0}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v1, v0}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
     invoke-direct {p0}, LX/0kB;->A01()LX/0Bh;
 

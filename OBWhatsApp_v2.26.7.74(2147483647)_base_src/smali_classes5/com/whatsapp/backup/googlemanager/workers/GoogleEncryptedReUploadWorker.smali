@@ -965,7 +965,7 @@
 
     iget-object v6, v4, Lcom/whatsapp/backup/googlemanager/workers/GoogleEncryptedReUploadWorker;->A0J:LX/07t;
 
-    invoke-static {v6}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v6}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v1
 
@@ -1051,7 +1051,7 @@
 
     if-eqz v1, :cond_1
 
-    iget-object v0, v1, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v1, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -1161,7 +1161,7 @@
     :cond_6
     invoke-virtual {v3}, LX/8FX;->A05()V
 
-    invoke-static {v6}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v6}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -1212,7 +1212,7 @@
     goto/16 :goto_e
 
     :cond_8
-    iget-object v10, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v10, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-nez v10, :cond_9
 

@@ -867,11 +867,11 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_0
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     if-nez v1, :cond_1
 

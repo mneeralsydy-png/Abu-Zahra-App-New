@@ -181,7 +181,7 @@
 .method public static A02(LX/07t;)Ljava/lang/String;
     .locals 1
 
-    invoke-static {p0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {p0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -196,7 +196,7 @@
     return-object p0
 
     :cond_0
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-nez v0, :cond_1
 

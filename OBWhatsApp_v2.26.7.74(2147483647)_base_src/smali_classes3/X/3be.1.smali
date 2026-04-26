@@ -1569,7 +1569,7 @@
 
     aput-object v10, v19, v14
 
-    const-string v11, "com.obwhatsapp"
+    const-string v11, "com.zahra.whatsapp"
 
     aput-object v11, v19, v5
 

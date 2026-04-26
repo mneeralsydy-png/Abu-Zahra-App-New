@@ -680,7 +680,7 @@
     <string name="HangoutsBt">Warna Tombol UI Percakapan</string>
     <string name="HangoutsBtS">Ubah Warna ikon Entri</string>
     <string name="HideFAB">Sembunyikan Floating Action Button (FAB)</string>
-    <string name="Lock">Kunci OBWhatsApp</string>
+    <string name="Lock">Kunci واتس الزهراء</string>
     <string name="MainSize">Ukuran Teks Layar Utama/Panggilan/Kontak</string>
     <string name="MainSizeS">Ubah ukuran teks di seluruh Layar Utama</string>
     <string name="MentionIndicatorBackgroundColor">Sebutkan latar belakang indikator</string>
@@ -832,7 +832,7 @@
     <string name="chats_row_divider_picker_summary">Ubah warna garis di antara setiap percakapan</string>
     <string name="clear">pembersihan</string>
     <string name="clearemoji">Hapus Emoji Terbaru</string>
-    <string name="clearlogs">Bersihkan OBWhatsApp Logs</string>
+    <string name="clearlogs">Bersihkan واتس الزهراء Logs</string>
     <string name="color_new_color">Warna baru</string>
     <string name="color_old_color">Warna lama</string>
     <string name="color_select_color">Pilih satu warna</string>
@@ -883,7 +883,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="disablestatusSum">Menghapus baris status Anda di bawah nama Anda di Layar Utama</string>
     <string name="dots_indicator">...................................</string>
     <string name="download_failed">Pengunduhan gagal</string>
-    <string name="download_whatsappgold">Unduh OBWhatsApp</string>
+    <string name="download_whatsappgold">Unduh واتس الزهراء</string>
     <string name="elapsedT">Waktu berlalu</string>
     <string name="elapsedTS">Gunakan waktu yang berlalu (terakhir terlihat jam dan menit yang lalu) di WhatsApp, di layar Beranda dan Percakapan!</string>
     <string name="em_set">Varian Emoji</string>
@@ -1022,11 +1022,11 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="recent_updates">Pembaruan terkini</string>
     <string name="reset">Mengatur ulang</string>
     <string name="resetPriv">Atur Ulang Privasi</string>
-    <string name="resetPrivSum">Mengatur kembali Privasi default OBWhatsApp</string>
+    <string name="resetPrivSum">Mengatur kembali Privasi default واتس الزهراء</string>
     <string name="resetPrivacyonly">Simpan Tema saat ini?</string>
     <string name="resetPrivacyonlyS">"'Tetap': Simpan tema yang diterapkan 'Setel ulang': Bawaan/Warna stok WhatsApp"</string>
     <string name="resetThemes">Setel Ulang Preferensi</string>
-    <string name="resetThemesSum">Mengembalikan pengaturan bawaan OBWhatsApp</string>
+    <string name="resetThemesSum">Mengembalikan pengaturan bawaan واتس الزهراء</string>
     <string name="reset_themes_confirma">Apakah Anda yakin ingin menyetel ulang semua preferensi Tema?</string>
     <string name="restoreTheme">Pulihkan Theme</string>
     <string name="restoreThemeS">Muat Theme disimpan di (/Download/Themes)</string>
@@ -1166,7 +1166,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="yoAudioEarsSum">Mencegah pengalihan speaker/lubang suara saat bermain</string>
     <string name="yoAudioSensor">Aktifkan Sensor Proximity</string>
     <string name="yoAudioSensorSum">Diaktifkan secara bawaan, nonaktifkan untuk mematikannya.</string>
-    <string name="yoBackup">Cadangkan data OBWhatsApp</string>
+    <string name="yoBackup">Cadangkan data واتس الزهراء</string>
     <string name="yoBackupDone">Pencadangan selesai!</string>
     <string name="yoBackupFail">Pencadangan gagal!</string>
     <string name="yoBackupMsg">Mencadangkan data ...</string>
@@ -1228,7 +1228,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="yoHideRecord">Sembunyikan merekaman…</string>
     <string name="yoHideRecordSum">Jangan beri tahu pengirim bahwa Anda sedang merekam pesan suara.</string>
     <string name="yoHideSeen">Bekukan Terakhir Terlihat</string>
-    <string name="yoHideSeenSum">Silakan mulai ulang OBWhatsApp agar perubahan diterapkan.</string>
+    <string name="yoHideSeenSum">Silakan mulai ulang واتس الزهراء agar perubahan diterapkan.</string>
     <string name="yoHideStatusView">Sembunyikan Lihat Status</string>
     <string name="yoHideStatusViewSum">Jangan memberi tahu kontak bahwa Anda telah melihat status mereka</string>
     <string name="yoHomeUIStyle">UI Gaya Navigasi</string>
@@ -1248,7 +1248,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="yoNicon">Ubah Ikon Notifikasi</string>
     <string name="yoNiconSum">Ini adalah ikon yang akan muncul di bilah status Anda</string>
     <string name="yoNific">Tampilkan Hanya nama pengirim pesan di sebelah ikon bilah notifikasi</string>
-    <string name="yoNoBackup">"Tidak dapat menemukan cadangan di '/sdcard/OBWhatsApp'!"</string>
+    <string name="yoNoBackup">"Tidak dapat menemukan cadangan di '/sdcard/واتس الزهراء'!"</string>
     <string name="yoNotif">Kecilkan Notifikasi</string>
     <string name="yoOnline">Diaktifkan secara bawaan! Aktifkan jika Anda tidak ingin Toast Online</string>
     <string name="yoOnlineHome">Nonaktifkan Kontak Online/Status Terakhir Terlihat</string>
@@ -1258,7 +1258,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="yoPrivacySum">Privasi Khusus</string>
     <string name="yoProfilePic">Sembunyikan gambar Profil Kontak</string>
     <string name="yoProfilePicS">Menghapus gambar Profil Kontak dari header di Layar Percakapan</string>
-    <string name="yoRestore">Pulihkan data OBWhatsApp</string>
+    <string name="yoRestore">Pulihkan data واتس الزهراء</string>
     <string name="yoRestoreDone">Pemulihan selesai!</string>
     <string name="yoRestoreFail">Pemulihan gagal!</string>
     <string name="yoRestoreMsg">Memulihkan data…</string>
@@ -1273,7 +1273,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="yoSendBtn">Warna Tombol Kirim</string>
     <string name="yoSendBtnS">Warna tombol Kirim/Mikrofon di layar percakapan</string>
     <string name="yoShare">Bagikan</string>
-    <string name="yoShareSum">Bagikan OBWhatsApp</string>
+    <string name="yoShareSum">Bagikan واتس الزهراء</string>
     <string name="yoStyling">Gaya (Tampilan dan nuansa)</string>
     <string name="yoSwipeRow">Gesek Baris</string>
     <string name="yoSwipeRowS">Mengizinkan Anda untuk menggeser setiap baris percakapan ke kiri atau kanan untuk melakukan tindakan cepat</string>
@@ -1303,7 +1303,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="yo_UpToDate">Versi anda terbaru</string>
     <string name="yo_airplane_mode_warning">Saat mode Pesawat aktif, Anda tidak akan dapat mengirim/menerima pesan.</string>
     <string name="yo_all">Semua</string>
-    <string name="yo_changelog">OBWhatsApp Daftar Perubahan</string>
+    <string name="yo_changelog">واتس الزهراء Daftar Perubahan</string>
     <string name="yo_changelogS">Periksa apa yang baru di versi ini!</string>
     <string name="yo_enable_old">UI Lama (2014)</string>
     <string name="yo_follow">Ikuti Saya untuk tetap diperbarui!</string>
@@ -1320,7 +1320,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="yo_universal">Warna Umun</string>
     <string name="yo_universal_sum">Mengubah Warna dimanapun, termasuk UI!</string>
     <string name="yo_webdl">Web Unduhan</string>
-    <string name="yo_webdlS">Unduh OBWhatsApp dari situs web resmi</string>
+    <string name="yo_webdlS">Unduh واتس الزهراء dari situs web resmi</string>
     <string name="yocent">Gaya Bilah Alat Percakapan</string>
     <string name="yocentS">Ubah gaya header di layar Percakapan</string>
     <string name="yoconh">Gaya rumah</string>
@@ -1391,7 +1391,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="yo_activate">Mengaktifkan</string>
     <string name="airplane_mode">Mode pesawat</string>
     <string name="yo_FoundUp">Pembaruan Baru Ditemukan! Versi WhatsApp terbaru adalah %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">Gabung dengan Komunitas Google+ WhatsApp</string>
     <string name="yoUpdate">Penghargaan untuk legenda!</string>
     <string name="yoReport">Ada masalah? Kirimkan email kepada kami!</string>
@@ -2352,7 +2352,7 @@ Silakan coba lagi nanti."</string>
     <string name="chosoe_themes">Pilih dari tema</string>
     <string name="enter_themes">Masukkan nama untuk tema Anda:</string>
     <string name="report">sebuah laporan</string>
-    <string name="about_me">Disunting oleh Abu Arab</string>
+    <string name="about_me">Disunting oleh أبو الزهراء السعيدي</string>
     <string name="twitter">Twitter</string>
     <string name="telegram">Telegram</string>
     <string name="sendLogsByEmail">Kirim laporan bug ke email pengembang</string>
@@ -2400,7 +2400,7 @@ Silakan coba lagi nanti."</string>
     <string name="Translating_Failed">Menerjemahkan Gagal...Coba lagi</string>
     <string name="archive_top_title">Tampilkan obrolan yang diarsipkan di bagian atas</string>
     <string name="archive_top_sum">Obrolan yang diarsipkan akan muncul di bagian atas, bukan di bawah</string>
-    <string name="Testing_Name">Abu Arab</string>
+    <string name="Testing_Name">أبو الزهراء السعيدي</string>
     <string name="Support_Mods">Hiduplah selama yang kamu inginkan, karena kamu sudah mati. Cintai siapapun yang kamu inginkan, karena kamu akan meninggalkan mereka.</string>
     <string name="Already_saved">Sudah disimpan</string>
     <string name="Error_accessing_file">Kesalahan akses file:</string>
@@ -2408,7 +2408,7 @@ Silakan coba lagi nanti."</string>
     <string name="media_in_gallery">Jika media masih tidak muncul di galeri</string>
     <string name="restart_phone">Mulai ulang ponsel Anda</string>
     <string name="add_account">Ganti Akun</string>
-    <string name="info_add_this_account">"Catatan: Sebelum menggunakan fitur penambahan akun baru di dalam OBWhatsApp, harap cadangkan data dari Pengaturan AG Settings > Universal > Cadangkan dan pulihkan > Cadangkan data OBWhatsApp agar tidak kehilangan percakapan 
+    <string name="info_add_this_account">"Catatan: Sebelum menggunakan fitur penambahan akun baru di dalam واتس الزهراء, harap cadangkan data dari Pengaturan AG Settings > Universal > Cadangkan dan pulihkan > Cadangkan data واتس الزهراء agar tidak kehilangan percakapan 
 
 Apakah Anda yakin ingin menambahkan akun ini?"</string>
     <string name="Online">terhubung</string>
@@ -2859,12 +2859,12 @@ Apakah Anda yakin ingin menambahkan akun ini?"</string>
     <string name="ob_ooaa">Jangan lupa menyebut Tuhan dan mendoakan Nabi</string>
     <string name="INSTAGOLD_DOWNLOAD">Emas Insta</string>
     <string name="WAGOLD_DOWNLOAD">WhatsApp Emas</string>
-    <string name="YOWA_DOWNLOAD">Tidak ada WhatsApp</string>
+    <string name="YOWA_DOWNLOAD">Abu Zahra WhatsApp</string>
     <string name="WAPLUS_DOWNLOAD">WhatsApp Lebih Lanjut</string>
-    <string name="TELEGRAMG_DOWNLOAD">Telegrama Abu Arab</string>
-    <string name="TWITTERG_DOWNLOAD">Twitter Abu Arab</string>
+    <string name="TELEGRAMG_DOWNLOAD">Telegrama أبو الزهراء السعيدي</string>
+    <string name="TWITTERG_DOWNLOAD">Twitter أبو الزهراء السعيدي</string>
     <string name="WAGB_DOWNLOAD">AG2Whatsapp</string>
-    <string name="TKGOLD_DOWNLOAD">Tik Tok Abu Arab</string>
+    <string name="TKGOLD_DOWNLOAD">Tik Tok أبو الزهراء السعيدي</string>
     <string name="view_once_disable">Melampaui tampilan tunggal</string>
     <string name="view_once_disable_m">Kemampuan untuk melihat foto dan video dalam jumlah tidak terbatas</string>
     <string name="view_once_open">Aktifkan penawaran satu kali</string>
@@ -2894,7 +2894,7 @@ Apakah Anda yakin ingin menambahkan akun ini?"</string>
     <string name="Abo_Arab_Not">Notifikasi</string>
     <string name="Abo_Arab_Report">Perubahan pengguna WhatsApp</string>
     <string name="aboarab_div">Assem Mahgoob</string>
-    <string name="aboarab_div_sum">Hai, saya pengembang Abu Arab</string>
+    <string name="aboarab_div_sum">Hai, saya pengembang أبو الزهراء السعيدي</string>
     <string name="aboarab_themes">Apakah Anda menyukai tema saya?</string>
     <string name="aboarab_themes_sum">Ya, tema Anda tampak bagus</string>
     <string name="Abo_Arab_Effect">Manajemen pesan</string>
@@ -2915,9 +2915,9 @@ Apakah Anda yakin ingin menambahkan akun ini?"</string>
 
 Anda juga dapat mengubah kata sandi ini dalam percakapan apa pun: tekan dan tahan pesan >> lalu ketuk 3 titik di atas untuk mengakses panel dekripsi."</string>
     <string name="mesaj_sifreleme_baslik">Dekripsi</string>
-    <string name="mesaj_sifreleme_bilgi">"Hai, saya baru saja mengirim pesan terenkripsi. Fitur pesan terenkripsi ini hanyalah salah satu dari ratusan fitur OBWhatsApp dan Anda hanya dapat melihat pesan terenkripsi ini menggunakan OBWhatsApp.
+    <string name="mesaj_sifreleme_bilgi">"Hai, saya baru saja mengirim pesan terenkripsi. Fitur pesan terenkripsi ini hanyalah salah satu dari ratusan fitur واتس الزهراء dan Anda hanya dapat melihat pesan terenkripsi ini menggunakan واتس الزهراء.
 
-Tautan unduhan resmi untuk OBWhatsApp dan aplikasi Madalah lainnya:
+Tautan unduhan resmi untuk واتس الزهراء dan aplikasi Madalah lainnya:
 https://ww.download4.app/wa
 
 
@@ -2933,7 +2933,7 @@ https://ww.download4.app/wa
 Untuk mengubah sandi enkripsi pesan, gunakan opsi di bawah ini atau klik pesan apa pun dan masuk ke panel dekripsi dari opsi yang muncul."</string>
     <string name="mesaj_sifreleme_etkin_b">Enkripsi pesan telah dinonaktifkan.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Kirim pesan informasi</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">Kami akan memberi tahu orang/grup yang mengirim pesan terenkripsi bahwa pesan tersebut dapat didekripsi menggunakan OBWhatsApp.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">Kami akan memberi tahu orang/grup yang mengirim pesan terenkripsi bahwa pesan tersebut dapat didekripsi menggunakan واتس الزهراء.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Warna latar belakang panel decoder</string>
     <string name="mesaj_sifreleme_panel_metin">Warna teks di panel dekoder.</string>
     <string name="mesaj_sifreleme_panel_metin1">Warna teks judul di panel dekoder.</string>
@@ -3184,7 +3184,7 @@ Untuk mengubah sandi enkripsi pesan, gunakan opsi di bawah ini atau klik pesan a
     <string name="abu_arab_hideprivacy">Sembunyikan opsi privasi</string>
     <string name="abu_arab_hideprivacysum">Sembunyikan opsi privasi dari menu Opsi Layar Beranda.</string>
     <string name="abu_arab_hidecupdates">Sembunyikan opsi pembaruan</string>
-    <string name="abu_arab_hidecupdatesum">Sembunyikan opsi Pembaruan OBWhatsApp dari menu Opsi Layar Beranda.</string>
+    <string name="abu_arab_hidecupdatesum">Sembunyikan opsi Pembaruan واتس الزهراء dari menu Opsi Layar Beranda.</string>
     <string name="abu_arab_roundedQuickContact_title">Pojok Latar Belakang QuickContact</string>
     <string name="abu_arab_background_quickcontact">latar belakang QuickContact</string>
     <string name="abu_arab_background_quick2">Latar Belakang Kedua2</string>
@@ -3207,8 +3207,8 @@ Untuk mengubah sandi enkripsi pesan, gunakan opsi di bawah ini atau klik pesan a
     <string name="abu_arab_layt_bulkz">Masukkan pesan dan klik lagi</string>
     <string name="abu_arab_layt_bulksumz">Pesan Anda di sini</string>
     <string name="abu_arab_layt_awrecentz">Tidak ada warna modern</string>
-    <string name="Abo_Arab_Features">Fitur Abu Arab</string>
-    <string name="Abo_Arab_Featuress">Kelebihan Abu Arab</string>
+    <string name="Abo_Arab_Features">Fitur أبو الزهراء السعيدي</string>
+    <string name="Abo_Arab_Featuress">Kelebihan أبو الزهراء السعيدي</string>
     <string name="abu_arab_settz_extnosendz">Blokir Pesan Keluar</string>
     <string name="abu_arab_settz_extnosendz_sum">Anda tidak dapat mengirim pesan (hanya Anda yang dapat menerima pesan)</string>
     <string name="abu_arab_settz_extnorecptz">Blokir Pesan Masuk</string>
@@ -3357,7 +3357,7 @@ Melhor site de fontes: https://www.fontspace.com"</string>
     <string name="abu_arab_chat_moved">Obrolan Dipindahkan!</string>
     <string name="abu_arab_chat_moved_sum">Percakapan dan media Anda telah berhasil dipindahkan. Silakan buka WhatsApp, masukkan nomor telepon Anda, lalu aktifkan!</string>
     <string name="abu_arab_please_wait">Mohon tunggu sebentar...</string>
-    <string name="abu_arab_chat_moved_wa">Pindahkan Obrolan ke OBWhatsApp</string>
+    <string name="abu_arab_chat_moved_wa">Pindahkan Obrolan ke واتس الزهراء</string>
     <string name="abu_arab_chat_moved_wa_sum">Apakah nomor Anda telah diaktifkan pada versi kedua? dan Anda ingin mentransfer percakapan Anda ke sini dengan satu tombol tekan?</string>
     <string name="abu_arab_new_story">Aktifkan gaya status baru</string>
     <string name="abu_arab_new_story_sum">Tampilkan tampilan gaya status baru di layar utama, bagian status</string>
@@ -3370,24 +3370,24 @@ Melhor site de fontes: https://www.fontspace.com"</string>
     <string name="follow_us_on_telegram">Ikuti kami di Telegram</string>
     <string name="abu_arab_settings_fancy_help_title">Teks Anda</string>
     <string name="abu_arab_go_to_settings">Buka pengaturan</string>
-    <string name="abu_arab_batery_res_msg">Penting untuk menyetel OBWhatsApp ke Tidak Terbatas dalam pengoptimalan baterai agar notifikasi tidak tertunda.</string>
+    <string name="abu_arab_batery_res_msg">Penting untuk menyetel واتس الزهراء ke Tidak Terbatas dalam pengoptimalan baterai agar notifikasi tidak tertunda.</string>
     <string name="abu_arab_batery_res_title">Nonaktifkan pengoptimalan baterai</string>
     <string name="abu_arab_metaai">Tampilkan ikon Meta AI</string>
     <string name="abu_arab_metaai_sum">Anda dapat menyembunyikan ikon Meta AI dari layar utama Anda.</string>
     <string name="abu_arab_popup">Menu pop-up gaya iOS</string>
     <string name="abu_arab_popup_sum">Tampilkan menu pop-up gaya iOS yang baru di obrolan.</string>
-    <string name="yoShareSum_abo_arab">Bagikan OBWhatsApp dengan teman-teman Anda 😁❤️!</string>
-    <string name="Abo_Arab_Send">"Halo: Saya menggunakan OBWhatsApp, WhatsApp Plus anti-larangan terbaik. Ini berisi fitur dan tambahan luar biasa 😍 1000+ fitur yang tidak ditemukan di WhatsApp resmi. Unduh sekarang dan temukan fitur-fitur baru.
+    <string name="yoShareSum_abo_arab">Bagikan واتس الزهراء dengan teman-teman Anda 😁❤️!</string>
+    <string name="Abo_Arab_Send">"Halo: Saya menggunakan واتس الزهراء, WhatsApp Plus anti-larangan terbaik. Ini berisi fitur dan tambahan luar biasa 😍 1000+ fitur yang tidak ditemukan di WhatsApp resmi. Unduh sekarang dan temukan fitur-fitur baru.
 
 https://ww.download4.app/wa
 
 Atau Anda dapat mengunduhnya dari Telegram
 
  https://t.me/omar4app"</string>
-    <string name="Abo_Arab_Frinds">"Halo: Saya menggunakan OBWhatsApp 👍! WhatsApp Plus terbaik melawan larangan, berisi sembunyikan tampilan, sembunyikan online sekarang, sembunyikan pelat biru, blokir percakapan, unduh status WhatsApp dan ratusan fitur lainnya dan masih banyak lagi, dapatkan sekarang dan ketahui fitur-fitur baru secara gratis 😍 
+    <string name="Abo_Arab_Frinds">"Halo: Saya menggunakan واتس الزهراء 👍! WhatsApp Plus terbaik melawan larangan, berisi sembunyikan tampilan, sembunyikan online sekarang, sembunyikan pelat biru, blokir percakapan, unduh status WhatsApp dan ratusan fitur lainnya dan masih banyak lagi, dapatkan sekarang dan ketahui fitur-fitur baru secara gratis 😍 
 
 Tautan unduh langsung dari sini 👇"</string>
-    <string name="Abo_Arab_Sends">"(versi asli OBWhatsApp) pembaruan baru dengan tambahan dan fitur hebat Dapatkan sekarang dengan tautan unduh langsung di sini 👇.
+    <string name="Abo_Arab_Sends">"(versi asli واتس الزهراء) pembaruan baru dengan tambahan dan fitur hebat Dapatkan sekarang dengan tautan unduh langsung di sini 👇.
 
 https://ww.download4.app/wa
 
@@ -3411,7 +3411,7 @@ Atau Anda dapat mengunduh dari saluran Telegram kami
     <string name="limit">Tampilkan hanya jam-jam terakhir</string>
     <string name="read_log_pref">Buka Log</string>
     <string name="show_name">Perlihatkan Nama</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Penampilan</string>
     <string name="yoImgQuickCamHold">Kamera Cepat Resolusi Penuh</string>
     <string name="yoImgQuickCamHoldSum">Tekan dan tahan tombol kamera cepat untuk mengirim gambar resolusi penuh</string>
@@ -3450,7 +3450,7 @@ Atau Anda dapat mengunduh dari saluran Telegram kami
     <string name="abu_arab_hidechatsortlist_sum">Sembunyikan daftar urutan obrolan dari layar utama.</string>
     <string name="abu_arab_linkdevice">Tautkan sebagai perangkat pendamping</string>
     <string name="abu_arab_keep_media">Simpan media dengan aman</string>
-    <string name="abu_arab_keep_media_sum">Saat diaktifkan, media status dan media sekali lihat akan disimpan di penyimpanan internal dalam folder OBWhatsApp dan tidak akan dihapus setelah keluar atau memutuskan perangkat yang terhubung.</string>
+    <string name="abu_arab_keep_media_sum">Saat diaktifkan, media status dan media sekali lihat akan disimpan di penyimpanan internal dalam folder واتس الزهراء dan tidak akan dihapus setelah keluar atau memutuskan perangkat yang terhubung.</string>
     <string name="abu_arab_status_reaction">Ubah emoji reaksi status</string>
     <string name="abu_arab_camera_quality">Rekam video dengan kualitas terbaik</string>
     <string name="abu_arab_camera_quality_sum">Saat diaktifkan, video akan direkam dengan resolusi tinggi.</string>

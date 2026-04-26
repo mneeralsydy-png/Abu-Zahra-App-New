@@ -255,7 +255,7 @@
     :cond_1
     iget-object v0, p0, LX/8Do;->A05:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 

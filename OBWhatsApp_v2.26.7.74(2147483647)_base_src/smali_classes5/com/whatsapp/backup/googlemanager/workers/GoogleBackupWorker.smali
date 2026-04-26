@@ -906,7 +906,7 @@
 
     iget-object v0, v10, Lcom/whatsapp/backup/googlemanager/workers/GoogleBackupWorker;->A0B:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -948,7 +948,7 @@
     goto/16 :goto_9
 
     :cond_3
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-nez v0, :cond_4
 

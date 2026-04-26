@@ -911,7 +911,7 @@
     <string name="pat_disableVibration">Beeldtrillingen uitschakelen</string>
     <string name="pat_disableVibrationS">Haptische feedback uitschakelen bij gebruik van de gr.key(Figuur)</string>
     <string name="pat_invisible">Maak patroon onzichtbaar</string>
-    <string name="pat_invisibleS">Verbergt het sjabloonpad bij het openen van OBWhatsApp</string>
+    <string name="pat_invisibleS">Verbergt het sjabloonpad bij het openen van واتس الزهراء</string>
     <string name="pic_chat_size">Avatargrootte</string>
     <string name="pic_chat_size_summary">Afbeeldingsgrootte aanpassen</string>
     <string name="pic_location">Avatar-locatie</string>
@@ -930,7 +930,7 @@
     <string name="recent_chats_sum">Recente chats verbergen in het gedeelte Doorsturen</string>
     <string name="reset">Resetten</string>
     <string name="resetPriv">Privacy resetten</string>
-    <string name="resetPrivSum">Reset OBWhatsApp privacy-instellingen naar standaard</string>
+    <string name="resetPrivSum">Reset واتس الزهراء privacy-instellingen naar standaard</string>
     <string name="resetPrivacyonly">Huidige thema opslaan?</string>
     <string name="resetPrivacyonlyS">Opslaan: thema opslaan Reset: WhatsApp standaardkleuren</string>
     <string name="resetThemes">Voorkeuren resetten</string>
@@ -1032,7 +1032,7 @@
     <string name="yoEmojibtn">Emoji-knopkleur</string>
     <string name="yoEmojibtnS">Kleur van emoji-knoppen in onderste balk</string>
     <string name="yoFiveMinStatus">status van 50 minuten</string>
-    <string name="yoFiveMinStatusS">Hiermee kun je een video van 50 minuten plaatsen in plaats van 30 seconden als status. Opmerking: alleen OBWhatsApp-gebruikers kunnen de volledige status zien! Andere gebruikers zien slechts 30 seconden.</string>
+    <string name="yoFiveMinStatusS">Hiermee kun je een video van 50 minuten plaatsen in plaats van 30 seconden als status. Opmerking: alleen واتس الزهراء-gebruikers kunnen de volledige status zien! Andere gebruikers zien slechts 30 seconden.</string>
     <string name="yoFullResBtn">Hoofdkantoor indienen</string>
     <string name="yoFwdLim">Verhoog de omleidingslimiet</string>
     <string name="yoFwdLimSum">Stuur berichten door tot 250 chats!</string>
@@ -1086,7 +1086,7 @@
     <string name="yoNicon">kleur statusbalkpictogram</string>
     <string name="yoNiconSum">Stel je statusbalkpictogram in.</string>
     <string name="yoNific">Alleen de naam van de afzender wordt weergegeven naast het meldingspictogram</string>
-    <string name="yoNoBackup">Back-up niet gevonden in (/OBWhatsApp/AGBackup)</string>
+    <string name="yoNoBackup">Back-up niet gevonden in (/واتس الزهراء/AGBackup)</string>
     <string name="yoNotif">Knijp meldingen samen</string>
     <string name="yoOnline">Standaard ingeschakeld! Schakel dit in als je niet wilt dat de toast online wordt getoond</string>
     <string name="yoOnlineHome">Online contact/laatst gezien tijd uitschakelen</string>
@@ -1111,7 +1111,7 @@
     <string name="yoSendBtn">Kleur van knop \"verzenden\"</string>
     <string name="yoSendBtnS">Kleur van de \"verzend/microfoon\" knoppen in de onderste balk</string>
     <string name="yoShare">Delen</string>
-    <string name="yoShareSum">Deel OBWhatsApp</string>
+    <string name="yoShareSum">Deel واتس الزهراء</string>
     <string name="yoStyling">Styling</string>
     <string name="yoSwipeRow">Veeg rij</string>
     <string name="yoSwipeRowS">Hiermee kun je elke gespreksrij naar links of rechts vegen voor snelle acties</string>
@@ -1169,7 +1169,7 @@
     <string name="yo_activate">Activeren</string>
     <string name="airplane_mode">Vliegtuigmodus</string>
     <string name="yo_FoundUp">Er is een nieuwe update gevonden! Whatsapp laatste versie %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoDonate">Doneer</string>
     <string name="yoDonateSum">Doneer</string>
     <string name="yoImgShareLimit">Beperking voor het delen van afbeeldingen uitschakelen</string>
@@ -1320,16 +1320,16 @@
     <string name="mesaj_sifreleme_sifredegistir_2">"Je kunt berichten verzenden die versleuteld zijn met het wachtwoord dat je hebt ingesteld, of berichten die je ontvangt worden ontsleuteld met dat wachtwoord.
 
 Je kunt dit wachtwoord ook in elk gesprek wijzigen: houd een bericht ingedrukt >> tik vervolgens op de 3 stippen hierboven om toegang te krijgen tot het decoderingspaneel."</string>
-    <string name="mesaj_sifreleme_bilgi">"Hallo, ik heb zojuist een versleuteld bericht verzonden. Deze versleutelde berichtfunctie is slechts een van de honderden functies van OBWhatsApp en je kunt dit versleutelde bericht alleen zien met OBWhatsApp.
+    <string name="mesaj_sifreleme_bilgi">"Hallo, ik heb zojuist een versleuteld bericht verzonden. Deze versleutelde berichtfunctie is slechts een van de honderden functies van واتس الزهراء en je kunt dit versleutelde bericht alleen zien met واتس الزهراء.
 
-Officiële downloadlink voor OBWhatsApp en andere Madalah-apps:
+Officiële downloadlink voor واتس الزهراء en andere Madalah-apps:
 https://ww.download4.app/wa
 
 
 (Dit is een automatisch bericht en wordt eenmalig verzonden.)"</string>
     <string name="mesaj_sifreleme_panel">paneel voor berichtdecodering</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Stuur informatiebericht</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">We zullen de persoon/groep die het versleutelde bericht verzendt vertellen dat het bericht kan worden ontsleuteld met OBWhatsApp.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">We zullen de persoon/groep die het versleutelde bericht verzendt vertellen dat het bericht kan worden ontsleuteld met واتس الزهراء.</string>
     <string name="mas_bildirimler_metin7_a">Stel de kleur van de rand in rond de notificatie-toast.</string>
     <string name="MasIGFragmentBorderColor">Bordor lijnkleur.</string>
     <string name="mas_bildirimler_metin6_a">Je kunt desgewenst een beltoon kiezen voor de melding van de verhaalweergave. Je ontvangt zowel een melding als de beltoon die je hebt geselecteerd, wordt afgespeeld.</string>
@@ -1434,7 +1434,7 @@ https://ww.download4.app/wa
     <string name="abu_arab_hideprivacy">Verberg de privacyoptie</string>
     <string name="abu_arab_hideprivacysum">Verberg de privacyoptie in het menu Startschermopties.</string>
     <string name="abu_arab_hidecupdates">Verberg de update-optie</string>
-    <string name="abu_arab_hidecupdatesum">Verberg de optie OBWhatsApp-update in het menu Startschermopties.</string>
+    <string name="abu_arab_hidecupdatesum">Verberg de optie واتس الزهراء-update in het menu Startschermopties.</string>
     <string name="abu_arab_roundedQuickContact_title">QuickContact Achtergrondhoek</string>
     <string name="abu_arab_background_quickcontact">QuickContact achtergrond</string>
     <string name="abu_arab_background_quick2">Tweede achtergrond2</string>
@@ -1449,7 +1449,7 @@ https://ww.download4.app/wa
     <string name="abu_arab_extsendzz">De afzender wordt gedwongen het gesprek te openen om het bericht te kunnen lezen</string>
     <string name="abu_arab_extltz">Titel verborgen bericht</string>
     <string name="abu_arab_exthiddenz">!!VERBORGEN BERICHT!!</string>
-    <string name="Abo_Arab_Features">Abu Arab-functies</string>
+    <string name="Abo_Arab_Features">أبو الزهراء السعيدي-functies</string>
     <string name="abu_arab_settz_extnosendz">Uitgaand bericht blokkeren</string>
     <string name="abu_arab_settz_extnosendz_sum">Je kunt geen berichten verzenden (alleen jij kunt berichten ontvangen)</string>
     <string name="abu_arab_settz_extnorecptz">Inkomend bericht blokkeren</string>
@@ -1509,13 +1509,13 @@ _*Oud bericht*_:
     <string name="abu_arab_chat_moved">Chat Verplaatst!</string>
     <string name="abu_arab_chat_moved_sum">Uw gesprekken en media zijn succesvol verplaatst. Open alstublieft WhatsApp, voer uw telefoonnummer in en activeer het!</string>
     <string name="abu_arab_please_wait">Even geduld a.u.b...</string>
-    <string name="abu_arab_chat_moved_wa">Verplaats chats naar OBWhatsApp</string>
+    <string name="abu_arab_chat_moved_wa">Verplaats chats naar واتس الزهراء</string>
     <string name="abu_arab_chat_moved_wa_sum">Is uw nummer geactiveerd op een tweede versie? En wilt u uw gesprekken hierheen overzetten met één druk op de knop?</string>
     <string name="yo_sethidepass">Stel pincode/patroon in voordat chats worden verborgen!</string>
     <string name="abu_arab_go_to_settings">Ga naar instellingen</string>
-    <string name="abu_arab_batery_res_msg">Het is belangrijk om OBWhatsApp in te stellen op Onbeperkt in batterijoptimalisatie voor meldingen zonder vertraging.</string>
+    <string name="abu_arab_batery_res_msg">Het is belangrijk om واتس الزهراء in te stellen op Onbeperkt in batterijoptimalisatie voor meldingen zonder vertraging.</string>
     <string name="abu_arab_batery_res_title">Batterijoptimalisatie uitschakelen</string>
-    <string name="yoShareSum_abo_arab">Deel OBWhatsApp met je vrienden 😁❤️!</string>
+    <string name="yoShareSum_abo_arab">Deel واتس الزهراء met je vrienden 😁❤️!</string>
     <string name="abu_arab_disable_channels">Kanalen uitschakelen</string>
     <string name="abu_arab_disable_channels_sum">De kanalen worden niet weergegeven op het statusscherm.</string>
     <string name="color_hex_invalid">Ongeldige kleur</string>
@@ -1531,7 +1531,7 @@ _*Oud bericht*_:
     <string name="limit">Alleen het afgelopen uur weergeven</string>
     <string name="read_log_pref">Logboek openen</string>
     <string name="show_name">Toon naam</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Uiterlijk</string>
     <string name="yoImgQuickCamHold">Quick CamHold volledige toestemming</string>
     <string name="yoImgQuickCamHoldSum">Houd de cameraknop ingedrukt om de volledige beeldresolutie te verzenden</string>
@@ -1540,7 +1540,7 @@ _*Oud bericht*_:
     <string name="assemmods_realtime_fake_chat">ChatChat</string>
     <string name="abu_arab_name_is_composing">%s is aan het typen…</string>
     <string name="abu_arab_keep_media">Media veilig opslaan</string>
-    <string name="abu_arab_keep_media_sum">Wanneer ingeschakeld, worden statusmedia en eenmalig te bekijken media opgeslagen in de interne opslag in de OBWhatsApp-map en worden ze niet verwijderd na het uitloggen of het loskoppelen van gekoppelde apparaten.</string>
+    <string name="abu_arab_keep_media_sum">Wanneer ingeschakeld, worden statusmedia en eenmalig te bekijken media opgeslagen in de interne opslag in de واتس الزهراء-map en worden ze niet verwijderd na het uitloggen of het loskoppelen van gekoppelde apparaten.</string>
     <string name="abu_arab_status_reaction">Statusreactie-emoji wijzigen</string>
     <string name="abu_arab_camera_quality">Video opnemen in de beste kwaliteit</string>
     <string name="abu_arab_camera_quality_sum">Wanneer ingeschakeld, wordt de video in hoge resolutie opgenomen.</string>

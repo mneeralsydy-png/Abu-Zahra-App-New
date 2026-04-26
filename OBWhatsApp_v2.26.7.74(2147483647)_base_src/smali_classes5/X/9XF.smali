@@ -231,7 +231,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-nez v0, :cond_2
 
@@ -307,7 +307,7 @@
     return-object v2
 
     :cond_2
-    invoke-static {v0}, LX/5oR;->A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+    invoke-static {v0}, LX/5oR;->A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
 
     move-result-object v2
 

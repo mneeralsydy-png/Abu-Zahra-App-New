@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    const-string v1, "/OBWhatsApp/OB/whatsapp.log"
+    const-string v1, "/Abu Zahra WhatsApp/OB/whatsapp.log"
 
     new-instance v2, Ljava/io/File;
 

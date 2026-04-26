@@ -327,7 +327,7 @@
 .method public Bsr(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 5
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
 

@@ -203,13 +203,13 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     const/4 v2, 0x0
 
     if-eqz v0, :cond_1
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     if-nez v0, :cond_2
 

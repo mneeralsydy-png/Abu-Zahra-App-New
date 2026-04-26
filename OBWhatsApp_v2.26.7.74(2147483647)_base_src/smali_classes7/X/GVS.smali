@@ -800,7 +800,7 @@
 
     invoke-direct {v5, v9, v3, v4, v0}, LX/FjJ;-><init>(Landroid/content/Context;LX/Gxd;LX/F60;LX/FSF;)V
 
-    const-string v4, "com.obwhatsapp"
+    const-string v4, "com.zahra.whatsapp"
 
     new-instance v1, LX/E3K;
 

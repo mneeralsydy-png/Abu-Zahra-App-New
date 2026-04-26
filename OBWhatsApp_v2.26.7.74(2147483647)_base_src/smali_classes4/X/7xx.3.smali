@@ -980,7 +980,7 @@
 
     move-result-object v2
 
-    const-string v8, "com.obwhatsapp"
+    const-string v8, "com.zahra.whatsapp"
 
     const/4 v5, 0x0
 

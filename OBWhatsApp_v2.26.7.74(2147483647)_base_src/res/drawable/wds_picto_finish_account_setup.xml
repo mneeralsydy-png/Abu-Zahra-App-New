@@ -6,7 +6,7 @@
     android:viewportHeight="89.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M116.51,13.66H91.84C89.25,13.66 87.15,15.74 87.15,18.31V71.18C87.15,73.74 89.25,75.82 91.84,75.82H116.51C119.11,75.82 121.21,73.74 121.21,71.18V18.31C121.21,15.74 119.11,13.66 116.51,13.66Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />

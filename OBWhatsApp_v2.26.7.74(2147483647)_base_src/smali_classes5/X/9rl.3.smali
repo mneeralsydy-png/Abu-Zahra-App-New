@@ -232,7 +232,7 @@
     :cond_4
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
-    const-string v6, "com.obwhatsapp"
+    const-string v6, "com.zahra.whatsapp"
 
     const/4 v5, 0x0
 

@@ -57,7 +57,7 @@
 
     move-result-object v1
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -483,7 +483,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-nez v0, :cond_0
 
@@ -761,7 +761,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_6
 

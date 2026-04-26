@@ -343,15 +343,15 @@
 
     iget-object v0, p0, LX/9ux;->A08:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v8, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v8, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v7, v0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v7, v0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     invoke-static {}, LX/000;->A04()Ljava/lang/StringBuilder;
 
@@ -422,7 +422,7 @@
 
     move-result-object v1
 
-    const-string v0, "com.obwhatsapp.provider.MigrationContentProvider"
+    const-string v0, "com.zahra.whatsapp.provider.MigrationContentProvider"
 
     invoke-virtual {v1, v0}, Landroid/net/Uri$Builder;->authority(Ljava/lang/String;)Landroid/net/Uri$Builder;
 

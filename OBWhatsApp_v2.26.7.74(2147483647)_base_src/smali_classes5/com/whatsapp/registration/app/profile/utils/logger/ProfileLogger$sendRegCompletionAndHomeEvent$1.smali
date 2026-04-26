@@ -736,13 +736,13 @@
 
     invoke-virtual {v0}, LX/ACN;->BMT()V
 
-    invoke-static {v2}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v2}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
-    invoke-static {v0}, LX/5oR;->A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+    invoke-static {v0}, LX/5oR;->A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
 
     move-result-object v3
 

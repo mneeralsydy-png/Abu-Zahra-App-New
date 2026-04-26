@@ -934,7 +934,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_0
 
@@ -1275,7 +1275,7 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_6
 

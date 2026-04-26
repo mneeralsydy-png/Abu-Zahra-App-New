@@ -37,7 +37,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    const-string v0, "OBWhatsApp/"
+    const-string v0, "Abu Zahra WhatsApp/"
 
     sput-object v0, Labu3arab/mas/utils/Path;->deltaPath:Ljava/lang/String;
 
@@ -277,7 +277,7 @@
 
     sput-object v0, Labu3arab/mas/utils/Path;->sourceMediaPath:Ljava/lang/String;
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     sput-object v0, Labu3arab/mas/utils/Path;->appName:Ljava/lang/String;
 

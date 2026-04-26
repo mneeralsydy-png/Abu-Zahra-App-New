@@ -51,7 +51,7 @@
 
     const v3, 0x7f140025
 
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     new-instance v1, Landroid/net/Uri$Builder;
 
@@ -160,7 +160,7 @@
     const p0, 0x7f14002e
 
     :goto_0
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     new-instance v1, Landroid/net/Uri$Builder;
 

@@ -1066,7 +1066,7 @@
 
     move-result-object v2
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     const-string v0, "com.whatsapp.instrumentation.product.ui.InstrumentationAuthActivity"
 

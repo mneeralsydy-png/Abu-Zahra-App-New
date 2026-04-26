@@ -537,7 +537,7 @@
 
     check-cast v2, Landroid/content/Intent;
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     invoke-virtual {v2}, Landroid/content/Intent;->getPackage()Ljava/lang/String;
 

@@ -44,7 +44,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-nez v0, :cond_0
 
@@ -121,9 +121,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/obwhatsapp/Me;
+    check-cast v0, Lcom/zahra/whatsapp/Me;
 
-    invoke-static {v0, v5}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v0, v5}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
     invoke-virtual {v4}, LX/080;->A01()V
     :try_end_3

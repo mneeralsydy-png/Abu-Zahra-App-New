@@ -809,7 +809,7 @@
 
     move-result-object v3
 
-    const-string v2, "OBWhatsApp"
+    const-string v2, "Abu Zahra WhatsApp"
 
     invoke-static {v3, v2}, LX/5oR;->A11(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
 
@@ -857,7 +857,7 @@
     :catch_0
     move-exception v3
 
-    const-string v2, "OBWhatsAppscan interrupted"
+    const-string v2, "Abu Zahra WhatsApp scan interrupted"
 
     invoke-static {v2, v3}, Lcom/whatsapp/infra/logging/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)V
 

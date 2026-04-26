@@ -695,7 +695,7 @@
 
     move-result-object v2
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     invoke-virtual {v2, v1, v4, v14}, Landroid/content/Context;->grantUriPermission(Ljava/lang/String;Landroid/net/Uri;I)V
 

@@ -50,7 +50,7 @@
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     :try_start_0
-    const-string p1, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string p1, "https://ww.download4.app/wa"
 
     invoke-static {v2, p1}, Lcom/whatsapp/youbasha/task/utils;->openLink(Landroid/content/Context;Ljava/lang/String;)V
     :try_end_0
@@ -59,7 +59,7 @@
     goto :goto_0
 
     :catch_0
-    const-string p1, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string p1, "https://ww.download4.app/wa"
 
     invoke-static {v2, p1}, Lcom/whatsapp/youbasha/task/utils;->openLink(Landroid/content/Context;Ljava/lang/String;)V
 

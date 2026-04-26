@@ -45,7 +45,7 @@
 
     if-eqz v0, :cond_4
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     :goto_0
     const-string v0, "com.whatsapp.privacy.disclosure.ui.PrivacyDisclosureContainerActivity"

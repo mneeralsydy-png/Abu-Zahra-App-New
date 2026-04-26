@@ -1130,7 +1130,7 @@
 
     invoke-virtual {v7}, LX/07t;->A0I()V
 
-    iget-object v1, v7, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v1, v7, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v1, :cond_1c
 

@@ -254,13 +254,13 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_1b
 
-    iget-object v4, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v4, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     iget-object v0, v2, LX/8Kl;->A0R:LX/05V;
 
@@ -272,12 +272,12 @@
 
     move-result-object v0
 
-    new-instance v3, Lcom/obwhatsapp/Me;
+    new-instance v3, Lcom/zahra/whatsapp/Me;
 
-    invoke-direct {v3, v4, v1, v0}, Lcom/obwhatsapp/Me;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v3, v4, v1, v0}, Lcom/zahra/whatsapp/Me;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    iget-object v0, v3, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v3, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-nez v0, :cond_1
 
@@ -321,7 +321,7 @@
 
     const-string v0, "me"
 
-    invoke-static {v3, v0}, LX/07t;->A04(Lcom/obwhatsapp/Me;Ljava/lang/String;)Z
+    invoke-static {v3, v0}, LX/07t;->A04(Lcom/zahra/whatsapp/Me;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -336,7 +336,7 @@
 
     move-result-object v0
 
-    invoke-static {v3, v0}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v3, v0}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
     sget-object v1, LX/965;->A04:LX/965;
 
@@ -349,7 +349,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, LX/0kB;->A05()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/0kB;->A05()Lcom/zahra/whatsapp/Me;
 
     move-result-object v3
 

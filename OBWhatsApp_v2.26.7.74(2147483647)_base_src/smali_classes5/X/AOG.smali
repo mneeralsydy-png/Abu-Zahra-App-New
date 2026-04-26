@@ -223,11 +223,11 @@
 
     iget-object v0, v3, LX/AHv;->A0X:LX/0kB;
 
-    invoke-virtual {v0}, LX/0kB;->A05()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/0kB;->A05()Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, LX/0Hu;->A02(Ljava/lang/String;)Lcom/whatsapp/infra/core/jid/Jid;
 

@@ -866,12 +866,12 @@
     return-object v0
 .end method
 
-.method public static A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+.method public static A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
     .locals 3
 
-    iget-object v2, p0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v2, p0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v1, p0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v1, p0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     sget-object v0, LX/0JT;->A06:Ljava/nio/charset/Charset;
 

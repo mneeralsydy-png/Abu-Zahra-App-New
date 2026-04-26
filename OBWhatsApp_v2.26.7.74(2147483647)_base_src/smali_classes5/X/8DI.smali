@@ -33,7 +33,7 @@
 
     invoke-static {v0, v1, v2}, LX/8DK;->A00(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/AbstractCollection;)V
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     const-string v0, "HfqsFpVx2hvmL2FpTQgY5bCSyHo"
 

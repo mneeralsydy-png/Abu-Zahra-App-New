@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnPreDrawListener;Lcom/whatsapp/Main;Lcom/obwhatsapp/Me;II)V
+.method public constructor <init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnPreDrawListener;Lcom/whatsapp/Main;Lcom/zahra/whatsapp/Me;II)V
     .locals 0
 
     iput p6, p0, LX/1Zz;->$t:I
@@ -64,7 +64,7 @@
 
     iget-object v5, p0, LX/1Zz;->A04:Ljava/lang/Object;
 
-    check-cast v5, Lcom/obwhatsapp/Me;
+    check-cast v5, Lcom/zahra/whatsapp/Me;
 
     iget v6, p0, LX/1Zz;->A00:I
 
@@ -88,7 +88,7 @@
 
     new-instance v1, LX/1Zz;
 
-    invoke-direct/range {v1 .. v7}, LX/1Zz;-><init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnPreDrawListener;Lcom/whatsapp/Main;Lcom/obwhatsapp/Me;II)V
+    invoke-direct/range {v1 .. v7}, LX/1Zz;-><init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnPreDrawListener;Lcom/whatsapp/Main;Lcom/zahra/whatsapp/Me;II)V
 
     invoke-virtual {v0, v1}, LX/0NI;->A0L(Ljava/lang/Runnable;)V
 
@@ -105,7 +105,7 @@
 
     iget-object v2, p0, LX/1Zz;->A04:Ljava/lang/Object;
 
-    check-cast v2, Lcom/obwhatsapp/Me;
+    check-cast v2, Lcom/zahra/whatsapp/Me;
 
     iget v1, p0, LX/1Zz;->A00:I
 
@@ -115,7 +115,7 @@
 
     invoke-virtual {v0, v3}, Landroid/view/ViewTreeObserver;->removeOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
-    invoke-static {v4, v2, v1}, Lcom/whatsapp/Main;->A0f(Lcom/whatsapp/Main;Lcom/obwhatsapp/Me;I)V
+    invoke-static {v4, v2, v1}, Lcom/whatsapp/Main;->A0f(Lcom/whatsapp/Main;Lcom/zahra/whatsapp/Me;I)V
 
     return-void
 .end method

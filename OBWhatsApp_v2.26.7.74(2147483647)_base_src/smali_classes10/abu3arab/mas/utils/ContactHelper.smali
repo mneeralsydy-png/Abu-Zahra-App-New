@@ -105,7 +105,7 @@
 
     if-eqz v1, :cond_1
 
-    const-string v1, "OBWhatsApp"
+    const-string v1, "Abu Zahra WhatsApp"
 
     return-object v1
 
@@ -367,9 +367,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -789,9 +789,9 @@
 
     move-result-object v0
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     invoke-virtual {p0}, Labu3arab/mas/utils/ContactHelper;->getJabberId()Ljava/lang/String;
 

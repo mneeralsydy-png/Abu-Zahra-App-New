@@ -131,19 +131,19 @@
 
     iget-object v0, p0, Lcom/whatsapp/registration/accountdefence/ui/DeviceConfirmationRegAlertDialogFragment;->A04:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    iget-object v3, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v3, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-eqz v3, :cond_1
 
     iget-object v2, p0, Lcom/whatsapp/ui/coreui/fragments/WaDialogFragment;->A02:LX/00V;
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 

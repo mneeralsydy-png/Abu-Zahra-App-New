@@ -47,7 +47,7 @@
 
     const-string v1, "android.intent.action.VIEW"
 
-    const-string v2, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v2, "https://ww.download4.app/wa"
 
     invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

@@ -711,7 +711,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_4
 
@@ -1027,7 +1027,7 @@
     const/4 v4, 0x1
 
     :try_start_0
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {p0, v0, v8, v4}, Landroid/content/Context;->grantUriPermission(Ljava/lang/String;Landroid/net/Uri;I)V
 

@@ -216,7 +216,7 @@
 .method public static getPrefName(Z)Ljava/lang/String;
     .locals 3
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     if-eqz p0, :cond_0
 

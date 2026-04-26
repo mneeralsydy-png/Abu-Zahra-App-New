@@ -16130,7 +16130,7 @@
 
     iget-object v0, p0, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -16885,7 +16885,7 @@
     :pswitch_1
     iget-object v2, v0, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v2}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v2}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v2
 
@@ -16954,7 +16954,7 @@
     :pswitch_3
     iget-object v4, v0, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v4}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v4}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v4
 
@@ -25162,7 +25162,7 @@
 
     iget-object v3, v0, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v3}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v3}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v3
 
@@ -26265,7 +26265,7 @@
 
     iget-object v1, v0, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v1}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v1}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v1
 

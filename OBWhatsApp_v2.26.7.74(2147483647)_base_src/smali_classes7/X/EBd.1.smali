@@ -78,7 +78,7 @@
 .method public static synthetic A02(LX/EBd;)V
     .locals 2
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     iget v0, p0, LX/EBd;->zzd:I
 

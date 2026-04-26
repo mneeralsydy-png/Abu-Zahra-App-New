@@ -700,7 +700,7 @@
 
     move-result-object v1
 
-    iget-object v7, v1, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v7, v1, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v7, :cond_4
 
@@ -722,7 +722,7 @@
 
     new-instance v6, LX/DI1;
 
-    invoke-direct/range {v6 .. v12}, LX/DI1;-><init>(Lcom/obwhatsapp/Me;LX/2rJ;LX/CA9;Ljava/lang/String;Ljava/lang/String;LX/0gH;)V
+    invoke-direct/range {v6 .. v12}, LX/DI1;-><init>(Lcom/zahra/whatsapp/Me;LX/2rJ;LX/CA9;Ljava/lang/String;Ljava/lang/String;LX/0gH;)V
 
     iput-object v12, p0, LX/DI6;->A02:Ljava/lang/Object;
 

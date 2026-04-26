@@ -3895,7 +3895,7 @@
 
     const/16 v2, 0xa6
 
-    const-string v1, "OBWhatsApp"
+    const-string v1, "Abu Zahra WhatsApp"
 
     aput-object v1, v0, v2
 

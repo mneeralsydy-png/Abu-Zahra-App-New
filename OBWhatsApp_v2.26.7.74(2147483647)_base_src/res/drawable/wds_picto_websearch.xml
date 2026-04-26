@@ -44,12 +44,12 @@
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M108.66,78.53L96.52,66.39L100.2,62.7L112.34,74.84C112.81,75.32 113.06,75.92 113.06,76.69C113.06,77.46 112.81,78.06 112.34,78.53C111.87,79 111.27,79.25 110.5,79.25C109.72,79.25 109.13,79 108.65,78.53L108.66,78.53Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M106.13,51.56C106.13,62.92 96.92,72.12 85.56,72.12V72.13C74.2,72.13 65,62.92 65,51.56C65,40.2 74.21,31 85.56,31C96.92,31 106.13,40.2 106.13,51.56ZM85.5,67C94.06,67 101,60.06 101,51.5C101,42.94 94.07,36 85.5,36C76.93,36 70,42.94 70,51.5C70,60.06 76.94,67 85.5,67Z"
         android:fillType="evenOdd" />
     <path

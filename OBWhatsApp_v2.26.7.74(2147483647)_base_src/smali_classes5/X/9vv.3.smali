@@ -928,13 +928,13 @@
 
     iget-object v0, v5, LX/9Qx;->A02:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_16
 
-    invoke-static {v0}, LX/5oR;->A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+    invoke-static {v0}, LX/5oR;->A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1051,15 +1051,15 @@
 
     iget-object v0, v5, LX/9Qx;->A02:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_1b
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     invoke-static {v1, v0}, LX/Bvg;->A00(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

@@ -43,7 +43,7 @@
 
     iget-object v1, v4, LX/8FP;->A02:LX/07t;
 
-    invoke-static {v1}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v1}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 

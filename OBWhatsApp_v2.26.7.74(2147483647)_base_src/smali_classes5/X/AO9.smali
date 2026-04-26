@@ -1192,7 +1192,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -1236,7 +1236,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 

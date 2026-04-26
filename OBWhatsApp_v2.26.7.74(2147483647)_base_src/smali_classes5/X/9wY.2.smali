@@ -2040,7 +2040,7 @@
 
     iget-object v0, p0, LX/9wY;->A0P:LX/07t;
 
-    invoke-virtual {v0}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object p0
 
@@ -2048,7 +2048,7 @@
 
     if-eqz p2, :cond_1
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object p0
 
@@ -2059,11 +2059,11 @@
 
     move-result-object v1
 
-    iget-object v0, p0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, p0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v0, p0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, p0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     invoke-static {v0, v1}, LX/000;->A03(Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
 

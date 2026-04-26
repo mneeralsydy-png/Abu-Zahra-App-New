@@ -2002,9 +2002,9 @@
     :cond_26
     iget-object v0, v10, Lcom/whatsapp/infra/core/jid/Jid;->user:Ljava/lang/String;
 
-    new-instance v1, Lcom/obwhatsapp/Me;
+    new-instance v1, Lcom/zahra/whatsapp/Me;
 
-    invoke-direct {v1, v11, v8, v0}, Lcom/obwhatsapp/Me;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v11, v8, v0}, Lcom/zahra/whatsapp/Me;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v3, v4, LX/0Ct;->A0n:LX/07t;
 
@@ -2012,7 +2012,7 @@
 
     const-string v0, "me"
 
-    invoke-static {v1, v0}, LX/07t;->A04(Lcom/obwhatsapp/Me;Ljava/lang/String;)Z
+    invoke-static {v1, v0}, LX/07t;->A04(Lcom/zahra/whatsapp/Me;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -2037,7 +2037,7 @@
     :cond_27
     invoke-virtual {v3}, LX/07t;->A0I()V
 
-    invoke-static {v1, v3}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v1, v3}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
     iget-object v11, v4, LX/0Ct;->A0g:LX/0f2;
 

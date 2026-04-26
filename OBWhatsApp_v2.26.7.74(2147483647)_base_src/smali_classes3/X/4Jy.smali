@@ -4461,7 +4461,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     invoke-static {v0}, LX/00N;->A05(Ljava/lang/Object;)V
 
@@ -4471,15 +4471,15 @@
 
     invoke-static {v0}, LX/00N;->A05(Ljava/lang/Object;)V
 
-    iget-object v2, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v2, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     invoke-static {v1}, LX/00N;->A05(Ljava/lang/Object;)V
 
     invoke-static {v1}, LX/00C;->A06(Ljava/lang/Object;)V
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -4590,7 +4590,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     invoke-static {v0}, LX/00N;->A05(Ljava/lang/Object;)V
 
@@ -4600,15 +4600,15 @@
 
     invoke-static {v0}, LX/00N;->A05(Ljava/lang/Object;)V
 
-    iget-object v2, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v2, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     invoke-static {v1}, LX/00N;->A05(Ljava/lang/Object;)V
 
     invoke-static {v1}, LX/00C;->A06(Ljava/lang/Object;)V
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 

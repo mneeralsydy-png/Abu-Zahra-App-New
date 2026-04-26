@@ -251,11 +251,11 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_3
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     :goto_1
     invoke-static {v5, v0, v1, v3, v2}, LX/1ai;->A0u(Landroid/content/res/Resources;Ljava/lang/Object;[Ljava/lang/Object;II)Ljava/lang/String;

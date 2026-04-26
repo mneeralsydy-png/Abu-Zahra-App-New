@@ -11561,7 +11561,7 @@
 
     new-array v4, v7, [Ljava/lang/Object;
 
-    const-string v0, "OBWhatsApp Surveys"
+    const-string v0, "Abu Zahra WhatsApp Surveys"
 
     aput-object v0, v4, v3
 

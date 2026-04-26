@@ -69,7 +69,7 @@
 
     check-cast v0, LX/0Xn;
 
-    const-string v1, "com.obwhatsapp.provider.MigrationContentProvider"
+    const-string v1, "com.zahra.whatsapp.provider.MigrationContentProvider"
 
     iget-object v0, v0, LX/0Xn;->A04:Ljava/util/Set;
 
@@ -217,7 +217,7 @@
 
     check-cast v0, LX/0Xn;
 
-    const-string v1, "com.obwhatsapp.provider.MigrationContentProvider"
+    const-string v1, "com.zahra.whatsapp.provider.MigrationContentProvider"
 
     iget-object v0, v0, LX/0Xn;->A04:Ljava/util/Set;
 

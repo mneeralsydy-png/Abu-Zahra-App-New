@@ -6,12 +6,12 @@
     android:viewportHeight="88.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M43.995,76.99C62.21,76.99 77,62.22 77,43.984 77,25.75 62.23,11 43.995,11 25.759,11 11,25.77 11,43.995 11,62.22 25.77,77 43.995,77v-0.01Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M70.126,44c0,14.427 -11.7,26.126 -26.126,26.126 -14.426,0 -26.125,-11.7 -26.125,-26.125 0,-14.426 11.689,-26.125 26.115,-26.125 14.426,0 26.125,11.699 26.125,26.125h0.01Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />

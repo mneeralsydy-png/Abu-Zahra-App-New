@@ -1080,7 +1080,7 @@
 
     check-cast v1, LX/4eQ;
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v1, v2, v0}, LX/4eQ;->A00(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
 

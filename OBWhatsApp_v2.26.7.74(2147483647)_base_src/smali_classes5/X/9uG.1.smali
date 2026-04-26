@@ -439,7 +439,7 @@
 
     invoke-virtual {v1, v0, v2}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
-    const-string v0, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v0, "https://ww.download4.app/wa"
 
     invoke-static {v0}, LX/1am;->A0A(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -469,7 +469,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v0, "https://ww.download4.app/wa"
 
     :goto_0
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -479,7 +479,7 @@
     return-object v0
 
     :cond_0
-    const-string v0, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v0, "https://ww.download4.app/wa"
 
     goto :goto_0
 .end method

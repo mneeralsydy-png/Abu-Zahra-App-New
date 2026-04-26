@@ -33,7 +33,7 @@
 
     const/4 v1, 0x1
 
-    const-string v0, "com.obwhatsapp.provider.DirectMigrationContentProvider"
+    const-string v0, "com.zahra.whatsapp.provider.DirectMigrationContentProvider"
 
     invoke-virtual {v3, v0, v2, v1}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -191,7 +191,7 @@
 
     move-result v1
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v0, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -238,7 +238,7 @@
     :cond_5
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v1, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v1, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-nez v1, :cond_8
 
@@ -386,7 +386,7 @@
     goto :goto_3
 
     :cond_8
-    iget-object v0, v1, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v1, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-static {v0, v8}, LX/00C;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -394,7 +394,7 @@
 
     if-eqz v0, :cond_f
 
-    iget-object v0, v1, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v1, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     invoke-static {v0, v6}, LX/00C;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
 

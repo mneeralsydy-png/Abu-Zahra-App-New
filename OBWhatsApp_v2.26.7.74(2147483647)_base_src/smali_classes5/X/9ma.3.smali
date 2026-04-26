@@ -97,7 +97,7 @@
 .method public static A00(Landroid/content/Intent;LX/0IB;LX/1J1;Ljava/lang/String;)V
     .locals 2
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {p0, v0, p3}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 

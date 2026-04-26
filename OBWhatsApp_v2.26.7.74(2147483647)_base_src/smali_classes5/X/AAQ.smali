@@ -1045,13 +1045,13 @@
 
     :cond_e
     :goto_9
-    new-instance v0, Lcom/obwhatsapp/Me;
+    new-instance v0, Lcom/zahra/whatsapp/Me;
 
-    invoke-direct {v0, v3, v1, v4}, Lcom/obwhatsapp/Me;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v3, v1, v4}, Lcom/zahra/whatsapp/Me;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v12}, LX/07t;->A0I()V
 
-    invoke-static {v0, v12}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v0, v12}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
     iget-object v0, v7, LX/AAQ;->A0K:LX/0Jp;
 

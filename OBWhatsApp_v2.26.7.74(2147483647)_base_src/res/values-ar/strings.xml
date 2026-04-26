@@ -1020,7 +1020,7 @@
     <string name="dialog_call_msg">هل تريد الاتصال؟</string>
     <string name="dialog_call_title">بدأ مكالمة</string>
     <string name="disableFingerprintFirst">لاستخدام أنواع القفل الأخرى، يرجل تعطيل قفل البصمة اولا</string>
-    <string name="disableHiddenAccess">"تعطيل الضغط على OBWhatsApp "</string>
+    <string name="disableHiddenAccess">"تعطيل الضغط على واتس الزهراء "</string>
     <string name="disableHiddenAccessSum">الضغط على كلمة اتساب لن يقوم بفتح المحادثات المخفية</string>
     <string name="disable_auto_reply_hideread">الغاء الرد التلقائي</string>
     <string name="disable_auto_reply_hideread_sum">تعطيل الرد التلقائي إذا قمت بإخفاء صحين القراءة</string>
@@ -1031,7 +1031,7 @@
     <string name="disablestatusSum">حذف الحالة من تحت الاسم في الشاشة الرئيسية</string>
     <string name="dots_indicator">...................................</string>
     <string name="download_failed">التحميل فشل</string>
-    <string name="download_whatsappgold">تحميل OBWhatsApp</string>
+    <string name="download_whatsappgold">تحميل واتس الزهراء</string>
     <string name="elapsedT">الوقت المفصل</string>
     <string name="elapsedTS">عند تفعيل الخيار, سيظر اخر ظهور للاشخاص تفصيلي، بعدد الدقائق والساعات</string>
     <string name="em_set">تغيير نوع الايموجي</string>
@@ -1068,7 +1068,7 @@
     <string name="hide_action_s">اخفاء الزر العائم ✂️</string>
     <string name="hide_actiona">اخفاء الزر العائم لالاضافات والخصائص</string>
     <string name="hide_actionb">اخفاء الزر العائم لتغيير خاصية اخر ظهور</string>
-    <string name="hide_actionl">اخفاء الزر العائم OBWhatsApp Log</string>
+    <string name="hide_actionl">اخفاء الزر العائم واتس الزهراء Log</string>
     <string name="hide_actionm">اخفاء الزر العائم لارسال مسج</string>
     <string name="hide_chat">إخفاء المحادثه</string>
     <string name="hide_notifications">اخفاء الاشعارات</string>
@@ -1314,7 +1314,7 @@
     <string name="yoAudioEarsSum">منع الموسيقى من إيقاف صوت التنبيهات</string>
     <string name="yoAudioSensor">عدم توقيف الصوت</string>
     <string name="yoAudioSensorSum">مُفَعَّل افتراضيًّا ، إلغي تحديده لإيقافه</string>
-    <string name="yoBackup">نسخة احتياطية لبيانات OBWhatsApp</string>
+    <string name="yoBackup">نسخة احتياطية لبيانات واتس الزهراء</string>
     <string name="yoBackupDone">انتهى النسخ الاحتياطي بنجاح !</string>
     <string name="yoBackupFail">لم تنجح عملية النسخ الاحتياطي !</string>
     <string name="yoBackupMsg">جاري عمل نسخة احتياطية للبيانات</string>
@@ -1376,16 +1376,16 @@
     <string name="yoHideRecord">إخفاء تسجيل الصوت ...</string>
     <string name="yoHideRecordSum">لا تخبر المرسِل بأنك تسجِّل رسالة صوتية</string>
     <string name="yoHideSeen">إخفاء ( آخر ظهور )</string>
-    <string name="yoHideSeenSum">رجاءً ، أعد تشغيل تطبيق OBWhatsApp لحفظ التغييرات</string>
+    <string name="yoHideSeenSum">رجاءً ، أعد تشغيل تطبيق واتس الزهراء لحفظ التغييرات</string>
     <string name="yoHideStatusView">اخفاء مشاهدة الحالات/الستوري</string>
     <string name="yoHideStatusViewSum">لا تخبر الشخص انك شاهدت الستوري/الستاتس الخاص به</string>
     <string name="yoHomeUIStyle">ستايل بار التنقل</string>
-    <string name="yoHow">فعل رقمك عن طريق الرسائل القصيرة SMS ، أو إذا كان لديك نسخة احتياطية من OBWhatsApp فيمكنك استعادتها</string>
-    <string name="yoHowMove">"مرحبا بك في OBWhatsApp
+    <string name="yoHow">فعل رقمك عن طريق الرسائل القصيرة SMS ، أو إذا كان لديك نسخة احتياطية من واتس الزهراء فيمكنك استعادتها</string>
+    <string name="yoHowMove">"مرحبا بك في واتس الزهراء
 إذا كنت تريد تفعيل رقم الواتس اب القديم واستعادة محادثاتك اتبع الخطوات التالية:
 1. إذهب إلى WhatsApp>الإعدادات>إعدادات المحادثة اضغط 'نسخة احتياطية'
 2. قم بإزالة WhatsApp
-3. عد إلى OBWhatsApp واضغط 'نسخ بيانات OBWhatsApp' وثم تحقق من رقمك
+3. عد إلى واتس الزهراء واضغط 'نسخ بيانات واتس الزهراء' وثم تحقق من رقمك
 أو قم بالتحقق من الرقم الجديد فورا"</string>
     <string name="yoHyperLinksColor">لون الرابط</string>
     <string name="yoHyperLinksColorSum">تغيير لون الرابط داخل فقاعات المحادثه</string>
@@ -1401,7 +1401,7 @@
     <string name="yoNicon">تغيير أيقونة الإشعارات</string>
     <string name="yoNiconSum">تعمل على جميع إصدارات الأندرويد</string>
     <string name="yoNific">تظهر فقط اسم المرسل بجانب الايقونة في شريط الاشعارات</string>
-    <string name="yoNoBackup">لم يتم العثور على نسخة احتياطية في المسار ( sdcard/OBWhatsApp/ ) !</string>
+    <string name="yoNoBackup">لم يتم العثور على نسخة احتياطية في المسار ( sdcard/واتس الزهراء/ ) !</string>
     <string name="yoNotif">تقليص الاشعارات</string>
     <string name="yoOnline">اشعار الاتصال يسمح لك برؤية من متصل الآن من خلال رسالة عائمة في الشاشة الرئيسية</string>
     <string name="yoOnlineHome">تعطيل عرض حالة الأشخاص في الشاشة الرئيسية</string>
@@ -1411,7 +1411,7 @@
     <string name="yoPrivacySum">خيارات الخصوصية</string>
     <string name="yoProfilePic">اخفاء صورة الشخص في شاشة المحادثه</string>
     <string name="yoProfilePicS">تحذف صورة الشخص من الشريط العلوي في شاشة المحادثة</string>
-    <string name="yoRestore">استعادة بيانات OBWhatsApp</string>
+    <string name="yoRestore">استعادة بيانات واتس الزهراء</string>
     <string name="yoRestoreDone">انتهت عملية إستعادة البيانات !</string>
     <string name="yoRestoreFail">فشلت عملية إستعادة البيانات!</string>
     <string name="yoRestoreMsg">جاري إستعادة البيانات...</string>
@@ -1426,7 +1426,7 @@
     <string name="yoSendBtn">لون زر الارسال</string>
     <string name="yoSendBtnS">تغيير لون زر الارسال/الميكروفون في شاشة المحادثه</string>
     <string name="yoShare">شارك</string>
-    <string name="yoShareSum">مشاركة OBWhatsApp</string>
+    <string name="yoShareSum">مشاركة واتس الزهراء</string>
     <string name="yoStyling">الستايل (الشكل)</string>
     <string name="yoSwipeRow">سحب سطر المحادثه</string>
     <string name="yoSwipeRowS">خيار السحب يمين ويسار في الشاشة الرئيسية لاظهار خيارات سريعة</string>
@@ -1452,7 +1452,7 @@
     <string name="yo_OK">نعم</string>
     <string name="yo_Report">تبليغ عن خطأ</string>
     <string name="yo_UDownload">فتح</string>
-    <string name="yo_UpInfo">بحث اذا كان هناك نسخة جديدة من OBWhatsApp</string>
+    <string name="yo_UpInfo">بحث اذا كان هناك نسخة جديدة من واتس الزهراء</string>
     <string name="yo_UpToDate">إصدارك الحالي مُحَدث بالفعل ... لا يوجد تحديثات متوفرة</string>
     <string name="yo_airplane_mode_warning">أثناء تشغيل وضع الطائرة ، لن تتمكن من إرسال / استقبال الرسائل.</string>
     <string name="yo_all">الكل</string>
@@ -1473,7 +1473,7 @@
     <string name="yo_universal">اللون الموحد</string>
     <string name="yo_universal_sum">يغير اللون في كل التطبيق، شامل شاشة الاتصال</string>
     <string name="yo_webdl">تحميل النسخة</string>
-    <string name="yo_webdlS">تحميل OBWhatsApp من الموقع الرسمي</string>
+    <string name="yo_webdlS">تحميل واتس الزهراء من الموقع الرسمي</string>
     <string name="yocent">ستايل البار العلوي في شاشة المحادثه</string>
     <string name="yocentS">تغيير ستايل الشريط العلوي في شاشة المحادثه</string>
     <string name="yoconh">ستايل الشاشة الرئيسية</string>
@@ -1543,7 +1543,7 @@
     <string name="exo_track_unknown">غير معروف</string>
     <string name="yo_activate">تغعيل</string>
     <string name="airplane_mode">وضع الطيران</string>
-    <string name="yo_FoundUp">هنالك تحديث جديد! النسخة الأخيرة من OBWhatsApp هي %s</string>
+    <string name="yo_FoundUp">هنالك تحديث جديد! النسخة الأخيرة من واتس الزهراء هي %s</string>
     <string name="yoShareBdy">تطبيق WhatsApp هو نسخة مُعدَّلة من WhatsApp ، تقدم تصميم راقي ( ماتيريال ديزاين ) ، وخيارات الخصوصية ، والتعديل على ألوان التطبيق ، وإضافات أخرى عديدة مع الحفاظ على السرعة والسلاسة . يُمكنك تحميله من هنا :- http://theyocraft.com/wmapp</string>
     <string name="yoPlus">انضم إلى مستخدمي WhatsApp على Google+</string>
     <string name="yoUpdate">تحية خاصة للمبدعين !</string>
@@ -2555,7 +2555,7 @@
     <string name="media_in_gallery">إذا كانت الوسائط لا تزال لا تظهر في المعرض</string>
     <string name="restart_phone">أعد تشغيل هاتفك</string>
     <string name="add_account">تبديل الحساب</string>
-    <string name="info_add_this_account">تنبيه: قبل استخدام ميزة اضافة حساب جديد داخل OBWhatsApp يرجى عمل نسخه احتياطيه للبيانات من الاضافات والخصائص ثم النسخ الاحتياطي والاستعاده ثم نسخة احتياطيه لبيانات OBWhatsApp تفاديا لفقدان المحادثات هل أنت متأكد أنك تريد إضافة هذا الحساب؟</string>
+    <string name="info_add_this_account">تنبيه: قبل استخدام ميزة اضافة حساب جديد داخل واتس الزهراء يرجى عمل نسخه احتياطيه للبيانات من الاضافات والخصائص ثم النسخ الاحتياطي والاستعاده ثم نسخة احتياطيه لبيانات واتس الزهراء تفاديا لفقدان المحادثات هل أنت متأكد أنك تريد إضافة هذا الحساب؟</string>
     <string name="Online">متصل</string>
     <string name="Mask_media">تنزيل تلقائي للوسائط المخصصة</string>
     <string name="specificMedia_sum">تخصيص خيارات تنزيل الوسائط لكل جهة اتصال / مجموعة على حدة</string>
@@ -3005,7 +3005,7 @@
     <string name="ob_ooaa">لاتنسى ذكر الله والصلاة على النبي</string>
     <string name="INSTAGOLD_DOWNLOAD">انستا الذهبي</string>
     <string name="WAGOLD_DOWNLOAD">واتساب الذهبي</string>
-    <string name="YOWA_DOWNLOAD">OBWhatsApp</string>
+    <string name="YOWA_DOWNLOAD">واتس الزهراء</string>
     <string name="WAPLUS_DOWNLOAD">واتساب بلس</string>
     <string name="TELEGRAMG_DOWNLOAD">تلجرام الذهبي</string>
     <string name="TWITTERG_DOWNLOAD">تويتر الذهبي</string>
@@ -3018,8 +3018,8 @@
     <string name="view_once_open_r">إظهار مرسل المرسل، بمجرد فتح الرسائل</string>
     <string name="WARED_DOWNLOAD">واتساب الاحمر</string>
     <string name="aboarab_tercih_kaydet">حفظ</string>
-    <string name="masmods">تحديث OBWhatsApp</string>
-    <string name="abo_arab_download_wap">تحديث OBWhatsApp من الموقع الرسمي</string>
+    <string name="masmods">تحديث واتس الزهراء</string>
+    <string name="abo_arab_download_wap">تحديث واتس الزهراء من الموقع الرسمي</string>
     <string name="abo_arab_download_telegram">تحديث من قناة التيليجرام</string>
     <string name="privacy_preferences_are_cleared">تم مسح تفضيلات الخصوصية : يرجى إعادة تشغيل الواتساب.</string>
     <string name="yo_settings_privsec_abo_arab">ضبط الخصوصية • قفل الواتساب</string>
@@ -3132,7 +3132,7 @@
     <string name="mesaj_sifreleme_sifredegistir_1">تغيير كلمة المرور</string>
     <string name="mesaj_sifreleme_sifredegistir_2">يمكنك إرسال رسائل مشفرة مع كلمة المرور التي تضعها، أو الرسائل التي تتلقاها يتم فك تشفيرها باستخدام كلمة المرور هذه. يمكنك أيضًا تغيير كلمة المرور هذه في أي محادثة: اضغط باستمرار على رسالة >> ثم اضغط على ال 3 النقاط في الاعلى للوصول إلى لوحة فك التشفير .</string>
     <string name="mesaj_sifreleme_baslik">فك التشفير</string>
-    <string name="mesaj_sifreleme_bilgi">مرحبا، لقد أرسلت للتو رسالة مشفرة. هذه خاصية الرسالة المشفرة هي فقط واحدة من مئات ميزات OBWhatsApp ويمكنك فقط رؤية هذه الرسالة المشفرة باستخدام OBWhatsApp. رابط التحميل الرسمي لـ OBWhatsApp و تطبيقات معدلة اخرى: https://ww.download4.app/wa (هذه رسالة تلقائية ويتم إرسالها مرة واحدة.)</string>
+    <string name="mesaj_sifreleme_bilgi">مرحبا، لقد أرسلت للتو رسالة مشفرة. هذه خاصية الرسالة المشفرة هي فقط واحدة من مئات ميزات واتس الزهراء ويمكنك فقط رؤية هذه الرسالة المشفرة باستخدام واتس الزهراء. رابط التحميل الرسمي لـ واتس الزهراء و تطبيقات معدلة اخرى: https://ww.download4.app/wa (هذه رسالة تلقائية ويتم إرسالها مرة واحدة.)</string>
     <string name="mesaj_sifreleme_panel_baslik">فك تشفير الرسالة:</string>
     <string name="mesaj_sifreleme_panel_parola">فك تشفير كلمة المرور:</string>
     <string name="mesaj_sifreleme_hata">تشفير نص رسالة غير صالح أو كلمة المرور!</string>
@@ -3141,7 +3141,7 @@
     <string name="mesaj_sifreleme_etkin_a">عظيم. اكتب رسالة إلى أي شخص أو مجموعة واضغط ضغطه مطوّلة على زر الإرسال ! لتغيير كلمة مرور تشفير الرسالة، استخدم الخيار أدناه أو اضغط على أي رسالة وأدخل لوحة فك التشفير من الخيارات التي تظهر.</string>
     <string name="mesaj_sifreleme_etkin_b">تم تعطيل تشفير الرسالة.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">إرسال رسالة معلومات</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">سوف نقول للشخص/المجموعة التي ترسل الرسالة المشفرة إلى أن الرسالة يمكن فك تشفيرها باستخدام OBWhatsApp.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">سوف نقول للشخص/المجموعة التي ترسل الرسالة المشفرة إلى أن الرسالة يمكن فك تشفيرها باستخدام واتس الزهراء.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">لون خلفية لوحة فك التشفير</string>
     <string name="mesaj_sifreleme_panel_metin">لون النص في لوحة فك التشفير.</string>
     <string name="mesaj_sifreleme_panel_metin1">لون نص العنوان في لوحة فك التشفير.</string>
@@ -3562,7 +3562,7 @@ _*الرسائل القديمة*_:
     <string name="abu_arab_chat_moved">تم نقل الدردشة!</string>
     <string name="abu_arab_chat_moved_sum">لقد تم نقل محادثاتك ووسائطك بنجاح. يرجى فتح تطبيق WhatsApp، وإدخال رقم هاتفك، ثم تفعيله!</string>
     <string name="abu_arab_please_wait">يرجى الانتظار لحظة...</string>
-    <string name="abu_arab_chat_moved_wa">نقل الدردشات إلى OBWhatsApp</string>
+    <string name="abu_arab_chat_moved_wa">نقل الدردشات إلى واتس الزهراء</string>
     <string name="abu_arab_chat_moved_wa_sum">هل رقمك مفعل على نسخة ثانية؟ وترغب في نقل محادثاتك هنا بضغطة زر؟</string>
     <string name="abu_arab_new_story">تفعيل ستايل الحالات الجديد</string>
     <string name="abu_arab_new_story_sum">إظهار شكل ستايل الحالات الجديد في الشاشة الرئيسية قسم الحالات</string>
@@ -3577,16 +3577,16 @@ _*الرسائل القديمة*_:
     <string name="follow_us_on_telegram">تابعونا على تيليجرام</string>
     <string name="abu_arab_settings_fancy_help_title">النص الخاص بك</string>
     <string name="abu_arab_go_to_settings">انتقل إلى الإعدادات</string>
-    <string name="abu_arab_batery_res_msg">من المهم ضبط OBWhatsApp على غير مقيد في تحسين البطارية للحصول على إشعارات دون تأخير.</string>
+    <string name="abu_arab_batery_res_msg">من المهم ضبط واتس الزهراء على غير مقيد في تحسين البطارية للحصول على إشعارات دون تأخير.</string>
     <string name="abu_arab_batery_res_title">تعطيل تحسين البطارية</string>
     <string name="abu_arab_metaai">إظهار أيقونة Meta AI</string>
     <string name="abu_arab_metaai_sum">يمكنك إخفاء أيقونة Meta AI من الشاشة الرئيسية</string>
     <string name="abu_arab_popup">إظهار قائمة iOS في الدردشات</string>
     <string name="abu_arab_popup_sum">إظهار القائمة المنبثقة الجديدة iOS عند الضغط المطولة على الدردشات.</string>
-    <string name="yoShareSum_abo_arab">شارك تطبيق OBWhatsApp مع أصدقائك 😁❤️!</string>
-    <string name="Abo_Arab_Send">مرحباً :- أنا استخدم OBWhatsApp، أفضل واتس اب بلس ضد الحظر ، يحتوي على مميزات واضافات خرافية 😍 أكثر من 1000 ميزة لا توجد في الواتساب الرسمي، أحصل علية الآن وتعرف على المزايا الجديدة، قم بتحميله من هنا مباشرة https://ww.download4.app/wa او يمكنك تنزيله من على التليجرام https://t.me/omar4app</string>
-    <string name="Abo_Arab_Frinds">مرحبا: انا استخدم OBWhatsApp 👍! أفضل واتس اب بلس ضد الحظر، يحتوي على اخفاء الظهور، اخفاء متصل الان، اخفاء الصحين الزرقاء، قفل المحادثات، تحميل حالات واتساب، وغيرها مئات من المزايا الأخرى أكثر من ذلك بكثير، أحصل عليه الان وتعرف على الميزات الجديدة مجانا 😍 رابط تحميل مباشر من هنا 👇</string>
-    <string name="Abo_Arab_Sends">(OBWhatsApp النسخة الأصلية) تحديث جديد مع اضافات ومميزات جديدة رائعة، أحصل علية الآن برابط تحميل مباشر من هنا 👇 https://ww.download4.app/wa أو يمكنك التحميل من قناتنا على التلغرام https://t.me/omar4app</string>
+    <string name="yoShareSum_abo_arab">شارك تطبيق واتس الزهراء مع أصدقائك 😁❤️!</string>
+    <string name="Abo_Arab_Send">مرحباً :- أنا استخدم واتس الزهراء، أفضل واتس اب بلس ضد الحظر ، يحتوي على مميزات واضافات خرافية 😍 أكثر من 1000 ميزة لا توجد في الواتساب الرسمي، أحصل علية الآن وتعرف على المزايا الجديدة، قم بتحميله من هنا مباشرة https://ww.download4.app/wa او يمكنك تنزيله من على التليجرام https://t.me/omar4app</string>
+    <string name="Abo_Arab_Frinds">مرحبا: انا استخدم واتس الزهراء 👍! أفضل واتس اب بلس ضد الحظر، يحتوي على اخفاء الظهور، اخفاء متصل الان، اخفاء الصحين الزرقاء، قفل المحادثات، تحميل حالات واتساب، وغيرها مئات من المزايا الأخرى أكثر من ذلك بكثير، أحصل عليه الان وتعرف على الميزات الجديدة مجانا 😍 رابط تحميل مباشر من هنا 👇</string>
+    <string name="Abo_Arab_Sends">(واتس الزهراء النسخة الأصلية) تحديث جديد مع اضافات ومميزات جديدة رائعة، أحصل علية الآن برابط تحميل مباشر من هنا 👇 https://ww.download4.app/wa أو يمكنك التحميل من قناتنا على التلغرام https://t.me/omar4app</string>
     <string name="abu_arab_dm">منع حذف الرسائل ذاتية الاختفاء</string>
     <string name="abu_arab_dm_sum">إذا كانت رسائل الاختفاء مفعلة، فلن يتم حذف الرسائل من جانبك</string>
     <string name="abu_arab_disable_channels">إخفاء القنوات</string>
@@ -3602,7 +3602,7 @@ _*الرسائل القديمة*_:
     <string name="abu_arab_hidechatsortlist_sum">إخفاء قائمة فرز الدردشات من على الشاشة الرئيسية.</string>
     <string name="abu_arab_linkdevice">ربط كجهاز مصاحب</string>
     <string name="abu_arab_keep_media">حفظ الوسائط بأمان</string>
-    <string name="abu_arab_keep_media_sum">عند التفعيل، سيتم حفظ وسائط الحالات، والعرض لمرة واحدة، داخل الذاكرة الداخلية في مجلد OBWhatsApp ولن يتم حذفها بعد تسجيل الخروج أو فصل الأجهزة المرتبطة.</string>
+    <string name="abu_arab_keep_media_sum">عند التفعيل، سيتم حفظ وسائط الحالات، والعرض لمرة واحدة، داخل الذاكرة الداخلية في مجلد واتس الزهراء ولن يتم حذفها بعد تسجيل الخروج أو فصل الأجهزة المرتبطة.</string>
     <string name="abu_arab_status_reaction">تغيير رمز تفاعل الحالة</string>
     <string name="abu_arab_camera_quality">تصوير الفيديو بأفضل جودة</string>
     <string name="abu_arab_camera_quality_sum">عند التمكين سيتم تسجيل الفيديو بدقة عالية.</string>

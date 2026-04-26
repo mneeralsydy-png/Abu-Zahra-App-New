@@ -77,7 +77,7 @@
             android:title="@string/abu_arab_settz_gallmngrz"
             android:summary="@string/abu_arab_gallerytool_title_sum">
             <intent
-                android:targetPackage="com.obwhatsapp"
+                android:targetPackage="com.zahra.whatsapp"
                 android:action="android.intent.action.VIEW"
                 android:targetClass="com.whatsapp.gallerypicker.ui.GalleryPickerLauncher" />
         </Preference>

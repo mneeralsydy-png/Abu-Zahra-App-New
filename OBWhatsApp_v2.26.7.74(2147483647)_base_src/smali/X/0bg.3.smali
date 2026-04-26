@@ -47,7 +47,7 @@
 
     invoke-static {v0}, LX/00C;->A06(Ljava/lang/Object;)V
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     iput-object v0, v1, LX/9X3;->A03:Ljava/lang/String;
 

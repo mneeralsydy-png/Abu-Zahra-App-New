@@ -2260,7 +2260,7 @@
 
     iget-object v0, v6, LX/0MF;->A04:LX/07t;
 
-    invoke-virtual {v0}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -2292,7 +2292,7 @@
     :cond_21
     iget-object v0, v6, LX/0MF;->A04:LX/07t;
 
-    invoke-virtual {v0}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 

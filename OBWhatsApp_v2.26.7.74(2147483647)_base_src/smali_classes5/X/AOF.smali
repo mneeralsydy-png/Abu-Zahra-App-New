@@ -387,7 +387,7 @@
 
     iget-object v0, v2, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v1
 
@@ -399,7 +399,7 @@
 
     const-string v0, "me_old"
 
-    invoke-static {v1, v0}, LX/07t;->A04(Lcom/obwhatsapp/Me;Ljava/lang/String;)Z
+    invoke-static {v1, v0}, LX/07t;->A04(Lcom/zahra/whatsapp/Me;Ljava/lang/String;)Z
 
     return-void
 

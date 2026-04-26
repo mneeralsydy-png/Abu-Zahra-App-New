@@ -675,7 +675,7 @@
     <string name="HangoutsBt">ਗੱਲਬਾਤ UI ਬਟਨ ਦਾ ਰੰਗ</string>
     <string name="HangoutsBtS">ਐਂਟਰੀ ਆਈਕਨ ਦਾ ਰੰਗ ਬਦਲੋ</string>
     <string name="HideFAB">ਫਲੋਟਿੰਗ ਐਕਸ਼ਨ ਬਟਨ ਲੁਕਾਓ (FAB)</string>
-    <string name="Lock">OBWhatsApp ਲੌਕ</string>
+    <string name="Lock">واتس الزهراء ਲੌਕ</string>
     <string name="MainSize">ਮੁੱਖ ਸਕ੍ਰੀਨ ਟੈਕਸਟ ਦਾ ਆਕਾਰ/ਕਾਲ/ਸੰਪਰਕ</string>
     <string name="MainSizeS">ਹੋਮ ਸਕ੍ਰੀਨ ਤੇ ਟੈਕਸਟ ਦਾ ਆਕਾਰ ਬਦਲੋ</string>
     <string name="MentionIndicatorBackgroundColor">ਸੂਚਕ ਪਿਛੋਕੜ ਦਾ ਜ਼ਿਕਰ ਕਰੋ</string>
@@ -797,7 +797,7 @@
     <string name="chats_row_divider_mod">ਚੈਟਸ ਡਿਵਾਈਡਰ</string>
     <string name="chats_row_divider_picker_summary">ਗੱਲਬਾਤ ਦੇ ਵਿਚਕਾਰ ਲਾਈਨ ਦਾ ਰੰਗ ਸੈੱਟ ਕਰੋ</string>
     <string name="clearemoji">ਹਾਲੀਆ ਇਮੋਜੀਸ ਮਿਟਾਓ</string>
-    <string name="clearlogs">OBWhatsApp ਲੌਗਸ ਨੂੰ ਸਾਫ਼ ਕਰੋ</string>
+    <string name="clearlogs">واتس الزهراء ਲੌਗਸ ਨੂੰ ਸਾਫ਼ ਕਰੋ</string>
     <string name="color_new_color">ਨਵਾਂ ਰੰਗ</string>
     <string name="color_old_color">ਪੁਰਾਣਾ ਰੰਗ</string>
     <string name="color_select_color">ਇੱਕ ਰੰਗ ਚੁਣੋ</string>
@@ -959,11 +959,11 @@
     <string name="recent_chats_sum">ਸਾਹਮਣੇ ਤੋਂ ਹਾਲੀਆ ਚੈਟਾਂ ਨੂੰ ਲੁਕਾਓ</string>
     <string name="reset">ਰੀਸੈੱਟ ਕਰੋ</string>
     <string name="resetPriv">ਗੋਪਨੀਯਤਾ ਰੀਸੈਟ ਕਰੋ</string>
-    <string name="resetPrivSum">OBWhatsApp ਪੂਰਵ-ਨਿਰਧਾਰਤ ਗੋਪਨੀਯਤਾ ਨੂੰ ਰੀਸੈਟ ਕਰੋ</string>
+    <string name="resetPrivSum">واتس الزهراء ਪੂਰਵ-ਨਿਰਧਾਰਤ ਗੋਪਨੀਯਤਾ ਨੂੰ ਰੀਸੈਟ ਕਰੋ</string>
     <string name="resetPrivacyonly">ਕੀ ਮੌਜੂਦਾ ਥੀਮ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਹੈ?</string>
     <string name="resetPrivacyonlyS">"'ਫਿਕਸਡ': ਥੀਮ ਨੂੰ ਲਾਗੂ ਰੱਖੋ 'ਰੀਸੈੱਟ': ਡਿਫੌਲਟ/WhatsApp ਸਟਾਕ ਰੰਗ"</string>
     <string name="resetThemes">ਤਰਜੀਹਾਂ ਰੀਸੈਟ ਕਰੋ</string>
-    <string name="resetThemesSum">OBWhatsApp ਡਿਫੌਲਟ ਸੈਟਿੰਗਾਂ ਨੂੰ ਰੀਸਟੋਰ ਕਰੋ</string>
+    <string name="resetThemesSum">واتس الزهراء ਡਿਫੌਲਟ ਸੈਟਿੰਗਾਂ ਨੂੰ ਰੀਸਟੋਰ ਕਰੋ</string>
     <string name="reset_themes_confirma">ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ ਤੇ ਸਾਰੀਆਂ ਥੀਮ ਤਰਜੀਹਾਂ ਨੂੰ ਰੀਸੈਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
     <string name="restoreTheme">ਥੀਮ ਰੀਸਟੋਰ ਕਰੋ</string>
     <string name="restoreThemeS">ਲੋਡ ਥੀਮ (/Download/Themes) ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਗਈ</string>
@@ -1058,7 +1058,7 @@
     <string name="yoAudioEarsSum">ਖੇਡਣ ਵੇਲੇ ਸਪੀਕਰ/ਈਅਰਪੀਸ ਬਦਲਣ ਤੋਂ ਰੋਕੋ</string>
     <string name="yoAudioSensor">ਨੇੜਤਾ ਸੈਂਸਰ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
     <string name="yoAudioSensorSum">ਪੂਰਵ-ਨਿਰਧਾਰਤ ਤੌਰ ਤੇ ਸਮਰੱਥ, ਇਸਨੂੰ ਬੰਦ ਕਰਨ ਲਈ ਅਯੋਗ ਕਰੋ।</string>
-    <string name="yoBackup">OBWhatsApp ਡੇਟਾ ਦਾ ਬੈਕਅੱਪ ਲਓ</string>
+    <string name="yoBackup">واتس الزهراء ਡੇਟਾ ਦਾ ਬੈਕਅੱਪ ਲਓ</string>
     <string name="yoBackupDone">ਬੈਕਅੱਪ ਪੂਰਾ ਹੋਇਆ!</string>
     <string name="yoBackupFail">ਬੈਕਅੱਪ ਅਸਫਲ ਰਿਹਾ!</string>
     <string name="yoBackupMsg">ਡਾਟਾ ਬੈਕਅੱਪ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...</string>
@@ -1120,7 +1120,7 @@
     <string name="yoHideRecord">ਰਿਕਾਰਡਿੰਗ ਲੁਕਾਓ...</string>
     <string name="yoHideRecordSum">ਭੇਜਣ ਵਾਲੇ ਨੂੰ ਇਹ ਨਾ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਇੱਕ ਵੌਇਸ ਸੁਨੇਹਾ ਰਿਕਾਰਡ ਕਰ ਰਹੇ ਹੋ।</string>
     <string name="yoHideSeen">ਆਖਰੀ ਵਾਰ ਫ੍ਰੀਜ਼ ਕਰੋ</string>
-    <string name="yoHideSeenSum">ਤਬਦੀਲੀਆਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ OBWhatsApp ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ।</string>
+    <string name="yoHideSeenSum">ਤਬਦੀਲੀਆਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ واتس الزهراء ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ।</string>
     <string name="yoHideStatusView">ਵੇਖੋ ਸਥਿਤੀ ਨੂੰ ਲੁਕਾਓ</string>
     <string name="yoHideStatusViewSum">ਸੰਪਰਕਾਂ ਨੂੰ ਇਹ ਨਾ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਉਹਨਾਂ ਦੀ ਸਥਿਤੀ ਦੇਖੀ ਹੈ</string>
     <string name="yoHomeUIStyle">ਨੈਵੀਗੇਸ਼ਨ ਸ਼ੈਲੀ UI</string>
@@ -1140,7 +1140,7 @@
     <string name="yoNicon">ਸੂਚਨਾ ਆਈਕਨ ਬਦਲੋ</string>
     <string name="yoNiconSum">ਇਹ ਉਹ ਆਈਕਨ ਹੈ ਜੋ ਤੁਹਾਡੇ ਸਟੇਟਸ ਬਾਰ ਤੇ ਦਿਖਾਈ ਦੇਵੇਗਾ</string>
     <string name="yoNific">ਨੋਟੀਫਿਕੇਸ਼ਨ ਬਾਰ ਆਈਕਨ ਦੇ ਅੱਗੇ ਸਿਰਫ ਸੁਨੇਹਾ ਭੇਜਣ ਵਾਲੇ ਦਾ ਨਾਮ ਦਿਖਾਓ</string>
-    <string name="yoNoBackup">"'/sdcard/OBWhatsApp' ਵਿੱਚ ਬੈਕਅੱਪ ਨਹੀਂ ਲੱਭ ਸਕਿਆ!"</string>
+    <string name="yoNoBackup">"'/sdcard/واتس الزهراء' ਵਿੱਚ ਬੈਕਅੱਪ ਨਹੀਂ ਲੱਭ ਸਕਿਆ!"</string>
     <string name="yoNotif">ਸੂਚਨਾਵਾਂ ਸੁੰਗੜੋ</string>
     <string name="yoOnline">ਡਿਫੌਲਟ ਰੂਪ ਵਿੱਚ ਸਮਰੱਥ! ਜੇਕਰ ਤੁਸੀਂ ਟੋਸਟ ਔਨਲਾਈਨ ਨਹੀਂ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਇਸਨੂੰ ਕਿਰਿਆਸ਼ੀਲ ਕਰੋ</string>
     <string name="yoOnlineHome">ਸੰਪਰਕ ਔਨਲਾਈਨ/ਆਖਰੀ ਵਾਰ ਵੇਖੀ ਗਈ ਸਥਿਤੀ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਓ</string>
@@ -1150,7 +1150,7 @@
     <string name="yoPrivacySum">ਵਿਸ਼ੇਸ਼ ਗੋਪਨੀਯਤਾ</string>
     <string name="yoProfilePic">ਸੰਪਰਕ ਪ੍ਰੋਫਾਈਲ ਤਸਵੀਰ ਲੁਕਾਓ</string>
     <string name="yoProfilePicS">ਗੱਲਬਾਤ ਸਕ੍ਰੀਨ ਵਿੱਚ ਹੈਡਰ ਤੋਂ ਸੰਪਰਕ ਪ੍ਰੋਫਾਈਲ ਤਸਵੀਰ ਨੂੰ ਹਟਾਓ</string>
-    <string name="yoRestore">OBWhatsApp ਡਾਟਾ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="yoRestore">واتس الزهراء ਡਾਟਾ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰੋ</string>
     <string name="yoRestoreDone">ਰਿਕਵਰੀ ਪੂਰੀ ਹੋਈ!</string>
     <string name="yoRestoreFail">ਰਿਕਵਰੀ ਅਸਫਲ ਰਹੀ!</string>
     <string name="yoRestoreMsg">ਡਾਟਾ ਰਿਕਵਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...</string>
@@ -1165,7 +1165,7 @@
     <string name="yoSendBtn">ਬਟਨ ਦਾ ਰੰਗ ਭੇਜੋ</string>
     <string name="yoSendBtnS">ਗੱਲਬਾਤ ਸਕ੍ਰੀਨ ਤੇ ਭੇਜੋ/ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਬਟਨ ਦਾ ਰੰਗ</string>
     <string name="yoShare">ਸ਼ੇਅਰ ਕਰੋ</string>
-    <string name="yoShareSum">OBWhatsApp ਨੂੰ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="yoShareSum">واتس الزهراء ਨੂੰ ਸਾਂਝਾ ਕਰੋ</string>
     <string name="yoStyling">ਸ਼ੈਲੀ (ਦਿੱਖ ਅਤੇ ਮਹਿਸੂਸ)</string>
     <string name="yoSwipeRow">ਸਵਾਈਪ ਲਾਈਨ</string>
     <string name="yoSwipeRowS">ਤੁਹਾਨੂੰ ਤੇਜ਼ ਕਾਰਵਾਈਆਂ ਲਈ ਗੱਲਬਾਤ ਦੀ ਹਰੇਕ ਲਾਈਨ ਨੂੰ ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਸਵਾਈਪ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ</string>
@@ -1195,7 +1195,7 @@
     <string name="yo_UpToDate">ਤੁਹਾਡਾ ਨਵੀਨਤਮ ਸੰਸਕਰਣ</string>
     <string name="yo_airplane_mode_warning">ਜਦੋਂ ਏਅਰਪਲੇਨ ਮੋਡ ਚਾਲੂ ਹੁੰਦਾ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਸੁਨੇਹੇ ਭੇਜਣ/ਪ੍ਰਾਪਤ ਕਰਨ ਦੇ ਯੋਗ ਨਹੀਂ ਹੋਵੋਗੇ।</string>
     <string name="yo_all">ਸਾਰੇ</string>
-    <string name="yo_changelog">OBWhatsApp ਤਬਦੀਲੀ ਸੂਚੀ</string>
+    <string name="yo_changelog">واتس الزهراء ਤਬਦੀਲੀ ਸੂਚੀ</string>
     <string name="yo_changelogS">ਦੇਖੋ ਕਿ ਇਸ ਸੰਸਕਰਣ ਵਿੱਚ ਨਵਾਂ ਕੀ ਹੈ!</string>
     <string name="yo_enable_old">ਪੁਰਾਣਾ UI (2014)</string>
     <string name="yo_follow">ਅਪਡੇਟ ਰਹਿਣ ਲਈ ਮੇਰਾ ਪਾਲਣ ਕਰੋ!</string>
@@ -1212,7 +1212,7 @@
     <string name="yo_universal">ਆਮ ਰੰਗ</string>
     <string name="yo_universal_sum">UI ਸਮੇਤ, ਕਿਤੇ ਵੀ ਰੰਗ ਬਦਲੋ!</string>
     <string name="yo_webdl">ਵੈੱਬ ਡਾਊਨਲੋਡ ਕਰੋ</string>
-    <string name="yo_webdlS">ਅਧਿਕਾਰਤ ਵੈੱਬਸਾਈਟ ਤੋਂ OBWhatsApp ਡਾਊਨਲੋਡ ਕਰੋ</string>
+    <string name="yo_webdlS">ਅਧਿਕਾਰਤ ਵੈੱਬਸਾਈਟ ਤੋਂ واتس الزهراء ਡਾਊਨਲੋਡ ਕਰੋ</string>
     <string name="yocent">ਗੱਲਬਾਤ ਟੂਲਬਾਰ ਸ਼ੈਲੀ</string>
     <string name="yocentS">ਗੱਲਬਾਤ ਸਕ੍ਰੀਨ ਵਿੱਚ ਸਿਰਲੇਖ ਦੀ ਸ਼ੈਲੀ ਬਦਲੋ</string>
     <string name="yoconh">ਘਰੇਲੂ ਸ਼ੈਲੀ</string>
@@ -1228,7 +1228,7 @@
     <string name="yo_activate">ਸਰਗਰਮ ਕਰੋ</string>
     <string name="airplane_mode">ਏਅਰਪਲੇਨ ਮੋਡ</string>
     <string name="yo_FoundUp">ਨਵਾਂ ਅੱਪਡੇਟ ਮਿਲਿਆ! ਨਵੀਨਤਮ WhatsApp ਸੰਸਕਰਣ %s ਹੈ</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">Google+ WhatsApp ਭਾਈਚਾਰੇ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ</string>
     <string name="yoUpdate">ਇੱਕ ਕਥਾ ਨੂੰ ਸ਼ਰਧਾਂਜਲੀ!</string>
     <string name="yoReport">ਕੋਈ ਸਮੱਸਿਆ ਹੈ? ਸਾਨੂੰ ਈਮੇਲ ਕਰੋ!</string>
@@ -1326,7 +1326,7 @@
     <string name="media_in_gallery">ਜੇਕਰ ਮੀਡੀਆ ਅਜੇ ਵੀ ਗੈਲਰੀ ਵਿੱਚ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦਾ ਹੈ</string>
     <string name="restart_phone">ਆਪਣਾ ਫ਼ੋਨ ਰੀਸਟਾਰਟ ਕਰੋ</string>
     <string name="add_account">ਖਾਤਾ ਬਦਲੋ</string>
-    <string name="info_add_this_account">ਨੋਟ: OBWhatsApp ਵਿੱਚ ਨਵਾਂ ਖਾਤਾ ਸ਼ਾਮਲ ਕਰਨ ਦੀ ਵਿਸ਼ੇਸ਼ਤਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ, ਕਿਰਪਾ ਕਰਕੇ OBWA ਸੈਟਿੰਗਾਂ > ਯੂਨੀਵਰਸਲ > ਬੈਕਅੱਪ ਅਤੇ ਰੀਸਟੋਰ > ਬੈਕਅੱਪ OBWhatsApp ਡਾਟਾ ਤੋਂ ਡਾਟਾ ਬੈਕਅੱਪ ਕਰੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਗੱਲਬਾਤ ਗੁਆ ਨਾ ਜਾਓ, ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਸ ਖਾਤੇ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="info_add_this_account">ਨੋਟ: واتس الزهراء ਵਿੱਚ ਨਵਾਂ ਖਾਤਾ ਸ਼ਾਮਲ ਕਰਨ ਦੀ ਵਿਸ਼ੇਸ਼ਤਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ, ਕਿਰਪਾ ਕਰਕੇ OBWA ਸੈਟਿੰਗਾਂ > ਯੂਨੀਵਰਸਲ > ਬੈਕਅੱਪ ਅਤੇ ਰੀਸਟੋਰ > ਬੈਕਅੱਪ واتس الزهراء ਡਾਟਾ ਤੋਂ ਡਾਟਾ ਬੈਕਅੱਪ ਕਰੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਗੱਲਬਾਤ ਗੁਆ ਨਾ ਜਾਓ, ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਸ ਖਾਤੇ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
     <string name="Online">ਔਨਲਾਈਨ</string>
     <string name="Mask_media">ਕਸਟਮ ਮੀਡੀਆ ਆਟੋ ਡਾਊਨਲੋਡ ਕਰੋ</string>
     <string name="specificMedia_sum">ਹਰੇਕ ਸੰਪਰਕ/ਸਮੂਹ ਲਈ ਮੀਡੀਆ ਡਾਊਨਲੋਡ ਵਿਕਲਪਾਂ ਨੂੰ ਵੱਖਰੇ ਤੌਰ ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ</string>
@@ -1452,7 +1452,7 @@
     <string name="mesaj_sifreleme_sifredegistir_1">ਪਾਸਵਰਡ ਬਦਲੋ</string>
     <string name="mesaj_sifreleme_sifredegistir_2">"ਤੁਸੀਂ ਆਪਣੇ ਦੁਆਰਾ ਸੈੱਟ ਕੀਤੇ ਪਾਸਵਰਡ ਨਾਲ ਏਨਕ੍ਰਿਪਟ ਕੀਤੇ ਸੁਨੇਹੇ ਭੇਜ ਸਕਦੇ ਹੋ, ਜਾਂ ਤੁਹਾਡੇ ਦੁਆਰਾ ਪ੍ਰਾਪਤ ਕੀਤੇ ਸੁਨੇਹਿਆਂ ਨੂੰ ਉਸ ਪਾਸਵਰਡ ਨਾਲ ਡੀਕ੍ਰਿਪਟ ਕੀਤਾ ਹੋਇਆ ਹੈ। ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਗੱਲਬਾਤ ਵਿੱਚ ਇਸ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ: ਸੁਨੇਹੇ ਨੂੰ ਦਬਾਓ ਅਤੇ ਹੋਲਡ ਕਰੋ >> ਫਿਰ ਡੀਕ੍ਰਿਪਸ਼ਨ ਪੈਨਲ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਉੱਪਰ ਦਿੱਤੇ 3 ਬਿੰਦੀਆਂ ਤੇ ਟੈਪ ਕਰੋ। "</string>
     <string name="mesaj_sifreleme_baslik">ਵਰਣਨ</string>
-    <string name="mesaj_sifreleme_bilgi">ਹੈਲੋ, ਮੈਂ ਹੁਣੇ ਇੱਕ ਐਨਕ੍ਰਿਪਟਡ ਸੁਨੇਹਾ ਭੇਜਿਆ ਹੈ। ਇਹ ਐਨਕ੍ਰਿਪਟਡ ਸੁਨੇਹਾ ਵਿਸ਼ੇਸ਼ਤਾ OBWhatsApp ਦੀਆਂ ਸੈਂਕੜੇ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ ਅਤੇ ਤੁਸੀਂ ਇਹਨਾਂ ਐਨਕ੍ਰਿਪਟਡ ਸੁਨੇਹਿਆਂ ਨੂੰ OBWhatsApp ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਹੀ ਦੇਖ ਸਕਦੇ ਹੋ। OBWhatsApp ਅਤੇ ਹੋਰ ਮਦਾਲਾ ਐਪਾਂ ਲਈ ਅਧਿਕਾਰਤ ਡਾਊਨਲੋਡ ਲਿੰਕ: https://ww.download4.app/wa (ਇਹ ਇੱਕ ਸਵੈਚਲਿਤ ਸੁਨੇਹਾ ਹੈ ਅਤੇ ਇੱਕ ਵਾਰ ਭੇਜਿਆ ਜਾਂਦਾ ਹੈ।)</string>
+    <string name="mesaj_sifreleme_bilgi">ਹੈਲੋ, ਮੈਂ ਹੁਣੇ ਇੱਕ ਐਨਕ੍ਰਿਪਟਡ ਸੁਨੇਹਾ ਭੇਜਿਆ ਹੈ। ਇਹ ਐਨਕ੍ਰਿਪਟਡ ਸੁਨੇਹਾ ਵਿਸ਼ੇਸ਼ਤਾ واتس الزهراء ਦੀਆਂ ਸੈਂਕੜੇ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ ਅਤੇ ਤੁਸੀਂ ਇਹਨਾਂ ਐਨਕ੍ਰਿਪਟਡ ਸੁਨੇਹਿਆਂ ਨੂੰ واتس الزهراء ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਹੀ ਦੇਖ ਸਕਦੇ ਹੋ। واتس الزهراء ਅਤੇ ਹੋਰ ਮਦਾਲਾ ਐਪਾਂ ਲਈ ਅਧਿਕਾਰਤ ਡਾਊਨਲੋਡ ਲਿੰਕ: https://ww.download4.app/wa (ਇਹ ਇੱਕ ਸਵੈਚਲਿਤ ਸੁਨੇਹਾ ਹੈ ਅਤੇ ਇੱਕ ਵਾਰ ਭੇਜਿਆ ਜਾਂਦਾ ਹੈ।)</string>
     <string name="mesaj_sifreleme_panel_baslik">ਸੁਨੇਹਾ ਵੇਰਵਾ:</string>
     <string name="mesaj_sifreleme_panel_parola">ਪਾਸਵਰਡ ਡਿਕ੍ਰਿਪਸ਼ਨ:</string>
     <string name="mesaj_sifreleme_hata">ਅਵੈਧ ਸੁਨੇਹਾ ਟੈਕਸਟ ਇਨਕ੍ਰਿਪਸ਼ਨ ਜਾਂ ਪਾਸਵਰਡ!</string>
@@ -1461,7 +1461,7 @@
     <string name="mesaj_sifreleme_etkin_a">ਵਧੀਆ। ਕਿਸੇ ਵੀ ਵਿਅਕਤੀ ਜਾਂ ਸਮੂਹ ਨੂੰ ਸੁਨੇਹਾ ਲਿਖੋ ਅਤੇ ਭੇਜੋ ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖੋ! ਸੁਨੇਹਾ ਐਨਕ੍ਰਿਪਸ਼ਨ ਪਾਸਵਰਡ ਬਦਲਣ ਲਈ, ਹੇਠਾਂ ਦਿੱਤੇ ਵਿਕਲਪਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ ਜਾਂ ਕਿਸੇ ਵੀ ਸੰਦੇਸ਼ ਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਦਿਖਾਈ ਦੇਣ ਵਾਲੇ ਵਿਕਲਪਾਂ ਵਿੱਚੋਂ ਡੀਕ੍ਰਿਪਸ਼ਨ ਪੈਨਲ ਵਿੱਚ ਦਾਖਲ ਹੋਵੋ।</string>
     <string name="mesaj_sifreleme_etkin_b">ਸੁਨੇਹਾ ਇਨਕ੍ਰਿਪਸ਼ਨ ਅਯੋਗ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।</string>
     <string name="mesaj_sifreleme_bilgi_etkin">ਜਾਣਕਾਰੀ ਸੁਨੇਹਾ ਭੇਜੋ</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">ਅਸੀਂ ਉਸ ਵਿਅਕਤੀ/ਸਮੂਹ ਨੂੰ ਸੂਚਿਤ ਕਰਾਂਗੇ ਜਿਸਨੇ ਏਨਕ੍ਰਿਪਟਡ ਸੁਨੇਹਾ ਭੇਜਿਆ ਹੈ ਕਿ ਸੁਨੇਹੇ ਨੂੰ OBWhatsApp ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਡੀਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">ਅਸੀਂ ਉਸ ਵਿਅਕਤੀ/ਸਮੂਹ ਨੂੰ ਸੂਚਿਤ ਕਰਾਂਗੇ ਜਿਸਨੇ ਏਨਕ੍ਰਿਪਟਡ ਸੁਨੇਹਾ ਭੇਜਿਆ ਹੈ ਕਿ ਸੁਨੇਹੇ ਨੂੰ واتس الزهراء ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਡੀਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।</string>
     <string name="mesaj_sifreleme_panel_arkaplan">ਡੀਕੋਡਰ ਪੈਨਲ ਬੈਕਗ੍ਰਾਊਂਡ ਰੰਗ</string>
     <string name="mesaj_sifreleme_panel_metin">ਸੈੱਟ-ਟਾਪ ਬਾਕਸ ਵਿੱਚ ਟੈਕਸਟ ਦਾ ਰੰਗ।</string>
     <string name="mesaj_sifreleme_panel_metin1">ਸੈੱਟ-ਟਾਪ ਬਾਕਸ ਵਿੱਚ ਟਾਈਟਲ ਟੈਕਸਟ ਦਾ ਰੰਗ।</string>
@@ -1586,7 +1586,7 @@
     <string name="abu_arab_hideprivacy">ਗੋਪਨੀਯਤਾ ਵਿਕਲਪ ਨੂੰ ਲੁਕਾਓ</string>
     <string name="abu_arab_hideprivacysum">ਹੋਮ ਸਕ੍ਰੀਨ ਵਿਕਲਪ ਮੀਨੂ ਤੋਂ ਪਰਦੇਦਾਰੀ ਵਿਕਲਪ ਨੂੰ ਲੁਕਾਓ।</string>
     <string name="abu_arab_hidecupdates">ਅੱਪਡੇਟ ਵਿਕਲਪ ਨੂੰ ਲੁਕਾਓ</string>
-    <string name="abu_arab_hidecupdatesum">ਹੋਮ ਸਕ੍ਰੀਨ ਵਿਕਲਪ ਮੀਨੂ ਤੋਂ OBWhatsApp ਅੱਪਡੇਟ ਵਿਕਲਪ ਨੂੰ ਲੁਕਾਓ।</string>
+    <string name="abu_arab_hidecupdatesum">ਹੋਮ ਸਕ੍ਰੀਨ ਵਿਕਲਪ ਮੀਨੂ ਤੋਂ واتس الزهراء ਅੱਪਡੇਟ ਵਿਕਲਪ ਨੂੰ ਲੁਕਾਓ।</string>
     <string name="abu_arab_roundedQuickContact_title">ਤੁਰੰਤ ਸੰਪਰਕ ਬੈਕਗ੍ਰਾਊਂਡ ਕੋਨਾ</string>
     <string name="abu_arab_background_quickcontact">ਤੁਰੰਤ ਸੰਪਰਕ ਬੈਕਗਰਾਊਂਡ</string>
     <string name="abu_arab_background_quick2">ਦੂਜਾ ਪਿਛੋਕੜ2</string>
@@ -1658,7 +1658,7 @@ _*ਪੁਰਾਣਾ ਸੁਨੇਹਾ*_:
     <string name="abuarabghostlog_sum">ਘੋਸਟ ਮੋਡ ਨੂੰ ਕਿਵੇਂ ਸੈਟ ਅਪ ਕਰਨਾ ਹੈ ਇਹ ਜਾਣਨ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</string>
     <string name="abo_arab_activate_mas">ਭੂਤ ਮੋਡ</string>
     <string name="yo_sethidepass">ਚੈਟ ਨੂੰ ਲੁਕਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਪਿੰਨ/ਪੈਟਰਨ ਸੈੱਟ ਕਰੋ!</string>
-    <string name="yoShareSum_abo_arab">OBWhatsApp ਨੂੰ ਆਪਣੇ ਦੋਸਤਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ ❤️!</string>
+    <string name="yoShareSum_abo_arab">واتس الزهراء ਨੂੰ ਆਪਣੇ ਦੋਸਤਾਂ ਨਾਲ ਸਾਂਝਾ ਕਰੋ ❤️!</string>
     <string name="abu_arab_dm">ਐਂਟੀ ਗਾਇਬ ਹੋਣ ਵਾਲੇ ਸੁਨੇਹੇ</string>
     <string name="abu_arab_dm_sum">ਜੇਕਰ ਗਾਇਬ ਹੋਣ ਵਾਲੇ ਸੁਨੇਹੇ ਸਰਗਰਮ ਹਨ, ਤਾਂ ਸੁਨੇਹੇ ਤੁਹਾਡੇ ਪਾਸੋਂ ਨਹੀਂ ਮਿਟਣਗੇ</string>
     <string name="color_hex_invalid">ਅਵੈਧ ਰੰਗ</string>
@@ -1674,7 +1674,7 @@ _*ਪੁਰਾਣਾ ਸੁਨੇਹਾ*_:
     <string name="limit">ਸਿਰਫ਼ ਆਖਰੀ ਘੰਟੇ ਦਿਖਾਓ</string>
     <string name="read_log_pref">ਲੌਗ ਖੋਲ੍ਹੋ</string>
     <string name="show_name">ਨਾਮ ਦਿਖਾਓ</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">ਦਿੱਖ</string>
     <string name="yoImgQuickCamHold">ਪੂਰਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਫਾਸਟ ਕੈਮਰਾ</string>
     <string name="yoImgQuickCamHoldSum">ਪੂਰਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਚਿੱਤਰ ਭੇਜਣ ਲਈ ਤੇਜ਼ ਕੈਮਰਾ ਬਟਨ ਨੂੰ ਦਬਾਓ ਅਤੇ ਹੋਲਡ ਕਰੋ</string>

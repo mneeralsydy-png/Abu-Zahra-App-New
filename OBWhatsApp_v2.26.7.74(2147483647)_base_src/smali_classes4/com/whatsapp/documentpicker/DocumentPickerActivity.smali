@@ -1093,7 +1093,7 @@
 
     move-result-object v2
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     const/4 v0, 0x1
 

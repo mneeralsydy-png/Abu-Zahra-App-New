@@ -342,7 +342,7 @@
 
     invoke-direct {v1, v2, v2, v0}, LX/00L;-><init>(ZZZ)V
 
-    const-string v0, "com.obwhatsapp_preferences_light"
+    const-string v0, "com.zahra.whatsapp_preferences_light"
 
     invoke-virtual {v4, v1, v0}, LX/00W;->A02(LX/00L;Ljava/lang/String;)Landroid/content/SharedPreferences;
 

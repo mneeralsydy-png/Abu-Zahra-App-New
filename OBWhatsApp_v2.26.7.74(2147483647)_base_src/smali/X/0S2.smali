@@ -1146,13 +1146,13 @@
 
     move-result-object v1
 
-    const-string v0, "null cannot be cast to non-null type com.obwhatsapp.Me"
+    const-string v0, "null cannot be cast to non-null type com.zahra.whatsapp.Me"
 
     invoke-static {v1, v0}, LX/00C;->A0C(Ljava/lang/Object;Ljava/lang/String;)V
 
-    check-cast v1, Lcom/obwhatsapp/Me;
+    check-cast v1, Lcom/zahra/whatsapp/Me;
 
-    iget-object v7, v1, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v7, v1, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-eqz v7, :cond_5
     :try_end_2

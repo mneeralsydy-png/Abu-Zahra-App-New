@@ -494,7 +494,7 @@
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    invoke-static {v4}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v4}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v4
 
@@ -514,7 +514,7 @@
 
     move-result-object v2
 
-    iget-object v1, v4, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v4, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     const-string v0, "pref_country_code_of_logged_out_user"
 
@@ -528,7 +528,7 @@
 
     move-result-object v2
 
-    iget-object v1, v4, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v1, v4, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     const-string v0, "pref_phone_number_of_logged_out_user"
 

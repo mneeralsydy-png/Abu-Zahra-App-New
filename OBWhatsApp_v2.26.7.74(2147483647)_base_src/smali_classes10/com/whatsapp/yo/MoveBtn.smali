@@ -54,7 +54,7 @@
 
     new-instance p1, Ljava/io/File;
 
-    const-string v1, "OBWhatsApp"
+    const-string v1, "Abu Zahra WhatsApp"
 
     invoke-direct {p1, v0, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
@@ -94,7 +94,7 @@
 
     new-instance p1, Ljava/io/File;
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     invoke-direct {p1, p2, v0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
@@ -134,7 +134,7 @@
 
     new-instance p1, Ljava/io/File;
 
-    const-string p3, "OBWhatsApp"
+    const-string p3, "Abu Zahra WhatsApp"
 
     invoke-direct {p1, p2, p3}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
@@ -178,7 +178,7 @@
 
     new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v2, "OBWhatsApp("
+    const-string v2, "Abu Zahra WhatsApp("
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -255,7 +255,7 @@
 
     new-instance v4, Ljava/lang/StringBuilder;
 
-    const-string v5, "OBWhatsApp"
+    const-string v5, "Abu Zahra WhatsApp"
 
     invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public A00:Lcom/obwhatsapp/Me;
+.field public A00:Lcom/zahra/whatsapp/Me;
 
 .field public A01:LX/0xc;
 
@@ -216,10 +216,10 @@
     throw v0
 .end method
 
-.method public static A02(Lcom/obwhatsapp/Me;LX/07t;)V
+.method public static A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
     .locals 4
 
-    iput-object p0, p1, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iput-object p0, p1, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     const/4 v3, 0x0
 
@@ -236,7 +236,7 @@
 
     :goto_0
     :try_start_0
-    iget-object v1, p0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v1, p0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
@@ -321,7 +321,7 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v0, p1, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, p1, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -520,7 +520,7 @@
     throw v0
 .end method
 
-.method public static A04(Lcom/obwhatsapp/Me;Ljava/lang/String;)Z
+.method public static A04(Lcom/zahra/whatsapp/Me;Ljava/lang/String;)Z
     .locals 4
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -660,7 +660,7 @@
     return v0
 .end method
 
-.method public A06()Lcom/obwhatsapp/Me;
+.method public A06()Lcom/zahra/whatsapp/Me;
     .locals 5
 
     const-string v0, "memanager/getoldme"
@@ -711,7 +711,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/obwhatsapp/Me;
+    check-cast v0, Lcom/zahra/whatsapp/Me;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
@@ -1108,7 +1108,7 @@
 
     invoke-virtual {p0}, LX/07t;->A0I()V
 
-    invoke-static {v0, p0}, LX/07t;->A02(Lcom/obwhatsapp/Me;LX/07t;)V
+    invoke-static {v0, p0}, LX/07t;->A02(Lcom/zahra/whatsapp/Me;LX/07t;)V
 
     return-void
 .end method

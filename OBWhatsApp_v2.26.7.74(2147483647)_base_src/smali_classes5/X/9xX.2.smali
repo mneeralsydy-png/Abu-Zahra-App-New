@@ -251,7 +251,7 @@
 
     check-cast v4, LX/A0M;
 
-    const-string v8, "com.obwhatsapp"
+    const-string v8, "com.zahra.whatsapp"
 
     iget v5, v4, LX/A0M;->A00:I
 

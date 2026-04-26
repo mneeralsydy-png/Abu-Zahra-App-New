@@ -51,7 +51,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/obwhatsapp/Me;LX/2rJ;LX/CA9;Ljava/lang/String;Ljava/lang/String;LX/0gH;)V
+.method public constructor <init>(Lcom/zahra/whatsapp/Me;LX/2rJ;LX/CA9;Ljava/lang/String;Ljava/lang/String;LX/0gH;)V
     .locals 1
 
     const/4 v0, 0x1
@@ -96,7 +96,7 @@
 
     iget-object v1, p0, LX/DI1;->A02:Ljava/lang/Object;
 
-    check-cast v1, Lcom/obwhatsapp/Me;
+    check-cast v1, Lcom/zahra/whatsapp/Me;
 
     iget-object v4, p0, LX/DI1;->A06:Ljava/lang/String;
 
@@ -106,7 +106,7 @@
 
     move-object v6, p2
 
-    invoke-direct/range {v0 .. v6}, LX/DI1;-><init>(Lcom/obwhatsapp/Me;LX/2rJ;LX/CA9;Ljava/lang/String;Ljava/lang/String;LX/0gH;)V
+    invoke-direct/range {v0 .. v6}, LX/DI1;-><init>(Lcom/zahra/whatsapp/Me;LX/2rJ;LX/CA9;Ljava/lang/String;Ljava/lang/String;LX/0gH;)V
 
     iput-object p1, v0, LX/DI1;->A01:Ljava/lang/Object;
 
@@ -236,11 +236,11 @@
 
     iget-object v1, v0, LX/DI1;->A02:Ljava/lang/Object;
 
-    check-cast v1, Lcom/obwhatsapp/Me;
+    check-cast v1, Lcom/zahra/whatsapp/Me;
 
-    iget-object v5, v1, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v5, v1, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v2, v1, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v2, v1, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     sget-object v1, LX/0JT;->A06:Ljava/nio/charset/Charset;
 

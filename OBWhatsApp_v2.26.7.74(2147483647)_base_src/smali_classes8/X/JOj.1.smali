@@ -120,7 +120,7 @@
 
     check-cast v1, Landroid/content/Intent;
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     goto :goto_0
 

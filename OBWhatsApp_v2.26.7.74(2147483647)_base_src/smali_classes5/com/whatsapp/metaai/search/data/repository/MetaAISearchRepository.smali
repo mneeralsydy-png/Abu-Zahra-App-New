@@ -1377,7 +1377,7 @@
 
     iget-object v0, v6, LX/9S4;->A00:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v8
 
@@ -1405,7 +1405,7 @@
     goto :goto_2
 
     :goto_1
-    invoke-static {v8}, LX/5oR;->A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+    invoke-static {v8}, LX/5oR;->A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
 
     move-result-object v2
 

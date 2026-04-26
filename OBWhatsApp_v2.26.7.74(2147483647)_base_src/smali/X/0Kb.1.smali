@@ -65,7 +65,7 @@
 .method public static constructor <clinit>()V
     .locals 3
 
-    const-string v2, "OBWhatsApp"
+    const-string v2, "Abu Zahra WhatsApp"
 
     new-instance v1, Ljava/lang/StringBuilder;
 

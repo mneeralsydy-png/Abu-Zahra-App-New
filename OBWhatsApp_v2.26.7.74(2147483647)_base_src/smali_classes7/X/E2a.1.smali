@@ -37,7 +37,7 @@
 
     iput-object v0, p0, LX/E2a;->A02:LX/F0B;
 
-    const-string v3, "com.obwhatsapp"
+    const-string v3, "com.zahra.whatsapp"
 
     instance-of v0, p1, Landroid/app/Activity;
 

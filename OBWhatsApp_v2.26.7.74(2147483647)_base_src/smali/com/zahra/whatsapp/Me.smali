@@ -1,4 +1,4 @@
-.class public Lcom/obwhatsapp/Me;
+.class public Lcom/zahra/whatsapp/Me;
 .super Ljava/lang/Object;
 .source ""
 
@@ -24,11 +24,11 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iput-object p1, p0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iput-object p2, p0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iput-object p3, p0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     return-void
 .end method

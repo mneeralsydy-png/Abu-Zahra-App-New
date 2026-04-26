@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const-string v3, "com.obwhatsapp"
+    const-string v3, "com.zahra.whatsapp"
 
     iget-object v0, v0, LX/0fh;->A00:Landroid/content/Context;
 

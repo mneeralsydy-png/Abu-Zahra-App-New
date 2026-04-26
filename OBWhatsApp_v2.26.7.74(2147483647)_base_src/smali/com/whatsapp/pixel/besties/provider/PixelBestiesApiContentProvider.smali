@@ -386,7 +386,7 @@
     :cond_0
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_3
 
@@ -625,7 +625,7 @@
 
     const/4 v0, 0x2
 
-    const-string v2, "com.obwhatsapp.pixel.besties.provider"
+    const-string v2, "com.zahra.whatsapp.pixel.besties.provider"
 
     invoke-virtual {v3, v2, v1, v0}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -1520,7 +1520,7 @@
 
     move-result-object v1
 
-    const-string v0, "com.obwhatsapp.pixel.besties.provider"
+    const-string v0, "com.zahra.whatsapp.pixel.besties.provider"
 
     invoke-static {v1, v0}, LX/00C;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
 

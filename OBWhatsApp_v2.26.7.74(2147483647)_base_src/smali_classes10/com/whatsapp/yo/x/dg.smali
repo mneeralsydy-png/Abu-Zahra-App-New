@@ -126,7 +126,7 @@
 
     invoke-virtual {v0, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     invoke-virtual {v0, v2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 

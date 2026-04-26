@@ -308,12 +308,12 @@
     return-object v0
 .end method
 
-.method public static A0O(LX/07t;)Lcom/obwhatsapp/Me;
+.method public static A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
     .locals 0
 
     invoke-virtual {p0}, LX/07t;->A0I()V
 
-    iget-object p0, p0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object p0, p0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     return-object p0
 .end method

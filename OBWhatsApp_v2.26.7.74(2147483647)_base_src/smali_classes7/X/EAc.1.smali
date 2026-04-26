@@ -40,7 +40,7 @@
 .method public static A01(Landroid/os/Parcel;Ljava/lang/String;I)V
     .locals 1
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {p0, p2}, Landroid/os/Parcel;->writeInt(I)V
 

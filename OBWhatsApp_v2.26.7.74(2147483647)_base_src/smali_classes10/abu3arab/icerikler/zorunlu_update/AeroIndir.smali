@@ -84,7 +84,7 @@
 
     move-result-object p0
 
-    const-string p1, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string p1, "https://ww.download4.app/wa"
 
     invoke-static {p0, p1}, Lcom/whatsapp/youbasha/task/utils;->openLink(Landroid/content/Context;Ljava/lang/String;)V
 

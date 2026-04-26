@@ -43,7 +43,7 @@
 .method public constructor <init>(LX/Eal;I)V
     .locals 5
 
-    const-string v4, "com.obwhatsapp"
+    const-string v4, "com.zahra.whatsapp"
 
     const/4 v3, -0x1
 

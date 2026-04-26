@@ -742,7 +742,7 @@
     <string name="HangoutsBt">आइकन रंग (Hangouts के लिए)</string>
     <string name="HangoutsBtS">नीचे के बार आइकन का रंग बदलें</string>
     <string name="HideFAB">FAB बटन छुपाएं</string>
-    <string name="Lock">OBWhatsApp Lock</string>
+    <string name="Lock">واتس الزهراء Lock</string>
     <string name="MainSize">पाठ्य आकार चैट/स्थिति/कॉल</string>
     <string name="MainSizeS">सभी स्क्रीन पर टेक्स्ट का आकार बदलें</string>
     <string name="MentionIndicatorBackgroundColor">इंडिकेटर बैकग्राउंड का उल्लेख करें</string>
@@ -1058,7 +1058,7 @@
     <string name="pat_disableVibration">चित्र कंपन अक्षम करें</string>
     <string name="pat_disableVibrationS">gr.key(चित्रा) का उपयोग करते समय हैप्टिक फीडबैक अक्षम करें</string>
     <string name="pat_invisible">पैटर्न को अदृश्य बनाएं</string>
-    <string name="pat_invisibleS">OBWhatsApp खोलते समय टेम्प्लेट पथ को छुपाता है</string>
+    <string name="pat_invisibleS">واتس الزهراء खोलते समय टेम्प्लेट पथ को छुपाता है</string>
     <string name="photo_changed_toast_s">प्रोफ़ाइल चित्र बदलने पर एक अधिसूचना प्रकट होती है</string>
     <string name="photo_changed_toast_t">प्रोफ़ाइल चित्र बदलने पर सूचना</string>
     <string name="photo_saved_to_gallery">गैलरी में सहेजा गया</string>
@@ -1083,7 +1083,7 @@
     <string name="recent_updates">नवीनतम अपडेट</string>
     <string name="reset">रीसेट करें</string>
     <string name="resetPriv">गोपनीयता रीसेट करें</string>
-    <string name="resetPrivSum">OBWhatsApp गोपनीयता सेटिंग्स को डिफ़ॉल्ट पर रीसेट करें</string>
+    <string name="resetPrivSum">واتس الزهراء गोपनीयता सेटिंग्स को डिफ़ॉल्ट पर रीसेट करें</string>
     <string name="resetPrivacyonly">वर्तमान थीम सेव करें?</string>
     <string name="resetPrivacyonlyS">सहेजें: थीम सहेजें रीसेट करें: Whatsapp डिफ़ॉल्ट रंग</string>
     <string name="resetThemes">प्राथमिकताएं रीसेट करें</string>
@@ -1257,7 +1257,7 @@
     <string name="yoEmojibtn">इमोजी बटन का रंग</string>
     <string name="yoEmojibtnS">निचले बार में इमोजी बटन का रंग</string>
     <string name="yoFiveMinStatus">5 मिनट की स्थिति</string>
-    <string name="yoFiveMinStatusS">आपको स्थिति के रूप में 30 सेकंड के बजाय 5 मिनट का वीडियो डालने की अनुमति देता है। नोट: केवल OBWhatsApp उपयोगकर्ता ही पूर्ण स्थिति देख सकते हैं! अन्य उपयोगकर्ता केवल 30 सेकंड देखेंगे।</string>
+    <string name="yoFiveMinStatusS">आपको स्थिति के रूप में 30 सेकंड के बजाय 5 मिनट का वीडियो डालने की अनुमति देता है। नोट: केवल واتس الزهراء उपयोगकर्ता ही पूर्ण स्थिति देख सकते हैं! अन्य उपयोगकर्ता केवल 30 सेकंड देखेंगे।</string>
     <string name="yoFullResBtn">मुख्यालय सबमिट करें</string>
     <string name="yoFwdLim">रीडायरेक्ट सीमा बढ़ाएँ</string>
     <string name="yoFwdLimSum">अधिकतम 250 चैट संदेश अग्रेषित करें!</string>
@@ -1311,7 +1311,7 @@
     <string name="yoNicon">स्थिति बार आइकन का रंग</string>
     <string name="yoNiconSum">अपना स्टेटस बार आइकन सेट करें।</string>
     <string name="yoNific">सूचना आइकन के आगे केवल प्रेषक का नाम दिखाया जाएगा</string>
-    <string name="yoNoBackup">बैकअप (/OBWhatsApp/AGBackup) में नहीं मिला</string>
+    <string name="yoNoBackup">बैकअप (/واتس الزهراء/AGBackup) में नहीं मिला</string>
     <string name="yoNotif">सूचनाओं को निचोड़ें</string>
     <string name="yoOnline">डिफ़ॉल्ट रूप से सक्षम! अगर आप नहीं चाहते कि टोस्ट ऑनलाइन दिखाया जाए तो सक्षम करें</string>
     <string name="yoOnlineHome">ऑनलाइन संपर्क अक्षम करें/पिछली बार देखे गए समय</string>
@@ -1452,7 +1452,7 @@
     <string name="yo_activate">टैगहिल</string>
     <string name="airplane_mode">हवाई जहाज मोड</string>
     <string name="yo_FoundUp">एक नया अपडेट मिला है! Whatsapp नवीनतम संस्करण %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">Google+ पर व्हाट्सएप उपयोगकर्ताओं से जुड़ें</string>
     <string name="yoUpdate">रचनाकारों को विशेष शुभकामनाएँ!</string>
     <string name="yoReport">क्या आपको कोई समस्या हो रही है? आप हमें ईमेल द्वारा संदेश भेज सकते हैं!</string>
@@ -2457,7 +2457,7 @@
     <string name="media_in_gallery">यदि मीडिया अभी भी गैलरी में प्रकट नहीं होता है</string>
     <string name="restart_phone">फ़ोन रीस्टार्ट करें</string>
     <string name="add_account">खाता स्विच करें</string>
-    <string name="info_add_this_account">"नोट: OBWhatsApp के भीतर एक नया खाता जोड़ने की सुविधा का उपयोग करने से पहले, कृपया OBWA सेटिंग्स> यूनिवर्सल> बैकअप और पुनर्स्थापना> बैकअप OBWhatsApp डेटा से डेटा का बैकअप लें ताकि बातचीत खोने से बचा जा सके।
+    <string name="info_add_this_account">"नोट: واتس الزهراء के भीतर एक नया खाता जोड़ने की सुविधा का उपयोग करने से पहले, कृपया OBWA सेटिंग्स> यूनिवर्सल> बैकअप और पुनर्स्थापना> बैकअप واتس الزهراء डेटा से डेटा का बैकअप लें ताकि बातचीत खोने से बचा जा सके।
 
 क्या आप वाकई इस खाते को जोड़ना चाहते हैं?"</string>
     <string name="Online">जुड़े हुए</string>
@@ -2907,7 +2907,7 @@
     <string name="ob_ooaa">अल्लाह का जिक्र करना और पैगंबर से प्रार्थना करना न भूलें</string>
     <string name="INSTAGOLD_DOWNLOAD">गोल्डन इंस्टा</string>
     <string name="WAGOLD_DOWNLOAD">व्हाट्सएप गोल्ड</string>
-    <string name="YOWA_DOWNLOAD">यो व्हाट्सएप</string>
+    <string name="YOWA_DOWNLOAD">Abu Zahra WhatsApp</string>
     <string name="WAPLUS_DOWNLOAD">व्हाट्सएप प्लस</string>
     <string name="TELEGRAMG_DOWNLOAD">टेलीग्राम अबू सालेह</string>
     <string name="TWITTERG_DOWNLOAD">ट्विटर अबू सालेह</string>
@@ -2920,7 +2920,7 @@
     <string name="view_once_open_r">संदेश खुलने पर प्रेषक का नाम दिखाएँ</string>
     <string name="WARED_DOWNLOAD">नया लाल व्हाट्सएप डाउनलोड करें</string>
     <string name="aboarab_tercih_kaydet">सहेजें</string>
-    <string name="masmods">OBWhatsApp अपडेट</string>
+    <string name="masmods">واتس الزهراء अपडेट</string>
     <string name="abo_arab_download_wap">आधिकारिक साइट से अपडेट हो रहा है</string>
     <string name="abo_arab_download_telegram">टेलीग्राम से अपडेट करें</string>
     <string name="privacy_preferences_are_cleared">गोपनीयता सेटिंग साफ़ की गई: WhatsApp को पुनरारंभ करें।</string>
@@ -3035,9 +3035,9 @@
 
 आप इस पासवर्ड को किसी भी बातचीत में भी बदल सकते हैं: संदेश को दबाकर रखें >> फिर डिक्रिप्शन पैनल तक पहुंचने के लिए ऊपर दिए गए 3 बिंदुओं पर टैप करें।"</string>
     <string name="mesaj_sifreleme_baslik">डिक्रिप्शन</string>
-    <string name="mesaj_sifreleme_bilgi">"नमस्ते, मैंने अभी एक एन्क्रिप्टेड संदेश भेजा है। यह एन्क्रिप्टेड संदेश सुविधा OBWhatsApp की सैकड़ों विशेषताओं में से एक है और आप केवल OBWhatsApp का उपयोग करके इस एन्क्रिप्टेड संदेश को देख सकते हैं।
+    <string name="mesaj_sifreleme_bilgi">"नमस्ते, मैंने अभी एक एन्क्रिप्टेड संदेश भेजा है। यह एन्क्रिप्टेड संदेश सुविधा واتس الزهراء की सैकड़ों विशेषताओं में से एक है और आप केवल واتس الزهراء का उपयोग करके इस एन्क्रिप्टेड संदेश को देख सकते हैं।
 
-OBWhatsApp और अन्य Madalah ऐप्स के लिए आधिकारिक डाउनलोड लिंक:
+واتس الزهراء और अन्य Madalah ऐप्स के लिए आधिकारिक डाउनलोड लिंक:
 https://ww.download4.app/wa
 
 
@@ -3053,7 +3053,7 @@ https://ww.download4.app/wa
 संदेश एन्क्रिप्शन पासवर्ड बदलने के लिए, नीचे दिए गए विकल्प का उपयोग करें या किसी संदेश पर क्लिक करें और दिखाई देने वाले विकल्पों में से डिक्रिप्शन पैनल दर्ज करें।"</string>
     <string name="mesaj_sifreleme_etkin_b">संदेश एन्क्रिप्शन अक्षम कर दिया गया है।</string>
     <string name="mesaj_sifreleme_bilgi_etkin">सूचना संदेश भेजें</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">हम एन्क्रिप्टेड संदेश भेजने वाले व्यक्ति/समूह को बताएंगे कि संदेश को OBWhatsApp का उपयोग करके डिक्रिप्ट किया जा सकता है।</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">हम एन्क्रिप्टेड संदेश भेजने वाले व्यक्ति/समूह को बताएंगे कि संदेश को واتس الزهراء का उपयोग करके डिक्रिप्ट किया जा सकता है।</string>
     <string name="mesaj_sifreleme_panel_arkaplan">डिकोडर पैनल बैकग्राउंड कलर</string>
     <string name="mesaj_sifreleme_panel_metin">डिकोडर पैनल में टेक्स्ट का रंग।</string>
     <string name="mesaj_sifreleme_panel_metin1">डिकोडर पैनल में शीर्षक टेक्स्ट का रंग।</string>
@@ -3311,7 +3311,7 @@ https://ww.download4.app/wa
     <string name="abu_arab_hideprivacy">गोपनीयता विकल्प छुपाएं</string>
     <string name="abu_arab_hideprivacysum">होम स्क्रीन विकल्प मेनू से गोपनीयता विकल्प छुपाएं।</string>
     <string name="abu_arab_hidecupdates">अपडेट विकल्प छिपाएं</string>
-    <string name="abu_arab_hidecupdatesum">होम स्क्रीन विकल्प मेनू से OBWhatsApp अपडेट विकल्प छुपाएं।</string>
+    <string name="abu_arab_hidecupdatesum">होम स्क्रीन विकल्प मेनू से واتس الزهراء अपडेट विकल्प छुपाएं।</string>
     <string name="abu_arab_roundedQuickContact_title">त्वरित संपर्क बैकग्राउंड कॉर्नर</string>
     <string name="abu_arab_background_quickcontact">त्वरित संपर्क पृष्ठभूमि</string>
     <string name="abu_arab_background_quick2">दूसरी पृष्ठभूमि2</string>
@@ -3485,7 +3485,7 @@ _*पुराना संदेश*_:
     <string name="abu_arab_chat_moved">चैट स्थानांतरित किया गया है!</string>
     <string name="abu_arab_chat_moved_sum">आपकी बातचीतें और मीडिया सफलतापूर्वक स्थानांतरित की गई हैं। कृपया WhatsApp खोलें, अपना फ़ोन नंबर दर्ज करें और फिर इसे सक्रिय करें!</string>
     <string name="abu_arab_please_wait">कृपया कुछ समय इंतजार करें...</string>
-    <string name="abu_arab_chat_moved_wa">चैट को OBWhatsApp में स्थानांतरित करें</string>
+    <string name="abu_arab_chat_moved_wa">चैट को واتس الزهراء में स्थानांतरित करें</string>
     <string name="abu_arab_chat_moved_wa_sum">क्या आपका नंबर दूसरे संस्करण पर सक्रिय है? और आप अपनी बातचीतें यहां बटन दबाकर स्थानांतरित करना चाहते हैं?</string>
     <string name="abu_arab_new_story">नई स्थिति शैली सक्रिय करें</string>
     <string name="abu_arab_new_story_sum">मुख्य स्क्रीन, स्थिति अनुभाग पर नई स्थिति शैली दिखाएँ</string>
@@ -3498,24 +3498,24 @@ _*पुराना संदेश*_:
     <string name="follow_us_on_telegram">हमें टेलीग्राम पर फ़ॉलो करें</string>
     <string name="abu_arab_settings_fancy_help_title">अपका संदेश</string>
     <string name="abu_arab_go_to_settings">सेटिंग पर जाएँ</string>
-    <string name="abu_arab_batery_res_msg">बिना देरी के नोटिफिकेशन के लिए बैटरी ऑप्टिमाइज़ेशन में OBWhatsApp को अप्रतिबंधित पर सेट करना महत्वपूर्ण है।</string>
+    <string name="abu_arab_batery_res_msg">बिना देरी के नोटिफिकेशन के लिए बैटरी ऑप्टिमाइज़ेशन में واتس الزهراء को अप्रतिबंधित पर सेट करना महत्वपूर्ण है।</string>
     <string name="abu_arab_batery_res_title">बैटरी ऑप्टिमाइज़ेशन अक्षम करें</string>
     <string name="abu_arab_metaai">मेटा एआई आइकन दिखाएँ</string>
     <string name="abu_arab_metaai_sum">आप अपने होम स्क्रीन से मेटा एआई आइकन छिपा सकते हैं।</string>
     <string name="abu_arab_popup">आईओएस शैली का पॉप-अप मेनू</string>
     <string name="abu_arab_popup_sum">चैट में नए आईओएस शैली के पॉप-अप मेनू को दिखाएँ।</string>
-    <string name="yoShareSum_abo_arab">OBWhatsApp को अपने दोस्तों के साथ शेयर करें 😁❤️!</string>
-    <string name="Abo_Arab_Send">"नमस्ते: मैं OBWhatsApp का उपयोग करता हूं, जो सबसे अच्छा प्रतिबंध-रोधी व्हाट्सएप प्लस है। इसमें अद्भुत विशेषताएं और अतिरिक्त सुविधाएं हैं। 1000 से अधिक विशेषताएं जो आधिकारिक व्हाट्सएप में नहीं मिलती हैं, इसे अभी प्राप्त करें और नई सुविधाओं के बारे में यहां से सीधे डाउनलोड करें।
+    <string name="yoShareSum_abo_arab">واتس الزهراء को अपने दोस्तों के साथ शेयर करें 😁❤️!</string>
+    <string name="Abo_Arab_Send">"नमस्ते: मैं واتس الزهراء का उपयोग करता हूं, जो सबसे अच्छा प्रतिबंध-रोधी व्हाट्सएप प्लस है। इसमें अद्भुत विशेषताएं और अतिरिक्त सुविधाएं हैं। 1000 से अधिक विशेषताएं जो आधिकारिक व्हाट्सएप में नहीं मिलती हैं, इसे अभी प्राप्त करें और नई सुविधाओं के बारे में यहां से सीधे डाउनलोड करें।
 
  https://ww.download4.app/wa
 
 या फिर आप इसे टेलीग्राम से डाउनलोड कर सकते हैं
 
  https://t.me/omar4app"</string>
-    <string name="Abo_Arab_Frinds">"नमस्ते: मैं OBWhatsApp 👍 का उपयोग करता हूं! प्रतिबंध के खिलाफ सबसे अच्छा व्हाट्सएप प्लस, इसमें लुक छिपाना, अभी ऑनलाइन छिपाना, नीली प्लेट छिपाना, बातचीत लॉक करना, व्हाट्सएप स्टेटस डाउनलोड करना और सैकड़ों अन्य सुविधाएं और बहुत कुछ शामिल है, इसे अभी प्राप्त करें और मुफ्त में नई सुविधाओं के बारे में जानें 😍 
+    <string name="Abo_Arab_Frinds">"नमस्ते: मैं واتس الزهراء 👍 का उपयोग करता हूं! प्रतिबंध के खिलाफ सबसे अच्छा व्हाट्सएप प्लस, इसमें लुक छिपाना, अभी ऑनलाइन छिपाना, नीली प्लेट छिपाना, बातचीत लॉक करना, व्हाट्सएप स्टेटस डाउनलोड करना और सैकड़ों अन्य सुविधाएं और बहुत कुछ शामिल है, इसे अभी प्राप्त करें और मुफ्त में नई सुविधाओं के बारे में जानें 😍 
 
 यहां से सीधा डाउनलोड लिंक 👇"</string>
-    <string name="Abo_Arab_Sends">"(OBWhatsApp मूल संस्करण) शानदार नए अतिरिक्त और सुविधाओं के साथ नया अपडेट इसे अभी यहां से सीधे डाउनलोड लिंक के साथ प्राप्त करें
+    <string name="Abo_Arab_Sends">"(واتس الزهراء मूल संस्करण) शानदार नए अतिरिक्त और सुविधाओं के साथ नया अपडेट इसे अभी यहां से सीधे डाउनलोड लिंक के साथ प्राप्त करें
 
  https://ww.download4.app/wa 
 
@@ -3539,7 +3539,7 @@ _*पुराना संदेश*_:
     <string name="limit">केवल अंतिम घंटे दिखाएं</string>
     <string name="read_log_pref">लॉग खोलें</string>
     <string name="show_name">नाम दिखाएं</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">उपस्थिति</string>
     <string name="yoImgQuickCamHold">त्वरित कैमहोल्ड पूर्ण अनुमति</string>
     <string name="yoImgQuickCamHoldSum">पूर्ण छवि रिज़ॉल्यूशन भेजने के लिए कैमरा बटन को दबाकर रखें</string>
@@ -3556,7 +3556,7 @@ _*पुराना संदेश*_:
     <string name="abu_arab_hidechatsortlist_sum">मुख्य स्क्रीन से चैट छँटाई सूची छुपाएं।</string>
     <string name="abu_arab_linkdevice">लिंक किए गए डिवाइस के तौर पर कनेक्ट करें</string>
     <string name="abu_arab_keep_media">मीडिया को सुरक्षित रूप से सहेजें</string>
-    <string name="abu_arab_keep_media_sum">सक्रिय करने पर, स्टेटस मीडिया और एक बार देखने वाला मीडिया आंतरिक संग्रहण में OBWhatsApp फ़ोल्डर के अंदर सहेजा जाएगा और लॉगआउट करने या लिंक किए गए उपकरणों को डिस्कनेक्ट करने के बाद हटाया नहीं जाएगा।</string>
+    <string name="abu_arab_keep_media_sum">सक्रिय करने पर, स्टेटस मीडिया और एक बार देखने वाला मीडिया आंतरिक संग्रहण में واتس الزهراء फ़ोल्डर के अंदर सहेजा जाएगा और लॉगआउट करने या लिंक किए गए उपकरणों को डिस्कनेक्ट करने के बाद हटाया नहीं जाएगा।</string>
     <string name="abu_arab_status_reaction">स्टेटस प्रतिक्रिया इमोजी बदलें</string>
     <string name="abu_arab_camera_quality">सबसे अच्छी गुणवत्ता में वीडियो रिकॉर्ड करें</string>
     <string name="abu_arab_camera_quality_sum">सक्षम करने पर वीडियो उच्च गुणवत्ता में रिकॉर्ड किया जाएगा।</string>

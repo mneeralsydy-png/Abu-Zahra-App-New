@@ -27,7 +27,7 @@
 
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     invoke-static {v3}, LX/ECj;->A00(LX/ECj;)V
 

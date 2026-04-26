@@ -1940,7 +1940,7 @@
 
     invoke-virtual {v0, p0}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    const-string p0, "com.obwhatsapp"
+    const-string p0, "com.zahra.whatsapp"
 
     invoke-virtual {v0, p0}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 

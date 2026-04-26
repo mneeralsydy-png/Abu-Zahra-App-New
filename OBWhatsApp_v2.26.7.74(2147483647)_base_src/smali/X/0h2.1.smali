@@ -434,7 +434,7 @@
 
     iget-object v0, p0, LX/0h2;->A0D:LX/07t;
 
-    invoke-virtual {v0}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v0}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -442,7 +442,7 @@
 
     if-eqz v0, :cond_9
 
-    iget-object v5, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v5, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     if-eqz v5, :cond_8
 

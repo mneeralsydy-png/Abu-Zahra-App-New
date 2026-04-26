@@ -41,7 +41,7 @@
 
     move-result v3
 
-    const-string v0, "content://com.obwhatsapp.provider.instrumentation"
+    const-string v0, "content://com.zahra.whatsapp.provider.instrumentation"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

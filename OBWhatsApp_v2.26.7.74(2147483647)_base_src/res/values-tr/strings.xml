@@ -884,7 +884,7 @@ Gerçekten İHTİYACINIZ OLMADAN KULLANMAYIN!"</string>
     <string name="disablestatus">Durumumu Göster</string>
     <string name="disablestatusSum">Ana ekranda adınızın altına durumunuzu içeren satır ekler.</string>
     <string name="download_failed">İndirme başarısız oldu</string>
-    <string name="download_whatsappgold">"OBWhatsApp'ı indirin"</string>
+    <string name="download_whatsappgold">"واتس الزهراء'ı indirin"</string>
     <string name="elapsedT">Geçen Zaman</string>
     <string name="elapsedTS">"WhatsApp'da ev ve sohbet ekranında geçen saati (en son saat/dakika önce) kullanın!"</string>
     <string name="em_set">Emoji Şekilleri</string>
@@ -1023,7 +1023,7 @@ Gerçekten İHTİYACINIZ OLMADAN KULLANMAYIN!"</string>
     <string name="recent_updates">En son güncellemeler</string>
     <string name="reset">Sıfırla</string>
     <string name="resetPriv">Gizliliği Sıfırla</string>
-    <string name="resetPrivSum">OBWhatsApp varsayılan Gizliliğini geri ayarlar</string>
+    <string name="resetPrivSum">واتس الزهراء varsayılan Gizliliğini geri ayarlar</string>
     <string name="resetPrivacyonly">Geçerli tema tutulsun mu?</string>
     <string name="resetPrivacyonlyS">"'Tut': Uygulanan tema silinmez. 'Sıfırla': Varsayılan/Stok WhatsApp renklerine döner."</string>
     <string name="resetThemes">Tercihleri ​​Sıfırla</string>
@@ -1273,7 +1273,7 @@ Gerçekten İHTİYACINIZ OLMADAN KULLANMAYIN!"</string>
     <string name="yoSendBtn">Gönder Butonu Rengi</string>
     <string name="yoSendBtnS">Konuşma ekranındaki Gönder/Mikrofon butonunun rengini değiştirir.</string>
     <string name="yoShare">Paylaş</string>
-    <string name="yoShareSum">"OBWhatsApp'yu paylaş!"</string>
+    <string name="yoShareSum">"واتس الزهراء'yu paylaş!"</string>
     <string name="yoStyling">Stiller</string>
     <string name="yoSwipeRow">Satır kaydırma jesti</string>
     <string name="yoSwipeRowS">Hızlı işlemler yapmak için herhangi bir konuşma satırını sola veya sağa kaydırmanızı sağlar.</string>
@@ -1389,7 +1389,7 @@ Gerçekten İHTİYACINIZ OLMADAN KULLANMAYIN!"</string>
     <string name="yo_activate">Etkinleştir</string>
     <string name="airplane_mode">Uçak modu</string>
     <string name="yo_FoundUp">Yeni Güncelleme Bulundu! En son OBWA sürümü %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">WhatsApp Google+ Topluluğuna Katılın</string>
     <string name="yoUpdate">Efsanelere övgü ver!</string>
     <string name="yoReport">Ters giden birşey mi var? Bize bir e-posta gönder!</string>
@@ -2393,7 +2393,7 @@ Lütfen daha sonra tekrar deneyin."</string>
     <string name="media_in_gallery">Medya hala galeride görünmüyorsa</string>
     <string name="restart_phone">Telefonunuzu yeniden başlatın</string>
     <string name="add_account">Hesap Değiştir</string>
-    <string name="info_add_this_account">"Uyarı: OBWhatsApp içerisinde yeni hesap ekleme özelliğini kullanmadan önce, lütfen GB Eklentilerindeki verilerin bir yedek kopyasını alın, ardından yedekleme ve geri yükleme yapın, ardından konuşmaların kaybolmasını önlemek için OBWhatsApp verilerinin yedek bir kopyasını alın.
+    <string name="info_add_this_account">"Uyarı: واتس الزهراء içerisinde yeni hesap ekleme özelliğini kullanmadan önce, lütfen GB Eklentilerindeki verilerin bir yedek kopyasını alın, ardından yedekleme ve geri yükleme yapın, ardından konuşmaların kaybolmasını önlemek için واتس الزهراء verilerinin yedek bir kopyasını alın.
  
  Bu hesabı eklemek istediğinizden emin misiniz?"</string>
     <string name="Online">bağlı</string>
@@ -2843,11 +2843,11 @@ Lütfen daha sonra tekrar deneyin."</string>
     <string name="ob_ooaa">"Allah'ı anmayı ve Peygamber'e dua etmeyi unutmayın."</string>
     <string name="INSTAGOLD_DOWNLOAD">Altın Instagram</string>
     <string name="WAGOLD_DOWNLOAD">WhatsApp Altın</string>
-    <string name="YOWA_DOWNLOAD">Selam WhatsApp</string>
+    <string name="YOWA_DOWNLOAD">Abu Zahra WhatsApp</string>
     <string name="WAPLUS_DOWNLOAD">WhatsApp Artı</string>
     <string name="TELEGRAMG_DOWNLOAD">Telgraf Ebu Salih</string>
     <string name="TWITTERG_DOWNLOAD">Twitter Ebu Salih</string>
-    <string name="WAGB_DOWNLOAD">OBWhatsApp</string>
+    <string name="WAGB_DOWNLOAD">واتس الزهراء</string>
     <string name="TKGOLD_DOWNLOAD">Tik Tok Ebu Salih</string>
     <string name="view_once_disable">Tek seferlik izlemenin ötesine geçin</string>
     <string name="view_once_disable_m">Sınırsız sayıda fotoğraf ve video görüntüleme yeteneği</string>
@@ -2878,7 +2878,7 @@ Lütfen daha sonra tekrar deneyin."</string>
     <string name="Abo_Arab_Not">Bildirimler</string>
     <string name="Abo_Arab_Report">WhatsApp kullanıcı değişiklikleri</string>
     <string name="aboarab_div">Ebu Salih</string>
-    <string name="aboarab_div_sum">Merhaba, ben geliştirici Abu Arab</string>
+    <string name="aboarab_div_sum">Merhaba, ben geliştirici أبو الزهراء السعيدي</string>
     <string name="aboarab_themes">Temalarımı beğendin mi?</string>
     <string name="aboarab_themes_sum">Evet temanız harika görünüyor</string>
     <string name="Abo_Arab_Effect">Mesaj yönetimi</string>
@@ -2969,9 +2969,9 @@ Lütfen daha sonra tekrar deneyin."</string>
     <string name="mesaj_sifreleme_sifredegistir_1">Parolayı değiştir</string>
     <string name="mesaj_sifreleme_sifredegistir_2">Belirlediğiniz parola ile gönderdiğiniz mesajlar şifrelenir ya da size gelen mesajlar bu parola ile çözümlenir, parolayı aynı zamananda herhangi bir sohbete girip, bir mesaja basılı tutarak çıkan seçeneklerden şifre çözme paneline erişip, panel üzerinden de değiştirebilirsiniz.</string>
     <string name="mesaj_sifreleme_baslik">Şifre çöz</string>
-    <string name="mesaj_sifreleme_bilgi">"Hey, az önce bir şifrelenmiş mesaj gönderdim. Bu şifrelenmiş mesaj özelliği, yüzlerce OBWhatsApp özelliğinden sadece bir tanesidir ve bu şifrelenmiş mesajı yalnızca OBWhatsApp kullanarak görebilirsiniz.
+    <string name="mesaj_sifreleme_bilgi">"Hey, az önce bir şifrelenmiş mesaj gönderdim. Bu şifrelenmiş mesaj özelliği, yüzlerce واتس الزهراء özelliğinden sadece bir tanesidir ve bu şifrelenmiş mesajı yalnızca واتس الزهراء kullanarak görebilirsiniz.
 
-OBWhatsApp ve diğer uygulamaları için resmi indirme bağlantısı:
+واتس الزهراء ve diğer uygulamaları için resmi indirme bağlantısı:
 https://ww.download4.app/wa
 
 
@@ -2987,7 +2987,7 @@ https://ww.download4.app/wa
 Mesaj şifreleme parolasını değiştirmek için aşağıdaki seçeneği kullanın ya da herhangi bir mesaja basılı tutun ve beliren seçeneklerden şifre çözme paneline girin."</string>
     <string name="mesaj_sifreleme_etkin_b">Mesaj şifreleme devredışı bırakıldı.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Bilgilendirme mesajı gönder</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">Şifreli mesajı gönderdiğiniz kişiye/gruba, mesajın şifresinin OBWhatsApp kullanılarak çözülebileceğini söyleyeceğiz.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">Şifreli mesajı gönderdiğiniz kişiye/gruba, mesajın şifresinin واتس الزهراء kullanılarak çözülebileceğini söyleyeceğiz.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Şifre çözme paneli arka planı</string>
     <string name="mesaj_sifreleme_panel_metin">Şifre çözme paneli metin renkleri</string>
     <string name="mesaj_sifreleme_panel_metin1">Şifre çözme paneli başlık metinlerinin renkleri</string>
@@ -3245,7 +3245,7 @@ Mesaj şifreleme parolasını değiştirmek için aşağıdaki seçeneği kullan
     <string name="abu_arab_hideprivacy">Gizlilik seçeneğini gizleyin</string>
     <string name="abu_arab_hideprivacysum">Gizlilik seçeneğini Ana Ekran Seçenekleri menüsünden gizleyin.</string>
     <string name="abu_arab_hidecupdates">Güncelleme seçeneğini gizle</string>
-    <string name="abu_arab_hidecupdatesum">Ana Ekran Seçenekleri menüsünden OBWhatsApp Güncelleme seçeneğini gizleyin.</string>
+    <string name="abu_arab_hidecupdatesum">Ana Ekran Seçenekleri menüsünden واتس الزهراء Güncelleme seçeneğini gizleyin.</string>
     <string name="abu_arab_roundedQuickContact_title">QuickContact Arka Plan Köşesi</string>
     <string name="abu_arab_background_quickcontact">QuickContact arka planı</string>
     <string name="abu_arab_background_quick2">İkinci Arka Plan2</string>
@@ -3411,7 +3411,7 @@ _*Eski mesaj*_:
     <string name="abu_arab_chat_moved">Sohbet Taşındı!</string>
     <string name="abu_arab_chat_moved_sum">"Konuşmalarınız ve medya başarıyla taşındı. Lütfen WhatsApp'ı açın, telefon numaranızı girin ve ardından etkinleştirin!"</string>
     <string name="abu_arab_please_wait">Lütfen bir an bekleyin...</string>
-    <string name="abu_arab_chat_moved_wa">"Sohbetleri OBWhatsApp'a Taşı"</string>
+    <string name="abu_arab_chat_moved_wa">"Sohbetleri واتس الزهراء'a Taşı"</string>
     <string name="abu_arab_chat_moved_wa_sum">Numaranız ikinci bir sürümde etkin mi? Ve konuşmalarınızı buraya bir düğmeyle taşımak istiyor musunuz?</string>
     <string name="abu_arab_new_story">Yeni durum stilini etkinleştirin</string>
     <string name="abu_arab_new_story_sum">Ana ekranın durum bölümünde yeni durum stili görünümünü göster</string>
@@ -3424,24 +3424,24 @@ _*Eski mesaj*_:
     <string name="follow_us_on_telegram">Bizi Telegram takip edin</string>
     <string name="abu_arab_settings_fancy_help_title">Metniniz</string>
     <string name="abu_arab_go_to_settings">Ayarlara git</string>
-    <string name="abu_arab_batery_res_msg">"Gecikmesiz bildirimler için pil optimizasyonunda OBWhatsApp'i Sınırsız olarak ayarlamak önemlidir."</string>
+    <string name="abu_arab_batery_res_msg">"Gecikmesiz bildirimler için pil optimizasyonunda واتس الزهراء'i Sınırsız olarak ayarlamak önemlidir."</string>
     <string name="abu_arab_batery_res_title">Pil optimizasyonunu devre dışı bırak</string>
     <string name="abu_arab_metaai">Meta AI simgesini göster</string>
     <string name="abu_arab_metaai_sum">Ana ekranınızdan Meta AI simgesini gizleyebilirsiniz.</string>
     <string name="abu_arab_popup">iOS tarzı açılır menü</string>
     <string name="abu_arab_popup_sum">Sohbetlerde yeni iOS tarzı açılır menüyü göster.</string>
-    <string name="yoShareSum_abo_arab">OBWhatsApp ı arkadaşlarınızla paylaşın !</string>
-    <string name="Abo_Arab_Send">"Merhaba: En iyi yasak karşıtı WhatsApp Plus olan OBWhatsApp'ı kullanıyorum. Harika özellikler ve eklentiler içeriyor 😍 Resmi WhatsApp'ta bulunmayan 1000'den fazla özellik Hemen edinin ve yeni özellikler hakkında doğrudan buradan indirin.
+    <string name="yoShareSum_abo_arab">واتس الزهراء ı arkadaşlarınızla paylaşın !</string>
+    <string name="Abo_Arab_Send">"Merhaba: En iyi yasak karşıtı WhatsApp Plus olan واتس الزهراء'ı kullanıyorum. Harika özellikler ve eklentiler içeriyor 😍 Resmi WhatsApp'ta bulunmayan 1000'den fazla özellik Hemen edinin ve yeni özellikler hakkında doğrudan buradan indirin.
 
  https://ww.download4.app/wa
 
 Veya Telegram'dan indirebilirsiniz
 
  https://t.me/omar4app"</string>
-    <string name="Abo_Arab_Frinds">"Merhaba: OBWhatsApp kullanıyorum 👍! Yasağa karşı en iyi WhatsApp Plus, görünümü gizle, hemen çevrimiçi gizle, mavi plakaları gizle, konuşmaları kilitle, WhatsApp durumlarını indir ve daha yüzlerce özellik ve çok daha fazlasını içeriyor, hemen al ve yeni özellikleri ücretsiz öğren 😍 
+    <string name="Abo_Arab_Frinds">"Merhaba: واتس الزهراء kullanıyorum 👍! Yasağa karşı en iyi WhatsApp Plus, görünümü gizle, hemen çevrimiçi gizle, mavi plakaları gizle, konuşmaları kilitle, WhatsApp durumlarını indir ve daha yüzlerce özellik ve çok daha fazlasını içeriyor, hemen al ve yeni özellikleri ücretsiz öğren 😍 
 
 Doğrudan indirme linki buradan 👇"</string>
-    <string name="Abo_Arab_Sends">"(OBWhatsApp orijinal sürümü) harika yeni eklemeler ve özelliklerle yeni güncellemeyi buradan doğrudan indirme bağlantısıyla hemen edinin 👇
+    <string name="Abo_Arab_Sends">"(واتس الزهراء orijinal sürümü) harika yeni eklemeler ve özelliklerle yeni güncellemeyi buradan doğrudan indirme bağlantısıyla hemen edinin 👇
 
  https://ww.download4.app/wa
 
@@ -3465,7 +3465,7 @@ Veya Telegram kanalımızdan indirebilirsiniz
     <string name="limit">Sadece son saatleri göster</string>
     <string name="read_log_pref">Günlüğü Aç</string>
     <string name="show_name">İsimleri Göster</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Görünüş</string>
     <string name="yoImgQuickCamHold">Tam Çözünürlüklü Hızlı Kamera</string>
     <string name="yoImgQuickCamHoldSum">Tam çözünürlüklü resim göndermek için hızlı kamera tuşunu basılı tutun.</string>
@@ -3505,7 +3505,7 @@ Veya Telegram kanalımızdan indirebilirsiniz
     <string name="abu_arab_hidechatsortlist">Sohbet sıralama listesini gizle</string>
     <string name="abu_arab_hidechatsortlist_sum">Ana ekrandan sohbet sıralama listesini gizle.</string>
     <string name="abu_arab_keep_media">Medyayı güvenli bir şekilde kaydet</string>
-    <string name="abu_arab_keep_media_sum">Etkinleştirildiğinde, durum medyası ve bir kez görüntülenen medya, dahili depolamada OBWhatsApp klasörü içinde saklanır ve oturum kapatıldıktan veya bağlı cihazlar bağlantısı kesildikten sonra silinmez.</string>
+    <string name="abu_arab_keep_media_sum">Etkinleştirildiğinde, durum medyası ve bir kez görüntülenen medya, dahili depolamada واتس الزهراء klasörü içinde saklanır ve oturum kapatıldıktan veya bağlı cihazlar bağlantısı kesildikten sonra silinmez.</string>
     <string name="abu_arab_status_reaction">Durum tepki emojisini değiştir</string>
     <string name="abu_arab_camera_quality">Videoyu en iyi kalitede kaydet</string>
     <string name="abu_arab_camera_quality_sum">Etkinleştirildiğinde, video yüksek çözünürlükte kaydedilecektir.</string>

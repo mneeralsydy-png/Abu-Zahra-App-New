@@ -10153,7 +10153,7 @@
 
     new-array v1, v4, [Ljava/lang/Object;
 
-    const-string v0, "OBWhatsApp Surveys"
+    const-string v0, "Abu Zahra WhatsApp Surveys"
 
     invoke-static {v5, v0, v1, v2, v3}, LX/1ad;->A1G(Landroid/content/Context;Ljava/lang/Object;[Ljava/lang/Object;II)Ljava/lang/String;
 
@@ -10965,7 +10965,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_0
 

@@ -45,7 +45,7 @@
 
     iget-object v4, p0, LX/Hfb;->A01:LX/Idd;
 
-    const-string v7, "com.obwhatsapp"
+    const-string v7, "com.zahra.whatsapp"
 
     iget-object v8, p0, LX/Hfb;->A03:Ljava/lang/String;
 

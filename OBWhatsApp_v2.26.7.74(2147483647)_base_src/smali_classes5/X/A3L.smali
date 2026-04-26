@@ -1761,7 +1761,7 @@
     goto/16 :goto_6
 
     :cond_8
-    const-string v9, "com.obwhatsapp"
+    const-string v9, "com.zahra.whatsapp"
 
     invoke-virtual {v1, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1834,7 +1834,7 @@
 
     move-result-object v0
 
-    const-string v9, "com.obwhatsapp"
+    const-string v9, "com.zahra.whatsapp"
 
     goto :goto_a
 
@@ -2177,7 +2177,7 @@
     goto :goto_f
 
     :cond_22
-    const-string v6, "com.obwhatsapp"
+    const-string v6, "com.zahra.whatsapp"
 
     goto :goto_11
 

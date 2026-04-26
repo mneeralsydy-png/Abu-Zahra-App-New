@@ -107,7 +107,7 @@
 
     iget-object v1, p2, LX/9sn;->A00:LX/07t;
 
-    invoke-static {v1}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v1}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -115,16 +115,16 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v2, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v2, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     :goto_0
-    invoke-virtual {v1}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v1}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v3, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v3, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     :cond_0
     const-string v0, "ExportEncryptionManager/generateEncFileMetadata();    current user:"

@@ -226,15 +226,15 @@
 
     iget-object v1, p0, LX/J0j;->A01:Ljava/lang/Object;
 
-    check-cast v1, Lcom/obwhatsapp/Me;
+    check-cast v1, Lcom/zahra/whatsapp/Me;
 
     invoke-static {v5}, Lcom/whatsapp/settings/ui/SettingsTabActivity;->A0w(Lcom/whatsapp/settings/ui/SettingsTabActivity;)V
 
     iget-object v0, v5, LX/0M6;->A02:LX/00V;
 
-    iget-object v4, v1, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v4, v1, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v3, v1, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v3, v1, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     iget-object v1, v0, LX/00V;->A05:Ljava/util/Locale;
 

@@ -437,7 +437,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v4, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v4, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     const/4 v3, 0x0
 
@@ -451,7 +451,7 @@
 
     iget-object v1, p0, LX/0JT;->A02:LX/0my;
 
-    iget-object v0, v4, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v4, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, LX/0my;->A03(Ljava/lang/String;)Ljava/lang/String;
 
@@ -476,7 +476,7 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v0, v4, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v4, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -496,7 +496,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-nez v0, :cond_0
 
@@ -505,9 +505,9 @@
     return v0
 
     :cond_0
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     invoke-static {v1, v0}, LX/Bvg;->A00(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

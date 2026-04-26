@@ -1312,7 +1312,7 @@
 
     check-cast v3, Landroid/content/Context;
 
-    const-string v0, "package:com.obwhatsapp"
+    const-string v0, "package:com.zahra.whatsapp"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

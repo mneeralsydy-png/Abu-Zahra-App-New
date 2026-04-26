@@ -24,12 +24,12 @@
         android:strokeWidth="1.4897"
         android:fillType="evenOdd" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M38.9,32.2C42.2,31.6 44.5,28.4 43.9,25.1C43.3,21.8 40.1,19.5 36.8,20.1C33.5,20.7 31.2,23.9 31.8,27.2C32.4,30.5 35.6,32.8 38.9,32.2Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.4897" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M40.5,42.4C44.5,41.7 47.7,39.4 49.7,36.2C48.3,34.9 46.3,34.6 45.4,34.5C44,34.4 41.9,34.3 39.4,34.7C36.9,35.1 34.9,36 33.6,36.6C32.8,37 30.8,38 30,39.9C33,42.1 36.7,43.1 40.5,42.4Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.4897"

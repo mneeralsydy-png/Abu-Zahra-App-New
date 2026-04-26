@@ -194,15 +194,15 @@
 
     move-result-object v1
 
-    invoke-static {v2}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v2}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_6
 
-    iget-object v4, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v4, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v3, v0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v3, v0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     if-eqz v4, :cond_6
 

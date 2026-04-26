@@ -40,7 +40,7 @@
 
     invoke-direct {v0, p1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    const-string p1, "com.obwhatsapp"
+    const-string p1, "com.zahra.whatsapp"
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

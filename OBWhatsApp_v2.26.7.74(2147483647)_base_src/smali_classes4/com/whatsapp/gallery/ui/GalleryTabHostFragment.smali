@@ -2900,7 +2900,7 @@
 
     if-eqz v3, :cond_2
 
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     const/4 v1, 0x1
 
@@ -5783,7 +5783,7 @@
 
     move-result-object v2
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     const/4 v0, 0x1
 

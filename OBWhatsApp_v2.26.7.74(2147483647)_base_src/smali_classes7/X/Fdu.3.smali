@@ -235,7 +235,7 @@
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     :cond_3
-    const-string v8, "com.obwhatsapp"
+    const-string v8, "com.zahra.whatsapp"
 
     const-string v6, "WorkSourceUtil"
 

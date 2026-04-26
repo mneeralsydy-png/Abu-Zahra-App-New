@@ -314,7 +314,7 @@
 
     sget-object v1, LX/GKx;->A09:LX/FXz;
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-interface {p2, v1, v0}, LX/Guk;->A7Q(LX/FXz;Ljava/lang/Object;)V
 

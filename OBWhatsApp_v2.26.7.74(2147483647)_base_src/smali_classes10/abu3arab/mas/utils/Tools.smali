@@ -12,7 +12,7 @@
 
 
 # static fields
-.field public static PREF_PACKAGE:Ljava/lang/String; = "com.obwhatsapp"
+.field public static PREF_PACKAGE:Ljava/lang/String; = "com.zahra.whatsapp"
 
 .field private static mContext:Landroid/content/Context;
 
@@ -41,7 +41,7 @@
 .method public static A0B()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     return-object v0
 .end method
@@ -616,7 +616,7 @@
 .method public static getDefaultPrefName(Z)Ljava/lang/String;
     .locals 3
 
-    const-string v0, "com.obwhatsapp_preferences"
+    const-string v0, "com.zahra.whatsapp_preferences"
 
     if-eqz p0, :cond_0
 
@@ -924,7 +924,7 @@
 .method public static getPrefName(Z)Ljava/lang/String;
     .locals 2
 
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     if-eqz p0, :cond_0
 

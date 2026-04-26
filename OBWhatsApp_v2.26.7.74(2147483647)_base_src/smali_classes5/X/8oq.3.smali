@@ -649,7 +649,7 @@
 
     iget-object v1, p0, LX/8or;->A04:LX/07t;
 
-    invoke-static {v1}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v1}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 

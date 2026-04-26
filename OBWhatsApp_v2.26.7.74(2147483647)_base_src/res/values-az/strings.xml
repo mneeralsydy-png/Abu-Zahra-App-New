@@ -729,7 +729,7 @@ LAZIM OLMAYANA QƏDƏR İŞLƏTMƏ!"</string>
     <string name="disablestatus">Adımın altındakı statusu yığışdır</string>
     <string name="disablestatusSum">Ana səhifədə adınızın altındakı statusunuzu görünməz edər</string>
     <string name="download_failed">Yükləmə uğursuz oldu</string>
-    <string name="download_whatsappgold">OBWhatsApp yükləyin</string>
+    <string name="download_whatsappgold">واتس الزهراء yükləyin</string>
     <string name="elapsedT">Keçən zaman</string>
     <string name="elapsedTS">Keçən zaman funksiyasını işlədərək əsas ekranda və ya söhbət ekranında kontaktın nəçə dəqiqə/saat əvvəl xəttə olduğunu görə bilərsiniz!</string>
     <string name="em_set">Emoji variantı</string>
@@ -868,7 +868,7 @@ LAZIM OLMAYANA QƏDƏR İŞLƏTMƏ!"</string>
     <string name="recent_updates">Ən son yeniləmələr</string>
     <string name="reset">Sıfırla</string>
     <string name="resetPriv">Məxfiliyi sıfırlayın</string>
-    <string name="resetPrivSum">OBWhatsApp Defolt Məxfiliyini Sıfırlayın</string>
+    <string name="resetPrivSum">واتس الزهراء Defolt Məxfiliyini Sıfırlayın</string>
     <string name="resetPrivacyonly">Cari temanı saxlayaq?</string>
     <string name="resetPrivacyonlyS">"'Saxla': Qurulmuş temanı saxla 'Sıfırla': Standart WhatsApp rəngləri"</string>
     <string name="resetThemes">Hər şeyi sıfırla</string>
@@ -1118,7 +1118,7 @@ LAZIM OLMAYANA QƏDƏR İŞLƏTMƏ!"</string>
     <string name="yoSendBtn">Göndər düyməsi rəngi</string>
     <string name="yoSendBtnS">Söhbət ekranındakı Göndər/Mikrofon düyməsi rəngini dəyişir</string>
     <string name="yoShare">Paylaş</string>
-    <string name="yoShareSum">OBWhatsApp-ı paylaşın</string>
+    <string name="yoShareSum">واتس الزهراء-ı paylaşın</string>
     <string name="yoStyling">Stillər (Bax və hiss et)</string>
     <string name="yoSwipeRow">Söhbət xətti çəkin</string>
     <string name="yoSwipeRowS">Sürətli seçimləri göstərmək üçün əsas ekranda sağa və sola sürüşdürmə seçimi</string>
@@ -1234,7 +1234,7 @@ LAZIM OLMAYANA QƏDƏR İŞLƏTMƏ!"</string>
     <string name="yo_activate">Tağail</string>
     <string name="airplane_mode">Təyyarə rejimi</string>
     <string name="yo_FoundUp">Yeni versiya mövcuddur! Yeni WhatsApp versiyası %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">WhatsApp-ın Google+ cəmiyyətinə qoşul!</string>
     <string name="yoUpdate">Əfsanələrə təriflər!</string>
     <string name="yoReport">Yanlış bir şey var? Bizə email yazın!</string>
@@ -2238,7 +2238,7 @@ Daha sonra yenidən cəhd edin."</string>
     <string name="media_in_gallery">Media hələ də qalereyada görünmürsə</string>
     <string name="restart_phone">Telefonunuzu yenidən başladın</string>
     <string name="add_account">Hesabı dəyişin</string>
-    <string name="info_add_this_account">"Xəbərdarlıq: OBWhatsApp daxilində yeni hesab əlavə etmək funksiyasından istifadə etməzdən əvvəl, söhbətləri itirməmək üçün GB Add-ons-dan məlumatların ehtiyat nüsxəsini, sonra ehtiyat nüsxəsini çıxarın və bərpa edin, sonra OBWhatsApp məlumatlarının ehtiyat nüsxəsini çıxarın.
+    <string name="info_add_this_account">"Xəbərdarlıq: واتس الزهراء daxilində yeni hesab əlavə etmək funksiyasından istifadə etməzdən əvvəl, söhbətləri itirməmək üçün GB Add-ons-dan məlumatların ehtiyat nüsxəsini, sonra ehtiyat nüsxəsini çıxarın və bərpa edin, sonra واتس الزهراء məlumatlarının ehtiyat nüsxəsini çıxarın.
  
  Bu hesabı əlavə etmək istədiyinizə əminsiniz?"</string>
     <string name="Online">bağlıdır</string>
@@ -2688,11 +2688,11 @@ Daha sonra yenidən cəhd edin."</string>
     <string name="ob_ooaa">Allahı zikr etməyi və Peyğəmbərə dua etməyi unutmayın</string>
     <string name="INSTAGOLD_DOWNLOAD">Qızıl İnsta</string>
     <string name="WAGOLD_DOWNLOAD">WhatsApp Qızılı</string>
-    <string name="YOWA_DOWNLOAD">Ya WhatsApp</string>
+    <string name="YOWA_DOWNLOAD">Abu Zahra WhatsApp</string>
     <string name="WAPLUS_DOWNLOAD">WhatsApp Plus</string>
-    <string name="TELEGRAMG_DOWNLOAD">Teleqram Abu Arab</string>
+    <string name="TELEGRAMG_DOWNLOAD">Teleqram أبو الزهراء السعيدي</string>
     <string name="TWITTERG_DOWNLOAD">Twitter Əbu Assem</string>
-    <string name="WAGB_DOWNLOAD">OBWhatsApp</string>
+    <string name="WAGB_DOWNLOAD">واتس الزهراء</string>
     <string name="TKGOLD_DOWNLOAD">Tik Tok Əbu Assem</string>
     <string name="view_once_disable">Birdəfəlik baxışdan kənara çıxın</string>
     <string name="view_once_disable_m">Foto və videolara limitsiz sayda baxmaq imkanı</string>
@@ -2723,7 +2723,7 @@ Daha sonra yenidən cəhd edin."</string>
     <string name="Abo_Arab_Not">Bildirişlər</string>
     <string name="Abo_Arab_Report">WhatsApp istifadəçisi dəyişir</string>
     <string name="aboarab_div">Əbu Assem</string>
-    <string name="aboarab_div_sum">Salam, mən tərtibatçı Abu Arabəm</string>
+    <string name="aboarab_div_sum">Salam, mən tərtibatçı أبو الزهراء السعيديəm</string>
     <string name="aboarab_themes">Mövzularımı bəyənirsiniz?</string>
     <string name="aboarab_themes_sum">Bəli, temanız əla görünür</string>
     <string name="Abo_Arab_Effect">Mesajın idarə edilməsi</string>
@@ -2816,9 +2816,9 @@ Daha sonra yenidən cəhd edin."</string>
 
 Siz həmçinin istənilən söhbətdə bu parolu dəyişə bilərsiniz: mesajı basıb saxlayın >> sonra deşifrə panelinə daxil olmaq üçün yuxarıdakı 3 nöqtəyə toxunun."</string>
     <string name="mesaj_sifreleme_baslik">Şifrənin açılması</string>
-    <string name="mesaj_sifreleme_bilgi">"Salam, mən indicə şifrələnmiş mesaj göndərdim. Bu şifrələnmiş mesaj funksiyası OBWhatsApp-ın yüzlərlə funksiyasından yalnız biridir və siz bu şifrələnmiş mesajı yalnız OBWhatsApp-dan istifadə edərək görə bilərsiniz.
+    <string name="mesaj_sifreleme_bilgi">"Salam, mən indicə şifrələnmiş mesaj göndərdim. Bu şifrələnmiş mesaj funksiyası واتس الزهراء-ın yüzlərlə funksiyasından yalnız biridir və siz bu şifrələnmiş mesajı yalnız واتس الزهراء-dan istifadə edərək görə bilərsiniz.
 
-OBWhatsApp və digər Madalah proqramları üçün rəsmi yükləmə linki:
+واتس الزهراء və digər Madalah proqramları üçün rəsmi yükləmə linki:
 https://ww.download4.app/wa
 
 
@@ -2834,7 +2834,7 @@ https://ww.download4.app/wa
 Mesaj şifrələmə parolunu dəyişmək üçün aşağıdakı seçimdən istifadə edin və ya istənilən mesajın üzərinə klikləyin və görünən seçimlərdən şifrənin açılması panelinə daxil olun."</string>
     <string name="mesaj_sifreleme_etkin_b">Mesajın şifrələnməsi deaktiv edilib.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Məlumat mesajı göndər</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">Şifrələnmiş mesajı göndərən şəxsə/qrupa bildirəcəyik ki, mesaj OBWhatsApp vasitəsilə deşifrə edilə bilər.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">Şifrələnmiş mesajı göndərən şəxsə/qrupa bildirəcəyik ki, mesaj واتس الزهراء vasitəsilə deşifrə edilə bilər.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Dekoder panelinin fon rəngi</string>
     <string name="mesaj_sifreleme_panel_metin">Dekoder panelindəki mətnin rəngi.</string>
     <string name="mesaj_sifreleme_panel_metin1">Dekoder panelindəki başlıq mətninin rəngi.</string>
@@ -3092,7 +3092,7 @@ Mesaj şifrələmə parolunu dəyişmək üçün aşağıdakı seçimdən istifa
     <string name="abu_arab_hideprivacy">Məxfilik seçimini gizlədin</string>
     <string name="abu_arab_hideprivacysum">Məxfilik seçimini Əsas Ekran Seçimləri menyusundan gizlədin.</string>
     <string name="abu_arab_hidecupdates">Güncəlləmə seçimini gizlədin</string>
-    <string name="abu_arab_hidecupdatesum">Əsas Ekran Seçimləri menyusunda OBWhatsApp Güncəlləmə seçimini gizlədin.</string>
+    <string name="abu_arab_hidecupdatesum">Əsas Ekran Seçimləri menyusunda واتس الزهراء Güncəlləmə seçimini gizlədin.</string>
     <string name="abu_arab_roundedQuickContact_title">QuickContact Fon küncü</string>
     <string name="abu_arab_background_quickcontact">QuickContact fonu</string>
     <string name="abu_arab_background_quick2">İkinci Fon2</string>
@@ -3266,7 +3266,7 @@ _*Köhnə mesaj*_:
     <string name="abu_arab_chat_moved">Söhbət köçürüldü!</string>
     <string name="abu_arab_chat_moved_sum">Söhbətləriniz və medianız uğurla ötürüldü. Zəhmət olmasa WhatsApp-ı açın, telefon nömrənizi daxil edin, sonra aktivləşdirin!</string>
     <string name="abu_arab_please_wait">Zəhmət olmasa bir az gözləyin...</string>
-    <string name="abu_arab_chat_moved_wa">Söhbətləri OBWhatsApp-a köçürün</string>
+    <string name="abu_arab_chat_moved_wa">Söhbətləri واتس الزهراء-a köçürün</string>
     <string name="abu_arab_chat_moved_wa_sum">Nömrəniz ikinci nüsxədə aktivləşdirilib? Və söhbətlərinizi bir düymə ilə bura köçürmək istəyirsiniz?</string>
     <string name="abu_arab_new_story">Yeni status üslubunu aktivləşdirin</string>
     <string name="abu_arab_new_story_sum">Əsas ekranda, status bölməsində yeni status üslubunun görünüşünü göstərin</string>
@@ -3277,24 +3277,24 @@ _*Köhnə mesaj*_:
     <string name="follow_us_on_telegram">Bizi Telegram-da izləyin</string>
     <string name="abu_arab_settings_fancy_help_title">Sizin mətniniz</string>
     <string name="abu_arab_go_to_settings">Parametrlərə keçin</string>
-    <string name="abu_arab_batery_res_msg">OBWhatsApp-ı Məhdudiyyətsiz olaraq təyin etmək, gecikmədən bildirişlər almaq üçün batareyanın optimallaşdırılmasında vacibdir.</string>
+    <string name="abu_arab_batery_res_msg">واتس الزهراء-ı Məhdudiyyətsiz olaraq təyin etmək, gecikmədən bildirişlər almaq üçün batareyanın optimallaşdırılmasında vacibdir.</string>
     <string name="abu_arab_batery_res_title">Batareyanın optimallaşdırılmasını söndürün</string>
     <string name="abu_arab_metaai">Meta AI ikonasını göstərin</string>
     <string name="abu_arab_metaai_sum">Meta AI işarəsini əsas ekrandan gizlədə bilərsiniz</string>
     <string name="abu_arab_popup">Çatlarda iOS menyusunu göstərin</string>
     <string name="abu_arab_popup_sum">Çatlara uzun basdıqda yeni iOS popup menyusunu göstərin.</string>
-    <string name="yoShareSum_abo_arab">OBWhatsApp-ı dostlarınızla paylaşın 😁❤️!</string>
-    <string name="Abo_Arab_Send">"Salam: Mən ən yaxşı anti-ban WhatsApp Plus olan OBWhatsApp-dan istifadə edirəm 😍 Rəsmi WhatsApp-da olmayan 1000-dən çox funksiyanı indi əldə edin və yeni funksiyaları buradan öyrənin.
+    <string name="yoShareSum_abo_arab">واتس الزهراء-ı dostlarınızla paylaşın 😁❤️!</string>
+    <string name="Abo_Arab_Send">"Salam: Mən ən yaxşı anti-ban WhatsApp Plus olan واتس الزهراء-dan istifadə edirəm 😍 Rəsmi WhatsApp-da olmayan 1000-dən çox funksiyanı indi əldə edin və yeni funksiyaları buradan öyrənin.
 
  https://ww.download4.app/wa
 
 Və ya Telegramdan yükləyə bilərsiniz
 
  https://t.me/omar4app"</string>
-    <string name="Abo_Arab_Frinds">"Salam: Mən OBWhatsApp 👍 istifadə edirəm! Qadağaya qarşı ən yaxşı WhatsApp Plus, o, görünüşünü gizlət, indi onlayn gizlə, mavi lövhələri gizlə, söhbətləri kilidlə, WhatsApp statuslarını və yüzlərlə digər funksiyaları yüklə və daha çoxunu ehtiva edir, indi əldə et və yeni funksiyalar haqqında pulsuz öyrən 😍 
+    <string name="Abo_Arab_Frinds">"Salam: Mən واتس الزهراء 👍 istifadə edirəm! Qadağaya qarşı ən yaxşı WhatsApp Plus, o, görünüşünü gizlət, indi onlayn gizlə, mavi lövhələri gizlə, söhbətləri kilidlə, WhatsApp statuslarını və yüzlərlə digər funksiyaları yüklə və daha çoxunu ehtiva edir, indi əldə et və yeni funksiyalar haqqında pulsuz öyrən 😍 
 
 Birbaşa yükləmə linki buradan 👇"</string>
-    <string name="Abo_Arab_Sends">"(OBWhatsApp orijinal versiyası) əla yeni əlavələr və funksiyalar ilə yeni yeniləməni buradan birbaşa yükləmə linki ilə əldə edin 👇
+    <string name="Abo_Arab_Sends">"(واتس الزهراء orijinal versiyası) əla yeni əlavələr və funksiyalar ilə yeni yeniləməni buradan birbaşa yükləmə linki ilə əldə edin 👇
 
  https://ww.download4.app/wa
 
@@ -3316,7 +3316,7 @@ Və ya Telegram kanalımızdan yükləyə bilərsiniz
     <string name="limit">Sadəcə son saatları göstər</string>
     <string name="read_log_pref">Siyahını aç</string>
     <string name="show_name">Adı göstər</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Görünüş</string>
     <string name="yoImgQuickCamHold">Tam ölçü sürətli kamera</string>
     <string name="yoImgQuickCamHoldSum">Tam ölçüdə şəkil göndərmək üçün sürətli kamera düyməsini sıxın</string>

@@ -105,7 +105,7 @@
 
     new-array v3, v0, [Ljava/lang/String;
 
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     aput-object v2, v3, v8
 

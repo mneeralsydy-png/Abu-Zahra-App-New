@@ -76,32 +76,32 @@
         android:strokeWidth="1.5"
         android:strokeLineCap="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M109.96,35.17L109.96,35.17A4,4 0,0 1,113.96 39.17L113.96,43.16A4,4 0,0 1,109.96 47.16L109.96,47.16A4,4 0,0 1,105.96 43.16L105.96,39.17A4,4 0,0 1,109.96 35.17z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M122.45,30.17L122.45,30.17A4.5,4.5 0,0 1,126.95 34.67L126.95,48.66A4.5,4.5 0,0 1,122.45 53.16L122.45,53.16A4.5,4.5 0,0 1,117.96 48.66L117.96,34.67A4.5,4.5 0,0 1,122.45 30.17z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M134.95,35.17L134.95,35.17A4,4 0,0 1,138.95 39.17L138.95,43.16A4,4 0,0 1,134.95 47.16L134.95,47.16A4,4 0,0 1,130.95 43.16L130.95,39.17A4,4 0,0 1,134.95 35.17z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M43.4,67.54L43.4,67.54A4,4 0,0 1,47.4 71.53L47.4,75.53A4,4 0,0 1,43.4 79.53L43.4,79.53A4,4 0,0 1,39.4 75.53L39.4,71.53A4,4 0,0 1,43.4 67.54z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M55.89,62.54L55.89,62.54A4.5,4.5 0,0 1,60.39 67.04L60.39,81.03A4.5,4.5 0,0 1,55.89 85.53L55.89,85.53A4.5,4.5 0,0 1,51.4 81.03L51.4,67.04A4.5,4.5 0,0 1,55.89 62.54z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M68.39,67.54L68.39,67.54A4,4 0,0 1,72.39 71.53L72.39,75.53A4,4 0,0 1,68.39 79.53L68.39,79.53A4,4 0,0 1,64.39 75.53L64.39,71.53A4,4 0,0 1,68.39 67.54z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />

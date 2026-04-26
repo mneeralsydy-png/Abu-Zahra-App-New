@@ -912,7 +912,7 @@
 
     invoke-virtual {v5}, LX/07t;->A0I()V
 
-    iget-object v5, v5, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v5, v5, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v5, :cond_22
 

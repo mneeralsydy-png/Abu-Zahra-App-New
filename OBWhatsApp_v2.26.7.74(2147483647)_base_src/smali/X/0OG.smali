@@ -998,7 +998,7 @@
 
     invoke-static {v11}, LX/00C;->A09(Ljava/lang/Object;)V
 
-    const-string v7, "com.obwhatsapp"
+    const-string v7, "com.zahra.whatsapp"
 
     const-string v6, "com.whatsapp.home.ui.HomeActivity"
 

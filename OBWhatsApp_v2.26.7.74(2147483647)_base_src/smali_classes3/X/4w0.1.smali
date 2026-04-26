@@ -1301,7 +1301,7 @@
 
     move-result-object v1
 
-    const-string v0, "market://details?id=com.obwhatsapp"
+    const-string v0, "market://details?id=com.zahra.whatsapp"
 
     invoke-static {v0}, LX/1am;->A0A(Ljava/lang/String;)Landroid/content/Intent;
 

@@ -3901,7 +3901,7 @@
 
     const/16 v1, 0x287
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     aput-object v0, v2, v1
 

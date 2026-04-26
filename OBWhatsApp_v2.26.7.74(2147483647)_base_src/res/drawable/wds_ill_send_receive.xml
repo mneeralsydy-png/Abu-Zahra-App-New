@@ -6,21 +6,21 @@
     android:viewportHeight="120.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M64.33,7.33L16.74,7.33C8.26,7.33 1.38,14.22 1.38,22.72L1.38,99C1.38,107.49 8.26,114.38 16.74,114.38L64.33,114.38C72.81,114.38 79.69,107.49 79.69,99L79.69,22.72C79.69,14.23 72.81,7.34 64.33,7.34L64.33,7.33Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.44"
         android:strokeLineCap="round"
         android:strokeMiterLimit="10.0" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M79.69,99.2L79.69,22.56C79.69,14.15 72.88,7.34 64.48,7.34L23.67,7.34C15.27,7.34 8.46,14.16 8.46,22.56L8.46,99.19C8.46,107.68 13.36,114.57 23.82,114.57L64.34,114.57C72.46,114.57 79.7,107.68 79.7,99.19L79.69,99.2Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.44"
         android:strokeLineCap="round"
         android:strokeMiterLimit="10.0" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M44.08,106.3C48.94,106.3 52.89,104.18 52.89,101.56C52.89,98.94 48.95,96.82 44.08,96.82C39.21,96.82 35.27,98.94 35.27,101.56C35.27,104.18 39.21,106.3 44.08,106.3Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.44"

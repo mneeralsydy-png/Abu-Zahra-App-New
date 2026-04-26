@@ -894,7 +894,7 @@
     <string name="disablestatus">Desactivar mi info debajo de mi nombre</string>
     <string name="disablestatusSum">Elimina la línea con tu info en la pantalla principal</string>
     <string name="download_failed">Descarga fallida</string>
-    <string name="download_whatsappgold">Descargar OBWhatsApp</string>
+    <string name="download_whatsappgold">Descargar واتس الزهراء</string>
     <string name="elapsedT">Tiempo transcurrido</string>
     <string name="elapsedTS">Usar tiempo transcurrido (últ. vez hace hrs y mins) en WhatsApp, ¡en la pantalla principal y en Conversación!</string>
     <string name="em_set">Variante de Emojis</string>
@@ -1033,7 +1033,7 @@
     <string name="recent_updates">Últimas actualizaciones</string>
     <string name="reset">Restablecer</string>
     <string name="resetPriv">Restablecer privacidad</string>
-    <string name="resetPrivSum">Restablecer la privacidad predeterminada de OBWhatsApp</string>
+    <string name="resetPrivSum">Restablecer la privacidad predeterminada de واتس الزهراء</string>
     <string name="resetPrivacyonly">¿Mantener tema actual?</string>
     <string name="resetPrivacyonlyS">"'Mantener': Mantener tema aplicado 'Restablecer': Color de WhatsApp por defecto"</string>
     <string name="resetThemes">Restablecer preferencias</string>
@@ -1283,7 +1283,7 @@
     <string name="yoSendBtn">Botón enviar</string>
     <string name="yoSendBtnS">Cambia el color del botón enviar/micrófono en la pantalla Conversación</string>
     <string name="yoShare">Compartir</string>
-    <string name="yoShareSum">Compartir OBWhatsApp</string>
+    <string name="yoShareSum">Compartir واتس الزهراء</string>
     <string name="yoStyling">Estilos (Apariencia)</string>
     <string name="yoSwipeRow">Deslizar fila</string>
     <string name="yoSwipeRowS">Le permite pasar cualquier fila de conversación a la izquierda o a la derecha para realizar acciones rápidas</string>
@@ -1330,7 +1330,7 @@
     <string name="yo_universal">Color universal</string>
     <string name="yo_universal_sum">¡Cambia el color en toda la aplicación, incluyendo la interfaz!</string>
     <string name="yo_webdl">Web de descarga</string>
-    <string name="yo_webdlS">Descargar OBWhatsApp del sitio Web Oficial</string>
+    <string name="yo_webdlS">Descargar واتس الزهراء del sitio Web Oficial</string>
     <string name="yocent">Estilo de la barra de herramientas de conversación</string>
     <string name="yocentS">Cambiar el estilo del encabezado de la pantalla Conversación</string>
     <string name="yoconh">Estilo de la pantalla principal</string>
@@ -1342,7 +1342,7 @@
     <string name="yocustom">Personalizar privacidad (Contactos, Grupos, Mensajes de difusión)</string>
     <string name="yoversion">Basado en 2.20.123</string>
     <string name="yowaUpdate">Actualizaciones</string>
-    <string name="yowa_widget">OBWhatsApp Widget</string>
+    <string name="yowa_widget">واتس الزهراء Widget</string>
     <string name="abc_action_mode_done">fue completado</string>
     <string name="abc_toolbar_collapse_description">Minimizar</string>
     <string name="abc_capital_off">Apagado</string>
@@ -1399,7 +1399,7 @@
     <string name="yo_activate">Activar Tema</string>
     <string name="airplane_mode">Modo Avion</string>
     <string name="yo_FoundUp">¡Nueva actualización encontrada! La última versión de WhatsApp es %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">Únete a la comunidad de WhatsApp en Google+</string>
     <string name="yoUpdate">¡Tributo a las leyendas!</string>
     <string name="yoReport">¿Algún fallo? ¡Envíanos un email!</string>
@@ -2347,7 +2347,7 @@ Inténtelo de nuevo más tarde."</string>
     <string name="chosoe_themes">Elige entre temas</string>
     <string name="enter_themes">Ingrese el nombre de su tema:</string>
     <string name="report">un informe</string>
-    <string name="about_me">Editado por Abu Arab.</string>
+    <string name="about_me">Editado por أبو الزهراء السعيدي.</string>
     <string name="twitter">Gorjeo</string>
     <string name="telegram">Telegrama</string>
     <string name="sendLogsByEmail">Enviar el informe de error al correo electrónico del desarrollador.</string>
@@ -2395,7 +2395,7 @@ Inténtelo de nuevo más tarde."</string>
     <string name="Translating_Failed">Traducción fallida... Inténtalo de nuevo</string>
     <string name="archive_top_title">Mostrar chats archivados en la parte superior</string>
     <string name="archive_top_sum">Los chats archivados aparecerán en la parte superior en lugar de abajo</string>
-    <string name="Testing_Name">Abu Arab</string>
+    <string name="Testing_Name">أبو الزهراء السعيدي</string>
     <string name="Support_Mods">Vive todo el tiempo que quieras, porque estás muerto. Ama a quien quieras, porque lo dejarás.</string>
     <string name="Already_saved">Ya guardado</string>
     <string name="Error_accessing_file">Error de acceso al archivo:</string>
@@ -2403,7 +2403,7 @@ Inténtelo de nuevo más tarde."</string>
     <string name="media_in_gallery">Si el medio aún no aparece en la galería</string>
     <string name="restart_phone">Reinicia tu teléfono</string>
     <string name="add_account">Cambiar cuenta</string>
-    <string name="info_add_this_account">"Nota: antes de usar la función de agregar una nueva cuenta dentro de OBWhatsApp, haga una copia de seguridad de los datos desde Configuración de AG Settings > Universal > Copia de seguridad y restauración > Copia de seguridad de datos de OBWhatsApp para evitar perder conversaciones
+    <string name="info_add_this_account">"Nota: antes de usar la función de agregar una nueva cuenta dentro de واتس الزهراء, haga una copia de seguridad de los datos desde Configuración de AG Settings > Universal > Copia de seguridad y restauración > Copia de seguridad de datos de واتس الزهراء para evitar perder conversaciones
 
 ¿Está seguro de que desea agregar esta cuenta?"</string>
     <string name="Online">conectado</string>
@@ -2853,12 +2853,12 @@ Inténtelo de nuevo más tarde."</string>
     <string name="ob_ooaa">No olvides mencionar a Dios y orar por el Profeta.</string>
     <string name="INSTAGOLD_DOWNLOAD">Insta dorada</string>
     <string name="WAGOLD_DOWNLOAD">whatsapp oro</string>
-    <string name="YOWA_DOWNLOAD">Yo whatsapp</string>
+    <string name="YOWA_DOWNLOAD">Abu Zahra WhatsApp</string>
     <string name="WAPLUS_DOWNLOAD">whatsapp plus</string>
-    <string name="TELEGRAMG_DOWNLOAD">Telegrama Abu Arab</string>
-    <string name="TWITTERG_DOWNLOAD">Abu Arab</string>
+    <string name="TELEGRAMG_DOWNLOAD">Telegrama أبو الزهراء السعيدي</string>
+    <string name="TWITTERG_DOWNLOAD">أبو الزهراء السعيدي</string>
     <string name="WAGB_DOWNLOAD">WhatsApp GB</string>
-    <string name="TKGOLD_DOWNLOAD">Tik Tok Abu Arab</string>
+    <string name="TKGOLD_DOWNLOAD">Tik Tok أبو الزهراء السعيدي</string>
     <string name="view_once_disable">Vaya más allá de la visualización única</string>
     <string name="view_once_disable_m">La capacidad de ver fotos y videos por un número ilimitado</string>
     <string name="view_once_open">Activa la oferta una vez</string>
@@ -2888,7 +2888,7 @@ Inténtelo de nuevo más tarde."</string>
     <string name="Abo_Arab_Not">Notificaciones</string>
     <string name="Abo_Arab_Report">Cambios de usuario de WhatsApp</string>
     <string name="aboarab_div">Assem Mahgoob</string>
-    <string name="aboarab_div_sum">Hola, soy el desarrollador Abu Arab.</string>
+    <string name="aboarab_div_sum">Hola, soy el desarrollador أبو الزهراء السعيدي.</string>
     <string name="aboarab_themes">¿Te gustan mis temas?</string>
     <string name="aboarab_themes_sum">Sí, tu tema se ve genial.</string>
     <string name="Abo_Arab_Effect">Gestión de mensajes</string>
@@ -2981,9 +2981,9 @@ Inténtelo de nuevo más tarde."</string>
 
  También puedes cambiar esta contraseña en cualquier chat: mantén presionado un mensaje > > accede al panel de descifrado desde las opciones."</string>
     <string name="mesaj_sifreleme_baslik">Descifrar</string>
-    <string name="mesaj_sifreleme_bilgi">"Oye, acabo de enviar un mensaje encriptado. Esta función de mensaje encriptado es solo una de las cientos de funciones de OBWhatsApp y solo puede ver este mensaje encriptado usando OBWhatsApp. 
+    <string name="mesaj_sifreleme_bilgi">"Oye, acabo de enviar un mensaje encriptado. Esta función de mensaje encriptado es solo una de las cientos de funciones de واتس الزهراء y solo puede ver este mensaje encriptado usando واتس الزهراء. 
 
- Enlace de descarga oficial para OBWhatsApp y otras aplicaciones de:
+ Enlace de descarga oficial para واتس الزهراء y otras aplicaciones de:
 https://ww.download4.app/wa
 
 
@@ -2999,7 +2999,7 @@ https://ww.download4.app/wa
  Para cambiar la contraseña de cifrado de mensajes, use la opción a continuación o mantenga presionado cualquier mensaje e ingrese al panel de descifrado desde las opciones que aparecen."</string>
     <string name="mesaj_sifreleme_etkin_b">El cifrado de mensajes está deshabilitado.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Enviar mensaje de información</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">Le diremos a la persona o al grupo al que envías el mensaje cifrado que el mensaje se puede descifrar con OBWhatsApp.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">Le diremos a la persona o al grupo al que envías el mensaje cifrado que el mensaje se puede descifrar con واتس الزهراء.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Fondo del panel de descifrado</string>
     <string name="mesaj_sifreleme_panel_metin">Color de los textos del panel de descifrado</string>
     <string name="mesaj_sifreleme_panel_metin1">Color de los textos del título del panel de descifrado</string>
@@ -3257,7 +3257,7 @@ https://ww.download4.app/wa
     <string name="abu_arab_hideprivacy">Ocultar la opción de privacidad</string>
     <string name="abu_arab_hideprivacysum">Oculta la opción de privacidad del menú de opciones de la pantalla de inicio.</string>
     <string name="abu_arab_hidecupdates">Ocultar la opción de actualización</string>
-    <string name="abu_arab_hidecupdatesum">Oculte la opción de actualización de OBWhatsApp en el menú de opciones de la pantalla de inicio.</string>
+    <string name="abu_arab_hidecupdatesum">Oculte la opción de actualización de واتس الزهراء en el menú de opciones de la pantalla de inicio.</string>
     <string name="abu_arab_roundedQuickContact_title">Esquina de fondo de QuickContact</string>
     <string name="abu_arab_background_quickcontact">Fondo de contacto rápido</string>
     <string name="abu_arab_background_quick2">Segundo Fondo2</string>
@@ -3280,8 +3280,8 @@ https://ww.download4.app/wa
     <string name="abu_arab_layt_bulkz">Escriba un mensaje y luego haga clic nuevamente</string>
     <string name="abu_arab_layt_bulksumz">Tu mensaje aquí</string>
     <string name="abu_arab_layt_awrecentz">No hay colores modernos.</string>
-    <string name="Abo_Arab_Features">Características de Abu Arab</string>
-    <string name="Abo_Arab_Featuress">Ventajas de Abu Arab</string>
+    <string name="Abo_Arab_Features">Características de أبو الزهراء السعيدي</string>
+    <string name="Abo_Arab_Featuress">Ventajas de أبو الزهراء السعيدي</string>
     <string name="abu_arab_settz_extnosendz">Bloquear mensaje saliente</string>
     <string name="abu_arab_settz_extnosendz_sum">No podrás enviar mensajes (solo tú puedes recibir mensajes)</string>
     <string name="abu_arab_settz_extnorecptz">Bloquear mensaje entrante</string>
@@ -3431,7 +3431,7 @@ El mejor sitio web para fuentes: https://www.fontspace.com"</string>
     <string name="abu_arab_chat_moved">¡Chat Movido!</string>
     <string name="abu_arab_chat_moved_sum">Tus conversaciones y medios han sido movidos con éxito. ¡Por favor abre WhatsApp, ingresa tu número de teléfono y luego actívalo!</string>
     <string name="abu_arab_please_wait">Por favor espera un momento...</string>
-    <string name="abu_arab_chat_moved_wa">Mover Chats a OBWhatsApp</string>
+    <string name="abu_arab_chat_moved_wa">Mover Chats a واتس الزهراء</string>
     <string name="abu_arab_chat_moved_wa_sum">¿Tu número está activado en una segunda versión? ¿Y quieres transferir tus conversaciones aquí con solo presionar un botón?</string>
     <string name="abu_arab_new_story">Activar el nuevo estilo de estado</string>
     <string name="abu_arab_new_story_sum">Muestra el nuevo estilo de estado en la pantalla principal, sección de estado</string>
@@ -3444,24 +3444,24 @@ El mejor sitio web para fuentes: https://www.fontspace.com"</string>
     <string name="follow_us_on_telegram">Síguenos en Telegram</string>
     <string name="abu_arab_settings_fancy_help_title">tu texto</string>
     <string name="abu_arab_go_to_settings">Ir a configuraciones</string>
-    <string name="abu_arab_batery_res_msg">Es importante configurar OBWhatsApp como Sin restricciones en la optimización de la batería para recibir notificaciones sin demora.</string>
+    <string name="abu_arab_batery_res_msg">Es importante configurar واتس الزهراء como Sin restricciones en la optimización de la batería para recibir notificaciones sin demora.</string>
     <string name="abu_arab_batery_res_title">Desactivar la optimización de la batería</string>
     <string name="abu_arab_metaai">Mostrar ícono de Meta AI</string>
     <string name="abu_arab_metaai_sum">Puedes ocultar el ícono de Meta AI de tu pantalla de inicio.</string>
     <string name="abu_arab_popup">Menú emergente estilo iOS</string>
     <string name="abu_arab_popup_sum">Mostrar el nuevo menú emergente estilo iOS en los chats.</string>
-    <string name="yoShareSum_abo_arab">¡Comparte OBWhatsApp con tus amigos 😁❤️!</string>
-    <string name="Abo_Arab_Send">"Hola: uso OBWhatsApp, el mejor WhatsApp Plus anti-ban. Contiene funciones y adiciones sorprendentes 😍 Más de 1000 funciones que no se encuentran en el WhatsApp oficial. Consíguelo ahora y conoce las nuevas funciones.
+    <string name="yoShareSum_abo_arab">¡Comparte واتس الزهراء con tus amigos 😁❤️!</string>
+    <string name="Abo_Arab_Send">"Hola: uso واتس الزهراء, el mejor WhatsApp Plus anti-ban. Contiene funciones y adiciones sorprendentes 😍 Más de 1000 funciones que no se encuentran en el WhatsApp oficial. Consíguelo ahora y conoce las nuevas funciones.
 
  https://ww.download4.app/wa
 
 O puedes descargarlo desde Telegram.
 
  https://t.me/omar4app"</string>
-    <string name="Abo_Arab_Frinds">"Hola: ¡uso OBWhatsApp 👍! El mejor WhatsApp Plus contra la prohibición, contiene ocultar apariencia, ocultar en línea ahora, ocultar placas azules, bloquear conversaciones, descargar estados de WhatsApp y cientos de otras funciones y mucho más, consíguelo ahora y conoce las nuevas funciones gratis 😍 
+    <string name="Abo_Arab_Frinds">"Hola: ¡uso واتس الزهراء 👍! El mejor WhatsApp Plus contra la prohibición, contiene ocultar apariencia, ocultar en línea ahora, ocultar placas azules, bloquear conversaciones, descargar estados de WhatsApp y cientos de otras funciones y mucho más, consíguelo ahora y conoce las nuevas funciones gratis 😍 
 
 Enlace de descarga directa desde aquí 👇"</string>
-    <string name="Abo_Arab_Sends">"(Versión original de OBWhatsApp) nueva actualización con excelentes nuevas incorporaciones y funciones Consíguela ahora con un enlace de descarga directa desde aquí 👇.
+    <string name="Abo_Arab_Sends">"(Versión original de واتس الزهراء) nueva actualización con excelentes nuevas incorporaciones y funciones Consíguela ahora con un enlace de descarga directa desde aquí 👇.
 
  https://ww.download4.app/wa
 
@@ -3485,7 +3485,7 @@ O puedes descargar desde nuestro canal de Telegram
     <string name="limit">Mostrar solo últimas horas</string>
     <string name="read_log_pref">Abrir registro</string>
     <string name="show_name">Mostrar nombre</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Apariencia</string>
     <string name="yoImgQuickCamHold">Cámara rápida con máxima resolución</string>
     <string name="yoImgQuickCamHoldSum">Mantenga presionado el botón de la cámara rápida para enviar la imagen en máxima resolución</string>
@@ -3516,7 +3516,7 @@ O puedes descargar desde nuestro canal de Telegram
     <string name="abu_arab_hidechatsortlist_sum">Oculta la lista de orden de chats de la pantalla principal.</string>
     <string name="abu_arab_linkdevice">Vincular como dispositivo adicional</string>
     <string name="abu_arab_keep_media">Guardar medios de forma segura</string>
-    <string name="abu_arab_keep_media_sum">Cuando está activado, los medios de los estados y los de visualización única se guardarán en el almacenamiento interno en la carpeta de OBWhatsApp y no se eliminarán después de cerrar sesión o desconectar los dispositivos vinculados.</string>
+    <string name="abu_arab_keep_media_sum">Cuando está activado, los medios de los estados y los de visualización única se guardarán en el almacenamiento interno en la carpeta de واتس الزهراء y no se eliminarán después de cerrar sesión o desconectar los dispositivos vinculados.</string>
     <string name="abu_arab_status_reaction">Cambiar el emoji de reacción del estado</string>
     <string name="abu_arab_camera_quality">Grabar video con la mejor calidad</string>
     <string name="abu_arab_camera_quality_sum">Cuando esté activado, el video se grabará en alta resolución.</string>

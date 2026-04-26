@@ -576,7 +576,7 @@
 
     const/4 v1, 0x0
 
-    const-string v0, "OBWhatsApp Surveys"
+    const-string v0, "Abu Zahra WhatsApp Surveys"
 
     invoke-static {v4, v0, v2, v1, v3}, LX/1ad;->A1G(Landroid/content/Context;Ljava/lang/Object;[Ljava/lang/Object;II)Ljava/lang/String;
 

@@ -2,7 +2,7 @@
 <manifest
     android:compileSdkVersion="36"
     android:compileSdkVersionCodename="16"
-    package="com.obwhatsapp"
+    package="com.zahra.whatsapp"
     platformBuildVersionCode="36"
     platformBuildVersionName="16"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -178,7 +178,7 @@
         </intent>
         <provider
             android:name="androidx.car.app.connection.provider"
-            android:authorities="com.obwhatsapp_androidx.car.app.connection" />
+            android:authorities="com.zahra.whatsapp_androidx.car.app.connection" />
         <package
             android:name="com.whatsapp.w4b" />
         <package
@@ -323,7 +323,7 @@
     <uses-permission
         android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission
-        android:name="com.obwhatsapp_com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+        android:name="com.zahra.whatsapp_com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
     <!-- للسماح للتطبيق بقراءة المواقع من مجموعة الوسائط التابعة لك. -->
     <uses-permission
         android:name="android.permission.ACCESS_MEDIA_LOCATION" />
@@ -403,11 +403,11 @@
     <uses-permission
         android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
     <uses-permission
-        android:name="com.obwhatsapp_com.google.android.c2dm.permission.RECEIVE" />
+        android:name="com.zahra.whatsapp_com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission
-        android:name="com.obwhatsapp_com.google.android.gms.permission.AD_ID" />
+        android:name="com.zahra.whatsapp_com.google.android.gms.permission.AD_ID" />
     <uses-permission
-        android:name="com.obwhatsapp_com.google.android.providers.gsf.permission.READ_GSERVICES" />
+        android:name="com.zahra.whatsapp_com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission
         android:name="com.sec.android.provider.badge.permission.READ" />
     <uses-permission
@@ -427,11 +427,11 @@
     <uses-permission
         android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
     <uses-permission
-        android:name="com.obwhatsapp.permission.BROADCAST" />
+        android:name="com.zahra.whatsapp.permission.BROADCAST" />
     <uses-permission
-        android:name="com.obwhatsapp.permission.MAPS_RECEIVE" />
+        android:name="com.zahra.whatsapp.permission.MAPS_RECEIVE" />
     <uses-permission
-        android:name="com.obwhatsapp.permission.REGISTRATION" />
+        android:name="com.zahra.whatsapp.permission.REGISTRATION" />
     <!-- Allows WhatsApp to read and display stickers from third party sticker apps. -->
     <uses-permission
         android:name="com.whatsapp.sticker.READ" />
@@ -442,36 +442,36 @@
     <uses-permission-sdk-23
         android:name="android.permission.READ_CALL_LOG" />
     <permission
-        android:name="com.obwhatsapp.permission.BROADCAST"
+        android:name="com.zahra.whatsapp.permission.BROADCAST"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.obwhatsapp.permission.MAPS_RECEIVE"
+        android:name="com.zahra.whatsapp.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.obwhatsapp.permission.IDENTITY_VERIFICATION"
+        android:name="com.zahra.whatsapp.permission.IDENTITY_VERIFICATION"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.obwhatsapp.permission.REGISTRATION"
+        android:name="com.zahra.whatsapp.permission.REGISTRATION"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.obwhatsapp.permission.MIGRATION_CONTENT_PROVIDER"
+        android:name="com.zahra.whatsapp.permission.MIGRATION_CONTENT_PROVIDER"
         android:protectionLevel="signature" />
     <permission
         android:label="@string/str3257"
-        android:name="com.obwhatsapp.sticker.READ"
+        android:name="com.zahra.whatsapp.sticker.READ"
         android:description="@string/str3256" />
     <uses-permission
         android:name="android.permission.RUN_USER_INITIATED_JOBS" />
     <uses-permission
-        android:name="com.obwhatsapp_com.facebook.services.identity.FEO2" />
+        android:name="com.zahra.whatsapp_com.facebook.services.identity.FEO2" />
     <permission
-        android:name="com.obwhatsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.zahra.whatsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
     <uses-permission
-        android:name="com.obwhatsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+        android:name="com.zahra.whatsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <application
         android:theme="@style/style0455"
-        android:label="@string/yoShareSbj"
+        android:label="@string/app_name"
         android:icon="@mipmap/icon"
         android:name="com.whatsapp.AppShell"
         android:manageSpaceActivity="com.whatsapp.storage.StorageUsageManageSpaceActivity"
@@ -576,7 +576,7 @@
             android:permission="com.apple.movetoios.ACCESS"
             android:enabled="false"
             android:exported="true"
-            android:authorities="com.obwhatsapp.provider.migrate.ios" />
+            android:authorities="com.zahra.whatsapp.provider.migrate.ios" />
         <activity
             android:theme="@style/style0475"
             android:name="com.whatsapp.migration.android.view.GoogleMigrateImporterActivity"
@@ -625,7 +625,7 @@
             android:permission="com.google.permission.besties.API"
             android:enabled="true"
             android:exported="true"
-            android:authorities="com.obwhatsapp.pixel.besties.provider" />
+            android:authorities="com.zahra.whatsapp.pixel.besties.provider" />
         <activity
             android:name="com.whatsapp.pixel.besties.activity.PixelBestiesUpsellActivity"
             android:permission="com.google.permission.besties.API"
@@ -1652,7 +1652,7 @@
             android:name="com.whatsapp.accesslibraryprovider.provider.FamilyAppsUserValuesProvider"
             android:enabled="true"
             android:exported="true"
-            android:authorities="com.obwhatsapp.accesslibraryprovider.provider.FamilyAppsUserValuesProvider" />
+            android:authorities="com.zahra.whatsapp.accesslibraryprovider.provider.FamilyAppsUserValuesProvider" />
         <activity
             android:theme="@style/style0455"
             android:name="com.whatsapp.accountdelete.account.delete.DeleteAccountActivity"
@@ -1848,7 +1848,7 @@
             android:name="com.whatsapp.backup.google.restart.RestartAppContentProvider"
             android:enabled="true"
             android:exported="false"
-            android:authorities="com.obwhatsapp.backup.google.restart.RestartAppContentProvider" />
+            android:authorities="com.zahra.whatsapp.backup.google.restart.RestartAppContentProvider" />
         <activity
             android:theme="@style/style048c"
             android:name="com.whatsapp.bizintegrity.remediation.ui.VideoRemediationActivity"
@@ -1928,7 +1928,7 @@
             android:name="com.whatsapp.instrumentation.product.api.InstrumentationProvider"
             android:enabled="true"
             android:exported="false"
-            android:authorities="com.obwhatsapp.provider.instrumentation"
+            android:authorities="com.zahra.whatsapp.provider.instrumentation"
             android:grantUriPermissions="true" />
         <activity
             android:theme="@style/style0482"
@@ -2030,7 +2030,7 @@
         <provider
             android:name="com.google.mlkit.common.internal.MlKitInitProvider"
             android:exported="false"
-            android:authorities="com.obwhatsapp.mlkitinitprovider"
+            android:authorities="com.zahra.whatsapp.mlkitinitprovider"
             android:initOrder="99" />
         <service
             android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
@@ -2104,7 +2104,7 @@
         <activity
             android:theme="@style/style0475"
             android:name="com.whatsapp.identity.ui.IdentityVerificationActivity"
-            android:permission="com.obwhatsapp.permission.IDENTITY_VERIFICATION"
+            android:permission="com.zahra.whatsapp.permission.IDENTITY_VERIFICATION"
             android:exported="true"
             android:launchMode="singleTop"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode">
@@ -2187,7 +2187,7 @@
             android:launchMode="singleTask"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize">
             <intent-filter
-                android:label="@string/yoShareSbj">
+                android:label="@string/app_name">
                 <action
                     android:name="android.nfc.action.NDEF_DISCOVERED" />
                 <category
@@ -2198,7 +2198,7 @@
                     android:mimeType="application/com.whatsapp.join" />
             </intent-filter>
             <intent-filter
-                android:label="@string/yoShareSbj">
+                android:label="@string/app_name">
                 <action
                     android:name="android.intent.action.VIEW" />
                 <category
@@ -2210,7 +2210,7 @@
                     android:host="chat" />
             </intent-filter>
             <intent-filter
-                android:label="@string/yoShareSbj">
+                android:label="@string/app_name">
                 <action
                     android:name="android.intent.action.VIEW" />
                 <category
@@ -2222,7 +2222,7 @@
                     android:host="call" />
             </intent-filter>
             <intent-filter
-                android:label="@string/yoShareSbj"
+                android:label="@string/app_name"
                 android:autoVerify="true">
                 <action
                     android:name="android.intent.action.VIEW" />
@@ -2243,7 +2243,7 @@
             android:exported="true"
             android:targetActivity="com.whatsapp.home.ui.HomeActivity">
             <intent-filter
-                android:label="@string/yoShareSbj"
+                android:label="@string/app_name"
                 android:autoVerify="true">
                 <action
                     android:name="android.intent.action.VIEW" />
@@ -2265,13 +2265,13 @@
             android:targetActivity="com.whatsapp.home.ui.HomeActivity" />
         <activity
             android:theme="@style/style046c"
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:name="com.whatsapp.Main"
             android:exported="true"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
             android:hardwareAccelerated="false">
             <intent-filter
-                android:label="@string/yoShareSbj">
+                android:label="@string/app_name">
                 <action
                     android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -2280,9 +2280,9 @@
                 android:resource="@xml/xml000d" />
         </activity>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@mipmap/icon"
-            android:name="com.obwhatsapp.Icon0"
+            android:name="com.zahra.whatsapp.Icon0"
             android:enabled="true"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2300,9 +2300,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_01"
-            android:name="com.obwhatsapp.Icon1"
+            android:name="com.zahra.whatsapp.Icon1"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2316,9 +2316,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_02"
-            android:name="com.obwhatsapp.Icon2"
+            android:name="com.zahra.whatsapp.Icon2"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2332,9 +2332,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_03"
-            android:name="com.obwhatsapp.Icon3"
+            android:name="com.zahra.whatsapp.Icon3"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2348,9 +2348,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_04"
-            android:name="com.obwhatsapp.Icon4"
+            android:name="com.zahra.whatsapp.Icon4"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2364,9 +2364,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_05"
-            android:name="com.obwhatsapp.Icon5"
+            android:name="com.zahra.whatsapp.Icon5"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2380,9 +2380,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_06"
-            android:name="com.obwhatsapp.Icon6"
+            android:name="com.zahra.whatsapp.Icon6"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2396,9 +2396,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_07"
-            android:name="com.obwhatsapp.Icon7"
+            android:name="com.zahra.whatsapp.Icon7"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2412,9 +2412,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_08"
-            android:name="com.obwhatsapp.Icon8"
+            android:name="com.zahra.whatsapp.Icon8"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2428,9 +2428,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_09"
-            android:name="com.obwhatsapp.Icon9"
+            android:name="com.zahra.whatsapp.Icon9"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2444,9 +2444,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_10"
-            android:name="com.obwhatsapp.Icon10"
+            android:name="com.zahra.whatsapp.Icon10"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2460,9 +2460,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_11"
-            android:name="com.obwhatsapp.Icon11"
+            android:name="com.zahra.whatsapp.Icon11"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2476,9 +2476,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_12"
-            android:name="com.obwhatsapp.Icon12"
+            android:name="com.zahra.whatsapp.Icon12"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2492,9 +2492,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_13"
-            android:name="com.obwhatsapp.Icon13"
+            android:name="com.zahra.whatsapp.Icon13"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2508,9 +2508,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_14"
-            android:name="com.obwhatsapp.Icon14"
+            android:name="com.zahra.whatsapp.Icon14"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2524,9 +2524,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_15"
-            android:name="com.obwhatsapp.Icon15"
+            android:name="com.zahra.whatsapp.Icon15"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2540,9 +2540,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_16"
-            android:name="com.obwhatsapp.Icon16"
+            android:name="com.zahra.whatsapp.Icon16"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2556,9 +2556,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_17"
-            android:name="com.obwhatsapp.Icon17"
+            android:name="com.zahra.whatsapp.Icon17"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2572,9 +2572,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_18"
-            android:name="com.obwhatsapp.Icon18"
+            android:name="com.zahra.whatsapp.Icon18"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2588,9 +2588,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_19"
-            android:name="com.obwhatsapp.Icon19"
+            android:name="com.zahra.whatsapp.Icon19"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2604,9 +2604,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_20"
-            android:name="com.obwhatsapp.Icon20"
+            android:name="com.zahra.whatsapp.Icon20"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2620,9 +2620,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_21"
-            android:name="com.obwhatsapp.Icon21"
+            android:name="com.zahra.whatsapp.Icon21"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2636,9 +2636,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_22"
-            android:name="com.obwhatsapp.Icon22"
+            android:name="com.zahra.whatsapp.Icon22"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2652,9 +2652,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_23"
-            android:name="com.obwhatsapp.Icon23"
+            android:name="com.zahra.whatsapp.Icon23"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2668,9 +2668,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_24"
-            android:name="com.obwhatsapp.Icon24"
+            android:name="com.zahra.whatsapp.Icon24"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2684,9 +2684,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_25"
-            android:name="com.obwhatsapp.Icon25"
+            android:name="com.zahra.whatsapp.Icon25"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2700,9 +2700,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_26"
-            android:name="com.obwhatsapp.Icon26"
+            android:name="com.zahra.whatsapp.Icon26"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2716,9 +2716,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_27"
-            android:name="com.obwhatsapp.Icon27"
+            android:name="com.zahra.whatsapp.Icon27"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2732,9 +2732,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_28"
-            android:name="com.obwhatsapp.Icon28"
+            android:name="com.zahra.whatsapp.Icon28"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2748,9 +2748,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_29"
-            android:name="com.obwhatsapp.Icon29"
+            android:name="com.zahra.whatsapp.Icon29"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2764,9 +2764,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_30"
-            android:name="com.obwhatsapp.Icon30"
+            android:name="com.zahra.whatsapp.Icon30"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2780,9 +2780,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="@string/yoShareSbj"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_31"
-            android:name="com.obwhatsapp.Icon31"
+            android:name="com.zahra.whatsapp.Icon31"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2796,9 +2796,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_32"
-            android:name="com.obwhatsapp.Icon32"
+            android:name="com.zahra.whatsapp.Icon32"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2812,9 +2812,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_33"
-            android:name="com.obwhatsapp.Icon33"
+            android:name="com.zahra.whatsapp.Icon33"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2828,9 +2828,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_34"
-            android:name="com.obwhatsapp.Icon34"
+            android:name="com.zahra.whatsapp.Icon34"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2844,9 +2844,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_35"
-            android:name="com.obwhatsapp.Icon35"
+            android:name="com.zahra.whatsapp.Icon35"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2860,9 +2860,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_36"
-            android:name="com.obwhatsapp.Icon36"
+            android:name="com.zahra.whatsapp.Icon36"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2876,9 +2876,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_37"
-            android:name="com.obwhatsapp.Icon37"
+            android:name="com.zahra.whatsapp.Icon37"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2892,9 +2892,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_38"
-            android:name="com.obwhatsapp.Icon38"
+            android:name="com.zahra.whatsapp.Icon38"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2908,9 +2908,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_39"
-            android:name="com.obwhatsapp.Icon39"
+            android:name="com.zahra.whatsapp.Icon39"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2924,9 +2924,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_40"
-            android:name="com.obwhatsapp.Icon40"
+            android:name="com.zahra.whatsapp.Icon40"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2940,9 +2940,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_41"
-            android:name="com.obwhatsapp.Icon41"
+            android:name="com.zahra.whatsapp.Icon41"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2956,9 +2956,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_42"
-            android:name="com.obwhatsapp.Icon42"
+            android:name="com.zahra.whatsapp.Icon42"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2972,9 +2972,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_43"
-            android:name="com.obwhatsapp.Icon43"
+            android:name="com.zahra.whatsapp.Icon43"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -2988,9 +2988,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_44"
-            android:name="com.obwhatsapp.Icon44"
+            android:name="com.zahra.whatsapp.Icon44"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3004,9 +3004,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_45"
-            android:name="com.obwhatsapp.Icon45"
+            android:name="com.zahra.whatsapp.Icon45"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3020,9 +3020,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_46"
-            android:name="com.obwhatsapp.Icon46"
+            android:name="com.zahra.whatsapp.Icon46"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3036,9 +3036,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_47"
-            android:name="com.obwhatsapp.Icon47"
+            android:name="com.zahra.whatsapp.Icon47"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3052,9 +3052,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_48"
-            android:name="com.obwhatsapp.Icon48"
+            android:name="com.zahra.whatsapp.Icon48"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3068,9 +3068,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_49"
-            android:name="com.obwhatsapp.Icon49"
+            android:name="com.zahra.whatsapp.Icon49"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3084,9 +3084,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_50"
-            android:name="com.obwhatsapp.Icon50"
+            android:name="com.zahra.whatsapp.Icon50"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3100,9 +3100,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_51"
-            android:name="com.obwhatsapp.Icon51"
+            android:name="com.zahra.whatsapp.Icon51"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3116,9 +3116,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_52"
-            android:name="com.obwhatsapp.Icon52"
+            android:name="com.zahra.whatsapp.Icon52"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3132,9 +3132,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_53"
-            android:name="com.obwhatsapp.Icon53"
+            android:name="com.zahra.whatsapp.Icon53"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3148,9 +3148,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_54"
-            android:name="com.obwhatsapp.Icon54"
+            android:name="com.zahra.whatsapp.Icon54"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3164,9 +3164,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_55"
-            android:name="com.obwhatsapp.Icon55"
+            android:name="com.zahra.whatsapp.Icon55"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3180,9 +3180,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_56"
-            android:name="com.obwhatsapp.Icon56"
+            android:name="com.zahra.whatsapp.Icon56"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3196,9 +3196,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_57"
-            android:name="com.obwhatsapp.Icon57"
+            android:name="com.zahra.whatsapp.Icon57"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3212,9 +3212,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_58"
-            android:name="com.obwhatsapp.Icon58"
+            android:name="com.zahra.whatsapp.Icon58"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3228,9 +3228,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_59"
-            android:name="com.obwhatsapp.Icon59"
+            android:name="com.zahra.whatsapp.Icon59"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3244,9 +3244,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_60"
-            android:name="com.obwhatsapp.Icon60"
+            android:name="com.zahra.whatsapp.Icon60"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3260,9 +3260,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_61"
-            android:name="com.obwhatsapp.Icon61"
+            android:name="com.zahra.whatsapp.Icon61"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3276,9 +3276,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_62"
-            android:name="com.obwhatsapp.Icon62"
+            android:name="com.zahra.whatsapp.Icon62"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3292,9 +3292,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_63"
-            android:name="com.obwhatsapp.Icon63"
+            android:name="com.zahra.whatsapp.Icon63"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3308,9 +3308,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_64"
-            android:name="com.obwhatsapp.Icon64"
+            android:name="com.zahra.whatsapp.Icon64"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3324,9 +3324,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_65"
-            android:name="com.obwhatsapp.Icon65"
+            android:name="com.zahra.whatsapp.Icon65"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3340,9 +3340,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_66"
-            android:name="com.obwhatsapp.Icon66"
+            android:name="com.zahra.whatsapp.Icon66"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3356,9 +3356,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_67"
-            android:name="com.obwhatsapp.Icon67"
+            android:name="com.zahra.whatsapp.Icon67"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3372,9 +3372,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_68"
-            android:name="com.obwhatsapp.Icon68"
+            android:name="com.zahra.whatsapp.Icon68"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3388,9 +3388,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_69"
-            android:name="com.obwhatsapp.Icon69"
+            android:name="com.zahra.whatsapp.Icon69"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3404,9 +3404,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_70"
-            android:name="com.obwhatsapp.Icon70"
+            android:name="com.zahra.whatsapp.Icon70"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3420,9 +3420,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_71"
-            android:name="com.obwhatsapp.Icon71"
+            android:name="com.zahra.whatsapp.Icon71"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3436,9 +3436,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_72"
-            android:name="com.obwhatsapp.Icon72"
+            android:name="com.zahra.whatsapp.Icon72"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3452,9 +3452,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_73"
-            android:name="com.obwhatsapp.Icon73"
+            android:name="com.zahra.whatsapp.Icon73"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3468,9 +3468,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_74"
-            android:name="com.obwhatsapp.Icon74"
+            android:name="com.zahra.whatsapp.Icon74"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -3484,9 +3484,9 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:label="OBWhatsApp"
+            android:label="@string/app_name"
             android:icon="@drawable/icon_75"
-            android:name="com.obwhatsapp.Icon75"
+            android:name="com.zahra.whatsapp.Icon75"
             android:enabled="false"
             android:exported="true"
             android:targetActivity="com.whatsapp.Main">
@@ -5555,7 +5555,7 @@
             android:name="com.whatsapp.accountswitching.AccountSwitchingContentProvider"
             android:enabled="true"
             android:exported="false"
-            android:authorities="com.obwhatsapp.accountswitching.AccountSwitchingContentProvider" />
+            android:authorities="com.zahra.whatsapp.accountswitching.AccountSwitchingContentProvider" />
         <receiver
             android:name="com.whatsapp.accountswitching.notifications.InactiveAccountNotificationReceiver"
             android:enabled="true"
@@ -5885,7 +5885,7 @@
         <provider
             android:name="com.whatsapp.stickers.ui.storage.WhitelistPackQueryContentProvider"
             android:exported="true"
-            android:authorities="com.obwhatsapp.provider.sticker_whitelist_check" />
+            android:authorities="com.zahra.whatsapp.provider.sticker_whitelist_check" />
         <activity
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:icon="@drawable/ic_gallery"
@@ -6237,7 +6237,7 @@
         <provider
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
-            android:authorities="com.obwhatsapp.fileprovider"
+            android:authorities="com.zahra.whatsapp.fileprovider"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
@@ -6246,7 +6246,7 @@
         <provider
             android:name="com.facebook.secure.fileprovider.SecureFileProvider"
             android:exported="false"
-            android:authorities="com.obwhatsapp.securefileprovider"
+            android:authorities="com.zahra.whatsapp.securefileprovider"
             android:grantUriPermissions="true">
             <grant-uri-permission
                 android:pathPrefix="/secure_shared_" />
@@ -6320,14 +6320,14 @@
             android:readPermission="com.whatsapp.permission.MIGRATION_CONTENT_PROVIDER"
             android:enabled="true"
             android:exported="true"
-            android:authorities="com.obwhatsapp.provider.MigrationContentProvider"
+            android:authorities="com.zahra.whatsapp.provider.MigrationContentProvider"
             android:grantUriPermissions="false" />
         <provider
             android:name="com.whatsapp.registration.directmigration.DirectMigrationContentProvider"
             android:readPermission="com.whatsapp.permission.MIGRATION_CONTENT_PROVIDER"
             android:enabled="true"
             android:exported="true"
-            android:authorities="com.obwhatsapp.provider.DirectMigrationContentProvider" />
+            android:authorities="com.zahra.whatsapp.provider.DirectMigrationContentProvider" />
         <service
             android:name="com.google.android.gms.nearby.exposurenotification.WakeUpService"
             android:permission="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK"
@@ -6382,7 +6382,7 @@
         <provider
             android:name="com.whatsapp.media.contentprovider.MediaProvider"
             android:exported="false"
-            android:authorities="com.obwhatsapp.provider.media"
+            android:authorities="com.zahra.whatsapp.provider.media"
             android:grantUriPermissions="true" />
         <receiver
             android:name="com.whatsapp.media.ExternalMediaManager$ExternalMediaStateReceiver"
@@ -6503,7 +6503,7 @@
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:exported="false"
-            android:authorities="com.obwhatsapp.firebaseinitprovider"
+            android:authorities="com.zahra.whatsapp.firebaseinitprovider"
             android:initOrder="100"
             android:directBootAware="true" />
         <activity
@@ -6778,7 +6778,7 @@
             android:name="com.android.vending.splits"
             android:resource="@xml/splits0" />
         <receiver
-            android:label="YoWA Widget"
+            android:label="واتس الزهراء Widget"
             android:name="com.whatsapp.yo.WidgetProvider"
             android:enabled="true"
             android:exported="true">

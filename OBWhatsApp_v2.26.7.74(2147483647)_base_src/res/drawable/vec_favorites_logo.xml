@@ -9,7 +9,7 @@
         <clip-path
             android:pathData="M0.5,0h135v90h-135z" />
         <path
-            android:fillColor="#ff25d366"
+            android:fillColor="#ffD4AF37"
             android:pathData="M34.35,23.93L30.52,65.85C29.89,72.82 35.02,78.99 41.99,79.63L70.57,82.24C77.54,82.87 83.71,77.74 84.35,70.76L88.18,28.85C88.81,21.88 83.68,15.71 76.7,15.07L48.13,12.46C41.16,11.83 34.99,16.96 34.35,23.93Z"
             android:strokeColor="#ff111b21"
             android:strokeWidth="1.5" />

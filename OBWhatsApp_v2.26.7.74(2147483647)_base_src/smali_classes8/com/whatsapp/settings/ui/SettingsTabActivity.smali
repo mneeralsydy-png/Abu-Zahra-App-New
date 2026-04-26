@@ -4490,7 +4490,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v4, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v4, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     iget-object v0, v3, Lcom/whatsapp/settings/ui/SettingsTabActivity;->A1H:LX/JzJ;
 

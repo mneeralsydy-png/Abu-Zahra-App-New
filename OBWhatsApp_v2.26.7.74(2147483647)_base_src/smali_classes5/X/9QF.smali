@@ -45,7 +45,7 @@
 
     const/4 v1, 0x1
 
-    const-string v0, "com.obwhatsapp.provider.instrumentation"
+    const-string v0, "com.zahra.whatsapp.provider.instrumentation"
 
     invoke-virtual {v3, v0, v2, v1}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 

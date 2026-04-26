@@ -149,7 +149,7 @@
 .method public static final A0C(Landroid/view/ViewStructure;I)V
     .locals 2
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     const/4 v0, 0x0
 

@@ -173,7 +173,7 @@
 .method public static final A01(Landroid/content/Intent;Ljava/util/List;)LX/HHo;
     .locals 12
 
-    const-string v4, "com.obwhatsapp"
+    const-string v4, "com.zahra.whatsapp"
 
     const/16 v0, 0xa
 

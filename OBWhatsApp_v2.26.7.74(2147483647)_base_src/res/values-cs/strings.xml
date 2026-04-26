@@ -681,7 +681,7 @@
     <string name="HangoutsBt">Barva tlačítka uživatelského rozhraní konverzace</string>
     <string name="HangoutsBtS">Změnit barvu ikony záznamu</string>
     <string name="HideFAB">Skrýt plovoucí akční tlačítko (FAB)</string>
-    <string name="Lock">Zámek OBWhatsApp</string>
+    <string name="Lock">Zámek واتس الزهراء</string>
     <string name="MainSize">Velikost textu na hlavní obrazovce/Volání/Kontakt</string>
     <string name="MainSizeS">Změna velikosti textu na domovské obrazovce</string>
     <string name="MentionIndicatorBackgroundColor">Uveďte pozadí indikátoru</string>
@@ -797,7 +797,7 @@
     <string name="chats_hide_cam_icon">Ikona Skrýt fotoaparát</string>
     <string name="chats_hide_cam_icon_summary">Skrýt ikonu fotoaparátu v záhlaví.</string>
     <string name="clearemoji">Smazat poslední emotikony</string>
-    <string name="clearlogs">Vymazat protokoly OBWhatsApp</string>
+    <string name="clearlogs">Vymazat protokoly واتس الزهراء</string>
     <string name="color_new_color">Nová barva</string>
     <string name="color_old_color">stará barva</string>
     <string name="color_select_color">Vyberte jednu barvu</string>
@@ -957,11 +957,11 @@
     <string name="recent_chats_sum">Skrýt nedávné chaty zepředu</string>
     <string name="reset">Resetovat</string>
     <string name="resetPriv">Resetovat soukromí</string>
-    <string name="resetPrivSum">Obnovte výchozí soukromí OBWhatsApp</string>
+    <string name="resetPrivSum">Obnovte výchozí soukromí واتس الزهراء</string>
     <string name="resetPrivacyonly">Uložit aktuální motiv?</string>
     <string name="resetPrivacyonlyS">"'Opraveno': Ponechat motiv aplikovaný Resetovat: Výchozí/skladové barvy WhatsApp"</string>
     <string name="resetThemes">Obnovit předvolby</string>
-    <string name="resetThemesSum">Obnovte výchozí nastavení OBWhatsApp</string>
+    <string name="resetThemesSum">Obnovte výchozí nastavení واتس الزهراء</string>
     <string name="reset_themes_confirma">Opravdu chcete obnovit všechny předvolby motivu?</string>
     <string name="restoreTheme">Obnovit motiv</string>
     <string name="restoreThemeS">Načíst motiv uložený v (/Download/Themes)</string>
@@ -1052,7 +1052,7 @@
     <string name="yoAudioEarsSum">Zabraňte přepínání reproduktorů/sluchátek během přehrávání</string>
     <string name="yoAudioSensor">Povolit senzor přiblížení</string>
     <string name="yoAudioSensorSum">Ve výchozím nastavení povoleno, deaktivací jej vypnete.</string>
-    <string name="yoBackup">Zálohujte data OBWhatsApp</string>
+    <string name="yoBackup">Zálohujte data واتس الزهراء</string>
     <string name="yoBackupDone">Zálohování dokončeno!</string>
     <string name="yoBackupFail">Zálohování se nezdařilo!</string>
     <string name="yoBackupMsg">Zálohování dat...</string>
@@ -1114,7 +1114,7 @@
     <string name="yoHideRecord">Skrýt záznam…</string>
     <string name="yoHideRecordSum">Neříkejte odesílateli, že nahráváte hlasovou zprávu.</string>
     <string name="yoHideSeen">Freeze Last Seen</string>
-    <string name="yoHideSeenSum">Restartujte prosím OBWhatsApp, aby se změny projevily.</string>
+    <string name="yoHideSeenSum">Restartujte prosím واتس الزهراء, aby se změny projevily.</string>
     <string name="yoHideStatusView">Skrýt stav zobrazení</string>
     <string name="yoHideStatusViewSum">Neříkejte kontaktům, že jste viděli jejich stav</string>
     <string name="yoHomeUIStyle">Uživatelské rozhraní stylu navigace</string>
@@ -1134,7 +1134,7 @@
     <string name="yoNicon">Změna ikony oznámení</string>
     <string name="yoNiconSum">Toto je ikona, která se objeví na stavovém řádku</string>
     <string name="yoNific">Zobrazit pouze jméno odesílatele zprávy vedle ikony oznamovací lišty</string>
-    <string name="yoNoBackup">"Nelze najít zálohu v '/sdcard/OBWhatsApp'!"</string>
+    <string name="yoNoBackup">"Nelze najít zálohu v '/sdcard/واتس الزهراء'!"</string>
     <string name="yoNotif">Shrink Notifications</string>
     <string name="yoOnline">Ve výchozím nastavení povoleno! Aktivujte si ji, pokud nechcete Toast Online</string>
     <string name="yoOnlineHome">Zakázat kontakty online/naposledy viděný stav</string>
@@ -1144,7 +1144,7 @@
     <string name="yoPrivacySum">Zvláštní soukromí</string>
     <string name="yoProfilePic">Skrýt profilový obrázek kontaktu</string>
     <string name="yoProfilePicS">Odebrání obrázku profilu kontaktu ze záhlaví na obrazovce konverzace</string>
-    <string name="yoRestore">Obnovte data OBWhatsApp</string>
+    <string name="yoRestore">Obnovte data واتس الزهراء</string>
     <string name="yoRestoreDone">Obnova dokončena!</string>
     <string name="yoRestoreFail">Obnova se nezdařila!</string>
     <string name="yoRestoreMsg">Obnovování dat…</string>
@@ -1159,7 +1159,7 @@
     <string name="yoSendBtn">Barva tlačítka Odeslat</string>
     <string name="yoSendBtnS">Barva tlačítka Odeslat/Mikrofon na obrazovce konverzace</string>
     <string name="yoShare">Podíl</string>
-    <string name="yoShareSum">Sdílejte OBWhatsApp</string>
+    <string name="yoShareSum">Sdílejte واتس الزهراء</string>
     <string name="yoStyling">Styl (vzhled a dojem)</string>
     <string name="yoSwipeRow">Přejetí čárou</string>
     <string name="yoSwipeRowS">Umožňuje přetažením každého řádku konverzace doleva nebo doprava provádět rychlé akce</string>
@@ -1188,7 +1188,7 @@
     <string name="yo_UpToDate">Vaše nejnovější verze</string>
     <string name="yo_airplane_mode_warning">Když je zapnutý režim Letadlo, nebudete moci odesílat/přijímat zprávy.</string>
     <string name="yo_all">Všechno</string>
-    <string name="yo_changelog">Seznam změn OBWhatsApp</string>
+    <string name="yo_changelog">Seznam změn واتس الزهراء</string>
     <string name="yo_changelogS">Podívejte se, co je v této verzi nového!</string>
     <string name="yo_enable_old">Staré uživatelské rozhraní (2014)</string>
     <string name="yo_follow">Sledujte mě a zůstaňte v obraze!</string>
@@ -1205,7 +1205,7 @@
     <string name="yo_universal">Společná barva</string>
     <string name="yo_universal_sum">Změňte barvy kdekoli, včetně uživatelského rozhraní!</string>
     <string name="yo_webdl">Stáhnout Web</string>
-    <string name="yo_webdlS">Stáhněte si OBWhatsApp z oficiálních stránek</string>
+    <string name="yo_webdlS">Stáhněte si واتس الزهراء z oficiálních stránek</string>
     <string name="yocent">Styl panelu nástrojů konverzace</string>
     <string name="yocentS">Změňte styl záhlaví na obrazovce konverzace</string>
     <string name="yoconh">domácí styl</string>
@@ -1221,7 +1221,7 @@
     <string name="yo_activate">aktivovat</string>
     <string name="airplane_mode">Režim Letadlo</string>
     <string name="yo_FoundUp">Nalezena nová aktualizace! Nejnovější verze WhatsApp je %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">Připojte se ke komunitě Google+ WhatsApp</string>
     <string name="yoUpdate">Pocta legendě!</string>
     <string name="yoReport">Vyskytl se problém? Napište nám email!</string>
@@ -1296,7 +1296,7 @@
     <string name="media_in_gallery">Pokud se média stále nezobrazují v galerii</string>
     <string name="restart_phone">Restartujte telefon</string>
     <string name="add_account">Přepnout účet</string>
-    <string name="info_add_this_account">Poznámka: Před použitím funkce přidání nového účtu v OBWhatsApp zálohujte data z Nastavení OBWA > Univerzální > Zálohovat a obnovit > Zálohovat data OBWhatsApp, abyste nepřišli o konverzace Opravdu chcete přidat tento účet?</string>
+    <string name="info_add_this_account">Poznámka: Před použitím funkce přidání nového účtu v واتس الزهراء zálohujte data z Nastavení OBWA > Univerzální > Zálohovat a obnovit > Zálohovat data واتس الزهراء, abyste nepřišli o konverzace Opravdu chcete přidat tento účet?</string>
     <string name="Mask_media">Vlastní automatické stahování médií</string>
     <string name="specificMedia_sum">Upravte možnosti stahování médií pro každý kontakt/skupinu samostatně</string>
     <string name="yoMPhoto">„Nestahovat nálepky obrázků“</string>
@@ -1407,7 +1407,7 @@
     <string name="mesaj_sifreleme_sifredegistir_1">Změnit heslo</string>
     <string name="mesaj_sifreleme_sifredegistir_2">"Můžete posílat zprávy zašifrované pomocí hesla, které jste si nastavili, nebo zprávy, které přijmete dešifrované pomocí tohoto hesla. Toto heslo můžete také změnit v jakékoli konverzaci: stiskněte a podržte zprávu >> a poté klepněte na 3 tečky výše pro přístup k panelu dešifrování. "</string>
     <string name="mesaj_sifreleme_baslik">Popis</string>
-    <string name="mesaj_sifreleme_bilgi">Ahoj, právě jsem poslal šifrovanou zprávu. Tato funkce šifrovaných zpráv je jen jednou ze stovek funkcí OBWhatsApp a tyto šifrované zprávy můžete zobrazit pouze pomocí OBWhatsApp. Oficiální odkaz ke stažení pro OBWhatsApp a další aplikace Madalah: https://ww.download4.app/wa (Toto je automatická zpráva a je odeslána jednou.)</string>
+    <string name="mesaj_sifreleme_bilgi">Ahoj, právě jsem poslal šifrovanou zprávu. Tato funkce šifrovaných zpráv je jen jednou ze stovek funkcí واتس الزهراء a tyto šifrované zprávy můžete zobrazit pouze pomocí واتس الزهراء. Oficiální odkaz ke stažení pro واتس الزهراء a další aplikace Madalah: https://ww.download4.app/wa (Toto je automatická zpráva a je odeslána jednou.)</string>
     <string name="mesaj_sifreleme_panel_baslik">Popis zprávy:</string>
     <string name="mesaj_sifreleme_panel_parola">Dešifrování hesla:</string>
     <string name="mesaj_sifreleme_hata">Neplatné šifrování textu zprávy nebo heslo!</string>
@@ -1416,7 +1416,7 @@
     <string name="mesaj_sifreleme_etkin_a">Dobrá. Napište zprávu libovolné osobě nebo skupině a stiskněte a podržte tlačítko Odeslat! Chcete-li změnit heslo pro šifrování zprávy, použijte možnosti níže nebo klikněte na libovolnou zprávu a ze zobrazených možností přejděte na panel dešifrování.</string>
     <string name="mesaj_sifreleme_etkin_b">Šifrování zpráv bylo zakázáno.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Odeslat informační zprávu</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">Upozorníme osobu/skupinu, která odeslala zašifrovanou zprávu, že zprávu lze dešifrovat pomocí OBWhatsApp.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">Upozorníme osobu/skupinu, která odeslala zašifrovanou zprávu, že zprávu lze dešifrovat pomocí واتس الزهراء.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Barva pozadí panelu dekodéru</string>
     <string name="mesaj_sifreleme_panel_metin">Barva textu v set-top boxu.</string>
     <string name="mesaj_sifreleme_panel_metin1">Barva textu nadpisu v set-top boxu.</string>
@@ -1539,7 +1539,7 @@
     <string name="abu_arab_extsendzz">Odesilatel bude nucen otevřít konverzaci, aby si mohl zprávu přečíst</string>
     <string name="abu_arab_extltz">Skrytý název zprávy</string>
     <string name="abu_arab_exthiddenz">!! SKRYTÁ ZPRÁVA!!</string>
-    <string name="Abo_Arab_Features">Funkce Abu Arab</string>
+    <string name="Abo_Arab_Features">Funkce أبو الزهراء السعيدي</string>
     <string name="abu_arab_settz_extnosendz">Blokovat odchozí zprávu</string>
     <string name="abu_arab_settz_extnosendz_sum">Nebudete moci odesílat zprávy (zprávy můžete přijímat pouze vy)</string>
     <string name="abu_arab_settz_extnorecptz">Blokovat příchozí zprávu</string>
@@ -1592,7 +1592,7 @@ _*Stará zpráva*_:
     <string name="abuarabseeditedmas">Ocultar mensaje editado</string>
     <string name="abuarabseeditedz">Mostrar mensaje editado</string>
     <string name="yo_sethidepass">Před skrytím chatu nejprve nastavte PIN/Vzor!</string>
-    <string name="yoShareSum_abo_arab">Sdílejte OBWhatsApp se svými přáteli ❤️!</string>
+    <string name="yoShareSum_abo_arab">Sdílejte واتس الزهراء se svými přáteli ❤️!</string>
     <string name="color_hex_invalid">Neplatná barva</string>
     <string name="conversation_chat_pics_summary">Zde zadejte, chcete-li změnit konfiguraci obrázku kontaktu na obrazovce chatu</string>
     <string name="hide_lastseen">Skrýt naposledy viděný</string>
@@ -1606,7 +1606,7 @@ _*Stará zpráva*_:
     <string name="limit">Zobrazit pouze poslední hodiny</string>
     <string name="read_log_pref">Otevřete Protokol</string>
     <string name="show_name">Zobrazit jméno</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Vzhled</string>
     <string name="yoImgQuickCamHold">Rychlý fotoaparát v plném rozlišení</string>
     <string name="yoImgQuickCamHoldSum">Stisknutím a podržením tlačítka rychlého fotoaparátu odešlete snímek v plném rozlišení</string>

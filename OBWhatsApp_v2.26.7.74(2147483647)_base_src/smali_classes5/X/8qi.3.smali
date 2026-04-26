@@ -75,7 +75,7 @@
 
     move-result-object v1
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     new-instance v3, Landroid/accounts/Account;
 

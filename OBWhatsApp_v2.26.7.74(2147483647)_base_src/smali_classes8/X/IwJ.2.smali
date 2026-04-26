@@ -202,7 +202,7 @@
 
     const-string v2, "com.garmin.android.connectiq.GARMIN_BINDING_SERVICE_ACTION"
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
 

@@ -22,7 +22,7 @@
 .method public final CGb(LX/Gya;Ljava/lang/String;)V
     .locals 2
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     invoke-virtual {p0}, LX/Fnh;->A02()Landroid/os/Parcel;
 

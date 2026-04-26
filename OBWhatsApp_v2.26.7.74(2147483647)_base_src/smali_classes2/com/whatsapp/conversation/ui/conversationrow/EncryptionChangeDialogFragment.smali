@@ -499,7 +499,7 @@
 
     move-result-object v1
 
-    const-string v0, "OBWhatsApp Surveys"
+    const-string v0, "Abu Zahra WhatsApp Surveys"
 
     invoke-static {v5, v0, v1, v7, v2}, LX/1ad;->A1G(Landroid/content/Context;Ljava/lang/Object;[Ljava/lang/Object;II)Ljava/lang/String;
 
@@ -770,7 +770,7 @@
 
     move-result-object v1
 
-    const-string v0, "OBWhatsApp Surveys"
+    const-string v0, "Abu Zahra WhatsApp Surveys"
 
     invoke-static {v5, v0, v1, v7, v2}, LX/1ad;->A1G(Landroid/content/Context;Ljava/lang/Object;[Ljava/lang/Object;II)Ljava/lang/String;
 

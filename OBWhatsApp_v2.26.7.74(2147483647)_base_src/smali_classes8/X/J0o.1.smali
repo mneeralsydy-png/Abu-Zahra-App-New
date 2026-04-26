@@ -1454,7 +1454,7 @@
 
     move-result-object v2
 
-    const-string v0, "market://details?id=com.obwhatsapp"
+    const-string v0, "market://details?id=com.zahra.whatsapp"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

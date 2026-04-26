@@ -1081,7 +1081,7 @@
 
     if-ne p0, v0, :cond_0
 
-    const-string v0, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v0, "https://ww.download4.app/wa"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

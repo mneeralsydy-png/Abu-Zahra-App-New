@@ -6983,7 +6983,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v0, :cond_0
 
@@ -9696,7 +9696,7 @@
 
     iget-object v9, v6, LX/GF6;->A01:LX/F1T;
 
-    const-string v2, "com.obwhatsapp"
+    const-string v2, "com.zahra.whatsapp"
 
     sget-object v8, LX/F1T;->A01:LX/FWQ;
 

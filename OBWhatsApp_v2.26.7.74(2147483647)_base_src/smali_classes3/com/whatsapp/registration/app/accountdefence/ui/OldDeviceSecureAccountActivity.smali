@@ -253,17 +253,17 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     invoke-static {v0}, LX/00N;->A05(Ljava/lang/Object;)V
 
-    iget-object v3, v0, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v3, v0, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     invoke-static {v3}, LX/00N;->A05(Ljava/lang/Object;)V
 
     iget-object v2, p0, LX/0M6;->A02:LX/00V;
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 

@@ -157,7 +157,7 @@
 
     move-result-object v0
 
-    iget-object v13, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v13, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     iget-object v0, v4, Lcom/whatsapp/registration/directmigration/MigrationProviderOrderedBroadcastReceiver;->A09:LX/00q;
 
@@ -274,11 +274,11 @@
 
     invoke-static {v0}, Lcom/whatsapp/infra/logging/Log;->i(Ljava/lang/String;)V
 
-    iget-object v0, v13, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v13, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     invoke-virtual {v2, v9, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v0, v13, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v13, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     invoke-virtual {v2, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 

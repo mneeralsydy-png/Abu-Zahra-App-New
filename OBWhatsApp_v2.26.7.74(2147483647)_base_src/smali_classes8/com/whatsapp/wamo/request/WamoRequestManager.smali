@@ -515,7 +515,7 @@
 
     iget-object v11, v4, LX/Jeh;->A07:Ljava/lang/Object;
 
-    check-cast v11, Lcom/obwhatsapp/Me;
+    check-cast v11, Lcom/zahra/whatsapp/Me;
 
     iget-object v14, v4, LX/Jeh;->A06:Ljava/lang/Object;
 
@@ -566,7 +566,7 @@
 
     move-result-object v8
 
-    invoke-static {v11}, LX/5oR;->A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+    invoke-static {v11}, LX/5oR;->A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
 
     move-result-object v21
 
@@ -647,7 +647,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v11, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v11, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v11, :cond_9
 
@@ -918,7 +918,7 @@
 
     iget-object v2, v14, LX/Jek;->L$10:Ljava/lang/Object;
 
-    check-cast v2, Lcom/obwhatsapp/Me;
+    check-cast v2, Lcom/zahra/whatsapp/Me;
 
     iget-object v4, v14, LX/Jek;->L$9:Ljava/lang/Object;
 
@@ -981,7 +981,7 @@
 
     move-result-object v25
 
-    invoke-static {v2}, LX/5oR;->A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+    invoke-static {v2}, LX/5oR;->A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
 
     move-result-object v24
 
@@ -1072,7 +1072,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v2, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v2, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v2, :cond_a
 
@@ -3371,7 +3371,7 @@
 
     iget-object v4, v7, LX/Jen;->A04:Ljava/lang/Object;
 
-    check-cast v4, Lcom/obwhatsapp/Me;
+    check-cast v4, Lcom/zahra/whatsapp/Me;
 
     iget-object v14, v7, LX/Jen;->A03:Ljava/lang/Object;
 
@@ -3414,7 +3414,7 @@
 
     move-result-object v11
 
-    invoke-static {v4}, LX/5oR;->A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+    invoke-static {v4}, LX/5oR;->A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
 
     move-result-object v18
 
@@ -3473,7 +3473,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v4, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v4, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v4, :cond_8
 

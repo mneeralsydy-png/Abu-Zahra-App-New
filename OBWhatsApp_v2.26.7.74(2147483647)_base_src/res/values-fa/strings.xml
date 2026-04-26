@@ -924,7 +924,7 @@
     <string name="pat_disableVibration">لرزش تصویر را غیرفعال کنید</string>
     <string name="pat_disableVibrationS">غیرفعال کردن بازخورد لمسی هنگام استفاده از gr.key (شکل)</string>
     <string name="pat_invisible">الگو را نامرئی کنید</string>
-    <string name="pat_invisibleS">OBWhatsApp مسیر الگو را هنگام باز کردن پنهان می کند</string>
+    <string name="pat_invisibleS">واتس الزهراء مسیر الگو را هنگام باز کردن پنهان می کند</string>
     <string name="pic_chat_size">اندازه آواتار</string>
     <string name="pic_chat_size_summary">تنظیم اندازه تصویر</string>
     <string name="pic_location">موقعیت آواتار</string>
@@ -942,7 +942,7 @@
     <string name="recent_chats">چت های اخیر</string>
     <string name="recent_chats_sum">مخفی کردن گپ های اخیر در بخش فوروارد</string>
     <string name="resetPriv">تنظیم مجدد حریم خصوصی</string>
-    <string name="resetPrivSum">تنظیمات حریم خصوصی OBWhatsApp را به حالت پیش فرض بازنشانی کنید</string>
+    <string name="resetPrivSum">تنظیمات حریم خصوصی واتس الزهراء را به حالت پیش فرض بازنشانی کنید</string>
     <string name="resetPrivacyonly">موضوع فعلی ذخیره شود؟</string>
     <string name="resetPrivacyonlyS">ذخیره: ذخیره تم بازنشانی: رنگ پیش‌فرض Whatsapp</string>
     <string name="resetThemes">تنظیم مجدد تنظیمات</string>
@@ -1045,7 +1045,7 @@
     <string name="yoEmojibtn">رنگ دکمه ایموجی</string>
     <string name="yoEmojibtnS">رنگ دکمه ایموجی نوار پایین</string>
     <string name="yoFiveMinStatus">وضعیت 5 دقیقه</string>
-    <string name="yoFiveMinStatusS">به شما امکان می دهد یک ویدیوی 5 دقیقه ای به جای 30 ثانیه به عنوان وضعیت درج کنید. توجه: فقط کاربران OBWhatsApp می توانند وضعیت کامل را ببینند! سایر کاربران فقط 30 ثانیه را مشاهده خواهند کرد.</string>
+    <string name="yoFiveMinStatusS">به شما امکان می دهد یک ویدیوی 5 دقیقه ای به جای 30 ثانیه به عنوان وضعیت درج کنید. توجه: فقط کاربران واتس الزهراء می توانند وضعیت کامل را ببینند! سایر کاربران فقط 30 ثانیه را مشاهده خواهند کرد.</string>
     <string name="yoFullResBtn">ارسال HQ</string>
     <string name="yoFwdLim">افزایش محدودیت تغییر مسیر</string>
     <string name="yoFwdLimSum">تا 250 پیام چت را فوروارد کنید!</string>
@@ -1096,7 +1096,7 @@
     <string name="yoNicon">رنگ نماد نوار وضعیت</string>
     <string name="yoNiconSum">نماد نوار وضعیت خود را تنظیم کنید.</string>
     <string name="yoNific">فقط نام فرستنده در کنار نماد اعلان نشان داده می شود</string>
-    <string name="yoNoBackup">نسخه پشتیبان در (/OBWhatsApp/AGBackup) یافت نشد</string>
+    <string name="yoNoBackup">نسخه پشتیبان در (/واتس الزهراء/AGBackup) یافت نشد</string>
     <string name="yoNotif">فشرده کردن اطلاعات</string>
     <string name="yoOnline">به طور پیش فرض فعال است! اگر نمی‌خواهید نان تست به صورت آنلاین نمایش داده شود، فعال کنید</string>
     <string name="yoOnlineHome">غیرفعال کردن تماس آنلاین / آخرین بار مراجعه</string>
@@ -1121,7 +1121,7 @@
     <string name="yoSendBtn">رنگ دکمه \"ارسال\".</string>
     <string name="yoSendBtnS">رنگ دکمه \"ارسال/میکروفون\" در نوار پایین</string>
     <string name="yoShare">اشتراک گذاری</string>
-    <string name="yoShareSum">OBWhatsApp را به اشتراک بگذارید</string>
+    <string name="yoShareSum">واتس الزهراء را به اشتراک بگذارید</string>
     <string name="yoStyling">طراحی ظاهر</string>
     <string name="yoSwipeRow">ردیف کشیدن</string>
     <string name="yoSwipeRowS">به شما امکان می دهد برای اقدامات سریع، روی هر خط مکالمه به چپ یا راست بکشید</string>
@@ -1180,7 +1180,7 @@
     <string name="yowa_widget">ویجت</string>
     <string name="airplane_mode">حالت هواپیما</string>
     <string name="yo_FoundUp">آپدیت جدید دریافت کرد! آخرین نسخه واتساپ %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoDonate">اهدا کنند</string>
     <string name="yoDonateSum">اهدا کنند</string>
     <string name="yoImgShareLimit">محدودیت اشتراک‌گذاری تصویر را غیرفعال کنید</string>
@@ -1212,7 +1212,7 @@
     <string name="media_in_gallery">اگر رسانه هنوز در گالری ظاهر نمی شود</string>
     <string name="restart_phone">گوشی را ریستارت کنید</string>
     <string name="add_account">تعویض حساب</string>
-    <string name="info_add_this_account">توجه: قبل از استفاده از افزودن ویژگی حساب جدید در OBWhatsApp، لطفاً از داده‌ها از تنظیمات OBWA > Universal > پشتیبان‌گیری و بازیابی > پشتیبان‌گیری از داده‌های OBWhatsApp برای جلوگیری از از دست دادن مکالمات، نسخه پشتیبان تهیه کنید. آیا مطمئن هستید که می‌خواهید از این حساب استفاده کنید؟ ؟</string>
+    <string name="info_add_this_account">توجه: قبل از استفاده از افزودن ویژگی حساب جدید در واتس الزهراء، لطفاً از داده‌ها از تنظیمات OBWA > Universal > پشتیبان‌گیری و بازیابی > پشتیبان‌گیری از داده‌های واتس الزهراء برای جلوگیری از از دست دادن مکالمات، نسخه پشتیبان تهیه کنید. آیا مطمئن هستید که می‌خواهید از این حساب استفاده کنید؟ ؟</string>
     <string name="Mask_media">دانلود خودکار رسانه سفارشی</string>
     <string name="specificMedia_sum">گزینه های دانلود رسانه را برای هر مخاطب/گروه به طور جداگانه سفارشی کنید</string>
     <string name="yoMPhoto">استیکرهای تصاویر را دانلود نکنید</string>
@@ -1302,7 +1302,7 @@
     <string name="abo_arab_mesajyaz">یک پیام بنویس</string>
     <string name="ob_ooaa">ذکر خدا و دعا با پیامبر را فراموش نکنید</string>
     <string name="aboarab_tercih_kaydet">صرفه جویی</string>
-    <string name="masmods">به روز رسانی OBWhatsApp</string>
+    <string name="masmods">به روز رسانی واتس الزهراء</string>
     <string name="abo_arab_download_wap">به روز رسانی از سایت رسمی</string>
     <string name="abo_arab_download_telegram">با تلگرام آپدیت کنید</string>
     <string name="privacy_preferences_are_cleared">تنظیمات حریم خصوصی پاک شد: واتس اپ را مجددا راه اندازی کنید.</string>
@@ -1335,7 +1335,7 @@
     <string name="mesaj_sifreleme_sifredegistir_1">رمز عبور را تغییر دهید</string>
     <string name="mesaj_sifreleme_sifredegistir_2">شما می توانید پیام هایی ارسال کنید که با رمز عبوری که شما تعیین کرده اید رمزگذاری شده اند، یا پیام هایی که دریافت می کنید با آن رمز رمزگشایی شوند. همچنین می توانید این رمز عبور را در هر مکالمه ای تغییر دهید: پیام را فشار داده و نگه دارید >> سپس روی 3 نقطه بالا ضربه بزنید تا دسترسی داشته باشید. پانل رمزگشایی.</string>
     <string name="mesaj_sifreleme_baslik">رمزگشایی</string>
-    <string name="mesaj_sifreleme_bilgi">سلام، من به تازگی یک پیام رمزگذاری شده ارسال کردم. این ویژگی پیام رمزگذاری شده یکی از صدها ویژگی OBWhatsApp است و شما فقط می توانید این پیام رمزگذاری شده را با استفاده از OBWhatsApp مشاهده کنید. لینک رسمی دانلود برای OBWhatsApp و سایر برنامه های Madalah: https://ww.download4.app/wa (این یک پیام خودکار است و یک بار ارسال می شود.)</string>
+    <string name="mesaj_sifreleme_bilgi">سلام، من به تازگی یک پیام رمزگذاری شده ارسال کردم. این ویژگی پیام رمزگذاری شده یکی از صدها ویژگی واتس الزهراء است و شما فقط می توانید این پیام رمزگذاری شده را با استفاده از واتس الزهراء مشاهده کنید. لینک رسمی دانلود برای واتس الزهراء و سایر برنامه های Madalah: https://ww.download4.app/wa (این یک پیام خودکار است و یک بار ارسال می شود.)</string>
     <string name="mesaj_sifreleme_panel_baslik">رمزگشایی پیام:</string>
     <string name="mesaj_sifreleme_panel_parola">رمزگشایی رمز عبور:</string>
     <string name="mesaj_sifreleme_hata">متن پیام یا رمز عبور نامعتبر را رمزگذاری کنید!</string>
@@ -1344,7 +1344,7 @@
     <string name="mesaj_sifreleme_etkin_a">عالی است. برای هر شخص یا گروهی پیام بنویسید و دکمه ارسال را فشار دهید و نگه دارید! برای تغییر رمز رمزگذاری پیام، از گزینه زیر استفاده کنید یا روی یک پیام کلیک کنید و از گزینه های ظاهر شده وارد پنل رمزگشایی شوید.</string>
     <string name="mesaj_sifreleme_etkin_b">رمزگذاری پیام غیرفعال شده است.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">ارسال پیام اطلاع رسانی</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">ما به شخص/گروه ارسال کننده پیام رمزگذاری شده اطلاع خواهیم داد که پیام را می توان با استفاده از OBWhatsApp رمزگشایی کرد.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">ما به شخص/گروه ارسال کننده پیام رمزگذاری شده اطلاع خواهیم داد که پیام را می توان با استفاده از واتس الزهراء رمزگشایی کرد.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">رنگ پس زمینه پنل رسیور</string>
     <string name="mesaj_sifreleme_panel_metin">رنگ متن در پنل رمزگشا.</string>
     <string name="mesaj_sifreleme_panel_metin1">رنگ متن عنوان در پانل رمزگشا.</string>
@@ -1463,7 +1463,7 @@
     <string name="abu_arab_hideprivacy">گزینه مخفی کردن حریم خصوصی</string>
     <string name="abu_arab_hideprivacysum">گزینه Privacy را از منوی گزینه های صفحه اصلی پنهان کنید.</string>
     <string name="abu_arab_hidecupdates">گزینه hide update</string>
-    <string name="abu_arab_hidecupdatesum">گزینه آپدیت OBWhatsApp را از منوی گزینه های صفحه اصلی مخفی کنید.</string>
+    <string name="abu_arab_hidecupdatesum">گزینه آپدیت واتس الزهراء را از منوی گزینه های صفحه اصلی مخفی کنید.</string>
     <string name="abu_arab_roundedQuickContact_title">گوشه پس زمینه دسترسی سریع</string>
     <string name="abu_arab_background_quickcontact">پس زمینه تماس سریع</string>
     <string name="abu_arab_background_quick2">پس زمینه 2</string>
@@ -1531,7 +1531,7 @@ _*پیام قدیمی*_:
     <string name="abu_arab_bubbz_upiconz">سبک نماد پیام در بالا</string>
     <string name="abu_arab_bubbz_downiconz">سبک نماد پیام در زیر</string>
     <string name="yo_sethidepass">قبل از پنهان کردن چت، پین/الگو را تنظیم کنید!</string>
-    <string name="yoShareSum_abo_arab">OBWhatsApp را با دوستان خود به اشتراک بگذارید 😁❤️!</string>
+    <string name="yoShareSum_abo_arab">واتس الزهراء را با دوستان خود به اشتراک بگذارید 😁❤️!</string>
     <string name="abu_arab_dm">ضد پیام‌های ناپدیدشونده</string>
     <string name="abu_arab_dm_sum">اگر پیام‌های ناپدیدشونده فعال باشند، پیام‌ها از سمت شما حذف نخواهند شد</string>
     <string name="abu_arab_disable_channels">کانال‌ها را غیرفعال کنید</string>
@@ -1549,7 +1549,7 @@ _*پیام قدیمی*_:
     <string name="limit">فقط ساعت گذشته نمایش داده شود</string>
     <string name="read_log_pref">گزارش باز کردن</string>
     <string name="show_name">نشان دادن نام</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">حضور</string>
     <string name="yoImgQuickCamHold">سریع camhold اجازه کامل</string>
     <string name="yoImgQuickCamHoldSum">دکمه دوربین را فشار داده و نگه دارید تا وضوح تصویر کامل ارسال شود</string>

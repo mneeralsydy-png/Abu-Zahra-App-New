@@ -3,10 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_pressed="true"
-        android:color="#ff640150" />
+        android:color="#ff0A3D2E" />
     <item
         android:state_checked="true"
-        android:color="#ff640150" />
+        android:color="#ff0A3D2E" />
     <item
         android:color="#ff8696a0" />
 </selector>

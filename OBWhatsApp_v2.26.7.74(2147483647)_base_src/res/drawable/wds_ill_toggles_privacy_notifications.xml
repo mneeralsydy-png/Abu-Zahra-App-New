@@ -6,21 +6,21 @@
     android:viewportHeight="121.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M157.4,67.15V30.14C157.2,21.03 148.87,13.8 139.77,13.93C139.77,13.93 139.77,13.93 139.76,13.93C139.74,13.93 139.72,13.93 139.71,13.93C139.69,13.93 139.67,13.93 139.65,13.93C139.65,13.93 139.65,13.93 139.64,13.93C130.54,13.8 123.02,21.03 122.82,30.14L122.01,67.15L133.8,67.4L134.74,30.41C134.79,27.83 136.93,25.78 139.52,25.83C142.1,25.89 144.15,28.03 144.09,30.61V67.4L157.42,67.15H157.4Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M156.69,43.35L124.01,42.64C113.35,42.41 104.51,50.86 104.28,61.51L103.83,81.92C103.6,92.57 112.06,101.4 122.72,101.64L155.4,102.35C166.07,102.58 174.91,94.13 175.14,83.47L175.59,63.07C175.82,52.41 167.36,43.58 156.69,43.35Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M151.11,89.07L142.73,70.17C145.42,68.98 147.32,66.32 147.39,63.18C147.49,58.86 144.05,55.27 139.72,55.17C135.39,55.08 131.8,58.51 131.7,62.84C131.63,66.1 133.56,68.94 136.38,70.18L128.28,88.57L151.1,89.06L151.11,89.07Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
@@ -50,12 +50,12 @@
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M93.85,36.86m-13.19,0a13.19,13.19 0,1 1,26.38 0a13.19,13.19 0,1 1,-26.38 0"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M56.68,72.46H20.14C11.77,72.46 4.99,79.24 4.99,87.6C4.99,95.97 11.77,102.75 20.14,102.75H56.68C65.04,102.75 71.82,95.97 71.82,87.6C71.82,79.24 65.04,72.46 56.68,72.46Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"

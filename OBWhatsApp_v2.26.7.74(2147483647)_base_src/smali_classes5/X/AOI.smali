@@ -945,11 +945,11 @@
 
     iget-object v5, v4, LX/AOI;->A01:Ljava/lang/Object;
 
-    check-cast v5, Lcom/obwhatsapp/Me;
+    check-cast v5, Lcom/zahra/whatsapp/Me;
 
     iget-object v0, v3, LX/0kB;->A0Y:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v4
 
@@ -959,9 +959,9 @@
 
     iget-object v2, v3, LX/0kB;->A0b:LX/00V;
 
-    iget-object v1, v5, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v5, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v0, v5, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v5, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     invoke-static {v2, v1, v0}, LX/9wH;->A04(LX/00V;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -973,9 +973,9 @@
 
     if-eqz v4, :cond_c
 
-    iget-object v0, v4, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v0, v4, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v1, v4, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v1, v4, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     :goto_2
     invoke-static {v2, v0, v1}, LX/9wH;->A04(LX/00V;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -1092,7 +1092,7 @@
 
     iget-object v0, v3, LX/0kB;->A0W:LX/0TK;
 
-    iget-object v9, v5, Lcom/obwhatsapp/Me;->jabber_id:Ljava/lang/String;
+    iget-object v9, v5, Lcom/zahra/whatsapp/Me;->jabber_id:Ljava/lang/String;
 
     invoke-static {v0}, LX/0TK;->A00(LX/0TK;)LX/AD2;
 

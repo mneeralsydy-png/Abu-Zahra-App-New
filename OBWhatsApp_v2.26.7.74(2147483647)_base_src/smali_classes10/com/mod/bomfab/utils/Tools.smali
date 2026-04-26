@@ -871,7 +871,7 @@
 
     const-string v1, "text_name"
 
-    const-string v2, "OBWhatsApp"
+    const-string v2, "Abu Zahra WhatsApp"
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

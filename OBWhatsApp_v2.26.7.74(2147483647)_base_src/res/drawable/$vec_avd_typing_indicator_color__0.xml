@@ -14,7 +14,7 @@
             android:translateY="36.0">
             <path
                 android:name="_R_G_L_2_G_D_0_P_0"
-                android:fillColor="#ff640150"
+                android:fillColor="#ff0A3D2E"
                 android:pathData=" M0 -7 C3.87,-7 7,-3.87 7,0 C7,3.87 3.87,7 0,7 C-3.87,7 -7,3.87 -7,0 C-7,-3.87 -3.87,-7 0,-7c " />
         </group>
         <group
@@ -23,7 +23,7 @@
             android:translateY="36.0">
             <path
                 android:name="_R_G_L_1_G_D_0_P_0"
-                android:fillColor="#ff640150"
+                android:fillColor="#ff0A3D2E"
                 android:pathData=" M0 -7 C3.87,-7 7,-3.87 7,0 C7,3.87 3.87,7 0,7 C-3.87,7 -7,3.87 -7,0 C-7,-3.87 -3.87,-7 0,-7c " />
         </group>
         <group
@@ -32,7 +32,7 @@
             android:translateY="36.0">
             <path
                 android:name="_R_G_L_0_G_D_0_P_0"
-                android:fillColor="#ff640150"
+                android:fillColor="#ff0A3D2E"
                 android:pathData=" M0 -7 C3.87,-7 7,-3.87 7,0 C7,3.87 3.87,7 0,7 C-3.87,7 -7,3.87 -7,0 C-7,-3.87 -3.87,-7 0,-7c " />
         </group>
     </group>

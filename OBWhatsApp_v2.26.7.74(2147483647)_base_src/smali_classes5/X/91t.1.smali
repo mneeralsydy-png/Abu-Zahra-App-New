@@ -120,7 +120,7 @@
 
     iget-object v0, p0, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v3
 
@@ -142,7 +142,7 @@
 
     move-result-object v2
 
-    iget-object v1, v3, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v3, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     const-string v0, "pref_country_code_of_logged_out_user"
 
@@ -158,7 +158,7 @@
 
     move-result-object v2
 
-    iget-object v1, v3, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v1, v3, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     const-string v0, "pref_phone_number_of_logged_out_user"
 

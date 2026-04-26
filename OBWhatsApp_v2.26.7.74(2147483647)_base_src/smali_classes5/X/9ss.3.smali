@@ -213,7 +213,7 @@
 .method public A04(Landroid/content/res/Resources;Ljava/lang/String;)Ljava/lang/String;
     .locals 9
 
-    const-string v3, "com.obwhatsapp"
+    const-string v3, "com.zahra.whatsapp"
 
     invoke-virtual {p0, p2}, LX/9ss;->A05(Ljava/lang/String;)Ljava/lang/String;
 

@@ -64,7 +64,7 @@
 .method public static A01(Landroid/content/pm/PackageManager;Ldalvik/system/BaseDexClassLoader;Ljava/lang/String;Ljava/util/List;Ljava/util/List;[Ljava/lang/String;Z)V
     .locals 9
 
-    const-string v7, "com.obwhatsapp"
+    const-string v7, "com.zahra.whatsapp"
 
     new-instance v2, Lcom/facebook/common/dextricks/achilles/Achilles$Arrow;
 
@@ -94,7 +94,7 @@
 .method public static A02(Landroid/content/pm/PackageManager;Ldalvik/system/BaseDexClassLoader;Ljava/lang/String;Z)V
     .locals 6
 
-    const-string v4, "com.obwhatsapp"
+    const-string v4, "com.zahra.whatsapp"
 
     new-instance v2, Lcom/facebook/common/dextricks/achilles/Achilles$Arrow;
 

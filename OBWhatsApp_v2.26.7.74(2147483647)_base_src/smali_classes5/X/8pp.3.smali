@@ -174,7 +174,7 @@
     return-object v0
 
     :cond_0
-    const-string v0, "OBWhatsApp"
+    const-string v0, "Abu Zahra WhatsApp"
 
     return-object v0
 .end method

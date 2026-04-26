@@ -23,19 +23,19 @@
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="m40.28,57.21 l-5.37,-5.33L17.21,69.46a3.59,3.59 0,0 0,-1.05 2.67,3.58 3.58,0 0,0 1.05,2.67 3.62,3.62 0,0 0,2.69 1.03,3.65 3.65,0 0,0 2.69,-1.03l17.7,-17.58 -0.01,-0.01Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M46.65,68.87a25.5,25.5 0,0 0,17.96 -7.38,25.11 25.11,0 0,0 7.44,-17.83 25.11,25.11 0,0 0,-7.44 -17.83,25.5 25.5,0 0,0 -17.96,-7.38 25.5,25.5 0,0 0,-17.96 7.38,25.11 25.11,0 0,0 -7.44,17.83 25.11,25.11 0,0 0,7.44 17.83,25.5 25.5,0 0,0 17.96,7.38Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M66.77,43.66c0,5.29 -2.12,10.37 -5.89,14.11a20.19,20.19 0,0 1,-14.22 5.85,20.19 20.19,0 0,1 -14.22,-5.85 19.88,19.88 0,0 1,-5.89 -14.11c0,-5.29 2.12,-10.37 5.89,-14.11A20.19,20.19 0,0 1,46.65 23.7a20.19,20.19 0,0 1,14.22 5.85,19.88 19.88,0 0,1 5.89,14.11Z"
         android:fillType="evenOdd" />
     <path
@@ -46,14 +46,14 @@
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M46.93,50.02a9.13,9.13 0,0 0,6.43 -2.64,8.99 8.99,0 0,0 2.67,-6.39 8.99,8.99 0,0 0,-2.67 -6.39,9.13 9.13,0 0,0 -6.43,-2.64 9.13,9.13 0,0 0,-6.43 2.64,8.99 8.99,0 0,0 -2.66,6.39c0,2.39 0.96,4.69 2.66,6.39a9.13,9.13 0,0 0,6.43 2.64Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M46.65,63.63c5.94,0 11.28,-2.56 14.96,-6.63 -1.64,-2.29 -7.82,-4.72 -14.68,-4.72 -6.86,0 -13.34,2.51 -14.92,5.06a20.04,20.04 0,0 0,6.66 4.65,20.17 20.17,0 0,0 7.98,1.64Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"

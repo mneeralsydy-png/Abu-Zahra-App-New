@@ -787,7 +787,7 @@
     :cond_5
     invoke-virtual {v2}, LX/07t;->A0I()V
 
-    iget-object v4, v2, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v4, v2, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     invoke-static {v7}, LX/Ihp;->A01(Landroid/content/Context;)LX/8In;
 

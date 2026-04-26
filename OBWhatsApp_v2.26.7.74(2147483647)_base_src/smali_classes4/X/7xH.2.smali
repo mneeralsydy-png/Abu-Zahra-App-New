@@ -1130,7 +1130,7 @@
 
     const-string v1, "source_application"
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v4, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -3255,7 +3255,7 @@
 
     invoke-virtual {v9, v10}, LX/1J1;->C3W(LX/0Fq;)V
 
-    const-string v2, "OBWhatsApp"
+    const-string v2, "Abu Zahra WhatsApp"
 
     iput-object v2, v9, LX/1J1;->A0T:Ljava/lang/String;
 

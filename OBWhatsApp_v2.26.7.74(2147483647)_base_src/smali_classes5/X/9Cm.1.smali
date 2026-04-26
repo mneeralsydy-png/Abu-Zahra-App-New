@@ -20,7 +20,7 @@
     return-object v0
 
     :pswitch_0
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     return-object v0
 

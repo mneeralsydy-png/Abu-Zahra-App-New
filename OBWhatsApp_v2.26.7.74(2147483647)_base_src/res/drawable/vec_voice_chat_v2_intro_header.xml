@@ -57,19 +57,19 @@
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M60 64H60A3 3 0 0 1 63 67V71A3 3 0 0 1 60 74H60A3 3 0 0 1 57 71V67A3 3 0 0 1 60 64Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
         android:strokeMiterLimit="10.0" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M66 61.1562H66A3 3 0 0 1 69 64.1562V73.8437A3 3 0 0 1 66 76.8437H66A3 3 0 0 1 63 73.8437V64.1562A3 3 0 0 1 66 61.1562Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
         android:strokeMiterLimit="10.0" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M72 64H72A3 3 0 0 1 75 67V71A3 3 0 0 1 72 74H72A3 3 0 0 1 69 71V67A3 3 0 0 1 72 64Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"

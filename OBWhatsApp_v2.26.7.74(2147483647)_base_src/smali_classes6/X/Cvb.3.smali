@@ -15324,7 +15324,7 @@
 
     if-nez v4, :cond_130
 
-    const-string v4, "com.obwhatsapp"
+    const-string v4, "com.zahra.whatsapp"
 
     :cond_130
     const-string v3, "android.intent.action.VIEW"

@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3.0dip"
-            android:text="OBWhatsApp"
+            android:text="واتس الزهراء"
             android:lines="1"
             android:layout_toStartOf="@id/wdg_mod"
             android:layout_toEndOf="@id/wdg_logo" />

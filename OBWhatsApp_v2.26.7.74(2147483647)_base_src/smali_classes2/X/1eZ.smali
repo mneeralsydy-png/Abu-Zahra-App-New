@@ -323,7 +323,7 @@
 
     move-result-object v0
 
-    iget-object v1, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v1, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     invoke-static {v4}, LX/1al;->A0N(LX/00q;)LX/07t;
 
@@ -333,9 +333,9 @@
 
     if-eqz v1, :cond_7
 
-    iget-object v4, v1, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v4, v1, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
-    iget-object v1, v1, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v1, v1, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     sget-object v0, LX/0JT;->A06:Ljava/nio/charset/Charset;
 

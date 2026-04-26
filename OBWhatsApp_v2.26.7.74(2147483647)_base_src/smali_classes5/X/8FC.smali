@@ -496,7 +496,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-static/range {v22 .. v22}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static/range {v22 .. v22}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -532,7 +532,7 @@
     invoke-static/range {v23 .. v23}, LX/9HY;->A00(LX/0NI;)V
 
     :cond_2
-    invoke-static/range {v22 .. v22}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static/range {v22 .. v22}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 

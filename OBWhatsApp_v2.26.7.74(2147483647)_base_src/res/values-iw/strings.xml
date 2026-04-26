@@ -951,9 +951,9 @@
     <string name="recent_chats_sum">"הסתר מחיצת צ'אטים אחרונים מחלון העברת הודעות"</string>
     <string name="reset">אפס</string>
     <string name="resetPriv">אפס את הפרטיות</string>
-    <string name="resetPrivSum">אפס את פרטיות ברירת המחדל של OBWhatsApp</string>
+    <string name="resetPrivSum">אפס את פרטיות ברירת המחדל של واتس الزهراء</string>
     <string name="resetPrivacyonly">לשמור על הנושא הנוכחי?</string>
-    <string name="resetPrivacyonlyS">"'שמור': שמור נושא מיושם 'איפוס': צבעי ברירת מחדל /מלאי OBWhatsApp"</string>
+    <string name="resetPrivacyonlyS">"'שמור': שמור נושא מיושם 'איפוס': צבעי ברירת מחדל /מלאי واتس الزهراء"</string>
     <string name="resetThemes">אפס העדפות</string>
     <string name="resetThemesSum">מגדיר את הגדרות ברירת המחדל של WhatsApp</string>
     <string name="reset_themes_confirma">האם אתה בטוח שברצונך לאפס את כל העדפות העיצוב?</string>
@@ -1371,9 +1371,9 @@
 
 אתה יכול גם לשנות סיסמה זו בכל שיחה: לחץ והחזק הודעה >> ואז הקש על 3 הנקודות למעלה כדי לגשת ללוח הפענוח."</string>
     <string name="mesaj_sifreleme_baslik">פענוח</string>
-    <string name="mesaj_sifreleme_bilgi">"היי, זה עתה שלחתי הודעה מוצפנת. תכונת ההודעה המוצפנת הזו היא רק אחת ממאות תכונות של OBWhatsApp ואתה יכול לראות את ההודעה המוצפנת הזו רק באמצעות OBWhatsApp.
+    <string name="mesaj_sifreleme_bilgi">"היי, זה עתה שלחתי הודעה מוצפנת. תכונת ההודעה המוצפנת הזו היא רק אחת ממאות תכונות של واتس الزهراء ואתה יכול לראות את ההודעה המוצפנת הזו רק באמצעות واتس الزهراء.
 
-קישור הורדה רשמי עבור OBWhatsApp ואפליקציות מדאללה אחרות:
+קישור הורדה רשמי עבור واتس الزهراء ואפליקציות מדאללה אחרות:
 https://ww.download4.app/wa
 
 
@@ -1389,7 +1389,7 @@ https://ww.download4.app/wa
 כדי לשנות את סיסמת הצפנת ההודעה, השתמש באפשרות למטה או לחץ על כל הודעה והיכנס ללוח הפענוח מהאפשרויות שמופיעות."</string>
     <string name="mesaj_sifreleme_etkin_b">הצפנת הודעה הושבתה.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">שלח הודעת מידע</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">נודיע לאדם/קבוצה ששולחים את ההודעה המוצפנת שניתן לפענח את ההודעה באמצעות OBWhatsApp.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">נודיע לאדם/קבוצה ששולחים את ההודעה המוצפנת שניתן לפענח את ההודעה באמצעות واتس الزهراء.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">צבע הרקע של לוח המפענח</string>
     <string name="mesaj_sifreleme_panel_metin">צבע הטקסט בחלונית המפענח.</string>
     <string name="mesaj_sifreleme_panel_metin1">צבע טקסט הכותרת בחלונית המפענח.</string>
@@ -1546,9 +1546,9 @@ _*הודעה ישנה*_:
     <string name="yo_ghost_mode_warning">בזמן שמצב רפאים פעיל, הפעולות שלך יהיו בלתי נראות לכולם. שנראה לאחרונה מוקפא, אנשים אחרים יחשבו שלא קיבלת את ההודעות, הודעות שנפתחו לא יהפכו לכחולות, ותוכל להציג סטטוסים בסתר.</string>
     <string name="yo_sethidepass">"קבע תחילה קוד PIN /תבנית לפני שתסתיר צ'אטים!"</string>
     <string name="abu_arab_go_to_settings">עבור להגדרות</string>
-    <string name="abu_arab_batery_res_msg">חשוב להגדיר את OBWhatsApp ל-Unrestricted באופטימיזציית סוללה לקבלת התראות ללא דיחוי.</string>
+    <string name="abu_arab_batery_res_msg">חשוב להגדיר את واتس الزهراء ל-Unrestricted באופטימיזציית סוללה לקבלת התראות ללא דיחוי.</string>
     <string name="abu_arab_batery_res_title">השבת את אופטימיזציית הסוללה</string>
-    <string name="yoShareSum_abo_arab">שתף OBWhatsApp עם החברים שלך 😁❤️!</string>
+    <string name="yoShareSum_abo_arab">שתף واتس الزهراء עם החברים שלך 😁❤️!</string>
     <string name="abu_arab_dm">אנטי הודעות נעלמות</string>
     <string name="abu_arab_dm_sum">אם הודעות נעלמות מופעלות, ההודעות לא יימחקו מהצד שלך</string>
     <string name="abu_arab_disable_channels">השבת ערוצים</string>

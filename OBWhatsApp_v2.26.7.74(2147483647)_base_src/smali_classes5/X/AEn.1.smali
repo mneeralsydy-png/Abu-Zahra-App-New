@@ -299,7 +299,7 @@
 
     iput-object v0, v2, LX/8TN;->A00:LX/9sH;
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     iput-object v0, v2, LX/0sw;->A09:Ljava/lang/String;
 

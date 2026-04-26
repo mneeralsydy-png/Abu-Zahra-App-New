@@ -136,7 +136,7 @@
 
     invoke-static {v0}, Lcom/whatsapp/infra/logging/Log;->i(Ljava/lang/String;)V
 
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     invoke-static {}, LX/5oV;->A04()Landroid/content/pm/PackageManager;
 

@@ -1109,7 +1109,7 @@
     goto/16 :goto_1
 .end method
 
-.method public static A0f(Lcom/whatsapp/Main;Lcom/obwhatsapp/Me;I)V
+.method public static A0f(Lcom/whatsapp/Main;Lcom/zahra/whatsapp/Me;I)V
     .locals 7
 
     if-eqz p1, :cond_0
@@ -1420,7 +1420,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v0, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v0, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-nez v0, :cond_7
 
@@ -3393,7 +3393,7 @@
 
     invoke-virtual {v0}, LX/07t;->A0I()V
 
-    iget-object v1, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v1, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-nez v1, :cond_10
 
@@ -3767,7 +3767,7 @@
     if-eqz v0, :cond_17
 
     :goto_7
-    invoke-static {v15, v1, v6}, Lcom/whatsapp/Main;->A0f(Lcom/whatsapp/Main;Lcom/obwhatsapp/Me;I)V
+    invoke-static {v15, v1, v6}, Lcom/whatsapp/Main;->A0f(Lcom/whatsapp/Main;Lcom/zahra/whatsapp/Me;I)V
 
     goto :goto_8
 
@@ -3840,7 +3840,7 @@
 
     move/from16 v17, v6
 
-    invoke-direct/range {v12 .. v18}, LX/1Zz;-><init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnPreDrawListener;Lcom/whatsapp/Main;Lcom/obwhatsapp/Me;II)V
+    invoke-direct/range {v12 .. v18}, LX/1Zz;-><init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnPreDrawListener;Lcom/whatsapp/Main;Lcom/zahra/whatsapp/Me;II)V
 
     invoke-interface {v0, v12}, LX/07C;->Bwm(Ljava/lang/Runnable;)V
     :try_end_1

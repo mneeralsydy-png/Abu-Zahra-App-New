@@ -509,7 +509,7 @@
 
     iget-object v2, v0, LX/0MF;->A04:LX/07t;
 
-    invoke-virtual {v2}, LX/07t;->A06()Lcom/obwhatsapp/Me;
+    invoke-virtual {v2}, LX/07t;->A06()Lcom/zahra/whatsapp/Me;
 
     move-result-object v2
 

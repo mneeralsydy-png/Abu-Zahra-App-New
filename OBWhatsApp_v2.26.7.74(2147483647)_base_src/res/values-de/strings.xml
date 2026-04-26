@@ -914,7 +914,7 @@
     <string name="pat_disableVibration">Bildvibration deaktivieren</string>
     <string name="pat_disableVibrationS">Haptisches Feedback bei Verwendung der gr.key(Figure) deaktivieren</string>
     <string name="pat_invisible">Muster unsichtbar machen</string>
-    <string name="pat_invisibleS">Versteckt den Vorlagenpfad beim Öffnen von OBWhatsApp</string>
+    <string name="pat_invisibleS">Versteckt den Vorlagenpfad beim Öffnen von واتس الزهراء</string>
     <string name="pic_chat_size">Avatargröße</string>
     <string name="pic_chat_size_summary">Bildgröße anpassen</string>
     <string name="pic_location">Avatar-Standort</string>
@@ -933,7 +933,7 @@
     <string name="recent_chats_sum">Letzte Chats im Weiterleitungsbereich ausblenden</string>
     <string name="reset">Zurücksetzen</string>
     <string name="resetPriv">Datenschutz zurücksetzen</string>
-    <string name="resetPrivSum">OBWhatsApp Datenschutzeinstellungen auf Standard zurücksetzen</string>
+    <string name="resetPrivSum">واتس الزهراء Datenschutzeinstellungen auf Standard zurücksetzen</string>
     <string name="resetPrivacyonly">Aktuelles Design speichern?</string>
     <string name="resetPrivacyonlyS">Speichern: Design speichern Zurücksetzen: WhatsApp-Standardfarben</string>
     <string name="resetThemes">Einstellungen zurücksetzen</string>
@@ -1037,7 +1037,7 @@
     <string name="yoEmojibtn">Farbe der Emoji-Schaltfläche</string>
     <string name="yoEmojibtnS">Farbe der Emoji-Schaltflächen in der unteren Leiste</string>
     <string name="yoFiveMinStatus">5-Minuten-Status</string>
-    <string name="yoFiveMinStatusS">Ermöglicht es Ihnen, ein 5-Minuten-Video anstelle von 30 Sekunden als Status zu setzen. Hinweis: Nur OBWhatsApp-Benutzer können den vollständigen Status sehen! Andere Benutzer sehen nur 30 Sekunden.</string>
+    <string name="yoFiveMinStatusS">Ermöglicht es Ihnen, ein 5-Minuten-Video anstelle von 30 Sekunden als Status zu setzen. Hinweis: Nur واتس الزهراء-Benutzer können den vollständigen Status sehen! Andere Benutzer sehen nur 30 Sekunden.</string>
     <string name="yoFullResBtn">Hauptquartier einreichen</string>
     <string name="yoFwdLim">Umleitungslimit erhöhen</string>
     <string name="yoFwdLimSum">Nachrichten an bis zu 250 Chats weiterleiten!</string>
@@ -1091,7 +1091,7 @@
     <string name="yoNicon">Symbolfarbe der Statusleiste</string>
     <string name="yoNiconSum">Legen Sie Ihr Statusleistensymbol fest.</string>
     <string name="yoNific">Nur der Name des Absenders wird neben dem Benachrichtigungssymbol angezeigt</string>
-    <string name="yoNoBackup">Backup nicht gefunden in (/OBWhatsApp/AGBackup)</string>
+    <string name="yoNoBackup">Backup nicht gefunden in (/واتس الزهراء/AGBackup)</string>
     <string name="yoNotif">Benachrichtigungen quetschen</string>
     <string name="yoOnline">Standardmäßig aktiviert! Aktivieren, wenn der Toast nicht online angezeigt werden soll</string>
     <string name="yoOnlineHome">Kontakt online deaktivieren/zuletzt gesehen</string>
@@ -1116,7 +1116,7 @@
     <string name="yoSendBtn">Farbe des \"Senden\"-Buttons</string>
     <string name="yoSendBtnS">Farbe der \"Senden/Mikrofon\"-Schaltflächen in der unteren Leiste</string>
     <string name="yoShare">Teilen</string>
-    <string name="yoShareSum">Teilen Sie OBWhatsApp</string>
+    <string name="yoShareSum">Teilen Sie واتس الزهراء</string>
     <string name="yoStyling">Styling</string>
     <string name="yoSwipeRow">Zeile wischen</string>
     <string name="yoSwipeRowS">Ermöglicht es dir, jede Konversationszeile für schnelle Aktionen nach links oder rechts zu wischen</string>
@@ -1175,7 +1175,7 @@
     <string name="yo_activate">Aktivieren</string>
     <string name="airplane_mode">Flugmodus</string>
     <string name="yo_FoundUp">Ein neues Update wurde gefunden! Neueste WhatsApp-Version %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoDonate">Spende</string>
     <string name="yoDonateSum">Spende</string>
     <string name="yoImgShareLimit">Limit für Bildfreigabe deaktivieren</string>
@@ -1328,9 +1328,9 @@
 
 Du kannst dieses Passwort auch in jedem Chat ändern: Drücke und halte eine Nachricht >> über die Optionen auf das Entschlüsselungsfeld."</string>
     <string name="mesaj_sifreleme_baslik">Entschlüsseln</string>
-    <string name="mesaj_sifreleme_bilgi">"Hey, ich habe gerade eine verschlüsselte Nachricht gesendet. Diese verschlüsselte Nachrichtenfunktion ist nur eine von Hunderten von OBWhatsApp Funktionen und Sie können diese verschlüsselte Nachricht nur mit OBWhatsApp sehen.
+    <string name="mesaj_sifreleme_bilgi">"Hey, ich habe gerade eine verschlüsselte Nachricht gesendet. Diese verschlüsselte Nachrichtenfunktion ist nur eine von Hunderten von واتس الزهراء Funktionen und Sie können diese verschlüsselte Nachricht nur mit واتس الزهراء sehen.
 
-Offizieller Downloadlink für OBWhatsApp und andere Apps:
+Offizieller Downloadlink für واتس الزهراء und andere Apps:
 https://ww.download4.app/wa
 
 
@@ -1346,7 +1346,7 @@ https://ww.download4.app/wa
 Um das Passwort für die Nachrichtenverschlüsselung zu ändern, verwenden Sie die Option unten oder drücken und halten Sie jede Nachricht und geben Sie das Entschlüsselungsfeld aus den angezeigten Optionen ein."</string>
     <string name="mesaj_sifreleme_etkin_b">Nachrichtenverschlüsselung ist deaktiviert.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Info-Nachricht senden</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">Wir werden der Person/Gruppe mitteilen, dass die Nachricht mit OBWhatsApp entschlüsselt werden kann.</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">Wir werden der Person/Gruppe mitteilen, dass die Nachricht mit واتس الزهراء entschlüsselt werden kann.</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Hintergrund der Entschlüsselungsanzeige</string>
     <string name="mesaj_sifreleme_panel_metin">Farbe der Texte im Entschlüsselungsfeld</string>
     <string name="mesaj_sifreleme_panel_metin1">Farbe der Titeltexte des Entschlüsselungsfelds</string>
@@ -1476,7 +1476,7 @@ Um das Passwort für die Nachrichtenverschlüsselung zu ändern, verwenden Sie d
     <string name="abu_arab_hideprivacy">Privatsphäre-Option ausblenden</string>
     <string name="abu_arab_hideprivacysum">Verstecke die Privatsphäre-Option aus dem Optionsmenü des Startbildschirms.</string>
     <string name="abu_arab_hidecupdates">Update-Option ausblenden</string>
-    <string name="abu_arab_hidecupdatesum">Verstecke die OBWhatsApp-Update-Option aus dem Startbildschirm-Optionsmenü.</string>
+    <string name="abu_arab_hidecupdatesum">Verstecke die واتس الزهراء-Update-Option aus dem Startbildschirm-Optionsmenü.</string>
     <string name="abu_arab_roundedQuickContact_title">Schnellkontakt-Hintergrundecke</string>
     <string name="abu_arab_background_quickcontact">QuickContact-Hintergrund</string>
     <string name="abu_arab_background_quick2">Zweiter Hintergrund2</string>
@@ -1493,7 +1493,7 @@ Um das Passwort für die Nachrichtenverschlüsselung zu ändern, verwenden Sie d
     <string name="abu_arab_extsendzz">Der Absender wird gezwungen, die Konversation zu öffnen, um die Nachricht lesen zu können</string>
     <string name="abu_arab_extltz">Versteckter Nachrichtentitel</string>
     <string name="abu_arab_exthiddenz">!!VERSTECKTE NACHRICHT!!</string>
-    <string name="Abo_Arab_Features">Abu Arab Features</string>
+    <string name="Abo_Arab_Features">أبو الزهراء السعيدي Features</string>
     <string name="abu_arab_settz_extnosendz">Ausgehende Nachricht blockieren</string>
     <string name="abu_arab_settz_extnosendz_sum">Sie können keine Nachrichten senden (nur Sie können Nachrichten empfangen)</string>
     <string name="abu_arab_settz_extnorecptz">Eingehende Nachricht blockieren</string>
@@ -1555,9 +1555,9 @@ _*Alte Nachricht*_:
     <string name="abu_arab_bubbz_downiconz">Stil des Nachrichtensymbols unten</string>
     <string name="yo_sethidepass">PIN/Muster festlegen, bevor Chats ausgeblendet werden!</string>
     <string name="abu_arab_go_to_settings">Zu den Einstellungen</string>
-    <string name="abu_arab_batery_res_msg">Es ist wichtig, OBWhatsApp in der Batterieoptimierung auf Uneingeschränkt einzustellen, damit Benachrichtigungen ohne Verzögerung eingehen.</string>
+    <string name="abu_arab_batery_res_msg">Es ist wichtig, واتس الزهراء in der Batterieoptimierung auf Uneingeschränkt einzustellen, damit Benachrichtigungen ohne Verzögerung eingehen.</string>
     <string name="abu_arab_batery_res_title">Batterieoptimierung deaktivieren</string>
-    <string name="yoShareSum_abo_arab">Teile OBWhatsApp mit deinen Freunden 😁❤️!</string>
+    <string name="yoShareSum_abo_arab">Teile واتس الزهراء mit deinen Freunden 😁❤️!</string>
     <string name="abu_arab_dm">Anti-Verschwindende Nachrichten</string>
     <string name="abu_arab_dm_sum">Wenn verschwindende Nachrichten aktiviert sind, werden Nachrichten auf deiner Seite nicht gelöscht</string>
     <string name="abu_arab_disable_channels">Kanäle deaktivieren</string>
@@ -1575,7 +1575,7 @@ _*Alte Nachricht*_:
     <string name="limit">Nur letzte Stunde anzeigen</string>
     <string name="read_log_pref">Protokoll öffnen</string>
     <string name="show_name">Name anzeigen</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Aussehen</string>
     <string name="yoImgQuickCamHold">Quick CamHold Volle Berechtigung</string>
     <string name="yoImgQuickCamHoldSum">Halte die Kamerataste gedrückt, um die volle Bildauflösung zu senden</string>

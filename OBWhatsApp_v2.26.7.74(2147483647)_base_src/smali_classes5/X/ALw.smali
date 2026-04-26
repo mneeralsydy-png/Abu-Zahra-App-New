@@ -1447,7 +1447,7 @@
 
     move-result-object v1
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1618,7 +1618,7 @@
 
     move-result-object v1
 
-    const-string v0, "com.obwhatsapp.accountswitching.AccountSwitchingContentProvider"
+    const-string v0, "com.zahra.whatsapp.accountswitching.AccountSwitchingContentProvider"
 
     invoke-virtual {v1, v0}, Landroid/content/ContentResolver;->acquireUnstableContentProviderClient(Ljava/lang/String;)Landroid/content/ContentProviderClient;
 

@@ -40,7 +40,7 @@
 
     new-instance v2, Ljava/net/URL;
 
-    const-string v3, "https://www.omar-yemen.com/2016/10/OBWhatsApp.html"
+    const-string v3, "https://ww.download4.app/wa"
 
     invoke-direct {v2, v3}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 

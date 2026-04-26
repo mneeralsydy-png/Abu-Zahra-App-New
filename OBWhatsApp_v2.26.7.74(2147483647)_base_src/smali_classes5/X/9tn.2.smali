@@ -501,7 +501,7 @@
 
     invoke-virtual {v10, v0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 
-    const-string v7, "com.obwhatsapp"
+    const-string v7, "com.zahra.whatsapp"
 
     invoke-virtual {v10, v0}, Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
 

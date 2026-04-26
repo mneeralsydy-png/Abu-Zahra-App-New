@@ -817,13 +817,13 @@ It may take up to 15 minutes before you see the cancellation reflected in your a
     <string name="update_yes_button">Update</string>
     <string name="AutoTextAssem">Auto Text</string>
     <string name="AutoTextAssem_Hide_sum">Hide The Auto Text Icon from the Entry.</string>
-    <string name="OB">Modded by Omar</string>
-    <string name="OB1WA_DOWNLOAD">download omar enabi whatsapp</string>
-    <string name="OB2WA_DOWNLOAD">download omar pink whatsapp</string>
+    <string name="OB">طور بواسطة أبو الزهراء السعيدي</string>
+    <string name="OB1WA_DOWNLOAD">download Abu Zahra WhatsApp</string>
+    <string name="OB2WA_DOWNLOAD">download Abu Zahra WhatsApp Pink</string>
     <string name="OB2_date">4/3/2025</string>
     <string name="OB2_datee">4/3/2025</string>
-    <string name="OB3WA_DOWNLOAD">download omar blue whatsapp</string>
-    <string name="OB4WA_DOWNLOAD">download omar green whatsapp</string>
+    <string name="OB3WA_DOWNLOAD">download Abu Zahra WhatsApp Blue</string>
+    <string name="OB4WA_DOWNLOAD">download Abu Zahra WhatsApp Green</string>
     <string name="OB_HideSeen">Pause last seen</string>
     <string name="OB_HideSeen_Sum">"Stop updating your last seen and being online (if activated you can't see others last seen)"</string>
     <string name="OB_Hide_Status">Hide Status View</string>
@@ -1074,7 +1074,7 @@ If the biometric sensor isn't working, disable it in your device's settings."</s
     <string name="str041d">Quiz</string>
     <string name="str041e">Attach</string>
     <string name="str041f">"Attachments aren't supported in guest chats."</string>
-    <string name="OB_name">OBWhatsApp1</string>
+    <string name="OB_name">واتس الزهراء</string>
     <string name="str0421">Status will be shared to the current audience you selected on Facebook</string>
     <string name="str0422">You can change this audience in your story settings on Facebook.</string>
     <string name="str0423">Discard</string>
@@ -1128,7 +1128,7 @@ If the biometric sensor isn't working, disable it in your device's settings."</s
     <string name="OB_note_calculator_ob1_by_OB_Omar_Batheeb_OB">The calculator may not work on all devices</string>
     <string name="OB_note_date_ob1_convert_by_OB_Omar_Batheeb_OB">1- The date convert may not work on all devices</string>
     <string name="OB_note_date_ob2_convert_by_OB_Omar_Batheeb_OB">2- To convert the date, write the Hijri OR AD date then click on convert</string>
-    <string name="OB_version">OBWhatsApp 25</string>
+    <string name="OB_version">واتس الزهراء v1.0</string>
     <string name="OB_womenOB_note2_wether_by_omar_ob">Please type the information in the right and left hand side correctly</string>
     <string name="OB_womenOB_note_wether_by_omar_ob">The application may not work on all devices</string>
     <string name="Telegram">Telegram</string>
@@ -1181,7 +1181,7 @@ If the biometric sensor isn't working, disable it in your device's settings."</s
     <string name="str0488">Share Stickers</string>
     <string name="str0489">"Looking good, it's time to show off your stickers!"</string>
     <string name="str048a">Create an avatar to get stickers that represent who you are.</string>
-    <string name="about_omar">about Omar</string>
+    <string name="about_omar">عن واتس الزهراء</string>
     <string name="str048c">"You haven't sent any avatars stickers yet"</string>
     <string name="str048d">Your avatar profile picture has been removed.</string>
     <string name="str048e">Select contacts</string>
@@ -1471,7 +1471,7 @@ businesses near you"</string>
     <string name="str05a9">Setting your location…</string>
     <string name="str05aa">Similar to \"%s\"</string>
     <string name="ads_department_by_omar_ob">Ads Department</string>
-    <string name="app_name_s">HawaWhatsApp</string>
+    <string name="app_name_s">واتس الزهراء</string>
     <string name="ask10_by_omar_ob">عدم ظهور عداد الرسائل على الايقونة ؟</string>
     <string name="ask11_by_omar_ob">إذهب الى إضافات عمر ثم المزيد من إضافات عمر ثم إنشاء اختصار للبرنامج.</string>
     <string name="ask12_by_omar_ob">لا يمكنني مشاهدة ظهور الآخرين ؟</string>
@@ -3640,7 +3640,7 @@ UPI does not yet support all joint or NRI accounts."</string>
     <string name="str0df4">Archived</string>
     <string name="str0df5">Chat archived</string>
     <string name="str0df6">Call link</string>
-    <string name="back_to_old_sum_by_omar_ob">Please restart OBWhatsApp to return to the old form</string>
+    <string name="back_to_old_sum_by_omar_ob">Please restart واتس الزهراء to return to the old form</string>
     <string name="chats_screen">chat of screen</string>
     <string name="clear_pic">Clear</string>
     <string name="str0dfa">Autocomplete options are available above the keyboard</string>
@@ -15419,7 +15419,7 @@ We'll never ask for your personal information."</string>
     <string name="str3b02">Unblock %s</string>
     <string name="str3b03">You have unblocked %1$s</string>
     <string name="ob_main_home_sum">Home screen backgrounds, dark theme and jealousy</string>
-    <string name="str3b05">OBWhatsApp</string>
+    <string name="str3b05">واتس الزهراء</string>
     <string name="str3b06">Failed to confirm Facebook and Instagram accounts. Go to Accounts Center to resolve.</string>
     <string name="str3b07">Status already shared to Facebook and Instagram</string>
     <string name="str3b08">Status already sharing to Facebook and Instagram</string>
@@ -15607,11 +15607,11 @@ We'll never ask for your personal information."</string>
     <string name="str3bbe">Recent ad activity</string>
     <string name="str3bbf">"See ads you've recently interacted with"</string>
     <string name="str3bc0">"Advertisers you've seen"</string>
-    <string name="ob_note1_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob">My brother / sister listener for the Rukaya form OBWhatsApp We would like to tell you about the advantages of this new addition:</string>
+    <string name="ob_note1_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob">My brother / sister listener for the Rukaya form واتس الزهراء We would like to tell you about the advantages of this new addition:</string>
     <string name="str3bc2">Tap on the advertiser to view, hide or unhide.</string>
     <string name="str3bc3">"Advertisers you've seen"</string>
     <string name="str3bc4">Hide or unhide advertisers</string>
-    <string name="ob_note1_for_ob_evening_sound_by_ob_Omar_Batheeb_ob">My brother / sister listener for the evening Azkar form OBWhatsApp We would like to tell you about the advantages of this new addition</string>
+    <string name="ob_note1_for_ob_evening_sound_by_ob_Omar_Batheeb_ob">My brother / sister listener for the evening Azkar form واتس الزهراء We would like to tell you about the advantages of this new addition</string>
     <string name="str3bc6">"Tap to view details of the ads you've recently interacted with."</string>
     <string name="str3bc7">Create a report of your ads information from Status &amp; Channels, which you can access or port to another app. &lt;a href=\"learn-more\">Learn more&lt;/a></string>
     <string name="str3bc8">Request ads report</string>
@@ -15775,7 +15775,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="str3c61">Report</string>
     <string name="str3c62">"You're leaving WhatsApp and opening another app. Do you want to continue?"</string>
     <string name="str3c63">Share link</string>
-    <string name="ob_note1_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">My brother / sister listener for the morning Azkar form OBWhatsApp We would like to tell you about the advantages of this new addition:</string>
+    <string name="ob_note1_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">My brother / sister listener for the morning Azkar form واتس الزهراء We would like to tell you about the advantages of this new addition:</string>
     <string name="str3c65">None of your contacts are using WhatsApp. Use the button below to invite them.</string>
     <string name="str3c66">Chat with your friends who use WhatsApp on iPhone, Android, or KaiOS</string>
     <string name="str3c67">Chat with your friends who use WhatsApp on iPhone, Android, or JioPhone</string>
@@ -15820,9 +15820,9 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="str3c8e">Control your experience across WhatsApp, Facebook, Instagram and more.</string>
     <string name="ob_note2_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">1. This works (without Internet).</string>
     <string name="str3c90">Accounts Center</string>
-    <string name="ob_note3_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob">2 - You can listen to the Rukaya even if you use OBWhatsApp in correspondence, Turn on the sound and go back to the conversations for messaging.</string>
+    <string name="ob_note3_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob">2 - You can listen to the Rukaya even if you use واتس الزهراء in correspondence, Turn on the sound and go back to the conversations for messaging.</string>
     <string name="str3c92">You can quickly access your WhatsApp because you previously added it to Accounts Center.</string>
-    <string name="ob_note3_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">2 - You can listen to the morning and evening Azkar even if you use OBWhatsApp in correspondence. Turn on the sound and go back to the conversations for messaging.</string>
+    <string name="ob_note3_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">2 - You can listen to the morning and evening Azkar even if you use واتس الزهراء in correspondence. Turn on the sound and go back to the conversations for messaging.</string>
     <string name="str3c94">Continue as</string>
     <string name="str3c95">Unable to continue. Enter phone number instead.</string>
     <string name="str3c96">Read our &lt;b>&lt;a href=\"privacy-policy\">Privacy Policies&lt;/a>&lt;/b>. By continuing, you accept our &lt;b>&lt;a href=\"terms-and-privacy-policy\">Terms of Service&lt;/a>&lt;/b>.</string>
@@ -15888,11 +15888,11 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="str3cd2">Learn more</string>
     <string name="str3cd3">Yes</string>
     <string name="str3cd4">YES</string>
-    <string name="ob_note4_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob">3 - You can also listen to the Rukaya even if you use a program other than OBWhatsApp. To listen to the Rukaya, click on the button to return to the main screen without closing the account.</string>
+    <string name="ob_note4_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob">3 - You can also listen to the Rukaya even if you use a program other than واتس الزهراء. To listen to the Rukaya, click on the button to return to the main screen without closing the account.</string>
     <string name="str3cd6">You</string>
     <string name="str3cd7">You are no longer an admin</string>
-    <string name="ob_note4_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">3 - You can also listen to the Azkar even if you use a program other than OBWhatsApp. To listen to the Azkar, click on the button to return to the main screen without closing the account.</string>
-    <string name="ob_note5_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob">4. You can control the operation or shutdown of it from the button below for the operation and stop, but if it did not stop, exit from OBWhatsApp and close it.</string>
+    <string name="ob_note4_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">3 - You can also listen to the Azkar even if you use a program other than واتس الزهراء. To listen to the Azkar, click on the button to return to the main screen without closing the account.</string>
+    <string name="ob_note5_for_ob_Rukaya_sound_by_ob_Omar_Batheeb_ob">4. You can control the operation or shutdown of it from the button below for the operation and stop, but if it did not stop, exit from واتس الزهراء and close it.</string>
     <string name="str3cda">Your call link</string>
     <string name="str3cdb">Your call</string>
     <string name="str3cdc">Your cart</string>
@@ -16012,7 +16012,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="str3d4e">Select to put Meta AI on speaker</string>
     <string name="str3d4f">Select to turn off speaker</string>
     <string name="str3d50">Afaan Amaaraa</string>
-    <string name="str3d51">OBWhatsApp</string>
+    <string name="str3d51">واتس الزهراء</string>
     <string name="str3d52">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="str3d53">Chats with no activity for 6 months will automatically come to view later</string>
     <string name="str3d54">Auto hide inactive chats</string>
@@ -16042,7 +16042,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="str3d6c">NUX state restored, stored location wiped</string>
     <string name="str3d6d">See results nearby</string>
     <string name="str3d6e">View all</string>
-    <string name="ob_note5_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">4. You can control the operation or shutdown of it from the button below for the operation and stop, but if it did not stop, exit from OBWhatsApp and close it.</string>
+    <string name="ob_note5_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">4. You can control the operation or shutdown of it from the button below for the operation and stop, but if it did not stop, exit from واتس الزهراء and close it.</string>
     <string name="str3d70">View profile photo</string>
     <string name="str3d71">View status</string>
     <string name="ob_note6_for_ob_morning_sound_by_ob_Omar_Batheeb_ob">5 - This feature does not work with Android phones with version number 4, but works in Vicki other versions (5-6-7-8).</string>
@@ -16156,7 +16156,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="str3dde">"You're all caught up."</string>
     <string name="str3ddf">No unread chats</string>
     <string name="ob_widget">Holy Quran and Islamic Addtions</string>
-    <string name="obapp_verion">OBWhatsApp 3nabi</string>
+    <string name="obapp_verion">واتس الزهراء v1.0</string>
     <string name="obapp_verion_sum">for downlaod press here</string>
     <string name="str3de3">Cream</string>
     <string name="str3de4">Light Cream</string>
@@ -16370,7 +16370,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="str3eb4">Not now</string>
     <string name="str3eb5">This is an internal feature intended for Meta employees only. Please confirm that you understand and wish to proceed.</string>
     <string name="str3eb6">Internal Feature</string>
-    <string name="omar_ob_verion">Other Omar App</string>
+    <string name="omar_ob_verion">Other Abu Zahra App</string>
     <string name="str3eb8">Height: %1$d</string>
     <string name="str3eb9">Image Quality</string>
     <string name="str3eba">Width: %1$d</string>
@@ -16398,8 +16398,8 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="str3ed0">List color</string>
     <string name="str3ed1">Delete</string>
     <string name="str3ed2">Add comment</string>
-    <string name="str3ed3">OBWhatsApp</string>
-    <string name="omar_ob_verion_sum">Download other Omar versions</string>
+    <string name="str3ed3">واتس الزهراء</string>
+    <string name="omar_ob_verion_sum">Download other Abu Zahra versions</string>
     <string name="personal_facebook">My Facebook profile</string>
     <string name="pref_row_swipe_sum">قم بتفعيل الخيار لتمرير المحادثات الى اليمين واليسار مثل الايفون للاتصال في الشاشة الرئيسية</string>
     <string name="str3ed7">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
@@ -17546,7 +17546,7 @@ This setting does not apply to community announcement groups. If %2$s is added t
     <string name="HangoutsBt">Conversation UI Buttons Color</string>
     <string name="HangoutsBtS">Change the Color of the Entry icons</string>
     <string name="HideFAB">Hide Floating Action Button (FAB)</string>
-    <string name="Lock">OBWhatsApp Lock</string>
+    <string name="Lock">قفل واتس الزهراء</string>
     <string name="MainSize">Main/Calls/Contacts Screen Text Size</string>
     <string name="MainSizeS">Change the size of the text in the whole main screen</string>
     <string name="MentionIndicatorBackgroundColor">Mention Indicator Background</string>
@@ -17634,7 +17634,7 @@ This setting does not apply to community announcement groups. If %2$s is added t
     <string name="acjpasssum">Sets Pattern Password for WhatsApp</string>
     <string name="acjreset">Reset</string>
     <string name="acjresetsum">Reset all Settings</string>
-    <string name="acjrestart">Restart OBWhatsApp</string>
+    <string name="acjrestart">إعادة تشغيل واتس الزهراء</string>
     <string name="acjrestartsum">Will restart WhatsApp to apply changes</string>
     <string name="acjunisum">Sets Color throughout WhatsApp</string>
     <string name="acjuniversal">Universal</string>
@@ -17698,7 +17698,7 @@ This setting does not apply to community announcement groups. If %2$s is added t
     <string name="chats_row_divider_picker_summary">Set line color between chats</string>
     <string name="clear">Clear</string>
     <string name="clearemoji">Clear Recent Emojis</string>
-    <string name="clearlogs">Clear OBWhatsApp Logs</string>
+    <string name="clearlogs">Clear واتس الزهراء Logs</string>
     <string name="color_new_color">New color</string>
     <string name="color_old_color">Old color</string>
     <string name="color_select_color">Select a color</string>
@@ -17725,7 +17725,7 @@ This setting does not apply to community announcement groups. If %2$s is added t
     <string name="custom_wall_profilepic">Profile Pic Wallpaper</string>
     <string name="custom_wall_profilepicS">Set profile pic as wallpaper if exists</string>
     <string name="customfont">Font Style</string>
-    <string name="customfont_sum">Change font style for OBWhatsApp</string>
+    <string name="customfont_sum">Change font style for واتس الزهراء</string>
     <string name="customwall">Custom Wallpaper per contact</string>
     <string name="customwallS">Allows you to set custom wallpaper for each person/conversation</string>
     <string name="darkui">Dark UI</string>
@@ -17738,8 +17738,8 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="dialog_call_msg">Do you really want to call?</string>
     <string name="dialog_call_title">Make a call</string>
     <string name="disableFingerprintFirst">To use other lock types, please disable Fingerprint first</string>
-    <string name="disableHiddenAccess">Disable clicking on \"OBWhatsApp\"</string>
-    <string name="disableHiddenAccessSum">Clicking on \"OBWhatsApp\" in the header will not open Hidden chats</string>
+    <string name="disableHiddenAccess">Disable clicking on \"واتس الزهراء\"</string>
+    <string name="disableHiddenAccessSum">Clicking on \"واتس الزهراء\" in the header will not open Hidden chats</string>
     <string name="disable_auto_reply_hideread">Disable Auto Reply</string>
     <string name="disable_auto_reply_hideread_sum">Disable Auto Reply if you hide read ticks</string>
     <string name="disable_dttl">Disable Double Tap Reaction</string>
@@ -17751,9 +17751,9 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="download_failed">Download failed</string>
     <string name="download_whatsappgold">visit my website</string>
     <string name="elapsedT">Elapsed time</string>
-    <string name="elapsedTS">Use Elapsed time (last seen hr and mins ago) in OBWhatsApp, in Home and Conversation screen!</string>
+    <string name="elapsedTS">Use Elapsed time (last seen hr and mins ago) in واتس الزهراء, in Home and Conversation screen!</string>
     <string name="em_set">Emoji variant</string>
-    <string name="em_setS">Change Emojis variant for OBWhatsApp</string>
+    <string name="em_setS">Change Emojis variant for واتس الزهراء</string>
     <string name="emojiBackColor">Emoji picker background color</string>
     <string name="emojiBackColorSum">Change Emoji popup background color</string>
     <string name="emojiHeadIconsColor">Emoji header icons color</string>
@@ -17802,7 +17802,7 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="inconvo_trans_option_explainer">Choose how the translation icon works. Server = No outside apps.</string>
     <string name="inside_bubble">Inside</string>
     <string name="last_message">Last Message</string>
-    <string name="launcher_app_name">OBWhatsApp</string>
+    <string name="launcher_app_name">واتس الزهراء</string>
     <string name="launchericons">Launcher Icons</string>
     <string name="launchericonsSum">Choose your favorite Launcher Icon</string>
     <string name="listBackground">List Background (One UI ONLY)</string>
@@ -17892,7 +17892,7 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="resetPrivacyonly">Keep current Theme?</string>
     <string name="resetPrivacyonlyS">"'Keep': Keep applied theme 'Reset': Default/Stock WhatsApp colors"</string>
     <string name="resetThemes">Reset Preferences</string>
-    <string name="resetThemesSum">Sets back OBWhatsApp default settings</string>
+    <string name="resetThemesSum">Sets back واتس الزهراء default settings</string>
     <string name="reset_themes_confirma">Are you sure you want to reset all Themeing preference?</string>
     <string name="restoreTheme">Restore Themes</string>
     <string name="restoreThemeS">Load Themes stored in (/Download/Themes)</string>
@@ -18032,12 +18032,12 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="yoAudioEarsSum">Prevents speaker/earpiece switching while playing</string>
     <string name="yoAudioSensor">Enable Proximity Sensor</string>
     <string name="yoAudioSensorSum">Enabled by default, disable to turn it off.</string>
-    <string name="yoBackup">Backup OBWhatsApp data</string>
+    <string name="yoBackup">Backup واتس الزهراء data</string>
     <string name="yoBackupDone">Backup finish!</string>
     <string name="yoBackupFail">Backup failed!</string>
     <string name="yoBackupMsg">Backing up data…</string>
     <string name="yoBackupRestore">Backup and restore</string>
-    <string name="yoBackupSum">Create a Backup of OBWhatsApp (Titanium Backup like data backup)</string>
+    <string name="yoBackupSum">Create a Backup of واتس الزهراء (Titanium Backup like data backup)</string>
     <string name="yoBackupTitle">Backup</string>
     <string name="yoBlueOnReply">Show Blue Ticks after reply</string>
     <string name="yoBlueOnReplyS">Contact will only see blue ticks after you reply</string>
@@ -18094,7 +18094,7 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="yoHideRecord">Hide recording…</string>
     <string name="yoHideRecordSum">"Don't tell the sender that you are recording a voice message."</string>
     <string name="yoHideSeen">Freeze Last Seen</string>
-    <string name="yoHideSeenSum">Please restart OBWhatsApp for changes to take effect.</string>
+    <string name="yoHideSeenSum">Please restart واتس الزهراء for changes to take effect.</string>
     <string name="yoHideStatusView">Hide View Status</string>
     <string name="yoHideStatusViewSum">"Don't tell contact that you have viewed their status"</string>
     <string name="yoHomeUIStyle">Home UI Style</string>
@@ -18110,7 +18110,7 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="yoMisc">Misc Mods</string>
     <string name="yoMods">AG Settings</string>
     <string name="yoName">Set My Name</string>
-    <string name="yoNameSum">Set your name instead of OBWhatsApp in Home Screen</string>
+    <string name="yoNameSum">Set your name instead of واتس الزهراء in Home Screen</string>
     <string name="yoNicon">Change Notification Icon</string>
     <string name="yoNiconSum">This is the icon that will appear in your status bar</string>
     <string name="yoNific">Show Only the name of message sender next to the notifybar icon</string>
@@ -18124,7 +18124,7 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="yoPrivacySum">Specific Privacy</string>
     <string name="yoProfilePic">Hide contact profile picture</string>
     <string name="yoProfilePicS">Removes the contact profile picture from the header in the conversation screen</string>
-    <string name="yoRestore">Restore OBWhatsApp data</string>
+    <string name="yoRestore">Restore واتس الزهراء data</string>
     <string name="yoRestoreDone">Restore finished!</string>
     <string name="yoRestoreFail">Restore failed!</string>
     <string name="yoRestoreMsg">Restoring data…</string>
@@ -18139,7 +18139,7 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="yoSendBtn">Send Button Color</string>
     <string name="yoSendBtnS">Send/Mic color in the conversation screen</string>
     <string name="yoShare">Share</string>
-    <string name="yoShareSum">Share OBWhatsApp with friends!</string>
+    <string name="yoShareSum">Share واتس الزهراء with friends!</string>
     <string name="yoStyling">Styles (Look and feel)</string>
     <string name="yoSwipeRow">Swipe Row</string>
     <string name="yoSwipeRowS">Allows you to swipe any conversation row left or right to perform quick actions</string>
@@ -18165,11 +18165,11 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="yo_OK">OK</string>
     <string name="yo_Report">Report</string>
     <string name="yo_UDownload">Download!</string>
-    <string name="yo_UpInfo">Check if there is a new version of OBWhatsApp available!</string>
+    <string name="yo_UpInfo">Check if there is a new version of واتس الزهراء available!</string>
     <string name="yo_UpToDate">Your version is up to date.</string>
     <string name="yo_airplane_mode_warning">While Airplane mode is On, you will not be able to send/receive messages.</string>
     <string name="yo_all">All</string>
-    <string name="yo_changelog">OBWhatsApp Changelog</string>
+    <string name="yo_changelog">واتس الزهراء Changelog</string>
     <string name="yo_changelogS">"Check what's new in this version!"</string>
     <string name="yo_enable_old">OLD UI (2014)</string>
     <string name="yo_follow">Follow Me to stay updated!</string>
@@ -18186,7 +18186,7 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="yo_universal">Universal Color</string>
     <string name="yo_universal_sum">Changes Color everywhere, including UI!</string>
     <string name="yo_webdl">Web Download</string>
-    <string name="yo_webdlS">Download OBWhatsApp from official website</string>
+    <string name="yo_webdlS">Download واتس الزهراء from official website</string>
     <string name="yocent">Conversation Toolbar style</string>
     <string name="yocentS">Change style of header in Conversation screen</string>
     <string name="yoconh">Home style</string>
@@ -18256,8 +18256,8 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="exo_track_unknown">Unknown</string>
     <string name="yo_activate">Activate</string>
     <string name="airplane_mode">Airplane Mode</string>
-    <string name="yo_FoundUp">New Update Found! Latest OBWhatsApp version is %s</string>
-    <string name="yoShareBdy">OBWhatsApp</string>
+    <string name="yo_FoundUp">New Update Found! Latest واتس الزهراء version is %s</string>
+    <string name="yoShareBdy">واتس الزهراء</string>
     <string name="yoPlus">Join WhatsApp Google+ Community</string>
     <string name="yoUpdate">Tributes to legends!</string>
     <string name="yoReport">Something wrong? Send us an email!</string>
@@ -18267,7 +18267,7 @@ DON'T USE UNLESS YOU REALLY NEED TO!"</string>
     <string name="yoImgShareLimitSum">Send more than 10 image files at once</string>
     <string name="yoUpSizeLimit">Send video in Full Resolution</string>
     <string name="yoUpSizeLimitSum">video will be sent in Highest quality/resolution</string>
-    <string name="jo_modifi">OBWhatsApp By Yousef Al-Basha</string>
+    <string name="jo_modifi">واتس الزهراء - أبو الزهراء السعيدي</string>
     <string name="Donate">Donate!</string>
     <string name="DonateSum">Keep OBWA alive!</string>
     <string name="donateMe">"Do you find this application useful?
@@ -18615,7 +18615,7 @@ Groups have been removed from the community."</string>
     <string name="live_location_new_user_dialog_description">Participants in this chat will see your location in real time. By giving access to your location data, you agree to WhatsApp sharing your location with only participants in this chat. WhatsApp cannot see your shared location data. &lt;a href=\"%s\">Learn more&lt;/a>.</string>
     <string name="loading_expressive_background_themes">Getting backgrounds…</string>
     <string name="loading_failed_expressive_background_themes">Something went wrong</string>
-    <string name="localized_app_name">OBWhatsApp</string>
+    <string name="localized_app_name">واتس الزهراء</string>
     <string name="log_out_preference_confirmation_message">Are you sure you want to log out?</string>
     <string name="manage_storage">Manage storage</string>
     <string name="map_cancel_btn">Cancel</string>
@@ -18961,7 +18961,7 @@ Please try again later."</string>
     <string name="send_to_contact">Send to %s</string>
     <string name="sending_to_friends_and_family">Personal</string>
     <string name="sending_to_friends_and_family_hint">Send money to friends and family using debit card only.</string>
-    <string name="set_as_profile_photo">OBWhatsApp profile photo</string>
+    <string name="set_as_profile_photo">واتس الزهراء profile photo</string>
     <string name="settings_autodownload">Media auto-download</string>
     <string name="settings_autodownload_audio">Audio</string>
     <string name="settings_autodownload_cellular">When using mobile data</string>
@@ -19219,7 +19219,7 @@ Tap to learn more."</string>
     <string name="chosoe_themes">Choose from themes</string>
     <string name="enter_themes">Enter name for your theme:</string>
     <string name="report">Report</string>
-    <string name="about_me">Modded By Omar</string>
+    <string name="about_me">طور بواسطة أبو الزهراء السعيدي</string>
     <string name="twitter">Twitter</string>
     <string name="telegram">Telegram</string>
     <string name="sendLogsByEmail">send Logs By Email</string>
@@ -19275,7 +19275,7 @@ Tap to learn more."</string>
     <string name="media_in_gallery">If media still does not show in gallery</string>
     <string name="restart_phone">RESTART your phone</string>
     <string name="add_account">Switch Account</string>
-    <string name="info_add_this_account">"Note: Before using the feature of adding a new account within OBWhatsApp, please backup the data from the AG Settings > Universal > Backup and restore > Backup OBWhatsApp data to avoid losing conversations
+    <string name="info_add_this_account">"Note: Before using the feature of adding a new account within واتس الزهراء, please backup the data from the AG Settings > Universal > Backup and restore > Backup واتس الزهراء data to avoid losing conversations
  
  Are you sure you want to add this account?"</string>
     <string name="Online">Online</string>
@@ -19719,7 +19719,7 @@ Sorry for the inconvenience."</string>
     <string name="disablemute">Disable muted status</string>
     <string name="enablemute">Enable muted status</string>
     <string name="AboArab_Media">Setting Media</string>
-    <string name="acjauto_R">Put an automatic reply in the event that a message has been sent to you from one of your friends and contacts and you are not on OBWhatsApp.</string>
+    <string name="acjauto_R">Put an automatic reply in the event that a message has been sent to you from one of your friends and contacts and you are not on واتس الزهراء.</string>
     <string name="acjschdulr_S">Write a message and set the date for sending the message and it will be sent automatically</string>
     <string name="abo_arab_hakkinda">About</string>
     <string name="abo_arab_videolugorusme">Start a Video Call</string>
@@ -19728,7 +19728,7 @@ Sorry for the inconvenience."</string>
     <string name="ob_ooaa">Do not forget to mention God and pray to the Prophet</string>
     <string name="INSTAGOLD_DOWNLOAD">Instagram Gold</string>
     <string name="WAGOLD_DOWNLOAD">WhatsApp Gold</string>
-    <string name="YOWA_DOWNLOAD">AGWhatsapp</string>
+    <string name="YOWA_DOWNLOAD">Abu Zahra WhatsApp</string>
     <string name="WAPLUS_DOWNLOAD">WhatsApp Plus</string>
     <string name="TELEGRAMG_DOWNLOAD">Telegram Gold</string>
     <string name="TWITTERG_DOWNLOAD">Twitter Gold</string>
@@ -19741,7 +19741,7 @@ Sorry for the inconvenience."</string>
     <string name="view_once_open_r">Show the sender View-Once messages will be open</string>
     <string name="WARED_DOWNLOAD">WhatsApp Red</string>
     <string name="aboarab_tercih_kaydet">SAVE!</string>
-    <string name="masmods">OBWhatsApp update</string>
+    <string name="masmods">واتس الزهراء update</string>
     <string name="abo_arab_download_wap">Update from the official website</string>
     <string name="abo_arab_download_telegram">update from telegram</string>
     <string name="privacy_preferences_are_cleared">Privacy preferences cleared: Please restart WhatsApp.</string>
@@ -19768,7 +19768,7 @@ Sorry for the inconvenience."</string>
     <string name="aboarab_themes_sum">Yes, your theme looks awesome</string>
     <string name="Abo_Arab_Effect">Message management</string>
     <string name="Abo_Arab_Clear">Waste cleaning</string>
-    <string name="Abo_Arab_Clear_sum">Clear temporary OBWhatsApp files</string>
+    <string name="Abo_Arab_Clear_sum">Clear temporary واتس الزهراء files</string>
     <string name="abu_arab_fake_chat">Modify Chat</string>
     <string name="Abo_Arab_Backup">Backup and restore</string>
     <string name="voice_note_v2">The ability to listen to the audio recording before sending</string>
@@ -19857,9 +19857,9 @@ Sorry for the inconvenience."</string>
 
 You can also change this password in any chat: press and hold a message >> access the decryption panel from the options."</string>
     <string name="mesaj_sifreleme_baslik">Decrypt</string>
-    <string name="mesaj_sifreleme_bilgi">"Hey, I just sent an encrypted message. This encrypted message feature is just one of hundreds of OBWhatsApp features and you can only see this encrypted message using OBWhatsApp.
+    <string name="mesaj_sifreleme_bilgi">"Hey, I just sent an encrypted message. This encrypted message feature is just one of hundreds of واتس الزهراء features and you can only see this encrypted message using واتس الزهراء.
 
-Official download link for OBWhatsApp and other apps:
+Official download link for واتس الزهراء and other apps:
 https://ww.download4.app/wa
 
 
@@ -19875,7 +19875,7 @@ https://ww.download4.app/wa
 To change the message encryption password, use the option below or press and hold any message and enter the decryption panel from the options that appear."</string>
     <string name="mesaj_sifreleme_etkin_b">Message encryption is disabled.</string>
     <string name="mesaj_sifreleme_bilgi_etkin">Send info message</string>
-    <string name="mesaj_sifreleme_bilgi_etkin_a">"We'll tell the person/group you're sending the encrypted message to that the message can be decrypted using OBWhatsApp."</string>
+    <string name="mesaj_sifreleme_bilgi_etkin_a">"We'll tell the person/group you're sending the encrypted message to that the message can be decrypted using واتس الزهراء."</string>
     <string name="mesaj_sifreleme_panel_arkaplan">Decryption panel background</string>
     <string name="mesaj_sifreleme_panel_metin">Decryption panel texts color</string>
     <string name="mesaj_sifreleme_panel_metin1">Decryption panel title texts color</string>
@@ -20133,7 +20133,7 @@ To change the message encryption password, use the option below or press and hol
     <string name="abu_arab_hideprivacy">Hide the privacy option</string>
     <string name="abu_arab_hideprivacysum">Hide the privacy option from the Home Screen Options menu.</string>
     <string name="abu_arab_hidecupdates">Hide the update option</string>
-    <string name="abu_arab_hidecupdatesum">Hide the OBWhatsApp Update option from the Home Screen Options menu.</string>
+    <string name="abu_arab_hidecupdatesum">Hide the واتس الزهراء Update option from the Home Screen Options menu.</string>
     <string name="abu_arab_roundedQuickContact_title">QuickContact Background Corner</string>
     <string name="abu_arab_background_quickcontact">QuickContact background</string>
     <string name="abu_arab_background_quick2">Second Background2</string>
@@ -20156,8 +20156,8 @@ To change the message encryption password, use the option below or press and hol
     <string name="abu_arab_layt_bulkz">Type a message</string>
     <string name="abu_arab_layt_bulksumz">Your message here</string>
     <string name="abu_arab_layt_awrecentz">No recent colors</string>
-    <string name="Abo_Arab_Features">Abu Arab Features</string>
-    <string name="Abo_Arab_Featuress">Abu Arab Features</string>
+    <string name="Abo_Arab_Features">أبو الزهراء السعيدي Features</string>
+    <string name="Abo_Arab_Featuress">أبو الزهراء السعيدي Features</string>
     <string name="abu_arab_settz_extnosendz">Block Outgoing Message</string>
     <string name="abu_arab_settz_extnosendz_sum">You ll not able to send messages (only you can receive messages)</string>
     <string name="abu_arab_settz_extnorecptz">Block Incoming Message</string>
@@ -20307,7 +20307,7 @@ Best font site: https://www.fontspace.com"</string>
     <string name="abu_arab_chat_moved">Chat Moved!</string>
     <string name="abu_arab_chat_moved_sum">Your conversations and media have been moved successfully. Please open WhatsApp, enter your phone number, and then activate it!</string>
     <string name="abu_arab_please_wait">Please wait a moment...</string>
-    <string name="abu_arab_chat_moved_wa">Move Chats to OBWhatsApp</string>
+    <string name="abu_arab_chat_moved_wa">Move Chats to واتس الزهراء</string>
     <string name="abu_arab_chat_moved_wa_sum">s your number activated on a second version? and you want to transfer your conversations here with a button press?</string>
     <string name="abu_arab_new_story">Activate the new status style</string>
     <string name="abu_arab_new_story_sum">Show the new status style look on the main screen, status section</string>
@@ -20322,14 +20322,14 @@ Best font site: https://www.fontspace.com"</string>
     <string name="follow_us_on_telegram">Follow us on Telegram</string>
     <string name="abu_arab_settings_fancy_help_title">Your text</string>
     <string name="abu_arab_go_to_settings">Go to settings</string>
-    <string name="abu_arab_batery_res_msg">It is important to set OBWhatsApp to Unrestricted in battery optimization for notifications without delay.</string>
+    <string name="abu_arab_batery_res_msg">It is important to set واتس الزهراء to Unrestricted in battery optimization for notifications without delay.</string>
     <string name="abu_arab_batery_res_title">Disable battery optimization</string>
     <string name="abu_arab_metaai">Show icon Meta AI</string>
     <string name="abu_arab_metaai_sum">You can hide the Meta AI icon from your home screen.</string>
     <string name="abu_arab_popup">iOS style pop-up menu</string>
     <string name="abu_arab_popup_sum">Show the new iOS style popup menu in chats.</string>
-    <string name="yoShareSum_abo_arab">Share OBWhatsApp with your friends 😁❤️!</string>
-    <string name="Abo_Arab_Send">"Hello :- I use OBWhatsApp, the best WhatsApp Plus against the ban, it contains mythical features and additions 😍 More than 1000 features that are not found in the official WhatsApp, get it now and learn about the new features, download it from here directly
+    <string name="yoShareSum_abo_arab">Share واتس الزهراء with your friends 😁❤️!</string>
+    <string name="Abo_Arab_Send">"Hello :- I use واتس الزهراء, the best WhatsApp Plus against the ban, it contains mythical features and additions 😍 More than 1000 features that are not found in the official WhatsApp, get it now and learn about the new features, download it from here directly
 
  https://ww.download4.app/wa
 
@@ -20338,13 +20338,13 @@ Or you can download it from our telegram
 
 
 https://t.me/omar4app"</string>
-    <string name="Abo_Arab_Frinds">"Hello :- I use OBWhatsApp, the best WhatsApp Plus against the ban, it contains mythical features and additions 😍 More than 1000 features that are not found in the official WhatsApp, get it now and learn about the new features, 
+    <string name="Abo_Arab_Frinds">"Hello :- I use واتس الزهراء, the best WhatsApp Plus against the ban, it contains mythical features and additions 😍 More than 1000 features that are not found in the official WhatsApp, get it now and learn about the new features, 
 
 
 download it from here directly
 
 "</string>
-    <string name="Abo_Arab_Sends">"(OBWhatsApp, the original version) A new update with great new additions and features, get it now with a direct download link from here 👇
+    <string name="Abo_Arab_Sends">"(واتس الزهراء, the original version) A new update with great new additions and features, get it now with a direct download link from here 👇
 
  https://ww.download4.app/wa
 
@@ -20370,7 +20370,7 @@ https://t.me/omar4app"</string>
     <string name="limit">Show only last hours</string>
     <string name="read_log_pref">Open Log</string>
     <string name="show_name">Show Name</string>
-    <string name="yoShareSbj">OBWhatsApp</string>
+    <string name="yoShareSbj">واتس الزهراء</string>
     <string name="yo_apperance">Appearance</string>
     <string name="yoImgQuickCamHold">Full Resolution Quick Camera</string>
     <string name="yoImgQuickCamHoldSum">Press and hold quick camera button to send full resolution image</string>
@@ -20392,7 +20392,7 @@ https://t.me/omar4app"</string>
     <string name="abu_arab_name_is_composing">%s is typing…</string>
     <string name="transparent">Transparent</string>
     <string name="yoverbase">WhatsApp 2.19.230</string>
-    <string name="myna">com.obwhatsapp</string>
+    <string name="myna">com.zahra.whatsapp</string>
     <string name="chats_date_mod">Date Color</string>
     <string name="chats_date_summary">Select color for Date in Main screen</string>
     <string name="chats_names_mod">Names Color</string>
@@ -20462,7 +20462,7 @@ https://t.me/omar4app"</string>
     <string name="exo_controls_time_placeholder">00:00:00</string>
     <string name="fkf">E1E1C343CE08185001D4E3F6757541EB</string>
     <string name="jo_mods">By Yousef Al Basha.</string>
-    <string name="yowav">OBWhatsApp V51</string>
+    <string name="yowav">واتس الزهراء v1.0</string>
     <string name="NOTFOUND" />
     <string name="device_linking_no_devices_place_holder">Use WhatsApp on web, desktop or other devices without keeping your phone online. &lt;a href=\"%s\">Learn more&lt;/a></string>
     <string name="contact_picker_section_status">Status</string>
@@ -20628,14 +20628,14 @@ https://t.me/omar4app"</string>
     <string name="announcement_subtitle">Announcement group</string>
     <string name="app_auth_disabled">Disabled</string>
     <string name="app_auth_enabled_immediately">Enabled immediately</string>
-    <string name="app_auth_locked_title">OBWhatsApp Locked</string>
+    <string name="app_auth_locked_title">قفل واتس الزهراءed</string>
     <string name="app_auth_lockout_error">"Too many attempts. Try again after %d seconds.
 
 If the biometric sensor isn't working, disable it in your device's settings."</string>
     <string name="app_auth_lockout_error_short">Too many attempts. Try again after %d seconds.</string>
     <string name="app_auth_timeout_immediately">Immediately</string>
     <string name="app_locked_biometric_prompt_title">Unlock to use WhatsApp</string>
-    <string name="app_name">WhatsApp</string>
+    <string name="app_name">واتس الزهراء</string>
     <string name="app_state_sync_fatal_alert_body">To resolve this issue, leave and rejoin the Multi-Device beta. Consider reporting this issue to the team.</string>
     <string name="app_state_sync_fatal_alert_close_button">Close</string>
     <string name="app_state_sync_fatal_alert_continue_button">Continue</string>
@@ -26593,7 +26593,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="whatsapp_access_at_risk_body">Your account may not be following WhatsApp policy. &lt;font color=#%s>See why&lt;/font></string>
     <string name="whatsapp_contacts">Select contact</string>
     <string name="whatsapp_copyright">© 2010–2022 WhatsApp Inc.</string>
-    <string name="whatsapp_name">OBWhatsApp</string>
+    <string name="whatsapp_name">واتس الزهراء</string>
     <string name="whatsapp_web">WhatsApp Web</string>
     <string name="widget_content_hidden">To see unread messages, enable \"Show content in notifications\" in fingerprint lock settings</string>
     <string name="wifi_blocked_explanation">WhatsApp is unable to send and receive messages using the currently connected Wi-Fi network. Please disable Wi-Fi to restore network connectivity.</string>
@@ -26629,7 +26629,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="masmods_widget_sum">Click here to set the background and colors for widget</string>
     <string name="masmods_acjchat_sum">Click here to set the look and color in the chat screen</string>
     <string name="masmods_acjcons_sum">Click here to set the look and color in the home screen</string>
-    <string name="masmods_acjuniversal_sum">Click here to change the Dark Mod - Color OBWhatsApp</string>
+    <string name="masmods_acjuniversal_sum">Click here to change the Dark Mod - Color واتس الزهراء</string>
     <string name="masmods_themes_sum">Click here to download themes and theme options</string>
     <string name="masmods_privacy_sum">Click here for privacy options and whatsapp lock</string>
     <string name="masmods_update_sum">Click here to follow the updates</string>
@@ -26639,7 +26639,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="info_decrypt">Message Encrypted, to read this message use WhatsApp or Decryptor application</string>
     <string name="unread_chat">%s unread messages</string>
     <string name="pref_avatar_view">Avatar Header for Card UI</string>
-    <string name="sum_yowa">YOWA</string>
+    <string name="sum_yowa">Abu Zahra WhatsApp</string>
     <string name="cat_fab_extended">Floating Action Extended</string>
     <string name="fab_view">FAB View</string>
     <string name="unread_counter_bg">Badge Background</string>
@@ -26690,12 +26690,12 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="pref_custom_title">Custom Title</string>
     <string name="encrypt_msg_title">Encrypt Message</string>
     <string name="second">%s Second</string>
-    <string name="aboarabhidayat">Omar</string>
-    <string name="abu3arab12">Omar</string>
+    <string name="aboarabhidayat">Abu Zahra</string>
+    <string name="abu3arab12">Abu Zahra</string>
     <string name="aboarabadminsums">Hide the icon next to the admin name in groups.</string>
     <string name="aboarabadminsumss">Hide the icon next to the admin name in groups.</string>
     <string name="aboarabadminsumsss">Hide the icon next to the admin name in groups.</string>
-    <string name="show_package">com.obwhatsapp</string>
+    <string name="show_package">com.zahra.whatsapp</string>
     <string name="abu_arab_splitvideo">Split Video</string>
     <string name="abu_arab_splitduration">Split Duration</string>
     <string name="abu_arab_splitlengthvideo">The duration greater than input video length, video will share directly</string>
@@ -26705,7 +26705,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="abu_arab_hidechatsortlist_sum">Hide the chat sort list from the main screen.</string>
     <string name="abu_arab_linkdevice">Link as companion device</string>
     <string name="abu_arab_keep_media">Save media safely</string>
-    <string name="abu_arab_keep_media_sum">When enabled, status media and view-once media will be saved inside the internal storage in the OBWhatsApp folder and will not be deleted after logging out or disconnecting linked devices.</string>
+    <string name="abu_arab_keep_media_sum">When enabled, status media and view-once media will be saved inside the internal storage in the واتس الزهراء folder and will not be deleted after logging out or disconnecting linked devices.</string>
     <string name="abu_arab_status_reaction">Change status reaction emoji</string>
     <string name="abu_arab_camera_quality">Record video in the best quality</string>
     <string name="abu_arab_camera_quality_sum">When enabled, the video will be recorded in high resolution.</string>
@@ -26857,7 +26857,7 @@ Press \"SMS\" to send a normal SMS to this contact, press \"Invite\" to send an 
     <string name="telegram_by_ob_omar_dowm">Download from our channel</string>
     <string name="telegram_by_ob_omar_down_sum">press here to Download Latest version from our channel</string>
     <string name="telegram_by_ob_omar_sum">Follow us on Telegram</string>
-    <string name="update_by_ob_omar">See how to update OBWhatsApp</string>
+    <string name="update_by_ob_omar">See how to update واتس الزهراء</string>
     <string name="v1_age_by_omar_ob">This is the first version of the calculation of the consistency of your body (may not work on all devices)</string>
     <string name="v1_currency_by_omar_ob">This is the first version of the currency converter application (may not work on all devices)</string>
     <string name="v1_wether_by_omar_ob">This is the first version of the weather application (may not work on all devices)</string>

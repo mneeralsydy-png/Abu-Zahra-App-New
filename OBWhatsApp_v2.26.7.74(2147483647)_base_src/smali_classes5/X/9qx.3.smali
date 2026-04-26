@@ -4379,7 +4379,7 @@
 
     check-cast v2, Landroid/net/Uri;
 
-    const-string v1, "com.obwhatsapp.provider.instrumentation"
+    const-string v1, "com.zahra.whatsapp.provider.instrumentation"
 
     invoke-virtual {v2}, Landroid/net/Uri;->getAuthority()Ljava/lang/String;
 

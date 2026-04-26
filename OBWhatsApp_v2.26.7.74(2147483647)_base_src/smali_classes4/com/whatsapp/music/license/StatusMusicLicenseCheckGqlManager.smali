@@ -313,7 +313,7 @@
 
     move-result-object v0
 
-    iget-object v2, v0, LX/07t;->A00:Lcom/obwhatsapp/Me;
+    iget-object v2, v0, LX/07t;->A00:Lcom/zahra/whatsapp/Me;
 
     if-eqz v2, :cond_5
 
@@ -340,7 +340,7 @@
     :try_start_0
     iget-object v1, p0, Lcom/whatsapp/music/license/StatusMusicLicenseCheckGqlManager;->A03:LX/62C;
 
-    invoke-static {v2}, LX/5oR;->A17(Lcom/obwhatsapp/Me;)Ljava/lang/String;
+    invoke-static {v2}, LX/5oR;->A17(Lcom/zahra/whatsapp/Me;)Ljava/lang/String;
 
     move-result-object v0
 

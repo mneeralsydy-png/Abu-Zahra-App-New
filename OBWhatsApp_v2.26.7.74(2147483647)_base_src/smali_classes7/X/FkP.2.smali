@@ -333,7 +333,7 @@
 
     invoke-direct {v15, v1}, LX/G6z;-><init>(Z)V
 
-    const-string v16, "OBWhatsAppCamera"
+    const-string v16, "Abu Zahra Camera"
 
     invoke-static {v3}, LX/EtI;->A00(Landroid/content/Context;)Z
 
@@ -410,7 +410,7 @@
 
     invoke-direct {v15, v2}, LX/G6z;-><init>(Z)V
 
-    const-string v16, "OBWhatsAppCamera"
+    const-string v16, "Abu Zahra Camera"
 
     invoke-static {v3}, LX/EtI;->A00(Landroid/content/Context;)Z
 

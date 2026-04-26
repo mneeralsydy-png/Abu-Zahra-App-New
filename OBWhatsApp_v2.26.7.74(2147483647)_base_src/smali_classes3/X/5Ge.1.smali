@@ -705,7 +705,7 @@
     check-cast v2, Landroid/net/Uri;
 
     :try_start_0
-    const-string v1, "com.obwhatsapp"
+    const-string v1, "com.zahra.whatsapp"
 
     const/4 v0, 0x1
 

@@ -88,7 +88,7 @@
 
     iget-object v0, p0, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
@@ -96,7 +96,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v1, v0, Lcom/obwhatsapp/Me;->cc:Ljava/lang/String;
+    iget-object v1, v0, Lcom/zahra/whatsapp/Me;->cc:Ljava/lang/String;
 
     if-nez v1, :cond_1
 
@@ -106,13 +106,13 @@
     :cond_1
     iget-object v0, p0, LX/0MF;->A04:LX/07t;
 
-    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/obwhatsapp/Me;
+    invoke-static {v0}, LX/8D0;->A0O(LX/07t;)Lcom/zahra/whatsapp/Me;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    iget-object v0, v0, Lcom/obwhatsapp/Me;->number:Ljava/lang/String;
+    iget-object v0, v0, Lcom/zahra/whatsapp/Me;->number:Ljava/lang/String;
 
     if-eqz v0, :cond_2
 

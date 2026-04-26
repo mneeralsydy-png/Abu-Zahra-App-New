@@ -331,7 +331,7 @@
 
     move-result-object v17
 
-    const-string v13, "com.obwhatsapp"
+    const-string v13, "com.zahra.whatsapp"
 
     invoke-static {v9, v13}, LX/9ua;->A00(Landroid/content/Context;Ljava/lang/String;)LX/0sq;
 

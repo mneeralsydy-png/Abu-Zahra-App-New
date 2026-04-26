@@ -66,7 +66,7 @@
 
     check-cast v3, LX/Gyq;
 
-    const-string v6, "com.obwhatsapp"
+    const-string v6, "com.zahra.whatsapp"
 
     invoke-static {}, LX/1ac;->A08()Landroid/os/Bundle;
 
@@ -217,7 +217,7 @@
 
     const/4 v1, 0x0
 
-    const-string v0, "com.obwhatsapp"
+    const-string v0, "com.zahra.whatsapp"
 
     aput-object v0, v3, v1
 

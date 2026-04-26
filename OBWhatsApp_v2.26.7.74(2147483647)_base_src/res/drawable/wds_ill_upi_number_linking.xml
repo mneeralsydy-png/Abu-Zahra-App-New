@@ -6,14 +6,14 @@
     android:viewportHeight="120.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M16.52,117.65V18.36C16.52,8.92 24.17,1.27 33.61,1.27H105.43L118.45,14.29V117.65H16.52Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:fillColor="#ff25d366"
+        android:fillColor="#ffD4AF37"
         android:pathData="M123.58,19.16L123.58,117.66H25.66L25.66,19.16C25.66,9.29 33.67,1.28 43.54,1.28L105.7,1.28C115.57,1.28 123.58,9.29 123.58,19.16Z"
         android:strokeColor="#ff111b21"
         android:strokeWidth="1.5"
