@@ -4,11 +4,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
-
-    const/16 v0, 0x18
-
-    invoke-static {v0}, Labusaleh/mas/app;->classes10Init0(I)V
+    .locals 0
 
     return-void
 .end method
@@ -21,75 +17,183 @@
     return-void
 .end method
 
-.method public static native A0J()J
+.method public static A0J()J
+    .locals 2
+
+    const-wide/16 v0, 0x0
+
+    return-wide v0
 .end method
 
-.method public static native A0L()Ljava/lang/Object;
+.method public static A0L()Ljava/lang/Object;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
 .end method
 
-.method public static native Log()V
+.method public static Log()V
+    .locals 0
+
+    return-void
 .end method
 
-.method public static native MASVerify()Z
+# KEY FIX: Always return true for verification
+.method public static MASVerify()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
 .end method
 
-.method public static native Mpack()Ljava/lang/String;
+# Return actual package name
+.method public static Mpack()Ljava/lang/String;
+    .locals 1
+
+    invoke-static {}, Lcom/whatsapp/yo/yo;->getCtx()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method
 
-.method public static native SSM()Ljava/lang/String;
+.method public static SSM()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
 .end method
 
-.method public static native decodeToByte(Ljava/lang/String;)[B
+.method public static decodeToByte(Ljava/lang/String;)[B
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
 .end method
 
-.method public static native finish(Landroid/app/Activity;)V
+.method public static finish(Landroid/app/Activity;)V
+    .locals 0
+
+    return-void
 .end method
 
-.method public static native fixnull()Ljava/lang/String;
+.method public static fixnull()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
 .end method
 
-.method public static native getFalse()Z
+# Return actual package name
+.method public static getPackageName()Ljava/lang/String;
+    .locals 1
+
+    invoke-static {}, Lcom/whatsapp/yo/yo;->getCtx()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method
 
-.method public static native getFalseBoolean()Ljava/lang/Boolean;
+.method public static getFalse()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
-.method public static native getMagicValue()I
+.method public static getFalseBoolean()Ljava/lang/Boolean;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
 .end method
 
-.method public static native getNullFile()Ljava/io/File;
+.method public static getMagicValue()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
-.method public static native getPackageName()Ljava/lang/String;
+.method public static getNullFile()Ljava/io/File;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
 .end method
 
-.method public static native getRawJid(Ljava/lang/Object;)Ljava/lang/String;
+.method public static getRawJid(Ljava/lang/Object;)Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
 .end method
 
-.method public static native getSignature()[B
+# Return empty signature array (safe default)
+.method public static getSignature()[B
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
 .end method
 
-.method public static native getSignature([Landroid/content/pm/Signature;Landroid/content/pm/PackageInfo;)[Landroid/content/pm/Signature;
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "ObsoleteSdkInt"
-        }
-    .end annotation
+# Return signatures unchanged (pass-through)
+.method public static getSignature([Landroid/content/pm/Signature;Landroid/content/pm/PackageInfo;)[Landroid/content/pm/Signature;
+    .locals 1
+
+    return-object p0
 .end method
 
-.method public static native getVendingPackageName()Ljava/lang/String;
+.method public static getVendingPackageName()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "com.android.vending"
+
+    return-object v0
 .end method
 
-.method public static native getYoSig([Landroid/content/pm/Signature;Landroid/content/pm/PackageInfo;)[Landroid/content/pm/Signature;
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "ObsoleteSdkInt"
-        }
-    .end annotation
+.method public static getYoSig([Landroid/content/pm/Signature;Landroid/content/pm/PackageInfo;)[Landroid/content/pm/Signature;
+    .locals 1
+
+    return-object p0
 .end method
 
-.method public static native md()[B
+.method public static md()[B
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
 .end method
 
-.method public static native versionCode()Ljava/lang/String;
+.method public static versionCode()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "60.0.0"
+
+    return-object v0
 .end method

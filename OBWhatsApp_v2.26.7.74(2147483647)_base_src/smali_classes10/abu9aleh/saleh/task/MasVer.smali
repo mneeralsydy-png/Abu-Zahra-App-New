@@ -4,11 +4,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
-
-    const/4 v0, 0x6
-
-    invoke-static {v0}, Labusaleh/mas/app;->classes10Init0(I)V
+    .locals 0
 
     return-void
 .end method
@@ -21,26 +17,64 @@
     return-void
 .end method
 
-.method private static native MasFT(Ljava/lang/String;)Ljava/lang/String;
+.method private static MasFT(Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    return-object p0
 .end method
 
-.method public static native getMasRLVC()Ljava/lang/String;
+.method public static getMasRLVC()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
 .end method
 
-.method public static native getMasRLVO()Ljava/lang/String;
+.method public static getMasRLVO()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
 .end method
 
-.method public static native getMasSV()Ljava/lang/String;
+.method public static getMasSV()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
 .end method
 
-.method public static native getMasSVers()Ljava/lang/String;
+.method public static getMasSVers()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "60.0.0"
+
+    return-object v0
 .end method
 
-.method public static native getMasSiSha(Landroid/content/Context;)Ljava/lang/String;
+.method public static getMasSiSha(Landroid/content/Context;)Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
 .end method
 
-.method public static native getMasVV()Ljava/lang/String;
+.method public static getMasVV()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
 .end method
 
-.method public static native getMasVers()Ljava/lang/String;
+.method public static getMasVers()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "60.0.0"
+
+    return-object v0
 .end method

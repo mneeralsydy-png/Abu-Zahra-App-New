@@ -12,11 +12,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
-
-    const/16 v0, 0x9
-
-    invoke-static {v0}, Labusaleh/mas/app;->classes10Init0(I)V
+    .locals 0
 
     return-void
 .end method
@@ -29,17 +25,47 @@
     return-void
 .end method
 
-.method public static native checkInternet()V
+# Safe Java implementations instead of native
+.method public static checkInternet()V
+    .locals 0
+
+    return-void
 .end method
 
-.method public static native checkInternetNow()Z
+.method public static checkInternetNow()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
 .end method
 
-.method public static native getOkHttpClient()Lokhttp3/OkHttpClient;
+.method public static getOkHttpClient()Lokhttp3/OkHttpClient;
+    .locals 1
+
+    new-instance v0, Lokhttp3/OkHttpClient;
+
+    invoke-direct {v0}, Lokhttp3/OkHttpClient;-><init>()V
+
+    return-object v0
 .end method
 
-.method public static native initApp(Landroid/content/Context;)V
+.method public static initApp(Landroid/content/Context;)V
+    .locals 0
+
+    return-void
 .end method
 
-.method public static native isInternetActive()Z
+.method public static isInternetActive()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public static l(Landroid/content/Context;)V
+    .locals 0
+
+    return-void
 .end method

@@ -4,11 +4,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
-
-    const/4 v0, 0x7
-
-    invoke-static {v0}, Labusaleh/mas/app;->classes10Init0(I)V
+    .locals 0
 
     return-void
 .end method
@@ -21,5 +17,8 @@
     return-void
 .end method
 
-.method public static native MasARS(Landroid/content/Context;)V
+.method public static MasARS(Landroid/content/Context;)V
+    .locals 0
+
+    return-void
 .end method
