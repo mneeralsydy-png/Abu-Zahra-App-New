@@ -7,7 +7,7 @@ packageInfo:
   renameManifestPackage: null
 versionInfo:
   versionCode: '2147483647'
-  versionName: 2.26.7.74
+  versionName: 60.0.0
 sdkInfo:
   minSdkVersion: '21'
   targetSdkVersion: '34'

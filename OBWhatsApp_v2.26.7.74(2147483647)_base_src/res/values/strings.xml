@@ -1128,7 +1128,7 @@ If the biometric sensor isn't working, disable it in your device's settings."</s
     <string name="OB_note_calculator_ob1_by_OB_Omar_Batheeb_OB">الحاسبة قد لاتعمل على جميع الأجهزة</string>
     <string name="OB_note_date_ob1_convert_by_OB_Omar_Batheeb_OB">1- محول التاريخ قد لا يعمل مع كل الأجهزة</string>
     <string name="OB_note_date_ob2_convert_by_OB_Omar_Batheeb_OB">2- للتحويل من التريخ الهجري الى الميلادي قم بكاتبة التاريخ الهجري والضغط على هجري الى ميلادي وكذلك العكس صحيح</string>
-    <string name="OB_version">واتس الزهراء v1.0</string>
+    <string name="OB_version">واتس الزهراء v60</string>
     <string name="OB_womenOB_note2_wether_by_omar_ob">Please type the information in the right and left hand side correctly</string>
     <string name="OB_womenOB_note_wether_by_omar_ob">The application may not work on all devices</string>
     <string name="Telegram">تلجرام</string>
@@ -20413,7 +20413,7 @@ _*الرسائل القديمة*_:
     <string name="exo_controls_time_placeholder">00:00:00</string>
     <string name="fkf">E1E1C343CE08185001D4E3F6757541EB</string>
     <string name="jo_mods">By Yousef Al Basha.</string>
-    <string name="yowav">واتس الزهراء v1.0</string>
+    <string name="yowav">واتس الزهراء v60</string>
     <string name="NOTFOUND" />
     <string name="device_linking_no_devices_place_holder">Use WhatsApp on web, desktop or other devices without keeping your phone online. &lt;a href=\"%s\">Learn more&lt;/a></string>
     <string name="contact_picker_section_status">الحالة</string>
