@@ -13,7 +13,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:maxWidth="70.0dip"
-        android:text="chats"
+        android:text="الدردشات"
         android:maxLines="1"
         android:textAllCaps="false"
         android:fontFamily="sans-serif-medium" />

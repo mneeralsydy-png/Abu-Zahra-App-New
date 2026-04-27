@@ -10,6 +10,6 @@
         android:id="@id/rewrite_debug_info_copy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Copy Debug Info"
+        android:text="نسخ معلومات التصحيح"
         app:attr096b="borderless" />
 </FrameLayout>

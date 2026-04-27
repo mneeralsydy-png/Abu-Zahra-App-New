@@ -12,7 +12,7 @@
         android:layout_marginLeft="@dimen/dimen0cee"
         android:layout_marginTop="@dimen/dimen0cea"
         android:layout_marginRight="@dimen/dimen0cee"
-        android:text="Select options to mute"
+        android:text="اختر خيارات الكتم"
         style="@style/style03c8" />
     <RadioGroup
         android:id="@id/mute_options_radio_group"

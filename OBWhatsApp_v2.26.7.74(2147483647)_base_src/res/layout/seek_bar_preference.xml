@@ -15,7 +15,7 @@
         android:id="@android:id/title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="TITLE"
+        android:text="العنوان"
         android:layout_toLeftOf="@id/seekBarPrefUnitsLeft"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true" />
@@ -43,7 +43,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1.0dip"
-        android:text="SUMMARY"
+        android:text="الملخص"
         android:layout_toLeftOf="@id/seekBarPrefUnitsLeft"
         android:layout_below="@android:id/title"
         android:layout_alignParentLeft="true" />

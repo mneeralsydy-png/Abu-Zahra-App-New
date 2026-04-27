@@ -412,7 +412,7 @@
                         android:maxLines="1" />
                     <com.whatsapp.yo.tf
                         android:id="@id/storage_usage_detail_size"
-                        android:text="Database Backups: 50 MB"
+                        android:text="نسخ احتياطية لقاعدة البيانات: 50 ميجابايت"
                         style="@style/YoSettings_row_subtitle" />
                 </LinearLayout>
             </LinearLayout>

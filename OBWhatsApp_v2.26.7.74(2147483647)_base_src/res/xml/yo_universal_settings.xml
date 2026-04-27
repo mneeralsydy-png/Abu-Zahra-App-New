@@ -79,9 +79,9 @@
     <SwitchPreference
         android:icon="@drawable/abo_arab_ic_gif"
         android:layout="@layout/abu_arab_preference_layout"
-        android:title="Tenor/Giphy GIF provider"
+        android:title="مزود صور GIF من Tenor/Giphy"
         android:key="tenor_giphy"
-        android:summary="Off = Tenor, On = Giphy"
+        android:summary="إيقاف = Tenor، تشغيل = Giphy"
         android:defaultValue="false" />
     <Preference
         android:icon="@drawable/abo_arab_ic_register"

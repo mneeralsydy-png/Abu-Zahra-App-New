@@ -88,7 +88,7 @@
                 android:id="@id/mSplitButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Split" />
+                android:text="تقسيم" />
         </LinearLayout>
         <abu3arab.mas.home.views.CardView
             android:id="@id/idErrorMessage"

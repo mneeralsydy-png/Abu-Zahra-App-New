@@ -27,6 +27,6 @@
         android:background="@color/primary_surface"
         android:layout_width="fill_parent"
         android:layout_height="25.0dip"
-        android:text="Total Themes: "
+        android:text="إجمالي السمات: "
         android:layout_alignParentBottom="true" />
 </RelativeLayout>

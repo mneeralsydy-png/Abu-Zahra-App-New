@@ -327,11 +327,11 @@
         <item>@string/str1d84</item>
     </string-array>
     <string-array name="array001a">
-        <item>أنا</item>
+        <item>me</item>
         <item>imagine me</item>
     </string-array>
     <string-array name="array001b">
-        <item>أنا</item>
+        <item>me</item>
         <item>imagine me</item>
     </string-array>
     <string-array name="array001c">

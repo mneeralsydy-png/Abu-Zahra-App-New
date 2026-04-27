@@ -38,7 +38,7 @@
                 android:padding="@dimen/dimen0ce7"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Problem Description"
+                android:text="وصف المشكلة"
                 android:textAlignment="viewStart"
                 style="@style/style0289" />
             <com.whatsapp.ui.coreui.base.text.ReadMoreTextView
@@ -64,7 +64,7 @@
                 android:padding="@dimen/dimen0ce7"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="User Description"
+                android:text="وصف المستخدم"
                 android:textAlignment="viewStart"
                 style="@style/style0289" />
             <com.whatsapp.ui.coreui.WaEditText
@@ -80,7 +80,7 @@
                 android:scrollbars="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:hint="Describe your actions"
+                android:hint="صف إجراءاتك"
                 android:maxLines="4"
                 android:minLines="4"
                 android:selectAllOnFocus="true"
@@ -99,14 +99,14 @@
                 android:visibility="gone"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Describe problem further"
+                android:text="وصف المشكلة بشكل أكبر"
                 app:attr0a24="wds_font_body3" />
             <com.whatsapp.ui.coreui.base.WaTextView
                 android:id="@id/poc_title"
                 android:padding="@dimen/dimen0ce7"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="POC to contact for this issue"
+                android:text="جهة الاتصال لهذه المشكلة"
                 android:textAlignment="viewStart"
                 style="@style/style0289" />
             <com.whatsapp.ui.coreui.base.WaTextView
@@ -117,7 +117,7 @@
                 android:visibility="visible"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="employee name"
+                android:text="اسم الموظف"
                 app:attr0a24="wds_font_body2"
                 style="@style/style03c7" />
             <com.whatsapp.ui.coreui.base.WaTextView
@@ -125,7 +125,7 @@
                 android:padding="@dimen/dimen0ce7"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Do you agree with our measurements?"
+                android:text="هل توافق على قياساتنا؟"
                 android:textAlignment="viewStart"
                 style="@style/style0289" />
             <SeekBar
@@ -147,7 +147,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dimen0ce7"
-        android:text="By submitting this report, you are agreeing to share the content of this message with WhatsApp"
+        android:text="بإرسال هذا التقرير، أنت توافق على مشاركة محتوى هذه الرسالة مع واتساب"
         app:attr0495="@id/submit_btn"
         app:attr049a="parent"
         app:attr04ad="parent"
@@ -161,7 +161,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dimen1039"
         android:layout_marginBottom="@dimen/dimen1039"
-        android:text="Submit this report for investigation"
+        android:text="إرسال هذا التقرير للتحقيق"
         android:layout_marginStart="@dimen/dimen102e"
         android:layout_marginEnd="10.0dip"
         app:attr0494="parent"

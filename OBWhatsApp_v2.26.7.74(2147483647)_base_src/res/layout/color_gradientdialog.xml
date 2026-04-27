@@ -17,7 +17,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8.0dip"
-                android:text="Color 1:" />
+                android:text="اللون 1:" />
             <ImageView
                 android:id="@id/flag"
                 android:background="@drawable/transparentbackrepeat"
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8.0dip"
-                android:text="Color 2:" />
+                android:text="اللون 2:" />
             <ImageView
                 android:id="@id/flag2"
                 android:background="@drawable/transparentbackrepeat"

@@ -21,5 +21,5 @@
         android:visibility="gone"
         android:layout_width="fill_parent"
         android:layout_height="50.0dip"
-        android:text="No recent colors" />
+        android:text="لا توجد ألوان حديثة" />
 </LinearLayout>

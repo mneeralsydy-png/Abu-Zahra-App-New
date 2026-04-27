@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20.0dip"
-                android:text="Submitting Your details" />
+                android:text="جاري إرسال تفاصيلك" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -64,7 +64,7 @@
                 android:id="@id/refreshButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="REFRESH" />
+                android:text="تحديث" />
         </LinearLayout>
         <FrameLayout
             android:layout_width="fill_parent"

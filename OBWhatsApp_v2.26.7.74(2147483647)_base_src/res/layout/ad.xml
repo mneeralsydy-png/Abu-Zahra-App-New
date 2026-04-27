@@ -9,7 +9,7 @@
         android:textAppearance="?android:textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ads" />
+        android:text="إعلانات" />
     <com.getbase.mw
         android:id="@id/myad1"
         android:layout_width="fill_parent"

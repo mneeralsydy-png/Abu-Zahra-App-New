@@ -45,7 +45,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="7.0dip"
-            android:text="this update on" />
+            android:text="هذا التحديث في" />
         <com.whatsapp.ui.coreui.base.WaTextView
             android:textSize="16.0sp"
             android:textStyle="normal"
@@ -137,6 +137,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8.0dip"
             android:layout_marginBottom="8.0dip"
-            android:text="Remember: that your use of any modified version of WhatsApp is at your own risk." />
+            android:text="تذكر: أن استخدامك لأي نسخة معدلة من واتساب هو على مسؤوليتك الخاصة." />
     </LinearLayout>
 </ScrollView>

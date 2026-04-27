@@ -53,7 +53,7 @@
             android:id="@id/transaction_payee_label"
             android:layout_width="220.0dip"
             android:layout_height="wrap_content"
-            android:text="To:"
+            android:text="إلى:"
             android:fontFamily="sans-serif" />
         <android.widget.Space
             android:layout_width="0.0dip"
@@ -78,7 +78,7 @@
             android:id="@id/transaction_amount_title"
             android:layout_width="220.0dip"
             android:layout_height="wrap_content"
-            android:text="Sending:"
+            android:text="جاري الإرسال:"
             android:layout_below="@id/transaction_payee_label"
             android:fontFamily="sans-serif" />
         <android.widget.Space

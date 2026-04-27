@@ -29,12 +29,12 @@
             android:id="@id/dogfood_suppress_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Suppress"
+            android:text="إخفاء"
             app:attr096b="borderless" />
         <com.whatsapp.ui.wds.components.button.WDSButton
             android:id="@id/dogfood_submit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Submit" />
+            android:text="إرسال" />
     </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
 </LinearLayout>

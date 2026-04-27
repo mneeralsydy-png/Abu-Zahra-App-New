@@ -51,7 +51,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_marginLeft="@dimen/settings_icon_margin_end"
-                    android:text="iOS NEW 2025"
+                    android:text="آي أو إس جديد 2025"
                     android:layout_marginStart="@dimen/settings_icon_margin_end" />
                 <RadioButton
                     android:id="@id/button2"
@@ -61,7 +61,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_marginLeft="@dimen/settings_icon_margin_end"
-                    android:text="One"
+                    android:text="واحد"
                     android:layout_marginStart="@dimen/settings_icon_margin_end" />
                 <RadioButton
                     android:id="@id/button3"
@@ -81,7 +81,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_marginLeft="@dimen/settings_icon_margin_end"
-                    android:text="Android O"
+                    android:text="أندرويد O"
                     android:layout_marginStart="@dimen/settings_icon_margin_end" />
                 <RadioButton
                     android:id="@id/button5"
@@ -92,7 +92,7 @@
                     android:layout_height="fill_parent"
                     android:layout_marginLeft="@dimen/settings_icon_margin_end"
                     android:layout_marginBottom="@dimen/settings_list_padding_top"
-                    android:text="System Emoji (BETA)"
+                    android:text="رموز النظام (تجريبي)"
                     android:layout_marginStart="@dimen/settings_icon_margin_end" />
             </RadioGroup>
         </LinearLayout>

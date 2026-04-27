@@ -26,7 +26,7 @@
         android:id="@id/color_hex_btnSave"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="OK" />
+        android:text="موافق" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"

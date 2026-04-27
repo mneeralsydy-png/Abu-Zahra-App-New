@@ -58,7 +58,7 @@
                 android:id="@id/contact_name"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Name"
+                android:text="الاسم"
                 android:maxLines="1"
                 android:lines="1"
                 android:textAlignment="center" />

@@ -22,7 +22,7 @@
                 android:layout_height="40.0dip"
                 android:layout_marginLeft="10.0dip"
                 android:layout_marginRight="10.0dip"
-                android:text="Theme Name:"
+                android:text="اسم السمة:"
                 android:maxLines="1"
                 android:layout_marginStart="10.0dip"
                 android:layout_marginEnd="10.0dip"

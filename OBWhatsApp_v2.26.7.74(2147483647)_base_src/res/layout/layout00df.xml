@@ -76,7 +76,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dimen1039"
-                    android:text="Reset Audience" />
+                    android:text="إعادة تعيين الجمهور" />
             </LinearLayout>
         </LinearLayout>
         <androidx.constraintlayout.widget.Barrier
