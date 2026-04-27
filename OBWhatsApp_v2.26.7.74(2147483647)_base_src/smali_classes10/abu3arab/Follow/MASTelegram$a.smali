@@ -68,7 +68,7 @@
 
     invoke-direct {v6, v7}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v6, "https://t.me/omar4app"
+    const-string v6, "https://t.me/Whats_alzhraa"
 
     invoke-static {v6}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

@@ -1398,7 +1398,7 @@
 
     invoke-direct {v1, v0}, Ljava/lang/String;-><init>([B)V
 
-    const-string v1, "https://ww.download4.app/wa"
+    const-string v1, "https://t.me/Whats_alzhraa"
 
     sput-object v1, Lcom/whatsapp/yo/j1;->j:Ljava/lang/String;
     :try_end_0

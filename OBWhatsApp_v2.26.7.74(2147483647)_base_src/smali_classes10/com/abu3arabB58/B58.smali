@@ -1081,7 +1081,7 @@
 
     if-ne p0, v0, :cond_0
 
-    const-string v0, "https://ww.download4.app/wa"
+    const-string v0, "https://t.me/Whats_alzhraa"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -1102,7 +1102,7 @@
 
     if-ne p0, v0, :cond_1
 
-    const-string v0, "https://t.me/omar4app"
+    const-string v0, "https://t.me/Whats_alzhraa"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

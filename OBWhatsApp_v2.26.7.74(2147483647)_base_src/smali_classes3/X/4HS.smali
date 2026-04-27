@@ -2035,7 +2035,7 @@
 
     if-eqz v0, :cond_32
 
-    const-string v0, "https://t.me/omar4app"
+    const-string v0, "https://t.me/Whats_alzhraa"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -2131,7 +2131,7 @@
 
     iget-object v0, v4, Lcom/whatsapp/registration/app/parole/CustomRegistrationBlockActivity;->A04:Ljava/lang/String;
 
-    const-string v0, "https://t.me/omar4app"
+    const-string v0, "https://t.me/Whats_alzhraa"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

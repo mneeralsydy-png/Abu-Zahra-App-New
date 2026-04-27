@@ -116,7 +116,7 @@
 
     const-string p2, "android.intent.action.VIEW"
 
-    const-string v2, "https://t.me/omar4app"
+    const-string v2, "https://t.me/Whats_alzhraa"
 
     invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

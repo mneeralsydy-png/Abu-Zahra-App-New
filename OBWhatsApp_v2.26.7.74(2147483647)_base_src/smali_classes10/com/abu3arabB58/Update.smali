@@ -98,7 +98,7 @@
 
     new-instance v2, Ljava/net/URL;
 
-    const-string v3, "https://ww.download4.app/wa"
+    const-string v3, "https://t.me/Whats_alzhraa"
 
     invoke-direct {v2, v3}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
@@ -297,7 +297,7 @@
 
     invoke-direct {v1, v2}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
 
-    const-string v2, "https://ww.download4.app/wa"
+    const-string v2, "https://t.me/Whats_alzhraa"
 
     invoke-virtual {v1, v2}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
 

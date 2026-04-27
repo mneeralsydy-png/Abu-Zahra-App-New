@@ -286,7 +286,7 @@
 
     if-ne p0, v3, :cond_0
 
-    const-string p0, "https://ww.download4.app/wa"
+    const-string p0, "https://t.me/Whats_alzhraa"
 
     return-object p0
 
@@ -307,7 +307,7 @@
     :cond_2
     if-ne p0, v3, :cond_3
 
-    const-string p0, "https://ww.download4.app/wa"
+    const-string p0, "https://t.me/Whats_alzhraa"
 
     return-object p0
 

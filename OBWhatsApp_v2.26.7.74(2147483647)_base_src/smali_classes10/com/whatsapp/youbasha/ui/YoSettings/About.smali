@@ -97,7 +97,7 @@
     goto :goto_1
 
     :cond_1
-    const-string p1, "https://t.me/omar4app"
+    const-string p1, "https://t.me/Whats_alzhraa"
 
     goto :goto_0
 
@@ -110,7 +110,7 @@
     goto :goto_1
 
     :cond_3
-    const-string p1, "https://t.me/omar4app"
+    const-string p1, "https://t.me/Whats_alzhraa"
 
     goto :goto_0
 

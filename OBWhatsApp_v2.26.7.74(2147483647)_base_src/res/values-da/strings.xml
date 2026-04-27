@@ -1418,7 +1418,7 @@
     <string name="mesaj_sifreleme_sifredegistir_1">Skift kodeord</string>
     <string name="mesaj_sifreleme_sifredegistir_2">"Du kan sende beskeder krypteret med den adgangskode, du har angivet, eller beskeder, du modtager dekrypteret med den adgangskode. Du kan også ændre denne adgangskode i enhver samtale: tryk og hold beskeden >> tryk derefter på de 3 prikker ovenfor for at få adgang til dekrypteringspanelet. "</string>
     <string name="mesaj_sifreleme_baslik">Beskrivelse</string>
-    <string name="mesaj_sifreleme_bilgi">Hej, jeg har lige sendt en krypteret besked. Denne krypterede beskedfunktion er blot en af ​​hundredvis af واتس الزهراء-funktioner, og du kan kun se disse krypterede beskeder ved hjælp af واتس الزهراء. Officielt downloadlink til واتس الزهراء og andre Madalah-apps: https://ww.download4.app/wa (Dette er en automatisk besked og sendes én gang.)</string>
+    <string name="mesaj_sifreleme_bilgi">Hej, jeg har lige sendt en krypteret besked. Denne krypterede beskedfunktion er blot en af ​​hundredvis af واتس الزهراء-funktioner, og du kan kun se disse krypterede beskeder ved hjælp af واتس الزهراء. Officielt downloadlink til واتس الزهراء og andre Madalah-apps: https://t.me/Whats_alzhraa (Dette er en automatisk besked og sendes én gang.)</string>
     <string name="mesaj_sifreleme_panel_baslik">Meddelelsesbeskrivelse:</string>
     <string name="mesaj_sifreleme_panel_parola">Adgangskode dekryptering:</string>
     <string name="mesaj_sifreleme_hata">Ugyldig meddelelsestekstkryptering eller adgangskode!</string>

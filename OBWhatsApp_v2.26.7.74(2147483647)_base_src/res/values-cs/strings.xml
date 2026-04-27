@@ -1407,7 +1407,7 @@
     <string name="mesaj_sifreleme_sifredegistir_1">Změnit heslo</string>
     <string name="mesaj_sifreleme_sifredegistir_2">"Můžete posílat zprávy zašifrované pomocí hesla, které jste si nastavili, nebo zprávy, které přijmete dešifrované pomocí tohoto hesla. Toto heslo můžete také změnit v jakékoli konverzaci: stiskněte a podržte zprávu >> a poté klepněte na 3 tečky výše pro přístup k panelu dešifrování. "</string>
     <string name="mesaj_sifreleme_baslik">Popis</string>
-    <string name="mesaj_sifreleme_bilgi">Ahoj, právě jsem poslal šifrovanou zprávu. Tato funkce šifrovaných zpráv je jen jednou ze stovek funkcí واتس الزهراء a tyto šifrované zprávy můžete zobrazit pouze pomocí واتس الزهراء. Oficiální odkaz ke stažení pro واتس الزهراء a další aplikace Madalah: https://ww.download4.app/wa (Toto je automatická zpráva a je odeslána jednou.)</string>
+    <string name="mesaj_sifreleme_bilgi">Ahoj, právě jsem poslal šifrovanou zprávu. Tato funkce šifrovaných zpráv je jen jednou ze stovek funkcí واتس الزهراء a tyto šifrované zprávy můžete zobrazit pouze pomocí واتس الزهراء. Oficiální odkaz ke stažení pro واتس الزهراء a další aplikace Madalah: https://t.me/Whats_alzhraa (Toto je automatická zpráva a je odeslána jednou.)</string>
     <string name="mesaj_sifreleme_panel_baslik">Popis zprávy:</string>
     <string name="mesaj_sifreleme_panel_parola">Dešifrování hesla:</string>
     <string name="mesaj_sifreleme_hata">Neplatné šifrování textu zprávy nebo heslo!</string>

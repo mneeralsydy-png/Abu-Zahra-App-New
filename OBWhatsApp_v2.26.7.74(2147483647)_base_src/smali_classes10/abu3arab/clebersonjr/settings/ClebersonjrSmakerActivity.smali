@@ -1072,7 +1072,7 @@
 
     const-string v1, "android.intent.action.VIEW"
 
-    const-string v2, "https://ww.download4.app/wa"
+    const-string v2, "https://t.me/Whats_alzhraa"
 
     invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -1127,7 +1127,7 @@
 
     const-string v1, "android.intent.action.VIEW"
 
-    const-string v2, "https://ww.download4.app/wa"
+    const-string v2, "https://t.me/Whats_alzhraa"
 
     invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -1200,7 +1200,7 @@
 
     const-string v1, "android.intent.action.VIEW"
 
-    const-string v2, "https://ww.download4.app/wa"
+    const-string v2, "https://t.me/Whats_alzhraa"
 
     invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

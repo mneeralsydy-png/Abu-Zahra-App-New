@@ -37,7 +37,7 @@
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 3
 
-    const-string v0, "https://t.me/omar4app"
+    const-string v0, "https://t.me/Whats_alzhraa"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

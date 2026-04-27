@@ -19,7 +19,7 @@
 .method public static Download_LINK()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "https://ww.download4.app/wa"
+    const-string v0, "https://t.me/Whats_alzhraa"
 
     return-object v0
 .end method

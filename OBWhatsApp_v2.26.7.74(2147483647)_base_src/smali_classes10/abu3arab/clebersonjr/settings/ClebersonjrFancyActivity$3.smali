@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const-string v1, "https://t.me/omar4app"
+    const-string v1, "https://t.me/Whats_alzhraa"
 
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
