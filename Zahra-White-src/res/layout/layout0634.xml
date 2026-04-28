@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/reminder_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/dimen0cee"
+        app:attr05cb="@drawable/vec_ic_close"
+        app:attr0912="true"
+        style="@style/style05c2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="14.0sp"
+        android:gravity="center"
+        android:id="@id/reminder_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="16.0dip"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.uibase.SingleSelectionDialogRadioGroup
+        android:id="@id/reminder_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:paddingStart="@dimen/dimen0cee"
+        android:paddingEnd="@dimen/dimen0cee" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:gravity="end|bottom|center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:padding="@dimen/dimen102f"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="20.0sp"
+            android:gravity="left"
+            android:id="@id/dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str294d"
+            app:attr03bb="500"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            style="@style/style03c7" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:gravity="left"
+            android:id="@id/dialog_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:text="@string/str294c"
+            android:lineSpacingExtra="4.0dip"
+            app:attr04b0="@id/dialog_title" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/remove_account_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36.0dip"
+            android:text="@string/str2b83"
+            app:attr04ab="@id/dialog_message"
+            app:attr04b0="@id/dialog_message"
+            style="@style/style0558" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/log_back_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1c06"
+            app:attr04ab="@id/remove_account_button"
+            app:attr04b0="@id/remove_account_button"
+            style="@style/style0558" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

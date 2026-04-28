@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1372"
+        android:includeFontPadding="false"
+        app:attr0a24="wds_font_body3"
+        style="@style/style05a8" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/event_info_group_photo"
+        android:layout_width="@dimen/dimen0cea"
+        android:layout_height="@dimen/dimen0cea"
+        android:layout_marginLeft="@dimen/dimen0cec"
+        android:layout_marginRight="@dimen/dimen0cec"
+        android:scaleType="fitCenter" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0776"
+        android:layout_gravity="center_vertical"
+        android:id="@id/event_info_group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        app:attr0a24="wds_font_body3_emphasized"
+        style="@style/style05a9" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/event_info_group_chevron"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen0f37"
+        android:scaleType="centerCrop"
+        android:tint="@color/color08de"
+        android:paddingStart="@dimen/dimen0cec"
+        android:paddingEnd="@dimen/dimen0cec" />
+</LinearLayout>

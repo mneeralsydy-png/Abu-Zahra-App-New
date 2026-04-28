@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/report_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        style="@style/style01a4">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/report_layout_holder"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <include
+                android:id="@id/report_header"
+                layout="@layout/layout0e57" />
+            <View
+                android:id="@id/report_header_divider"
+                android:background="?attr079a"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginBottom="8.0dip" />
+            <include
+                android:id="@id/request_gdpr_report_container"
+                layout="@layout/layout0e64" />
+            <include
+                android:id="@id/request_p2b_report_container"
+                layout="@layout/layout0e64" />
+            <include
+                android:id="@id/request_newsletter_report_container"
+                layout="@layout/layout0e64" />
+            <include
+                android:id="@id/request_wamo_report_container"
+                layout="@layout/layout0e64" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

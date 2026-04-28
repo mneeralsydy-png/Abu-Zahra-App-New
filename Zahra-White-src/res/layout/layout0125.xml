@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:id="@id/description_text"
+        android:padding="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str02cf"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <com.whatsapp.crop.CropImageView
+        android:id="@id/avatar_image"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="@dimen/dimen100f"
+        android:layout_marginEnd="@dimen/dimen100f"
+        app:attr0495="@id/avatar_crop_cancel_button"
+        app:attr0499="W,1:1"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/description_text" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/avatar_crop_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:text="@string/str3d9b"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0009="fb_pay"
+        app:attr0494="parent"
+        app:attr049b="@id/avatar_crop_done_button"
+        app:attr04a4="spread_inside"
+        app:attr04ad="parent"
+        app:attr04b0="@id/avatar_image"
+        app:attr096b="borderless" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/avatar_crop_done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:text="@string/str3e2a"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0009="fb_pay"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/avatar_crop_cancel_button"
+        app:attr04b0="@id/avatar_image"
+        app:attr096b="borderless" />
+</androidx.constraintlayout.widget.ConstraintLayout>

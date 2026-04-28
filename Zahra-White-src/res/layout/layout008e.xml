@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.search.WDSSearchBar
+        android:id="@id/wds_search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/category_list"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/bbps_branding_footer"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/wds_search_bar"
+        app:attr04b3="spread_inside" />
+    <include
+        android:id="@id/bbps_branding_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0693"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        layout="@layout/layout01de" />
+</androidx.constraintlayout.widget.ConstraintLayout>

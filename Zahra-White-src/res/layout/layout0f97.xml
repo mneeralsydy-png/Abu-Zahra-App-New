@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/toolbar_layout"
+        layout="@layout/layout10cf" />
+    <ViewStub
+        android:id="@id/nux_stub"
+        android:layout="@layout/layout0f98"
+        android:inflatedId="@id/nux_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0b5d"
+        android:layout_marginRight="@dimen/dimen0b5d"
+        app:attr0495="@android:id/list"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar_layout" />
+    <View
+        android:id="@id/dummy_constrained_view"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar_layout"
+        style="@style/style01a1" />
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:cacheColorHint="@color/color0790"
+        android:divider="@null"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        app:attr0495="@android:id/empty"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/nux_stub"
+        style="@style/style01a2" />
+    <ScrollView
+        android:id="@android:id/empty"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@android:id/list">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <FrameLayout
+                android:layout_gravity="center"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:id="@id/init_contacts_progress"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="progressBarStyleInverse" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="18.0sp"
+                    android:textColor="?android:textColorSecondary"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@id/search_no_matches"
+                    android:paddingLeft="12.0dip"
+                    android:paddingRight="12.0dip"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.fab.WDSFab
+        android:id="@id/done"
+        android:src="@drawable/ic_check_white"
+        android:contentDescription="@string/str3e2a"
+        app:attr0494="@id/dummy_constrained_view"
+        app:attr049a="@id/dummy_constrained_view"
+        style="@style/style055f" />
+</androidx.constraintlayout.widget.ConstraintLayout>

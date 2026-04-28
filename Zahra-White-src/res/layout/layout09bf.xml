@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/linked_devices_header_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/linked_devices_header_image_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1034"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fc0"
+            android:gravity="center_horizontal"
+            android:id="@id/linked_devices_description_title"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen1034"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen1034"
+            android:text="@string/str1b66"
+            android:lineSpacingExtra="@dimen/dimen0741"
+            app:attr04b0="@id/linked_devices_header_image" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:gravity="center_horizontal"
+            android:id="@id/linked_devices_description_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen1034"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen1034"
+            android:text="@string/str1b65"
+            android:lineSpacingExtra="@dimen/dimen0741"
+            app:attr04b0="@id/linked_devices_description_title" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/link_device_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0742"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginRight="@dimen/dimen0742"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:text="@string/str1b32"
+            app:attr0494="parent"
+            app:attr04b0="@id/linked_devices_description_text" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/how_to_get_started_button"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0742"
+            android:layout_marginRight="@dimen/dimen0742"
+            android:text="@string/str1b40"
+            app:attr0494="parent"
+            app:attr04b0="@id/link_device_button"
+            app:attr096b="borderless" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

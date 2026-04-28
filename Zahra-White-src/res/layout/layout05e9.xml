@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/round_rectangle"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.payments.common.ui.widget.PayToolbar
+        android:id="@id/pay_service_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        app:attr024e="0.0dip"
+        app:attr0251="0.0dip" />
+    <View
+        style="@style/style0356" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.payments.common.ui.widget.PaymentMethodRow
+            android:id="@id/payment_method_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/account_actions_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/layout0651" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/account_actions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ViewStub
+                    android:id="@id/edit_payments_account_action_view"
+                    android:layout="@layout/layout0686"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <include
+                    layout="@layout/layout0e51" />
+                <com.whatsapp.payments.common.ui.widget.PaymentMethodRow
+                    android:id="@id/step_up_row_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

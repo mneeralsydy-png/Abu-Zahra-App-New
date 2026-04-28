@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen0ce7"
+    android:paddingBottom="@dimen/dimen0ce7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0ce7"
+    android:paddingEnd="@dimen/dimen0ce7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/views_pill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout0fe5" />
+    <ViewStub
+        android:id="@id/share_to_facebook"
+        android:layout="@layout/layout0fd0"
+        android:inflatedId="@id/share_to_facebook"
+        android:layout_width="@dimen/dimen0cfe"
+        android:layout_height="@dimen/dimen0cfe"
+        android:layout_marginEnd="@dimen/dimen1039"
+        app:attr0494="parent"
+        app:attr049b="@id/share_to_instagram"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/share_to_instagram"
+        android:layout="@layout/layout0fd0"
+        android:inflatedId="@id/share_to_instagram"
+        android:layout_width="@dimen/dimen0cfe"
+        android:layout_height="@dimen/dimen0cfe"
+        android:layout_marginEnd="@dimen/dimen1039"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

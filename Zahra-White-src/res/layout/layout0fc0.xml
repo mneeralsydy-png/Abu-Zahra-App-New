@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_gravity="center"
+        android:id="@id/video_outer_container"
+        android:background="@color/color08a5"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/video_playback_container"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:attr0494="parent"
+            app:attr0499="9:16"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr04b2="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:id="@id/video_playback_container_overlay"
+        android:background="@color/color08a5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.status.playback.widget.StatusPlaybackPager
+        android:id="@id/playback_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no" />
+    <ViewStub
+        android:id="@id/playback_shimmer_layout"
+        android:layout="@layout/layout0fd1"
+        android:inflatedId="@id/playback_shimmer_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

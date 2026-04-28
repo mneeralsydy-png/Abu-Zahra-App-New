@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:id="@id/spotlight_carousel_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_gravity="center"
+        android:id="@id/spotlight_image"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0679"
+        android:adjustViewBounds="true"
+        app:attr07d0="@style/style024e" />
+    <View
+        android:layout_gravity="start|bottom|center"
+        android:background="@drawable/background_dark_half_gradient"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0677" />
+    <LinearLayout
+        android:layout_gravity="start|bottom|center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:layout_marginStart="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color09b1"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:id="@id/spotlight_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/color00f0"
+            android:shadowDx="0.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="8.0"
+            android:paddingStart="5.0dip"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="start|bottom|center"
+            android:id="@id/spotlight_cta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:text="@string/str1907"
+            app:attr0009="media"
+            app:attr09ea="small" />
+    </LinearLayout>
+</FrameLayout>

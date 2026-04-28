@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/action_buttons_container"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen0cea"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/share_button"
+        android:background="@drawable/mic_background_circle"
+        android:padding="@dimen/dimen0084"
+        android:layout_width="@dimen/dimen0082"
+        android:layout_height="@dimen/dimen0082"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:tint="@color/color08dc"
+        android:contentDescription="@string/str3a10"
+        app:attr0838="@drawable/ic_forward" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/positive_feedback_button"
+        android:background="@drawable/mic_background_circle"
+        android:padding="@dimen/dimen0084"
+        android:layout_width="@dimen/dimen0082"
+        android:layout_height="@dimen/dimen0082"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:tint="@color/color08dc"
+        android:contentDescription="@string/str3a0f"
+        android:layout_marginStart="@dimen/dimen0083"
+        app:attr0838="@drawable/vec_ic_thumb_up" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/negative_feedback_button"
+        android:background="@drawable/mic_background_circle"
+        android:padding="@dimen/dimen0084"
+        android:layout_width="@dimen/dimen0082"
+        android:layout_height="@dimen/dimen0082"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:tint="@color/color08dc"
+        android:contentDescription="@string/str3a0e"
+        android:layout_marginStart="@dimen/dimen0083"
+        app:attr0838="@drawable/vec_ic_thumb_down" />
+</LinearLayout>

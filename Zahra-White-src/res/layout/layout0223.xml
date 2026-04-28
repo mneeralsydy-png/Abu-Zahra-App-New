@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@id/sourceLink"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen0142"
+    android:layout_marginRight="@dimen/dimen0142"
+    android:layout_marginBottom="@dimen/dimen0141"
+    android:minWidth="@dimen/dimen0143"
+    android:backgroundTint="@color/color002f"
+    app:attr0009="media"
+    app:attr0411="@drawable/ic_link"
+    app:attr096b="tonal"
+    app:attr09ea="normal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

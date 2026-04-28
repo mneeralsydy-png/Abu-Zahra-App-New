@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/button_start_chat"
+        android:text="@string/str313a"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style055c" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/not_now_button"
+        android:text="@string/str4087"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/button_start_chat"
+        app:attr096b="borderless"
+        style="@style/style055c" />
+</androidx.constraintlayout.widget.ConstraintLayout>

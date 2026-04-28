@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/passkey_success_dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/passkey_success_dialog_check_mark"
+        android:layout_width="@dimen/dimen0a97"
+        android:layout_height="@dimen/dimen0a97"
+        android:layout_marginLeft="@dimen/dimen0a98"
+        android:layout_marginTop="@dimen/dimen0a99"
+        android:layout_marginBottom="@dimen/dimen0a99"
+        app:attr0838="@drawable/ic_check_circle_large"
+        app:attr090d="?attr0a29" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/passkey_success_dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0a99"
+        android:layout_marginBottom="@dimen/dimen0a99"
+        android:lineSpacingExtra="4.0sp"
+        android:translationY="-1.7999878sp"
+        android:layout_marginStart="@dimen/dimen0a98"
+        android:layout_marginEnd="@dimen/dimen0a98"
+        android:letterSpacing="0.02" />
+</LinearLayout>

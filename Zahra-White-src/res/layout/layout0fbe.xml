@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0450"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_gravity="center|left"
+        android:id="@id/photo_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:id="@id/wds_profile_picture"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_margin="@dimen/dimen102c"
+            android:src="@drawable/emphasized_circle_background"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            whatsapp:attr0675="medium" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/mute_btn"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_margin="@dimen/dimen0ce8"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:tint="@color/color08de"
+            android:layout_centerInParent="true"
+            android:importantForAccessibility="no"
+            whatsapp:attr0838="@drawable/ic_notifications_off_white" />
+    </RelativeLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="center_vertical"
+        android:id="@id/contact_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen0747"
+        android:layout_marginBottom="@dimen/dimen0d19"
+        android:text="@string/str406c"
+        android:layout_toRightOf="@id/photo_container"
+        android:layout_centerVertical="true"
+        style="?attr04e1" />
+</RelativeLayout>

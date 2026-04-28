@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/me_tab_account_switcher_chevron_stub"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/account_switcher_button"
+        android:background="@color/color0790"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:paddingEnd="@dimen/dimen1035"
+        app:attr0838="@drawable/vec_ic_keyboard_arrow_down"
+        app:attr090d="?attr07b2" />
+    <ViewStub
+        android:id="@id/me_tab_account_switcher_chevron_soft_badge_view_stub"
+        android:layout="@layout/layout002c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

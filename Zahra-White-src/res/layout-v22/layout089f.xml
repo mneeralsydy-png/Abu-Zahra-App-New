@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton
+    android:theme="?attr066e"
+    android:textSize="16.0sp"
+    android:padding="@dimen/dimen0a5d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0a63"
+    android:lineSpacingMultiplier="1.2"
+    android:lineHeight="24.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

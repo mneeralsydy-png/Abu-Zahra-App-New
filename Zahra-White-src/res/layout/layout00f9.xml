@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/add_email_submit"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="@dimen/dimen0ce7"
+    android:layout_marginBottom="@dimen/dimen0ce8"
+    android:text="@string/str119d"
+    style="@style/style0555"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

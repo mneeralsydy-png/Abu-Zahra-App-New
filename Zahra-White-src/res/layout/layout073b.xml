@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/header_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-8.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen05be"
+        android:textColor="?attr0a47"
+        android:layout_gravity="center"
+        android:id="@id/fingerprint_bottomsheet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen103b"
+        android:layout_marginTop="@dimen/dimen103b"
+        android:layout_marginRight="@dimen/dimen103b" />
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/fingerprint_view_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103b"
+        android:layout_marginBottom="@dimen/dimen102e" />
+    <FrameLayout
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen103a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?ripple_material_light"
+            android:layout_gravity="start"
+            android:id="@id/fingerprint_bottomsheet_negative_button"
+            android:background="?attr076d"
+            android:padding="@dimen/dimen103a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            app:attr03ae="?attr03b8"
+            app:attr0a24="wds_font_body2_emphasized" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?ripple_material_light"
+            android:layout_gravity="end"
+            android:id="@id/fingerprint_bottomsheet_positive_button"
+            android:background="?attr076d"
+            android:padding="@dimen/dimen103a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            app:attr03ae="?attr03b8"
+            app:attr0a24="wds_font_body2_emphasized" />
+    </FrameLayout>
+</LinearLayout>

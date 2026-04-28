@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:id="@id/request_review_view"
+        android:padding="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/request_review_title"
+            android:paddingBottom="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str2107"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+        <RadioGroup
+            android:id="@id/request_review_reason_group"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:paddingStart="@dimen/dimen0ce7"
+            android:paddingEnd="@dimen/dimen0ce7" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:enabled="false"
+            android:id="@id/request_review_submit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str2c52"
+            android:fontFamily="?attr03b8" />
+    </LinearLayout>
+</ScrollView>

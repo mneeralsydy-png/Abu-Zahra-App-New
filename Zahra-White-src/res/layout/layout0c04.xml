@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/request_review_view"
+        android:padding="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/request_review_title"
+            android:paddingBottom="@dimen/dimen102e"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str2139"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+        <RadioGroup
+            android:id="@id/request_review_reason_group"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0ce7"
+            android:paddingEnd="@dimen/dimen0ce7"
+            app:attr0495="@id/request_review_submit_button"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/request_review_title"
+            app:attr04b2="0.0" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:enabled="false"
+            android:id="@id/request_review_submit_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str2c52"
+            android:fontFamily="?attr03b8"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

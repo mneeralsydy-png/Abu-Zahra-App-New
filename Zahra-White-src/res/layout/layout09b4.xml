@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingBottom="@dimen/dimen0b5e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?attr0a47"
+            android:id="@id/linked_catalog_learn_more_bottom_sheet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:text="@string/str1b2e"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/linked_catalog_learn_more_bottom_sheet_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:text="@string/str1b2a"
+            android:paddingStart="@dimen/dimen0b5d"
+            android:paddingEnd="@dimen/dimen0b5d"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/linked_catalog_learn_more_bottom_sheet_title" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/linked_catalog_learn_more_bottom_sheet_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5e"
+            android:text="@string/str1b2d"
+            android:layout_marginStart="@dimen/dimen0b5d"
+            android:layout_marginEnd="@dimen/dimen0b5d"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/linked_catalog_learn_more_bottom_sheet_body"
+            app:attr096b="tonal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="24.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24.0dip"
+    android:paddingEnd="24.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr066e"
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str267b"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style03fe" />
+    <RadioGroup
+        android:gravity="left"
+        android:orientation="vertical"
+        android:id="@id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1034"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/notes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        android:text="@string/str267a"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/radio_group"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/cancel_button"
+        android:text="@string/str3d9b"
+        app:attr03ae="?attr03b8"
+        app:attr049b="@id/confirm_button"
+        app:attr04b0="@id/notes"
+        style="@style/style0557" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/confirm_button"
+        android:text="@string/str0cbf"
+        app:attr049a="parent"
+        app:attr04b0="@id/notes"
+        style="@style/style0557" />
+</androidx.constraintlayout.widget.ConstraintLayout>

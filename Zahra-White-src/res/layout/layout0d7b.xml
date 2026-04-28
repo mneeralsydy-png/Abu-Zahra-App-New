@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+    android:id="@id/paa_unlink_account_preference"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr06c9="@string/str4168"
+    app:attr06e1="true"
+    app:attr06e2="compact"
+    app:attr06f6="@drawable/vec_ic_transfer_ownership"
+    app:attr0702="icon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

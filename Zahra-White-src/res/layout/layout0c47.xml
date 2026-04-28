@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@id/avatar_color_recycler"
+        android:padding="@dimen/dimen102e"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        style="@style/style035a" />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/pose_shimmer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr07d4="false">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/avatar_pose_recycler"
+            android:padding="@dimen/dimen102e"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

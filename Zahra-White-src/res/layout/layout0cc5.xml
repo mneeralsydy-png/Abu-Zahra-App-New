@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/p2p_onboarding_nudge_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0b5d"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:layout_marginBottom="@dimen/dimen0b5d"
+            android:scaleType="fitXY"
+            app:attr0838="@drawable/ic_personal" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:layout_marginRight="@dimen/dimen0b5d"
+            android:layout_marginBottom="@dimen/dimen0b5d">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:ellipsize="end"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginLeft="@dimen/dimen0dd6"
+                android:text="@string/str2407"
+                android:singleLine="true"
+                android:layout_weight="1.0"
+                app:attr0a24="wds_font_body1"
+                style="@style/style0289" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr0a46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0dd6"
+                android:text="@string/str2406"
+                app:attr0a24="wds_font_body1" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/p2p_onboarding_nudge_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str24a3"
+                style="@style/style0557" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

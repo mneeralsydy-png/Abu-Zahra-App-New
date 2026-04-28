@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/close_button"
+    android:layout_width="@dimen/dimen0fd9"
+    android:layout_height="@dimen/dimen0fd9"
+    android:layout_marginLeft="@dimen/dimen102e"
+    android:layout_marginTop="@dimen/dimen102e"
+    android:tint="@color/color08df"
+    android:contentDescription="@string/str3dac"
+    android:layout_marginStart="@dimen/dimen102e"
+    app:attr0838="@drawable/ic_close"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

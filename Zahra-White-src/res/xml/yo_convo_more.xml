@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com">
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/alien_outline"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/emojiHeaderColor"
+        android:key="emojipopup_header"
+        android:summary="@string/emojiHeaderColorSum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/emoticon_cool_outline"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/emojiHeadIconsColor"
+        android:key="emojipopup_icons"
+        android:summary="@string/emojiHeadIconsColorSum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/emoticon_tongue"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/emojiBackColor"
+        android:key="emojipopup_body"
+        android:summary="@string/emojiBackColorSum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/link_variant"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoHyperLinksColor"
+        android:key="ModChatBubbleHyperlinks"
+        android:summary="@string/yoHyperLinksColorSum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/sort_variant_remove"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/chatInfoBalloonsText"
+        android:key="date_divider_color_picker"
+        android:summary="@string/chatInfoBalloonsTextS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/note_remove"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/chatInfoBalloonsBK"
+        android:key="date_bubble_color_picker"
+        android:summary="@string/chatInfoBalloonsBKS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/account_remove_outline"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/grparticpantName_color"
+        android:key="participant_name_color_picker"
+        android:summary="@string/grparticpantName_colorS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/playlist_music_outline"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoVoiceNoteSeekbar"
+        android:key="seekbar_color_chat_picker"
+        android:summary="@string/yoVoiceNoteSeekbarS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/location_enter"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoVoiceNotePlayBtn"
+        android:key="btn_voice_color_chat_picker"
+        android:summary="@string/yoVoiceNotePlayBtnS" />
+</PreferenceScreen>

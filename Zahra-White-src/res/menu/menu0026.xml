@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@id/recent_sticker_searches_clear_all"
+        android:title="@string/str41fc"
+        app:attr0017="@layout/layout0aa1"
+        app:attr07f1="always" />
+</menu>

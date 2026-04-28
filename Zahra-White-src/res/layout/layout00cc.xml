@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/product_list_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/product_list"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr0495="@id/view_cart"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style01a2" />
+    <include
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="@id/product_list"
+        app:attr04ad="@id/product_list"
+        app:attr04b1="@id/product_list"
+        layout="@layout/layout0328" />
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/shadow_bottom"
+        android:background="@drawable/list_upward_shadow"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="8.0dip"
+        app:attr0494="@id/product_list"
+        app:attr049a="@id/product_list"
+        app:attr04ad="@id/product_list" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center_horizontal"
+        android:id="@id/view_cart"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_marginLeft="@dimen/dimen0b62"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="@dimen/dimen0b62"
+        android:layout_marginBottom="10.0dip"
+        app:attr0494="parent"
+        app:attr049a="@id/product_list"
+        app:attr04ad="@id/product_list"
+        style="@style/style0555" />
+</androidx.constraintlayout.widget.ConstraintLayout>

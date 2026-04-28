@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">‎%d件のグループから退出できませんでした。再度お試しください。</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">お知らせ%1$d件</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+</resources>

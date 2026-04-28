@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen054a"
+            android:layout_marginRight="@dimen/dimen054a">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/enc_backup_enabled_landing_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen054d"
+                android:layout_marginBottom="@dimen/dimen054c" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/enc_backup_enabled_landing_title"
+                android:text="@string/str123e"
+                style="@style/style0203" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/enc_backup_enabled_landing_privacy_notice"
+                android:text="@string/str125d"
+                android:lineSpacingExtra="@dimen/dimen0537"
+                style="@style/style01fb" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/enc_backup_enabled_landing_restore_notice"
+                android:text="@string/str1266"
+                android:lineSpacingExtra="@dimen/dimen0537"
+                style="@style/style01fb" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/enc_backup_enabled_landing_password_button"
+        android:visibility="gone"
+        android:text="@string/str1239"
+        style="@style/style0200" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/enc_backup_enabled_landing_disable_button"
+        android:text="@string/str123b"
+        style="@style/style0204" />
+</LinearLayout>

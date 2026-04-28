@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_gravity="right"
+    android:id="@id/delete_symbol_tb"
+    android:layout_width="@dimen/dimen0fe8"
+    android:layout_height="fill_parent"
+    android:contentDescription="@string/str04b8"
+    app:attr0838="@drawable/ic_backspace_gray"
+    style="@style/style0006"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

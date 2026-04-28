@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/template_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0430"
+            android:textStyle="bold"
+            android:textColor="?attr0272"
+            android:id="@id/title_text_message"
+            android:paddingLeft="@dimen/dimen03e4"
+            android:paddingTop="@dimen/dimen042f"
+            android:paddingRight="@dimen/dimen03e4"
+            android:paddingBottom="@dimen/dimen042f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.conversation.ui.conversationrow.businessmessaging.template.TemplateRowContentLayout
+            android:id="@id/template_message_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

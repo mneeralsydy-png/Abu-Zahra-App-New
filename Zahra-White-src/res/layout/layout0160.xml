@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/planner_title_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/title_progress_bar"
+        android:layout="@layout/layout0158"
+        android:inflatedId="@id/title_progress_bar"
+        android:layout_width="@dimen/dimen0b0e"
+        android:layout_height="@dimen/dimen0b0d"
+        android:layout_marginLeft="@dimen/dimen0b0b"
+        android:layout_marginRight="@dimen/dimen0b0b" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/planner_item_status_image"
+        android:layout_width="@dimen/dimen0b0e"
+        android:layout_height="@dimen/dimen0b0d"
+        android:layout_marginLeft="@dimen/dimen0b0b"
+        android:layout_marginRight="@dimen/dimen0b0b"
+        android:tint="@color/color08de" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="?attr09f0"
+        android:textSize="@dimen/dimen0b10"
+        android:textColor="@color/color08df"
+        android:id="@id/step_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen0b0f"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/chevron_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0b0a"
+        android:layout_marginRight="@dimen/dimen0b0a"
+        android:tint="@color/color08de"
+        app:attr0838="@drawable/ic_keyboard_arrow_down" />
+</LinearLayout>

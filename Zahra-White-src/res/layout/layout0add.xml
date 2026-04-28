@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/inline_img"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/control_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/progress_bar"
+            android:layout="@layout/layout0912"
+            android:inflatedId="@id/progress_bar"
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/cancel_download"
+            android:layout="@layout/layout0911"
+            android:inflatedId="@id/cancel_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:gravity="center_vertical"
+            android:id="@id/control_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0009="media"
+            app:attr0411="@drawable/ic_download_small" />
+    </FrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@id/shimmer_layout"
+        android:background="@color/color034b"
+        android:layout_width="@dimen/dimen08cf"
+        android:layout_height="fill_parent" />
+</FrameLayout>

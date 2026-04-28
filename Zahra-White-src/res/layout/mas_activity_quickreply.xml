@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:background="@color/yosettings_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <View
+            android:background="@color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="15.0dip"
+            android:layout_marginTop="0.0dip" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card"
+            android:padding="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip">
+            <com.whatsapp.yo.tf
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mas_hint_quickreplies" />
+            <View
+                android:background="?android:listDivider"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_marginTop="4.0dip" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.yo.tf
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mas_quickreplies_label" />
+                    <EditText
+                        android:id="@id/mInputLabel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="............."
+                        android:singleLine="true"
+                        android:layout_alignParentTop="true"
+                        android:inputType="text"
+                        android:imeOptions="actionNext"
+                        style="@style/YoSettings_row" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="80.0">
+                        <com.whatsapp.yo.tf
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mas_quickreplies_value" />
+                        <EditText
+                            android:id="@id/mInputValue"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="............."
+                            android:layout_alignParentTop="true"
+                            android:inputType="text"
+                            style="@style/YoSettings_row" />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_gravity="end|center"
+                        android:id="@id/mAddQuickReply"
+                        android:background="@drawable/input_circle_green"
+                        android:layout_width="45.0dip"
+                        android:layout_height="45.0dip"
+                        android:layout_margin="0.0dip"
+                        android:src="@drawable/ic_action_add"
+                        android:scaleType="center"
+                        android:adjustViewBounds="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="15.0dip"
+            android:layout_marginTop="0.0dip" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/mList"
+            android:background="@drawable/rounded_card"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginBottom="15.0dip" />
+    </LinearLayout>
+    <com.whatsapp.yo.tf
+        android:id="@id/mListText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

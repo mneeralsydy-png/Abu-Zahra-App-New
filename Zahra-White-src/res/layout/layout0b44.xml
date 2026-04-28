@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/music_bottom_sheet_background"
+    android:paddingBottom="@dimen/dimen103b"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/attribution_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3dac"
+        app:attr04a7="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="?attr0a47"
+        style="@style/style0006" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/attribution_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str0429"
+        app:attr0494="@id/attribution_close"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="@id/attribution_close"
+        app:attr0a24="wds_font_headline2"
+        style="?attr0a08" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/attribution_overflow_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str4035"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/vec_ic_more"
+        app:attr090d="?attr0a47"
+        style="@style/style0006" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true"
+        app:attr048f="true"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/attribution_title">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+                android:id="@id/attribution_artwork"
+                android:layout_width="88.0dip"
+                android:layout_height="88.0dip"
+                android:layout_marginTop="@dimen/dimen103b"
+                android:src="@drawable/music_artwork_placeholder_background"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b1="parent"
+                app:attr08aa="@dimen/dimen09a5" />
+            <com.whatsapp.ui.coreui.CircularProgressBar
+                android:layout_gravity="center"
+                android:id="@id/attribution_artwork_loading"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:indeterminate="true"
+                app:attr028c="?attr0a47"
+                app:attr0494="@id/attribution_artwork"
+                app:attr04a7="@id/attribution_artwork"
+                app:attr04ab="@id/attribution_artwork"
+                app:attr04b1="@id/attribution_artwork" />
+            <ViewStub
+                android:id="@id/attribution_artwork_icon"
+                android:layout="@layout/layout0b43"
+                android:inflatedId="@id/attribution_artwork_icon"
+                android:layout_width="@dimen/dimen09a4"
+                android:layout_height="@dimen/dimen09a4"
+                app:attr0494="@id/attribution_artwork"
+                app:attr04a7="@id/attribution_artwork"
+                app:attr04ab="@id/attribution_artwork"
+                app:attr04b1="@id/attribution_artwork" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/attribution_song_title_container"
+                android:paddingTop="@dimen/dimen102e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen102e"
+                android:paddingEnd="@dimen/dimen102e"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b0="@id/attribution_artwork">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:ellipsize="end"
+                    android:id="@id/attribution_song_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:textAlignment="center"
+                    app:attr0a24="wds_font_body1_emphasized"
+                    style="?attr09f1" />
+                <ViewStub
+                    android:id="@id/attribution_explicit"
+                    android:layout="@layout/layout0b55"
+                    android:inflatedId="@id/attribution_explicit"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_marginStart="@dimen/dimen1030" />
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:ellipsize="end"
+                android:id="@id/attribution_artist_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1030"
+                android:maxLines="2"
+                android:textAlignment="center"
+                android:paddingStart="@dimen/dimen102e"
+                android:paddingEnd="@dimen/dimen102e"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b0="@id/attribution_song_title_container"
+                app:attr0a24="wds_font_body2"
+                style="?attr09f6" />
+            <ViewStub
+                android:id="@id/create_status_button"
+                android:layout="@layout/layout05d2"
+                android:inflatedId="@id/create_status_button"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.0dip"
+                android:layout_marginStart="@dimen/dimen103b"
+                android:layout_marginEnd="@dimen/dimen103b"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/attribution_artist_name" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

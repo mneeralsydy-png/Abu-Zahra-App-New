@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/document_composer_multi_icon_container"
+    android:layout_width="@dimen/dimen04f8"
+    android:layout_height="@dimen/dimen04f8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="start|center|top"
+        android:id="@id/document_composer_icon_back_card"
+        android:layout_width="@dimen/dimen04eb"
+        android:layout_height="@dimen/dimen04eb"
+        android:layout_marginTop="@dimen/dimen04ea"
+        android:alpha="0.6"
+        android:rotation="-16.0"
+        app:attr011e="@dimen/dimen04ed"
+        app:attr011f="0.0dip"
+        app:attr0252="0.0dip"
+        app:attr085d="@android:color/white"
+        app:attr085e="@dimen/dimen04ec">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/document_composer_icon_back"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+        <View
+            android:background="@color/color0276"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="start|center|top"
+        android:id="@id/document_composer_icon_front_card"
+        android:layout_width="@dimen/dimen04f4"
+        android:layout_height="@dimen/dimen04f4"
+        android:layout_marginTop="@dimen/dimen04f3"
+        android:rotation="4.0"
+        android:layout_marginStart="@dimen/dimen04f2"
+        android:translationZ="@dimen/dimen04f6"
+        app:attr011e="@dimen/dimen04ed"
+        app:attr011f="0.0dip"
+        app:attr0252="0.0dip"
+        app:attr085d="@android:color/white"
+        app:attr085e="@dimen/dimen04f5">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/document_composer_icon_front"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+        <View
+            android:background="@color/color0276"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/document_composer_edit_icon"
+            android:layout_width="@dimen/dimen04f1"
+            android:layout_height="@dimen/dimen04f1"
+            app:attr0838="@drawable/ic_edit_white" />
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

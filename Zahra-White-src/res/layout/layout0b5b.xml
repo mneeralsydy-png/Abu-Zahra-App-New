@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_gravity="center|top"
+    android:id="@id/music_shape_animated_background"
+    android:layout_width="@dimen/dimen09c6"
+    android:layout_height="@dimen/dimen09c4"
+    android:layout_marginTop="@dimen/dimen09c5"
+    app:attr0510="false"
+    app:attr051a="true"
+    app:attr051c="@raw/lottie_cassette_spinners"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

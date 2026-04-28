@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/top_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0411="@drawable/vec_ic_close"
+        app:attr05ca="@string/str3dac"
+        app:attr0912="true" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a6"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen1039"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/duration_2hr"
+        style="@style/style0332" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/duration_8hr"
+        style="@style/style0332" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/duration_24hr"
+        style="@style/style0332" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/duration_custom"
+        android:text="@string/str2b6a"
+        style="@style/style0332" />
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/wds_handle_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout12a2" />
+    <ViewStub
+        android:id="@id/account_types_loader"
+        android:layout="@layout/layout089c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/wds_handle_container" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/account_types_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/wds_handle_container">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="22.0sp"
+            android:textColor="?attr0a47"
+            android:gravity="center"
+            android:id="@id/text"
+            android:paddingBottom="16.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/str36a5"
+            app:attr03ae="?attr03b8"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.payments.common.ui.widget.PaymentMethodRow
+            android:id="@id/bank_account_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04a7="parent"
+            app:attr04b0="@id/text" />
+        <com.whatsapp.payments.common.ui.widget.PaymentMethodRow
+            android:id="@id/credit_card_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04a7="parent"
+            app:attr04b0="@id/bank_account_row" />
+        <com.whatsapp.payments.common.ui.widget.PaymentMethodRow
+            android:id="@id/credit_line_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04a7="parent"
+            app:attr04b0="@id/credit_card_row" />
+        <com.whatsapp.payments.common.ui.widget.PaymentMethodRow
+            android:id="@id/upi_lite_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04a7="parent"
+            app:attr04b0="@id/credit_line_row" />
+        <com.whatsapp.ui.coreui.WaButtonWithLoader
+            android:textColor="?attr0a2f"
+            android:id="@id/continue_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="@dimen/dimen0a5d"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginBottom="@dimen/dimen0a5d"
+            app:attr04a7="parent"
+            app:attr04b0="@id/upi_lite_row" />
+        <FrameLayout
+            android:id="@id/footer_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginBottom="16.0dip"
+            app:attr04a7="parent"
+            app:attr04b0="@id/continue_button">
+            <include
+                layout="@layout/layout0d58" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

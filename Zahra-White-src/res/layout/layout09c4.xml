@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingLeft="@dimen/dimen064c"
+    android:paddingRight="@dimen/dimen064c"
+    android:paddingBottom="@dimen/dimen0b62"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen064c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/cart_content_divider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        style="@style/style0356" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:id="@id/save_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen064c"
+        android:text="@string/str098f"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:lineSpacingMultiplier="1.43"
+        android:layout_alignParentStart="true"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color0922"
+        android:id="@id/save_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/save_label"
+        android:layout_alignParentRight="true"
+        android:lineSpacingMultiplier="1.43"
+        android:layout_alignParentEnd="true"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:id="@id/subtotal_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b62"
+        android:text="@string/str0990"
+        android:layout_below="@id/save_label"
+        android:layout_alignParentLeft="true"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_alignParentStart="true"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:id="@id/subtotal_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/subtotal_label"
+        android:layout_alignParentRight="true"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_alignParentEnd="true"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:id="@id/additional_charge_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b62"
+        android:text="@string/str098e"
+        android:layout_below="@id/subtotal_label"
+        android:layout_alignParentLeft="true"
+        android:lineSpacingMultiplier="1.43"
+        android:layout_alignParentStart="true"
+        app:attr0a24="wds_font_body2" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/sticker_annotations_bottom_sheet_row_item"
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:enabled="false"
+        android:id="@id/sticker_annotations_bottom_sheet_row_contact_image"
+        android:layout_width="@dimen/dimen0bb3"
+        android:layout_height="@dimen/dimen0bb3"
+        android:layout_marginLeft="@dimen/dimen0ce8"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04a7="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr08a9="false"
+        whatsapp:attr08aa="@dimen/dimen0cc5"
+        whatsapp:attr08ab="@android:color/transparent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color08df"
+        android:gravity="left"
+        android:id="@id/sticker_annotations_bottom_sheet_row_primary_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ce8"
+        android:layout_marginRight="@dimen/dimen0ce8"
+        android:fontFamily="?attr03b6"
+        whatsapp:attr0495="@id/sticker_annotations_bottom_sheet_row_secondary_text"
+        whatsapp:attr04a8="@id/sticker_annotations_bottom_sheet_row_contact_image"
+        whatsapp:attr04aa="@id/sticker_annotations_bottom_sheet_sticker_view"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr04b3="packed"
+        whatsapp:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="left"
+        android:id="@id/sticker_annotations_bottom_sheet_row_secondary_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ce8"
+        android:layout_marginRight="@dimen/dimen0ce8"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04a8="@id/sticker_annotations_bottom_sheet_row_contact_image"
+        whatsapp:attr04aa="@id/sticker_annotations_bottom_sheet_sticker_view"
+        whatsapp:attr04b0="@id/sticker_annotations_bottom_sheet_row_primary_text"
+        style="@style/style032e" />
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_annotations_bottom_sheet_sticker_view"
+        android:layout_width="@dimen/dimen0d87"
+        android:layout_height="@dimen/dimen0d87"
+        android:layout_marginRight="@dimen/dimen0cea"
+        android:scaleType="centerCrop"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

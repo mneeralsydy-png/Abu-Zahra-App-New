@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:id="@id/send"
+    android:background="@drawable/input_circle"
+    android:layout_width="@dimen/dimen08b3"
+    android:layout_height="@dimen/dimen08b3"
+    android:scaleType="center"
+    android:contentDescription="@string/str4217"
+    android:transitionName="@string/str42e7"
+    app:attr0838="@drawable/input_send"
+    app:attr090d="?attr0a4b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

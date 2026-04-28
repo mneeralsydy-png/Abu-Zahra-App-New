@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout
+    android:paddingTop="@dimen/dimen0b5e"
+    android:paddingBottom="@dimen/dimen1034"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/dimen0b5e"
+    android:paddingEnd="@dimen/dimen0b5e"
+    style="@style/style06ec"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="@dimen/dimen0fb0"
+        android:gravity="start"
+        android:id="@id/secret_code_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:imeOptions="flagNoExtractUi" />
+</com.google.android.material.textfield.TextInputLayout>

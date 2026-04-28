@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a5a"
+    android:paddingTop="@dimen/dimen0b62"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0b5d"
+    android:paddingEnd="@dimen/dimen0b62"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/savings_offer_info_top_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        app:attr0838="@drawable/order_details_dashed_underline_gray" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:layout_marginBottom="@dimen/dimen0b62">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/apply_savings_offer_icon"
+            android:layout_width="@dimen/dimen0fd9"
+            android:layout_height="@dimen/dimen0fd9"
+            android:src="@drawable/vec_ic_add"
+            android:tint="?attr0a46" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a4"
+            android:textColor="?attr066e"
+            android:id="@id/apply_savings_offer_label"
+            android:paddingLeft="@dimen/dimen0a63"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str22e1"
+            android:layout_weight="1.0"
+            app:attr0a24="wds_font_body1" />
+    </LinearLayout>
+</LinearLayout>

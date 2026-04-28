@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/no_statuses_text_view"
+        android:paddingLeft="@dimen/dimen0cee"
+        android:paddingTop="@dimen/dimen0125"
+        android:paddingRight="@dimen/dimen0cee"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/str21a9"
+        android:paddingStart="@dimen/dimen0cee"
+        android:paddingEnd="@dimen/dimen0cee"
+        style="@style/style040f" />
+    <com.whatsapp.ui.coreui.collections.ObservableRecyclerView
+        android:id="@id/muted_statuses_list"
+        android:paddingTop="@dimen/dimen0ced"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

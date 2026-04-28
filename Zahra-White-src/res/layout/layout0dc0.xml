@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/my_contacts_layout_stub"
+        android:visibility="gone"
+        android:inflatedId="@id/my_contacts_layout_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/exclusion_layout_stub"
+        android:visibility="gone"
+        android:inflatedId="@id/exclusion_layout_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/inclusion_layout_stub"
+        android:visibility="gone"
+        android:inflatedId="@id/inclusion_layout_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</merge>

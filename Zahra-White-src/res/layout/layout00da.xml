@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@drawable/panel"
+    android:padding="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        style="@style/style01a4">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/dimen0125"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr09b2="?attr0085">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="18.0sp"
+                android:textColor="?attr0a46"
+                android:id="@id/spam_warning_info_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="?attr03b7" />
+            <com.whatsapp.ui.coreui.CircularProgressBar
+                android:layout_gravity="center"
+                android:id="@id/progress_bar"
+                android:visibility="gone"
+                android:layout_width="225.0dip"
+                android:layout_height="225.0dip"
+                android:layout_marginBottom="0.0dip"
+                android:indeterminateOnly="false"
+                app:attr028b="?attr0a4f"
+                app:attr028c="@color/color0702"
+                app:attr0290="30.0"
+                app:attr0291="?attr0a46" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/btn_spam_warning_learn_more"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="12.0dip"
+                android:text="@string/str3ec9"
+                style="@style/style0555" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:id="@id/spam_warning_generic_data_connection_missing_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.0dip"
+                android:text="@string/str3126"
+                android:fontFamily="?attr03b7"
+                app:attr0a24="wds_font_body2" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

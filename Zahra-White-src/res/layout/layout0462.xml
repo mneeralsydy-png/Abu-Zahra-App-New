@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/newsletter_invite_footer_floating_content"
+    android:paddingLeft="@dimen/dimen103a"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0221"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/close_button"
+        android:background="?attr076e"
+        android:layout_width="@dimen/dimen0f3a"
+        android:layout_height="@dimen/dimen0f3a"
+        android:layout_marginRight="@dimen/dimen1030"
+        android:contentDescription="@string/str3dac"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="?attr0a46" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color08df"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/invite_followers_text"
+        android:paddingLeft="@dimen/dimen06f7"
+        android:paddingRight="@dimen/dimen06f7"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:lineSpacingExtra="@dimen/dimen06f6"
+        app:attr0495="@id/action_view_container"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/action_view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/invite_followers_text"
+        app:attr0a1e="auto">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/invite_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str0224"
+            app:attr096b="outline"
+            app:attr09ea="small" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str0225"
+            app:attr0411="@drawable/ic_share"
+            app:attr096b="outline"
+            app:attr09ea="small" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

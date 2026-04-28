@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/sticker_annotations_bottom_sheet"
+    android:background="@drawable/bottom_sheet_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08df"
+        android:id="@id/sticker_annotations_count_text"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen102e"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="@style/style05a5" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/sticker_annotations_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0bb2"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

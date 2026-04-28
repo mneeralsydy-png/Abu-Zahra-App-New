@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/deactivate_community_main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout10cb" />
+    <ScrollView
+        android:orientation="vertical"
+        android:id="@id/deactivate_community_disclaimer_scrollview"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0"
+        app:attr0495="@id/community_deactivate_disclaimer_continue_button_container"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <FrameLayout
+                    android:layout_width="140.0dip"
+                    android:layout_height="120.0dip"
+                    android:layout_marginTop="@dimen/dimen0cf1">
+                    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+                        android:layout_gravity="center"
+                        android:id="@id/deactivate_community_disclaimer_photo_view"
+                        android:layout_width="@dimen/dimen0466"
+                        android:layout_height="@dimen/dimen0466" />
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="end|bottom|center"
+                        android:layout_width="@dimen/dimen0cf2"
+                        android:layout_height="@dimen/dimen0cf2"
+                        app:attr0838="@drawable/vec_ic_deactivate_with_fill" />
+                </FrameLayout>
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="@dimen/dimen0fc0"
+                    android:textColor="?attr066e"
+                    android:gravity="center_horizontal"
+                    android:id="@id/deactivate_community_disclaimer_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cee"
+                    style="@style/style03fe" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr066e"
+                    android:gravity="center_horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cee"
+                    android:layout_marginBottom="@dimen/dimen0cee"
+                    android:text="@string/str0f04"
+                    app:attr0a24="wds_font_body1" />
+                <com.whatsapp.community.BulletInfoRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen0cea"
+                    app:attr02b2="@string/str0f09"
+                    app:attr02b3="@drawable/wa_ic_link_off"
+                    app:attr02b4="@color/color0347"
+                    app:attr02b5="@string/str0f0a" />
+                <com.whatsapp.community.BulletInfoRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen0cea"
+                    app:attr02b2="@string/str0f05"
+                    app:attr02b3="@drawable/vec_ic_announcement_group_closed"
+                    app:attr02b4="@color/color0347"
+                    app:attr02b5="@string/str0f06" />
+                <com.whatsapp.community.BulletInfoRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen0cf1"
+                    app:attr02b2="@string/str0f07"
+                    app:attr02b3="@drawable/vec_ic_delete_sweep"
+                    app:attr02b4="@color/color0347"
+                    app:attr02b5="@string/str0f08" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@id/community_deactivate_disclaimer_continue_button_container"
+        android:background="?attr0a59"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102c"
+        android:layout_marginBottom="@dimen/dimen102c"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/deactivate_community_disclaimer_scrollview"
+        style="@style/style01a2">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center"
+            android:id="@id/community_deactivate_disclaimer_continue_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:layout_marginTop="@dimen/dimen0cee"
+            android:layout_marginRight="@dimen/dimen0cea"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            android:text="@string/str0f03"
+            style="@style/style055a" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:icon="@drawable/abo_arab_oneui"
+        android:entries="@array/ui_home_style"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/yoHomeUIStyle"
+        android:key="ui_home_styleV3"
+        android:defaultValue="stock"
+        android:entryValues="@array/ui_home_styleV" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_instagramstories"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/igStories"
+        android:key="home_stories_key"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_homestts"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_carouselview"
+        android:key="key_carousel_view"
+        android:summary="@string/igStories"
+        android:defaultValue="false" />
+    <ListPreference
+        android:icon="@drawable/abo_arab_ic_homestts"
+        android:entries="@array/stories_label"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/story_style"
+        android:key="home_stories_style"
+        android:summary="%s"
+        android:defaultValue="view"
+        android:entryValues="@array/stories_values_v2" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_separegroup"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/grpSeparate"
+        android:key="enable_grp_separationV2"
+        android:summary="@string/grpSeparateSum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_myname"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoName"
+        android:key="my_name"
+        android:summary="@string/yoNameSum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_sttsnames"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/disablestatus"
+        android:key="my_statusd"
+        android:summary="@string/disablestatusSum"
+        android:dependency="my_name"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abu_arab_list"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_hidechatsortlist"
+        android:key="abu_arab_hide_list"
+        android:summary="@string/abu_arab_hidechatsortlist_sum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_jsnhidensrc"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_research"
+        android:key="abu_arab_research"
+        android:summary="@string/abu_arab_research_sum"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/ghost"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/ghost_mode"
+        android:key="yo_want_ghostmode"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/ic_camera"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/showCameraToolbarIcon"
+        android:key="yo_want_toolbar_cam"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_darkenbar"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/showNightMode"
+        android:key="yo_want_nightmode"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/airplane_off1"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/showAirplaneMode"
+        android:key="yo_want_airplanemode"
+        android:summary="@string/showAirplaneModeS"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_contactphoto"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoHeadpic"
+        android:key="PicHead"
+        android:summary="@string/yoHeadPicS"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_wppclick"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/disableHiddenAccess"
+        android:key="disable_hiddenchat_access"
+        android:summary="@string/disableHiddenAccessSum"
+        android:defaultValue="false" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_tabgradient"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/pagerColor"
+        android:key="ModConColor"
+        android:summary="@string/pagerColorS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_tabunselected"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/tabPagerTitle"
+        android:key="pagetitle_picker"
+        android:summary="@string/tabPagerTitleS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_selectguia"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/selected_tabPagerTitle"
+        android:key="pagetitle_sel_picker"
+        android:summary="@string/selected_tabPagerTitleS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_selectab"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/tabPagerIndicator"
+        android:key="tabindicator" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_contrafundo"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/unread_counter"
+        android:key="tabadgeBKColor"
+        android:summary="@string/unread_counterS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_countercolor"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/unread_textcounter"
+        android:key="tabadgeTextColor"
+        android:summary="@string/unread_textcounterS" />
+</PreferenceScreen>

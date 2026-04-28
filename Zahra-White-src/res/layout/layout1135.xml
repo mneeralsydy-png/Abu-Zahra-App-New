@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0575"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@id/shape_emoji"
+        android:layout_width="@dimen/dimen0c9d"
+        android:layout_height="@dimen/dimen0c9d"
+        android:scaleType="fitCenter" />
+</FrameLayout>

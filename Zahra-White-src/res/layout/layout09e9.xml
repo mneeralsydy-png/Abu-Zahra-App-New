@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/live_location_card"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="68.0dip">
+        <FrameLayout
+            android:paddingLeft="@dimen/dimen06a4"
+            style="@style/style0218">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/media_title"
+                android:text="@string/str0d16"
+                style="@style/style021b" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:paddingTop="10.0dip"
+            android:paddingBottom="12.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="17.0sp"
+                android:textColor="?attr0a47"
+                android:gravity="center|left"
+                android:layout_gravity="center|left"
+                android:id="@id/live_location_info"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center|right"
+                android:id="@id/livelocation_indicator"
+                android:paddingLeft="@dimen/dimen102f"
+                android:paddingRight="12.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0838="@drawable/ic_info_live_location"
+                app:attr090d="@color/color0347" />
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

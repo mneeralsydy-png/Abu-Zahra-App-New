@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="@drawable/india_upi_savings_offer_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen0b62"
+    android:layout_marginTop="@dimen/dimen0b60"
+    android:layout_marginRight="@dimen/dimen0b62"
+    android:layout_marginBottom="@dimen/dimen0b60"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/india_upi_savings_offer_row_shimmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style02dd">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/payment_loading_box"
+                android:layout_width="@dimen/dimen0fdc"
+                android:layout_height="@dimen/dimen0fdc" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0b62"
+                android:layout_marginRight="@dimen/dimen0b62">
+                <View
+                    android:background="@drawable/payment_loading_box"
+                    android:layout_width="fill_parent"
+                    android:layout_height="24.0dip"
+                    android:layout_marginLeft="@dimen/dimen0b60"
+                    android:layout_marginTop="@dimen/dimen0b60"
+                    android:layout_marginRight="@dimen/dimen0b60"
+                    android:layout_marginBottom="@dimen/dimen0b5f" />
+                <View
+                    android:background="@drawable/payment_loading_box"
+                    android:layout_width="fill_parent"
+                    android:layout_height="24.0dip"
+                    android:layout_marginLeft="@dimen/dimen0b60"
+                    android:layout_marginTop="@dimen/dimen0b5f"
+                    android:layout_marginRight="@dimen/dimen0b60"
+                    android:layout_marginBottom="@dimen/dimen0b60" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

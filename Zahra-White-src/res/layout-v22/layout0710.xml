@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/search_bar_layout"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dip"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    app:attr04b1="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:gravity="bottom"
+        android:id="@id/search_input_layout"
+        android:background="@drawable/ib_new_round"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen03a5"
+        android:backgroundTint="?attr0344"
+        app:attr049a="parent"
+        app:attr04ad="parent">
+        <FrameLayout
+            android:layout_gravity="top"
+            android:id="@id/icon_container"
+            android:layout_width="@dimen/dimen0579"
+            android:layout_height="@dimen/dimen0579"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/dimen0ce7"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="left"
+                android:id="@id/search_entry_icon"
+                android:layout_width="40.0dip"
+                android:layout_height="fill_parent"
+                android:contentDescription="@string/str420c"
+                android:accessibilityTraversalBefore="@id/gif_trending_grid"
+                app:attr0838="@drawable/vec_ic_search"
+                app:attr090d="?attr0346"
+                style="@style/style0006" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="18.0sp"
+            android:textColor="?attr0351"
+            android:layout_gravity="center_vertical"
+            android:id="@id/search_entry"
+            android:background="@null"
+            android:paddingTop="@dimen/dimen0ced"
+            android:paddingBottom="@dimen/dimen0ce7"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:paddingEnd="@dimen/dimen0ced"
+            app:attr0494="parent"
+            app:attr049b="@id/close_button"
+            app:attr04ac="@id/icon_container"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/close_button"
+            android:visibility="gone"
+            android:layout_width="40.0dip"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/str3da9"
+            android:layout_marginEnd="@dimen/dimen0ce7"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/ic_close"
+            app:attr090d="?attr0346"
+            style="@style/style0006" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

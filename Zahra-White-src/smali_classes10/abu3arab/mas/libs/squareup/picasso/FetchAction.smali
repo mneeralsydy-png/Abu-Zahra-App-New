@@ -1,0 +1,111 @@
+.class Labu3arab/mas/libs/squareup/picasso/FetchAction;
+.super Labu3arab/mas/libs/squareup/picasso/Action;
+.source "FetchAction.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Labu3arab/mas/libs/squareup/picasso/Action<",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private callback:Labu3arab/mas/libs/squareup/picasso/Callback;
+
+.field private final target:Ljava/lang/Object;
+
+
+# direct methods
+.method constructor <init>(Labu3arab/mas/libs/squareup/picasso/Picasso;Labu3arab/mas/libs/squareup/picasso/Request;IILjava/lang/Object;Ljava/lang/String;Labu3arab/mas/libs/squareup/picasso/Callback;)V
+    .locals 12
+
+    move-object v11, p0
+
+    const/4 v2, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v10, 0x0
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move-object v3, p2
+
+    move v4, p3
+
+    move/from16 v5, p4
+
+    move-object/from16 v8, p6
+
+    move-object/from16 v9, p5
+
+    invoke-direct/range {v0 .. v10}, Labu3arab/mas/libs/squareup/picasso/Action;-><init>(Labu3arab/mas/libs/squareup/picasso/Picasso;Ljava/lang/Object;Labu3arab/mas/libs/squareup/picasso/Request;IIILandroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/Object;Z)V
+
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    iput-object v0, v11, Labu3arab/mas/libs/squareup/picasso/FetchAction;->target:Ljava/lang/Object;
+
+    move-object/from16 v0, p7
+
+    iput-object v0, v11, Labu3arab/mas/libs/squareup/picasso/FetchAction;->callback:Labu3arab/mas/libs/squareup/picasso/Callback;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method cancel()V
+    .locals 1
+
+    invoke-super {p0}, Labu3arab/mas/libs/squareup/picasso/Action;->cancel()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Labu3arab/mas/libs/squareup/picasso/FetchAction;->callback:Labu3arab/mas/libs/squareup/picasso/Callback;
+
+    return-void
+.end method
+
+.method complete(Landroid/graphics/Bitmap;Labu3arab/mas/libs/squareup/picasso/Picasso$LoadedFrom;)V
+    .locals 1
+
+    iget-object v0, p0, Labu3arab/mas/libs/squareup/picasso/FetchAction;->callback:Labu3arab/mas/libs/squareup/picasso/Callback;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Labu3arab/mas/libs/squareup/picasso/Callback;->onSuccess()V
+
+    :cond_0
+    return-void
+.end method
+
+.method error()V
+    .locals 1
+
+    iget-object v0, p0, Labu3arab/mas/libs/squareup/picasso/FetchAction;->callback:Labu3arab/mas/libs/squareup/picasso/Callback;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Labu3arab/mas/libs/squareup/picasso/Callback;->onError()V
+
+    :cond_0
+    return-void
+.end method
+
+.method getTarget()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Labu3arab/mas/libs/squareup/picasso/FetchAction;->target:Ljava/lang/Object;
+
+    return-object v0
+.end method

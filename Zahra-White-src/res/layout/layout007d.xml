@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:theme="@style/style04ce"
+        android:id="@id/appbar"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+            android:id="@id/toolbar"
+            style="@style/style0520" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/wallpaper_thumbnail_recyclerview"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/wallpaper_thumbnail_error_container"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/appbar"
+        style="@style/style01a2" />
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:id="@id/wallpaper_thumbnail_error_container"
+        android:padding="@dimen/dimen0f06"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/wallpaper_thumbnails_progress_container"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/wallpaper_thumbnail_recyclerview">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str3b7d"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/wallpaper_thumbnail_reload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140.0dip"
+            android:layout_marginBottom="140.0dip"
+            android:text="@string/str3b7e"
+            style="@style/style0555" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/wallpaper_thumbnails_progress_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/wallpaper_thumbnail_error_container">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:indeterminate="true"
+            style="progressBarStyleLarge" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

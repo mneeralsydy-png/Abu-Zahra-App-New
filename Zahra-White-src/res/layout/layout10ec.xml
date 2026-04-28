@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen0e2f"
+    android:layout_height="@dimen/dimen0e2e"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/typing_indicator_avd"
+        android:layout_width="@dimen/dimen0755"
+        android:layout_height="@dimen/dimen0755" />
+</FrameLayout>

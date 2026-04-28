@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style015b">
+        <item name="android:navigationBarColor">?attr0a40</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="attr00bd">?attr0a45</item>
+        <item name="attr0114">?attr0a47</item>
+        <item name="attr0115">?attr0a4f</item>
+        <item name="attr0116">?attr0a47</item>
+        <item name="attr022c">?attr0a40</item>
+        <item name="attr0265">@color/color08de</item>
+        <item name="attr044e">false</item>
+        <item name="attr04ce">@color/color0790</item>
+        <item name="attr057b">?attr0a29</item>
+        <item name="attr05bf">?attr0a29</item>
+        <item name="attr05ef">@style/style02d1</item>
+        <item name="attr0923">?attr0a59</item>
+        <item name="attr0926">?attr0a40</item>
+        <item name="attr09df">?attr0a45</item>
+        <item name="attr09e9">?attr0a45</item>
+        <item name="attr0a29">?attr0a3b</item>
+        <item name="attr0a3d">@color/color09a3</item>
+        <item name="attr0a43">?attr0a40</item>
+        <item name="attr0a44">?attr0a29</item>
+        <item name="attr0a45">?attr0a29</item>
+        <item name="attr0a49">?attr0a29</item>
+        <item name="attr0a55">?attr0a40</item>
+        <item name="attr0a59">?attr0a40</item>
+    </style>
+</resources>

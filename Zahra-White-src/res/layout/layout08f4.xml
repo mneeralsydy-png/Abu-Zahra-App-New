@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/payment_methods_container"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/payment_methods_section_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0ac6"
+        android:paddingEnd="@dimen/dimen0ac6"
+        app:attr0036="@drawable/vec_ic_add"
+        app:attr0037="@string/str29ec"
+        app:attr003a="iconTextButton"
+        app:attr03ee="@string/str2669"
+        app:attr03ef="emphasized" />
+    <ViewStub
+        android:id="@id/banner_viewstub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0ac6"
+        android:layout_marginEnd="@dimen/dimen0ac6" />
+    <ListView
+        android:id="@id/methods_list"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@color/color0790"
+        android:divider="@null"
+        android:choiceMode="none"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false" />
+    <include
+        layout="@layout/layout0102" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr086d="true"
+        app:attr0912="true" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/view_link_option"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str389d"
+        app:attr06ca="body1"
+        app:attr06f6="@drawable/ic_action_open"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/change_profile_option"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str3899"
+        app:attr06ca="body1"
+        app:attr06f6="@drawable/vec_ic_account_circle"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/edit_link_option"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str389a"
+        app:attr06ca="body1"
+        app:attr06f6="@drawable/ic_edit"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/remove_link_option"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str389c"
+        app:attr06ca="body1"
+        app:attr06f6="@drawable/vec_ic_trash"
+        app:attr0702="icon" />
+</LinearLayout>

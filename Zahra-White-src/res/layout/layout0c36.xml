@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textStyle="bold"
+    android:textColor="?attr0a47"
+    android:gravity="center"
+    android:id="@id/otp_character"
+    android:background="@drawable/webview_otp_box"
+    android:layout_width="40.0dip"
+    android:layout_height="48.0dip"
+    android:layout_marginEnd="@dimen/dimen0cec"
+    app:attr0a24="wds_font_headline2"
+    style="@style/style05ab"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

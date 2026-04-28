@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0455" parent="@style/style04a4">
+        <item name="android:navigationBarColor">?attr04ce</item>
+        <item name="android:contextPopupMenuStyle">@style/style01ab</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

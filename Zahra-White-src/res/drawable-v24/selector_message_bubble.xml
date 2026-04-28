@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="oval">
+                    <solid
+                        android:color="@color/color08f4" />
+                </shape>
+            </item>
+            <item
+                android:left="6.0dip"
+                android:top="6.0dip"
+                android:right="6.0dip"
+                android:bottom="6.0dip">
+                <shape
+                    android:layout_height="fill_parent"
+                    android:shape="oval"
+                    android:innerRadius="56.0dip">
+                    <solid
+                        android:color="?attr0a3b" />
+                </shape>
+            </item>
+            <item
+                android:left="1.0dip"
+                android:top="1.0dip"
+                android:right="1.0dip"
+                android:bottom="1.0dip">
+                <shape
+                    android:layout_height="fill_parent"
+                    android:shape="oval">
+                    <stroke
+                        android:width="2.0dip"
+                        android:color="?attr0a44" />
+                </shape>
+            </item>
+            <item
+                android:left="24.0dip"
+                android:top="24.0dip"
+                android:right="24.0dip"
+                android:bottom="24.0dip">
+                <shape
+                    android:shape="oval">
+                    <solid
+                        android:color="?attr0a59" />
+                </shape>
+            </item>
+            <item
+                android:drawable="@drawable/vec_ic_check_circle_filled"
+                android:left="22.0dip"
+                android:top="22.0dip"
+                android:right="22.0dip"
+                android:bottom="22.0dip" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="oval">
+                    <solid
+                        android:color="@color/color08f4" />
+                </shape>
+            </item>
+            <item
+                android:left="6.0dip"
+                android:top="6.0dip"
+                android:right="6.0dip"
+                android:bottom="6.0dip">
+                <shape
+                    android:shape="oval">
+                    <solid
+                        android:color="?attr0a3b" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

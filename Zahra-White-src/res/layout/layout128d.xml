@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cec">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:gravity="center"
+            android:id="@id/back_button"
+            android:layout_width="@dimen/dimen0047"
+            android:layout_height="@dimen/dimen0047"
+            android:contentDescription="@string/str3d62"
+            app:attr0838="@drawable/ic_arrow_back"
+            app:attr090d="@color/color06b2"
+            app:attr0a89="true"
+            style="@style/style0558" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr066e"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str3c14"
+            android:textAlignment="center"
+            android:layout_marginEnd="@dimen/dimen0047"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/wamosub_audience_selection_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                android:id="@id/all_followers"
+                layout="@layout/layout128e" />
+            <include
+                android:id="@id/wamosub_followers"
+                layout="@layout/layout128e" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/send_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:text="@string/str3c11"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea" />
+</LinearLayout>

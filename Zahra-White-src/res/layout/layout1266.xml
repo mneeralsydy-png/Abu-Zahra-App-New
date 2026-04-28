@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.business.biz.BusinessProfileFieldView
+    android:id="@id/business_address"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr00e7="@drawable/ic_location_on"
+    style="@style/style0132"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

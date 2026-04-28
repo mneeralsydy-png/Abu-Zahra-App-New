@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.fab.WDSFab
+    android:id="@id/save_button"
+    android:src="@drawable/ic_check_white_small"
+    android:contentDescription="@string/str2d07"
+    style="@style/style055f"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

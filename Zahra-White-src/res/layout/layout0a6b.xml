@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.KeyboardPopupLayout
+    android:id="@id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/preview_holder"
+        android:paddingBottom="@dimen/dimen1030"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewStub
+            android:id="@id/view_stub_for_document_info"
+            android:layout="@layout/layout0663"
+            android:inflatedId="@id/inflatedDocumentInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/dimen09ee" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/thumb_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/dimen1033"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/str3e92" />
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/loading_progress"
+            android:layout_width="70.0dip"
+            android:layout_height="70.0dip"
+            android:layout_marginBottom="@dimen/dimen1033" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:id="@id/entry_container"
+        android:paddingLeft="@dimen/dimen0215"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/layout0a3c" />
+    </FrameLayout>
+</com.whatsapp.ui.coreui.KeyboardPopupLayout>

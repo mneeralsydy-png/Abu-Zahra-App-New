@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">‎%d개 그룹에서 나가지 못했습니다. 다시 시도해보세요.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">알림 %1$d개</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/suspicious_link_indicator_holder"
+    android:paddingLeft="@dimen/dimen1030"
+    android:paddingRight="@dimen/dimen1030"
+    android:paddingBottom="@dimen/dimen1035"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout1097" />
+</FrameLayout>

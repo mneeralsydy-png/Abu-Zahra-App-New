@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/wallpaper_selector_checked_drawable">
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/whatsapp_doodle_alpha" />
+    </item>
+    <item>
+        <shape
+            android:layout_height="fill_parent"
+            android:shape="rectangle">
+            <size
+                android:height="160.0dip"
+                android:width="100.0dip" />
+            <corners
+                android:radius="@dimen/dimen0f95" />
+            <stroke
+                android:width="6.0dip"
+                android:color="?attr0a59" />
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:layout_height="fill_parent"
+            android:shape="rectangle">
+            <corners
+                android:radius="@dimen/dimen0f90" />
+            <size
+                android:height="160.0dip"
+                android:width="100.0dip" />
+            <stroke
+                android:width="2.0dip"
+                android:color="?attr0a44" />
+        </shape>
+    </item>
+    <item
+        android:left="42.0dip"
+        android:top="124.0dip"
+        android:right="42.0dip"
+        android:bottom="20.0dip">
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="@color/color08f4" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/wa_ic_check_circle_filled"
+        android:left="38.0dip"
+        android:top="120.0dip"
+        android:right="38.0dip"
+        android:bottom="16.0dip" />
+</layer-list>

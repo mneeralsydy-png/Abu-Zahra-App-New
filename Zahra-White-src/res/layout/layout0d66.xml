@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        style="@style/style01a4">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cf1"
+            android:paddingStart="@dimen/dimen0cf1"
+            android:paddingEnd="@dimen/dimen0cf1"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            style="?attr07af" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cee"
+            android:paddingStart="@dimen/dimen0cf1"
+            android:paddingEnd="@dimen/dimen0cf1"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/description_text">
+            <ViewStub
+                android:id="@id/emoji_selector_container"
+                android:layout="@layout/layout0d67"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0cea" />
+            <include
+                android:id="@id/sticker_selector_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                layout="@layout/layout0d67" />
+            <include
+                android:id="@id/gif_selector_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout0d67" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

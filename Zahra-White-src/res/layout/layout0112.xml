@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04a7="parent"
+    app:attr04ab="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/illustration"
+        layout="@layout/layout085b" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0897"
+        android:id="@id/consent_dob_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="@dimen/dimen0cee"
+        android:layout_marginEnd="@dimen/dimen0cee"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/illustration"
+        app:attr0a24="wds_font_headline1"
+        style="@style/style05aa" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0898"
+        android:id="@id/consent_dob_description"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:textAlignment="center"
+        app:attr049a="@id/consent_dob_title"
+        app:attr04ad="@id/consent_dob_title"
+        app:attr04b0="@id/consent_dob_title"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <View
+        android:id="@id/consent_dob_year_input_background"
+        android:background="@drawable/input_outline"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:layout_width="0.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="@dimen/dimen0cee"
+        app:attr049a="@id/consent_dob_title"
+        app:attr04ad="@id/consent_dob_title"
+        app:attr04b0="@id/consent_dob_description" />
+    <com.whatsapp.dobverification.ui.consent.common.ConsentYearSpinner
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color0897"
+        android:id="@id/consent_dob_year_input"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:spinnerMode="dropdown"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0494="@id/consent_dob_year_input_background"
+        app:attr049a="@id/consent_dob_year_input_background"
+        app:attr04ad="@id/consent_dob_year_input_background"
+        app:attr04b1="@id/consent_dob_year_input_background" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color0897"
+        android:id="@id/consent_dob_date_input"
+        android:background="@drawable/input_outline"
+        android:padding="@dimen/dimen0cea"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="@dimen/dimen0cea"
+        app:attr049a="@id/consent_dob_title"
+        app:attr04ad="@id/consent_dob_title"
+        app:attr04b0="@id/consent_dob_year_input"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="@color/color08dd"
+        android:id="@id/consent_dob_year_label"
+        android:background="@color/color08ca"
+        android:padding="@dimen/dimen0cec"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0495="@id/consent_dob_year_input_background"
+        app:attr04ad="@id/consent_dob_year_input_background"
+        app:attr04b1="@id/consent_dob_year_input_background"
+        app:attr0a24="wds_font_body3" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="@color/color08de"
+        android:id="@id/consent_dob_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0494="@id/consent_dob_date_input"
+        app:attr049a="@id/consent_dob_date_input"
+        app:attr04b1="@id/consent_dob_date_input"
+        app:attr0a24="wds_font_body3" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="@color/color08dd"
+        android:id="@id/consent_dob_date_label"
+        android:background="@color/color08ca"
+        android:padding="@dimen/dimen0cec"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0495="@id/consent_dob_date_input"
+        app:attr04ad="@id/consent_dob_date_input"
+        app:attr04b1="@id/consent_dob_date_input"
+        app:attr0a24="wds_font_body3" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="@color/color0884"
+        android:id="@id/consent_dob_error"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginBottom="@dimen/dimen0cec"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr049a="@id/consent_dob_year_input_background"
+        app:attr04ad="@id/consent_dob_year_input_background"
+        app:attr04b0="@id/consent_dob_date_input"
+        app:attr0a24="wds_font_body3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

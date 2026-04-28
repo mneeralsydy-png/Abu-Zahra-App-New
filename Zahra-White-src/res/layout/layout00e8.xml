@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/title_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/dimen0126"
+                android:layout_marginBottom="@dimen/dimen0126"
+                android:layout_marginStart="@dimen/dimen103b"
+                android:layout_marginEnd="@dimen/dimen103b"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <ViewStub
+                    android:layout_gravity="center"
+                    android:id="@id/title_v2"
+                    android:layout="@layout/layout0e45"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen0cea" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColorLink="?attr0a49"
+                    android:gravity="center_horizontal"
+                    android:id="@id/description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str35af"
+                    android:lineSpacingMultiplier="@dimen/dimen0bd5"
+                    style="@style/style05a6" />
+                <RelativeLayout
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen103b">
+                    <com.whatsapp.ui.coreui.CodeInputField
+                        android:textSize="22.0sp"
+                        android:gravity="bottom|center"
+                        android:id="@id/code"
+                        android:background="@null"
+                        android:layout_width="160.0dip"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:digits=" 0123456789"
+                        android:inputType="number"
+                        android:imeOptions="flagNoExtractUi|flagNoFullscreen" />
+                    <ProgressBar
+                        android:layout_gravity="bottom"
+                        android:id="@id/progress_bar_code_input_blocked"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:layout_marginTop="@dimen/dimen1035"
+                        android:progressDrawable="@drawable/blocked_code_input_progress"
+                        android:layout_below="@id/code"
+                        android:layout_alignLeft="@id/code"
+                        android:layout_alignRight="@id/code"
+                        style="@android:style/Widget.ProgressBar.Horizontal" />
+                </RelativeLayout>
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textColor="?attr0a46"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/description_bottom"
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen1030"
+                    android:labelFor="@id/code"
+                    app:attr0a24="wds_font_body2"
+                    style="@style/style05a6" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:theme="@style/style0708"
+                    android:textColor="?attr06ae"
+                    android:gravity="center_horizontal"
+                    android:id="@id/forgot_pin_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cee"
+                    android:text="@string/str35ae"
+                    app:attr096b="borderless" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textColor="?attr0a46"
+                    android:gravity="center_horizontal"
+                    android:id="@id/pin_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str35b1"
+                    app:attr0a24="wds_font_body3"
+                    style="@style/style05a8" />
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:id="@id/two_fa_lock_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="70.0dip"
+                    android:layout_marginTop="@dimen/dimen103b"
+                    app:attr0838="@drawable/ic_lock_large" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

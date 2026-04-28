@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="?attr0798"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        style="@style/style01a4">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/dimen0126"
+            android:layout_marginBottom="@dimen/dimen0126"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/privacy_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2f8d"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_lock"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/security_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2fc0"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_security"
+                app:attr0702="icon" />
+            <ViewStub
+                android:id="@id/password_preference"
+                android:layout="@layout/layout0d7c"
+                android:inflatedId="@id/password_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/passkeys_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2f76"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/vec_ic_passkey"
+                app:attr0702="icon" />
+            <ViewStub
+                android:id="@id/email_verification_preference"
+                android:layout="@layout/layout0d78"
+                android:inflatedId="@id/email_verification_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/two_step_verification_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str4249"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_password_2"
+                app:attr0702="icon" />
+            <ViewStub
+                android:id="@id/viewstub_coex_onboarding_preference"
+                android:layout="@layout/layout12d8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/viewstub_smb_affiliated_agent_onboarding_preference"
+                android:layout="@layout/layout12d9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/change_number_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2ee3"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_send_to_mobile"
+                app:attr06f8="true"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/request_account_info_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2f0a"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_description"
+                app:attr06f8="true"
+                app:attr0702="icon" />
+            <ViewStub
+                android:id="@id/wamo_preferences"
+                android:layout="@layout/layout0d7e"
+                android:inflatedId="@id/wamo_preferences"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/interop_opt_in"
+                android:layout="@layout/layout0d79"
+                android:inflatedId="@id/interop_opt_in"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/add_account"
+                android:layout="@layout/layout0d77"
+                android:inflatedId="@id/add_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/remove_account"
+                android:layout="@layout/layout0d7d"
+                android:inflatedId="@id/remove_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/paa_unlink_account"
+                android:layout="@layout/layout0d7b"
+                android:inflatedId="@id/paa_unlink_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/delete_account_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str4223"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_delete"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/delete_account_companion_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2efb"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/wa_ic_info"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/log_out_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str1c07"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_logout"
+                app:attr06f7="destructive"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/log_out_internal_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str1c08"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_logout"
+                app:attr06f7="destructive"
+                app:attr0702="icon" />
+            <ViewStub
+                android:id="@id/other_apps_preference"
+                android:layout="@layout/layout0d7a"
+                android:inflatedId="@id/other_apps_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_enabled="true"
+        android:state_hovered="true">
+        <objectAnimator
+            android:interpolator="?attr05aa"
+            android:duration="?attr05a0"
+            android:valueTo="@dimen/dimen07c4"
+            android:valueType="floatType"
+            android:propertyName="translationZ"
+            android:startDelay="?attr059d" />
+    </item>
+    <item
+        android:state_enabled="true"
+        app:attr084c="true">
+        <objectAnimator
+            android:interpolator="?attr05aa"
+            android:duration="?attr05a0"
+            android:valueTo="@dimen/dimen07c2"
+            android:valueType="floatType"
+            android:propertyName="translationZ"
+            android:startDelay="?attr059d" />
+    </item>
+    <item>
+        <set>
+            <objectAnimator
+                android:interpolator="?attr05aa"
+                android:duration="?attr059a"
+                android:valueTo="0.0dip"
+                android:valueType="floatType"
+                android:propertyName="translationZ" />
+        </set>
+    </item>
+    <item>
+        <objectAnimator
+            android:duration="0"
+            android:valueTo="0.0dip"
+            android:valueType="floatType"
+            android:propertyName="translationZ" />
+    </item>
+</selector>

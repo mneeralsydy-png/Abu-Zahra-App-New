@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/layout10cb" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:textAppearance="@style/style05a4"
+        android:textColor="?attr066e"
+        android:textColorHint="?attr0a46"
+        android:id="@id/india_upi_savings_offer_enter_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0b5d"
+        android:layout_marginTop="@dimen/dimen0b62"
+        android:layout_marginRight="@dimen/dimen0b5d"
+        android:layout_marginBottom="@dimen/dimen0b62"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/toolbar">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/india_upi_savings_offer_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen0b62"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/india_upi_savings_offer_enter_code" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a5a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:enabled="false"
+            android:gravity="bottom|center"
+            android:id="@id/india_upi_savings_offer_apply_button"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:text="@string/str2722"
+            android:maxLines="1"
+            style="@style/style055c" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

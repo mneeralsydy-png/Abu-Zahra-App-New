@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/parent_stack_photo_mark_image"
+    android:background="@drawable/parent_stack_announcement_photo_mark_drawable"
+    android:padding="@dimen/dimen0cec"
+    android:layout_width="@dimen/dimen1005"
+    android:layout_height="@dimen/dimen1005"
+    android:scaleType="fitCenter"
+    whatsapp:attr0838="@drawable/ic_announcement"
+    whatsapp:attr090d="?attr0a44"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

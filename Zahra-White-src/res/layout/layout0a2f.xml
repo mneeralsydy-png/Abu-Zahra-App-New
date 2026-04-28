@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    android:layout_width="@dimen/dimen0872"
+    android:layout_height="@dimen/dimen0870"
+    style="?attr01d5"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

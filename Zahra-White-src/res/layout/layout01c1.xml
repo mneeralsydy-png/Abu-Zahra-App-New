@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/container"
+    android:clipToPadding="false"
+    android:layout_width="40.0dip"
+    android:layout_height="40.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/selector"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen057f"
+        android:layout_height="@dimen/dimen057f"
+        android:scaleType="fitCenter"
+        app:attr0838="@drawable/shape_category_selected_item" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/icon"
+        android:layout_width="@dimen/dimen00e9"
+        android:layout_height="@dimen/dimen00e9"
+        android:scaleType="fitCenter"
+        app:attr090d="?attr0343" />
+    <View
+        android:layout_gravity="center|right|top"
+        android:id="@id/badge"
+        android:visibility="gone"
+        style="@style/style03bc" />
+</FrameLayout>

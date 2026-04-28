@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="76.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/views_pill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginEnd="8.0dip"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        layout="@layout/layout0fe5" />
+    <FrameLayout
+        android:layout_width="@dimen/dimen0cfe"
+        android:layout_height="@dimen/dimen0cfe"
+        android:layout_marginEnd="8.0dip"
+        app:attr0494="parent"
+        app:attr049b="@id/status_like_button_container"
+        style="@style/style039f">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/status_reply_button"
+            android:background="@null"
+            android:paddingTop="1.5dip"
+            android:focusable="true"
+            android:clickable="false"
+            android:layout_width="@dimen/dimen0cfd"
+            android:layout_height="@dimen/dimen0cfd"
+            android:scaleType="centerInside"
+            android:tint="@color/color08fe"
+            android:contentDescription="@string/str31c8"
+            app:attr0838="@drawable/vec_ic_reply" />
+    </FrameLayout>
+    <include
+        android:layout_gravity="center_vertical"
+        android:id="@id/status_like_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        layout="@layout/layout1010" />
+</androidx.constraintlayout.widget.ConstraintLayout>

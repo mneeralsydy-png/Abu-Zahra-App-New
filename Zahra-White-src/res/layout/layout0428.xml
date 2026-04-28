@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/close_image_view"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="@dimen/dimen103b"
+            android:layout_height="@dimen/dimen103b"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen102e"
+            app:attr0838="@drawable/ic_close" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/dimen1038">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:id="@id/contact_name_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1031"
+                android:layout_marginBottom="@dimen/dimen1031"
+                style="@style/style05aa" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@id/button_div"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039"
+        style="@style/style0358" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/save_contact_view"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str01cd"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f1="spacing_double_plus"
+        app:attr06f2="spacing_double"
+        app:attr06f6="@drawable/wa_ic_account_circle"
+        app:attr06fa="medium"
+        app:attr0702="icon"
+        app:attr0704="spacing_single"
+        app:attr090d="@color/color08df" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/add_to_group_view"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str01ef"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f1="spacing_double_plus"
+        app:attr06f2="spacing_double"
+        app:attr06f6="@drawable/vec_ic_person_add_white"
+        app:attr06fa="medium"
+        app:attr0702="icon"
+        app:attr0704="spacing_single"
+        app:attr090d="@color/color08df" />
+</LinearLayout>

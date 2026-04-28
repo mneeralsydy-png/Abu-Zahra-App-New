@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="?attr0a07"
+            android:textColor="?attr0a47"
+            android:gravity="center_horizontal"
+            android:id="@id/triggering_activity_notification_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cea"
+            android:layout_marginBottom="@dimen/dimen0cea"
+            android:text="@string/str355e"
+            android:textAlignment="center" />
+        <RadioGroup
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@id/radio_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle
+                android:id="@id/radio_button_all_notifications"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                app:attr069b="@string/str42ec"
+                app:attr069c="@string/str42ee" />
+            <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle
+                android:id="@id/radio_button_relevant_notifications"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                app:attr069b="@string/str42ed"
+                app:attr069c="@string/str42ef" />
+        </RadioGroup>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

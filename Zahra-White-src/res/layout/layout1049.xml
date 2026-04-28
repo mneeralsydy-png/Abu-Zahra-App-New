@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/details_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/style01a2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/pack_tray_icon"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:scaleType="fitCenter"
+            android:importantForAccessibility="no"
+            app:attr0494="@id/pack_preview_publisher_and_size"
+            app:attr04ad="parent"
+            app:attr04b1="@id/pack_preview_title" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textStyle="bold"
+            android:textColor="?attr066e"
+            android:id="@id/pack_preview_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:textDirection="locale"
+            android:layout_marginStart="@dimen/dimen0cea"
+            app:attr049a="parent"
+            app:attr04ac="@id/pack_tray_icon"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/pack_preview_publisher_and_size"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:textDirection="locale"
+            app:attr049a="@id/pack_preview_title"
+            app:attr04ad="@id/pack_preview_title"
+            app:attr04b0="@id/pack_preview_title"
+            app:attr0a24="wds_font_body2" />
+        <ViewStub
+            android:id="@id/stub_pack_preview_description"
+            android:layout="@layout/layout1047"
+            android:inflatedId="@id/pack_preview_description"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:attr049a="@id/pack_preview_title"
+            app:attr04ad="@id/pack_preview_title"
+            app:attr04b0="@id/pack_preview_publisher_and_size" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <ViewStub
+            android:id="@id/stub_sticker_pack_preview_error"
+            android:layout="@layout/layout099c"
+            android:inflatedId="@id/stub_sticker_pack_preview_error"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.stickers.ui.BottomFadeRecyclerView
+            android:id="@id/sticker_preview_recycler"
+            android:fadingEdgeLength="@dimen/dimen0cea"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:requiresFadingEdge="vertical"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            app:attr003e="@dimen/dimen0da4" />
+        <ViewStub
+            android:id="@id/divider"
+            android:layout="@layout/layout12a5"
+            android:inflatedId="@id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea">
+        <ViewStub
+            android:id="@id/update_pack_container"
+            android:layout="@layout/layout104d"
+            android:inflatedId="@id/update_pack_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b1="parent" />
+        <ViewStub
+            android:id="@id/download_btn"
+            android:layout="@layout/layout104a"
+            android:inflatedId="@id/download_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/update_pack_container" />
+        <ViewStub
+            android:id="@id/stub_pack_download_progress"
+            android:layout="@layout/layout104c"
+            android:inflatedId="@id/stub_pack_download_progress"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            app:attr0494="@id/download_btn"
+            app:attr049a="@id/download_btn"
+            app:attr04ad="@id/download_btn"
+            app:attr04b1="@id/download_btn" />
+        <ViewStub
+            android:id="@id/delete_btn"
+            android:layout="@layout/layout1046"
+            android:inflatedId="@id/delete_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/update_pack_container" />
+        <ViewStub
+            android:id="@id/stub_pack_delete_progress"
+            android:layout="@layout/layout104c"
+            android:inflatedId="@id/stub_pack_delete_progress"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            app:attr0494="@id/delete_btn"
+            app:attr049a="@id/delete_btn"
+            app:attr04ad="@id/delete_btn"
+            app:attr04b1="@id/delete_btn" />
+        <ViewStub
+            android:id="@id/edit_avatar_btn"
+            android:layout="@layout/layout104b"
+            android:inflatedId="@id/edit_avatar_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/update_pack_container" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

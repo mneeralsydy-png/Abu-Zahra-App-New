@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="@dimen/dimen0cee"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a47"
+        android:id="@id/progress_bar_title"
+        android:paddingBottom="@dimen/dimen0cee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_large_title2" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@id/video_download_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        app:attr0432="@color/color08c3"
+        app:attr0936="@color/color089c"
+        app:attr093e="@dimen/dimen0cec" />
+</LinearLayout>

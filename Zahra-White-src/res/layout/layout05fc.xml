@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/cl_main_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/fl_camera_aspect_ratio_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="?attr070d"
+        app:attr0499="H,3:4"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.facebook.smartcapture.components.ContourView
+            android:id="@id/contour_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.facebook.smartcapture.components.RectDetectionVisualizerView
+            android:id="@id/rect_detection_visualizer_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView
+        android:id="@id/iv_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="16.0dip"
+        android:tint="?attr072b"
+        android:contentDescription="@string/str3ced"
+        android:rotationY="@integer/integer003c"
+        android:layout_marginStart="16.0dip"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <TextView
+        android:textSize="18.0sp"
+        android:textColor="?attr072b"
+        android:gravity="center"
+        android:id="@id/help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginEnd="16.0dip"
+        app:attr0494="@id/iv_back_button"
+        app:attr049a="parent"
+        app:attr04b1="@id/iv_back_button" />
+    <com.facebook.smartcapture.ui.TextTipView
+        android:id="@id/text_tip_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/iv_back_button" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/cl_bottom_actions_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent">
+        <ImageButton
+            android:id="@id/btn_shutter"
+            android:background="@drawable/sc_btn_shutter"
+            android:layout_width="@dimen/dimen0ca8"
+            android:layout_height="@dimen/dimen0ca8"
+            android:layout_margin="@dimen/dimen0ca9"
+            android:contentDescription="@string/str3cee"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/pb_shutter_loading"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:indeterminate="true"
+            app:attr0494="@id/btn_shutter"
+            app:attr049a="@id/btn_shutter"
+            app:attr04ad="@id/btn_shutter"
+            app:attr04b1="@id/btn_shutter" />
+        <ProgressBar
+            android:id="@id/pb_shutter_motion_sensor_guidance"
+            android:layout_width="@dimen/dimen0ca8"
+            android:layout_height="@dimen/dimen0ca8"
+            android:layout_margin="@dimen/dimen0ca9"
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/btn_shutter_motion_sensor_guidance"
+            android:alpha="0.0"
+            app:attr0494="@id/btn_shutter"
+            app:attr049a="@id/btn_shutter"
+            app:attr04ad="@id/btn_shutter"
+            app:attr04b1="@id/btn_shutter"
+            style="progressBarStyleHorizontal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.facebook.smartcapture.ui.PhotoRequirementsView
+        android:id="@id/photo_requirements_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

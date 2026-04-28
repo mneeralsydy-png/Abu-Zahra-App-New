@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.contactphotos.contact.photos.MultiContactThumbnail
+        android:id="@id/photo_view"
+        android:layout_width="@dimen/dimen0cca"
+        android:layout_height="@dimen/dimen0cca"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0494="@id/description"
+        app:attr04ad="parent"
+        app:attr04b1="@id/title"
+        app:attr0568="0.75dip"
+        app:attr0569="20.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05c5"
+        android:textColor="?attr066e"
+        android:ellipsize="end"
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:text="@string/str08b8"
+        android:maxLines="1"
+        android:textDirection="locale"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr049b="@id/more_button"
+        app:attr04ac="@id/photo_view"
+        app:attr04b1="parent"
+        app:attr04b3="packed" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05c3"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/description"
+        android:focusable="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:maxLines="1"
+        android:textDirection="locale"
+        app:attr0494="parent"
+        app:attr049a="@id/title"
+        app:attr04ad="@id/title"
+        app:attr04b0="@id/title" />
+    <ViewStub
+        android:id="@id/header_divider"
+        android:layout="@layout/layout0d5f"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0494="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/more_button"
+        android:background="@drawable/pre_call_more_button_background"
+        android:padding="@dimen/dimen0193"
+        android:layout_width="@dimen/dimen0194"
+        android:layout_height="@dimen/dimen0194"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0494="@id/description"
+        app:attr049a="parent"
+        app:attr04b1="@id/title"
+        app:attr0838="@drawable/ic_keyboard_arrow_up"
+        app:attr090d="@color/color08df" />
+</androidx.constraintlayout.widget.ConstraintLayout>

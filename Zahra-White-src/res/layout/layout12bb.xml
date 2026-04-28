@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:ellipsize="end"
+    android:gravity="left"
+    android:id="@id/silenced_reason_label"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:maxLines="2"
+    app:attr0494="parent"
+    app:attr04a7="parent"
+    app:attr04ab="parent"
+    app:attr04b0="@id/subtitle"
+    app:attr0a24="wds_font_body2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

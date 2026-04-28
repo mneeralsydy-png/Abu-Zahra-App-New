@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:background="@drawable/media_caption_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/left_button_spacer"
+        android:layout="@layout/layout11b4"
+        android:inflatedId="@id/left_button_spacer"
+        android:layout_width="@dimen/dimen0217"
+        android:layout_height="0.0dip" />
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/left_button_holder"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/counter"
+            android:layout="@layout/layout11ae"
+            android:inflatedId="@id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/emoji_picker_btn"
+            android:layout="@layout/layout11af"
+            android:inflatedId="@id/emoji_picker_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/keyboard_btn"
+            android:layout="@layout/layout11af"
+            android:inflatedId="@id/keyboard_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/add_button"
+            android:layout="@layout/layout11ac"
+            android:inflatedId="@id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.whatsapp.mentions.ui.MentionableEntry
+        android:scrollbarThumbVertical="?attr0a46"
+        android:textColor="?attr0571"
+        android:textColorHint="?attr056f"
+        android:layout_gravity="center_vertical"
+        android:id="@id/caption"
+        android:background="@color/color0148"
+        android:paddingTop="@dimen/dimen021a"
+        android:paddingBottom="@dimen/dimen021a"
+        android:scrollbars="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen0218"
+        android:hint="@string/str3d3a"
+        android:maxLines="6"
+        android:layout_weight="1.0"
+        style="?attr02fe" />
+    <ViewStub
+        android:id="@id/view_once_toggle_spacer"
+        android:layout="@layout/layout11b4"
+        android:inflatedId="@id/view_once_toggle_spacer"
+        android:layout_width="@dimen/dimen0219"
+        android:layout_height="0.0dip" />
+    <ViewStub
+        android:id="@id/view_once_toggle"
+        android:layout="@layout/layout11ba"
+        android:inflatedId="@id/view_once_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/status_mentions"
+        android:layout="@layout/layout11b5"
+        android:inflatedId="@id/status_mentions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</merge>

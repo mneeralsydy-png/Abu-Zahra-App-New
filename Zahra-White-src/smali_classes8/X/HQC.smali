@@ -1,0 +1,26 @@
+.class public final LX/HQC;
+.super LX/55d;
+.source ""
+
+# interfaces
+.implements LX/K1K;
+
+
+# virtual methods
+.method public Alt()LX/I8B;
+    .locals 3
+
+    iget-object v2, p0, LX/55d;->A00:LX/5nx;
+
+    sget-object v1, LX/I8B;->A01:LX/I8B;
+
+    const v0, -0x5b7af38
+
+    invoke-interface {v2, v1, v0}, LX/5iU;->Ai8(Ljava/lang/Enum;I)Ljava/lang/Enum;
+
+    move-result-object v0
+
+    check-cast v0, LX/I8B;
+
+    return-object v0
+.end method

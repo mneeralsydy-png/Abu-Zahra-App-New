@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/body"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/photo"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_marginRight="@dimen/dimen0cea"
+        android:src="@drawable/wa_ic_check_circle_filled"
+        android:tint="@color/info"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08dd"
+        android:ellipsize="end"
+        android:id="@id/status"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_marginRight="@dimen/dimen0cea"
+        android:lines="1"
+        app:attr049a="parent"
+        app:attr04ac="@id/photo"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style05a7" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr066e"
+        android:ellipsize="end"
+        android:id="@id/status_message"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_marginRight="@dimen/dimen0cea"
+        app:attr049a="parent"
+        app:attr04ac="@id/photo"
+        app:attr04b0="@id/status"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/date"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_marginRight="@dimen/dimen0cea"
+        android:lines="1"
+        app:attr049a="parent"
+        app:attr04ac="@id/photo"
+        app:attr04b0="@id/status_message"
+        app:attr0a24="wds_font_body3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

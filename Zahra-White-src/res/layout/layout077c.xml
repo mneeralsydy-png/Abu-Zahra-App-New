@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.status.layouts.custom.LayoutGridView
+        android:id="@id/layout_grid_view"
+        android:background="@drawable/layouts_holder_bg_rounded"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0724"
+        app:attr0494="parent"
+        app:attr04b1="parent" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0432="@color/color08bd"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

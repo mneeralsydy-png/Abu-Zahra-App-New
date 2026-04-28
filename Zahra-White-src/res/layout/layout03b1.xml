@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:background="@color/color0806"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen102e"
+            android:src="@drawable/wa_wordmark"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/consent_age_ban_image"
+            android:layout_width="88.0dip"
+            android:layout_height="88.0dip"
+            android:src="@drawable/wds_picto_age_ban"
+            app:attr0495="@id/consent_age_ban_title"
+            app:attr049a="@id/consent_age_ban_title"
+            app:attr04ad="@id/consent_age_ban_title"
+            app:attr04b1="parent"
+            app:attr04b3="packed" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fc0"
+            android:textColor="@color/color0897"
+            android:gravity="center"
+            android:id="@id/consent_age_ban_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen103b"
+            app:attr0495="@id/consent_age_ban_cta"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/consent_age_ban_image"
+            app:attr0a24="wds_font_headline1" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/consent_age_ban_cta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr049a="@id/consent_age_ban_title"
+            app:attr04ad="@id/consent_age_ban_title"
+            app:attr04b0="@id/consent_age_ban_title" />
+        <ViewStub
+            android:id="@id/consent_age_remediation_viewstub"
+            android:layout="@layout/layout03b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen103b"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/consent_age_ban_cta" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

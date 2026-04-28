@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:layout_gravity="center|left"
+            android:id="@id/conversations_row_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr08d4" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:layout_gravity="center_vertical"
+        android:id="@id/conversations_row_date"
+        android:paddingLeft="@dimen/dimen069c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        app:attr0a24="wds_font_body3" />
+    <ViewStub
+        android:gravity="right"
+        android:layout_gravity="center_vertical"
+        android:id="@id/conversations_row_important_indicator"
+        android:paddingLeft="@dimen/dimen069c"
+        android:layout="@layout/layout11dc"
+        android:inflatedId="@id/conversations_row_important_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:gravity="right"
+        android:layout_gravity="center_vertical"
+        android:id="@id/conversations_row_unread_indicator"
+        android:paddingLeft="@dimen/dimen069c"
+        android:layout="@layout/layout11ec"
+        android:inflatedId="@id/conversations_row_unread_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1030" />
+    <ViewStub
+        android:gravity="right"
+        android:layout_gravity="center_vertical"
+        android:id="@id/conversations_row_chevron"
+        android:paddingLeft="@dimen/dimen069c"
+        android:layout="@layout/layout11c4"
+        android:inflatedId="@id/conversations_row_chevron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1030" />
+</merge>

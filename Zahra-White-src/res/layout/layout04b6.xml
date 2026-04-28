@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/progress_bar"
+        android:layout="@layout/layout034d"
+        android:inflatedId="@id/progress_bar"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/cancel_download"
+        android:layout="@layout/layout031a"
+        android:inflatedId="@id/cancel_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr026b"
+        android:ellipsize="none"
+        android:layout_gravity="center"
+        android:id="@id/control_btn"
+        android:background="@null"
+        android:paddingLeft="@dimen/dimen102f"
+        android:paddingRight="@dimen/dimen102f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:drawablePadding="@dimen/dimen03e4"
+        android:textAllCaps="true"
+        app:attr02e9="@drawable/ic_download_white_small"
+        app:attr02ed="?attr0270"
+        app:attr0a24="wds_font_chat_body2" />
+</merge>

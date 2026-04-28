@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/conversations_archive_header"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0395"
+    style="@style/style002f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/archived_row_image"
+        android:layout_width="@dimen/dimen0362"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        app:attr0838="@drawable/ic_archive"
+        app:attr090d="?attr0059" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@id/archived_row"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/str03fa"
+        style="?attr08d4" />
+    <FrameLayout
+        android:gravity="end"
+        android:layout_gravity="center_vertical"
+        android:id="@id/content_indicator_container"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/dimen0747">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="end"
+            android:id="@id/archive_row_important_chat_indicator"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str3efe"
+            android:layout_marginStart="@dimen/dimen03e3"
+            app:attr0838="@drawable/ic_alternate_email_small"
+            app:attr090d="?attr0954" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fbc"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:id="@id/archive_row_counter"
+            android:paddingLeft="@dimen/dimen0419"
+            android:paddingTop="0.0dip"
+            android:paddingRight="@dimen/dimen0419"
+            android:paddingBottom="0.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="21.0dip"
+            android:minHeight="21.0dip"
+            android:layout_marginStart="@dimen/dimen03e3"
+            style="@style/style0030" />
+    </FrameLayout>
+</LinearLayout>

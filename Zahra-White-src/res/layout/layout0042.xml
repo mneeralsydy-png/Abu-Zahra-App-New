@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon
+    android:id="@id/remove_or_deactivate_group_from_community"
+    android:visibility="visible"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04e6="@drawable/vec_ic_do_not_disturb_on"
+    app:attr04e7="?attr0a4f"
+    app:attr04e9="@string/str0182"
+    app:attr04ea="?attr0a4f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

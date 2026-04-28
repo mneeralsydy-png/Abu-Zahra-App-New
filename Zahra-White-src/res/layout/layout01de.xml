@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/branding_divider"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style035a" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/branding_image"
+        android:layout_width="@dimen/dimen0695"
+        android:layout_height="@dimen/dimen0694"
+        android:layout_margin="@dimen/dimen103a"
+        android:src="@drawable/bharat_connect"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/branding_divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

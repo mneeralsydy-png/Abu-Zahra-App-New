@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/scroll_view"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+        android:orientation="vertical"
+        android:id="@id/delete_account_explainer_text_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes"
+        app:attr03eb="@drawable/wds_picto_attention_feedback_negative"
+        app:attr03f0="@string/str3def"
+        app:attr0489="view"
+        app:attr0668="@string/str3d8c"
+        app:attr075c="@string/str3d9b" />
+</ScrollView>

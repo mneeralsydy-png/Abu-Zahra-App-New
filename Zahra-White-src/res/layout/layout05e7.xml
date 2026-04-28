@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/ctwa_icebreaker_prompt"
+    android:paddingTop="8.0dip"
+    android:paddingBottom="8.0dip"
+    android:duplicateParentState="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="48.0dip"
+    android:paddingStart="10.0dip"
+    android:paddingEnd="10.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="16.0sp"
+        android:textColor="?attr066e"
+        android:id="@id/ctwa_icebreaker_prompt_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxWidth="220.0dip"
+        android:layout_weight="1.0"
+        style="?attr09f0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/ctwa_icebreaker_prompt_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:tint="@color/color05ee"
+        android:layout_marginStart="12.0dip"
+        app:attr0838="@drawable/ic_send" />
+</LinearLayout>

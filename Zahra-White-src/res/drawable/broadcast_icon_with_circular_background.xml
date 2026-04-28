@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/icon_background" />
+    <item
+        android:gravity="center"
+        android:id="@id/new_broadcast_icon"
+        android:drawable="@drawable/wds_ic_broadcast_message" />
+</layer-list>

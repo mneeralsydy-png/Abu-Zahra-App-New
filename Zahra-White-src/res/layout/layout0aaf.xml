@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="?attr09f0"
+        android:textColor="?attr0a35"
+        android:linksClickable="false"
+        android:id="@id/transcription_text_view"
+        android:focusable="true"
+        android:clickable="false"
+        android:longClickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_chat_body1" />
+    <ViewStub
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/transcription_expand_icon_stub"
+        android:layout="@layout/layout0ab0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0e14"
+        android:layout_marginEnd="@dimen/dimen0e16" />
+</merge>

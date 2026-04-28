@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:id="@id/shape_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.mediacomposer.mediacomposerdoodle.doodle.common.ui.RoundedCornerFrameLayout
+        android:id="@id/map_container"
+        android:layout_width="@dimen/dimen076f"
+        android:layout_height="@dimen/dimen076f"
+        app:attr00be="@color/color089c"
+        app:attr00c0="1.0dip"
+        app:attr027f="@dimen/dimen0f95">
+        <ViewStub
+            android:id="@id/map_view"
+            android:layout="@layout/layout09fc"
+            android:inflatedId="@id/map_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ViewStub
+            android:id="@id/map_thumbnail"
+            android:layout="@layout/layout09fb"
+            android:inflatedId="@id/map_thumbnail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ImageView
+            android:layout_gravity="bottom|center"
+            android:id="@id/location_marker"
+            android:visibility="gone"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginBottom="@dimen/dimen102d"
+            android:contentDescription="@null" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/map_error_view"
+            android:layout="@layout/layout09f9"
+            android:inflatedId="@id/map_error_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.whatsapp.mediacomposer.mediacomposerdoodle.doodle.common.ui.RoundedCornerFrameLayout>
+    <TextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color089a"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/place_name"
+        android:layout_width="@dimen/dimen076f"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:maxLines="2"
+        android:fontFamily="@dimen/dimen0fcd"
+        android:textAlignment="center"
+        android:letterSpacing="@dimen/dimen0fac" />
+    <TextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color089a"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/place_address"
+        android:layout_width="@dimen/dimen076f"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1035"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:maxLines="2"
+        android:fontFamily="@dimen/dimen0fce"
+        android:textAlignment="center"
+        android:letterSpacing="@dimen/dimen0fb4" />
+</merge>

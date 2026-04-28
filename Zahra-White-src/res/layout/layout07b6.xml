@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/gallery_permissions_denied_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0cf4"
+    android:paddingEnd="@dimen/dimen0cf4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/permissionDeniedIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/wa_ic_filter" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fcf"
+        android:textColor="@color/color05f4"
+        android:id="@id/permissionsDeniedTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ceb"
+        android:text="@string/str15d7"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/permissionDeniedIconImageView" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?android:textColorPrimary"
+        android:id="@id/galleryPermissionsInfoText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:textAlignment="center"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/permissionsDeniedTitleTextView"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/galleryPermisionsDeniedButton"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cef"
+        android:text="@string/str15d4"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/galleryPermissionsInfoText"
+        style="@style/style0555" />
+</androidx.constraintlayout.widget.ConstraintLayout>

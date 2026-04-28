@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:layout_gravity="bottom"
+        android:id="@id/media_recipients_stub"
+        android:inflatedId="@id/media_recipients"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/send"
+        android:background="@drawable/input_circle"
+        android:layout_width="@dimen/dimen08b3"
+        android:layout_height="@dimen/dimen08b3"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:scaleType="center"
+        android:contentDescription="@string/str4217"
+        android:transitionName="@string/str42e7"
+        android:stateListAnimator="@anim/anim0034"
+        app:attr0838="@drawable/input_send"
+        app:attr090d="?attr0a4b" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color09ad"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:layout_gravity="center|right"
+        android:id="@id/mic_slide_to_cancel"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="97.0dip"
+        android:text="@string/str39fb"
+        android:singleLine="true"
+        android:drawablePadding="@dimen/dimen0ce7"
+        app:attr02e9="@drawable/ic_voice_status_slide_to_cancel_layer_list"
+        app:attr02ed="@color/color09ad"
+        app:attr02ee="src_in"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/mic_button"
+        android:padding="@dimen/dimen0ce8"
+        android:layout_width="@dimen/dimen08b3"
+        android:layout_height="@dimen/dimen08b3"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/str4217"
+        android:transitionName="@string/str42e7"
+        android:stateListAnimator="@anim/anim0034"
+        app:attr0838="@drawable/ic_mic_large_filled"
+        app:attr090d="?attr0a4b" />
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.CircularProgressBar
+    android:id="@id/progress_bar"
+    android:layout_width="64.0dip"
+    android:layout_height="64.0dip"
+    android:indeterminateOnly="true"
+    whatsapp:attr028b="@color/color0790"
+    whatsapp:attr028c="?attr0a29"
+    whatsapp:attr0494="parent"
+    whatsapp:attr049a="parent"
+    whatsapp:attr04ad="parent"
+    whatsapp:attr04b1="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

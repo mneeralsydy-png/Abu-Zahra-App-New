@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaFrameLayout
+        android:id="@id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/link_preview_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@id/bar"
+                android:background="?attr0a46"
+                android:layout_width="@dimen/dimen1030"
+                android:layout_height="fill_parent" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingEnd="@dimen/dimen0ce7">
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:id="@id/question_row"
+                    android:paddingTop="@dimen/dimen0ce7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/dimen0ce7">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/question_image_view"
+                        android:layout_width="16.0dip"
+                        android:layout_height="16.0dip"
+                        android:src="@drawable/wa_ic_help"
+                        android:importantForAccessibility="no"
+                        app:attr090d="?attr0a46" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:ellipsize="end"
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/question_text"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:layout_weight="1.0"
+                        android:layout_marginStart="@dimen/dimen0cf0"
+                        app:attr0a24="wds_font_chat_body2" />
+                </LinearLayout>
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textAppearance="?attr09f0"
+                    android:id="@id/response_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen0ce7"
+                    android:layout_marginStart="@dimen/dimen0ce7"
+                    app:attr0a24="wds_font_chat_body1" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.WaFrameLayout>
+</com.whatsapp.ui.wds.components.rounded.frameLayout.WDSRoundedFrameLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="center"
+    android:background="@drawable/qr_code_scan_card"
+    android:padding="@dimen/dimen103a"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.migration.transfer.ui.ExpandingQrCodeView
+        android:id="@id/chat_transfer_qr_code_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr07ef="false" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/chat_transfer_qr_code_image_view_overlay_container"
+        android:background="@drawable/white_circle"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/chat_transfer_qr_code_image_view"
+        app:attr0499="1:1"
+        app:attr049a="@id/chat_transfer_qr_code_image_view"
+        app:attr04a0="0.0dip"
+        app:attr04ad="@id/chat_transfer_qr_code_image_view"
+        app:attr04b1="@id/chat_transfer_qr_code_image_view"
+        app:attr04b6="0.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/chat_transfer_qr_code_image_view_overlay"
+            android:layout_width="@dimen/dimen103b"
+            android:layout_height="@dimen/dimen103b"
+            android:layout_marginTop="30.0dip"
+            android:layout_marginBottom="@dimen/dimen102f"
+            android:scaleType="fitCenter" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08ff"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/chat_transfer_qr_code_reload_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30.0dip"
+            android:text="@string/str0b09"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

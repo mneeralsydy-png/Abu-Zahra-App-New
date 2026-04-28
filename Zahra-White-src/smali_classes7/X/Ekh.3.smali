@@ -1,0 +1,54 @@
+.class public final LX/Ekh;
+.super Ljava/lang/Object;
+.source ""
+
+
+# virtual methods
+.method public equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    const/4 v2, 0x1
+
+    if-eq p0, p1, :cond_0
+
+    instance-of v1, p1, LX/Ekh;
+
+    const/4 v0, 0x0
+
+    if-nez v1, :cond_0
+
+    return v0
+
+    :cond_0
+    return v2
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    const-wide v0, -0x7fffffffffffffffL    # -4.9E-324
+
+    invoke-static {v0, v1}, LX/3bF;->A09(J)I
+
+    move-result v1
+
+    mul-int/lit8 v0, v1, 0x1f
+
+    invoke-static {v0, v1}, LX/3bF;->A05(II)I
+
+    move-result v2
+
+    const v0, -0x800001
+
+    invoke-static {v0}, Ljava/lang/Float;->floatToIntBits(F)I
+
+    move-result v1
+
+    add-int/2addr v2, v1
+
+    mul-int/lit8 v0, v2, 0x1f
+
+    add-int/2addr v0, v1
+
+    return v0
+.end method

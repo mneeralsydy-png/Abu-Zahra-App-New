@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.PagerSlidingTabStrip
+        android:id="@id/payment_qr_tab_strip"
+        android:background="?attr05d7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        whatsapp:attr0687="@color/color0790"
+        whatsapp:attr0688="?attr0a29" />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@id/payment_qr_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

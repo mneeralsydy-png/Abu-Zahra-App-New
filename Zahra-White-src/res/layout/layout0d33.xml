@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/poll_creator_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/toolbar_holder">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:paddingBottom="@dimen/dimen102d"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/poll_creator_options_recycler_view"
+                android:scrollbars="vertical"
+                android:clipToPadding="false"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                app:attr048f="true"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent" />
+            <ViewStub
+                android:id="@id/single_option_top_border_division"
+                android:layout="@layout/layout0f74"
+                android:inflatedId="@id/single_option_top_border_division"
+                android:layout_width="0.0dip"
+                android:layout_height="0.5dip"
+                android:layout_marginTop="@dimen/dimen1039"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/poll_creator_options_recycler_view" />
+            <ViewStub
+                android:id="@id/single_option_control_switch"
+                android:layout="@layout/layout0f73"
+                android:inflatedId="@id/single_option_control_switch"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                app:attr048f="true"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/single_option_top_border_division" />
+            <ViewStub
+                android:id="@id/poll_settings_navigation_stub"
+                android:layout="@layout/layout0d4a"
+                android:inflatedId="@id/poll_settings_navigation"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/single_option_top_border_division" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginBottom="0.0dip"
+        android:layout_centerInParent="true"
+        style="@style/style01a2">
+        <com.whatsapp.ui.wds.components.fab.WDSFab
+            android:id="@id/poll_create_button"
+            android:src="@drawable/input_send"
+            android:contentDescription="@string/str4217"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            style="@style/style055f" />
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:id="@id/poll_create_button_loader"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen0fe7"
+            android:layout_height="@dimen/dimen0fe7"
+            app:attr028b="@color/color0790"
+            app:attr028c="?attr0a59"
+            app:attr0494="@id/poll_create_button"
+            app:attr049a="@id/poll_create_button"
+            app:attr04ad="@id/poll_create_button"
+            app:attr04b1="@id/poll_create_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/in_app_megaphone_background"
+    android:padding="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen102e"
+    android:layout_marginRight="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/megaphone_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="@dimen/dimen103b" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/megaphone_dismiss_button"
+        android:contentDescription="@string/str3e24"
+        app:attr049a="parent"
+        app:attr04b1="@id/megaphone_title"
+        app:attr0838="@drawable/vec_ic_close"
+        app:attr090d="?attr0a46"
+        style="@style/style0572" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="center"
+        android:id="@id/megaphone_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:layout_marginRight="@dimen/dimen1039"
+        app:attr049b="@id/megaphone_dismiss_button"
+        app:attr04ac="@id/megaphone_guideline"
+        app:attr04b1="parent"
+        style="@style/style05a5" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="center"
+        android:id="@id/megaphone_content"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/megaphone_title"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/megaphone_action_button"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/megaphone_content"
+        app:attr09ea="small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

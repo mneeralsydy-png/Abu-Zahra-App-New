@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">‎%d ગ્રૂપ છોડી શકાયા નહિ. ફરી પ્રયત્ન કરો.</item>
+        <item quantity="one">‎%d ગ્રૂપ છોડી શકાયું નહિ. ફરી પ્રયત્ન કરો.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d નોટિફિકેશન</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d નવા નોટિફિકેશન</item>
+        <item quantity="one">%d નવું નોટિફિકેશન</item>
+    </plurals>
+</resources>

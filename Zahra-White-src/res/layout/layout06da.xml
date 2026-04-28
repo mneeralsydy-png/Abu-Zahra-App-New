@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:background="?android:selectableItemBackground"
+    android:padding="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0fdb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/event_call_type_icon"
+        android:layout="@layout/layout06dd"
+        android:inflatedId="@id/event_call_type_icon"
+        android:layout_width="@dimen/dimen0fdb"
+        android:layout_height="@dimen/dimen0fdb"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a47"
+        android:id="@id/event_call_type_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1345"
+        android:singleLine="false"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0495="@id/event_call_type_selection"
+        app:attr049a="parent"
+        app:attr04a3="0.0"
+        app:attr04ac="@id/event_call_type_icon"
+        app:attr04b1="parent"
+        app:attr04c0="@dimen/dimen0cf4"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0905"
+        android:id="@id/event_call_type_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04a3="0.0"
+        app:attr04ac="@id/event_call_type_icon"
+        app:attr04b0="@id/event_call_type_title"
+        app:attr04c0="@dimen/dimen0cf4"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

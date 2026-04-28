@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="?android:selectableItemBackground"
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingRight="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/label_row_icon"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:scaleType="center"
+        android:paddingStart="@dimen/dimen103a"
+        android:paddingEnd="10.469971dip" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:id="@id/label_row_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="@style/style03fa" />
+        <ViewStub
+            android:id="@id/label_row_subtitle_stub"
+            android:layout="@layout/layout0979"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.TriStateCheckBox
+        android:layout_gravity="center_vertical"
+        android:id="@id/label_row_check_box"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

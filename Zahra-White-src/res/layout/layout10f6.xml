@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/universal_tool_switch_button_container"
+        android:layout_width="@dimen/dimen0e46"
+        android:layout_height="@dimen/dimen0e46" />
+    <View
+        android:id="@id/universal_tool_divider"
+        android:background="@drawable/new_text_entry_divider"
+        android:layout_width="@dimen/dimen0cf0"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="@dimen/dimen0ce8" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/universal_tool_recycler_view"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/dimen0ce7"
+        android:paddingEnd="@dimen/dimen0ce7" />
+</merge>

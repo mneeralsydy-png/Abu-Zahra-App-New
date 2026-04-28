@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/search_option_item"
+    android:background="?attr076d"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen103a"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen103b"
+    android:paddingEnd="@dimen/dimen103b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/search_option_icon"
+        android:layout_width="@dimen/dimen0fef"
+        android:layout_height="@dimen/dimen0fef"
+        app:attr090d="?attr0a47" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/search_option_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen102e"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+</LinearLayout>

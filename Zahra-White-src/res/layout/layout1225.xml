@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/call_screen_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/call_background"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+        <RelativeLayout
+            android:id="@id/call_screen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ViewStub
+                android:id="@id/call_grid_stub"
+                android:layout="@layout/layout02bb"
+                android:inflatedId="@id/call_grid"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <ViewStub
+                android:id="@id/call_screen_header_view_stub"
+                android:layout="@layout/layout02e0"
+                android:inflatedId="@id/call_screen_header_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/notification_container"
+                android:inflatedId="@id/notification_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/call_screen_header_view"
+                android:layout_centerInParent="true" />
+            <ViewStub
+                android:id="@id/call_screen_details_stub"
+                android:layout="@layout/layout02dd"
+                android:inflatedId="@id/call_screen_details_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+            <ViewStub
+                android:id="@id/call_participant_raise_hand"
+                android:layout="@layout/layout02b9"
+                android:inflatedId="@id/call_participant_raise_hand"
+                android:layout_width="@dimen/dimen01b4"
+                android:layout_height="@dimen/dimen01b4"
+                android:layout_marginBottom="@dimen/dimen01f2"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="@dimen/dimen01f1"
+                android:layout_alignStart="@id/call_controls_card" />
+            <ViewStub
+                android:id="@id/call_participant_reaction"
+                android:layout="@layout/layout02b9"
+                android:inflatedId="@id/call_participant_reaction"
+                android:layout_width="@dimen/dimen01b4"
+                android:layout_height="@dimen/dimen01b4"
+                android:layout_marginBottom="@dimen/dimen01f2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@id/call_controls_card" />
+            <ViewStub
+                android:id="@id/share_call_link_stub"
+                android:layout="@layout/layout0f4e"
+                android:inflatedId="@id/share_call_link_stub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen01d4"
+                android:layout_marginBottom="@dimen/dimen01d3"
+                android:layout_above="@id/call_screen_details_view"
+                android:layout_centerHorizontal="true" />
+            <ViewStub
+                android:layout_gravity="center|top"
+                android:id="@id/turn_off_video_stub"
+                android:layout="@layout/layout10e6"
+                android:inflatedId="@id/turn_off_video_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:layout_below="@id/call_screen_header_view"
+                android:layout_centerHorizontal="true" />
+            <ViewStub
+                android:id="@id/call_control_card_view_stub"
+                android:layout="@layout/layout1227"
+                android:inflatedId="@id/call_controls_card"
+                android:layout_width="@dimen/dimen01a1"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen019e"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <ViewStub
+                android:id="@id/floating_view_dim_bg_stub_holder"
+                android:layout="@layout/layout074d"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <ViewStub
+                android:id="@id/floating_view_container_stub"
+                android:layout="@layout/layout0745"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <ViewStub
+                android:id="@id/in_call_banner_group"
+                android:layout="@layout/layout0039"
+                android:inflatedId="@id/in_call_banner_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/waiting_room_join_request_toast_stub"
+                android:layout="@layout/layout1257"
+                android:inflatedId="@id/waiting_room_join_request_toast_inflated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+            <ViewStub
+                android:id="@id/ar_effects_header_stub"
+                android:layout="@layout/layout018f"
+                android:inflatedId="@id/ar_effects_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1036"
+                android:layout_marginStart="@dimen/dimen1039"
+                android:layout_marginEnd="@dimen/dimen1039" />
+            <ViewStub
+                android:id="@id/ar_effects_tray_stub"
+                android:layout="@layout/layout019b"
+                android:inflatedId="@id/ar_effects_tray"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout1230" />
+            <ViewStub
+                android:id="@id/bugnub_stub"
+                android:layout="@layout/layout0256"
+                android:inflatedId="@id/calling_bugnub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen016f"
+                android:layout_marginTop="@dimen/dimen0170"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:importantForAccessibility="no"
+                android:layout_marginStart="@dimen/dimen016f"
+                android:layout_alignParentStart="true" />
+            <ViewStub
+                android:id="@id/debug_views_stub"
+                android:layout="@layout/layout1224"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/dimen0ce7"
+                android:layout_below="@id/calling_bugnub"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ViewStub
+        android:id="@id/answer_call_view_stub"
+        android:layout="@layout/layout0185"
+        android:inflatedId="@id/answer_call_view_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0195"
+        android:layout_alignParentBottom="true" />
+    <ViewStub
+        android:id="@id/call_failed_btns_stub"
+        android:inflatedId="@id/call_failed_btns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0195"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

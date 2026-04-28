@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen0e46"
+    android:layout_height="@dimen/dimen0e46"
+    android:layout_marginLeft="@dimen/dimen05d0"
+    android:layout_marginRight="@dimen/dimen05d0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.mediacomposer.doodle.universaltoolpicker.color.ColorToolPickerItemView
+        android:layout_gravity="center"
+        android:id="@id/color_item_view"
+        android:layout_width="@dimen/dimen02b4"
+        android:layout_height="@dimen/dimen02b4" />
+</FrameLayout>

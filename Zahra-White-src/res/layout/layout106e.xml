@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?attr076d"
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingRight="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="center"
+        android:id="@id/storage_usage_chat_contact_photo"
+        android:layout_width="@dimen/dimen0334"
+        android:layout_height="@dimen/dimen0334"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:scaleType="fitCenter"
+        app:attr08a9="true"
+        app:attr08aa="@dimen/dimen0cc5" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:id="@id/storage_usage_chat_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen102e"
+            android:maxLines="1"
+            android:singleLine="true" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:gravity="end|center"
+        android:layout_gravity="end|center"
+        android:id="@id/storage_usage_chat_used_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

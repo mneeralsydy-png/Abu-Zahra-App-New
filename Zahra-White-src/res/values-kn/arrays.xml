@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array001a">
+        <item>ನನಗೆ</item>
+        <item>ನನ್ನನ್ನು ಊಹಿಸಿಕೊಳ್ಳಿ</item>
+    </string-array>
+    <string-array name="array001b">
+        <item>ನನಗೆ</item>
+        <item>ನನ್ನನ್ನು ಊಹಿಸಿಕೊಳ್ಳಿ</item>
+    </string-array>
+</resources>

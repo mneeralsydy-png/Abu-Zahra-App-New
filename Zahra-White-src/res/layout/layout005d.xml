@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+        android:orientation="vertical"
+        android:id="@id/authentication_text_layout"
+        android:paddingTop="@dimen/dimen103b"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr03eb="@drawable/wds_picto_lock_small"
+        app:attr0489="card"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr04b2="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

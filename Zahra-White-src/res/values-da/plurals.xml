@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">Grupperne %d blev ikke forladt. Prøv igen.</item>
+        <item quantity="one">Gruppen %d blev ikke forladt. Prøv igen.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d notifikationer</item>
+        <item quantity="one">%1$d notifikation</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+</resources>

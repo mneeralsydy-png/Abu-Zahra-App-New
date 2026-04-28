@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.contactphotos.contact.photos.MultiContactThumbnail
+        android:id="@id/call_details_contact_photos"
+        android:layout_width="@dimen/dimen01f7"
+        android:layout_height="@dimen/dimen01f7"
+        whatsapp:attr0568="@dimen/dimen01f5"
+        whatsapp:attr0569="@dimen/dimen01f6" />
+    <ViewStub
+        android:id="@id/lonely_state_button_stub"
+        android:layout="@layout/layout02dc"
+        android:inflatedId="@id/lonely_state_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec" />
+</merge>

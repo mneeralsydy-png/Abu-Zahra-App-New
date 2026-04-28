@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen0ce8"
+        android:paddingBottom="@dimen/dimen0ce8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/layout0abc" />
+        <View
+            android:id="@id/row_divider"
+            android:background="@drawable/wds_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginTop="@dimen/dimen0cea"
+            android:layout_marginBottom="@dimen/dimen0cea" />
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_gravity="start"
+                android:orientation="vertical"
+                android:id="@id/uc_action_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/notifications_opt_out_switch_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen0ce7"
+                    app:attr06c6="@string/str35d4"
+                    app:attr06c8="body2"
+                    app:attr06c9="@string/str2f6e"
+                    app:attr06ca="body1"
+                    app:attr06cb="text"
+                    app:attr06e2="compact"
+                    app:attr06ec="wds_switch"
+                    app:attr06f6="@drawable/wa_ic_notifications_1"
+                    app:attr0702="icon" />
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/notifications_opt_out_action_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen0ce7"
+                    app:attr06ca="body1"
+                    app:attr06cb="text"
+                    app:attr06e2="compact"
+                    app:attr06f6="@drawable/wa_ic_notifications_1"
+                    app:attr0702="icon" />
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/marketing_opt_out_switch_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cec"
+                    android:layout_marginEnd="@dimen/dimen0ce7"
+                    app:attr06c6="@string/str1503"
+                    app:attr06c8="body2"
+                    app:attr06c9="@string/str35ca"
+                    app:attr06ca="body1"
+                    app:attr06cb="text"
+                    app:attr06e2="compact"
+                    app:attr06ec="wds_switch"
+                    app:attr06f6="@drawable/ic_campaign"
+                    app:attr0702="icon" />
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/marketing_opt_out_action_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cec"
+                    android:layout_marginEnd="@dimen/dimen0ce7"
+                    app:attr06c8="body2"
+                    app:attr06ca="body1"
+                    app:attr06cb="text"
+                    app:attr06e2="compact"
+                    app:attr06f6="@drawable/ic_campaign"
+                    app:attr0702="icon" />
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/block_action_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cec"
+                    android:layout_marginEnd="@dimen/dimen0ce7"
+                    app:attr06c8="body2"
+                    app:attr06c9="@string/str35c8"
+                    app:attr06ca="body1"
+                    app:attr06e2="compact"
+                    app:attr06f1="spacing_double_plus"
+                    app:attr06f6="@drawable/wa_ic_block"
+                    app:attr06f7="destructive"
+                    app:attr0702="icon"
+                    app:attr0704="spacing_double" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

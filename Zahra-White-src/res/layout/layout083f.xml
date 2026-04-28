@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen102e"
+    android:layout_marginBottom="@dimen/dimen0ce8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.conversation.carousel.CarouselView
+        android:id="@id/citations_carousel_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/citations_date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginBottom="@dimen/dimen0cec"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b0="@id/citations_carousel_recycler_view"
+        style="@style/style0567" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/citations_date_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="2.0dip"
+        app:attr0494="@id/citations_date_view"
+        app:attr049b="@id/citations_date_view"
+        app:attr04b1="@id/citations_date_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

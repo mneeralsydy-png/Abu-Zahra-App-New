@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.divider.WDSDivider
+        android:id="@id/footer_divider"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr02db="thin"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/action_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/footer_divider">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/reshare_icon"
+            android:background="@drawable/status_privacy_gray_circle"
+            android:padding="@dimen/dimen103a"
+            android:layout_width="@dimen/dimen0d24"
+            android:layout_height="@dimen/dimen0d24"
+            app:attr0838="@drawable/vec_ic_repeat"
+            app:attr090d="?attr0a47" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/share_to_fb_icon"
+            android:background="@drawable/status_privacy_gray_circle"
+            android:padding="@dimen/dimen103a"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen0d24"
+            android:layout_height="@dimen/dimen0d24"
+            android:layout_marginStart="@dimen/dimen1039"
+            app:attr0838="@drawable/wds_ic_logo_facebook"
+            app:attr090d="?attr0a47" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/share_to_ig_icon"
+            android:background="@drawable/status_privacy_gray_circle"
+            android:padding="@dimen/dimen103a"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen0d24"
+            android:layout_height="@dimen/dimen0d24"
+            android:layout_marginStart="@dimen/dimen103a"
+            app:attr0838="@drawable/wds_ic_logo_instagram"
+            app:attr090d="?attr0a47" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/action_btn"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:text="@string/str3e2a"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/action_parent"
+        app:attr04b0="@id/footer_divider"
+        app:attr09ea="large"
+        style="@style/style0555" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/actions_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/notifications_and_sounds_row"
+            android:layout="@layout/layout0052"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.chat.info.views.StarredMessageInfoView
+            android:id="@id/starred_messages_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

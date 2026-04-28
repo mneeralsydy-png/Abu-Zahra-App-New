@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/root_container"
+    android:background="@color/color08c5"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/card_container"
+        android:background="@drawable/newsletter_bg_white_background"
+        android:layout_width="280.0dip"
+        android:layout_height="252.0dip">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:id="@id/progress_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="90.0dip">
+            <com.whatsapp.ui.coreui.CircularProgressBar
+                android:visibility="visible"
+                android:layout_width="46.0dip"
+                android:layout_height="46.0dip"
+                android:layout_marginBottom="70.0dip"
+                android:indeterminateOnly="true" />
+        </LinearLayout>
+        <ViewStub
+            android:id="@id/celebration_layout_stub"
+            android:layout="@layout/layout0335"
+            android:inflatedId="@id/celebration_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color0777"
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:id="@id/channel_creation_msg"
+            android:layout_width="232.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22.0dip"
+            android:text="@string/str0e9f" />
+    </FrameLayout>
+</FrameLayout>

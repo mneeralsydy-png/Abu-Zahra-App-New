@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.banners.WDSBanner
+        android:id="@id/reachout_timelock_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0576" />
+</LinearLayout>

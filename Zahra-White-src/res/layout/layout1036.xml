@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:id="@id/sticker_expressions_tab_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/stickers_result_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewStub
+            android:id="@id/multiselect_toolbar_stub"
+            android:layout="@layout/layout1037"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/items"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@id/snack_bar_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/sticker_tray_footer"
+            android:layout="@layout/layout1063"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/sticker_tray_footer_dynamic_thumbnails"
+            android:layout="@layout/layout1064"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/stickers_search_no_results_stub"
+        android:paddingTop="@dimen/dimen0d8a"
+        android:layout="@layout/layout1033"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/stickers_tab_empty_stub"
+        android:layout="@layout/layout1034"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

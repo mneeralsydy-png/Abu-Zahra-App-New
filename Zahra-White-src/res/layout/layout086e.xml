@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View
+    android:id="@id/imagine_icebreaker_image_placeholder"
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dip"
+    app:attr04ad="parent"
+    app:attr04b1="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

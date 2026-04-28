@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dimen0cee"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/dimen0cee"
+    android:paddingEnd="@dimen/dimen0cee"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:padding="@dimen/dimen1039"
+        android:layout_width="88.0dip"
+        android:layout_height="88.0dip"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:attr0838="@drawable/wds_picto_business" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center_horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:text="@string/str1e5f"
+                android:textAlignment="center"
+                app:attr0a24="wds_font_headline1"
+                style="@style/style05aa" />
+            <com.whatsapp.ui.coreui.FAQTextView
+                android:textColor="@color/color08de"
+                android:gravity="center_horizontal"
+                android:id="@id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:textAlignment="center"
+                style="@style/style05a6" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/business_account_benefits_layout"
+                android:layout="@layout/layout0af6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/primary_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:text="@string/str167c" />
+</LinearLayout>

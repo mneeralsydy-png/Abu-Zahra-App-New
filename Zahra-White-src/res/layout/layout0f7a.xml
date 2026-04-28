@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/business_profile_info_activity_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            style="@style/style0282" />
+        <com.whatsapp.ui.coreui.InfoCard
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr040b="?attr0a59"
+            style="@style/style0256">
+            <com.whatsapp.business.biz.BusinessHoursView
+                android:id="@id/business_hours"
+                android:visibility="gone"
+                style="@style/style0132" />
+            <com.whatsapp.business.biz.BusinessProfileFieldView
+                android:id="@id/business_categories"
+                android:visibility="gone"
+                app:attr00e7="@drawable/ic_category"
+                style="@style/style0132" />
+            <com.whatsapp.business.biz.BusinessProfileFieldView
+                android:id="@id/business_description_v2"
+                android:visibility="gone"
+                android:paddingEnd="@dimen/dimen0a26"
+                app:attr00e7="@drawable/ic_store"
+                style="@style/style0132" />
+            <com.whatsapp.business.biz.BusinessProfileFieldView
+                android:id="@id/business_location"
+                android:visibility="gone"
+                app:attr00e7="@drawable/ic_location_on"
+                style="@style/style0132" />
+            <com.whatsapp.business.biz.BusinessProfileFieldView
+                android:id="@id/business_link"
+                android:tag="website"
+                android:visibility="gone"
+                app:attr00e5="end"
+                app:attr00e7="@drawable/ic_public"
+                app:attr00e8="true"
+                style="@style/style0132" />
+            <com.whatsapp.business.biz.BusinessProfileFieldView
+                android:id="@id/business_link_2"
+                android:tag="website"
+                android:visibility="gone"
+                app:attr00e5="end"
+                app:attr00e7="@drawable/ic_public"
+                app:attr00e8="true"
+                style="@style/style0132" />
+            <com.whatsapp.business.biz.BusinessProfileFieldView
+                android:id="@id/business_email"
+                android:visibility="gone"
+                app:attr00e5="end"
+                app:attr00e7="@drawable/ic_mail"
+                app:attr00e8="true"
+                style="@style/style0132" />
+        </com.whatsapp.ui.coreui.InfoCard>
+        <com.whatsapp.ui.coreui.InfoCard
+            android:id="@id/brand_link_card"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr040b="?attr0a59"
+            style="@style/style0256">
+            <com.whatsapp.business.biz.BusinessProfileFieldView
+                android:id="@id/brand_link"
+                android:tag="website"
+                android:visibility="gone"
+                app:attr00e5="end"
+                app:attr00e7="@drawable/ic_public"
+                app:attr00e8="true"
+                style="@style/style0132" />
+            <com.whatsapp.business.biz.BusinessProfileFieldView
+                android:id="@id/brand_link_2"
+                android:tag="website"
+                android:visibility="gone"
+                app:attr00e5="end"
+                app:attr00e7="@drawable/ic_public"
+                app:attr00e8="true"
+                style="@style/style0132" />
+        </com.whatsapp.ui.coreui.InfoCard>
+    </LinearLayout>
+</ScrollView>

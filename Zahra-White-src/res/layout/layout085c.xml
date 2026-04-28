@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:id="@id/ai_editor_loader"
+    android:background="?attr0a5c"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/ai_editor_loader_lottie_stub"
+        android:layout="@layout/layout0137"
+        android:inflatedId="@id/generating_animation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/ai_editor_loader_static_stub"
+        android:layout="@layout/layout0138"
+        android:inflatedId="@id/ai_editor_loader_static"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

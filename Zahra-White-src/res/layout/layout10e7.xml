@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/two_fa_help_dialog_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str359f"
+            app:attr0a24="wds_font_body2" />
+    </ScrollView>
+    <androidx.appcompat.widget.ButtonBarLayout
+        android:gravity="end|bottom|center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen103a"
+        android:paddingTop="@dimen/dimen1030"
+        android:paddingRight="@dimen/dimen103a"
+        android:paddingBottom="@dimen/dimen1030"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/positive_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str35a8"
+            app:attr096b="borderless"
+            style="?attr00fe" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str3d9b"
+            app:attr096b="borderless"
+            style="?attr00fc" />
+        <Space
+            android:id="@id/spacer"
+            android:visibility="invisible"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/reset_account_button"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str359e"
+            app:attr096b="borderless"
+            style="?attr00fd" />
+    </androidx.appcompat.widget.ButtonBarLayout>
+</LinearLayout>

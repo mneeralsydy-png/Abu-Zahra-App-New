@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.calling.ui.lightweightcalling.view.AudioChatBottomSheetFooterView
+    android:gravity="center"
+    android:paddingTop="@dimen/dimen0cea"
+    android:paddingBottom="@dimen/dimen0ceb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0cea"
+    android:paddingEnd="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

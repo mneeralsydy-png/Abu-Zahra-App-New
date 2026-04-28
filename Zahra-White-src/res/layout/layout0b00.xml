@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:orientation="horizontal"
+    android:background="?attr0589"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/mute_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen08e5"
+        android:layout_marginBottom="@dimen/dimen08e5"
+        android:layout_marginStart="@dimen/dimen08e4"
+        android:layout_marginEnd="@dimen/dimen08e4"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_voip_mute_filled_selector"
+        app:attr0441="true"
+        app:attr0922="calling"
+        app:attr096b="tonal" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/title_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:importantForAccessibility="yes">
+        <ViewStub
+            android:id="@id/audio_wave_view_stub"
+            android:layout="@layout/layout0a1c"
+            android:inflatedId="@id/audio_wave"
+            android:layout_width="@dimen/dimen0789"
+            android:layout_height="@dimen/dimen0787"
+            android:layout_marginEnd="@dimen/dimen0ce7" />
+        <ViewStub
+            android:id="@id/dots_wave_view_stub"
+            android:layout="@layout/layout11fb"
+            android:layout_width="@dimen/dimen0789"
+            android:layout_height="@dimen/dimen0787"
+            android:layout_marginEnd="@dimen/dimen0ce7" />
+        <ViewStub
+            android:id="@id/call_av_icon"
+            android:layout="@layout/layout0afe"
+            android:layout_width="@dimen/dimen08e3"
+            android:layout_height="@dimen/dimen08e2"
+            android:layout_marginEnd="@dimen/dimen0cec" />
+        <ViewStub
+            android:id="@id/waiting_room_content_stub"
+            android:layout="@layout/layout0aff"
+            android:inflatedId="@id/waiting_room_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr058a"
+            android:ellipsize="middle"
+            android:id="@id/title"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            app:attr0a24="wds_font_body2_emphasized"
+            style="@style/style05a7" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/end_call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen08e5"
+        android:layout_marginBottom="@dimen/dimen08e5"
+        android:layout_marginStart="@dimen/dimen08e4"
+        android:layout_marginEnd="@dimen/dimen08e4"
+        app:attr0009="calling"
+        app:attr0411="@drawable/vec_ic_close"
+        app:attr0441="true"
+        app:attr096b="tonal" />
+</merge>

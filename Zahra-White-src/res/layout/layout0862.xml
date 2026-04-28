@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/no_media"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    whatsapp:attr0494="parent"
+    whatsapp:attr049a="parent"
+    whatsapp:attr04ad="parent"
+    whatsapp:attr04b1="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <include
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/gallery_permissions_denied_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout07b6" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/old_empty_state_stub"
+        android:layout="@layout/layout0c2c"
+        android:inflatedId="@id/old_empty_state_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/new_empty_state_stub"
+        android:layout="@layout/layout0b96"
+        android:inflatedId="@id/new_empty_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/contact_info_security_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0257"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/newsletter_public_card_consumer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e2="@string/str2a0f"
+            app:attr04e6="@drawable/ic_public"
+            app:attr04e7="@color/color08de"
+            app:attr04e9="@string/str2a11" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/newsletter_public_card_producer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e2="@string/str2a10"
+            app:attr04e6="@drawable/ic_public"
+            app:attr04e7="@color/color08de"
+            app:attr04e9="@string/str2a11" />
+        <ViewStub
+            android:id="@id/newsletter_wamo_sub_management_stub"
+            android:layout="@layout/layout0c05"
+            android:inflatedId="@id/newsletter_wamo_sub_management_inflated"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/newsletter_profile_privacy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e2="@string/str2095"
+            app:attr04e6="@drawable/ic_dialpad"
+            app:attr04e7="@color/color08de"
+            app:attr04e9="@string/str2096" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/newsletter_settings"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_settings"
+            app:attr04e7="@color/color08de"
+            app:attr04e9="@string/str2118" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/newsletter_alerts"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_warning"
+            app:attr04e7="@color/color08de"
+            app:attr04e9="@string/str2092" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/wamosub_settings_button"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_settings"
+            app:attr04e7="@color/color08de"
+            app:attr04e9="@string/str4327" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

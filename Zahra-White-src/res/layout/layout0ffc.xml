@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/question_posting_container"
+    android:background="@color/color08a0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/question_posting_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1039"
+        android:text="@string/str3d9b"
+        android:contentDescription="@string/str3d9b"
+        app:attr0009="media"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr096b="tonal"
+        app:attr09ea="normal" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:enabled="false"
+        android:id="@id/question_posting_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1039"
+        android:text="@string/str3e2a"
+        android:contentDescription="@string/str3e2a"
+        app:attr0009="media"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr096b="filled"
+        app:attr09ea="normal" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/question_posting_sticker_container"
+        android:background="@drawable/status_question_shape_background"
+        android:paddingTop="@dimen/dimen1039"
+        android:layout_width="@dimen/dimen0d30"
+        android:layout_height="wrap_content"
+        app:attr0495="@id/question_posting_disclaimer"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr04b3="packed">
+        <com.whatsapp.ui.coreui.WaEditText
+            android:textSize="@dimen/dimen1043"
+            android:textColor="@color/color08c2"
+            android:textColorHint="@color/color08e0"
+            android:id="@id/question_posting_input"
+            android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen103a"
+            android:hint="@string/str31bb"
+            android:maxLines="3"
+            android:inputType="textCapSentences|textMultiLine"
+            android:imeOptions="actionSend"
+            android:textAlignment="center"
+            style="@style/style05a4" />
+        <include
+            android:layout_width="@dimen/dimen0d30"
+            android:layout_height="wrap_content"
+            layout="@layout/layout0ffe" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color09a6"
+        android:id="@id/question_posting_disclaimer"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str31ba"
+        android:shadowColor="@color/color089a"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:textAlignment="center"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/question_posting_sticker_container"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

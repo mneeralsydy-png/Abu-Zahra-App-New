@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="0.0dip"
+    android:layout_height="0.0dip"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/chat_lock_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cee"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            app:attr0838="@drawable/ic_chat_lock_settings" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:gravity="center"
+            android:id="@id/chat_lock_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            android:text="@string/str0aa4"
+            android:paddingStart="@dimen/dimen0b5e"
+            android:paddingEnd="@dimen/dimen0b5e"
+            style="@style/style0411" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:id="@id/chat_lock_description"
+            android:paddingBottom="@dimen/dimen0cee"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0b5e"
+            android:paddingEnd="@dimen/dimen0b5e" />
+        <View
+            android:layout_marginTop="@dimen/dimen0b62"
+            android:layout_marginBottom="@dimen/dimen0b62"
+            style="@style/style0355" />
+        <com.whatsapp.settings.SettingsRowIconText
+            android:id="@id/unlock_and_clear_setting"
+            android:background="?attr076d"
+            android:paddingTop="@dimen/dimen0cee"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0275"
+            app:attr07aa="@string/str0ab1"
+            app:attr07ab="@string/str0ab2"
+            style="?attr07a6" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.catalog.biz.view.AvailabilityStateTextView
+    android:textStyle="bold"
+    android:paddingTop="@dimen/dimen0b73"
+    android:paddingBottom="@dimen/dimen0b73"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/dimen0b70"
+    android:minHeight="@dimen/dimen0b70"
+    android:paddingStart="@dimen/dimen0b72"
+    android:paddingEnd="@dimen/dimen0b72"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

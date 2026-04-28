@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid
+                android:color="@color/top" />
+            <size
+                android:height="@dimen/dimen1012"
+                android:width="@dimen/dimen1012" />
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/vec_ic_warning_filled" />
+</layer-list>

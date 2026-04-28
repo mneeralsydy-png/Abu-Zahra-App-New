@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="abo3rab_alert1" parent="@style/style0023">
+        <item name="android:windowBackground">@drawable/abu_arab_dialog_background</item>
+        <item name="android:layoutDirection">rtl</item>
+    </style>
+    <style name="AlertDialogTheme" parent="@style/style0023">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:layoutDirection">rtl</item>
+    </style>
+</resources>

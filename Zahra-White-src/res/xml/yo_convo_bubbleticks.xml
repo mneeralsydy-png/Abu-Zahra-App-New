@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/yoStyling">
+        <com.whatsapp.yo.ImageListPreference
+            android:icon="@drawable/abo_arab_ic_blue"
+            android:entries="@array/tick_style_entries"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/Ticks"
+            android:key="tick_style"
+            android:summary="@string/TicksSum"
+            android:defaultValue="stockorg"
+            android:entryValues="@array/tick_style_values"
+            app:entryImages="@array/tick_style_valuesI" />
+        <com.whatsapp.yo.ImageListPreference
+            android:icon="@drawable/abo_arab_bubbles"
+            android:entries="@array/conversation_bubbleStyleList"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/Bubbles"
+            android:key="bubble_style"
+            android:summary="@string/BubblesSum"
+            android:defaultValue="yousef"
+            android:entryValues="@array/conversation_bubbleStyleListValues"
+            app:entryImages="@array/conversation_bubbleStyleListValuesI" />
+        <com.whatsapp.yo.SeekBarPreference
+            android:max="30"
+            android:title="@string/chat_text_size"
+            android:key="text_size_pick"
+            android:summary="@string/chat_text_size_summary"
+            android:defaultValue="15"
+            app:unitsLeft=""
+            app:unitsRight="sp"
+            app:min="10" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/yoColors">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_bubbletickscollor"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoconvback"
+            android:key="key_hide_wallpaper_convo_view"
+            android:summary="@string/yoconvobackS" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_bubbletickscollor"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoconvback"
+            android:key="ConvoBack"
+            android:summary="@string/yoconvobackS"
+            android:dependency="key_hide_wallpaper_convo_view" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_bolhadireita"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/acj_right_bubble"
+            android:key="ModChatRightBubble"
+            android:summary="@string/acj_right_bubble_sum" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_textobolha"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/acj_chat_text"
+            android:key="ModChatBubbleText"
+            android:summary="@string/acj_chat_text_sum" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_bolhahora"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoRightTime"
+            android:key="date_right_color"
+            android:summary="@string/yoRightTimeS" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_bolhaesquerda"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/acj_left_bubble"
+            android:key="ModChatLeftBubble"
+            android:summary="@string/acj_left_bubble_sum" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_textobolha"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/acj_chat_textLeft"
+            android:key="ModChatBubbleTextLeft"
+            android:summary="@string/acj_chat_text_sumleft" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_bolhahora"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoLeftTime"
+            android:key="date_left_color"
+            android:summary="@string/yoLeftTimeS" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_msgdeleted"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoRevokedIconColor"
+            android:key="rvkdmsg_icon_color"
+            android:summary="@string/yoRevokedIconColorS" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_ic_divisor"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/quoteDivColor"
+            android:key="quoted_divider_picker" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_ic_name"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/quoteNameColor"
+            android:key="quoted_name_picker" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_msgcitada"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/quoteMsgColor"
+            android:key="quoted_text_picker" />
+        <com.whatsapp.yo.ColorPref
+            android:icon="@drawable/abo_arab_msgbg"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/quoteBackColor"
+            android:key="quoted_bg_picker" />
+    </PreferenceCategory>
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_selectext"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoTxtSelect"
+        android:key="TxtSelect"
+        android:summary="@string/yoTxtSelectSum"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_readmore"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/read_moree"
+        android:key="read_more"
+        android:summary="@string/read_moree_sum"
+        android:defaultValue="false" />
+</PreferenceScreen>

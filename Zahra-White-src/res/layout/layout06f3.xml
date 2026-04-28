@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        style="@style/style05a4" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="start"
+            android:id="@id/event_start_date"
+            android:paddingTop="@dimen/dimen0cea"
+            android:paddingBottom="@dimen/dimen1035"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/dimen0cea"
+            android:layout_weight="1.0"
+            android:drawableStart="@drawable/vec_ic_calendar_month"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            style="@style/style0406" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="end"
+            android:id="@id/event_start_time"
+            android:paddingTop="@dimen/dimen0cea"
+            android:paddingBottom="@dimen/dimen1035"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            style="@style/style0406" />
+    </LinearLayout>
+</LinearLayout>

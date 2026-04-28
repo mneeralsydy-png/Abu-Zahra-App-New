@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        style="@style/style0520" />
+    <com.whatsapp.ui.coreui.PagerSlidingTabStrip
+        android:id="@id/contact_qr_tab_strip"
+        android:background="?attr05d7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0687="@color/color0790"
+        app:attr0688="?attr0a29" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@id/contact_qr_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/contact_qr_preview"
+            android:background="?attr0a59"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+</LinearLayout>

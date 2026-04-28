@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:id="@id/pack_preview_description"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0ce7"
+    app:attr0a24="wds_font_body2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

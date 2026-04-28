@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        style="@style/style0266">
+        <LinearLayout
+            style="@style/style0268">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/instrumentation_permission_image"
+                app:attr0838="@drawable/smartglasses_wa"
+                style="@style/style025d" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/instrumentation_permission_image_companion"
+                app:attr0838="@drawable/companion_wa"
+                style="@style/style025e" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/instrumentation_auth_perm_title"
+                android:text="@string/str19ba"
+                style="@style/style0267" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/instrumentation_auth_perm_paragraph_one"
+                android:text="@string/str19b3"
+                style="@style/style0265" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/instrumentation_auth_perm_paragraph_two"
+                android:text="@string/str19b7"
+                style="@style/style025c" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        style="@style/style025a">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/instrumentation_auth_perm_button"
+            android:text="@string/str19b1"
+            style="@style/style025b" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/parent_container"
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dip"
+    android:weightSum="1.0"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scroll_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/content_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="20.0sp"
+                android:textColor="?attr066e"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/send_invite_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:fontFamily="?attr03b8" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/send_invite_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                app:attr0a24="wds_font_body2" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_gravity="center"
+                android:id="@id/invite_contacts_recycler"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip"
+                android:clipToPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip" />
+            <ViewStub
+                android:id="@id/message_field_view_stub"
+                android:layout="@layout/layout0f81"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/action_buttons_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginRight="8.0dip">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/btn_send_invites"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str1a65"
+            style="@style/style0555" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/btn_not_now"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str4087"
+            style="@style/style0557" />
+    </LinearLayout>
+</LinearLayout>

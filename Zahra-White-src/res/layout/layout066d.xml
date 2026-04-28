@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:id="@id/doodle_photo_sticker_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.mediacomposer.doodle.photosticker.PhotoStickerCropView
+        android:id="@id/photo_sticker_crop_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/doodle_photo_sticker_top_bar"
+        android:padding="@dimen/dimen0511"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="@dimen/dimen0fb6"
+            android:gravity="center"
+            android:layout_gravity="start"
+            android:id="@id/photo_sticker_dialog_done"
+            android:paddingLeft="@dimen/dimen0ce7"
+            android:paddingTop="@dimen/dimen0507"
+            android:paddingRight="@dimen/dimen0ce7"
+            android:paddingBottom="@dimen/dimen0507"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/dimen0506"
+            android:minHeight="@dimen/dimen0505"
+            android:text="@string/str3e2a"
+            android:textAllCaps="true"
+            app:attr0009="media"
+            app:attr096b="filled"
+            app:attr09ea="small" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="@dimen/dimen0fb6"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:id="@id/photo_sticker_dialog_cancel"
+            android:paddingLeft="@dimen/dimen0ce7"
+            android:paddingTop="@dimen/dimen0507"
+            android:paddingRight="@dimen/dimen0ce7"
+            android:paddingBottom="@dimen/dimen0507"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/dimen0506"
+            android:minHeight="@dimen/dimen0505"
+            android:text="@string/str3d9b"
+            android:textAllCaps="true"
+            app:attr0009="media"
+            app:attr096b="tonal"
+            app:attr09ea="small" />
+    </FrameLayout>
+    <HorizontalScrollView
+        android:layout_gravity="bottom"
+        android:id="@id/doodle_photo_sticker_crop_items_scroll_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@id/doodle_photo_sticker_crop_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</FrameLayout>

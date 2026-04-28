@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/media_details_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr02dd="gone"
+        app:attr05cb="@drawable/vec_ic_close"
+        app:attr0910="@string/str1c92"
+        app:attr0912="true"
+        style="@style/style05c2" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/message_media_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c8="body2"
+        app:attr06ca="body1"
+        app:attr06f1="spacing_single"
+        app:attr06f2="spacing_single"
+        app:attr0702="icon"
+        app:attr0704="spacing_double" />
+    <com.whatsapp.ui.wds.components.divider.WDSDivider
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1037"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr02db="thin" />
+    <include
+        layout="@layout/layout034a" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@id/media_details_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:max="100"
+        android:indeterminate="false"
+        android:layout_marginStart="@dimen/dimen1037"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0432="@color/color08bd"
+        app:attr0936="@color/color08e5"
+        app:attr0939="2.0dip"
+        app:attr093e="@dimen/dimen1030" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_gravity="top"
+        android:id="@id/media_details_eta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:layout_marginStart="@dimen/dimen1037"
+        android:layout_marginEnd="@dimen/dimen102e"
+        style="@style/style0324" />
+    <ViewStub
+        android:id="@id/media_details_settings_text_stub"
+        android:layout="@layout/layout0a51"
+        android:inflatedId="@id/media_details_settings_text_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

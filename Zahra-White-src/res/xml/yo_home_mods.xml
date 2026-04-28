@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_menu"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoHideDiv"
+        android:key="Hide_div"
+        android:summary="@string/yoHideDivS"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_namehidden"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_settz_extunsavz"
+        android:key="key_hide_unsaved_num"
+        android:summary="@string/abu_arab_settz_extunsavz_sum"
+        android:defaultValue="false" />
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/Forward_Settings">
+        <SwitchPreference
+            android:icon="@drawable/account_remove_outline"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/frequently_contacted"
+            android:key="Hide_contact_picker_section_frequent_chats"
+            android:summary="@string/frequently_contacted_sum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_cttother"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/other_contacts"
+            android:key="Hide_contact_picker_section_other_contacts"
+            android:summary="@string/other_contacts_sum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_cttrecent"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/recent_chats"
+            android:key="Hide_contact_picker_section_recent_chats"
+            android:summary="@string/recent_chats_sum"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

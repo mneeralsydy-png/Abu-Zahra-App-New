@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.contactphotos.contact.photos.MultiContactThumbnail
+        android:id="@id/call_details_contact_photos"
+        android:layout_width="@dimen/dimen01f7"
+        android:layout_height="@dimen/dimen01f7"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr0568="@dimen/dimen01f5"
+        whatsapp:attr0569="@dimen/dimen01f6" />
+    <View
+        android:id="@id/dark_overlay"
+        android:background="@drawable/photo_only_view_dark_overlay"
+        android:layout_width="@dimen/dimen01f7"
+        android:layout_height="@dimen/dimen01f7"
+        android:alpha="0.0"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/call_participant_raise_hand"
+        android:layout="@layout/layout02b9"
+        android:inflatedId="@id/call_participant_raise_hand"
+        android:layout_width="@dimen/dimen01b4"
+        android:layout_height="@dimen/dimen01b4"
+        android:layout_marginTop="@dimen/dimen01f1"
+        android:layout_marginBottom="@dimen/dimen01f1"
+        android:layout_marginStart="@dimen/dimen01f1"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ad="parent" />
+    <ViewStub
+        android:id="@id/call_participant_reaction"
+        android:layout="@layout/layout02b9"
+        android:inflatedId="@id/call_participant_reaction"
+        android:layout_width="@dimen/dimen01b4"
+        android:layout_height="@dimen/dimen01b4"
+        android:layout_marginTop="@dimen/dimen01f1"
+        android:layout_marginBottom="@dimen/dimen01f1"
+        android:layout_marginStart="@dimen/dimen01f1"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ac="@id/call_participant_raise_hand" />
+</androidx.constraintlayout.widget.ConstraintLayout>

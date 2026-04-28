@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="bottom"
+    android:layout_gravity="bottom|center"
+    android:orientation="vertical"
+    android:id="@id/filter_bottom_sheet_content_new"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@id/tab_content_container"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen05b2">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_gravity="center|top"
+                android:id="@id/filter_selector_new"
+                android:paddingLeft="@dimen/dimen05b1"
+                android:paddingTop="@dimen/dimen05b4"
+                android:paddingRight="@dimen/dimen05b1"
+                android:paddingBottom="@dimen/dimen05b4"
+                android:visibility="gone"
+                android:clipToPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen08cd" />
+            <ViewStub
+                android:id="@id/styles_selector_stub"
+                android:layout="@layout/layout107e"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <ViewStub
+                android:id="@id/edit_selector_stub"
+                android:layout="@layout/layout0687"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+        <ViewStub
+            android:layout_gravity="bottom"
+            android:id="@id/ai_editor_tabs_stub"
+            android:layout="@layout/layout013a"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.metaai.imagine.InputPrompt
+            android:id="@id/imagine_input_prompt"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1039"
+            app:attr007a="@color/color090a"
+            app:attr0100="@color/color092f"
+            app:attr0104="@color/color08c2"
+            app:attr06c4="true"
+            app:attr08e0="@color/color08c4" />
+        <View
+            android:id="@id/bottom_spacing"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip" />
+    </LinearLayout>
+</FrameLayout>

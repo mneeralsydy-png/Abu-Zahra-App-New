@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/call_full_info_button_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cc9"
+        android:layout_marginTop="@dimen/dimen0cc9"
+        android:layout_marginRight="@dimen/dimen0cc9"
+        android:minHeight="44.0dip">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a2f"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen01b0"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginRight="@dimen/dimen01b0"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:lineSpacingExtra="2.0dip"
+            app:attr03ae="?attr03b6"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+</FrameLayout>

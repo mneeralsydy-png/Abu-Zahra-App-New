@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@id/delete_account_other_options_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:text="@string/str3dee"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/delete_account_change_device_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str0f7e"
+        app:attr06f6="@drawable/ic_send_to_mobile"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/delete_account_change_number_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str2ee3"
+        app:attr06f6="@drawable/call_log_bubble_voice_call_outgoing"
+        app:attr0702="icon" />
+</LinearLayout>

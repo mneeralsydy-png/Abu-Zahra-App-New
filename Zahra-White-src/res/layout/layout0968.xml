@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/order_item_container"
+    android:paddingTop="@dimen/dimen102e"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaDynamicRoundCornerImageView
+        android:id="@id/order_item_image"
+        android:layout_width="@dimen/dimen0a5a"
+        android:layout_height="@dimen/dimen0a59"
+        android:scaleType="centerCrop"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr069e="@dimen/dimen1030" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr009c="end"
+        whatsapp:attr009d="5.0dip"
+        whatsapp:attr0243="order_item_image" />
+    <com.whatsapp.orderstatus.view.SquaredTextView
+        android:textAppearance="@style/style05a9"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/order_item_quantity"
+        android:background="@drawable/order_item_quantity_text_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen1030"
+        android:paddingEnd="@dimen/dimen1030"
+        whatsapp:attr049a="@id/barrier1"
+        whatsapp:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05a4"
+        android:textColor="?attr0a47"
+        android:ellipsize="end"
+        android:id="@id/order_item_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        android:layout_marginStart="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen103a"
+        whatsapp:attr0495="@id/order_item_variant"
+        whatsapp:attr049b="@id/order_item_amount"
+        whatsapp:attr04ac="@id/order_item_image"
+        whatsapp:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05a6"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/order_item_variant"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textDirection="locale"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="@id/order_item_name"
+        whatsapp:attr04ad="@id/order_item_name"
+        whatsapp:attr04b0="@id/order_item_name" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05a4"
+        android:textColor="?attr0a47"
+        android:id="@id/order_item_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        whatsapp:attr0494="@id/order_item_name"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04b1="@id/order_item_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

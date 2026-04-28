@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com">
+    <Preference
+        android:layout="@layout/abu_arab_databases3" />
+    <SwitchPreference
+        android:icon="@drawable/abu_arab_icon_bubbles"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_extsendz"
+        android:key="key_send_hidden_msg"
+        android:summary="@string/abu_arab_extsendzz"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:icon="@drawable/abo_arab_hidenotifs"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/abu_arab_extltz"
+        android:key="key_edit_hidden_msg"
+        android:summary="@string/abu_arab_exthiddenz"
+        android:dependency="key_send_hidden_msg"
+        android:defaultValue="@string/abu_arab_exthiddenz"
+        android:dialogTitle="@string/abu_arab_extltz" />
+    <SwitchPreference
+        android:icon="@drawable/abu_arab_chatmredoc"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_extra_blanktxt"
+        android:key="key_all_white"
+        android:summary="@string/abu_arab_extra_blanktxt_sum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_docsend"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_settz_extnosendz"
+        android:key="key_notsend_msg"
+        android:summary="@string/abu_arab_settz_extnosendz_sum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abu_arab_docsend"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_settz_extnorecptz"
+        android:key="key_notreceive_msg"
+        android:summary="@string/abu_arab_settz_extnorecptz_sum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_imagehidden"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_settz_extnorecptimgz"
+        android:key="key_noreceive_img"
+        android:summary="@string/abu_arab_settz_extnorecptimgz_sum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_mentionborder"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/aboarab_gpmention"
+        android:key="aboarab_mention_member"
+        android:summary="@string/aboarab_gpmention_sum"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:icon="@drawable/abo_arab_ic_mentionborder"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/abu_arab_extraz_menreplyz"
+        android:key="key_reply_mention"
+        android:summary="@string/abu_arab_extraz_menreplyzz"
+        android:dialogTitle="@string/abu_arab_extraz_menreplyz"
+        android:dialogMessage="@string/abu_arab_extraz_menreplyzzz" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_group"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_fix_group_exitend"
+        android:key="key_method_endgp"
+        android:summary="@string/abu_arab_fix_group_exitend_sum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_namehidden"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_settz_extunsavz"
+        android:key="key_hide_unsaved_num"
+        android:summary="@string/abu_arab_settz_extunsavz_sum"
+        android:defaultValue="false" />
+</PreferenceScreen>

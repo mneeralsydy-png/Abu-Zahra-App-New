@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:paddingStart="@dimen/dimen102e"
+            android:paddingEnd="@dimen/dimen102e"
+            app:attr03ee="@string/str2063"
+            app:attr03ef="defaultHeader" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/newsletter_notifications_follower_activity_switch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str1d00"
+            app:attr06ec="wds_switch" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/newsletter_notifications_follower_activity_ringtone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str422f" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/newsletter_notifications_follower_activity_vibrate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str4233" />
+        <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:paddingStart="@dimen/dimen102e"
+            android:paddingEnd="@dimen/dimen102e"
+            app:attr02de="true"
+            app:attr03ee="@string/str1fdd"
+            app:attr03ef="defaultHeader" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/newsletter_notifications_admin_activity_switch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str1d00"
+            app:attr06ec="wds_switch" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/newsletter_notifications_admin_activity_ringtone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str422f" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/newsletter_notifications_admin_activity_vibrate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str4233" />
+    </LinearLayout>
+</ScrollView>

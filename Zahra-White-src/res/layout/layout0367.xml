@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/color_item_view"
+    android:layout_width="@dimen/dimen02b3"
+    android:layout_height="@dimen/dimen02b3"
+    android:layout_margin="@dimen/dimen0dda"
+    android:src="@drawable/color_text_item_foreground"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

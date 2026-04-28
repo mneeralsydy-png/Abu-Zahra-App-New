@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:paddingTop="@dimen/dimen103b"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:overScrollMode="never">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_gravity="center_horizontal"
+                android:id="@id/sticker_container"
+                android:layout_width="86.0dip"
+                android:layout_height="86.0dip"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginBottom="@dimen/dimen102e">
+                <com.whatsapp.ui.coreui.CircularProgressBar
+                    android:layout_gravity="center"
+                    android:id="@id/sticker_loading"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:layout_gravity="center"
+                    android:id="@id/sticker_view"
+                    android:layout="@layout/layout01c8"
+                    android:inflatedId="@id/sticker_view"
+                    android:layout_width="86.0dip"
+                    android:layout_height="86.0dip" />
+            </FrameLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:id="@id/bottom_sheet_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:text="@string/str0489"
+                android:textAlignment="center"
+                android:layout_marginStart="@dimen/dimen103b"
+                android:layout_marginEnd="@dimen/dimen103b"
+                app:attr0a24="wds_font_large_title2"
+                style="@style/style05ad" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:id="@id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:text="@string/str0486"
+                android:textAlignment="center"
+                android:layout_marginStart="@dimen/dimen103b"
+                android:layout_marginEnd="@dimen/dimen103b"
+                app:attr0a24="wds_font_body1"
+                style="@style/style05a4" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/share_stickers_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        style="@style/style055c" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/not_now_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr096b="borderless"
+        style="@style/style0557" />
+</LinearLayout>

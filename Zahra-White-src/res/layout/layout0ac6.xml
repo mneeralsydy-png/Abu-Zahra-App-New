@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/meta_ai_app_bookmark_info_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/meta_ai_discover_ais_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e2="@string/str1d95"
+            app:attr04e6="@drawable/wds_ic_consumer_ai"
+            app:attr04e9="@string/str1d94" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/meta_ai_app_bookmark_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e2="@string/str1d8c"
+            app:attr04e6="@drawable/wds_ic_logo_meta_ai"
+            app:attr04e9="@string/str1d8b" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/meta_ai_glasses_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e2="@string/str1d9d"
+            app:attr04e6="@drawable/meta_brand_design_system_icons_raster_smart_glasses_outline_72"
+            app:attr04e9="@string/str1d9e" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

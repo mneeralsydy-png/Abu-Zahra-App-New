@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/reactions_bottom_sheet_tab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a46"
+        android:id="@id/reactions_bottom_sheet_tab_emoji_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr04a4="packed"
+        app:attr04a7="parent"
+        app:attr04aa="@id/reactions_bottom_sheet_tab_counter_text"
+        app:attr04b0="parent"
+        app:attr04b1="parent"
+        style="@style/style032d" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/reactions_bottom_sheet_tab_counter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cf0"
+        app:attr04a8="@id/reactions_bottom_sheet_tab_emoji_text"
+        app:attr04ab="parent"
+        app:attr04b0="parent"
+        app:attr04b1="parent"
+        style="@style/style032d" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_shopping_cart_white"
+        android:id="@id/menu_cart"
+        android:title="@string/str3da0"
+        app:attr07f1="ifRoom" />
+    <item
+        android:icon="@drawable/ic_forward_white"
+        android:id="@id/menu_forward"
+        android:title="@string/str3d9f" />
+    <item
+        android:icon="@drawable/ic_link_white"
+        android:id="@id/menu_share"
+        android:title="@string/str3da3" />
+    <item
+        android:icon="@drawable/ic_forward_white"
+        android:id="@id/menu_more_info"
+        android:title="@string/str3e2f" />
+    <item
+        android:id="@id/menu_report"
+        android:title="@string/str3da2"
+        app:attr07f1="never" />
+</menu>

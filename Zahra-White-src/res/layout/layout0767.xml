@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr03ee="@string/str33f5" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/themes_recyler_view"
+            android:padding="@dimen/dimen1039"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.list.footer.WDSSectionFooter
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr03bc="@string/str33f6" />
+        <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr03ee="@string/str33d2" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/list_item_message_color"
+            app:attr06c9="@string/str33e6"
+            app:attr06f6="@drawable/ic_chat_wds"
+            style="@style/style071c" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/list_item_wallpaper"
+            app:attr06c9="@string/str3b51"
+            app:attr06f6="@drawable/ic_wallpaper"
+            style="@style/style071c" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/div2"
+            app:attr06c9="@string/yo_settings_bubblesticks"
+            app:attr06f6="@drawable/bubble"
+            style="@style/style071c" />
+    </LinearLayout>
+</ScrollView>

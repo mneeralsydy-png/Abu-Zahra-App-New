@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+            android:id="@id/recommended_channels_section_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cea" />
+        <com.whatsapp.settings.SettingsRowPrivacyLinearLayout
+            android:orientation="horizontal"
+            android:id="@id/personalized_recommendations_section"
+            android:paddingTop="@dimen/dimen0cea"
+            android:paddingBottom="@dimen/dimen0cea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cee"
+            android:paddingEnd="@dimen/dimen0cea"
+            style="?attr07ac">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingEnd="@dimen/dimen0cea">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:ellipsize="none"
+                    android:id="@id/personalized_recommendations_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str0a51"
+                    android:maxLines="@null"
+                    android:singleLine="false"
+                    style="?attr07b5" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:id="@id/personalized_recommendations_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cf0"
+                    style="?attr07b1" />
+            </LinearLayout>
+            <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                android:id="@id/personalized_recommendations_switch"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+    </LinearLayout>
+</ScrollView>

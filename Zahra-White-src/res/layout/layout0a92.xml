@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/avatar"
+        app:attr04a7="parent"
+        app:attr04b1="parent"
+        style="@style/style0195" />
+    <LinearLayout
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:id="@id/title_subtitle_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr04a8="@id/avatar"
+        app:attr04ab="@id/barrier"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            style="@style/style0289" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:id="@id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            style="@style/style0288" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier_header_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="avatar,title_subtitle_container" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="left"
+        app:attr0243="reject_button" />
+    <com.whatsapp.group.product.CustomGroupMembershipApprovalRequestRejectWDSButton
+        android:id="@id/reject_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0411="@drawable/ic_close"
+        app:attr04a7="@id/barrier"
+        app:attr04aa="@id/approve_button"
+        app:attr04b1="parent"
+        app:attr096b="tonal" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/approve_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0411="@drawable/ic_check_white"
+        app:attr04a8="@id/reject_button"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr096b="tonal" />
+    <ViewStub
+        android:layout_gravity="start"
+        android:id="@id/request_status"
+        android:layout="@layout/layout0a94"
+        android:inflatedId="@id/request_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/avatar"
+        app:attr04a7="@id/barrier"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:layout_gravity="end"
+        android:id="@id/progress_spinner"
+        android:layout="@layout/layout0a91"
+        android:inflatedId="@id/progress_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/avatar"
+        app:attr04a7="@id/barrier"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:layout_gravity="end"
+        android:id="@id/failure"
+        android:layout="@layout/layout0a8e"
+        android:inflatedId="@id/failure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/avatar"
+        app:attr04a7="@id/barrier"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/trust_signals"
+        android:layout="@layout/layout0a95"
+        android:inflatedId="@id/trust_signals"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr04a8="@id/avatar"
+        app:attr04ab="parent"
+        app:attr04b0="@id/barrier_header_bottom" />
+</merge>

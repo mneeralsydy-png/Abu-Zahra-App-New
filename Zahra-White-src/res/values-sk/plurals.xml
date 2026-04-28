@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">Nepodarilo sa opustiť %d skupín. Skúste to znova.</item>
+        <item quantity="one">Nepodarilo sa opustiť %d skupinu. Skúste to znova.</item>
+        <item quantity="few">Nepodarilo sa opustiť %d skupiny. Skúste to znova.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">Upozornenia: %1$d</item>
+        <item quantity="one">%1$d upozornenie</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+</resources>

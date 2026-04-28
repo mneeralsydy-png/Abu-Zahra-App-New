@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/create_fun_stickers_layout"
+    android:background="@drawable/create_fun_stickers_ripple_background"
+    android:padding="@dimen/dimen0cec"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:contentDescription="@string/str1571"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/action_button"
+        android:layout_width="@dimen/dimen0cee"
+        android:layout_height="@dimen/dimen0cee"
+        android:importantForAccessibility="no"
+        app:attr0495="@id/action_text"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr04b2="0.5"
+        app:attr04b3="packed"
+        app:attr0838="@drawable/ic_vec_bot_magic"
+        app:attr090d="?attr0a29" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="?attr0a29"
+        android:id="@id/action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:text="@string/str1570"
+        android:maxLines="2"
+        android:lineSpacingExtra="2.0sp"
+        android:importantForAccessibility="no"
+        android:fontFamily="?attr03b8"
+        android:letterSpacing="0.02"
+        app:attr006d="17.0sp"
+        app:attr006e="10.0sp"
+        app:attr0071="uniform"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/action_button"
+        app:attr04b2="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

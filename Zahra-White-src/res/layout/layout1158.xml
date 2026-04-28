@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_gravity="end|bottom|center"
+    android:id="@id/verified_badge"
+    android:background="@drawable/primary_color_circle"
+    android:paddingLeft="@dimen/dimen0cf0"
+    android:paddingTop="@dimen/dimen0cf0"
+    android:paddingRight="@dimen/dimen0cf0"
+    android:paddingBottom="@dimen/dimen0cf0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="center"
+    android:paddingStart="@dimen/dimen0cf0"
+    android:paddingEnd="@dimen/dimen0cf0"
+    app:attr0838="@drawable/ic_business_verified"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

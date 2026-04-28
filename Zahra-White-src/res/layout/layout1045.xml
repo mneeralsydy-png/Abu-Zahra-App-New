@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/sticker_pack_preview_bottom_sheet_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/sticker_pack_preview_bottom_sheet_layout"
+        android:background="@drawable/wds_bottom_sheet_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+            android:id="@id/pack_preview_toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr05cb="@drawable/vec_ic_close"
+            app:attr086d="true"
+            app:attr0912="true"
+            style="@style/style0520" />
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/details_container_stub"
+                android:layout="@layout/layout1048"
+                android:inflatedId="@id/details_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/style01a2" />
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@id/loading_progress"
+                android:layout_width="@dimen/dimen0d9b"
+                android:layout_height="@dimen/dimen0d9b"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginBottom="@dimen/dimen0cee" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/buttons_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@id/divider"
+            android:background="?attr026a"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginBottom="@dimen/dimen0ce7" />
+        <ViewStub
+            android:id="@id/update_pack_container"
+            android:layout="@layout/layout104d"
+            android:inflatedId="@id/update_pack_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cea"
+            android:paddingEnd="@dimen/dimen0cea">
+            <ViewStub
+                android:id="@id/download_btn"
+                android:layout="@layout/layout104a"
+                android:inflatedId="@id/download_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/pack_download_progress"
+                android:layout="@layout/layout104c"
+                android:inflatedId="@id/pack_download_progress"
+                android:layout_width="36.0dip"
+                android:layout_height="36.0dip" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cea"
+            android:paddingEnd="@dimen/dimen0cea">
+            <ViewStub
+                android:id="@id/delete_btn"
+                android:layout="@layout/layout1046"
+                android:inflatedId="@id/delete_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/pack_delete_progress"
+                android:layout="@layout/layout104c"
+                android:inflatedId="@id/pack_delete_progress"
+                android:layout_width="36.0dip"
+                android:layout_height="36.0dip" />
+        </FrameLayout>
+        <ViewStub
+            android:id="@id/edit_avatar_btn"
+            android:layout="@layout/layout104b"
+            android:inflatedId="@id/edit_avatar_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cea"
+            android:paddingEnd="@dimen/dimen0cea" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

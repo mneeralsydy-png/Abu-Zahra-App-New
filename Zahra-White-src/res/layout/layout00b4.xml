@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@id/appbar"
+        android:background="@color/color0790"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0308="0.0dip">
+        <include
+            android:id="@id/toolbar_holder"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            layout="@layout/layout10cd" />
+        <com.whatsapp.ui.coreui.collections.ObservableRecyclerView
+            android:id="@id/filter_list"
+            android:paddingTop="@dimen/dimen0cec"
+            android:paddingBottom="@dimen/dimen0cec"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0ce8"
+            android:paddingEnd="@dimen/dimen0ce8" />
+        <View
+            android:layout_gravity="bottom"
+            android:id="@id/filter_divider"
+            android:background="?attr0a4d"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.whatsapp.ui.coreui.collections.ObservableRecyclerView
+        android:id="@id/newsletter_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr048c="@string/str3d52" />
+    <ViewStub
+        android:id="@id/discovery_list_stub"
+        android:layout="@layout/layout064c"
+        android:inflatedId="@id/discovery_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr048c="@string/str3d52" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textSize="@dimen/dimen04f0"
+    android:textStyle="bold"
+    android:textColor="@color/color09be"
+    android:gravity="center"
+    android:layout_gravity="end|center|top"
+    android:id="@id/document_composer_count_badge"
+    android:background="@drawable/document_composer_count_badge_background"
+    android:layout_width="@dimen/dimen04ee"
+    android:layout_height="@dimen/dimen04ee"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

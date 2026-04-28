@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.qrcode.QrScannerView
+        android:id="@id/qr_scanner_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <View
+                android:id="@id/shade"
+                android:background="@color/color08a0"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <com.whatsapp.payments.indiaupi.common.ui.widget.IndiaUpiQrScannerOverlay
+                android:id="@id/overlay"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                whatsapp:attr068d="round_corners" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="bottom|center|left"
+                android:id="@id/qr_scan_from_gallery"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:contentDescription="@string/str2d22"
+                whatsapp:attr0838="@drawable/ic_filter"
+                whatsapp:attr090d="?attr0a2f"
+                style="@style/style0006" />
+            <ViewStub
+                android:layout_gravity="bottom|center"
+                android:id="@id/qr_scan_add_upi_id"
+                android:layout="@layout/layout08fa"
+                android:inflatedId="@id/overlay_add_upi_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:layout_marginBottom="@dimen/dimen0b5d" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="bottom|center|right"
+                android:id="@id/qr_scan_flash"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                whatsapp:attr0838="@drawable/flash_off"
+                whatsapp:attr090d="?attr0a2f"
+                style="@style/style0006" />
+        </FrameLayout>
+        <ViewStub
+            android:layout_gravity="bottom|center"
+            android:id="@id/bottom_banner_stub"
+            android:layout="@layout/layout0dfc"
+            android:inflatedId="@id/bottom_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/hint"
+        android:layout="@layout/layout1117"
+        android:inflatedId="@id/hint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

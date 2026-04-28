@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/imagine_bottomsheet_save_photo"
+        android:title="@string/str3ea0" />
+    <item
+        android:id="@id/imagine_bottomsheet_report_photo"
+        android:title="@string/str3fed" />
+</menu>

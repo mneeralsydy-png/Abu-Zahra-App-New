@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:gravity="center"
+    android:layout_gravity="end|center"
+    android:id="@id/status_detail_message_button"
+    android:padding="@dimen/dimen103a"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    whatsapp:attr0009="fb_pay"
+    whatsapp:attr0411="@drawable/ic_chat_wds"
+    whatsapp:attr041f="?attr0a44"
+    whatsapp:attr096b="borderless"
+    whatsapp:attr09ea="normal"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

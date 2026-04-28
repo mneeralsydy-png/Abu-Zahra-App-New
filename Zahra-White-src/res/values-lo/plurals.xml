@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a3">
+        <item quantity="other">ການແຈ້ງເຕືອນ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+</resources>

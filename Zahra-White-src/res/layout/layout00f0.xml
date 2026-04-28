@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/wabloks_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/wabloks_screen_toolbar"
+        android:background="?attr0923"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentInsetLeft="0.0dip"
+        app:attr024e="0.0dip"
+        app:attr0251="0.0dip" />
+    <FrameLayout
+        android:id="@id/bloks_background_layout"
+        android:background="?attr00ba"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/bloks_fragment_container"
+            android:background="@android:color/transparent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

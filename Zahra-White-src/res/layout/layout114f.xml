@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:layout_gravity="center_horizontal"
+        android:id="@id/top_status_text_view_stub"
+        android:layout="@layout/layout1151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:layout_marginStart="@dimen/dimen1039"
+        android:layout_marginEnd="@dimen/dimen1039" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/body_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/mute_button_view_stub"
+            android:layout="@layout/layout1150"
+            android:inflatedId="@id/mute_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:layout_marginBottom="@dimen/dimen1030" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <ViewStub
+            android:id="@id/avatar_view_stub"
+            android:layout="@layout/layout114b"
+            android:inflatedId="@id/avatar_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/wave_all_button_view_stub"
+            android:layout="@layout/layout1153"
+            android:inflatedId="@id/wave_all_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/pill_bubble_stub"
+            android:layout="@layout/layout114e"
+            android:inflatedId="@id/pill_bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:layout_marginBottom="@dimen/dimen1030"
+            android:layout_marginStart="@dimen/dimen1030" />
+        <ViewStub
+            android:id="@id/connect_text_stub"
+            android:layout="@layout/layout114c"
+            android:inflatedId="@id/connect_text_stub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:layout_marginBottom="@dimen/dimen103a"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <ViewStub
+            android:id="@id/end_call_button_view_stub"
+            android:layout="@layout/layout114d"
+            android:inflatedId="@id/end_call_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:layout_marginBottom="@dimen/dimen1030" />
+    </LinearLayout>
+    <ViewStub
+        android:layout_gravity="center_horizontal"
+        android:id="@id/bottom_status_text_view_stub"
+        android:layout="@layout/layout1151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:layout_marginStart="@dimen/dimen1039"
+        android:layout_marginEnd="@dimen/dimen1039" />
+    <ViewStub
+        android:layout_gravity="center_horizontal"
+        android:id="@id/wave_button_education_view_stub"
+        android:layout="@layout/layout1154"
+        android:inflatedId="@id/wave_button_education_view"
+        android:layout_width="@dimen/dimen0eaf"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1030" />
+</merge>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/stickers_upsell_image"
+        android:layout_width="92.0dip"
+        android:layout_height="78.0dip"
+        android:importantForAccessibility="no"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr0838="@drawable/ic_avatar_promosingle" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:id="@id/stickers_upsell_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str3290"
+        android:importantForAccessibility="no"
+        android:letterSpacing="0.025"
+        app:attr0495="@id/stickers_upsell_subtitle"
+        app:attr04ac="@id/stickers_upsell_image"
+        app:attr04b1="parent"
+        app:attr04b3="packed"
+        app:attr04be="@dimen/dimen05e6"
+        app:attr04c0="@dimen/dimen05e6"
+        style="@style/style03fa" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/stickers_upsell_publisher"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:paddingStart="8.0dip"
+        app:attr0492="@id/stickers_upsell_title"
+        app:attr04ac="@id/stickers_upsell_title"
+        style="@style/style03fc" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/stickers_upsell_subtitle"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12.0dip"
+        android:text="@string/str328f"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="12.0dip"
+        app:attr0494="parent"
+        app:attr049b="@id/stickers_upsell_close"
+        app:attr04ac="@id/stickers_upsell_image"
+        app:attr04b0="@id/stickers_upsell_title"
+        app:attr04be="@dimen/dimen05e6"
+        app:attr04c0="@dimen/dimen05e6"
+        style="@style/style03fb" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/stickers_upsell_close"
+        android:background="?attr076e"
+        android:padding="@dimen/dimen0e56"
+        android:focusable="true"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12.0dip"
+        android:tint="@color/color0347"
+        android:contentDescription="@string/str328e"
+        android:importantForAccessibility="yes"
+        android:layout_marginEnd="12.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_close_small_4" />
+</merge>

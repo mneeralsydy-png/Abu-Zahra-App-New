@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+    android:id="@id/motion_photo_nux"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr03bd="content_end"
+    app:attr03eb="@drawable/ic_motion_photo_nux"
+    app:attr0489="view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

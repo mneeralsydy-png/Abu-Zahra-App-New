@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:paddingTop="@dimen/dimen036b"
+    android:paddingBottom="@dimen/dimen036b"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/sticker_row"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen057e"
+        android:paddingEnd="@dimen/dimen057e">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/image_0"
+            android:layout_width="@dimen/dimen056f"
+            android:layout_height="@dimen/dimen056f"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/str3e44" />
+        <ViewStub
+            android:id="@id/image_1"
+            android:layout="@layout/layout0416"
+            android:inflatedId="@id/image_1"
+            android:layout_width="@dimen/dimen056f"
+            android:layout_height="@dimen/dimen056f"
+            android:layout_marginStart="@dimen/dimen036a" />
+        <ViewStub
+            android:id="@id/image_2"
+            android:layout="@layout/layout0416"
+            android:inflatedId="@id/image_2"
+            android:layout_width="@dimen/dimen056f"
+            android:layout_height="@dimen/dimen056f"
+            android:layout_marginStart="@dimen/dimen036a" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/close_button"
+            android:background="@drawable/selector_orange_gradient"
+            android:padding="@dimen/dimen06b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textStyle="bold"
+            android:textColor="?attr066e"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen1038"
+            android:text="@string/str1d57"
+            app:attr0494="@id/close_button"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="@id/close_button" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        app:attr04b0="@id/title">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:paddingBottom="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.FAQTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:gravity="center"
+                android:id="@id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginBottom="12.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+            <com.whatsapp.calling.StarRatingBar
+                android:id="@id/rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description"
+                android:layout_centerHorizontal="true"
+                android:importantForAccessibility="yes" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/rating_label"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rating_bar"
+                android:layout_centerHorizontal="true"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:enabled="false"
+                android:id="@id/submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:text="@string/str32e9"
+                android:layout_below="@id/rating_label"
+                style="@style/style0555" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

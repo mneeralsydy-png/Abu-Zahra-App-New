@@ -1,0 +1,28 @@
+{
+  "ar": {
+    "update_now": "تحديث الآن",
+    "later": "لاحقًا",
+    "developer_channel": "تابع المطور",
+    "follow_message": "تابع المطور للحصول على آخر التحديثات والميزات الجديدة.",
+    "update_required": "هذا التحديث إجباري!",
+    "update_title": "تحديث جديد متاح",
+    "crash_toast": "حدث خطأ غير متوقع! سيتم إرسال تقرير للمطور.",
+    "crash_toast_report": "حدث خطأ! سيتم إرسال تقرير.",
+    "crash_email_subject": "تقرير عطل",
+    "crash_email_chooser": "اختر تطبيق البريد",
+    "close": "إغلاق"
+  },
+  "en": {
+    "update_now": "Update Now",
+    "later": "Later",
+    "developer_channel": "Follow Developer",
+    "follow_message": "Follow the developer to get the latest updates and new features.",
+    "update_required": "This update is mandatory!",
+    "update_title": "New Update Available",
+    "crash_toast": "An unexpected error occurred! A report will be sent to the developer.",
+    "crash_toast_report": "A crash occurred! Sending report...",
+    "crash_email_subject": "Crash Report",
+    "crash_email_chooser": "Choose mail app",
+    "close": "Close"
+  }
+}

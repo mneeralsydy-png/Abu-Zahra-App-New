@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr00a5="true"
+    app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ai_menu_items_container"
+        android:background="@drawable/more_menu_list_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/ai_menu_gallery_item"
+            android:background="?attr076d"
+            android:padding="@dimen/dimen102e"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen08ec"
+                android:textColor="?attr0a2f"
+                android:id="@id/ai_menu_gallery_label"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str041a"
+                android:layout_weight="1.0"
+                android:textAlignment="viewStart" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/ai_menu_gallery_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_photo"
+                android:tint="?attr0a2f"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+        <View
+            android:background="?attr0a2f"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:alpha="0.1"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/ai_menu_keyboard_item"
+            android:background="?attr076d"
+            android:padding="@dimen/dimen102e"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen08ec"
+                android:textColor="?attr0a2f"
+                android:id="@id/ai_menu_keyboard_label"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str0417"
+                android:layout_weight="1.0"
+                android:textAlignment="viewStart" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/ai_menu_keyboard_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_keyboard"
+                android:tint="?attr0a2f"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

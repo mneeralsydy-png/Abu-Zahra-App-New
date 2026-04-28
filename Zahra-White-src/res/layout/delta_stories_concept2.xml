@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/idHolder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/idMarginStart"
+        android:visibility="gone"
+        android:layout_width="12.0dip"
+        android:layout_height="0.0dip" />
+    <FrameLayout
+        android:layout_width="87.0dip"
+        android:layout_height="175.0dip">
+        <rc.whatsapp.rounded.SquareStories
+            android:layout_gravity="top"
+            android:layout_width="87.0dip"
+            android:layout_height="115.0dip">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@id/idThumbnail"
+                android:visibility="visible"
+                android:layout_width="87.0dip"
+                android:layout_height="120.0dip"
+                android:src="@drawable/yo_preview"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true" />
+        </rc.whatsapp.rounded.SquareStories>
+        <RelativeLayout
+            android:layout_gravity="bottom"
+            android:layout_width="87.0dip"
+            android:layout_height="46.0dip"
+            android:layout_marginBottom="36.0dip">
+            <com.whatsapp.status.api.ContactStatusThumbnail
+                android:id="@id/idContactPhoto"
+                android:padding="2.5dip"
+                android:visibility="visible"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:scaleType="centerCrop"
+                android:layout_centerInParent="true"
+                style="@style/StatusRing" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="87.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18.0dip">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="12.0sp"
+                android:textStyle="bold"
+                android:textColor="?android:textColorPrimary"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/idContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </LinearLayout>
+        <com.whatsapp.yo.tf
+            android:id="@id/idCounter"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip" />
+    </FrameLayout>
+    <View
+        android:id="@id/idMarginEnd"
+        android:visibility="visible"
+        android:layout_width="8.0dip"
+        android:layout_height="0.0dip" />
+</LinearLayout>

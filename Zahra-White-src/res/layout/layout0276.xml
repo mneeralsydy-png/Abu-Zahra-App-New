@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/selector_orange_gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/product_list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/product_item_quantity_selector"
+        android:layout_toStartOf="@id/product_item_quantity_selector">
+        <include
+            layout="@layout/layout0327" />
+    </LinearLayout>
+    <com.whatsapp.business.biz.catalog.view.widgets.QuantitySelector
+        android:id="@id/product_item_quantity_selector"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="42.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10.0dip" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/draggable_indicator"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0521"
+        android:layout_height="@dimen/dimen051e"
+        android:layout_marginLeft="@dimen/dimen051f"
+        android:layout_marginRight="@dimen/dimen0520"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dimen051f"
+        android:layout_marginEnd="@dimen/dimen0520"
+        android:layout_alignParentEnd="true"
+        app:attr0838="@drawable/vec_ic_drag_handle"
+        app:attr090d="@color/color08df" />
+</RelativeLayout>

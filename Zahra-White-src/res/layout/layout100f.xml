@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/status_reply_wrapper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/status_playback_header_profile_picture_viewstub"
+        android:background="@drawable/white_circle"
+        android:padding="1.25dip"
+        android:layout="@layout/layout0fcc"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:scaleType="centerCrop" />
+    <ViewStub
+        android:layout_gravity="start|center|top"
+        android:id="@id/status_reply_lottie_nye_animation_view"
+        android:layout="@layout/layout1013"
+        android:inflatedId="@id/status_reply_lottie_nye_animation_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.ui.coreui.KeyboardPopupLayout
+        android:id="@id/main_ccl"
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@id/main"
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <RelativeLayout
+                android:id="@id/bottom_sheet"
+                android:fitsSystemWindows="true"
+                android:clipChildren="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <include
+                    android:visibility="gone"
+                    layout="@layout/layout100a" />
+                <ViewStub
+                    android:gravity="center_horizontal"
+                    android:id="@id/coex_privacy_disclaimer_stub"
+                    android:layout="@layout/layout0359"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true" />
+                <FrameLayout
+                    android:id="@id/mention_attach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4.0dip"
+                    android:layout_marginBottom="-5.0dip"
+                    android:layout_above="@id/conversation_entry_holder" />
+                <FrameLayout
+                    android:id="@id/conversation_entry_holder"
+                    android:clipChildren="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+                    <include
+                        layout="@layout/theme_conversation_stock_entry" />
+                </FrameLayout>
+            </RelativeLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.whatsapp.ui.coreui.KeyboardPopupLayout>
+</FrameLayout>

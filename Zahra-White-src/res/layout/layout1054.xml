@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:id="@id/sticker_search_dialog_container"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/search_bar_container"
+        android:paddingTop="@dimen/dimen1030"
+        android:paddingBottom="@dimen/dimen1030"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip">
+        <com.whatsapp.ui.coreui.base.WaComposerDrawableNavigationImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/back"
+            android:paddingLeft="@dimen/dimen1030"
+            android:paddingRight="@dimen/dimen1030"
+            android:layout_width="48.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dimen1030"
+            android:layout_marginRight="@dimen/dimen1030"
+            android:contentDescription="@string/str3d62"
+            app:attr0838="@drawable/ic_arrow_back_white"
+            app:attr090d="@color/color0347"
+            style="@style/style0006" />
+        <com.whatsapp.ui.coreui.WaEditText
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:textColorHint="?attr0a46"
+            android:layout_gravity="center_vertical"
+            android:id="@id/search_bar"
+            android:background="@android:color/transparent"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dimen1039"
+            android:hint="@string/str3268"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            android:imeOptions="actionSearch" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/clear_search_btn"
+            android:visibility="gone"
+            android:layout_width="40.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/dimen102e"
+            android:contentDescription="@string/str3da9"
+            app:attr0838="@drawable/ic_close"
+            app:attr090d="@color/color0347"
+            style="@style/style0006" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/search_bar_container">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@id/sticker_category_tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4.0dip"
+            app:attr088c="?attr0a29"
+            app:attr088f="3.0dip"
+            app:attr0896="@dimen/dimen102f"
+            app:attr0897="@dimen/dimen102f"
+            app:attr0899="@color/color04db"
+            app:attr089e="@style/style03c1" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/sticker_category_tabs">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/search_result"
+                android:paddingTop="@dimen/dimen102e"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <ScrollView
+                android:layout_gravity="center_vertical"
+                android:id="@id/no_results"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/dimen102e"
+                    android:paddingRight="@dimen/dimen102e"
+                    android:paddingBottom="44.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="96.0dip"
+                        android:layout_height="96.0dip"
+                        android:layout_marginBottom="@dimen/dimen1039"
+                        app:attr0838="@drawable/sticker_sad_cuppy" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textSize="@dimen/dimen0fb0"
+                        android:textColor="?attr0a46"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str3269"
+                        app:attr0a24="wds_font_body1" />
+                    <com.whatsapp.ui.wds.components.button.WDSButton
+                        android:layout_gravity="center_horizontal"
+                        android:id="@id/get_more_stickers_button"
+                        android:layout_marginTop="@dimen/dimen1030"
+                        android:text="@string/str3267"
+                        style="@style/style0557" />
+                </LinearLayout>
+            </ScrollView>
+            <androidx.viewpager.widget.ViewPager
+                android:id="@id/sticker_category_viewpager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:attr048c="@string/str3d52" />
+            <View
+                android:id="@id/separator"
+                style="@style/style0355" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.settings.ui.chat.wallpaper.WallpaperImagePreview
+            android:id="@id/wallpaper_preview_background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.settings.ui.chat.wallpaper.WallpaperImagePreview
+            android:id="@id/wallpaper_preview_background_doodle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.whatsapp.settings.ui.chat.wallpaper.WallpaperImagePreview
+        android:id="@id/wallpaper_preview_blur"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.settings.ui.chat.wallpaper.WallpaperMockChatView
+        android:id="@id/wallpaper_preview_mock_chat"
+        android:paddingTop="@dimen/dimen1030"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/wallpaper_preview_download_container"
+        android:background="@drawable/download_background"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:layout_gravity="center"
+            android:id="@id/wallpaper_preview_progress_bar"
+            android:visibility="gone"
+            android:layout_width="64.0dip"
+            android:layout_height="64.0dip"
+            android:indeterminate="true"
+            app:attr028c="?attr0a2f" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textColor="?attr0a2f"
+            android:id="@id/wallpaper_preview_download_btn"
+            android:layout_margin="@dimen/dimen102e"
+            android:text="@string/str07f2"
+            android:drawableLeft="@drawable/ic_download_white_small"
+            android:drawablePadding="@dimen/dimen1039"
+            style="@style/style01b3" />
+    </FrameLayout>
+</merge>

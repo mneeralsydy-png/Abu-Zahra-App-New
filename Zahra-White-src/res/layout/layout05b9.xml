@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/suggested_contacts_list_item_container"
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0450"
+    android:paddingStart="@dimen/dimen0ce9"
+    android:paddingEnd="@dimen/dimen0ce9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+        android:id="@id/suggested_contacts_list_item_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="@dimen/dimen0cf0"
+        android:layout_marginEnd="@dimen/dimen0cf0"
+        app:attr0675="medium" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/dimen0ce9">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:ellipsize="end"
+            android:id="@id/suggested_contacts_list_item_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cf3"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="?attr08d4" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:ellipsize="end"
+            android:id="@id/suggested_contacts_list_item_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            style="?attr04e0" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/suggested_contacts_list_item_chat_button_view_stub"
+        android:layout="@layout/layout05b7"
+        android:inflatedId="@id/suggested_contacts_list_item_chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0ce9" />
+    <ViewStub
+        android:id="@id/suggested_contacts_list_item_dismiss_button_view_stub"
+        android:layout="@layout/layout05b8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen1031" />
+</LinearLayout>

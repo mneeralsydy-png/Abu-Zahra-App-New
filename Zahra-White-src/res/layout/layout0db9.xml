@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/privacy_settings_audience_icon"
+        android:background="@drawable/status_privacy_gray_circle"
+        android:padding="@dimen/dimen103a"
+        android:layout_width="@dimen/dimen0d24"
+        android:layout_height="@dimen/dimen0d24"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr090d="?attr0a47" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049b="@id/privacy_settings_audience_radio_button"
+        app:attr04ac="@id/privacy_settings_audience_icon"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a47"
+            android:id="@id/privacy_settings_audience_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/str2dfb"
+            android:layout_marginStart="@dimen/dimen102e" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/audience_action_layout"
+            android:background="?android:selectableItemBackground"
+            android:padding="@dimen/dimen1039"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen1039">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/privacy_settings_audience_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style03aa" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:src="@drawable/ic_chevron_right"
+                app:attr090d="?attr0a45"
+                app:attr0a89="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.radiobutton.WDSRadioButton
+        android:id="@id/privacy_settings_audience_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

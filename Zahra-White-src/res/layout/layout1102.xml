@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen0cea"
+            android:paddingBottom="@dimen/dimen0cea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cee"
+            android:paddingEnd="@dimen/dimen0cee">
+            <ViewStub
+                android:id="@id/update_email_shimmer_view_stub"
+                android:layout="@layout/layout0691"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@id/update_email_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textColor="?attr0a46"
+                    android:gravity="center_horizontal"
+                    android:id="@id/update_email_description_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str01b7"
+                    style="@style/style05a6" />
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:textColor="?attr066e"
+                    android:textColorHint="?attr0a46"
+                    android:ellipsize="end"
+                    android:id="@id/update_email_text_input"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cf1"
+                    android:hint="@string/str11c2"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"
+                    app:attr02ff="outline" />
+                <ViewStub
+                    android:id="@id/invalid_email_sub_text_view_stub"
+                    android:layout="@layout/layout0939"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <HorizontalScrollView
+                    android:id="@id/email_domain_chip_scroll_view"
+                    android:scrollbars="none"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true">
+                    <com.whatsapp.ui.wds.components.chip.WDSChipGroup
+                        android:id="@id/email_domain_chip_group"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </HorizontalScrollView>
+                <Space
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:enabled="false"
+                    android:id="@id/update_email_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="@dimen/dimen0ce7"
+                    android:layout_marginBottom="@dimen/dimen0ce8"
+                    android:text="@string/str2157"
+                    style="@style/style0555" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

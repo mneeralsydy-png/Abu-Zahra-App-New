@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/action_tile_icon"
+        android:duplicateParentState="true"
+        android:inflatedId="@id/action_tile_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Space
+        android:id="@id/action_tile_spacing"
+        android:layout_width="@dimen/dimen1030"
+        android:layout_height="@dimen/dimen1030" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a6"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:id="@id/action_tile_label"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:attr0a24="wds_font_body2" />
+</merge>

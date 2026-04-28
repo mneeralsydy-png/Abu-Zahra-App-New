@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+        android:id="@id/settings_multiple_passkey_layout"
+        android:paddingTop="@dimen/dimen0048"
+        android:paddingBottom="@dimen/dimen103b"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr03eb="@drawable/vec_settings_passkeys_filled_large_wds"
+        app:attr0489="view"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/add_passkey_stub"
+        android:layout="@layout/layout0100"
+        android:inflatedId="@id/add_passkey_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/settings_multiple_passkey_layout" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0a96"
+        android:textColor="@color/color08de"
+        android:id="@id/settings_multiple_passkey_section_divider"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str1f11"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/add_passkey_stub"
+        style="@style/style05a7" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/passkeys_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/settings_multiple_passkey_section_divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

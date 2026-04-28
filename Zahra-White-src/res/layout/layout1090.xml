@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/survey_conversation_banner"
+    android:background="?attr01ae"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a6"
+        android:id="@id/survey_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:text="@string/str3307"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0a24="wds_font_body2" />
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:elevation="4.0dip">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="right"
+            android:id="@id/survey_conversation_banner_dismiss_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen0cea"
+            android:text="@string/str3305"
+            app:attr096b="borderless" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="right"
+            android:id="@id/survey_conversation_banner_start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen0cea"
+            android:text="@string/str3306"
+            app:attr096b="tonal" />
+    </LinearLayout>
+</LinearLayout>

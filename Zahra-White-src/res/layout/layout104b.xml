@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/edit_avatar_btn"
+    android:layout_width="fill_parent"
+    android:text="@string/str1158"
+    android:contentDescription="@string/str3274"
+    style="@style/style055d"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

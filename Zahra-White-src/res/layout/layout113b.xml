@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.banner.StickerTrayBannerView
+    android:id="@id/sticker_tray_qp_banner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0db1"
+    android:layout_marginBottom="@dimen/dimen0db1"
+    android:layout_marginStart="@dimen/dimen05f1"
+    android:layout_marginEnd="@dimen/dimen0db0"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

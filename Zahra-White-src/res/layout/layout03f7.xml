@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:id="@id/error_container"
+    android:paddingLeft="@dimen/dimen103a"
+    android:paddingTop="@dimen/dimen1036"
+    android:paddingRight="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/error_contact_search_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0199" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/error_contact_search_line2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0199" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/retry_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3563"
+        style="@style/style0558" />
+</androidx.appcompat.widget.LinearLayoutCompat>

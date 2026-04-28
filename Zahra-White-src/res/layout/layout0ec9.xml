@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/row_container"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen034a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+        android:id="@id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16.0dip"
+        whatsapp:attr0675="medium" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/invite_btn"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1a0d"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        whatsapp:attr0009="normal"
+        whatsapp:attr096b="borderless"
+        whatsapp:attr09ea="normal" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/invite_btn"
+        android:layout_toRightOf="@id/photo"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="16.0dip">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style0289" />
+    </LinearLayout>
+</RelativeLayout>

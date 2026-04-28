@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/btn_size_slider_increase"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        app:attr0838="@drawable/ic_a_icon" />
+    <com.whatsapp.mediacomposer.doodle.textentry.strokepicker.StrokeWidthTool
+        android:id="@id/text_size_slider"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:focusable="true"
+        android:layout_width="50.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:paddingStart="16.0dip"
+        android:paddingEnd="16.0dip"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0901="?attr0a2f"
+        app:attr0902="15.0dip"
+        app:attr0941="@color/color09ac" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/btn_size_slider_decrease"
+        android:padding="5.0dip"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        app:attr0838="@drawable/ic_a_icon" />
+</LinearLayout>

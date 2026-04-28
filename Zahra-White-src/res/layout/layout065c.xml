@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04e2="@string/str10fc"
+    app:attr04e6="@drawable/ic_attachment_audio"
+    app:attr04e7="?attr0a29"
+    app:attr04e8="false"
+    app:attr04e9="@string/str10fd"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

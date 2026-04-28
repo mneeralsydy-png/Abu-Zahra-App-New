@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="@dimen/dimen0cea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/account_switching_not_available_image"
+            android:background="@drawable/account_switching_not_available_icon_background"
+            android:padding="@dimen/dimen0cea"
+            android:layout_width="@dimen/dimen0039"
+            android:layout_height="@dimen/dimen0039"
+            android:layout_marginTop="@dimen/dimen0cec"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/vec_ic_person_add_white"
+            app:attr090d="@color/notification_main_column_container" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?attr0a47"
+            android:gravity="center"
+            android:id="@id/account_switching_not_available_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cee"
+            android:text="@string/str0159"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/account_switching_not_available_image" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/account_switching_not_available_subtitle"
+            android:padding="@dimen/dimen0ce7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:text="@string/str0157"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/account_switching_not_available_title" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:gravity="center"
+            android:id="@id/account_switching_notify_me_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:text="@string/str015a"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/account_switching_not_available_subtitle" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:gravity="center"
+            android:id="@id/account_switching_dismiss_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str10cd"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/account_switching_notify_me_button"
+            app:attr096b="borderless" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

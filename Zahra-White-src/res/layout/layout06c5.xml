@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/item_one_end_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009b="false"
+        app:attr009c="end"
+        app:attr0243="enc_bottom_sheet_image_item_two, enc_bottom_sheet_image_item_three" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/enc_bottom_sheet_image_item_one"
+        android:layout_width="@dimen/dimen052e"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/enc_bottom_sheet_list_item_one"
+        app:attr04a8="@id/left_guideline"
+        app:attr04aa="@id/item_one_end_barrier"
+        app:attr04b1="@id/enc_bottom_sheet_list_item_one"
+        app:attr0838="@drawable/ic_lock"
+        app:attr090d="?attr0a46" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_vertical"
+        android:id="@id/enc_bottom_sheet_list_item_one"
+        android:paddingTop="@dimen/dimen0536"
+        android:paddingBottom="@dimen/dimen0536"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0537"
+        android:text="@string/str1203"
+        android:lineSpacingExtra="4.0dip"
+        android:layout_marginStart="@dimen/dimen0538"
+        app:attr04a8="@id/enc_bottom_sheet_image_item_one"
+        app:attr04ab="@id/right_guideline"
+        style="@style/style01f2" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/enc_bottom_sheet_image_item_two"
+        android:layout_width="@dimen/dimen052e"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/enc_bottom_sheet_list_item_two"
+        app:attr04a8="@id/left_guideline"
+        app:attr04aa="@id/enc_bottom_sheet_list_item_two"
+        app:attr04b1="@id/enc_bottom_sheet_list_item_two"
+        app:attr0838="@drawable/ic_key"
+        app:attr090d="?attr0a46" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_vertical"
+        android:id="@id/enc_bottom_sheet_list_item_two"
+        android:paddingTop="@dimen/dimen0536"
+        android:paddingBottom="@dimen/dimen0536"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0539"
+        android:text="@string/str1204"
+        android:lineSpacingExtra="4.0dip"
+        android:layout_marginStart="@dimen/dimen0538"
+        app:attr04a8="@id/enc_bottom_sheet_image_item_two"
+        app:attr04ab="@id/right_guideline"
+        app:attr04b0="@id/enc_bottom_sheet_list_item_one"
+        style="@style/style01f2" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/item_three_bottom_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009b="false"
+        app:attr009c="bottom"
+        app:attr0243="enc_bottom_sheet_list_item_one,enc_bottom_sheet_list_item_two" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/enc_bottom_sheet_image_item_three"
+        android:layout_width="@dimen/dimen052e"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/enc_bottom_sheet_list_item_three"
+        app:attr04a8="@id/left_guideline"
+        app:attr04aa="@id/enc_bottom_sheet_list_item_three"
+        app:attr04b1="@id/enc_bottom_sheet_list_item_three"
+        app:attr0838="@drawable/ic_visibility_off"
+        app:attr090d="?attr0a46" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_vertical"
+        android:id="@id/enc_bottom_sheet_list_item_three"
+        android:paddingTop="@dimen/dimen0536"
+        android:paddingBottom="@dimen/dimen0536"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0539"
+        android:text="@string/str1206"
+        android:lineSpacingExtra="4.0dip"
+        android:layout_marginStart="@dimen/dimen0538"
+        app:attr04a8="@id/enc_bottom_sheet_image_item_three"
+        app:attr04ab="@id/right_guideline"
+        app:attr04b0="@id/item_three_bottom_barrier"
+        style="@style/style01f2" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/left_guideline"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        app:attr049c="0.0dip" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/right_guideline"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        app:attr049d="0.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

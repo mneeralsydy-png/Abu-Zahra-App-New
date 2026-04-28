@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/actions_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/group_chat_info_activity_storage_details"
+            android:layout="@layout/layout0053"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:id="@id/vcards_layout"
+            android:background="@drawable/selector_orange_gradient"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:paddingRight="@dimen/dimen06a4"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen06a6"
+            android:text="@string/str3887"
+            style="@style/style0289" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/asteria_experience_row"
+            android:layout="@layout/layout004e"
+            android:inflatedId="@id/asteria_experience_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="?attr07a6" />
+        <ViewStub
+            android:id="@id/meta_ai_voice_row"
+            android:layout="@layout/layout0051"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/meta_ai_generated_images_of_you_row"
+            android:layout="@layout/layout0ad4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.WaDelegatedViewStub
+            android:id="@id/maiba_ai_presence_switch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/mute_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_notifications"
+            app:attr04e9="@string/str1d00" />
+        <ViewStub
+            android:id="@id/notifications_and_sounds_row"
+            android:layout="@layout/layout0052"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/media_visibility_stub"
+            android:layout="@layout/layout0050"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/call_permission_setting_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/wa_ic_call"
+            app:attr04e9="@string/str2edf" />
+        <ViewStub
+            android:id="@id/meta_ai_memory_row"
+            android:layout="@layout/layout0adf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/ai_proactive_message_control_row"
+            android:layout="@layout/layout0162"
+            android:inflatedId="@id/ai_proactive_message_control_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/meta_ai_tasks_row"
+            android:layout="@layout/layout0ae6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.chat.info.views.StarredMessageInfoView
+            android:id="@id/starred_messages_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.chat.info.views.KeptMessagesInfoView
+            android:id="@id/kept_messages_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/reported_to_admin_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/vec_ic_report_to_admin"
+            app:attr04e9="@string/str1712" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/payment_transactions_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e9="@string/str253b" />
+        <ViewStub
+            android:id="@id/meta_ai_app_connections_row"
+            android:layout="@layout/layout0ac8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/meta_ai_app_bookmark_row"
+            android:layout="@layout/layout0ac7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/meta_ai_glasses_row"
+            android:layout="@layout/layout0ad5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

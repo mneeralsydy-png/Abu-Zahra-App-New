@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="@dimen/dimen103b"
+    android:layout_width="280.0dip"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1197"
+        app:attr03bb="400"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_headline1"
+        style="@style/style05aa" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/dialog_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:text="@string/str1196"
+        app:attr03bb="400"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/dialog_title"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.coreui.WaListView
+        android:id="@id/email_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:divider="@null"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/dialog_body" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/negative_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103b"
+        android:text="@string/str3d9b"
+        app:attr04ab="parent"
+        app:attr04b0="@id/email_list"
+        style="@style/style0558" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/positive_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:text="@string/str3d8c"
+        app:attr04ab="parent"
+        app:attr04b0="@id/negative_button"
+        style="@style/style0558" />
+</androidx.constraintlayout.widget.ConstraintLayout>

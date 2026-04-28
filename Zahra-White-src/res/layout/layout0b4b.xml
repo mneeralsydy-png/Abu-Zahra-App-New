@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dimen1034"
+    android:paddingBottom="@dimen/dimen1034"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen1033"
+    android:paddingEnd="@dimen/dimen1033"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen102f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1f1b"
+        android:textAlignment="center"
+        app:attr0a24="wds_font_body2"
+        style="?attr09f6" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/music_browse_retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1f1d"
+        app:attr096b="borderless" />
+</LinearLayout>

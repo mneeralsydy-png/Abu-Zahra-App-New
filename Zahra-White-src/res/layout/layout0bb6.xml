@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/newsletter_followers_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        style="@style/style0290" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="?attr0a59"
+        android:paddingTop="0.0dip"
+        android:paddingStart="@dimen/dimen06a4"
+        style="@style/style0218">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/newsletter_followers_title"
+            android:paddingTop="@dimen/dimen0cea"
+            android:paddingBottom="@dimen/dimen0ce8"
+            android:layout_width="0.0dip"
+            android:layout_weight="1.0"
+            style="@style/style021c" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/newsletter_followers_search"
+            android:background="?attr000b"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="-12.0dip"
+            android:contentDescription="@string/str2d7c"
+            android:paddingEnd="@dimen/dimen103a"
+            app:attr0838="@drawable/ic_search_white"
+            app:attr090d="@color/color0347" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/invite_followers_button_stub"
+        android:layout="@layout/layout0bc2"
+        android:inflatedId="@id/newsletter_info_invite_followers_button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0ccb" />
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/invite_admins_button"
+        android:background="@drawable/selector_orange_gradient"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0ccb">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/invite_admins_icon"
+            android:background="@drawable/primary_light_circle_background"
+            app:attr0838="@drawable/ic_add_white"
+            app:attr090d="?attr0a4b"
+            style="@style/style0284" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/invite_admins_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1a1e"
+            android:layout_toRightOf="@id/invite_admins_icon"
+            android:layout_centerVertical="true"
+            style="@style/style0289" />
+    </RelativeLayout>
+    <com.whatsapp.group.ui.components.InviteViaLinkView
+        android:id="@id/newsletter_invite_via_link_button"
+        android:background="@drawable/selector_orange_gradient"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0ccb" />
+</LinearLayout>

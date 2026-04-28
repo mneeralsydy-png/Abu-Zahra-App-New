@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/dimen0bd8"
+    android:layout_marginRight="@dimen/dimen0bd8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36.0dip"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:text="@string/str0f8a"
+        android:importantForAccessibility="yes"
+        app:attr0a24="wds_font_headline1"
+        style="@style/style05aa" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_weight="1.0">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/loader"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            style="progressBarStyleLarge" />
+    </LinearLayout>
+</LinearLayout>

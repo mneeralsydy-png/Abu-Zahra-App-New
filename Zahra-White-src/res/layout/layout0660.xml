@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/browseOtherDocs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_browse_documents"
+        app:attr04e7="?attr0a29"
+        app:attr04e8="false"
+        app:attr04e9="@string/str0767" />
+    <ViewStub
+        android:id="@id/chooseFromGallery"
+        android:layout="@layout/layout065f"
+        android:inflatedId="@id/document_picker_gallery_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/choose_from_community_media"
+        android:layout="@layout/layout065e"
+        android:inflatedId="@id/document_picker_community_media_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/document_scanner_view_row"
+        android:layout="@layout/layout0662"
+        android:inflatedId="@id/document_scanner_view_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/audio_browser_row"
+        android:layout="@layout/layout065c"
+        android:inflatedId="@id/audio_browser_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textStyle="bold"
+        android:textColor="?attr0a46"
+        android:id="@id/recentsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0bc5"
+        android:layout_marginStart="@dimen/dimen0bc4"
+        android:layout_marginEnd="@dimen/dimen0bc4" />
+    <ProgressBar
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/document_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        style="progressBarStyleInverse" />
+</LinearLayout>

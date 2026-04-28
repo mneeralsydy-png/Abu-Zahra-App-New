@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen103b"
+    android:paddingEnd="@dimen/dimen103b"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:theme="?attr079e"
+            android:id="@id/my_contacts_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:theme="?attr079e"
+            android:id="@id/my_contacts_except_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/excluded"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            style="@style/style03aa" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:theme="?attr079e"
+            android:id="@id/only_share_with_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/included"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            style="@style/style03aa" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/close_friends_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:theme="?attr079e"
+            android:id="@id/close_friends_with_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/close_friends_included"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            style="@style/style03aa" />
+    </LinearLayout>
+</RadioGroup>

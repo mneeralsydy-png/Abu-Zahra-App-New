@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr011e="16.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.SquareImageView
+            android:id="@id/thumbnail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr081b="@drawable/selector_orange_gradient" />
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="horizontal"
+            android:id="@id/center_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr049e="0.5" />
+        <View
+            android:background="@drawable/gallery_album_overlay"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="@id/center_guideline" />
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:id="@id/profile_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0ce8"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="@dimen/dimen0ce8"
+            app:attr0494="parent"
+            app:attr04ad="parent"
+            app:attr0674="circle"
+            app:attr0675="x_small" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="?attr09fd"
+            android:textColor="?attr0a2f"
+            android:ellipsize="marquee"
+            android:id="@id/title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginStart="@dimen/dimen0ce7"
+            android:layout_marginEnd="@dimen/dimen0ce8"
+            app:attr0495="@id/count"
+            app:attr049a="parent"
+            app:attr04ac="@id/profile_photo"
+            app:attr04b1="@id/profile_photo"
+            app:attr04b3="packed" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?attr09fc"
+            android:textColor="?attr0a2f"
+            android:ellipsize="marquee"
+            android:id="@id/count"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:alpha="0.8"
+            app:attr0494="@id/profile_photo"
+            app:attr049a="@id/title"
+            app:attr04ad="@id/title"
+            app:attr04b0="@id/title"
+            app:attr0a24="wds_font_body3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

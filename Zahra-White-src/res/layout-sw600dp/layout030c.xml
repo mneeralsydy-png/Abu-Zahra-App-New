@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.MainChildCoordinatorLayout
+        android:id="@id/camera_coordinator"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0566="@id/bottom_sheet">
+        <FrameLayout
+            android:id="@id/bottom_sheet"
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:attr00a7="@dimen/dimen09e1"
+            app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <FrameLayout
+                android:id="@id/gallery_container"
+                android:background="?attr0a59"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center|top"
+                android:orientation="vertical"
+                android:id="@id/drag_gallery_strip_layout"
+                android:layout_width="@dimen/dimen051d"
+                android:layout_height="@dimen/dimen051c"
+                app:attr0495="@id/gallery_strip_container"
+                app:attr049a="parent"
+                app:attr04ad="parent">
+                <com.whatsapp.camera.DragGalleryStripIndicator
+                    android:id="@id/drag_gallery_strip_indicator"
+                    android:padding="@dimen/dimen0cec"
+                    android:visibility="invisible"
+                    android:layout_width="@dimen/dimen051b"
+                    android:layout_height="@dimen/dimen051a" />
+            </LinearLayout>
+            <FrameLayout
+                android:id="@id/gallery_strip_container"
+                android:focusable="false"
+                android:clickable="false"
+                android:clipChildren="true"
+                android:layout_width="0.0dip"
+                android:layout_height="@dimen/dimen0210"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                app:attr0495="@id/camera_mode_tab_layout"
+                app:attr049a="parent"
+                app:attr04ad="parent">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_gravity="bottom"
+                    android:id="@id/recent_media"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </FrameLayout>
+            <View
+                android:id="@id/invisible_gallery_click_disabler"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen0cea"
+                app:attr0494="@id/gallery_strip_container"
+                app:attr0495="@id/camera_mode_tab_layout"
+                app:attr049a="parent"
+                app:attr04ad="parent" />
+            <RelativeLayout
+                android:id="@id/camera_actions"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                app:attr0494="@id/camera_mode_tab_layout"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <include
+                    layout="@layout/layout0306" />
+            </RelativeLayout>
+            <com.whatsapp.camera.mode.CameraModeTabLayout
+                android:id="@id/camera_mode_tab_layout"
+                android:background="@color/color0771"
+                android:paddingTop="@dimen/dimen0dcf"
+                android:paddingBottom="@dimen/dimen0dce"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr0896="0.0dip"
+                app:attr0897="0.0dip" />
+            <ViewStub
+                android:id="@id/recording_view"
+                android:layout="@layout/layout0310"
+                android:inflatedId="@id/recording_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ce8"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b1="@id/camera_actions" />
+            <ViewStub
+                android:id="@id/camera_ar_effects_banner"
+                android:layout="@layout/layout0039"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0110"
+                android:layout_centerHorizontal="true"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b1="@id/camera_actions" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include
+            layout="@layout/layout0314" />
+    </com.whatsapp.ui.coreui.components.MainChildCoordinatorLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_gravity="bottom"
+        android:id="@id/ar_effects_tray_collection_container_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/hold_still_text_view_stub"
+        android:layout="@layout/layout0845"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</merge>

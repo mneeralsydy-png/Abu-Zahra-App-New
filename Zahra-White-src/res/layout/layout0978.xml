@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingLeft="@dimen/dimen1036"
+    android:paddingRight="@dimen/dimen1036"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/screen_share_warning_dialog"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr04b6="560.0dip">
+        <com.whatsapp.ui.coreui.WaFrameLayout
+            android:layout_gravity="center"
+            android:background="@drawable/panel_popup_top"
+            android:layout_width="fill_parent"
+            android:layout_height="112.0dip"
+            app:attr09af="?attr0a29">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/keep_warning_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0838="@drawable/kic_sender_super_power_image" />
+        </com.whatsapp.ui.coreui.WaFrameLayout>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.WaLinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/panel_popup_bot"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr09b2="?attr0618">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:id="@id/sender_super_power_title"
+                    android:paddingLeft="@dimen/dimen102e"
+                    android:paddingTop="@dimen/dimen102e"
+                    android:paddingRight="@dimen/dimen102e"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str1aa7"
+                    style="@style/style03c7" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr0a46"
+                    android:gravity="left"
+                    android:id="@id/sender_super_power_message"
+                    android:paddingLeft="@dimen/dimen102e"
+                    android:paddingTop="@dimen/dimen102e"
+                    android:paddingRight="@dimen/dimen102e"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str1aa6"
+                    app:attr0a24="wds_font_body1"
+                    style="@style/style03c7" />
+                <com.whatsapp.ui.coreui.components.AutoOrientationLinearLayout
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:id="@id/footer_layout"
+                    android:paddingTop="@dimen/dimen102e"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.wds.components.button.WDSButton
+                        android:id="@id/learn_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str3ec9"
+                        style="@style/style0558" />
+                    <com.whatsapp.ui.wds.components.button.WDSButton
+                        android:id="@id/ok_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str22ab"
+                        style="@style/style0558" />
+                </com.whatsapp.ui.coreui.components.AutoOrientationLinearLayout>
+            </com.whatsapp.ui.coreui.WaLinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.banners.WDSBanner
+        android:icon="@drawable/vec_ic_calendar_month"
+        android:id="@id/community_events_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        app:attr02c6="@string/str13b4"
+        app:attr03f0="@string/str13b5"
+        style="@style/style0575" />
+</merge>

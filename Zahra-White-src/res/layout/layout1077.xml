@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+    android:id="@id/ml_models_storage_usage_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr06c8="body2"
+    app:attr06ca="body1"
+    app:attr06f6="@drawable/ic_model_storage"
+    app:attr0702="icon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="?attr0a59"
+    android:paddingLeft="@dimen/dimen0ac6"
+    android:paddingRight="@dimen/dimen0ac6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@id/bg"
+        android:background="@drawable/txn_details_rounded_error_blurb_bg"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/img"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="18.0dip"
+            android:layout_marginRight="18.0dip"
+            android:rotation="180.0"
+            app:attr0838="@drawable/wa_ic_info"
+            app:attr090d="@color/color0796" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:id="@id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16.0dip"
+            android:singleLine="false"
+            app:attr0a24="wds_font_body1"
+            style="@style/style0289" />
+    </LinearLayout>
+</FrameLayout>

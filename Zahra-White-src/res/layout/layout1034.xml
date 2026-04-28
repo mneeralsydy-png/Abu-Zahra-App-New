@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@id/stickers_tab_empty"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/stickers_tab_empty_image"
+        android:layout_width="96.0dip"
+        android:layout_height="96.0dip"
+        app:attr0838="@drawable/sticker_sad_cuppy" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/stickers_tab_empty_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str142f"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center_horizontal"
+        android:id="@id/get_stickers_btn"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:text="@string/str3246"
+        style="@style/style0557" />
+</LinearLayout>

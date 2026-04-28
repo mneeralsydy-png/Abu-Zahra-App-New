@@ -1,0 +1,18 @@
+.class public abstract Lorg/apache/xml/security/encryption/XMLCipher$Factory$TransformsImpl;
+.super Lorg/apache/xml/security/transforms/Transforms;
+.source ""
+
+# interfaces
+.implements Lorg/apache/xml/security/encryption/Transforms;
+
+
+# virtual methods
+.method public d()Ljava/lang/String;
+    .locals 1
+
+    invoke-static {}, LX/H2L;->createAndThrow()LX/H2L;
+
+    move-result-object v0
+
+    throw v0
+.end method

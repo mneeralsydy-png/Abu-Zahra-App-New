@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.stickers.StickerView
+    android:layout_gravity="center"
+    android:id="@id/contextual_suggestions_hint_icon_layout"
+    android:background="@drawable/contextual_suggestions_hint_border"
+    android:layout_width="@dimen/dimen0383"
+    android:layout_height="@dimen/dimen0380"
+    android:layout_marginTop="@dimen/dimen039e"
+    android:layout_marginBottom="@dimen/dimen039e"
+    android:layout_marginStart="@dimen/dimen0382"
+    android:layout_marginEnd="@dimen/dimen0381"
+    style="@style/style0006"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

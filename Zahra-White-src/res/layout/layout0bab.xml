@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.chatinfo.view.custom.NewsletterDetailsCard
+    android:orientation="vertical"
+    android:id="@id/contact_details_card"
+    android:visibility="visible"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.InfoCard
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0257">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fc0"
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/contact_title"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:paddingRight="@dimen/dimen06a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/contact_subtitle"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:paddingRight="@dimen/dimen06a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:layout_marginBottom="@dimen/dimen0cec" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/contact_chat_status"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:paddingRight="@dimen/dimen06a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:layout_marginBottom="@dimen/dimen0cec" />
+        <include
+            layout="@layout/layout0baa" />
+        <View
+            android:id="@id/deleted_header_spacer"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen09fd" />
+    </com.whatsapp.ui.coreui.InfoCard>
+</com.whatsapp.chatinfo.view.custom.NewsletterDetailsCard>

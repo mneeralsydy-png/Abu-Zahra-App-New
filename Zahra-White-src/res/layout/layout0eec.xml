@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/newsletter_guidelines_what_you_need_to_know"
+    android:paddingTop="@dimen/dimen0ce7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/newsletter_guidelines_what_you_need_to_know_title"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str2087"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="@style/style05a5" />
+    <LinearLayout
+        android:id="@id/newsletter_requirement_layout"
+        style="@style/style02b9">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            app:attr0838="@drawable/wds_ic_channels"
+            style="@style/style02b8" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/newsletter_requirement_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4.0sp"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/newsletter_decision_process_layout"
+        style="@style/style02b9">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            app:attr0838="@drawable/ic_location_searching"
+            style="@style/style02b8" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/newsletter_decision_process_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4.0sp"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/newsletter_eu_info_layout"
+        android:layout="@layout/layout0bb2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

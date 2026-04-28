@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.TextEmojiLabel
+    android:textSize="@dimen/dimen0fb6"
+    android:textColorLink="?attr0a49"
+    android:id="@id/user_notice_modal_bullet_text"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="@dimen/dimen0e5c"
+    android:lineSpacingExtra="6.0dip"
+    app:attr03ae="?attr03b6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

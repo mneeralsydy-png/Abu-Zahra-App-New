@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/voicemail"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/voicemail_image_btn_stub"
+        android:layout="@layout/layout1222"
+        android:inflatedId="@id/voicemail_btn"
+        android:layout_width="@dimen/dimen01ac"
+        android:layout_height="@dimen/dimen01ac" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/voicemail_wds_btn_stub"
+        android:layout="@layout/layout1223"
+        android:inflatedId="@id/voicemail_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:id="@id/voicemail_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3ab6"
+        android:shadowColor="@color/color089a"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:importantForAccessibility="no"
+        style="@style/style013b" />
+</LinearLayout>

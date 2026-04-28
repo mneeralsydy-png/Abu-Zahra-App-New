@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/ugc_coordinator_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/ai_voice_call_control_card"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@id/ugc_app_bar_layout"
+            android:background="@color/color0790"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null">
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@id/ugc_collapsing_toolbar"
+                android:background="@color/color0790"
+                android:descendantFocusability="blocksDescendants"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/dimen008d"
+                app:attr0259="@android:color/transparent"
+                app:attr04c6="exitUntilCollapsed|scroll|snap"
+                app:attr0853="@android:color/transparent">
+                <com.whatsapp.aivoice.ui.components.AiVoiceToolbar
+                    android:id="@id/ugc_ai_voice_toolbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dimen008d"
+                    app:attr048d="pin"
+                    app:attr049a="parent"
+                    app:attr04ad="parent"
+                    app:attr04b1="parent" />
+                <com.whatsapp.aiugccalling.product.ui.component.UgcCallAvatarView
+                    android:id="@id/ugc_call_photo_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen102e"
+                    android:layout_marginTop="@dimen/dimen008d"
+                    android:layout_marginRight="@dimen/dimen102e"
+                    app:attr048d="parallax" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView
+            android:id="@id/content_scroll_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dimen1039"
+            android:layout_marginRight="@dimen/dimen1039"
+            app:attr048c="@string/str3d52">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:orientation="vertical"
+                android:id="@id/content_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <include
+                    layout="@layout/layout0ad0" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.whatsapp.aivoice.ui.components.AiVoiceTranscriptView
+        android:id="@id/ai_voice_transcript_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        app:attr0495="@id/ai_voice_call_control_card"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+    <com.whatsapp.aivoice.ui.components.AiVoiceCallControlCard
+        android:id="@id/ai_voice_call_control_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+    <ViewStub
+        android:id="@id/ai_voice_call_failure_control_stub"
+        android:layout="@layout/layout0170"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

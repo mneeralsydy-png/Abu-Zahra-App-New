@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout10cb" />
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/hero_account"
+                android:layout_width="64.0dip"
+                android:layout_height="64.0dip"
+                android:contentDescription="@string/str24b9"
+                app:attr0838="@drawable/wds_picto_remove_bank" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/error_education_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28.0dip"
+                android:layout_marginBottom="28.0dip"
+                android:text="@string/str0513"
+                style="@style/style02c9" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:layout_gravity="center"
+                android:id="@id/error_education_secondary_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="26.0dip"
+                android:text="@string/str0511"
+                app:attr0a24="wds_font_body2" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/failure_reasons_bullet_list_container"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen102e">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr0a46"
+                    android:id="@id/failure_reasons_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10.0dip"
+                    app:attr0a24="wds_font_body1" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center_horizontal"
+        android:id="@id/ok_cta_button"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:layout_marginRight="@dimen/dimen1039"
+        android:text="@string/str22a9"
+        style="@style/style055c" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen102e"
+        style="@style/style02f5" />
+</LinearLayout>

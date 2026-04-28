@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="?attr0a5a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:layout_gravity="left"
+        android:id="@id/order_saving"
+        android:background="@drawable/rounded_corner_green_box"
+        android:paddingLeft="@dimen/dimen0a62"
+        android:paddingTop="@dimen/dimen0a5f"
+        android:paddingRight="@dimen/dimen0a62"
+        android:paddingBottom="@dimen/dimen0a5f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0a5d"
+        android:layout_marginTop="@dimen/dimen0a60"
+        android:layout_marginRight="@dimen/dimen0a5d"
+        android:layout_marginBottom="@dimen/dimen0a5d"
+        android:lineSpacingMultiplier="1.43"
+        app:attr0a24="wds_font_body2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/order_incentive_container"
+        android:background="@drawable/rounded_corner_green_box"
+        android:paddingTop="@dimen/dimen0a63"
+        android:paddingBottom="@dimen/dimen0a63"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0a5d"
+        android:layout_marginRight="@dimen/dimen0a5d">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="@dimen/dimen0a5d"
+            android:layout_marginRight="@dimen/dimen0a5d"
+            android:contentDescription="@string/str1934"
+            app:attr0838="@drawable/ic_gift_reward" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:layout_gravity="left"
+            android:id="@id/order_incentive_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen0a5d"
+            android:lineSpacingMultiplier="1.17" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/flows_bottom_sheet_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.PercentageBasedMaxHeightFrameLayout
+        android:id="@id/flows_bottom_sheet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:id="@id/toolbar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+                android:theme="@style/style04ce"
+                android:id="@id/flows_bottom_sheet_toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr05ca="@string/str3dac" />
+            <View
+                android:id="@id/divider_under_nav_bar"
+                android:layout_below="@id/flows_bottom_sheet_toolbar"
+                style="@style/style0355" />
+            <com.whatsapp.flows.ui.app.webview.view.FlowsInitialLoadingView
+                android:orientation="vertical"
+                android:id="@id/flows_initial_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/divider_under_nav_bar"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/flows_web_view_container"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.whatsapp.ui.coreui.PercentageBasedMaxHeightFrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

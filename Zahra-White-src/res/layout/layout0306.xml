@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/fake_flash"
+        android:layout="@layout/layout030a"
+        android:inflatedId="@id/fake_flash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:id="@id/recording_progress"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/dimen0ca7"
+        android:layout_height="@dimen/dimen0ca7"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no"
+        app:attr028b="?attr0a2f"
+        app:attr028c="?attr080f"
+        app:attr028d="@color/color06f1"
+        app:attr0290="8.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/shutter"
+        android:layout_width="@dimen/dimen0ca7"
+        android:layout_height="@dimen/dimen0ca7"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/str0927"
+        android:nextFocusForward="@id/switch_camera_btn"
+        app:attr0838="@drawable/selector_btn_shutter" />
+    <RelativeLayout
+        android:id="@id/secondary_actions_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/switch_camera_btn"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:nextFocusForward="@id/recent_media"
+            android:layout_marginEnd="@dimen/dimen0ce7"
+            app:attr0009="media"
+            app:attr0411="@drawable/ic_flip_camera_android"
+            app:attr096b="tonal"
+            app:attr09ea="large" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/gallery_btn"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/str15b4"
+            android:nextFocusForward="@id/ar_effect_btn"
+            android:layout_marginStart="@dimen/dimen0ce7"
+            app:attr0009="media"
+            app:attr0411="@drawable/ic_photo_white"
+            app:attr096b="tonal"
+            app:attr09ea="large" />
+        <View
+            android:id="@id/align_view"
+            android:layout_width="@dimen/dimen0ca7"
+            android:layout_height="@dimen/dimen0ca7"
+            android:layout_marginBottom="@dimen/dimen0cea"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/ar_effect_btn_container"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen020c"
+            android:layout_marginBottom="@dimen/dimen0cef"
+            android:layout_toLeftOf="@id/align_view"
+            android:layout_toRightOf="@id/gallery_btn"
+            android:layout_alignParentBottom="true">
+            <ViewStub
+                android:id="@id/ar_effect_btn_stub"
+                android:layout="@layout/layout018d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/zoom_btn_container"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen020c"
+            android:layout_marginBottom="@dimen/dimen0cef"
+            android:layout_toLeftOf="@id/switch_camera_btn"
+            android:layout_toRightOf="@id/align_view"
+            android:layout_alignParentBottom="true">
+            <ViewStub
+                android:id="@id/zoom_btn_stub"
+                android:layout="@layout/layout1304"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/close_camera_btn"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:layout_marginBottom="@dimen/dimen0ce7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/str3dac"
+            android:nextFocusForward="@id/flash_btn"
+            android:layout_marginStart="@dimen/dimen0ced"
+            android:layout_marginEnd="@dimen/dimen0ced"
+            app:attr0009="media"
+            app:attr0411="@drawable/ic_close"
+            app:attr096b="tonal" />
+    </RelativeLayout>
+    <ViewStub
+        android:id="@id/select_multiple"
+        android:layout="@layout/layout0efd"
+        android:inflatedId="@id/select_multiple"
+        android:layout_width="@dimen/dimen020b"
+        android:layout_height="@dimen/dimen020a"
+        android:layout_marginBottom="@dimen/dimen086e"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7" />
+    <FrameLayout
+        android:id="@id/flash_btn_container"
+        android:layout_width="@dimen/dimen020d"
+        android:layout_height="@dimen/dimen020c"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/dimen0ced">
+        <View
+            android:layout_gravity="center"
+            android:background="@drawable/btn_gray_circle_background"
+            android:layout_width="@dimen/dimen020e"
+            android:layout_height="@dimen/dimen020e" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/flash_btn"
+            android:padding="@dimen/dimen0ce8"
+            android:focusable="true"
+            android:layout_width="@dimen/dimen09e0"
+            android:layout_height="@dimen/dimen09e0"
+            android:nextFocusForward="@id/gallery_btn"
+            app:attr0838="@drawable/flash_auto" />
+    </FrameLayout>
+    <ViewStub
+        android:id="@id/low_light_btn_stub"
+        android:layout="@layout/layout0a1b"
+        android:inflatedId="@id/low_light_btn_stub"
+        android:layout_width="@dimen/dimen020d"
+        android:layout_height="@dimen/dimen020c"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:layout_toLeftOf="@id/flash_btn_container"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/dimen0ced" />
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_gravity="end|center|top"
+        android:id="@id/ar_effects_button_container_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:layout_toLeftOf="@id/low_light_btn_stub"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dimen0ced" />
+</merge>

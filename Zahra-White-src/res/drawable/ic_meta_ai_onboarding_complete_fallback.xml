@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    android:drawable="@drawable/vec_meta_ai_imagine_me_icon"
+    android:insetLeft="@dimen/dimen0674"
+    android:insetRight="@dimen/dimen0674"
+    android:insetTop="@dimen/dimen0674"
+    android:insetBottom="@dimen/dimen0674"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

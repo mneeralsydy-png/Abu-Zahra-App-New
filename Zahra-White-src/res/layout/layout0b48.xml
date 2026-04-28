@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/music_bottom_sheet_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.search.WDSSearchView
+        android:id="@id/music_search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:navigationIcon="@drawable/ic_search_white"
+        app:attr0a22="clear" />
+    <ViewStub
+        android:id="@id/music_category_filters"
+        android:layout="@layout/layout0b50"
+        android:inflatedId="@id/music_category_filters"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a" />
+    <ViewStub
+        android:id="@id/music_category_filters_divider"
+        android:layout="@layout/layout0b46"
+        android:inflatedId="@id/music_category_filters_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/music_browse_recycler"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

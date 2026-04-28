@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:theme="@style/style001d"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/meta_ai_widget_container_bg"
+    android:padding="@dimen/dimen1057"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/ai_chat_widget_container"
+        android:background="@drawable/meta_ai_widget_bg"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen104d"
+        android:layout_weight="1.0">
+        <ImageView
+            android:layout_width="@dimen/dimen0f3c"
+            android:layout_height="@dimen/dimen0f3c"
+            android:src="@drawable/meta_ai_ring_small"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e" />
+        <TextView
+            android:textAppearance="?attr08ba"
+            android:textSize="@dimen/dimen105b"
+            android:textColor="?attr021a"
+            android:id="@id/ai_chat_widget_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str4013" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/image_input_widget_container"
+        android:background="@drawable/meta_ai_widget_bg"
+        android:layout_width="@dimen/dimen1052"
+        android:layout_height="@dimen/dimen1052"
+        android:layout_marginLeft="@dimen/dimen1050"
+        android:layout_marginStart="@dimen/dimen1050">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="@dimen/dimen0fdc"
+            android:layout_height="@dimen/dimen0fdc"
+            android:src="@drawable/ic_photo_camera"
+            android:scaleType="fitCenter"
+            android:tint="?attr021a" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/voice_widget_container"
+        android:background="@drawable/meta_ai_widget_bg"
+        android:layout_width="@dimen/dimen1052"
+        android:layout_height="@dimen/dimen1052"
+        android:layout_marginLeft="@dimen/dimen1050"
+        android:layout_marginStart="@dimen/dimen1050">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="@dimen/dimen0fdc"
+            android:layout_height="@dimen/dimen0fdc"
+            android:src="@drawable/vec_ic_voicechat"
+            android:scaleType="fitCenter"
+            android:tint="?attr021a" />
+    </FrameLayout>
+</LinearLayout>

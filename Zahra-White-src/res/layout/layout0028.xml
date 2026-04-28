@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/account_switching_item"
+    android:background="?attr076d"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/account_item_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.CircleWaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/account_item_profile_imageview"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="@dimen/dimen0037"
+            android:layout_height="@dimen/dimen0037"
+            android:contentDescription="@string/str3d39" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/account_item_info_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea"
+        app:attr0494="parent"
+        app:attr049b="@id/account_item_status"
+        app:attr04ac="@id/account_item_profile"
+        app:attr04b1="parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr066e"
+                android:id="@id/account_item_name_textview"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0a24="wds_font_body1" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="11.0sp"
+                android:textStyle="bold"
+                android:textColor="?attr0274"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:id="@id/account_badge_count"
+                android:background="@drawable/new_messages_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0ce7"
+                android:minWidth="21.0dip"
+                android:minHeight="21.0dip"
+                android:paddingStart="@dimen/dimen1031"
+                android:paddingEnd="@dimen/dimen1031" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:id="@id/account_item_number_textview"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@id/account_item_status"
+        android:background="@drawable/account_switching_checkbox"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginTop="@dimen/dimen0cef"
+        android:layout_marginBottom="@dimen/dimen0cef"
+        android:button="@null"
+        android:scaleType="fitEnd"
+        android:layout_weight="1.0"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0101="@null"
+        app:attr010b="?attr0a29"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

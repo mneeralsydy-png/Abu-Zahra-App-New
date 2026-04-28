@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/bullet_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e2="@string/str2168"
+        app:attr04e6="@drawable/ic_edit_white"
+        app:attr04e7="@color/color08bd"
+        app:attr04e8="false"
+        app:attr04e9="@string/str216b" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/bullet_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e2="@string/str2169"
+        app:attr04e6="@drawable/ic_views"
+        app:attr04e7="@color/color08bd"
+        app:attr04e8="false"
+        app:attr04e9="@string/str216c" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/bullet_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e2="@string/str216a"
+        app:attr04e6="@drawable/vec_ic_shield"
+        app:attr04e7="@color/color08bd"
+        app:attr04e8="false"
+        app:attr04e9="@string/str216d" />
+</LinearLayout>
