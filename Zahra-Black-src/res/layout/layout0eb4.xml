@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:id="@id/business_search_location"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0112"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@id/divider"
+            android:background="?attr0a4d"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/search_filter_recycler_view"
+            android:paddingLeft="@dimen/dimen04b4"
+            android:paddingRight="@dimen/dimen04b4"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

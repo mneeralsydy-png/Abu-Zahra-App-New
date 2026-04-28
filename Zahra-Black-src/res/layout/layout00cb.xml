@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/proactive_message_settings_root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/tool_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/pm_control_list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04b0="@id/tool_bar"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str3d49"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06ec="wds_switch"
+        app:attr06f6="@drawable/wds_ic_ai_chat"
+        app:attr0702="icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

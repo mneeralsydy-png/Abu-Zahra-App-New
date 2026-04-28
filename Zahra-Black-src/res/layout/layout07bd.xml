@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.LockableCoordinatorLayout
+    android:id="@id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/gallery_picker_layout"
+        android:background="@drawable/wds_bottom_sheet_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:elevation="?attr002f">
+        <FrameLayout
+            android:id="@id/out_of_chat_playback_holder"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            layout="@layout/layout10cc" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.LockableCoordinatorLayout>

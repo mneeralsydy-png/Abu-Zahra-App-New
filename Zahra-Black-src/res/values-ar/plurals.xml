@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">‏تعذّرت مغادرة %d مجموعة. يُرجى إعادة المحاولة.</item>
+        <item quantity="one">‏تعذّرت مغادرة مجموعة واحدة. يُرجى إعادة المحاولة.</item>
+        <item quantity="two">‏تعذّرت مغادرة مجموعتين. يُرجى إعادة المحاولة.</item>
+        <item quantity="few">‏تعذّرت مغادرة %d مجموعات. يُرجى إعادة المحاولة.</item>
+        <item quantity="many">‏تعذّرت مغادرة %d مجموعةً. يُرجى إعادة المحاولة.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d إشعار</item>
+        <item quantity="one">إشعار واحد</item>
+        <item quantity="two">إشعاران</item>
+        <item quantity="few">%1$d إشعارات</item>
+        <item quantity="many">%1$d إشعارًا</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+</resources>

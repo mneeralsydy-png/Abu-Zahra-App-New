@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr00a5="true"
+    app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/e2ee_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/e2ee_padlock"
+            android:layout_width="@dimen/dimen08ea"
+            android:layout_height="@dimen/dimen08ea"
+            android:layout_marginTop="1.0dip"
+            android:scaleType="fitXY"
+            android:importantForAccessibility="no"
+            android:layout_marginEnd="@dimen/dimen0cec"
+            app:attr0838="@drawable/ic_voip_e2ee_padlock_flat"
+            app:attr090d="@color/color0904" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color0904"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/header_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/dimen08eb"
+            android:text="@string/str3a4d"
+            android:maxLines="3"
+            android:importantForAccessibility="no"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@id/call_reactions_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen08f0"
+        android:paddingStart="@dimen/dimen08f0"
+        android:paddingEnd="@dimen/dimen08f0"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr0495="@id/raise_hand_button"
+        app:attr049a="parent"
+        app:attr04a3="0.5"
+        app:attr04ad="parent"
+        app:attr04b0="@id/e2ee_container" />
+    <ViewStub
+        android:id="@id/raise_hand_button"
+        android:layout="@layout/layout0b0b"
+        android:inflatedId="@id/raise_hand_button"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0495="@id/more_menu_items_list"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/call_reactions_list" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/more_menu_items_list"
+        android:background="@drawable/more_menu_list_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen08f0"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/raise_hand_button" />
+    <ViewStub
+        android:id="@id/placeholder_container"
+        android:inflatedId="@id/placeholder_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/more_menu_items_list" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/network_health_icon"
+        android:layout_width="@dimen/dimen08ee"
+        android:layout_height="@dimen/dimen08ee"
+        app:attr0494="@id/network_health_text"
+        app:attr049b="@id/network_health_text"
+        app:attr04a4="packed"
+        app:attr04ad="parent"
+        app:attr04b1="@id/network_health_text" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0902"
+        android:id="@id/network_health_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen08ef"
+        android:layout_marginBottom="@dimen/dimen08ed"
+        android:layout_marginStart="@dimen/dimen0cec"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04a4="packed"
+        app:attr04ac="@id/network_health_icon"
+        app:attr04b0="@id/placeholder_container"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

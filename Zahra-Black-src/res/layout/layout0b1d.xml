@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/month_navigation_bar"
+    android:paddingTop="@dimen/dimen092d"
+    android:paddingBottom="@dimen/dimen092b"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+        <com.google.android.material.button.MaterialButton
+            android:gravity="start|center"
+            android:layout_gravity="start"
+            android:id="@id/month_navigation_fragment_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen092c"
+            android:insetTop="0.0dip"
+            android:insetBottom="0.0dip"
+            app:attr0411="@drawable/material_ic_menu_arrow_down_black_24dp"
+            app:attr0416="textEnd"
+            app:attr041b="4.0dip"
+            style="?attr0543" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton
+        android:gravity="center"
+        android:id="@id/month_navigation_previous"
+        android:layout_width="@dimen/dimen095e"
+        android:layout_height="@dimen/dimen092c"
+        android:insetTop="0.0dip"
+        android:insetBottom="0.0dip"
+        android:contentDescription="@string/str4048"
+        app:attr0411="@drawable/material_ic_keyboard_arrow_previous_black_24dp"
+        style="?attr0540" />
+    <com.google.android.material.button.MaterialButton
+        android:gravity="center"
+        android:id="@id/month_navigation_next"
+        android:layout_width="@dimen/dimen095e"
+        android:layout_height="@dimen/dimen092c"
+        android:insetTop="0.0dip"
+        android:insetBottom="0.0dip"
+        android:contentDescription="@string/str4047"
+        app:attr0411="@drawable/material_ic_keyboard_arrow_next_black_24dp"
+        style="?attr0540" />
+</LinearLayout>

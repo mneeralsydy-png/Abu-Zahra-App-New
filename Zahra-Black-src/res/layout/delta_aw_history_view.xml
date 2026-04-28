@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView
+        android:id="@id/colorlistscroll"
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/colorlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip" />
+    </HorizontalScrollView>
+    <TextView
+        android:gravity="center"
+        android:id="@id/nocolors"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:text="@string/abu_arab_layt_awrecentz" />
+</LinearLayout>

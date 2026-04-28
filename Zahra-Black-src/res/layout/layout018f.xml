@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.fragment.app.FragmentContainerView
+    android:name="com.whatsapp.areffects.ArEffectsButtonHeaderFragment"
+    android:id="@id/ar_effects_button_header_stub"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

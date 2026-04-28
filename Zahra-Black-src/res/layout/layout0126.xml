@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen102f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:background="@color/color08f7"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen103a" />
+    <LinearLayout
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:id="@id/ai_creation_delete_button"
+        android:background="@drawable/selector_orange_gradient"
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102f"
+        android:paddingStart="@dimen/dimen103b"
+        android:paddingEnd="@dimen/dimen103b">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="?attr0a4f"
+            app:attr0838="@drawable/ic_delete_red" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a4"
+            android:textColor="?attr0a4f"
+            android:id="@id/ai_creation_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str02ad"
+            android:layout_marginStart="@dimen/dimen103b"
+            app:attr0a24="wds_font_body1" />
+    </LinearLayout>
+</LinearLayout>

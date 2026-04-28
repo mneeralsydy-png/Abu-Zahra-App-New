@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/imagine_expand_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/imagine_expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str02e9"
+        app:attr0009="media"
+        app:attr0083="@color/color09a9"
+        app:attr0411="@drawable/vec_ic_imagine_expand"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a2f"
+        android:id="@id/imagine_expand_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:text="@string/str02ed"
+        app:attr0a24="wds_font_body3"
+        style="@style/style05a8" />
+</LinearLayout>

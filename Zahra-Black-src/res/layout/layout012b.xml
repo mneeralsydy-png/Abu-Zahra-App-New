@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a5"
+        android:id="@id/creation_error_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:attr0495="@id/creation_retry"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr04b2="0.5"
+        app:attr04b3="packed"
+        app:attr0a24="wds_font_body1_emphasized" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/creation_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str2caa"
+        app:attr0009="normal"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/creation_error_message"
+        app:attr04b2="0.5"
+        app:attr096b="tonal"
+        app:attr09ea="small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

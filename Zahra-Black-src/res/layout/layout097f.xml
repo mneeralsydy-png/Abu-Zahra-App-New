@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/video_thumbnail"
+        android:background="@color/color08fe"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <View
+        android:id="@id/duration_background"
+        android:background="@drawable/duration_gradient"
+        android:layout_width="0.0dip"
+        android:layout_height="25.0dip"
+        app:attr0494="@id/video_thumbnail"
+        app:attr049a="@id/video_thumbnail"
+        app:attr04ad="@id/video_thumbnail" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/play_button"
+        android:background="@drawable/exo_player_gray_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/str189c"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_video_play" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/video_icon"
+        android:layout_width="14.0dip"
+        android:layout_height="14.0dip"
+        android:layout_marginStart="@dimen/dimen1039"
+        app:attr0494="@id/duration_background"
+        app:attr04ad="parent"
+        app:attr04b1="@id/duration_background"
+        app:attr0838="@drawable/mark_video"
+        app:attr090d="?attr0a2f" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textStyle="bold"
+        android:textColor="?attr0a2f"
+        android:id="@id/duration_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1031"
+        app:attr03ae="?attr03b6"
+        app:attr0494="@id/duration_background"
+        app:attr04ac="@id/video_icon"
+        app:attr04b1="@id/duration_background" />
+</androidx.constraintlayout.widget.ConstraintLayout>

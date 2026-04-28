@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/camera_layout"
+    android:background="@color/color0144"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/camera_view_holder"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:attr0494="parent"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b1="parent">
+            <FrameLayout
+                android:layout_gravity="center"
+                android:id="@id/camera_progress_wrapper"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <FrameLayout
+                    android:layout_gravity="center"
+                    android:id="@id/camera_view_frame_wrapper"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <FrameLayout
+                        android:layout_gravity="center"
+                        android:id="@id/camera_view_frame"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                </FrameLayout>
+                <ViewStub
+                    android:layout_gravity="center"
+                    android:id="@id/recording_progress_ring"
+                    android:layout="@layout/layout030f"
+                    android:inflatedId="@id/recording_progress_ring"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </FrameLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:id="@id/camera_protection"
+        android:background="@color/color0144"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/camera_overlays_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/save_progress"
+        android:layout="@layout/layout0311"
+        android:inflatedId="@id/save_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/circular_progress_indicator_view_stub"
+        android:layout="@layout/layout0309"
+        android:layout_width="@dimen/dimen0096"
+        android:layout_height="@dimen/dimen0096" />
+</FrameLayout>

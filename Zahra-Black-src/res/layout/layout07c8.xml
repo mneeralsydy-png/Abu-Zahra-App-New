@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/media_picker_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:textColorPrimary="?attr066e"
+        android:id="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d"
+        android:minHeight="?attr000d"
+        android:layout_alignParentTop="true"
+        android:touchscreenBlocksFocus="false"
+        app:attr02dd="gone"
+        app:attr057c="@menu/menu0031"
+        app:attr0655="@style/style0522"
+        app:attr08f4="@style/style051f" />
+    <ViewStub
+        android:id="@id/gallery_subtitle"
+        android:layout="@layout/layout07c7"
+        android:inflatedId="@id/gallery_subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar" />
+    <ViewStub
+        android:id="@id/gallery_tab_layout"
+        android:layout="@layout/layout07c9"
+        android:inflatedId="@id/gallery_tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:layout_below="@id/gallery_subtitle" />
+    <ViewStub
+        android:id="@id/partial_permission_banner_view_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout07b4"
+        android:inflatedId="@id/partial_permission_banner_view_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gallery_tab_layout" />
+    <ViewStub
+        android:id="@id/gallery_view_pager"
+        android:layout="@layout/layout0a58"
+        android:inflatedId="@id/gallery_view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/partial_permission_banner_view_stub" />
+    <FrameLayout
+        android:id="@id/media_grid_fragment_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/partial_permission_banner_view_stub" />
+    <ViewStub
+        android:id="@id/gallery_picker_actions"
+        android:layout="@layout/layout07bb"
+        android:inflatedId="@id/gallery_picker_actions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/partial_permission_banner_view_stub" />
+    <ViewStub
+        android:id="@id/gallery_controls"
+        android:layout="@layout/layout07be"
+        android:inflatedId="@id/gallery_controls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gallery_picker_actions" />
+    <FrameLayout
+        android:id="@id/mention_attach"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sticky_views_container" />
+    <FrameLayout
+        android:id="@id/sticky_views_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:id="@id/selection_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:layout_gravity="bottom"
+                android:id="@id/gallery_selected_container"
+                android:layout="@layout/layout07b2"
+                android:inflatedId="@id/gallery_selected_container"
+                android:layout_width="fill_parent"
+                android:layout_height="64.0dip" />
+            <ViewStub
+                android:layout_gravity="bottom"
+                android:id="@id/gallery_selected_container_fragment"
+                android:layout="@layout/layout07c5"
+                android:inflatedId="@id/gallery_selected_container_fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="64.0dip" />
+            <ViewStub
+                android:layout_gravity="bottom"
+                android:id="@id/gallery_tray_with_caption"
+                android:layout="@layout/layout07c3"
+                android:inflatedId="@id/gallery_tray_with_caption"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ViewStub
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/gallery_fab"
+            android:layout="@layout/layout11b0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cea" />
+    </FrameLayout>
+</RelativeLayout>

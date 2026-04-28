@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_select_check_box"
+        android:enabled="true"
+        android:id="@id/multi_select"
+        android:visible="false"
+        android:title="@string/str4213"
+        android:titleCondensed="@string/str4213"
+        app:attr041f="?attr0a47"
+        app:attr07f1="always" />
+    <item
+        android:icon="@drawable/vec_ic_more"
+        android:enabled="true"
+        android:id="@id/more"
+        android:visible="false"
+        android:title="@string/str4035"
+        android:titleCondensed="@string/str4035"
+        app:attr041f="?attr0a47"
+        app:attr07f1="always">
+        <menu />
+    </item>
+    <item
+        android:icon="@drawable/ic_motion_photos_toggle_off"
+        android:enabled="true"
+        android:id="@id/motion_photos_toggle"
+        android:visible="false"
+        android:title="@string/str3d09"
+        android:titleCondensed="@string/str3d09"
+        app:attr041f="?attr0a47"
+        app:attr07f1="always" />
+    <item
+        android:icon="@drawable/ic_hd_label"
+        android:enabled="true"
+        android:id="@id/hd_control_btn"
+        android:visible="false"
+        android:title="@string/str3d08"
+        android:titleCondensed="@string/str3d08"
+        app:attr041f="?attr0a47"
+        app:attr07f1="always" />
+</menu>

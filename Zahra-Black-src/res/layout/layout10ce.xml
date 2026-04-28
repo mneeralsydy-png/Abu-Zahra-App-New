@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@drawable/wds_bottom_sheet_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:elevation="?attr002f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout10cc" />
+    <FrameLayout
+        android:id="@id/search_holder"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginStart="7.0dip"
+        android:layout_marginEnd="7.0dip" />
+</FrameLayout>

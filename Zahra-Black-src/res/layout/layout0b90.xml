@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/lists_home_create"
+        android:background="@drawable/create_new_list_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="@dimen/dimen1033"
+        android:paddingEnd="@dimen/dimen1033">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/add_list_icon"
+            android:layout_width="@dimen/dimen103b"
+            android:layout_height="@dimen/dimen103b"
+            android:src="@drawable/vec_ic_add"
+            android:tint="?attr0a2b" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a2b"
+            android:id="@id/add_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:layout_marginBottom="@dimen/dimen103a"
+            android:text="@string/str1fc5"
+            android:textAlignment="center"
+            android:layout_marginStart="@dimen/dimen1039"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:background="?attr0a3d"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen1039"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_below="@id/lists_home_create"
+        android:layout_alignParentBottom="true"
+        app:attr0a24="wds_font_body2" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/color07e9"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        app:attr0494="parent"
+        app:attr04b1="parent">
+        <FrameLayout
+            android:id="@id/view_once_fragment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:theme="@style/style01d5"
+        android:id="@id/toolbar"
+        android:background="@color/color0791"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0048"
+        app:attr04b1="parent"
+        app:attr0655="@style/style0522" />
+</androidx.constraintlayout.widget.ConstraintLayout>

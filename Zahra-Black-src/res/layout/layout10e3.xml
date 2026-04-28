@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/trim_info_bottom_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        app:attr0495="@id/timeline_view"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/trim_info_bottom"
+            android:background="@drawable/video_preview_label_background"
+            android:visibility="invisible"
+            style="@style/style0540" />
+    </FrameLayout>
+    <com.whatsapp.mediacomposer.ui.app.VideoTimelineView
+        android:id="@id/timeline_view"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen1030"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:layout_marginTop="@dimen/dimen103b"
+        app:attr0495="@id/cancel"
+        app:attr04b1="@id/trim_info_bottom_container"
+        app:attr099e="?attr0a2f"
+        app:attr099f="2.0dip"
+        app:attr09a0="@color/color07e4"
+        app:attr09a1="?attr0a2f"
+        app:attr09a2="?attr0a2f"
+        app:attr09a3="6.0dip"
+        app:attr09a4="8.0dip" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str355f"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0009="media"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04b0="@id/timeline_view"
+        app:attr096b="tonal"
+        app:attr09ea="normal" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0902"
+        android:id="@id/duration_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/done"
+        app:attr049b="@id/done"
+        app:attr04ac="@id/cancel"
+        app:attr04b1="@id/done"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3560"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0009="media"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/timeline_view"
+        app:attr096b="filled"
+        app:attr09ea="normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

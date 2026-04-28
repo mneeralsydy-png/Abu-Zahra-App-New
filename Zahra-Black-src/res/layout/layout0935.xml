@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:elevation="?attr002f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout10cb" />
+    <FrameLayout
+        android:id="@id/interop_search_holder"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d" />
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:gravity="center"
+    android:paddingTop="8.0dip"
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0499="1:1"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@id/icon_container"
+        android:layout_width="66.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginBottom="@dimen/dimen1030"
+        app:attr0499="1:1"
+        app:attr049a="@id/background"
+        app:attr04ad="@id/background"
+        app:attr04b1="parent"
+        app:attr04b3="packed">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/icon"
+            android:background="@drawable/contact_background_circle"
+            android:padding="1.0dip"
+            android:layout_width="64.0dip"
+            android:layout_height="64.0dip"
+            android:scaleType="fitXY"
+            app:attr0838="@drawable/avatar_contact" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/bills_badge"
+            android:background="@drawable/badge_background_oval"
+            android:padding="2.0dip"
+            android:visibility="gone"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:scaleType="fitXY"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            app:attr0838="@drawable/ic_verified" />
+    </RelativeLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="12.0sp"
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:id="@id/name"
+        android:layout_width="78.0dip"
+        android:layout_height="wrap_content"
+        android:minHeight="30.0dip"
+        android:maxLines="2"
+        app:attr0494="@id/background"
+        app:attr049a="@id/background"
+        app:attr04ad="@id/background"
+        app:attr04b0="@id/icon_container"
+        app:attr0a24="wds_font_body3"
+        style="@style/style05a8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

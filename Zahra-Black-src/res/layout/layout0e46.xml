@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:gravity="end|bottom|center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:padding="20.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="20.0sp"
+            android:gravity="left"
+            android:id="@id/dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr03bb="500"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            style="@style/style03c7" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:gravity="left"
+            android:id="@id/dialog_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:lineSpacingExtra="4.0dip"
+            app:attr04b0="@id/dialog_title" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/negative_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cf2"
+            android:text="@string/str3d9b"
+            app:attr04a7="parent"
+            app:attr04b0="@id/dialog_message"
+            style="@style/style0558" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/positive_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cf2"
+            android:text="@string/str14ad"
+            app:attr04ab="parent"
+            app:attr04b0="@id/dialog_message"
+            style="@style/style0558" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

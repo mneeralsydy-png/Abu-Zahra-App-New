@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:gravity="center_vertical"
+    android:background="@drawable/selector_orange_gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="76.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/provider_icon"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:scaleType="fitXY"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/bank_logo_placeholder_with_circle_bg" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a47"
+        android:id="@id/bank_name"
+        android:background="@drawable/payment_loading_box"
+        android:layout_width="200.0dip"
+        android:layout_height="16.0dip"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:text=" "
+        app:attr0495="@id/bank_subtext"
+        app:attr04ac="@id/provider_icon"
+        app:attr04b1="parent"
+        style="@style/style0289" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a47"
+        android:gravity="start"
+        android:id="@id/bank_subtext"
+        android:background="@drawable/payment_loading_box"
+        android:layout_width="156.0dip"
+        android:layout_height="16.0dip"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:text=" "
+        app:attr0494="parent"
+        app:attr04ac="@id/provider_icon"
+        app:attr04b0="@id/bank_name"
+        style="@style/style0289" />
+</androidx.constraintlayout.widget.ConstraintLayout>

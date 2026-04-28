@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/body"
+    android:paddingTop="@dimen/dimen0ce8"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0cea"
+    android:paddingEnd="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView
+        android:id="@id/bank_image_webview"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/photo"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/ic_person"
+        android:scaleType="fitCenter"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr049b="@id/value"
+        app:attr04ac="@id/photo"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr066e"
+        android:ellipsize="end"
+        android:id="@id/value"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr049b="@id/edit_icon"
+        app:attr04ac="@id/title"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/edit_icon"
+        android:visibility="gone"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:contentDescription="@string/str1184"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/wa_ic_edit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

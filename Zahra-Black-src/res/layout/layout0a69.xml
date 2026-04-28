@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:background="@color/color08e5"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip" />
+    <FrameLayout
+        android:background="@color/color08d1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            layout="@layout/layout0d3b" />
+    </FrameLayout>
+</LinearLayout>

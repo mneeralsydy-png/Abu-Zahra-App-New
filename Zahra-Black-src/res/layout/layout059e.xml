@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversationslist.FillListViewContainer
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/conversations_filter_no_favorites_image"
+            android:layout_width="@dimen/dimen03a8"
+            android:layout_height="@dimen/dimen03a7"
+            app:attr0838="@drawable/vec_community_tab_empty" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:text="@string/str0c19"
+            app:attr0a24="wds_font_headline1"
+            style="@style/style05aa" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08df"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:text="@string/str0c1c"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="bottom|center"
+            android:id="@id/empty_community_row_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cf2"
+            android:layout_marginBottom="@dimen/dimen0ce8"
+            android:text="@string/str0c1a"
+            style="@style/style0555" />
+    </LinearLayout>
+</com.whatsapp.conversationslist.FillListViewContainer>

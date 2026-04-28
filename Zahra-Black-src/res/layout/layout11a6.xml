@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.fab.WDSFab
+    android:id="@id/side_rail_fab_second"
+    android:contentDescription="@string/str1d04"
+    app:attr090d="?attr0366"
+    style="@style/style0561"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

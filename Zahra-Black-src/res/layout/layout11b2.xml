@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    style="@style/style01a2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.contact.ui.picker.BidiContactListView
+        android:id="@id/contact_list_view"
+        android:background="@android:color/transparent"
+        android:paddingLeft="@dimen/dimen032f"
+        android:paddingRight="@dimen/dimen0330"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:choiceMode="singleChoice"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="true"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <FrameLayout
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/contact_list_view">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/init_contacts_progress"
+            android:padding="@dimen/dimen0cea"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="progressBarStyleInverse" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/empty_view"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@id/share_link_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:id="@id/contacts_section"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:gravity="center"
+                android:id="@id/invite_empty_description"
+                android:paddingLeft="@dimen/dimen064c"
+                android:paddingTop="@dimen/dimen0cf4"
+                android:paddingRight="@dimen/dimen064c"
+                android:paddingBottom="@dimen/dimen0cf1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr0a24="wds_font_body2"
+                style="@style/style03c7" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:layout_gravity="center"
+                android:id="@id/button_open_permission_settings"
+                android:layout_marginBottom="@dimen/dimen0ceb"
+                android:text="@string/str27d7"
+                style="@style/style0555" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

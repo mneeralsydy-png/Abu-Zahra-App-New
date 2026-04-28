@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/local_restore_root"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/local_restore_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen102e"
+            android:clipChildren="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen103b"
+                android:text="@string/str0190"
+                style="@style/style0331" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:layout_width="48.0dip"
+                android:layout_height="48.0dip"
+                app:attr0838="@drawable/ic_backup" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr0a45"
+                android:gravity="center"
+                android:id="@id/activity_gdrive_backup_found_category"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginBottom="@dimen/dimen1039"
+                android:text="@string/str1eef"
+                android:fontFamily="?attr03b8"
+                app:attr0a24="wds_font_body1" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="13.0sp"
+                android:textColor="?attr0a46"
+                android:gravity="center"
+                android:id="@id/restore_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:lineSpacingMultiplier="1.15"
+                android:fontFamily="?attr03b6" />
+            <LinearLayout
+                android:gravity="bottom|center"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28.0dip"
+                android:layout_marginTop="@dimen/dimen102c"
+                android:layout_marginRight="28.0dip"
+                android:layout_marginBottom="@dimen/dimen103b"
+                android:layout_weight="1.0">
+                <com.whatsapp.backup.googlemanager.GoogleDriveRestoreAnimationView
+                    android:id="@id/restore_animation_view"
+                    android:visibility="gone"
+                    android:layout_width="280.0dip"
+                    android:layout_height="80.0dip"
+                    app:attr03cd="@color/color0347"
+                    app:attr03d0="@color/color0347" />
+                <ProgressBar
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/progress"
+                    android:visibility="gone"
+                    android:layout_width="280.0dip"
+                    android:layout_height="10.0dip"
+                    android:layout_marginTop="@dimen/dimen1039"
+                    android:layout_marginBottom="@dimen/dimen103b"
+                    android:progressTint="?attr0573"
+                    android:indeterminateTint="?attr0573"
+                    android:indeterminateTintMode="src_atop"
+                    style="progressBarStyleHorizontal" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textColor="?attr0a46"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@id/progress_info"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen102e"
+                    android:text="@string/str018f"
+                    android:fontFamily="?attr03b6"
+                    app:attr0a24="wds_font_body2" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:layout_gravity="bottom|center"
+                    android:id="@id/next_btn"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/dimen1039"
+                    android:layout_marginBottom="@dimen/dimen102e"
+                    android:text="@string/str2157"
+                    style="@style/style0555" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:gravity="center"
+                    android:layout_gravity="bottom"
+                    android:id="@id/msgrestore_result_box"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="?attr03b6"
+                    app:attr0a24="wds_font_body2" />
+            </LinearLayout>
+            <include
+                android:layout_gravity="bottom|center"
+                android:layout_width="@dimen/dimen0a7f"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen103b"
+                layout="@layout/layout0e6b" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

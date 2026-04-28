@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.communitymedia.itemviews.MessageChatNameView
+        android:textColor="@color/color08de"
+        android:ellipsize="end"
+        android:id="@id/chat_name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        style="?attr09f7" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:id="@id/separator_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1caa"
+        app:attr0a24="wds_font_body2"
+        style="?attr09f6" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:id="@id/file_metadata_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0a24="wds_font_body2"
+        style="?attr09f6" />
+</merge>

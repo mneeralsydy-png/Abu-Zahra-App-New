@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/divider"
+        android:background="@drawable/payments_divider_gray"
+        android:layout_width="0.0dip"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="@dimen/dimen1032"
+        android:layout_marginStart="@dimen/dimen1032"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/start_date_label"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:text="@string/str3771"
+        app:attr04ad="@id/divider"
+        app:attr04b0="@id/divider"
+        style="@style/style0285" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:layout_gravity="end|center"
+        android:id="@id/start_date_value"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:singleLine="false"
+        android:layout_marginEnd="16.0dip"
+        app:attr049a="parent"
+        app:attr04b1="@id/start_date_label"
+        style="@style/style0285" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/end_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:text="@string/str3770"
+        app:attr04ad="@id/start_date_label"
+        app:attr04b0="@id/start_date_label"
+        style="@style/style0285" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:layout_gravity="end|center"
+        android:id="@id/end_date_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:singleLine="false"
+        android:layout_marginEnd="16.0dip"
+        app:attr049a="parent"
+        app:attr04b1="@id/end_date_label"
+        style="@style/style0285" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/date_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="end_date_label,end_date_value" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/frequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:text="@string/str3727"
+        app:attr04ad="@id/divider"
+        app:attr04b0="@id/date_barrier"
+        style="@style/style0285" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:layout_gravity="end|center"
+        android:id="@id/frequency_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:singleLine="false"
+        android:layout_marginEnd="16.0dip"
+        app:attr049a="parent"
+        app:attr04b1="@id/frequency"
+        style="@style/style0285" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/frequency_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="frequency,frequency_value" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a47"
+        android:id="@id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:text="@string/str0ccf"
+        app:attr03ae="?attr03b8"
+        app:attr04ad="@id/divider"
+        app:attr04b0="@id/frequency_barrier"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a47"
+        android:layout_gravity="end|center"
+        android:id="@id/total_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginEnd="16.0dip"
+        app:attr03ae="?attr03b8"
+        app:attr049a="parent"
+        app:attr04b1="@id/total"
+        app:attr0a24="wds_font_body2" />
+    <include
+        android:id="@id/blurb_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/total"
+        layout="@layout/layout03ab" />
+</androidx.constraintlayout.widget.ConstraintLayout>

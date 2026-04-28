@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/date_of_birth_close_button"
+    android:paddingTop="12.599976dip"
+    android:layout_width="36.0dip"
+    android:layout_height="36.0dip"
+    android:tint="@color/color0897"
+    android:contentDescription="@string/str3dac"
+    app:attr04ad="parent"
+    app:attr04b1="parent"
+    app:attr0838="@drawable/ic_close"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

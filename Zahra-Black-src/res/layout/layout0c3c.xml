@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/loading_section"
+    android:padding="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:id="@id/progress_bar"
+        android:layout_width="@dimen/dimen0fec"
+        android:layout_height="@dimen/dimen0fec"
+        android:indeterminate="true"
+        style="progressBarStyle" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a6"
+        android:id="@id/progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str2b4a"
+        android:layout_marginStart="@dimen/dimen1039"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

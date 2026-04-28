@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen0cee"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0838="@drawable/wds_picto_email" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="@color/color05f4"
+                android:gravity="center_horizontal"
+                android:id="@id/add_email_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:layout_marginBottom="8.0dip"
+                app:attr03ae="?attr03b8"
+                app:attr0a24="wds_font_headline2"
+                style="@style/style05ab" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a46"
+                android:gravity="center_horizontal"
+                android:id="@id/add_email_description_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0a24="wds_font_body2"
+                style="@style/style05a6" />
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/add_email_button"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/dimen0ce7"
+                android:layout_marginBottom="@dimen/dimen0ce7"
+                style="@style/style0555" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/skip_email_button"
+                android:layout_width="fill_parent"
+                android:text="@string/str427b"
+                style="@style/style055d" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

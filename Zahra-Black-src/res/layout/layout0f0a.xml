@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="@dimen/dimen0607"
+    android:layout_height="@dimen/dimen0607"
+    app:attr011e="@dimen/dimen0600"
+    app:attr011f="0.0dip"
+    app:attr0252="0.0dip"
+    app:attr085d="@color/color02d2"
+    app:attr085e="2.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.gallery.ui.RotatableThumbnailImageView
+        android:id="@id/selected_media_item_thumbnail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+</com.google.android.material.card.MaterialCardView>

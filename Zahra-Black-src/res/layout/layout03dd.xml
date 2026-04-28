@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/contact_form_wds_content"
+    android:paddingBottom="@dimen/dimen032a"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout10cb" />
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/keyboard_aware_save_button"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar">
+        <include
+            android:id="@id/contact_form_fields"
+            layout="@layout/layout03d5" />
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/keyboard_aware_save_button"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen032a"
+        android:text="@string/str2d07"
+        android:layout_marginStart="@dimen/dimen0328"
+        android:layout_marginEnd="@dimen/dimen0328"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        style="@style/style0555" />
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:id="@id/keyboard_aware_save_in_progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1035"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="@id/keyboard_aware_save_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

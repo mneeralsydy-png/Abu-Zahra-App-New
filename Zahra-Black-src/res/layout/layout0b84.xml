@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/contact_picker_layout"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.search.WDSSearchBar
+        android:id="@id/wds_search_bar"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/contact_picker_chip_group_layout"
+        android:layout="@layout/layout03f6"
+        android:inflatedId="@id/contact_picker_chip_group_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr048f="true"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/wds_search_bar" />
+    <View
+        android:id="@id/contact_picker_chip_group_divider"
+        android:visibility="gone"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/contact_picker_chip_group_layout"
+        style="@style/style0355" />
+    <ViewStub
+        android:id="@id/persistent_search_bar"
+        android:layout="@layout/layout03fb"
+        android:inflatedId="@id/persistent_search_bar"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="@id/contact_list"
+        app:attr04ad="@id/contact_list"
+        app:attr04b0="@id/contact_picker_chip_group_divider" />
+    <ViewStub
+        android:id="@id/contact_picker_banner_stub"
+        android:layout="@layout/layout03f3"
+        android:inflatedId="@id/contact_picker_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="@id/contact_list"
+        app:attr04ad="@id/contact_list"
+        app:attr04b0="@id/persistent_search_bar" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/contact_picker_banner_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="contact_picker_banner_stub,contact_picker_banner" />
+    <ViewStub
+        android:id="@id/reachout_timelocks_banner_holder"
+        android:layout="@layout/layout0e18"
+        android:inflatedId="@id/reachout_timelocks_banner_holder_inflated"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="@id/contact_list"
+        app:attr04ad="@id/contact_list"
+        app:attr04b0="@id/contact_picker_banner_barrier" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/reachout_timelocks_banner_holder_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="reachout_timelocks_banner_holder,reachout_timelocks_banner_holder_inflated" />
+    <FrameLayout
+        android:id="@id/frequently_forwarded_holder"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="@id/contact_list"
+        app:attr04ad="@id/contact_list"
+        app:attr04b0="@id/reachout_timelocks_banner_holder_barrier" />
+    <FrameLayout
+        android:id="@id/recharges_recent_operators"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0495="@id/contact_list"
+        app:attr049a="@id/contact_list"
+        app:attr04ad="@id/contact_list"
+        app:attr04b0="@id/frequently_forwarded_holder" />
+    <include
+        android:id="@id/contact_list"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen102c"
+        android:layout_marginBottom="@dimen/dimen102c"
+        app:attr0495="@id/recharges_tos_stub"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/recharges_recent_operators"
+        layout="@layout/layout03f9"
+        style="@style/style01a2" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/footer_container"
+        android:background="?attr0246"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102c"
+        app:attr0494="parent"
+        app:attr049a="@id/contact_list"
+        app:attr04ad="@id/contact_list">
+        <View
+            android:id="@id/shadow_top"
+            android:background="@drawable/shadow_recipient_bar"
+            android:layout_width="0.0dip"
+            android:layout_height="10.0dip"
+            app:attr0495="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent">
+            <ViewStub
+                android:id="@id/inline_media_preview_container_stub"
+                android:layout="@layout/layout0913"
+                android:inflatedId="@id/inline_media_preview_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/link_preview_message_container_stub"
+                android:layout="@layout/layout09ae"
+                android:inflatedId="@id/link_preview_message_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/share_actions_recycler_view_holder"
+                android:layout="@layout/layout0f4c"
+                android:inflatedId="@id/share_actions_recycler_view_inflated"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/recipients_container_bottom_stub"
+                android:layout="@layout/layout0e2f"
+                android:inflatedId="@id/recipients_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/bottom_ctas_stub"
+                android:layout="@layout/layout03f4"
+                android:inflatedId="@id/bottom_ctas"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/send_stub"
+        android:layout="@layout/layout0f11"
+        android:inflatedId="@id/send"
+        android:layout_width="@dimen/dimen08b3"
+        android:layout_height="@dimen/dimen08b3"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        app:attr0494="@id/footer_container"
+        app:attr049a="@id/contact_list" />
+    <ViewStub
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/bottom_create_group_button_stub"
+        android:layout="@layout/layout0236"
+        android:inflatedId="@id/bottom_create_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1030"
+        app:attr0494="@id/footer_container"
+        app:attr049b="@id/send" />
+    <ViewStub
+        android:id="@id/save_button_stub"
+        android:layout="@layout/layout0e9f"
+        android:inflatedId="@id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr049a="@id/contact_list" />
+    <com.whatsapp.ui.wds.components.fab.WDSExtendedFab
+        android:layout_gravity="center_horizontal"
+        android:id="@id/extended_fab"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr041b="@dimen/dimen1039"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        style="@style/style057d" />
+    <FrameLayout
+        android:id="@id/recharges_tos_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

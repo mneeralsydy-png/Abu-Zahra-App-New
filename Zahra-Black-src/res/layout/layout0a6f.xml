@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:id="@id/media_recipients_groups_layout"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen08ae"
+    android:layout_marginLeft="@dimen/dimen08af"
+    android:layout_marginRight="@dimen/dimen08b0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.chip.ChipGroup
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/chips_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="locale"
+        app:attr01d0="@dimen/dimen0ce7" />
+</LinearLayout>

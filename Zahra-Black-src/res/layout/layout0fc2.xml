@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.analytics.uxlogging.components.LoggingAwareFrameLayout
+    android:id="@id/status_playback_content_action_button_wrapper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center"
+        android:id="@id/status_playback_content_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingStart="@dimen/dimen0044"
+        android:paddingEnd="@dimen/dimen0044"
+        app:attr0009="media"
+        app:attr058c="true"
+        app:attr096b="filled"
+        app:attr09ea="normal"
+        style="@style/style05a7" />
+</com.whatsapp.analytics.uxlogging.components.LoggingAwareFrameLayout>

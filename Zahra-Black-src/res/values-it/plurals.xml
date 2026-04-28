@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">Impossibile abbandonare %d gruppi. Riprova.</item>
+        <item quantity="one">Impossibile abbandonare %d gruppo. Riprova.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d notifiche</item>
+        <item quantity="one">%1$d notifica</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+</resources>

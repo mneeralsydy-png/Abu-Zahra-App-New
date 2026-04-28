@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/chat_messages_participant_row"
+    android:background="?attr076d"
+    style="@style/style054d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/avatar"
+        android:focusable="false"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr08aa="@dimen/dimen0cc5"
+        style="@style/style0198" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="?attr09f0"
+        android:textColor="?attr0a47"
+        android:id="@id/name"
+        android:focusable="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        whatsapp:attr0495="@id/subtitle"
+        whatsapp:attr049b="@id/selection_check_view"
+        whatsapp:attr04ac="@id/avatar"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr04b3="packed" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="?attr09fc"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/subtitle"
+        android:focusable="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textDirection="locale"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cec"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049b="@id/selection_check_view"
+        whatsapp:attr04ac="@id/avatar"
+        whatsapp:attr04b0="@id/name" />
+    <com.whatsapp.ui.coreui.components.SelectionCheckView
+        android:id="@id/selection_check_view"
+        android:background="@drawable/selection_check_circle"
+        android:layout_width="@dimen/dimen0fd9"
+        android:layout_height="@dimen/dimen0fd9"
+        android:layout_marginEnd="@dimen/dimen0ced"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr0745="?attr0a29" />
+</androidx.constraintlayout.widget.ConstraintLayout>

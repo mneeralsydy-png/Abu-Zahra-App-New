@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.divider.WDSDivider
+        android:id="@id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        app:attr02db="thin" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08de"
+            android:gravity="center"
+            android:layout_gravity="center|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str3160"
+            app:attr0a24="wds_font_body2_emphasized"
+            style="@style/style05a7" />
+        <com.google.android.material.chip.Chip
+            android:textAppearance="@style/style05a7"
+            android:layout_gravity="center|right"
+            android:id="@id/status_viewer_audience_chip"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen08a9"
+            app:attr01c3="@color/color08f6"
+            app:attr0327="false" />
+    </FrameLayout>
+</LinearLayout>

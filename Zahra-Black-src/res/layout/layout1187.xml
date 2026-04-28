@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:layout_gravity="top"
+    android:id="@id/google_drive_backup_now_btn_info"
+    android:paddingRight="44.0dip"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="?attr07af"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout10cb" />
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginBottom="8.0dip"
+                android:text="@string/str2737"
+                style="@style/style02c9" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:gravity="center"
+                android:id="@id/add_card_number_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str2736"
+                app:attr04d0="20.0dip"
+                app:attr0a24="wds_font_body2" />
+            <LinearLayout
+                android:background="@drawable/debit_card_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102f">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingLeft="16.0dip"
+                    android:paddingRight="16.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_width="48.0dip"
+                        android:layout_height="34.0dip"
+                        android:layout_marginTop="16.0dip"
+                        android:scaleType="centerCrop"
+                        app:attr0838="@drawable/ic_aadhaar_card_icon" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textSize="@dimen/dimen0fb6"
+                        android:textColor="?attr02b6"
+                        android:id="@id/card_type_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen1036"
+                        android:text="@string/str2530"
+                        app:attr0a24="wds_font_body2" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:paddingBottom="68.0dip"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.whatsapp.payments.common.ui.widget.CardInputText
+                            android:id="@id/aadhaar_number_part1"
+                            android:background="@android:color/transparent"
+                            android:nextFocusRight="@id/aadhaar_number_part2"
+                            android:layout_width="104.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen1035"
+                            android:cursorVisible="false"
+                            android:digits=" 0123456789"
+                            android:inputType="number"
+                            android:imeOptions="actionNext"
+                            app:attr01ac="20.0sp"
+                            app:attr01ad="5.0dip"
+                            app:attr03ad="?attr066e"
+                            app:attr0494="parent"
+                            app:attr049b="@id/space_1"
+                            app:attr04ad="parent"
+                            app:attr04b1="parent"
+                            app:attr04d3="2.0dip"
+                            app:attr04d4="?notification_material_background_media_default_color"
+                            app:attr05da="4"
+                            app:attr08df="6.0dip" />
+                        <Space
+                            android:id="@id/space_1"
+                            android:layout_width="@dimen/dimen0b62"
+                            android:layout_height="wrap_content"
+                            app:attr0494="parent"
+                            app:attr049b="@id/aadhaar_number_part2"
+                            app:attr04ac="@id/aadhaar_number_part1"
+                            app:attr04b1="parent" />
+                        <com.whatsapp.payments.common.ui.widget.CardInputText
+                            android:id="@id/aadhaar_number_part2"
+                            android:background="@android:color/transparent"
+                            android:nextFocusLeft="@id/aadhaar_number_part1"
+                            android:layout_width="52.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen1030"
+                            android:cursorVisible="false"
+                            android:digits=" 0123456789"
+                            android:inputType="number"
+                            android:imeOptions="actionNext"
+                            app:attr01ac="20.0sp"
+                            app:attr01ad="5.0dip"
+                            app:attr03ad="?attr066e"
+                            app:attr0494="parent"
+                            app:attr049b="@id/dot_1"
+                            app:attr04ac="@id/space_1"
+                            app:attr04b1="parent"
+                            app:attr04d3="2.0dip"
+                            app:attr04d4="?notification_material_background_media_default_color"
+                            app:attr05da="2"
+                            app:attr08df="6.0dip" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textColor="?attr066e"
+                            android:id="@id/dot_1"
+                            android:paddingRight="8.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="•"
+                            app:attr0494="parent"
+                            app:attr049b="@id/dot_2"
+                            app:attr04ac="@id/aadhaar_number_part2"
+                            app:attr04b1="parent"
+                            app:attr0a24="wds_font_body2" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textColor="?attr066e"
+                            android:id="@id/dot_2"
+                            android:paddingRight="8.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="•"
+                            app:attr0494="parent"
+                            app:attr049b="@id/space_2"
+                            app:attr04ac="@id/dot_1"
+                            app:attr04b1="parent"
+                            app:attr0a24="wds_font_body2" />
+                        <Space
+                            android:id="@id/space_2"
+                            android:paddingRight="8.0dip"
+                            android:layout_width="@dimen/dimen0b62"
+                            android:layout_height="wrap_content"
+                            app:attr0494="parent"
+                            app:attr049b="@id/dot_3"
+                            app:attr04ac="@id/dot_2"
+                            app:attr04b1="parent" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textColor="?attr066e"
+                            android:id="@id/dot_3"
+                            android:paddingRight="8.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="•"
+                            app:attr0494="parent"
+                            app:attr049b="@id/dot_4"
+                            app:attr04ac="@id/space_2"
+                            app:attr04b1="parent"
+                            app:attr0a24="wds_font_body2" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textColor="?attr066e"
+                            android:id="@id/dot_4"
+                            android:paddingRight="8.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="•"
+                            app:attr0494="parent"
+                            app:attr049b="@id/dot_5"
+                            app:attr04ac="@id/dot_3"
+                            app:attr04b1="parent"
+                            app:attr0a24="wds_font_body2" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textColor="?attr066e"
+                            android:id="@id/dot_5"
+                            android:paddingRight="8.0dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="•"
+                            app:attr0494="parent"
+                            app:attr049b="@id/dot_6"
+                            app:attr04ac="@id/dot_4"
+                            app:attr04b1="parent"
+                            app:attr0a24="wds_font_body2" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textColor="?attr066e"
+                            android:id="@id/dot_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="•"
+                            app:attr0494="parent"
+                            app:attr04ac="@id/dot_5"
+                            app:attr04b1="parent"
+                            app:attr0a24="wds_font_body2" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/upi_logo"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginBottom="16.0dip"
+                style="@style/style02f5" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="@color/color05a4"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fbc"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/str2738"
+            app:attr0a24="wds_font_body3" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:enabled="false"
+            android:id="@id/verify_button"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginBottom="16.0dip"
+            android:text="@string/str2735"
+            android:maxLines="1"
+            style="@style/style055c" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_activated="true">
+        <layer-list>
+            <item
+                android:drawable="@drawable/filter_rounded_rectangle_bg_selection" />
+            <item
+                android:drawable="@drawable/filter_rounded_rectangle_bg_activation" />
+        </layer-list>
+    </item>
+    <item>
+        <ripple
+            android:color="?attr0a60">
+            <item
+                android:drawable="@drawable/filter_rounded_rectangle_bg_selection" />
+        </ripple>
+    </item>
+</selector>

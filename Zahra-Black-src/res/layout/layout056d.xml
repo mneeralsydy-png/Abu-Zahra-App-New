@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:id="@id/view_memories"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text="@string/str06ce"
+    style="@style/style0569"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

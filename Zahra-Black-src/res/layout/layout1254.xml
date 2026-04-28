@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dimen0ef9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/status_privacy_crossposting_fb_setting"
+        android:paddingTop="@dimen/dimen0cea"
+        android:paddingBottom="@dimen/dimen0ce8"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/fb_icon"
+            android:layout_width="@dimen/dimen0ef8"
+            android:layout_height="@dimen/dimen0ef8"
+            android:layout_marginEnd="@dimen/dimen0efa"
+            app:attr0838="@drawable/wds_ic_logo_facebook"
+            app:attr090d="@color/color08de" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="@color/color05f4"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str3165"
+            android:layout_weight="1.0"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+            android:id="@id/auto_crosspost_setting_switch_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/dimen0ef7"
+            android:minHeight="@dimen/dimen0ef7"
+            android:layout_marginStart="@dimen/dimen0efa"
+            android:layout_marginEnd="@dimen/dimen0efa" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/status_privacy_crossposting_ig_setting"
+        android:paddingTop="@dimen/dimen0cea"
+        android:paddingBottom="@dimen/dimen0ce8"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/ig_icon"
+            android:layout_width="@dimen/dimen0ef8"
+            android:layout_height="@dimen/dimen0ef8"
+            android:layout_marginEnd="@dimen/dimen0efa"
+            app:attr0838="@drawable/wds_ic_logo_instagram"
+            app:attr090d="@color/color08de" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="@color/color05f4"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str3167"
+            android:layout_weight="1.0"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+            android:id="@id/auto_crosspost_setting_switch_ig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/dimen0ef7"
+            android:minHeight="@dimen/dimen0ef7"
+            android:layout_marginStart="@dimen/dimen0efa"
+            android:layout_marginEnd="@dimen/dimen0efa" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/status_share_info_text"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:layout_marginRight="@dimen/dimen1038"
+        android:layout_weight="1.0"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

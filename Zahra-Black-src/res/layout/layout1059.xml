@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.avatar.ui.stickers.upsell.AvatarStickerUpsellView
+    android:id="@id/sticker_avatar_upsell"
+    android:focusable="true"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12.0dip"
+    app:attr01e9="false"
+    app:attr0329="StickerStore"
+    app:attr07fd="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

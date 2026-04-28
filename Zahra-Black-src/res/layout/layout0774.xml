@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/imagine_me_onboarding_complete"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/dimen0cea"
+    android:paddingEnd="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="start"
+        android:id="@id/close_btn"
+        android:background="?attr076e"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="30.0dip"
+        android:src="@drawable/xmds_close"
+        android:contentDescription="@string/str3dac"
+        app:attr04a7="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaNetworkResourceImageView
+        android:id="@id/meta_ai_imagine_me_consent_page_1_illustration"
+        android:layout_width="0.0dip"
+        android:layout_height="397.0dip"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:tint="@color/color034e"
+        android:minWidth="375.0dip"
+        android:minHeight="397.0dip"
+        app:attr0495="@id/guideline"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="@id/close_btn"
+        app:attr05d4="meta_ai_imagine_me_consent_page_1"
+        app:attr0838="@drawable/ic_meta_ai_onboarding_complete_fallback" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049e="0.654" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0355"
+        android:id="@id/onboarding_complete_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1dcb"
+        app:attr0495="@id/onboarding_complete_content"
+        app:attr04b0="@id/guideline"
+        style="@style/style0712" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0355"
+        android:id="@id/onboarding_complete_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="166.0dip"
+        android:text="@string/str1dca"
+        app:attr04b0="@id/onboarding_complete_heading"
+        style="@style/style070f" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/onboarding_complete_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cef"
+        android:text="@string/str1dcc"
+        app:attr0009="xmds"
+        app:attr0494="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

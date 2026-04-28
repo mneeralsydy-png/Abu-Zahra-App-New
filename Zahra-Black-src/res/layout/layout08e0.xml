@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout0651" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/refresh_payment_method_row"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_refresh_white"
+        app:attr04e8="false"
+        app:attr04e9="@string/str2ad7" />
+</LinearLayout>

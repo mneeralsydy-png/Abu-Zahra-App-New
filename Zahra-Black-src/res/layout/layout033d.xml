@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="bottom|center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        style="@style/style035a" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center"
+        android:id="@id/see_all_events"
+        android:layout_margin="@dimen/dimen0ce7"
+        android:text="@string/str13b2"
+        style="@style/style055c" />
+</FrameLayout>

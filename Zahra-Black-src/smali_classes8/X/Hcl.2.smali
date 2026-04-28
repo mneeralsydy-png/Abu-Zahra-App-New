@@ -1,0 +1,225 @@
+.class public final LX/Hcl;
+.super LX/0DA;
+.source ""
+
+
+# instance fields
+.field public A00:Ljava/lang/Integer;
+
+.field public A01:Ljava/lang/Long;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 4
+
+    sget-object v3, LX/0DA;->DEFAULT_SAMPLING_RATE:LX/00u;
+
+    const/4 v2, 0x0
+
+    const/4 v1, -0x1
+
+    const/16 v0, 0x14b0
+
+    invoke-direct {p0, v0, v3, v2, v1}, LX/0DA;-><init>(ILX/00u;II)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getEventNameForFalco()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "wam_search_bar_engagement"
+
+    return-object v0
+.end method
+
+.method public getFieldsMap()Ljava/util/Map;
+    .locals 3
+
+    invoke-static {}, LX/1ac;->A1C()Ljava/util/LinkedHashMap;
+
+    move-result-object v2
+
+    invoke-static {}, LX/1ae;->A0w()Ljava/lang/Integer;
+
+    move-result-object v1
+
+    iget-object v0, p0, LX/Hcl;->A00:Ljava/lang/Integer;
+
+    invoke-static {v1, v0, v2}, LX/1al;->A0d(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Map;)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    iget-object v0, p0, LX/Hcl;->A01:Ljava/lang/Long;
+
+    invoke-interface {v2, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-object v2
+.end method
+
+.method public getFieldsMapForFalco()Ljava/util/Map;
+    .locals 3
+
+    invoke-static {}, LX/1ac;->A1C()Ljava/util/LinkedHashMap;
+
+    move-result-object v2
+
+    iget-object v0, p0, LX/Hcl;->A00:Ljava/lang/Integer;
+
+    invoke-static {v0}, LX/1am;->A0p(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "search_bar_action"
+
+    invoke-interface {v2, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "search_open_duration"
+
+    iget-object v0, p0, LX/Hcl;->A01:Ljava/lang/Long;
+
+    invoke-interface {v2, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-object v2
+.end method
+
+.method public getFieldsMapForLogging()Ljava/util/Map;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public serialize(LX/3Xm;)V
+    .locals 1
+
+    invoke-static {}, LX/1ai;->A0s()Ljava/lang/NullPointerException;
+
+    move-result-object v0
+
+    throw v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    invoke-static {}, LX/000;->A04()Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    const-string v0, "WamSearchBarEngagement {"
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/Hcl;->A00:Ljava/lang/Integer;
+
+    invoke-static {v0}, LX/1am;->A0p(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "searchBarAction"
+
+    invoke-static {v1, v0, v2}, LX/0DC;->A00(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/StringBuilder;)V
+
+    const-string v1, "searchOpenDuration"
+
+    iget-object v0, p0, LX/Hcl;->A01:Ljava/lang/Long;
+
+    invoke-static {v0, v1, v2}, LX/1ao;->A0P(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public validate()Ljava/util/List;
+    .locals 7
+
+    iget-object v0, p0, LX/Hcl;->A00:Ljava/lang/Integer;
+
+    const-string v6, "search_bar_engagement"
+
+    if-nez v0, :cond_4
+
+    sget-object v3, LX/01d;->A00:LX/01d;
+
+    const-string v0, "search_bar_action"
+
+    invoke-static {v0}, LX/1ad;->A1K(Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v2
+
+    const-string v1, ".nonnull"
+
+    new-instance v0, LX/Ie1;
+
+    invoke-direct {v0, v6, v1, v3, v2}, LX/Ie1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
+
+    invoke-static {v0}, LX/1af;->A16(Ljava/lang/Object;)Ljava/util/ArrayList;
+
+    move-result-object v5
+
+    :goto_0
+    iget-object v0, p0, LX/Hcl;->A00:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_3
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v1
+
+    const/4 v0, 0x2
+
+    if-ne v1, v0, :cond_3
+
+    iget-object v0, p0, LX/Hcl;->A01:Ljava/lang/Long;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v3
+
+    const-wide/16 v1, 0x0
+
+    cmp-long v0, v3, v1
+
+    if-gtz v0, :cond_3
+
+    :cond_0
+    sget-object v2, LX/01d;->A00:LX/01d;
+
+    const-string v1, "search_open_duration > 0"
+
+    new-instance v0, LX/Ie1;
+
+    invoke-direct {v0, v6, v1, v2, v2}, LX/Ie1;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
+
+    if-eqz v5, :cond_2
+
+    invoke-virtual {v5, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
+
+    :cond_1
+    return-object v5
+
+    :cond_2
+    invoke-static {v0}, LX/1af;->A16(Ljava/lang/Object;)Ljava/util/ArrayList;
+
+    move-result-object v5
+
+    :cond_3
+    if-nez v5, :cond_1
+
+    sget-object v5, LX/01d;->A00:LX/01d;
+
+    return-object v5
+
+    :cond_4
+    const/4 v5, 0x0
+
+    goto :goto_0
+.end method

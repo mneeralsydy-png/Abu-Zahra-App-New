@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:background="@drawable/bottom_sheet_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/close_button"
+            android:background="@null"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:layout_marginTop="@dimen/dimen0ce8"
+            android:tint="@color/color08df"
+            android:contentDescription="@string/str3dac"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/ic_close" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@id/ai_created_image"
+            android:visibility="gone"
+            android:layout_width="88.0dip"
+            android:layout_height="88.0dip"
+            android:layout_marginTop="0.0dip"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/close_button"
+            app:attr07d0="@style/style024b" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05aa"
+            android:textColor="@color/color0897"
+            android:id="@id/ai_created_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str0288"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/ai_created_image"
+            app:attr0a24="wds_font_body1_emphasized" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a6"
+            android:textColor="@color/color0897"
+            android:gravity="center_horizontal"
+            android:id="@id/ai_created_prompt"
+            android:paddingTop="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/ai_created_title"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center_horizontal"
+            android:id="@id/add_yours_button"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginRight="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen103b"
+            android:text="@string/str0206"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/ai_created_prompt"
+            style="@style/style0555" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

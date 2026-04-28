@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:layout_gravity="center"
+        android:id="@id/loading"
+        android:visibility="gone"
+        android:layout_width="118.0dip"
+        android:layout_height="118.0dip"
+        android:indeterminateOnly="true"
+        whatsapp:attr028b="@android:color/transparent"
+        whatsapp:attr028c="@color/color0541"
+        whatsapp:attr028d="@android:color/transparent"
+        whatsapp:attr028e="@color/color0542"
+        whatsapp:attr028f="1.0dip"
+        whatsapp:attr0290="10.0" />
+</FrameLayout>

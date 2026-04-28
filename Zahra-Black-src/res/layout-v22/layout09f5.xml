@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:id="@id/shape_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/location_icon"
+        android:layout_width="@dimen/dimen0fdd"
+        android:layout_height="@dimen/dimen0fdd"
+        android:contentDescription="@string/str1112"
+        app:attr090d="@color/color0930" />
+    <TextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color08c2"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="200.0dip"
+        android:maxLines="1"
+        android:fontFamily="@dimen/dimen0fcd"
+        android:textAlignment="center"
+        android:layout_marginStart="@dimen/dimen1030"
+        android:letterSpacing="@dimen/dimen0fac"
+        android:lineHeight="@dimen/dimen0faf" />
+</merge>

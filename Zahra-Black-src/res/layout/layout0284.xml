@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/color05f3"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:paddingBottom="@dimen/dimen1030"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="13.0sp"
+        android:textColor="?attr0a46"
+        android:gravity="center|left"
+        android:id="@id/location_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="36.0dip"
+        android:maxLines="2"
+        app:attr03ae="?attr03b8" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/btn_use_my_location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0776"
+        android:fontFamily="?attr03b8"
+        app:attr0009="normal"
+        app:attr0411="@drawable/ic_my_location"
+        app:attr096b="tonal"
+        app:attr09ea="normal" />
+</LinearLayout>

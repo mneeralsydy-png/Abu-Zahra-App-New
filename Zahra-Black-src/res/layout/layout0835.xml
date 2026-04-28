@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:layout_gravity="start|bottom|center"
+        android:id="@id/hd_icon"
+        android:layout="@layout/layout0839"
+        android:inflatedId="@id/hd_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:layout_gravity="start|bottom|center"
+        android:id="@id/hd_invisible_touch"
+        android:layout="@layout/layout083a"
+        android:inflatedId="@id/hd_invisible_touch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</merge>

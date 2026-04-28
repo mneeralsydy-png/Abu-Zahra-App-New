@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout
+    android:gravity="start|center|top"
+    android:id="@id/input_layout_2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen102e"
+    android:layout_marginBottom="@dimen/dimen1039"
+    android:importantForAccessibility="yes"
+    android:layout_marginStart="@dimen/dimen102e"
+    android:layout_marginEnd="@dimen/dimen102e"
+    android:labelFor="@id/input_edit_text_2"
+    app:attr00dd="@dimen/dimen1039"
+    app:attr00de="@dimen/dimen1039"
+    app:attr00df="@dimen/dimen1039"
+    app:attr00e0="@dimen/dimen1039"
+    app:attr0285="true"
+    app:attr0321="clear_text"
+    app:attr0402="@style/style05be"
+    style="@style/style01ce"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaEditText
+        android:textColor="?attr066e"
+        android:gravity="start|center|top"
+        android:id="@id/input_edit_text_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:inputType="textMultiLine" />
+</com.google.android.material.textfield.TextInputLayout>

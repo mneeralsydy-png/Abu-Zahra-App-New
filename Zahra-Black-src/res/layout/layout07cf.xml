@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/media_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:importantForAccessibility="no" />
+    <FrameLayout
+        android:id="@id/video_player"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <include
+        layout="@layout/layout0a59" />
+    <include
+        layout="@layout/layout066f" />
+    <include
+        layout="@layout/layout066b" />
+    <ViewStub
+        android:id="@id/eyedropper_color_picker_stub"
+        android:layout="@layout/layout0989"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

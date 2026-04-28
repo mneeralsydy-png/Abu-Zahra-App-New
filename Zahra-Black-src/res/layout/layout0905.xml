@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.insights.InsightsTileViewGroup
+        android:orientation="horizontal"
+        android:id="@id/send_money_tiles_view_group"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen103a"
+        android:paddingEnd="@dimen/dimen103a">
+        <com.whatsapp.ui.coreui.insights.InsightsTileView
+            android:id="@id/tile_scan_qr_code"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/dimen1030"
+            android:layout_marginEnd="@dimen/dimen1030"
+            app:attr090b="@string/str1961" />
+        <com.whatsapp.ui.coreui.insights.InsightsTileView
+            android:id="@id/tile_pay_mobile_number"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/dimen1030"
+            android:layout_marginEnd="@dimen/dimen1030"
+            app:attr090b="@string/str1960" />
+        <com.whatsapp.ui.coreui.insights.InsightsTileView
+            android:id="@id/tile_view_account_balance"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/dimen1030"
+            android:layout_marginEnd="@dimen/dimen1030"
+            app:attr090b="@string/str1962" />
+    </com.whatsapp.ui.coreui.insights.InsightsTileViewGroup>
+</LinearLayout>

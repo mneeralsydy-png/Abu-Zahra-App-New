@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/ad_image_error_layout"
+    android:background="@drawable/background_ctwa_bottomsheet_error_state"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/ad_image_error_state"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:adjustViewBounds="true"
+        app:attr0499="H, 1:1"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/ad_image_error_state_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:src="@drawable/ic_warning"
+            android:tint="@color/color08de"
+            android:layout_above="@id/ad_image_error_state_text"
+            android:layout_centerHorizontal="true" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/ad_image_error_state_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:tint="@color/color08de"
+            android:text="@string/str0ecf"
+            app:attr0a24="wds_font_body2" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

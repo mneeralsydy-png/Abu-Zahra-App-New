@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView
+        android:gravity="center_vertical"
+        android:id="@id/media_card_scroller"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:overScrollMode="always"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/media_card_thumbs"
+            android:paddingLeft="@dimen/dimen0245"
+            android:paddingTop="@dimen/dimen0246"
+            android:paddingRight="@dimen/dimen0245"
+            android:paddingBottom="@dimen/dimen0245"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/category_media_card_thumbnail_divider"
+            android:showDividers="middle" />
+    </HorizontalScrollView>
+</merge>

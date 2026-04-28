@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingTop="@dimen/dimen0b62"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:paddingBottom="@dimen/dimen0b62"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:id="@id/recent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str2aad"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textAllCaps="true"
+        android:fontFamily="?attr03b8"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style0285" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr05d6"
+        android:id="@id/clear_all_btn"
+        android:background="@drawable/selector_orange_gradient"
+        android:padding="@dimen/dimen04bc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str105d"
+        android:layout_alignRight="@id/recent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textAllCaps="true"
+        android:fontFamily="?attr03b8"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style0285" />
+</RelativeLayout>

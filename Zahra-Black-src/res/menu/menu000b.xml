@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_orion_delete_contact"
+        android:id="@id/delete_contact"
+        android:orderInCategory="1" />
+    <item
+        android:icon="@drawable/ic_qr_code"
+        android:id="@id/add_contact_qr_code"
+        android:orderInCategory="2"
+        android:title="@string/str3d3c"
+        app:attr07f1="always" />
+</menu>

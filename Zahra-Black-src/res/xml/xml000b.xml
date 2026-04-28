@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/str2246"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.settings.ui.preference.WaPreferenceCategory
+        android:title="@string/str3f10"
+        android:key="jid_messages"
+        app:attr0048="false"
+        app:attr041d="false">
+        <com.whatsapp.settings.ui.preference.WaMuteSettingPreference
+            android:persistent="false"
+            android:layout="@layout/layout0d98"
+            android:title="@string/str406b"
+            android:key="jid_message_mute"
+            android:order="0"
+            android:defaultValue="false"
+            app:attr004a="false"
+            app:attr041d="false" />
+        <com.whatsapp.settings.ui.preference.WaRingtonePreference
+            android:persistent="false"
+            android:title="@string/str422f"
+            android:key="jid_message_tone"
+            android:summary="@string/str4230"
+            android:order="10"
+            android:defaultValue="content://settings/system/notification_sound"
+            app:attr004a="false"
+            app:attr041d="false" />
+        <com.whatsapp.settings.ui.preference.WaListPreference
+            android:persistent="false"
+            android:entries="@array/array0027"
+            android:title="@string/str4233"
+            android:key="jid_message_vibration"
+            android:summary="@string/str4234"
+            android:order="20"
+            android:defaultValue="1"
+            android:entryValues="@array/array0028"
+            app:attr0048="false"
+            app:attr004a="false"
+            app:attr041d="false" />
+        <Preference
+            android:persistent="false"
+            android:title="@string/str4227"
+            android:key="jid_message_advanced"
+            android:order="30"
+            android:defaultValue="1"
+            app:attr0048="false"
+            app:attr004a="true"
+            app:attr041d="false" />
+    </com.whatsapp.settings.ui.preference.WaPreferenceCategory>
+    <com.whatsapp.settings.ui.preference.WaPreferenceCategory
+        android:title="@string/str3d98"
+        android:key="jid_calls"
+        app:attr0048="true"
+        app:attr041d="false">
+        <com.whatsapp.settings.ui.preference.WaMuteSettingPreference
+            android:persistent="false"
+            android:layout="@layout/layout0d98"
+            android:title="@string/str406b"
+            android:key="jid_call_mute"
+            android:defaultValue="false"
+            app:attr004a="false"
+            app:attr041d="false" />
+        <com.whatsapp.settings.ui.preference.WaRingtonePreference
+            android:persistent="false"
+            android:title="@string/str4220"
+            android:key="jid_call_ringtone"
+            android:summary="@string/str4221"
+            android:defaultValue="content://settings/system/ringtone"
+            app:attr004a="false"
+            app:attr041d="false" />
+        <com.whatsapp.settings.ui.preference.WaListPreference
+            android:persistent="false"
+            android:entries="@array/array0027"
+            android:title="@string/str4233"
+            android:key="jid_call_vibration"
+            android:summary="@string/str4222"
+            android:defaultValue="1"
+            android:entryValues="@array/array0028"
+            app:attr0048="false"
+            app:attr004a="true"
+            app:attr041d="false" />
+    </com.whatsapp.settings.ui.preference.WaPreferenceCategory>
+    <com.whatsapp.settings.ui.preference.WaPreferenceCategory
+        android:title="@string/str4296"
+        android:key="jid_statuses"
+        app:attr0048="true"
+        app:attr041d="false">
+        <com.whatsapp.settings.ui.preference.WaStatusOptInNotifySettingPreference
+            android:persistent="false"
+            android:layout="@layout/layout0da0"
+            android:key="jid_statuses_post_mute"
+            android:defaultValue="false"
+            app:attr004a="false"
+            app:attr041d="false" />
+    </com.whatsapp.settings.ui.preference.WaPreferenceCategory>
+</PreferenceScreen>

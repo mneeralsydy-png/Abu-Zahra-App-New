@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/row_content"
+    android:background="@null"
+    android:paddingTop="@dimen/dimen0ff4"
+    android:paddingBottom="@dimen/dimen0ff4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:ellipsize="end"
+        android:gravity="left"
+        android:id="@id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0490="true"
+        app:attr04a3="0.0"
+        app:attr04a4="packed"
+        app:attr04a7="parent"
+        app:attr04aa="@id/count"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/count"
+        android:layout="@layout/layout12b9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1035"
+        app:attr0494="@id/contact_name"
+        app:attr04a8="@id/contact_name"
+        app:attr04ab="parent"
+        app:attr04b1="@id/contact_name" />
+    <FrameLayout
+        android:id="@id/push_name_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/contact_name"
+        app:attr04b3="packed">
+        <ViewStub
+            android:id="@id/push_name_stub"
+            android:layout="@layout/layout12be"
+            android:inflatedId="@id/push_name_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/call_type_icon"
+        android:layout_width="@dimen/dimen0fe1"
+        android:layout_height="@dimen/dimen0fe1"
+        app:attr0494="@id/subtitle"
+        app:attr04a3="0.0"
+        app:attr04a4="packed"
+        app:attr04a7="@id/contact_name"
+        app:attr04aa="@id/subtitle"
+        app:attr04b1="@id/subtitle" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:gravity="left"
+        android:id="@id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1031"
+        android:singleLine="true"
+        app:attr0490="true"
+        app:attr04a8="@id/call_type_icon"
+        app:attr04aa="@id/date_time"
+        app:attr04b0="@id/push_name_container"
+        app:attr0a24="wds_font_body2" />
+    <ViewStub
+        android:id="@id/date_time"
+        android:layout="@layout/layout12ba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr04a8="@id/subtitle"
+        app:attr04ab="parent"
+        app:attr04b0="@id/push_name_container" />
+    <ViewStub
+        android:gravity="left"
+        android:id="@id/silenced_reason_label"
+        android:layout="@layout/layout12bb"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1030"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/subtitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

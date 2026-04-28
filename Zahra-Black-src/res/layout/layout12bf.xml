@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/row_addon_start"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/multi_contact_photo"
+        android:layout_width="@dimen/dimen1011"
+        android:layout_height="@dimen/dimen1011"
+        android:layout_marginTop="@dimen/dimen0ff2"
+        android:layout_marginBottom="@dimen/dimen0ff2"
+        android:layout_marginEnd="@dimen/dimen1030" />
+    <ViewStub
+        android:id="@id/contact_photo"
+        android:layout_width="@dimen/dimen1011"
+        android:layout_height="@dimen/dimen1011"
+        android:layout_marginTop="@dimen/dimen0ff2"
+        android:layout_marginBottom="@dimen/dimen0ff2"
+        android:layout_marginEnd="@dimen/dimen1030" />
+    <ViewStub
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/selection_check"
+        android:layout_width="@dimen/dimen0f3a"
+        android:layout_height="@dimen/dimen0f3a"
+        android:layout_marginBottom="@dimen/dimen0ff5"
+        android:layout_marginEnd="@dimen/dimen1008" />
+    <ViewStub
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/profile_badge_icon_stub"
+        android:layout_width="@dimen/dimen1005"
+        android:layout_height="@dimen/dimen1005"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen1031" />
+</FrameLayout>

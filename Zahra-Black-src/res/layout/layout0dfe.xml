@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center"
+        android:id="@id/qr_validation_success_icon_animation"
+        android:visibility="gone"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="24.0dip"
+        app:attr0510="true"
+        app:attr051c="@raw/aiv_success_animation" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/qr_validation_failure_icon"
+        android:visibility="gone"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="24.0dip"
+        android:layout_marginBottom="8.0dip"
+        app:attr0838="@drawable/wa_ic_error" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="20.0sp"
+        android:textColor="?attr066e"
+        android:gravity="center"
+        android:id="@id/qr_validation_result_message"
+        android:paddingLeft="24.0dip"
+        android:paddingTop="16.0dip"
+        android:paddingRight="24.0dip"
+        android:paddingBottom="24.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="?attr03b8"
+        style="@style/style03c9" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/done_button"
+        android:layout_margin="16.0dip"
+        android:text="@string/str2a21"
+        style="@style/style055e" />
+</LinearLayout>

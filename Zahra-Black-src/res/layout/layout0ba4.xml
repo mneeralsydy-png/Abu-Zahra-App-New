@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@id/newsletter_appeal_outcome_additional_section"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr011e="@dimen/dimen102e"
+    app:attr011f="0.0dip"
+    app:attr0253="@dimen/dimen102e"
+    app:attr0255="@dimen/dimen1039"
+    app:attr0256="@dimen/dimen1039"
+    app:attr0258="@dimen/dimen102e"
+    app:attr085d="?attr0a4d"
+    app:attr085e="1.0sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

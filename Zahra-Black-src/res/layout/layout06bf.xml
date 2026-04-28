@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen054a"
+            android:layout_marginRight="@dimen/dimen054a">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:text="@string/str1216"
+                style="@style/style0203" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:text="@string/str1227"
+                style="@style/style01fb" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/confirm_disable_disable_button"
+        android:text="@string/str1225"
+        style="@style/style0204" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/confirm_disable_cancel_button"
+        android:text="@string/str3d9b"
+        style="@style/style0200" />
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/header_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04b1="parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/header_linear_layout"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04b1="parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/browser_tabs_container"
+            android:paddingLeft="@dimen/dimen1039"
+            android:paddingRight="@dimen/dimen1039"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0ae7"
+            android:layout_marginStart="44.0dip"
+            app:attr04b1="parent">
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:layout_gravity="center_vertical"
+                android:id="@id/browser_tabs"
+                android:layout_width="0.0dip"
+                android:layout_height="28.0dip"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginRight="30.0dip"
+                android:layout_weight="1.0"
+                app:attr0771="true"
+                app:attr0819="true">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@id/emojis"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    app:attr0411="@drawable/vec_ic_mood"
+                    style="@style/style0206" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@id/rewrite"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:contentDescription="@string/str4208"
+                    app:attr0411="@drawable/wds_pencil_ai"
+                    style="@style/style0206" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@id/gifs"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    app:attr0411="@drawable/vec_ic_gif"
+                    style="@style/style0206" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@id/avatar_stickers"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    app:attr0411="@drawable/ic_settings_unfilled_avatar"
+                    style="@style/style0206" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@id/stickers"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    app:attr0411="@drawable/vec_ic_sticker"
+                    style="@style/style0206" />
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+            <ViewStub
+                android:layout_gravity="right"
+                android:id="@id/delete_symbol_tb_stub"
+                android:layout="@layout/layout024c"
+                android:layout_width="40.0dip"
+                android:layout_height="fill_parent" />
+            <ViewStub
+                android:layout_gravity="right"
+                android:id="@id/contextual_action_button_holder_stub"
+                android:layout="@layout/layout024d"
+                android:layout_width="40.0dip"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <include
+            android:id="@id/search_bar_layout"
+            layout="@layout/layout0710" />
+        <ViewStub
+            android:id="@id/sticker_search_category"
+            android:layout="@layout/layout1133"
+            android:inflatedId="@id/sticker_search_category"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen057b" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/search_button"
+        android:background="@color/color0790"
+        android:layout_width="60.0dip"
+        android:layout_height="44.0dip"
+        android:layout_marginStart="@dimen/dimen1039"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="top"
+            android:layout_width="40.0dip"
+            android:layout_height="44.0dip"
+            android:contentDescription="@string/str420c"
+            app:attr0838="@drawable/vec_ic_search"
+            app:attr090d="?attr0346"
+            style="@style/style0006" />
+    </FrameLayout>
+</FrameLayout>

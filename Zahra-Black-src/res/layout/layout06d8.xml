@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/event_allow_extra_guests_row"
+        android:background="?android:selectableItemBackground"
+        android:padding="@dimen/dimen0cea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen0fdb">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/dimen0ce7">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:layout_gravity="center_vertical"
+                android:id="@id/event_allow_extra_guests_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str133d"
+                style="@style/style0406" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:layout_gravity="center_vertical"
+                android:id="@id/event_allow_extra_guests_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cec"
+                android:text="@string/str133e"
+                app:attr0a24="wds_font_body2" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+            android:id="@id/event_allow_extra_guests_switch"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

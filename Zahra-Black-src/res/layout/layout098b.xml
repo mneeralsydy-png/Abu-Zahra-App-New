@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView
+    android:id="@id/lottie_status_likes_received"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr051a="false"
+    app:attr051c="@raw/like_received_animation"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

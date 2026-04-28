@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/container_view"
+        android:background="@drawable/filter_rounded_rectangle_bg"
+        android:paddingTop="@dimen/dimen0443"
+        android:paddingBottom="@dimen/dimen0443"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0442"
+        android:paddingEnd="@dimen/dimen0442">
+        <ViewStub
+            android:id="@id/text_emoji_label_view_stub"
+            android:layout="@layout/layout10ab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ConversationsFilterTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="@color/color06bf"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:layout_gravity="center_vertical"
+            android:id="@id/text_view"
+            android:paddingBottom="@dimen/dimen0440"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:singleLine="true"
+            android:drawablePadding="@dimen/dimen0441"
+            android:textAlignment="textStart"
+            style="@style/style01b0" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:layout_gravity="center_vertical"
+            android:id="@id/invisible_height_placeholder"
+            android:paddingTop="@dimen/dimen0440"
+            android:paddingBottom="@dimen/dimen0440"
+            android:visibility="invisible"
+            android:layout_width="@dimen/dimen102c"
+            android:layout_height="wrap_content"
+            style="@style/style01b0" />
+        <ViewStub
+            android:id="@id/unread_badge_count_view_container"
+            android:layout="@layout/layout059c"
+            android:inflatedId="@id/unread_badge_count_view_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/image_view_for_pills_stub"
+            android:layout="@layout/layout0867"
+            android:inflatedId="@id/image_view_for_pills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

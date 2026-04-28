@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="30.0dip">
+        <ViewStub
+            android:id="@id/conversation_row_participant_header_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            layout="@layout/layout054e" />
+        <include
+            layout="@layout/layout0588" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/view_once_media_container_small"
+            android:paddingLeft="@dimen/dimen038f"
+            android:paddingRight="@dimen/dimen0cf0"
+            android:paddingBottom="@dimen/dimen0cf0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.conversation.ui.conversationrow.components.ViewOnceDownloadProgressView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/view_once_download_small"
+                android:paddingTop="1.0dip"
+                android:paddingRight="@dimen/dimen038d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen038e"
+                android:layout_marginBottom="@dimen/dimen038e" />
+            <com.whatsapp.ui.coreui.components.TextAndDateLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textAppearance="?attr09f0"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="left"
+                    android:id="@id/view_once_media_type_small"
+                    android:paddingTop="@dimen/dimen0391"
+                    android:paddingBottom="@dimen/dimen0391"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    app:attr0a24="wds_font_chat_body1" />
+                <include
+                    layout="@layout/layout04bb" />
+            </com.whatsapp.ui.coreui.components.TextAndDateLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

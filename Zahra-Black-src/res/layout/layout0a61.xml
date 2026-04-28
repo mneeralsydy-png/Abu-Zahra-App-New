@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/icon_view_stub"
+        android:inflatedId="@id/icon_view"
+        android:layout_width="@dimen/dimen08a5"
+        android:layout_height="@dimen/dimen08a5"
+        android:scaleType="center"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.communitymedia.itemviews.MediaMessageTitleView
+        android:ellipsize="end"
+        android:id="@id/title_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0490="true"
+        app:attr049a="parent"
+        app:attr04a3="@dimen/dimen0321"
+        app:attr04ac="@id/icon_view"
+        app:attr04b1="@id/icon_view"
+        style="?attr09f1" />
+    <ViewStub
+        android:id="@id/subtitle_view_stub"
+        android:inflatedId="@id/subtitle_view"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0490="true"
+        app:attr049a="parent"
+        app:attr04a3="@dimen/dimen0321"
+        app:attr04ac="@id/icon_view"
+        app:attr04b0="@id/title_view" />
+</merge>

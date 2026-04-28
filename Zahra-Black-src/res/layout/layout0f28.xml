@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/dependent_messages_settings_stub"
+            android:layout="@layout/layout0616"
+            android:inflatedId="@id/dependent_messages_settings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.consumer.settings.SettingsRowPrivacyText
+            android:id="@id/block_list_privacy_contacts_preference"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="?attr07ac" />
+        <com.whatsapp.settings.SettingsRowPrivacyLinearLayout
+            android:orientation="horizontal"
+            android:id="@id/contacts_backup_layout"
+            android:paddingTop="@dimen/dimen0c97"
+            android:paddingBottom="@dimen/dimen0c97"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:paddingStart="@dimen/dimen0c93"
+            android:paddingEnd="@dimen/dimen0c93"
+            style="@style/style0363">
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingRight="@dimen/dimen102e"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:ellipsize="none"
+                    android:id="@id/contacts_backup_label_view"
+                    android:paddingBottom="@dimen/dimen1030"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str23ae"
+                    android:maxLines="@null"
+                    android:singleLine="false"
+                    style="?attr07b5" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:id="@id/contacts_backup_description_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3.0dip"
+                    style="?attr07b1" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:layout_gravity="end|center|top"
+                    android:id="@id/contacts_backup_switch"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+                <com.whatsapp.ui.coreui.CircularProgressBar
+                    android:layout_gravity="center"
+                    android:id="@id/backup_progress_bar"
+                    android:visibility="gone"
+                    android:layout_width="32.0dip"
+                    android:layout_height="32.0dip"
+                    android:indeterminateOnly="true" />
+            </FrameLayout>
+        </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+    </LinearLayout>
+</ScrollView>

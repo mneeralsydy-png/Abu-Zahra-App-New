@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/hidden_template_message_divider_1"
+        android:layout="@layout/layout10a3"
+        android:inflatedId="@id/template_message_divider_1"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+    <ViewStub
+        android:id="@id/hidden_template_message_button_1"
+        android:layout="@layout/layout10a1"
+        android:inflatedId="@id/template_message_button_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/hidden_template_message_divider_2"
+        android:layout="@layout/layout10a3"
+        android:inflatedId="@id/template_message_divider_2"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+    <ViewStub
+        android:id="@id/hidden_template_message_button_2"
+        android:layout="@layout/layout10a1"
+        android:inflatedId="@id/template_message_button_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/hidden_template_message_divider_3"
+        android:layout="@layout/layout10a3"
+        android:inflatedId="@id/template_message_divider_3"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+    <ViewStub
+        android:id="@id/hidden_template_message_button_3"
+        android:layout="@layout/layout10a1"
+        android:inflatedId="@id/template_message_button_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</merge>

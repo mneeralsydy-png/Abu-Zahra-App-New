@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/music_browse_track_parent"
+    android:paddingTop="@dimen/dimen0235"
+    android:paddingBottom="@dimen/dimen0235"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0234"
+    android:paddingEnd="@dimen/dimen0234"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/music_artwork"
+        android:layout_width="@dimen/dimen0232"
+        android:layout_height="@dimen/dimen0232"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04b1="parent"
+        app:attr07d0="@style/style02b4"
+        app:attr090d="@color/color089e"
+        app:attr090e="src_over" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/music_toggle_playback"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:importantForAccessibility="no"
+        app:attr0494="@id/music_artwork"
+        app:attr04a7="@id/music_artwork"
+        app:attr04ab="@id/music_artwork"
+        app:attr04b1="@id/music_artwork"
+        app:attr0838="@drawable/vec_ic_play_arrow_filled"
+        app:attr090d="?attr0a2f"
+        app:attr090e="src_in" />
+    <LinearLayout
+        android:gravity="start|center"
+        android:id="@id/music_title_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0237"
+        android:layout_marginEnd="@dimen/dimen0237"
+        app:attr0495="@id/music_subtitle_container"
+        app:attr04a8="@id/music_artwork"
+        app:attr04aa="@id/music_item_select"
+        app:attr04b1="parent"
+        app:attr04b3="packed">
+        <ViewStub
+            android:id="@id/music_wave"
+            android:layout="@layout/layout0b65"
+            android:inflatedId="@id/music_wave"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_marginEnd="@dimen/dimen1030" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:id="@id/music_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="textStart"
+            app:attr0a24="wds_font_body2"
+            style="?attr09f6" />
+        <ViewStub
+            android:id="@id/music_explicit"
+            android:layout="@layout/layout0b55"
+            android:inflatedId="@id/music_explicit"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip"
+            android:layout_marginLeft="@dimen/dimen1030" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/music_subtitle_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0236"
+        android:layout_marginRight="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04a7="@id/music_title_container"
+        app:attr04aa="@id/music_item_select"
+        app:attr04b0="@id/music_title_container">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:gravity="start"
+            android:id="@id/music_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textAlignment="textStart"
+            app:attr01aa="true"
+            app:attr0490="true"
+            app:attr0494="parent"
+            app:attr04a3="0.0"
+            app:attr04a4="packed"
+            app:attr04a7="parent"
+            app:attr04aa="@id/music_duration"
+            app:attr04b1="parent"
+            app:attr0a24="wds_font_body3"
+            style="?attr09fc" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/music_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            app:attr0494="parent"
+            app:attr04a8="@id/music_subtitle"
+            app:attr04ab="parent"
+            app:attr04b1="parent"
+            app:attr0a24="wds_font_body3"
+            style="?attr09fc" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/music_item_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="media"
+        app:attr0083="@color/color0907"
+        app:attr0411="@drawable/ic_fab_next"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr058c="true"
+        app:attr096b="tonal"
+        app:attr09ea="small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

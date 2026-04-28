@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/postcode_item"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:background="?attr0a59"
+        android:paddingTop="@dimen/dimen0b56"
+        android:paddingBottom="@dimen/dimen0b56"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/postcode_item_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0b57"
+            android:tint="?attr0a44"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dimen0b57"
+            app:attr0838="@drawable/ic_location_on" />
+        <RelativeLayout
+            android:paddingLeft="@dimen/dimen0b58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/postcode_item_location"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/dimen0b58"
+            android:layout_toEndOf="@id/postcode_item_location">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/postcode_item_text"
+                android:text="@string/str09a9"
+                android:letterSpacing="0.02"
+                style="@style/style0320" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="@color/color06d1"
+                android:id="@id/postcode_item_location_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/postcode_item_text"
+                android:letterSpacing="0.02"
+                style="@style/style031f" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:background="?attr00af"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/container"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:theme="@style/style04ce"
+        android:id="@id/appbar"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:touchscreenBlocksFocus="false"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+            android:id="@id/toolbar"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_height="@dimen/dimen0048"
+            android:touchscreenBlocksFocus="false"
+            style="@style/style0520">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:gravity="end"
+                android:layout_gravity="end"
+                android:id="@id/set_wallpaper_button"
+                android:focusable="true"
+                android:nextFocusDown="@id/wallpaper_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="yes"
+                android:layout_marginEnd="@dimen/dimen102e"
+                app:attr0411="@drawable/ic_check_white"
+                app:attr09ea="normal" />
+        </com.whatsapp.ui.wds.components.topbar.WDSToolbar>
+        <View
+            android:id="@id/separator"
+            android:focusable="false"
+            style="@style/style0355" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.whatsapp.ui.coreui.collections.MarginCorrectedViewPager
+        android:id="@id/wallpaper_preview"
+        android:nextFocusUp="@id/appbar"
+        android:nextFocusDown="@id/color_wallpaper_add_doodles"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/appbar"
+        style="@style/style01a2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/color_wallpaper_add_doodles"
+        android:visibility="gone"
+        android:nextFocusUp="@id/wallpaper_preview"
+        android:nextFocusDown="@id/theme_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14.0dip"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0009="media"
+        app:attr0411="@drawable/selector_ic_wds_doodle_pattern"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr096b="filled"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/theme_button"
+        android:visibility="gone"
+        android:nextFocusUp="@id/color_wallpaper_add_doodles"
+        android:nextFocusDown="@id/dark_mode_button"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginBottom="@dimen/dimen0290"
+        android:scaleType="fitXY"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04ad="parent" />
+    <include
+        layout="@layout/layout09a0" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/dark_mode_button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0009="media"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr096b="filled"
+        app:attr09ea="large" />
+    <com.whatsapp.settings.ui.chat.theme.adapter.CirclePageIndicator
+        android:id="@id/pager_indicator"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1039"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip"
+        android:layout_marginBottom="@dimen/dimen103b"
+        android:paddingStart="@dimen/dimen103a"
+        android:paddingEnd="@dimen/dimen103a"
+        app:attr0030="?attr0a2d"
+        app:attr01d9="10.0dip"
+        app:attr042c="@color/color0901"
+        app:attr0436="110.0dip"
+        app:attr044b="true"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr069e="8.0dip"
+        app:attr073f="6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

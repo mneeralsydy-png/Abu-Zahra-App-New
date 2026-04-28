@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/enc_backup_more_options_bottom_sheet_content"
+        android:padding="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="16.0dip">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+            android:id="@id/enc_backup_more_options_toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="?attr0a47"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str1231" />
+        </com.whatsapp.ui.wds.components.topbar.WDSToolbar>
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/enc_backup_more_options_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c6="@string/str1233"
+            app:attr06c9="@string/str1232"
+            app:attr06e1="true"
+            app:attr06e2="compact"
+            app:attr0702="none" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/enc_backup_more_options_encryption_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c6=""
+            app:attr06c9=""
+            app:attr06e1="true"
+            app:attr06e2="compact"
+            app:attr0702="none" />
+    </LinearLayout>
+</ScrollView>

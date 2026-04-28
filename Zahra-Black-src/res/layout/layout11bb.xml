@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="start"
+        android:id="@id/original_message_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:text="@string/str3541"
+        style="@style/style040e" />
+    <com.whatsapp.ui.coreui.text.SeeMoreTextView
+        android:textColor="?attr0a47"
+        android:id="@id/original_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:textIsSelectable="true"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="start"
+        android:id="@id/translated_message_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:text="@string/str3548"
+        style="@style/style040e" />
+    <com.whatsapp.ui.coreui.text.SeeMoreTextView
+        android:textColor="?attr0a47"
+        android:id="@id/translated_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:textIsSelectable="true"
+        style="@style/style05a4" />
+    <include
+        android:gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ceb"
+        layout="@layout/layout10de" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:enabled="false"
+        android:id="@id/translate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ceb"
+        android:layout_marginBottom="@dimen/dimen0ceb"
+        android:text="@string/str3529"
+        style="@style/style055c" />
+</LinearLayout>

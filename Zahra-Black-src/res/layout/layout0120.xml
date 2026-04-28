@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.aicreation.product.ui.component.AdvancedSettingField
+                android:id="@id/introduction_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr025a="text"
+                app:attr03ee="@string/str3d45"
+                app:attr0864="@string/str3d44" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:text="@string/str029f"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e"
+                style="@style/style0017" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="@color/color08de"
+                android:text="@string/str029e"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e"
+                style="@style/style0016" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/advanced_setting_welcome_message_input_layout"
+                android:layout_height="@dimen/dimen0060"
+                android:labelFor="@id/welcome_message_input_edit_text"
+                app:attr0286="200"
+                app:attr0321="clear_text"
+                style="@style/style0018">
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:id="@id/welcome_message_input_edit_text"
+                    android:hint="@string/str0295"
+                    android:maxLength="200"
+                    style="@style/style0014" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ViewStub
+                android:id="@id/welcome_message_text"
+                android:inflatedId="@id/welcome_message_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen103a"
+                android:layout_marginBottom="@dimen/dimen103a"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e" />
+            <com.whatsapp.ui.wds.components.divider.WDSDivider
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:layout_marginBottom="@dimen/dimen1039"
+                app:attr02db="thin" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:text="@string/str0299"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e"
+                style="@style/style0017" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="@color/color08de"
+                android:text="@string/str0298"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e"
+                style="@style/style0016" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/advanced_setting_icebreaker_1_input_layout"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/icebreaker_1_input_edit_text"
+                app:attr0286="80"
+                app:attr0321="clear_text"
+                style="@style/style0018">
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:id="@id/icebreaker_1_input_edit_text"
+                    android:hint="@string/str0294"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    style="@style/style0014" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ViewStub
+                android:id="@id/icebreaker_1_text"
+                android:inflatedId="@id/icebreaker_1_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen103a"
+                android:layout_marginBottom="@dimen/dimen103a"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/advanced_setting_icebreaker_2_input_layout"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/icebreaker_2_input_edit_text"
+                app:attr0286="80"
+                app:attr0321="clear_text"
+                style="@style/style0018">
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:id="@id/icebreaker_2_input_edit_text"
+                    android:hint="@string/str0294"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    style="@style/style0014" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ViewStub
+                android:id="@id/icebreaker_2_text"
+                android:inflatedId="@id/icebreaker_2_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen103a"
+                android:layout_marginBottom="@dimen/dimen103a"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/advanced_setting_icebreaker_3_input_layout"
+                android:layout_height="wrap_content"
+                android:labelFor="@id/icebreaker_3_input_edit_text"
+                app:attr0286="80"
+                app:attr0321="clear_text"
+                style="@style/style0018">
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:id="@id/icebreaker_3_input_edit_text"
+                    android:hint="@string/str0294"
+                    android:maxLines="1"
+                    android:inputType="text"
+                    style="@style/style0014" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ViewStub
+                android:id="@id/icebreaker_3_text"
+                android:inflatedId="@id/icebreaker_3_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen103a"
+                android:layout_marginBottom="@dimen/dimen103a"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e" />
+            <com.whatsapp.ui.wds.components.divider.WDSDivider
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:layout_marginBottom="@dimen/dimen1039"
+                app:attr02db="thin" />
+            <com.whatsapp.aicreation.product.ui.component.AdvancedSettingField
+                android:id="@id/instructions_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr025a="text"
+                app:attr03ee="@string/str3d43"
+                app:attr07ee="true"
+                app:attr0864="@string/str3d42" />
+            <com.whatsapp.aicreation.product.ui.component.AdvancedSettingField
+                android:id="@id/example_dialog_field"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr025a="example_dialog"
+                app:attr03ee="@string/str3d41"
+                app:attr07ee="true"
+                app:attr07f4="true"
+                app:attr0864="@string/str3d40" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style05ab"
+                android:textColor="@color/color08df"
+                android:id="@id/capabilities_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102f"
+                android:text="@string/str0293"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e"
+                app:attr0a24="wds_font_headline2" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style05a6"
+                android:textColor="@color/color08de"
+                android:id="@id/capabilities_subtext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:layout_marginBottom="@dimen/dimen1039"
+                android:text="@string/str0292"
+                android:layout_marginStart="@dimen/dimen102e"
+                android:layout_marginEnd="@dimen/dimen102e"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/dynamic_image_generation"
+                app:attr06c6="@string/str028e"
+                app:attr06c9="@string/str028f"
+                style="@style/style0015" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/search"
+                app:attr06c6="@string/str0290"
+                app:attr06c9="@string/str0291"
+                style="@style/style0015" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include
+        layout="@layout/layout068a" />
+</LinearLayout>

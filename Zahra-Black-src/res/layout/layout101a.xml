@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:layout_marginStart="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/start_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:tint="?attr0a47"
+            android:contentDescription="@null"
+            app:attr090d="?attr0a47" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="20.0dip"
+            android:gravity="center"
+            android:id="@id/emoji_label"
+            android:visibility="gone"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:includeFontPadding="false"
+            android:textAlignment="center" />
+        <ViewStub
+            android:id="@id/status_attribution_item_animation"
+            android:layout="@layout/layout0f92"
+            android:inflatedId="@id/status_attribution_item_animation"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@id/label_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:maxLines="1"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/chevron_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:contentDescription="@null"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0838="@drawable/vec_chevron_right" />
+</LinearLayout>

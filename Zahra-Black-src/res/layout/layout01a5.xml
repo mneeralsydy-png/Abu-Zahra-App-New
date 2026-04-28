@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/row_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/contact_selector"
+        android:layout_width="@dimen/dimen0362"
+        android:layout_height="@dimen/dimen034a"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/lists_item_left_add_on"
+            android:layout="@layout/layout01a4"
+            android:layout_width="@dimen/dimen0cca"
+            android:layout_height="@dimen/dimen0cca" />
+        <com.whatsapp.ui.coreui.components.SelectionCheckView
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/selection_check"
+            android:layout_width="@dimen/dimen0c6e"
+            android:layout_height="@dimen/dimen0c6e"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:layout_marginEnd="@dimen/dimen1039" />
+    </FrameLayout>
+    <include
+        android:id="@id/multiple_contact_picker_row_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/contact_selector"
+        app:attr04b1="parent"
+        layout="@layout/layout0b3a" />
+</androidx.constraintlayout.widget.ConstraintLayout>

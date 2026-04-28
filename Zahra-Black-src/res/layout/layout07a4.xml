@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/fun_sticker_branded_title_icon"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:src="@drawable/meta_ai_ring_small"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/str156a"
+        android:layout_marginEnd="8.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="16.0sp"
+        android:textColor="?attr066e"
+        android:gravity="center_vertical"
+        android:id="@id/fun_sticker_branded_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1569"
+        style="@style/style05a7" />
+</LinearLayout>

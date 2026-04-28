@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen0ce7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.banners.WDSBanner
+        android:id="@id/cross_sell_desktop_app_banner"
+        android:background="?attr0a59"
+        style="@style/style0571" />
+</LinearLayout>

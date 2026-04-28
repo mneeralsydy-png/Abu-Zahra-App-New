@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:background="@color/color0358"
+    android:paddingTop="@dimen/dimen0cea"
+    android:paddingBottom="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:layout_gravity="start"
+        android:id="@id/ai_sources_link_close_button"
+        android:background="?attr076e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3dac"
+        android:paddingStart="@dimen/dimen0cea"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="@color/color0347" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0430"
+        android:id="@id/ai_sources_link_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style0712" />
+    <com.whatsapp.conversation.ui.conversationrow.SegmentedIndicatorView
+        android:id="@id/tabLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0b19"
+        android:layout_marginTop="@dimen/dimen0cea"
+        app:attr04b0="@id/ai_sources_link_title" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0155"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr04b0="@id/tabLayout" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/linkify_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen00c3"
+        android:textAlignment="textStart"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr04ad="parent"
+        app:attr04b0="@id/viewPager"
+        style="@style/style05a8" />
+    <ViewStub
+        android:id="@id/progress_bar_view_stub"
+        android:layout="@layout/layout1092"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

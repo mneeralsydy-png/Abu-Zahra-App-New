@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MainChildCoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    whatsapp:attr0566="@id/send_payment_keyboard_popup_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.KeyboardPopupLayout
+        android:id="@id/send_payment_keyboard_popup_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            android:id="@id/toolbar_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout10ce" />
+        <com.google.android.material.tabs.TabLayout
+            android:id="@id/payment_tabs"
+            android:background="?attr0a29"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar_holder"
+            android:elevation="?attr002f"
+            whatsapp:attr0884="?attr0a59"
+            whatsapp:attr088c="@color/color0922"
+            whatsapp:attr089c="@color/color05a1"
+            whatsapp:attr089f="@color/color05a2" />
+        <include
+            layout="@layout/layout0cfa" />
+    </com.whatsapp.ui.coreui.KeyboardPopupLayout>
+</com.whatsapp.ui.coreui.components.MainChildCoordinatorLayout>

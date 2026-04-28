@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    app:attr049a="parent"
+    app:attr04ad="parent"
+    app:attr04b1="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:id="@id/ul"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0dec"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1"
+        style="@style/style0023" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textStyle="bold"
+        android:id="@id/bullet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:text="•"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr04ad="parent"
+        app:attr04b1="@id/option1"
+        style="@style/style0023" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textStyle="bold"
+        android:id="@id/bullet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:text="•"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr04ad="parent"
+        app:attr04b1="@id/option2"
+        style="@style/style0023" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:id="@id/option1"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:text="@string/str0ded"
+        android:layout_marginStart="@dimen/dimen1039"
+        app:attr049a="parent"
+        app:attr04ac="@id/bullet1"
+        app:attr04b0="@id/ul"
+        app:attr0a24="wds_font_body1"
+        style="@style/style0023" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:id="@id/option2"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:text="@string/str0dee"
+        android:layout_marginStart="@dimen/dimen1039"
+        app:attr049a="parent"
+        app:attr04ac="@id/bullet2"
+        app:attr04b0="@id/option1"
+        app:attr0a24="wds_font_body1"
+        style="@style/style0023" />
+</androidx.constraintlayout.widget.ConstraintLayout>

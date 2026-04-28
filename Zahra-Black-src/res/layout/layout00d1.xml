@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/rich_order_content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/rich_order_recyclerview"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <FrameLayout
+            android:id="@id/view_order_button_container"
+            android:background="?attr0a5a"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:gravity="center"
+                android:id="@id/view_order_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr0411="@drawable/ic_open_in_new"
+                whatsapp:attr096b="filled" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/rich_order_loading_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ProgressBar
+            android:id="@id/rich_order_loading_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="@style/style05a6"
+            android:textColor="@color/color08de"
+            android:gravity="center"
+            android:id="@id/rich_order_loading_textview"
+            android:paddingTop="@dimen/dimen103b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2cd3"
+            android:paddingStart="@dimen/dimen103b"
+            android:paddingEnd="@dimen/dimen103b" />
+    </LinearLayout>
+</FrameLayout>

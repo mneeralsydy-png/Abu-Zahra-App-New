@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0700"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/dimen0ce7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen0ce7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style05ab"
+                android:textColor="?attr0a47"
+                android:id="@id/follower_invite_title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str1a19"
+                android:layout_weight="1.0"
+                app:attr0a24="wds_font_headline2" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/follower_invite_close_button"
+                android:background="?attr076e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0838="@drawable/ic_close"
+                app:attr090d="@color/color0347" />
+        </LinearLayout>
+        <ViewStub
+            android:id="@id/selected_list_stub"
+            android:inflatedId="@id/selected_list"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0c62" />
+        <ViewStub
+            android:id="@id/invite_info_stub"
+            android:inflatedId="@id/invite_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/follower_invite_newsletter_layout"
+            android:background="@drawable/invite_newsletter_admin_message_background"
+            android:padding="@dimen/dimen0ce7"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen06fe"
+            android:layout_margin="@dimen/dimen0ce7">
+            <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+                android:layout_gravity="center"
+                android:id="@id/newsletter_icon"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen0ce7"
+                android:importantForAccessibility="yes" />
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:clipChildren="true"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:layout_marginStart="@dimen/dimen0ce7">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textColor="?attr0a47"
+                    android:ellipsize="end"
+                    android:id="@id/newsletter_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.0dip"
+                    android:singleLine="true"
+                    android:layout_weight="1.0"
+                    style="@style/style0289" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:gravity="start"
+                    android:layout_gravity="start"
+                    android:id="@id/newsletter_invite_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.0dip"
+                    android:text="@string/str2064"
+                    android:layout_weight="1.0"
+                    style="@style/style0285" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/follower_invite_caption_layout"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.mentions.ui.MentionableEntry
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarStyle="outsideOverlay"
+                android:textColorHint="?attr0a46"
+                android:id="@id/follower_invite_caption"
+                android:scrollbars="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen0ce7"
+                android:minHeight="@dimen/dimen06fd"
+                android:maxLines="6"
+                android:layout_weight="1.0"
+                android:inputType="textCapSentences|textMultiLine"
+                android:imeOptions="actionDone"
+                android:scrollbarFadeDuration="300"
+                android:scrollbarDefaultDelayBeforeFade="200"
+                style="@style/style028a" />
+            <com.whatsapp.ui.wds.components.fab.WDSFab
+                android:layout_gravity="center"
+                android:id="@id/follower_invite_send_button"
+                android:contentDescription="@string/str4217"
+                style="@style/style055f" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/user_notice_modal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/user_notice_modal_scrollview"
+        android:paddingLeft="@dimen/dimen0e61"
+        android:paddingRight="@dimen/dimen0e61"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.privacy.disclosure.usernotice.UserNoticeModalIconView
+                android:id="@id/user_notice_modal_server_icon"
+                android:layout_width="@dimen/dimen0e65"
+                android:layout_height="@dimen/dimen0e65"
+                android:layout_marginTop="@dimen/dimen0e62"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b1="parent" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/user_notice_modal_default_icon"
+                android:layout_width="@dimen/dimen0e5d"
+                android:layout_height="@dimen/dimen0e5d"
+                app:attr0494="@id/user_notice_modal_server_icon"
+                app:attr04a7="@id/user_notice_modal_server_icon"
+                app:attr04ab="@id/user_notice_modal_server_icon"
+                app:attr04b1="@id/user_notice_modal_server_icon" />
+            <include
+                android:id="@id/user_notice_modal_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0e68"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b0="@id/user_notice_modal_server_icon"
+                layout="@layout/layout1126" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textColorLink="?attr0a49"
+                android:gravity="center_horizontal"
+                android:id="@id/user_notice_modal_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0e59"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b0="@id/user_notice_modal_title" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/user_notice_modal_bullets"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0e5b"
+                android:layout_marginRight="@dimen/dimen0e5b"
+                app:attr04a3="0.0"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b0="@id/user_notice_modal_body" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fbc"
+                android:textColorLink="?attr0a49"
+                android:id="@id/user_notice_modal_footer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0e5c"
+                android:lineSpacingExtra="4.0dip"
+                app:attr03ae="?attr03b6"
+                app:attr04a7="parent"
+                app:attr04ab="parent"
+                app:attr04b0="@id/user_notice_modal_bullets" />
+            <View
+                android:id="@id/user_notice_modal_button_divider"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginTop="@dimen/dimen0e5c"
+                android:layout_marginBottom="@dimen/dimen0e5e"
+                app:attr0494="parent"
+                app:attr04b0="@id/user_notice_modal_footer"
+                app:attr04b2="1.0"
+                style="@style/style0360" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/user_notice_modal_agree_button"
+                app:attr0494="parent"
+                app:attr04ab="@id/user_notice_modal_button_divider"
+                app:attr04b0="@id/user_notice_modal_button_divider"
+                style="@style/style0555" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/user_notice_modal_dismiss_button"
+                app:attr0494="parent"
+                app:attr04a7="@id/user_notice_modal_button_divider"
+                app:attr04b0="@id/user_notice_modal_button_divider"
+                style="@style/style0557" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include
+        android:id="@id/user_notice_modal_sticky_title"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04b1="parent"
+        layout="@layout/layout1126" />
+    <View
+        android:id="@id/user_notice_modal_gradient_top"
+        android:background="@drawable/user_notice_modal_gradient"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0e60"
+        app:attr0495="@id/user_notice_modal_gradient_bottom" />
+    <View
+        android:id="@id/user_notice_modal_gradient_bottom"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0e5f"
+        app:attr0494="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/user_notice_modal_scroll_button"
+        android:layout_width="@dimen/dimen0e64"
+        android:layout_height="@dimen/dimen0e64"
+        android:layout_marginBottom="@dimen/dimen0e63"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr0838="@drawable/ic_keyboard_arrow_down" />
+    <com.whatsapp.ui.coreui.EnhancedConstraintLayoutGroup
+        android:id="@id/user_notice_modal_scroll_decoration_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0243="user_notice_modal_gradient_bottom,user_notice_modal_gradient_top,user_notice_modal_scroll_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

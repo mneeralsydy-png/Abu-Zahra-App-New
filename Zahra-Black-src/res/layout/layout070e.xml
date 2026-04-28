@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/expressions_view_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/handle_container"
+        android:background="@drawable/expression_search_bottom_sheet_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            app:attr0838="@drawable/wds_bottom_sheet_handle" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:gravity="bottom"
+        android:id="@id/search_bar_container"
+        android:background="@drawable/ib_new_round"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0579"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:minHeight="@dimen/dimen03a5"
+        android:layout_marginStart="@dimen/dimen0fb0"
+        android:layout_marginEnd="@dimen/dimen0fb0"
+        android:backgroundTint="?attr0344"
+        app:attr049a="parent"
+        app:attr04ad="parent">
+        <FrameLayout
+            android:layout_gravity="top"
+            android:id="@id/back_container"
+            android:layout_width="@dimen/dimen0579"
+            android:layout_height="@dimen/dimen0579"
+            android:importantForAccessibility="no"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.coreui.base.WaComposerDrawableNavigationImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/back"
+                android:layout_width="44.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/dimen1030"
+                android:layout_marginRight="@dimen/dimen1030"
+                android:contentDescription="@string/str3d62"
+                app:attr0838="@drawable/ic_arrow_back_white"
+                app:attr090d="?attr0345"
+                style="@style/style0001" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.WaEditText
+            android:textColor="?attr066e"
+            android:textColorHint="?attr0351"
+            android:layout_gravity="center_vertical"
+            android:id="@id/search_bar"
+            android:background="@null"
+            android:paddingTop="@dimen/dimen0ced"
+            android:paddingBottom="@dimen/dimen0ce7"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:paddingEnd="@dimen/dimen0ced"
+            app:attr0494="parent"
+            app:attr049b="@id/clear_search_btn"
+            app:attr04ac="@id/back_container"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/clear_search_btn"
+            android:background="@drawable/search_fun_stickers_background"
+            android:layout_width="@dimen/dimen03a6"
+            android:layout_height="@dimen/dimen03a5"
+            android:tint="?attr0345"
+            android:contentDescription="@string/str4212"
+            android:layout_marginEnd="@dimen/dimen0ce7"
+            app:attr0494="@id/back_container"
+            app:attr049a="parent"
+            app:attr04b1="@id/back_container"
+            app:attr0838="@drawable/vec_ic_close" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewFlipper
+        android:id="@id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            android:id="@id/browser_view"
+            layout="@layout/layout070d" />
+    </ViewFlipper>
+</LinearLayout>

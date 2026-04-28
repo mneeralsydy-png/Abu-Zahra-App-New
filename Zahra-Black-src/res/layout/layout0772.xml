@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/imagine_home_root"
+    android:background="@android:color/transparent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/imagine_spotlight_layout_stub"
+        android:layout="@layout/layout0154"
+        android:inflatedId="@id/imagine_spotlight_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen0cf6"
+        app:attr0495="@id/input_prompt_container"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textStyle="bold"
+        android:textColor="@color/color090b"
+        android:gravity="center"
+        android:id="@id/imagine_ptt_hold_to_record_tip"
+        android:background="@drawable/tooltip_ptt"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3ea5"
+        android:lineSpacingExtra="24.0sp"
+        android:lineSpacingMultiplier="0.0"
+        android:translationX="@dimen/dimen0cf0"
+        android:letterSpacing="0.01"
+        app:attr0083="@color/color0904"
+        app:attr0495="@id/input_prompt_container"
+        app:attr049a="parent" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/input_prompt_container"
+        android:background="@color/color0104"
+        android:paddingTop="@dimen/dimen0ce8"
+        android:paddingBottom="@dimen/dimen0ce8"
+        android:focusable="true"
+        android:clickable="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent">
+        <com.whatsapp.metaai.imagine.InputPrompt
+            android:id="@id/imagine_input_prompt"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen066f"
+            android:layout_weight="1.0"
+            app:attr007a="@color/color090a"
+            app:attr0100="@color/color092f"
+            app:attr0104="@color/color08c2"
+            app:attr043c="@string/str198e"
+            app:attr06c4="true"
+            app:attr08e0="@color/color08c4" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/imagine_voice_note_btn"
+            android:background="@drawable/circle_primary_bg"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen0f56"
+            android:layout_height="@dimen/dimen0f56"
+            android:layout_marginBottom="@dimen/dimen066f"
+            android:scaleType="center"
+            android:contentDescription="@string/str430c"
+            android:layout_marginEnd="@dimen/dimen0ce8"
+            app:attr0838="@drawable/vec_ic_keyboard_voice_filled"
+            app:attr090d="@color/color08ff" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

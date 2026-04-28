@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/avatar_search_tab_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/avatar_vscroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.AutoFitGridRecyclerView
+            android:id="@id/items"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            app:attr003e="@dimen/dimen0575" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@id/snack_bar_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/category"
+            android:background="?attr0350"
+            android:paddingBottom="@dimen/dimen0ce7"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/avatar_search_results_view_stub"
+        android:layout="@layout/layout01c6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:layout_gravity="center_horizontal"
+        android:id="@id/avatar_no_search_results_view_stub"
+        android:layout="@layout/layout01c2"
+        android:inflatedId="@id/avatar_tab_search_no_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/no_avatar_available_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0c0f"
+        android:inflatedId="@id/no_avatar_available_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/no_avatar_available_stub_new"
+        android:visibility="gone"
+        android:layout="@layout/layout0c10"
+        android:inflatedId="@id/no_avatar_available_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

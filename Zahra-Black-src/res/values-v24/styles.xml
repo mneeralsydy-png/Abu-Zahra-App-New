@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style006c" parent="@style/style00a3" />
+    <style name="style006d" parent="@style/style00a4" />
+    <style name="style0087" parent="@style/style0088">
+        <item name="android:colorBackground">@color/color024d</item>
+        <item name="android:buttonBarButtonStyle">?attr00fb</item>
+        <item name="android:timePickerDialogTheme">@style/style050c</item>
+        <item name="android:datePickerDialogTheme">@style/style050c</item>
+        <item name="android:contextPopupMenuStyle">@style/style06dc</item>
+        <item name="attr000c">@style/style050b</item>
+        <item name="attr000d">@dimen/dimen098f</item>
+        <item name="attr000f">@style/style069b</item>
+        <item name="attr0013">@style/style0506</item>
+        <item name="attr0026">@style/style069c</item>
+        <item name="attr002a">@style/style06de</item>
+        <item name="attr0046">@style/style050d</item>
+        <item name="attr0057">@style/style069e</item>
+        <item name="attr00c1">@style/style06a8</item>
+        <item name="attr00c9">@style/style06a3</item>
+        <item name="attr00ca">@style/style050a</item>
+        <item name="attr00fb">@style/style06a8</item>
+        <item name="attr01b7">@style/style06b7</item>
+        <item name="attr0204">?attr0229</item>
+        <item name="attr020d">@color/color024e</item>
+        <item name="attr0221">@color/color0254</item>
+        <item name="attr0223">@color/color0255</item>
+        <item name="attr0396">@style/style06bc</item>
+        <item name="attr04ef">@style/style06dd</item>
+        <item name="attr052e">@style/style0511</item>
+        <item name="attr0537">@style/style0513</item>
+        <item name="attr0541">@style/style06c0</item>
+        <item name="attr0542">@style/style0512</item>
+        <item name="attr0556">@style/style0519</item>
+        <item name="attr05cf">@style/style06da</item>
+        <item name="attr0651">@style/style06db</item>
+        <item name="attr0699">@style/style06b8</item>
+        <item name="attr0825">@style/style06ab</item>
+        <item name="attr0826">@style/style06e2</item>
+        <item name="attr0827">@style/style06e3</item>
+        <item name="attr0880">@style/style06b9</item>
+        <item name="attr089d">@style/style06e4</item>
+        <item name="attr08cf">?attr08da</item>
+        <item name="attr08d9">?attr08da</item>
+        <item name="attr08e5">@style/style06ea</item>
+        <item name="attr08e6">@style/style06eb</item>
+        <item name="attr08e7">@style/style06e9</item>
+        <item name="attr08e9">@style/style06ed</item>
+        <item name="attr08ea">@style/style06ee</item>
+        <item name="attr08eb">@style/style06ec</item>
+        <item name="attr08ec">@style/style06e9</item>
+        <item name="attr0927">@style/style06fa</item>
+        <item name="attr0979">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="style008a" parent="@style/style008b">
+        <item name="android:colorBackground">@color/color025a</item>
+        <item name="android:buttonBarButtonStyle">?attr00fb</item>
+        <item name="android:timePickerDialogTheme">@style/style050c</item>
+        <item name="android:datePickerDialogTheme">@style/style050c</item>
+        <item name="android:contextPopupMenuStyle">@style/style06dc</item>
+        <item name="attr000c">@style/style050f</item>
+        <item name="attr000d">@dimen/dimen098f</item>
+        <item name="attr000f">@style/style06bd</item>
+        <item name="attr0026">@style/style069c</item>
+        <item name="attr002a">@style/style06de</item>
+        <item name="attr0046">@style/style050d</item>
+        <item name="attr0057">@style/style069d</item>
+        <item name="attr00c1">@style/style06a8</item>
+        <item name="attr00c9">@style/style06a3</item>
+        <item name="attr00ca">@style/style050a</item>
+        <item name="attr00fb">@style/style06a8</item>
+        <item name="attr01b7">@style/style06b7</item>
+        <item name="attr0204">?attr0229</item>
+        <item name="attr020d">@color/color025b</item>
+        <item name="attr0221">@color/color0261</item>
+        <item name="attr0223">@color/color0262</item>
+        <item name="attr0396">@style/style06bc</item>
+        <item name="attr04ef">@style/style06dd</item>
+        <item name="attr052e">@style/style0511</item>
+        <item name="attr0537">@style/style0513</item>
+        <item name="attr0541">@style/style06c0</item>
+        <item name="attr0542">@style/style0512</item>
+        <item name="attr0556">@style/style0519</item>
+        <item name="attr05cf">@style/style06da</item>
+        <item name="attr0651">@style/style06db</item>
+        <item name="attr0699">@style/style06b8</item>
+        <item name="attr0825">@style/style06ab</item>
+        <item name="attr0826">@style/style06e2</item>
+        <item name="attr0827">@style/style06e3</item>
+        <item name="attr0880">@style/style06b9</item>
+        <item name="attr089d">@style/style06e4</item>
+        <item name="attr08cf">?attr08da</item>
+        <item name="attr08d9">?attr08da</item>
+        <item name="attr08e5">@style/style06ea</item>
+        <item name="attr08e6">@style/style06eb</item>
+        <item name="attr08e7">@style/style06e9</item>
+        <item name="attr08e9">@style/style06ed</item>
+        <item name="attr08ea">@style/style06ee</item>
+        <item name="attr08eb">@style/style06ec</item>
+        <item name="attr08ec">@style/style06e9</item>
+        <item name="attr0927">@style/style06fa</item>
+        <item name="attr0979">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="style00b0" parent="@style/style0680">
+        <item name="android:textColor">?attr0a47</item>
+        <item name="android:popupBackground">@drawable/wds_popup_menu</item>
+        <item name="android:colorControlHighlight">@color/color098b</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:backgroundTint">?attr022d</item>
+        <item name="android:buttonTint">?attr021c</item>
+        <item name="android:popupEnterTransition">@transition/wds_menu</item>
+        <item name="android:popupExitTransition">@transition/wds_menu</item>
+        <item name="attr002a">@drawable/wds_popup_menu</item>
+        <item name="attr0083">?attr0a47</item>
+        <item name="attr020c">?attr021c</item>
+        <item name="attr08cf">@style/style05a4</item>
+    </style>
+    <style name="style0251" parent="@style/style0250">
+        <item name="android:popupEnterTransition">@transition/wds_menu_up</item>
+        <item name="android:popupExitTransition">@transition/wds_menu_up</item>
+    </style>
+    <style name="style0580" parent="@style/style057f">
+        <item name="android:popupEnterTransition">@transition/wds_menu_up</item>
+        <item name="android:popupExitTransition">@transition/wds_menu_up</item>
+    </style>
+    <style name="style00a3" parent="@style/style0085">
+        <item name="android:contextPopupMenuStyle">@style/style067e</item>
+    </style>
+    <style name="style00a4" parent="@style/style0086">
+        <item name="android:contextPopupMenuStyle">@style/style067e</item>
+    </style>
+</resources>

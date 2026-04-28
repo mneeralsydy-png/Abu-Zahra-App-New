@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/profile_details_section"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+        android:layout_gravity="center_horizontal"
+        android:id="@id/vpa_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        app:attr0675="large" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a47"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/profile_vpa_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        app:attr0a24="wds_font_body1_emphasized" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a47"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/profile_vpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1035"
+        android:layout_marginBottom="@dimen/dimen103a"
+        app:attr0a24="wds_font_body2" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="?attr0a59"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingRight="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1035">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/copy_upi_id"
+            android:text="@string/str0e5c"
+            app:attr0411="@drawable/pix_copy_icon_filled"
+            app:attr096b="outline"
+            app:attr09ea="medium"
+            style="@style/style0555" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/view_upi_qr"
+            android:text="@string/str3987"
+            app:attr0411="@drawable/vec_ic_qr_code"
+            app:attr096b="outline"
+            app:attr09ea="medium"
+            style="@style/style0555" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.divider.WDSDivider
+        android:id="@id/default_payment_method_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr02db="thin" />
+</LinearLayout>

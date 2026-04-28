@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/coordinator"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:background="?attr0223"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d"
+        android:minHeight="?attr000d"
+        style="@style/style0520" />
+    <com.whatsapp.ui.coreui.KeyboardPopupLayout
+        android:gravity="bottom"
+        android:id="@id/conversation_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:id="@id/footer_container"
+            android:paddingTop="?attr000d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ScrollView
+                android:id="@id/message_bubble_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0cec"
+                android:layout_above="@id/edit_composer" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/edit_composer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+                <FrameLayout
+                    android:id="@id/mention_attach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen0cec"
+                    android:layout_marginBottom="-3.5dip" />
+                <include
+                    layout="@layout/layout0449" />
+                <com.whatsapp.emoji.search.EmojiSearchKeyboardContainer
+                    android:id="@id/emoji_search_container"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.whatsapp.ui.coreui.KeyboardPopupLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

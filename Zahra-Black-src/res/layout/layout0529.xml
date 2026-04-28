@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/conversation_row_name_in_group_container"
+    android:paddingLeft="@dimen/dimen0ce8"
+    android:paddingTop="@dimen/dimen0ce8"
+    android:paddingRight="@dimen/dimen0ce8"
+    android:paddingBottom="@dimen/dimen0ce7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="center"
+        android:id="@id/conversation_row_profile_pic"
+        android:layout_width="@dimen/dimen062b"
+        android:layout_height="@dimen/dimen062b"
+        android:src="@drawable/avatar_contact_colorable"
+        android:scaleType="centerCrop"
+        android:importantForAccessibility="no"
+        whatsapp:attr08aa="@dimen/dimen062a" />
+    <Space
+        android:id="@id/conversation_row_profile_pic_height_space"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0629"
+        android:layout_height="@dimen/dimen062b" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/conversation_row_name_in_group_name_and_role_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.conversation.impl.conversationrow.ConversationRowParticipantHeaderMainView
+            android:id="@id/name_in_group"
+            android:paddingRight="0.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            style="@style/style01bf">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:id="@id/name_in_group_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style01bb" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:id="@id/secondary_name_in_group_tv"
+                android:paddingLeft="6.0sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style01c2" />
+        </com.whatsapp.conversation.impl.conversationrow.ConversationRowParticipantHeaderMainView>
+        <ViewStub
+            android:id="@id/conversation_row_name_in_group_role"
+            android:layout="@layout/layout051a"
+            android:inflatedId="@id/conversation_row_name_in_group_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

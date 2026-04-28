@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/tool_bar"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d"
+        android:touchscreenBlocksFocus="false"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/non_empty_list_view_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0ae1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04ad="parent"
+        app:attr04b0="@id/tool_bar" />
+    <ViewStub
+        android:id="@id/empty_list_view_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout06b3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/tool_bar" />
+    <ViewStub
+        android:id="@id/progress_bar_view_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0dea"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

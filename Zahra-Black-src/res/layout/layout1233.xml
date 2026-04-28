@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/layout0b84" />
+    <ViewStub
+        android:id="@id/add_to_call_button_stub"
+        android:layout="@layout/layout1231"
+        android:inflatedId="@id/add_to_call_button_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginBottom="@dimen/dimen0cec"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        app:attr0494="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

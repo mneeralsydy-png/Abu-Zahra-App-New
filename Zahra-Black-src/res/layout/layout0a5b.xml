@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/media_hub_fragment_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr048c="@string/str3d52"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

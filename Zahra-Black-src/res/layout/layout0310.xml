@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.camera.recording.RecordingView
+    android:id="@id/recording_view"
+    android:background="@drawable/camera_info_background_new"
+    android:paddingLeft="@dimen/dimen0ce8"
+    android:paddingTop="@dimen/dimen0ce7"
+    android:paddingRight="@dimen/dimen0ce8"
+    android:paddingBottom="@dimen/dimen0ce7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

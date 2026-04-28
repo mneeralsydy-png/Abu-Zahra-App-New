@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/scroll_view"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/phone_number_confirmation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style01a4">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr066e"
+            android:id="@id/delete_account_phone_number_confirmation_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:text="@string/str0f94"
+            android:importantForAccessibility="yes"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.textfield.WDSTextField
+            android:id="@id/country_text_field"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:layout_marginBottom="@dimen/dimen103b"
+            android:hint="@string/str0e6b"
+            android:maxLines="1"
+            android:inputType="textCapSentences"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b"
+            app:attr08e4="drop_down"
+            style="@style/style0587" />
+        <com.whatsapp.ui.wds.components.textfield.WDSTextField
+            android:id="@id/phone_number_text_field"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen103b"
+            android:hint="@string/str2afb"
+            android:maxLines="1"
+            android:inputType="phone"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b"
+            style="@style/style0587" />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:layout_marginStart="@dimen/dimen103b"
+            android:layout_marginEnd="@dimen/dimen103b">
+            <com.whatsapp.ui.coreui.WaButtonWithLoader
+                android:enabled="false"
+                android:id="@id/delete_account_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str4223"
+                app:attr0009="destructive" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/cancel_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str3d9b"
+                app:attr096b="outline" />
+        </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+    </LinearLayout>
+</ScrollView>

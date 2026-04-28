@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/member_suggested_groups_icon_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="start"
+        android:layout_gravity="start|center"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a5"
+            android:id="@id/member_suggested_groups_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_body1_emphasized" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0759"
+            android:textColor="?attr0a46"
+            android:gravity="start"
+            android:id="@id/member_suggested_groups_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub
+        android:layout_gravity="end|center"
+        android:id="@id/new_group_suggestions_count"
+        android:layout="@layout/layout0a96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</merge>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+            android:id="@id/toolbar"
+            android:background="?attr0926"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0048"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr08f4="@style/style01d5"
+            style="@style/style0520" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/interop_setting"
+            android:paddingTop="@dimen/dimen102e"
+            android:paddingBottom="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr0495="@id/divider"
+            app:attr04b0="@id/toolbar"
+            app:attr06c6="@string/str2a67"
+            app:attr06c8="body2"
+            app:attr06c9="@string/str2a6c"
+            app:attr06ca="body1"
+            app:attr06ec="wds_switch"
+            app:attr06f1="spacing_double"
+            app:attr06f2="spacing_triple" />
+        <com.whatsapp.ui.wds.components.divider.WDSDivider
+            android:id="@id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:layout_marginBottom="@dimen/dimen1030"
+            app:attr02db="thin"
+            app:attr0495="@id/select_integrators_header"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/interop_setting" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/select_integrators_header"
+            android:paddingTop="@dimen/dimen102e"
+            android:paddingBottom="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1031"
+            android:paddingStart="@dimen/dimen103b"
+            android:paddingEnd="@dimen/dimen103b"
+            app:attr0495="@id/integrators"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/divider"
+            style="@style/style026e" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/integrators"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/select_integrators_header" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

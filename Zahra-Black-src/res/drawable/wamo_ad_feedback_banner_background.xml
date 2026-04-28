@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/tag_screen_reader_focusable" />
+    <corners
+        android:radius="@dimen/dimen0f91" />
+</shape>

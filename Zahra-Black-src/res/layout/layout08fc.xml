@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/prefill_amount"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen1030"
+    android:layout_marginBottom="@dimen/dimen103a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/prefill_amount_top_divider"
+        android:background="@drawable/payments_divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str24e7"
+            android:layout_weight="1.0"
+            app:attr03ae="?attr03b6"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:id="@id/payment_amount_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr03ae="?attr03b6"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+    <View
+        android:id="@id/prefill_amount_bottom_divider"
+        android:background="@drawable/payments_divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="@dimen/dimen102e" />
+</LinearLayout>

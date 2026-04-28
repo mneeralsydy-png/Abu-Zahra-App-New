@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:textColor="?attr0a47"
+            android:gravity="center_horizontal"
+            android:id="@id/non_admin_members_add_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cea"
+            android:layout_marginBottom="@dimen/dimen0cea"
+            android:textAlignment="center"
+            app:attr04b1="parent" />
+        <RadioGroup
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@id/allow_non_admin_add_members_radio_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/non_admin_members_add_title">
+            <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle
+                android:id="@id/non_admin_members_add_everyone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                app:attr04b1="parent" />
+            <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle
+                android:id="@id/non_admin_members_add_admin_only"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                app:attr04b0="@id/non_admin_members_add_everyone" />
+        </RadioGroup>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@id/link_preview_message_container"
+    android:background="?attr0246"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/link_preview_message_container_background"
+        android:paddingLeft="@dimen/dimen0ced"
+        android:paddingRight="@dimen/dimen0ced"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ce7"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        android:minHeight="@dimen/dimen0212">
+        <FrameLayout
+            android:orientation="horizontal"
+            android:id="@id/web_page_preview_container"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ced"
+            android:layout_weight="0.0" />
+        <FrameLayout
+            android:id="@id/link_message_container"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.WaEditText
+                android:textSize="@dimen/dimen0fb0"
+                android:gravity="center_vertical"
+                android:id="@id/link_message_text_entry"
+                android:background="@color/color0790"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ce7"
+                android:layout_marginBottom="@dimen/dimen0ce7"
+                android:hint="@string/str154c"
+                android:maxLines="4"
+                android:inputType="textCapSentences|textMultiLine" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

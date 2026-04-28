@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversationslist.FillListViewContainer
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+            android:id="@id/no_unread_filter_cta_text_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr02c6="@string/str3dde"
+            app:attr03eb="@drawable/vec_wds_ill_unread_filter_cta_icon"
+            app:attr03f0="@string/str3ddf"
+            app:attr0489="card" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textAppearance="@style/style05a7"
+            android:gravity="center"
+            android:id="@id/no_unread_filter_cta_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginBottom="@dimen/dimen1036"
+            android:text="@string/str0e09"
+            style="@style/style0557" />
+    </LinearLayout>
+</com.whatsapp.conversationslist.FillListViewContainer>

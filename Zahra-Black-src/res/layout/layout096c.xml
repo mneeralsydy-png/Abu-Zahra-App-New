@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@id/map_container"
+    android:background="@drawable/bg_map_entrypoint"
+    android:layout_width="fill_parent"
+    android:layout_height="146.0dip"
+    android:layout_marginLeft="@dimen/dimen0b5d"
+    android:layout_marginTop="@dimen/dimen0b5d"
+    android:layout_marginRight="@dimen/dimen0b5d"
+    android:layout_marginBottom="@dimen/dimen0b60"
+    app:attr011e="8.0dip"
+    app:attr011f="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/map_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.ui.coreui.WaFrameLayout
+        android:id="@id/border"
+        android:background="@drawable/bg_map_entrypoint"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</androidx.cardview.widget.CardView>

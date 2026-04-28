@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0490="true"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout10cb" />
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:layout_gravity="center"
+        android:id="@id/loading_community_member_progress_bar"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen076e"
+        android:layout_height="@dimen/dimen076e"
+        android:indeterminate="true"
+        app:attr028c="?attr0a2f"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/community_members_recycler_view"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar"
+        app:attr04b2="0.0"
+        app:attr04b3="packed"
+        style="@style/style01a2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

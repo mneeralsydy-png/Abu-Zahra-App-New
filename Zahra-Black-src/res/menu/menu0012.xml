@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_rename"
+        android:id="@id/sticker_pack_rename"
+        android:title="@string/str3e32"
+        app:attr041f="@color/color06ac"
+        app:attr07f1="never" />
+    <item
+        android:icon="@drawable/ic_send_outline"
+        android:id="@id/sticker_pack_send"
+        android:title="@string/str3e33"
+        app:attr041f="@color/color06ac"
+        app:attr07f1="never" />
+    <item
+        android:icon="@drawable/ic_delete"
+        android:id="@id/sticker_pack_remove"
+        android:title="@string/str429f"
+        app:attr041f="@color/color06ac"
+        app:attr07f1="never" />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">Largimi nga %d grupe dështoi. Provo përsëri.</item>
+        <item quantity="one">Largimi nga %d grup dështoi. Provo përsëri.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d njoftime</item>
+        <item quantity="one">%1$d njoftim</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d njoftime të reja</item>
+        <item quantity="one">%d njoftim i ri</item>
+    </plurals>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaFrameLayout
+    android:id="@id/poll_result_snapshot"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="start|center"
+        android:orientation="vertical"
+        android:id="@id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30.0dip">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="?attr09f7"
+            android:layout_gravity="start"
+            android:id="@id/poll_name"
+            android:paddingLeft="@dimen/dimen0ce9"
+            android:paddingTop="@dimen/dimen0ced"
+            android:paddingRight="@dimen/dimen0ce9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/poll_options"
+            android:paddingLeft="@dimen/dimen0ce9"
+            android:paddingRight="@dimen/dimen0ce9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0ce7"
+            android:importantForAccessibility="no" />
+        <ViewStub
+            android:id="@id/more_options"
+            android:layout="@layout/layout0d3e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen0ce9"
+            android:layout_marginEnd="@dimen/dimen0ce9" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a35"
+            android:layout_gravity="start"
+            android:id="@id/poll_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:layout_marginBottom="14.0dip"
+            android:text="@string/str2936"
+            android:layout_marginStart="@dimen/dimen0ce9"
+            style="@style/style0567" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.WaFrameLayout>

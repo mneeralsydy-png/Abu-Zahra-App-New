@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+    android:id="@id/wamo_facebook_page"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    whatsapp:attr06e1="true"
+    whatsapp:attr06e2="compact"
+    whatsapp:attr06e5="?attr0a29"
+    whatsapp:attr06f1="spacing_double"
+    whatsapp:attr06f2="spacing_double"
+    whatsapp:attr06f6="@drawable/vec_ic_facebook"
+    whatsapp:attr06fa="medium"
+    whatsapp:attr0702="icon"
+    whatsapp:attr0704="spacing_double"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

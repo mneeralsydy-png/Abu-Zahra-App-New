@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textColor="?attr0571"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:id="@id/music_title"
+    android:layout_width="@dimen/dimen102c"
+    android:layout_height="wrap_content"
+    android:maxLines="2"
+    android:shadowColor="@color/color0779"
+    android:shadowDx="1.0"
+    android:shadowDy="1.0"
+    android:shadowRadius="2.0"
+    android:textAlignment="center"
+    android:paddingStart="@dimen/dimen1033"
+    android:paddingEnd="@dimen/dimen1033"
+    app:attr0a24="wds_font_body2_emphasized"
+    style="?attr09f7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

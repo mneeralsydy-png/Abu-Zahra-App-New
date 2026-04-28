@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr06c8="body2"
+    app:attr06ca="body1"
+    app:attr06cb="text"
+    app:attr06e2="standard"
+    app:attr06ec="wds_switch"
+    app:attr06f1="spacing_single"
+    app:attr06f2="spacing_single"
+    app:attr06f7="neutral"
+    app:attr06fa="medium"
+    app:attr06fb="borderless"
+    app:attr0702="icon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

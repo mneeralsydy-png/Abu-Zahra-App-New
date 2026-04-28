@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@id/no_contacts_permission_blocking_null_state_text_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr03eb="@drawable/wds_picto_contacts_feedback_warning"
+    app:attr0489="view"
+    app:attr0668="@string/str0d25"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

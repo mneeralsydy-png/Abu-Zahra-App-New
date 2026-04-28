@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View
+    android:background="@drawable/variants_carousel_item_loading_placeholder_shape"
+    android:layout_width="@dimen/dimen0b70"
+    android:layout_height="@dimen/dimen0b70"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

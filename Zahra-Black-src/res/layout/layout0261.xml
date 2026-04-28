@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.actiontile.WDSActionTileGroup
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:id="@id/business_details_actions"
+    android:paddingTop="@dimen/dimen06a4"
+    android:paddingBottom="@dimen/dimen06a4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen103a"
+    android:layout_marginRight="@dimen/dimen103a"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/vec_ic_chat"
+        android:id="@id/action_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str0d0f"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_call_white"
+        android:id="@id/action_call"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str080d"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/vec_ic_videocam_white"
+        android:id="@id/action_videocall"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str4307"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_store"
+        android:id="@id/action_shop"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str0cf4"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:id="@id/action_pay"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str0d10"
+        android:layout_weight="1.0" />
+    <ViewStub
+        android:id="@id/action_pix_view"
+        android:visibility="gone"
+        android:layout="@layout/layout0de0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_forward_white"
+        android:id="@id/action_forward"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str0cf5"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_search_white"
+        android:id="@id/action_search_chat"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str420c"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+        android:icon="@drawable/ic_dialpad"
+        android:id="@id/action_request_phone_number"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:text="@string/str290b"
+        android:layout_weight="1.0" />
+    <ViewStub
+        android:id="@id/action_edit_ai_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0044"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030"
+        android:layout_weight="1.0" />
+</com.whatsapp.ui.wds.components.actiontile.WDSActionTileGroup>

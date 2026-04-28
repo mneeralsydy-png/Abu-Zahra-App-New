@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/selector_orange_gradient"
+    android:paddingBottom="@dimen/dimen0b5b"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/view_all_popular_categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        style="@style/style070d" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/title"
+        android:paddingLeft="@dimen/dimen0b5d"
+        android:paddingRight="@dimen/dimen0b5d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str057a"
+        android:layout_toLeftOf="@id/view_all_popular_categories"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="?attr03b8"
+        android:paddingStart="@dimen/dimen0b5d"
+        android:paddingEnd="@dimen/dimen0b5d"
+        style="@style/style070e" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/popular_categories_recycler_view"
+        android:background="@null"
+        android:paddingLeft="@dimen/dimen0b5b"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/color0790"
+        android:layout_below="@id/title" />
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@id/browser_tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="28.0dip"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen1039"
+        app:attr0771="true"
+        app:attr0819="true">
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/emojis"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:attr0083="@drawable/expression_search_tabs_background"
+            app:attr0411="@drawable/vec_ic_mood"
+            style="@style/style0206" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/gifs"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:attr0083="@drawable/expression_search_tabs_background"
+            app:attr0411="@drawable/vec_ic_gif"
+            style="@style/style0206" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/avatar_stickers"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:attr0083="@drawable/expression_search_tabs_background"
+            app:attr0411="@drawable/ic_settings_unfilled_avatar"
+            style="@style/style0206" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/stickers"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:attr0083="@drawable/expression_search_tabs_background"
+            app:attr0411="@drawable/vec_ic_sticker"
+            style="@style/style0206" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+    <com.whatsapp.ui.coreui.collections.MarginCorrectedViewPager
+        android:id="@id/browser_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:nestedScrollingEnabled="true" />
+</LinearLayout>

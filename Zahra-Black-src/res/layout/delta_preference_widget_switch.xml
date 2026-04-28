@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="60.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <abu3arab.mas.views.AccentCheckBox
+        android:layout_gravity="end|center"
+        android:id="@android:id/checkbox"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

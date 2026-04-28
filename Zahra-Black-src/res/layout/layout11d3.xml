@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:background="@drawable/primary_color_circle"
+    android:layout_width="@dimen/dimen0c6e"
+    android:layout_height="@dimen/dimen0c6e"
+    whatsapp:attr0838="@drawable/ic_chatlist_ephemeral"
+    whatsapp:attr090d="@color/color0503"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

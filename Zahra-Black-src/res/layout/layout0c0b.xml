@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:id="@id/shimmer_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen0450">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/photo"
+            android:background="@drawable/grey_circle"
+            android:layout_width="@dimen/dimen0333"
+            android:layout_height="@dimen/dimen0333"
+            android:layout_marginStart="@dimen/dimen102e"
+            app:attr0083="?attr0a52"
+            app:attr0494="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <LinearLayout
+            android:layout_gravity="start|center"
+            android:orientation="vertical"
+            android:id="@id/title_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen102e"
+            app:attr0494="parent"
+            app:attr04ac="@id/photo"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/title"
+                android:background="@drawable/wds_round_corner_shimmer_background"
+                android:layout_width="174.0dip"
+                android:layout_height="20.0dip"
+                app:attr0083="?attr0a52" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/subtitle"
+                android:background="@drawable/wds_round_corner_shimmer_background"
+                android:layout_width="135.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginTop="@dimen/dimen1030"
+                app:attr0083="?attr0a52" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/button"
+            android:background="@drawable/quick_action_chip_bcg"
+            android:layout_width="74.0dip"
+            android:layout_height="35.0dip"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr0083="?attr0a52"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04b1="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

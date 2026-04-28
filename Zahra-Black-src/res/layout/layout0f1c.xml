@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/service_offerings_card"
+    android:background="?attr0a59"
+    android:paddingTop="@dimen/dimen06a4"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/service_offerings_card_title"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str2ea4"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/dimen06a4"
+            android:layout_alignParentStart="true"
+            style="@style/style021b" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/service_offerings_card_action"
+            android:paddingRight="@dimen/dimen06a4"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str07ed"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="false"
+            android:paddingEnd="@dimen/dimen06a4"
+            android:layout_alignParentEnd="true"
+            app:attr02ed="@color/color04da"
+            style="@style/style0219" />
+        <ViewStub
+            android:id="@id/service_offerings_card_cta"
+            android:layout="@layout/layout0a3e"
+            android:inflatedId="@id/service_offerings_card_cta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/dimen06a4"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:id="@id/select_services_text"
+        android:paddingLeft="@dimen/dimen06a4"
+        android:paddingTop="@dimen/dimen06a4"
+        android:paddingBottom="@dimen/dimen06a4"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str2ea3"
+        android:textAllCaps="false"
+        android:paddingStart="@dimen/dimen06a4"
+        app:attr0a24="wds_font_body3"
+        style="@style/style0219" />
+    <com.whatsapp.business.biz.serviceofferings.ServiceOfferingsRecyclerView
+        android:id="@id/service_offerings_recycler_view"
+        android:paddingTop="@dimen/dimen06a4"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/color0790" />
+</com.whatsapp.ui.coreui.InfoCard>

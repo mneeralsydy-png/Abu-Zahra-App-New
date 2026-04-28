@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:id="@id/meta_ai_imagine_me_retake_photo_nux"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="start"
+        android:id="@id/retake_photo_nux_close_button"
+        android:background="?attr076e"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:src="@drawable/xmds_close"
+        android:contentDescription="@string/str3dac"
+        android:layout_marginStart="@dimen/dimen0ce8" />
+    <com.whatsapp.ui.coreui.base.WaNetworkResourceImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/retake_photos_nux_image"
+        android:layout_width="@dimen/dimen0675"
+        android:layout_height="@dimen/dimen0673"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:tint="@color/color034e"
+        android:minWidth="@dimen/dimen0675"
+        android:minHeight="@dimen/dimen0673"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        app:attr05d4="meta_ai_imagine_me_consent_page_2"
+        app:attr0838="@drawable/ic_meta_ai_consent_fallback" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/meta_ai_donut"
+            android:layout_width="28.0dip"
+            android:layout_height="28.0dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color0355"
+            android:layout_gravity="center_vertical"
+            android:id="@id/meta_ai_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str3f12"
+            android:layout_marginStart="@dimen/dimen0ce9"
+            style="@style/style070f" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0355"
+        android:id="@id/retake_photos_nux_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:text="@string/str4207"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        style="@style/style0712" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0355"
+        android:id="@id/retake_photos_nux_body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:text="@string/str4205"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        style="@style/style070f" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/retake_photos_nux_confirm_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cf2"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:text="@string/str4206"
+        android:layout_marginStart="@dimen/dimen0cef"
+        android:layout_marginEnd="@dimen/dimen0cef"
+        app:attr0009="xmds"
+        style="@style/style0711" />
+</androidx.appcompat.widget.LinearLayoutCompat>

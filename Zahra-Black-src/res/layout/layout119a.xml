@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/root_view"
+    android:background="@android:color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0048"
+        app:attr0655="@style/style0522"
+        app:attr08f4="@style/style01d5" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/content"
+        android:paddingTop="@dimen/dimen0048"
+        style="@style/style01a2">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/picture_animation"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            app:attr048f="true"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.mediaview.api.PhotoView
+            android:id="@id/picture"
+            android:background="@android:color/black"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <ProgressBar
+            android:id="@id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/message"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr0a24="wds_font_body2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

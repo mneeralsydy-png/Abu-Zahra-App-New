@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="compat_button_inset_horizontal_material">true</bool>
+    <bool name="compat_button_inset_vertical_material">true</bool>
+    <bool name="compat_button_padding_vertical_material">false</bool>
+    <bool name="compat_control_corner_material">true</bool>
+    <bool name="compat_notification_large_icon_max_height">true</bool>
+    <bool name="compat_notification_large_icon_max_width">true</bool>
+    <bool name="notification_action_icon_size">false</bool>
+    <bool name="notification_action_text_size">true</bool>
+    <bool name="notification_big_circle_margin">true</bool>
+    <bool name="notification_content_margin_start">false</bool>
+    <bool name="notification_main_column_padding_top">true</bool>
+    <bool name="notification_media_narrow_margin">false</bool>
+    <bool name="notification_right_icon_size">true</bool>
+    <bool name="notification_right_side_padding_top">false</bool>
+</resources>

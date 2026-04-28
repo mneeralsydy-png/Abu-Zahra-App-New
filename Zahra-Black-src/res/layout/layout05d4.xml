@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center"
+        android:id="@id/generating_animation"
+        android:layout_width="@dimen/dimen0062"
+        android:layout_height="@dimen/dimen0062"
+        app:attr0510="true"
+        app:attr0513="@color/color09b1"
+        app:attr051a="true"
+        app:attr051c="@raw/ai_loader_clockwise" />
+</FrameLayout>

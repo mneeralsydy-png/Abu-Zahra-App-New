@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:layout_gravity="bottom|center"
+        android:id="@id/educational_arrow_view"
+        android:padding="@dimen/dimen1039"
+        android:layout="@layout/layout11fe"
+        android:inflatedId="@id/educational_arrow_view"
+        android:layout_width="@dimen/dimen0ce0"
+        android:layout_height="@dimen/dimen0ce0" />
+    <ViewStub
+        android:layout_gravity="bottom|center"
+        android:id="@id/arrow_view"
+        android:padding="@dimen/dimen1039"
+        android:layout="@layout/layout11fe"
+        android:inflatedId="@id/arrow_view"
+        android:layout_width="@dimen/dimen0ce0"
+        android:layout_height="@dimen/dimen0ce0" />
+    <ViewStub
+        android:layout_gravity="bottom|center"
+        android:id="@id/vc_mini_player_stub"
+        android:layout="@layout/layout1152"
+        android:inflatedId="@id/vc_mini_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:layout_gravity="bottom|center"
+        android:id="@id/vc_hold_anim_lottie_view_stub"
+        android:layout="@layout/layout114a"
+        android:inflatedId="@id/vc_hold_anim_lottie_view"
+        android:layout_width="@dimen/dimen0ce2"
+        android:layout_height="@dimen/dimen0ce2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:layout_gravity="bottom|center"
+        android:id="@id/education_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/style0533" />
+</merge>

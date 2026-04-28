@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.CircularProgressBar
+    android:id="@id/camera_circular_progress_indicator"
+    android:saveEnabled="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:indeterminate="true"
+    app:attr028c="@color/color09a6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

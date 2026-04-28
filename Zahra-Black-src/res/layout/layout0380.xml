@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/community_home_tabs"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr048c="@string/str3d52"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@id/tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04c6="enterAlways|scroll"
+        app:attr0884="@drawable/tab_unselected_indicator"
+        app:attr0886="fill"
+        app:attr0891="0.0dip"
+        app:attr0893="fixed"
+        app:attr0899="@null"
+        app:attr089c="?attr066e"
+        app:attr089e="@style/style03f8" />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

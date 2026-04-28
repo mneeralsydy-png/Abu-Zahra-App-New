@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/shimmer"
+    android:background="@drawable/conversation_row_media_shimmer_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/progress_bar_container"
+        android:background="@drawable/circular_white_background"
+        android:layout_width="@dimen/dimen0fe3"
+        android:layout_height="@dimen/dimen0fe3">
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:id="@id/progress_bar"
+            android:padding="@dimen/dimen1031"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:indeterminateOnly="false"
+            app:attr028b="?attr0a52"
+            app:attr028c="?attr0a29"
+            app:attr028d="?attr0a39"
+            app:attr028e="@android:color/transparent"
+            app:attr028f="0.0dip"
+            app:attr0290="6.0"
+            app:attr0291="?attr0a46" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/progress_percent_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen1039"
+            style="@style/style05a6" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1039"
+        style="@style/style05a6" />
+</FrameLayout>

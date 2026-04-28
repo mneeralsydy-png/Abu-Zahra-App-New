@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.fab.WDSFab
+    android:id="@id/fab_second"
+    android:visibility="gone"
+    android:contentDescription="@string/str1d04"
+    android:layout_marginEnd="@dimen/dimen0593"
+    style="@style/style0563"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

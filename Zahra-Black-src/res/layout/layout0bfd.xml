@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center_vertical"
+        android:id="@id/newsletter_status_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0a11"
+        android:layout_marginBottom="@dimen/dimen0a11"
+        android:layoutDirection="locale"
+        android:layout_marginStart="@dimen/dimen0a10"
+        android:layout_marginEnd="@dimen/dimen0a10"
+        android:elevation="@dimen/dimen0a0f"
+        app:attr011e="@dimen/dimen09fb">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:id="@id/newsletter_status_header"
+                android:background="@drawable/header_background"
+                android:paddingTop="@dimen/dimen0a1d"
+                android:paddingBottom="@dimen/dimen0a1d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen0a1c"
+                android:paddingEnd="@dimen/dimen0a1c"
+                app:attr0495="@id/newsletter_status_wall_paper"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+                    android:id="@id/newsletter_status_thumbnail"
+                    android:layout_width="@dimen/dimen0a1f"
+                    android:layout_height="@dimen/dimen0a1f"
+                    style="@style/style02bf" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="@dimen/dimen0a20"
+                    android:layout_marginEnd="@dimen/dimen0a20">
+                    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                        android:textSize="@dimen/dimen0a1e"
+                        android:textColor="@color/color090b"
+                        android:ellipsize="end"
+                        android:id="@id/newsletter_status_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        app:attr04d0="16.0dip"
+                        style="@style/style05a7" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textSize="@dimen/dimen0a1b"
+                        android:textColor="@color/color0905"
+                        android:id="@id/newsletter_status_followers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:letterSpacing="0.02"
+                        app:attr04d0="16.0dip" />
+                </LinearLayout>
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:importantForAccessibility="no"
+                    app:attr0838="@drawable/wds_ic_channels" />
+            </LinearLayout>
+            <com.whatsapp.ui.wds.components.wallpaper.WDSWallpaper
+                android:id="@id/newsletter_status_wall_paper"
+                android:background="@null"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:scaleType="centerCrop"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04a1="@dimen/dimen09fb"
+                app:attr04ad="parent"
+                app:attr04b0="@id/newsletter_status_header" />
+            <View
+                android:id="@id/newsletter_status_divider"
+                android:background="?attr00ad"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/newsletter_status_header" />
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen103a"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/newsletter_status_divider"
+                layout="@layout/layout0bf8" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</merge>

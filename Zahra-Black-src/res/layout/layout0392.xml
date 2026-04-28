@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0048">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="start|center"
+            android:id="@id/subgroup_switcher_close_button"
+            android:background="?attr076e"
+            android:padding="@dimen/dimen0ceb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close"
+            app:attr090d="@color/color0347" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="@style/style0121"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/community_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen02d5"
+            android:layout_marginRight="@dimen/dimen02d5"
+            android:maxLines="1" />
+    </FrameLayout>
+    <View
+        android:id="@id/spacer"
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/subgroup_switcher_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/dimen02d0"
+        android:layout_marginEnd="@dimen/dimen02d0" />
+    <FrameLayout
+        android:gravity="bottom|center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center"
+            android:id="@id/add_group_button"
+            android:layout_margin="@dimen/dimen1039"
+            android:text="@string/str0c2b"
+            style="@style/style055c" />
+    </FrameLayout>
+</LinearLayout>

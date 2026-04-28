@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dimen1035"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:background="@drawable/contact_face_shimmer"
+        android:layout_width="@dimen/dimen0547"
+        android:layout_height="@dimen/dimen0547" />
+    <View
+        android:background="@drawable/contact_name_shimmer"
+        android:layout_width="fill_parent"
+        android:layout_height="16.0dip"
+        android:layout_marginTop="8.0dip" />
+</LinearLayout>

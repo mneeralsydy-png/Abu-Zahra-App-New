@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:layout_width="@dimen/dimen0d9f"
+    android:layout_height="@dimen/dimen0d9f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.stickers.StickerView
+        android:layout_gravity="center"
+        android:id="@id/sticker_view"
+        android:layout_width="@dimen/dimen0d9e"
+        android:layout_height="@dimen/dimen0d9e" />
+</FrameLayout>

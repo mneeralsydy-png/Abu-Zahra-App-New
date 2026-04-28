@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:visibility="gone"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="@dimen/dimen020b"
+    android:layout_height="@dimen/dimen020a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/str4213"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_check_white_small"
+        app:attr096b="filled"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0c69"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/selected_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0ce8" />
+</FrameLayout>

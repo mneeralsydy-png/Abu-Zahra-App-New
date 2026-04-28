@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/view_security_code_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_lock"
+        app:attr04e9="@string/str38ba"
+        app:attr04ea="@color/color0776"
+        app:attr04eb="@dimen/dimen0fb0" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/copy_comment_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_content_copy"
+        app:attr04e8="false"
+        app:attr04e9="@string/str0e50"
+        app:attr04ea="@color/color0776"
+        app:attr04eb="@dimen/dimen0fb0" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/report_comment_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_thumb_down"
+        app:attr04e7="?attr0a4f"
+        app:attr04e8="false"
+        app:attr04e9="@string/str4203"
+        app:attr04ea="?attr0a4f"
+        app:attr04eb="@dimen/dimen0fb0" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/delete_comment_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_delete_white"
+        app:attr04e7="?attr0a4f"
+        app:attr04e9="@string/str3ded"
+        app:attr04ea="?attr0a4f"
+        app:attr04eb="@dimen/dimen0fb0" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textAppearance="@style/style05a7"
+    android:textColor="?attr0a46"
+    android:ellipsize="end"
+    android:id="@id/india_upi_savings_offer_header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen0b5d"
+    android:layout_marginTop="@dimen/dimen0b62"
+    android:layout_marginRight="@dimen/dimen0b5d"
+    android:layout_marginBottom="@dimen/dimen0b62"
+    android:maxLines="1"
+    app:attr0a24="wds_font_body2_emphasized"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

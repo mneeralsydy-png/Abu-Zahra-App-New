@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/send_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/send"
+        android:layout="@layout/layout0443"
+        android:inflatedId="@id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/next"
+        android:layout="@layout/layout0441"
+        android:inflatedId="@id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/voice_note_btn"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str430c"
+        app:attr0411="@drawable/ic_mic_filled"
+        app:attr0443="true" />
+    <ViewStub
+        android:id="@id/voice_input_button"
+        android:layout="@layout/layout0445"
+        android:inflatedId="@id/voice_input_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/newsletter_followers_search"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView
+        android:id="@android:id/list"
+        android:scrollbars="none"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:listSelector="@android:color/transparent"
+        android:drawSelectorOnTop="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0.0dip"
+        android:choiceMode="none"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/search_holder"
+        style="@style/style01a2" />
+    <FrameLayout
+        android:id="@id/search_holder"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen0002"
+        android:elevation="?attr002f"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <include
+            layout="@layout/layout084f" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

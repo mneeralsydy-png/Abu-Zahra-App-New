@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/gdpr_report_logo"
+        android:paddingTop="@dimen/dimen0c93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginRight="@dimen/dimen0c93"
+        android:scaleType="center"
+        app:attr0838="@drawable/settings_account_info" />
+    <ViewStub
+        android:id="@id/gdpr_report_description"
+        android:inflatedId="@id/gdpr_report_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginRight="@dimen/dimen0c93" />
+</LinearLayout>

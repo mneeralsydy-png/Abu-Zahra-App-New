@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/catalog_header_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/linked_catalog_banner_background"
+        android:background="@color/color08c6"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/linked_catalog_text"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <Space
+        android:id="@id/banner_space"
+        android:layout_width="@dimen/dimen0b5d"
+        android:layout_height="wrap_content"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/linked_catalog_icon"
+        android:layout_width="@dimen/dimen0f38"
+        android:layout_height="@dimen/dimen0f38"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:tint="?attr066e"
+        android:layout_marginEnd="@dimen/dimen0b62"
+        app:attr049b="@id/linked_catalog_text"
+        app:attr04ac="@id/banner_space"
+        app:attr04b1="@id/linked_catalog_text"
+        app:attr0838="@drawable/ic_info_gray" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a6"
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color08df"
+        android:gravity="left"
+        android:id="@id/linked_catalog_text"
+        android:paddingTop="@dimen/dimen0b5d"
+        android:paddingBottom="@dimen/dimen0b5d"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str1b30"
+        android:paddingEnd="@dimen/dimen0b5d"
+        app:attr049a="parent"
+        app:attr04ac="@id/linked_catalog_icon"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/linked_catalog_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="linked_catalog_icon, linked_catalog_text" />
+    <androidx.constraintlayout.helper.widget.Layer
+        android:id="@id/linked_catalog_layer"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0243="linked_catalog_banner_background,banner_space,linked_catalog_icon,linked_catalog_text"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.business.biz.catalog.view.CatalogHeader
+        android:id="@id/catalog_list_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr005a="1.894"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/linked_catalog_barrier">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/catalog_list_header_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/str41e1" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="?attr012b"
+            android:paddingLeft="@dimen/dimen0b5d"
+            android:paddingRight="@dimen/dimen0b5d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="26.0sp"
+                android:textColor="?attr0a2f"
+                android:gravity="center"
+                android:id="@id/catalog_list_header_business_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:fontFamily="@dimen/dimen0fcd"
+                android:paddingStart="@dimen/dimen0b5d"
+                android:paddingEnd="@dimen/dimen0b5d" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr0a2f"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/catalog_list_header_business_description"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:shadowColor="?attr00b2"
+                android:shadowRadius="2.0"
+                android:fontFamily="@dimen/dimen0fce"
+                android:paddingStart="@dimen/dimen0b5d"
+                android:paddingEnd="@dimen/dimen0b5d" />
+        </LinearLayout>
+    </com.whatsapp.business.biz.catalog.view.CatalogHeader>
+</androidx.constraintlayout.widget.ConstraintLayout>

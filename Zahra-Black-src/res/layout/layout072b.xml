@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/quick_promotion_video_view"
+        android:background="?attr0a2d"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <View
+        android:background="@drawable/video_player_gradient"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.videoplayback.FbHeroPlaybackControlView
+        android:id="@id/quick_promotion_video_control"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textSize="@dimen/dimen0fb6"
+        android:layout_gravity="bottom|center"
+        android:id="@id/quick_promotion_cta_button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0e85"
+        app:attr0009="media" />
+    <ViewStub
+        android:id="@id/video_end_overlay_stub"
+        android:layout="@layout/layout1174"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

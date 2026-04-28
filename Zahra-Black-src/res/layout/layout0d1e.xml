@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/title_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/header_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0aee"
+        android:layout_marginBottom="@dimen/dimen0aed"
+        android:text="@string/str24e0"
+        app:attr03ae="?attr03b8"
+        app:attr0a24="wds_font_body1_emphasized" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0aeb"
+        android:layout_marginRight="@dimen/dimen0aeb"
+        android:layout_marginBottom="@dimen/dimen0aed"
+        android:text="@string/str0138"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.CodeInputField
+        android:textSize="22.0dip"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/code"
+        android:background="@null"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:singleLine="true"
+        android:digits=" 0123456789"
+        android:inputType="number" />
+    <FrameLayout
+        android:paddingTop="@dimen/dimen0aec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/pin_text_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fbc"
+                android:textColor="?attr0a46"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/error_text"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0aee"
+                android:layout_marginRight="@dimen/dimen0aee"
+                android:layout_marginBottom="@dimen/dimen0ae9"
+                app:attr0a24="wds_font_body3" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:layout_gravity="center_horizontal"
+                android:id="@id/forgot_pin_button"
+                android:layout_marginBottom="@dimen/dimen0aea"
+                android:text="@string/str24a1"
+                style="@style/style0207" />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.CircularProgressBar
+                android:id="@id/progress_bar"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr028b="@android:color/transparent"
+                app:attr028c="?attr037a" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.numberkeyboard.NumberEntryKeyboard
+        android:id="@id/number_entry_keyboard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr02a7="none" />
+</LinearLayout>

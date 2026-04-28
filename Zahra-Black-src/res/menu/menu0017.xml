@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@id/actions">
+        <item
+            android:icon="@drawable/ic_send_outline"
+            android:id="@id/fun_stickers_send"
+            android:title="@string/str4219"
+            app:attr041f="?attr0343" />
+        <item
+            android:icon="@drawable/ic_star"
+            android:id="@id/fun_stickers_favorite"
+            android:title="@string/str429c"
+            app:attr041f="?attr0343" />
+    </group>
+    <group
+        android:id="@id/report">
+        <item
+            android:icon="@drawable/ic_thumb_down"
+            android:id="@id/fun_stickers_report"
+            android:title="@string/str3e86"
+            app:attr041f="?attr0343" />
+    </group>
+</menu>

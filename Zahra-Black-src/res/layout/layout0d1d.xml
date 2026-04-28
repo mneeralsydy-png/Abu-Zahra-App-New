@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/picture_in_picture_container"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/picture_in_picture_photo"
+        android:focusable="false"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:src="@drawable/avatar_contact_voip"
+        android:importantForAccessibility="no"
+        app:attr0494="parent"
+        app:attr0499="w,h,1:1"
+        app:attr049a="parent"
+        app:attr04a2="0.6"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr04b3="packed"
+        app:attr04b8="0.6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

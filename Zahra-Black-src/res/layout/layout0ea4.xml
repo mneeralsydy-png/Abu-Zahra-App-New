@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/search_action_header_container"
+    android:paddingLeft="@dimen/dimen103a"
+    android:paddingTop="@dimen/dimen1031"
+    android:paddingRight="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen1031"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/header_title"
+        android:paddingTop="@dimen/dimen1031"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen1039"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2_emphasized"
+        gravity="left" />
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/action_container"
+        android:background="@drawable/search_header_action_view_background"
+        android:paddingTop="@dimen/dimen0443"
+        android:paddingBottom="@dimen/dimen0443"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0442"
+        android:paddingEnd="@dimen/dimen0442"
+        app:attr049a="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color06bf"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/header_action_text_view"
+            android:paddingBottom="@dimen/dimen0440"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:paddingStart="@dimen/dimen0443"
+            app:attr0a24="wds_font_body3"
+            style="@style/style01b0" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

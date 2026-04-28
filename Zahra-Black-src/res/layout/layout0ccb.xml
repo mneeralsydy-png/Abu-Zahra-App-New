@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/pix_bottom_sheet_coordinator"
+    android:paddingLeft="@dimen/dimen0a9f"
+    android:paddingRight="@dimen/dimen0a9f"
+    android:paddingBottom="@dimen/dimen0a9f"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/select_list_layout"
+        android:background="@drawable/rounded_bottom_sheet_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.coreui.base.WaImageButton
+                android:gravity="center|left"
+                android:id="@id/close_button"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/dimen0ce8"
+                android:layout_width="48.0dip"
+                android:layout_height="48.0dip"
+                android:contentDescription="@string/str3dac"
+                app:attr0838="@drawable/ic_close" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0aa0"
+                android:textColor="@color/color05f4"
+                android:gravity="center"
+                android:id="@id/payment_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen0a9f"
+                android:text="@string/str2e64"
+                android:lineSpacingMultiplier="1.28"
+                app:attr03ae="@font/TextAppearance.Compat.Notification.Media" />
+        </RelativeLayout>
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="@color/color05f4"
+            android:gravity="center"
+            android:id="@id/instruction_text"
+            android:paddingLeft="@dimen/dimen0a9d"
+            android:paddingRight="@dimen/dimen0a9d"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0a9e"
+            android:text="@string/str28ef"
+            android:lineSpacingMultiplier="1.28" />
+        <com.whatsapp.payments.productinfra.ui.components.PaymentInfoView
+            android:id="@id/pix_payment_info_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0a9f"
+            android:layout_marginRight="@dimen/dimen0a9f"
+            android:layout_marginBottom="@dimen/dimen0a9e" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/send_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str4215"
+            app:attr0411="@drawable/input_send" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

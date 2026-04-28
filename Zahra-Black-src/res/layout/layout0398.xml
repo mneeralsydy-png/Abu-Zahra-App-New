@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/community_view_groups_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen06a3"
+        android:layout_marginEnd="@dimen/dimen06a3"
+        app:attr04e6="@drawable/ic_group_large"
+        app:attr04e8="false"
+        app:attr04eb="@dimen/dimen02d9" />
+</merge>

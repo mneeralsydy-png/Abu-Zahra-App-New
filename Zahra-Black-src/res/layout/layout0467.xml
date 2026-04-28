@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_width="18.0dip"
+    android:layout_height="18.0dip"
+    android:scaleType="fitCenter"
+    app:attr0838="@drawable/avatar_contact"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

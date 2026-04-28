@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/newsletter_context_card"
+        android:background="@drawable/conversation_row_context_card_container"
+        android:padding="@dimen/dimen0375"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no">
+        <View
+            android:id="@id/transition_start"
+            android:layout_width="wrap_content"
+            android:layout_height="0.0dip" />
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:layout_gravity="center"
+            android:id="@id/newsletter_icon"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="yes"
+            app:attr008e="camera"
+            app:attr0675="large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/newsletter_admin_context_card_title"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen037a"
+            android:importantForAccessibility="yes"
+            style="@style/style01aa" />
+        <ViewStub
+            android:id="@id/newsletter_admin_context_card_body"
+            android:layout="@layout/layout0b9b"
+            android:inflatedId="@id/newsletter_admin_context_card_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen036f"
+            android:layout_marginTop="@dimen/dimen0370"
+            android:layout_marginRight="@dimen/dimen036f"
+            android:layout_marginBottom="@dimen/dimen036d" />
+        <ViewStub
+            android:id="@id/add_verified_badge"
+            android:layout="@layout/layout0106"
+            android:inflatedId="@id/add_verified_badge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/add_newsletter_description"
+            android:layout="@layout/layout00fc"
+            android:inflatedId="@id/add_newsletter_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/share_newsletter_link"
+            android:layout="@layout/layout0b9e"
+            android:inflatedId="@id/share_newsletter_link"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/share_to_my_status"
+            android:layout="@layout/layout0b9f"
+            android:inflatedId="@id/share_to_my_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/share"
+            android:layout="@layout/layout0b9d"
+            android:inflatedId="@id/share"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/send_newsletter_link"
+            android:layout="@layout/layout0b9c"
+            android:inflatedId="@id/send_newsletter_link"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/invite_admins"
+            android:layout="@layout/layout093a"
+            android:inflatedId="@id/invite_admins"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

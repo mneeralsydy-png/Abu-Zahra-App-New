@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/fmx_info_divider"
+        android:background="?attr0a4d"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/fmx_stop_info"
+        android:paddingLeft="@dimen/dimen0cea"
+        android:paddingRight="@dimen/dimen0cea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str151a"
+        android:lineSpacingExtra="2.0sp"
+        android:letterSpacing="0.02" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textSize="@dimen/dimen03b8"
+    android:textColor="?attr0a46"
+    android:ellipsize="end"
+    android:id="@id/place_address"
+    android:paddingLeft="@dimen/dimen03e4"
+    android:paddingRight="@dimen/dimen03e4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="2"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

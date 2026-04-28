@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.KeyboardPopupLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/event_composer_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+            <FrameLayout
+                android:orientation="horizontal"
+                android:id="@id/add_cover_image_container"
+                android:background="@drawable/add_cover_photo_background"
+                android:visibility="gone"
+                android:layout_width="48.0dip"
+                android:layout_height="48.0dip"
+                android:layout_marginTop="@dimen/dimen0ce7"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vec_ic_add_photo"
+                    android:tint="@color/color0948" />
+            </FrameLayout>
+            <ViewStub
+                android:id="@id/cover_image_stub"
+                android:layout="@layout/layout06e6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea" />
+            <com.whatsapp.ui.coreui.ClearableEditText
+                android:textStyle="bold"
+                android:textColorHint="?attr0a46"
+                android:id="@id/event_title"
+                android:background="@null"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginBottom="@dimen/dimen0ced"
+                android:hint="@string/str3e58"
+                android:singleLine="true"
+                android:inputType="textCapSentences"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea"
+                style="@style/style05aa" />
+            <com.whatsapp.ui.coreui.WaEditText
+                android:textColorHint="?attr0a46"
+                android:id="@id/event_description"
+                android:background="@null"
+                android:paddingBottom="@dimen/dimen0cea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ced"
+                android:hint="@string/str1360"
+                android:inputType="textCapSentences|textMultiLine"
+                android:paddingStart="@dimen/dimen0cea"
+                android:paddingEnd="@dimen/dimen0cea"
+                style="@style/style05a4" />
+            <View
+                style="@style/style035a" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_width="@dimen/dimen0fdb"
+                    android:layout_height="@dimen/dimen0fdb"
+                    android:layout_marginBottom="-6.0dip"
+                    android:layout_marginEnd="@dimen/dimen0cea"
+                    app:attr0838="@drawable/vec_ic_calendar_month"
+                    app:attr090d="@color/color08de" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:gravity="start"
+                    android:id="@id/event_start_date"
+                    android:background="?android:selectableItemBackground"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen1035"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginEnd="@dimen/dimen0cea"
+                    style="@style/style0406" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:gravity="end"
+                    android:id="@id/event_start_time"
+                    android:background="?android:selectableItemBackground"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen1035"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    style="@style/style0406" />
+            </LinearLayout>
+            <ViewStub
+                android:id="@id/event_end_time_input_row"
+                android:layout="@layout/layout06e0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+            <ViewStub
+                android:id="@id/event_toggle_end_time_text_view"
+                android:layout="@layout/layout06e2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1038"
+                android:layout_marginBottom="@dimen/dimen0cee" />
+            <ViewStub
+                android:id="@id/event_location_row"
+                android:layout="@layout/layout06fb"
+                android:inflatedId="@id/event_location_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/event_call_row"
+                android:layout="@layout/layout06e4"
+                android:inflatedId="@id/event_call_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/event_call_type"
+                android:layout="@layout/layout06e3"
+                android:inflatedId="@id/event_call_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:id="@id/event_section_divider"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginBottom="@dimen/dimen0cec"
+                style="@style/style035a" />
+            <ViewStub
+                android:id="@id/event_reminder"
+                android:layout="@layout/layout06e3"
+                android:inflatedId="@id/event_reminder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/event_allow_additional_guests"
+                android:layout="@layout/layout06e4"
+                android:inflatedId="@id/event_allow_additional_guests"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/event_hide_guest_list"
+                android:layout="@layout/layout06e4"
+                android:inflatedId="@id/event_hide_guest_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/event_edit_section"
+                android:layout="@layout/layout06eb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen058d" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/event_composer_fab_container"
+        android:layout_marginBottom="0.0dip"
+        style="@style/style01a2">
+        <com.whatsapp.ui.wds.components.fab.WDSFab
+            android:id="@id/event_composer_button"
+            android:src="@drawable/input_send"
+            android:contentDescription="@string/str4217"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            style="@style/style055f" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.whatsapp.ui.coreui.KeyboardPopupLayout>

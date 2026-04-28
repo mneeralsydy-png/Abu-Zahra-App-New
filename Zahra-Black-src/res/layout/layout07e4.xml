@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center_horizontal"
+            android:id="@id/green_alert_education_title"
+            android:paddingLeft="@dimen/dimen103a"
+            android:paddingRight="@dimen/dimen103a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            style="@style/style023b" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center_horizontal"
+            android:id="@id/green_alert_education_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen102f"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginRight="@dimen/dimen102f"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/green_alert_education_title"
+            style="@style/style0239" />
+        <View
+            android:id="@id/start_list_green_alert_education_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:contentDescription="@string/str3e9a"
+            android:importantForAccessibility="yes"
+            app:attr0494="@id/green_alert_education_image_and_caption_3"
+            app:attr04b1="@id/green_alert_education_image_and_caption_1" />
+        <include
+            android:id="@id/green_alert_education_image_and_caption_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1034"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/green_alert_education_intro"
+            layout="@layout/layout07e3" />
+        <include
+            android:id="@id/green_alert_education_image_and_caption_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36.0dip"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/green_alert_education_image_and_caption_1"
+            layout="@layout/layout07e3" />
+        <include
+            android:id="@id/green_alert_education_image_and_caption_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36.0dip"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/green_alert_education_image_and_caption_2"
+            layout="@layout/layout07e3" />
+        <View
+            android:id="@id/end_list_green_alert_education_view"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:contentDescription="@string/str3e99"
+            android:importantForAccessibility="yes"
+            app:attr04b0="@id/green_alert_education_image_and_caption_3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

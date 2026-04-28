@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/location_template_message_link_frame"
+    android:background="@drawable/location_template_gray_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen1030"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/map_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen03ea">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/thumb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop" />
+        <com.whatsapp.locationsharing.location.WaMapView
+            android:id="@id/map_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/thumb_button"
+            android:background="@drawable/selector_orange_gradient"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/str1bf5"
+            app:attr0a24="wds_font_chat_body2" />
+        <com.whatsapp.ui.coreui.WaFrameLayout
+            android:id="@id/frame_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:attr09af="?attr0a39" />
+        <ProgressBar
+            android:layout_gravity="bottom|center|left"
+            android:id="@id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen03eb"
+            android:layout_height="@dimen/dimen03eb"
+            android:layout_margin="@dimen/dimen1039" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/message_info_holder"
+        android:paddingLeft="@dimen/dimen0737"
+        android:paddingTop="@dimen/dimen0738"
+        android:paddingRight="@dimen/dimen0737"
+        android:paddingBottom="@dimen/dimen0737"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <ViewStub
+            android:id="@id/location_place_name_view_stub"
+            android:layout="@layout/layout109f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/location_place_address_view_stub"
+            android:layout="@layout/layout109e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

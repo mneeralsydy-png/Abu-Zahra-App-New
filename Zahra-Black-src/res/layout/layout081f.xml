@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingRight="@dimen/dimen0747"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0450"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/contact_selector"
+        android:layout_width="@dimen/dimen0744"
+        android:layout_height="@dimen/dimen0450"
+        android:layout_alignParentLeft="true">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:enabled="false"
+            android:layout_gravity="center"
+            android:id="@id/contactpicker_row_photo"
+            android:layout_width="@dimen/dimen0333"
+            android:layout_height="@dimen/dimen0333"
+            android:scaleType="fitCenter"
+            app:attr08a9="false"
+            app:attr08aa="@dimen/dimen0cc5" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/contactpicker_text_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contact_selector"
+        android:layout_centerVertical="true"
+        android:layout_alignWithParentIfMissing="true">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:layout_gravity="start|center"
+                    android:id="@id/contactpicker_row_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    style="?attr08d4" />
+            </FrameLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fbc"
+                android:textColor="?attr0a46"
+                android:gravity="center|right"
+                android:id="@id/contactpicker_row_push_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_weight="0.0"
+                app:attr0a24="wds_font_body3" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

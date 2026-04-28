@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/main_layout"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout054e" />
+    <include
+        layout="@layout/layout0588" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:clipChildren="false"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <ViewStub
+                android:id="@id/conversation_row_participant_header_view_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:layout_gravity="center|left"
+                android:clipChildren="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.search.audio.views.itemviews.AudioPlayerView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/conversation_row_audio_player_view"
+                    android:paddingTop="0.0dip"
+                    android:paddingBottom="8.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr0643="@dimen/dimen1030"
+                    whatsapp:attr0644="54.0dip"
+                    whatsapp:attr067f="44.0dip" />
+                <com.whatsapp.conversation.ui.AudioPlayerMetadataView
+                    android:layout_gravity="bottom"
+                    android:paddingLeft="58.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr02ac="3.0dip"
+                    whatsapp:attr03ea="false" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.whatsapp.search.audio.views.itemviews.VoiceNoteProfileAvatarView
+            android:layout_gravity="center_vertical"
+            android:id="@id/conversation_row_voice_note_profile_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen1039"
+            whatsapp:attr0417="@drawable/mic_background_incoming"
+            whatsapp:attr0418="@color/color06c1"
+            whatsapp:attr041a="6.0dip"
+            whatsapp:attr0672="10.0dip"
+            whatsapp:attr0676="48.0dip" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/audio_transcription_view"
+        android:layout="@layout/layout0483"
+        android:inflatedId="@id/audio_transcription_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/audio_transcription_footer_row"
+        android:layout="@layout/layout0482"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/cta_footer_row_view_stub"
+        android:layout="@layout/layout04b7"
+        android:inflatedId="@id/cta_footer_row_view_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

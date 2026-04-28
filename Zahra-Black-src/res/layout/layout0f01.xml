@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_marginStart="@dimen/dimen0c5a"
+    android:layout_marginEnd="@dimen/dimen0c5a"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_gravity="center"
+        android:background="?attr0a4d"
+        android:layout_width="@dimen/dimen0c66"
+        android:layout_height="@dimen/dimen0c65" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/reaction_posting_emoji"
+    android:layout_width="@dimen/dimen0d3b"
+    android:layout_height="@dimen/dimen0d3b"
+    app:attr0495="@id/reaction_posting_disclaimer"
+    app:attr049a="parent"
+    app:attr04ad="parent"
+    app:attr04b1="parent"
+    app:attr04b3="packed"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MaxHeightLinearLayout
+    android:orientation="vertical"
+    android:id="@id/pre_call_sheet_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr00a5="true"
+    app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/header_old_stub"
+        android:layout="@layout/layout0d5c"
+        android:inflatedId="@id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/header_stub"
+        android:layout="@layout/layout0d5b"
+        android:inflatedId="@id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/recycler_view_stub"
+        android:layout="@layout/layout0d5e"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/start_call_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/recycler_view_divider_stub"
+            android:layout="@layout/layout0d60"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0cf3" />
+        <ViewStub
+            android:id="@id/footer_divider"
+            android:layout="@layout/layout0d5f"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/notice_stub"
+            android:layout="@layout/layout0d5d"
+            android:inflatedId="@id/notice_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+            android:id="@id/button_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen103a"
+            app:attr0a1e="horizontal">
+            <ViewStub
+                android:id="@id/start_group_call_secondary_button"
+                android:layout="@layout/layout0d61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/start_group_call_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+        <ViewStub
+            android:layout_gravity="center_horizontal"
+            android:id="@id/reminder_btn_stub"
+            android:layout="@layout/layout0e4b"
+            android:inflatedId="@id/reminder_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen103a"
+            android:layout_marginRight="@dimen/dimen103a" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.components.MaxHeightLinearLayout>

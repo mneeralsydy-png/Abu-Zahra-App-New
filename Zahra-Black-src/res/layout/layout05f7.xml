@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout
+        android:theme="@style/style01da"
+        android:textColorHint="@color/color0243"
+        android:gravity="start"
+        android:id="@id/inputView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        whatsapp:attr031f="@drawable/end_icon_selector"
+        whatsapp:attr0401="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="@color/color0244"
+            android:gravity="start"
+            android:id="@id/hintOrDate"
+            android:paddingTop="@dimen/dimen0465"
+            android:paddingBottom="@dimen/dimen0465"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="flagNoExtractUi"
+            android:textAlignment="viewStart" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/mute_video_button"
+        android:layout="@layout/layout0b6a"
+        android:inflatedId="@id/mute_video_button"
+        android:layout_width="36.0dip"
+        android:layout_height="28.0dip"
+        android:layout_marginRight="@dimen/dimen1039" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/size"
+        android:background="@drawable/video_preview_label_background"
+        android:layout_toRightOf="@id/mute_video_button"
+        style="@style/style0540" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/motion_photo_toggle_button"
+        android:background="@drawable/motion_photo_toggle_background"
+        android:layout_width="44.0dip"
+        android:layout_height="28.0dip"
+        android:layout_marginLeft="@dimen/dimen103a"
+        android:layout_alignParentRight="true"
+        app:attr0838="@drawable/ic_motion_photo_enabled"
+        app:attr090d="@color/color06c5" />
+</RelativeLayout>

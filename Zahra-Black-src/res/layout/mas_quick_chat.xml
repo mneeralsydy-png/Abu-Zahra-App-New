@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abu3arab.mas.SideBar.quick.QuickView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@id/footer"
+    android:layout_below="@id/group_description"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

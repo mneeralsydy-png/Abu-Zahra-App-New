@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/contact_selector"
+        android:layout_width="@dimen/dimen0362"
+        android:layout_height="@dimen/dimen0ccb">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:enabled="false"
+            android:layout_gravity="center"
+            android:id="@id/contactpicker_row_photo"
+            android:layout_width="@dimen/dimen0cca"
+            android:layout_height="@dimen/dimen0cca"
+            whatsapp:attr0838="@drawable/avatar_contact"
+            whatsapp:attr08a9="false"
+            whatsapp:attr08aa="@dimen/dimen0cc5" />
+    </FrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@id/contact_shimmer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0ccb"
+        style="@style/style02dd">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:background="@drawable/payment_loading_box"
+                android:layout_width="200.0dip"
+                android:layout_height="@dimen/dimen0ce5" />
+            <View
+                android:background="@drawable/payment_loading_box"
+                android:layout_width="156.0dip"
+                android:layout_height="@dimen/dimen0ce5"
+                android:layout_marginTop="@dimen/dimen0ce3" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

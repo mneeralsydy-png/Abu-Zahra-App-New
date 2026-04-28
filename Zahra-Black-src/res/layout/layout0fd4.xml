@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="bottom|center"
+    android:id="@id/status_playback_views_container"
+    android:layout_width="wrap_content"
+    android:layout_height="48.0dip"
+    style="@style/style0006"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/status_playback_views_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049b="@id/read_receipt_counter"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_views" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/read_receipt_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049b="@id/sticker_interactions_count"
+        app:attr04ac="@id/status_playback_views_icon"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2"
+        style="@style/style02da" />
+    <ViewStub
+        android:id="@id/sticker_interactions_count"
+        android:layout="@layout/layout0fe1"
+        android:inflatedId="@id/sticker_interactions_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/read_receipt_counter"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

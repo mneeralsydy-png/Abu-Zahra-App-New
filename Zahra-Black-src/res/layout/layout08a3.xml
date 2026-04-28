@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16.0dip"
+    android:layout_marginRight="16.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color071e"
+        android:gravity="center"
+        android:layout_gravity="start"
+        android:id="@id/bind_step_number"
+        android:background="@drawable/step_circle"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="8.0dip"
+        android:lineSpacingExtra="6.0dip"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/bind_step_check"
+        android:background="@drawable/step_circle"
+        android:paddingLeft="8.0dip"
+        android:paddingTop="@dimen/dimen1030"
+        android:paddingBottom="@dimen/dimen1030"
+        android:visibility="invisible"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="8.0dip"
+        android:paddingStart="@dimen/dimen1035"
+        android:paddingEnd="@dimen/dimen1035"
+        app:attr0838="@drawable/ic_tick_ok"
+        app:attr090d="@color/color071e" />
+    <ProgressBar
+        android:theme="@style/style03b9"
+        android:id="@id/bind_step_number_progress"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr066e"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@id/bind_step_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60.0dip"
+        android:layout_marginRight="@dimen/dimen102f"
+        android:text="@string/str2580"
+        android:lineSpacingExtra="4.0sp"
+        app:attr0a24="wds_font_body2" />
+</FrameLayout>

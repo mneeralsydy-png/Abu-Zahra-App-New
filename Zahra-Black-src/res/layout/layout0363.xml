@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/color08a0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:enabled="true"
+        android:id="@id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1039"
+        android:text="@string/str3e2a"
+        android:contentDescription="@string/str3e2a"
+        app:attr0009="media"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr096b="filled"
+        app:attr09ea="normal" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1039"
+        android:text="@string/str3d9b"
+        android:contentDescription="@string/str3d9b"
+        app:attr0009="media"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr096b="tonal"
+        app:attr09ea="normal" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/edit_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="media"
+        app:attr049b="@id/done"
+        app:attr04ac="@id/cancel"
+        app:attr04b1="@id/cancel"
+        app:attr096b="tonal"
+        app:attr09ea="normal" />
+    <FrameLayout
+        android:id="@id/location_picker_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen1039"
+        app:attr0495="@id/color_picker_recycler_view"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/done" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_gravity="center_vertical"
+        android:id="@id/color_picker_recycler_view"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen02b7"
+        android:layout_marginBottom="@dimen/dimen02b9"
+        android:paddingStart="@dimen/dimen0ce7"
+        android:paddingEnd="@dimen/dimen0ce7"
+        app:attr0494="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

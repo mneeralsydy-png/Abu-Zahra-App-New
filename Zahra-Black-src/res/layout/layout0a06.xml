@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:padding="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/location_shape_view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="280.0dip"
+        app:attr0495="@id/bottom_guideline"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/bottom_guideline"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr049e="0.75" />
+    <com.google.android.material.tabs.TabLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/location_shape_tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/location_shape_view_pager"
+        app:attr0886="center"
+        app:attr088f="0.0dip"
+        app:attr0893="fixed"
+        app:attr0894="0.0dip"
+        app:attr0896="0.0dip"
+        app:attr0897="0.0dip"
+        app:attr0899="@null" />
+</androidx.constraintlayout.widget.ConstraintLayout>

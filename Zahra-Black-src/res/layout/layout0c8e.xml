@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/amount_wrapper"
+    android:paddingLeft="@dimen/dimen102f"
+    android:paddingTop="10.0dip"
+    android:paddingRight="@dimen/dimen102f"
+    android:paddingBottom="10.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb0"
+        android:textStyle="bold"
+        android:textColor="@color/color05f4"
+        android:layout_gravity="left"
+        android:id="@id/total_label"
+        android:paddingTop="@dimen/dimen102f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str232e"
+        android:lineSpacingMultiplier="1.28"
+        app:attr04a7="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb0"
+        android:textStyle="bold"
+        android:textColor="@color/color05f4"
+        android:layout_gravity="right"
+        android:id="@id/total_amount"
+        android:paddingTop="@dimen/dimen102f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.28"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

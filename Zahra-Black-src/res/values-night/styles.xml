@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0003" parent="@style/style04cf">
+        <item name="android:colorBackground">?attr0612</item>
+    </style>
+    <style name="style0005" parent="@style/style04cf" />
+    <style name="style0025">
+        <item name="attr0a29">@color/color092f</item>
+        <item name="attr0a2c">@color/color092e</item>
+        <item name="attr0a2e">@color/color092f</item>
+        <item name="attr0a45">@color/color092f</item>
+        <item name="attr0a56">@color/color092f</item>
+    </style>
+    <style name="style010d" parent="@style/style04a9">
+        <item name="android:backgroundDimAmount">@dimen/dimen0f43</item>
+        <item name="android:windowBackground">?attr00d5</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="attr00cc">@style/style033c</item>
+    </style>
+    <style name="style010e" parent="@style/style04a9">
+        <item name="android:backgroundDimAmount">@dimen/dimen0f43</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="attr00cc">@style/style05bb</item>
+    </style>
+    <style name="style0149" parent="@style/style014a" />
+    <style name="style015c" parent="@style/style015b">
+        <item name="attr0a29">@color/color08a9</item>
+        <item name="attr0a2a">@color/color08ac</item>
+        <item name="attr0a2b">@color/color08a6</item>
+        <item name="attr0a3b">@color/color0115</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color0118</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style015d" parent="@style/style015c">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color0116</item>
+        <item name="attr0a4c">@color/color08b3</item>
+    </style>
+    <style name="style015e" parent="@style/style015b">
+        <item name="attr0a29">@color/color01be</item>
+        <item name="attr0a2a">@color/color01c0</item>
+        <item name="attr0a2b">@color/color01c2</item>
+        <item name="attr0a3b">@color/color01c4</item>
+        <item name="attr0a40">@color/color09a0</item>
+        <item name="attr0a41">@color/color01c9</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style015f" parent="@style/style015e">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color01c6</item>
+        <item name="attr0a4c">@color/color08b3</item>
+    </style>
+    <style name="style0160" parent="@style/style015b">
+        <item name="attr0a29">@color/color0918</item>
+        <item name="attr0a2a">@color/color0919</item>
+        <item name="attr0a2b">@color/color0916</item>
+        <item name="attr0a3b">@color/color0229</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color022b</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0161" parent="@style/style0160">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color022a</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style0162" parent="@style/style015b">
+        <item name="attr0a29">@color/color0233</item>
+        <item name="attr0a2a">@color/color0235</item>
+        <item name="attr0a2b">@color/color0237</item>
+        <item name="attr0a3b">@color/color0239</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color023e</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0163" parent="@style/style0162">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color023b</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style0164" parent="@style/style015b">
+        <item name="attr0a29">@color/color0944</item>
+        <item name="attr0a2a">@color/color0278</item>
+        <item name="attr0a2b">@color/color027a</item>
+        <item name="attr0a3b">@color/color027c</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color09a8</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0165" parent="@style/style0164">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color027e</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style0166" parent="@style/style015b">
+        <item name="attr0a29">@color/color091f</item>
+        <item name="attr0a2a">@color/color0928</item>
+        <item name="attr0a2b">@color/color091c</item>
+        <item name="attr0a3b">@color/color0289</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color028b</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0167" parent="@style/style0166">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color028a</item>
+        <item name="attr0a4c">@color/color09b1</item>
+    </style>
+    <style name="style0168" parent="@style/style015b">
+        <item name="attr0a29">@color/color0375</item>
+        <item name="attr0a2a">@color/color0377</item>
+        <item name="attr0a2b">@color/color0378</item>
+        <item name="attr0a3b">@color/color037a</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color037e</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0169" parent="@style/style0168">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color037c</item>
+        <item name="attr0a4c">@color/color08b0</item>
+    </style>
+    <style name="style016a" parent="@style/style015b">
+        <item name="attr0a29">@color/color0385</item>
+        <item name="attr0a2a">@color/color0387</item>
+        <item name="attr0a2b">@color/color0389</item>
+        <item name="attr0a3b">@color/color038b</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color038f</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style016b" parent="@style/style016a">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color038d</item>
+        <item name="attr0a4c">@color/color08b1</item>
+    </style>
+    <style name="style016c" parent="@style/style015b">
+        <item name="attr0a29">@color/color0994</item>
+        <item name="attr0a2a">@color/color0998</item>
+        <item name="attr0a2b">@color/color0991</item>
+        <item name="attr0a3b">@color/color04f3</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color04f6</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style016d" parent="@style/style016c">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color04f4</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style016e" parent="@style/style015b">
+        <item name="attr0a29">@color/color096a</item>
+        <item name="attr0a2a">@color/color0971</item>
+        <item name="attr0a2b">@color/color0967</item>
+        <item name="attr0a3b">@color/color05ad</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color05b0</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style016f" parent="@style/style016e">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color05ae</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style0170" parent="@style/style015b">
+        <item name="attr0a29">@color/color05b2</item>
+        <item name="attr0a2a">@color/color05b4</item>
+        <item name="attr0a2b">@color/color05b6</item>
+        <item name="attr0a3b">@color/color05b8</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color05bd</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0171" parent="@style/style0170">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color05ba</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style0172" parent="@style/style015b">
+        <item name="attr0a29">@color/color05c0</item>
+        <item name="attr0a2a">@color/color05c2</item>
+        <item name="attr0a2b">@color/color05c4</item>
+        <item name="attr0a3b">@color/color05c6</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color05cb</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0173" parent="@style/style0172">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color05c8</item>
+        <item name="attr0a4c">@color/color08b1</item>
+    </style>
+    <style name="style0174" parent="@style/style015b">
+        <item name="attr0a29">@color/color065d</item>
+        <item name="attr0a2a">@color/color065f</item>
+        <item name="attr0a2b">@color/color0661</item>
+        <item name="attr0a3b">@color/color0663</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color0668</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0175" parent="@style/style0174">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color0665</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style0176" parent="@style/style015b">
+        <item name="attr0a29">@color/color08b4</item>
+        <item name="attr0a2a">@color/color08bb</item>
+        <item name="attr0a2b">@color/color08af</item>
+        <item name="attr0a3b">@color/color067e</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color0682</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0177" parent="@style/style0176">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color067f</item>
+        <item name="attr0a4c">@color/color09b1</item>
+    </style>
+    <style name="style0178" parent="@style/style015b">
+        <item name="attr0a29">@color/color0729</item>
+        <item name="attr0a2a">@color/color072b</item>
+        <item name="attr0a2b">@color/color072d</item>
+        <item name="attr0a3b">@color/color072f</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color0734</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style0179" parent="@style/style0178">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color0731</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style017a" parent="@style/style015b">
+        <item name="attr0a29">@color/color0736</item>
+        <item name="attr0a2a">@color/color0957</item>
+        <item name="attr0a2b">@color/color094f</item>
+        <item name="attr0a3b">@color/color0738</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color073c</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style017b" parent="@style/style017a">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color0739</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style017c" parent="@style/style015b">
+        <item name="attr0a29">@color/color079b</item>
+        <item name="attr0a2a">@color/color079d</item>
+        <item name="attr0a2b">@color/color079f</item>
+        <item name="attr0a3b">@color/color07a1</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color07a5</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style017d" parent="@style/style017c">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color07a3</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style017e" parent="@style/style015b">
+        <item name="attr0a29">@color/color0848</item>
+        <item name="attr0a2a">@color/color084a</item>
+        <item name="attr0a2b">@color/color084b</item>
+        <item name="attr0a3b">@color/color084d</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color0852</item>
+        <item name="attr0a4c">@color/color08b2</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style017f" parent="@style/style017e">
+        <item name="attr05ef">@null</item>
+        <item name="attr0a29">@color/color09b1</item>
+        <item name="attr0a3b">@color/color084f</item>
+        <item name="attr0a4c">@color/color08b2</item>
+    </style>
+    <style name="style0180" parent="@style/style015b">
+        <item name="attr0a29">@color/color092f</item>
+        <item name="attr0a2a">@color/color0937</item>
+        <item name="attr0a2b">@color/color092a</item>
+        <item name="attr0a3b">@color/color09bd</item>
+        <item name="attr0a40">@color/color0941</item>
+        <item name="attr0a41">@color/color09a8</item>
+        <item name="attr0a4c">@color/color0980</item>
+        <item name="attr0a5c">@color/color094e</item>
+    </style>
+    <style name="style01fe" parent="@style/style01fd">
+        <item name="android:background">@drawable/enc_backup_enc_key_bg_hidden_night</item>
+    </style>
+    <style name="style023d" parent="@style/style04b8">
+        <item name="attr0a39">@color/color0941</item>
+        <item name="attr0a3b">@color/color0941</item>
+    </style>
+    <style name="style02d1" parent="@style/style02d2">
+        <item name="attr00bd">?attr0a45</item>
+    </style>
+    <style name="style02f4" parent="@style/style05fc">
+        <item name="android:popupBackground">?attr0612</item>
+    </style>
+    <style name="style0357" parent="@style/style0356">
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="style046e" parent="@style/style0455" />
+    <style name="style0493" parent="@style/style0492">
+        <item name="android:statusBarColor">?attr0a59</item>
+    </style>
+    <style name="style0498" parent="@style/style049b" />
+    <style name="style0499" parent="@style/style04a2" />
+    <style name="style04ae" parent="@style/style04ac" />
+    <style name="style04af" parent="@style/style04ad" />
+    <style name="style04b1" parent="@style/style04b0" />
+    <style name="style04b7" parent="@style/style04b6" />
+    <style name="style04b8" parent="@style/style04b9">
+        <item name="notification_material_background_media_default_color">?attr0611</item>
+        <item name="primary_text_default_material_dark">?attr0a29</item>
+        <item name="ripple_material_light">?attr0a29</item>
+        <item name="secondary_text_default_material_dark">?attr0605</item>
+        <item name="attr0034">?attr0611</item>
+        <item name="attr003b">?attr0605</item>
+        <item name="attr0040">@color/color004c</item>
+        <item name="attr0041">?attr0605</item>
+        <item name="attr0042">?attr0605</item>
+        <item name="attr0047">?attr0a2f</item>
+        <item name="attr0059">?attr0a47</item>
+        <item name="attr0061">?attr0613</item>
+        <item name="attr0062">?attr0063</item>
+        <item name="attr0063">?attr0613</item>
+        <item name="attr0065">@color/color057a</item>
+        <item name="attr0066">?attr0611</item>
+        <item name="attr0067">?attr0604</item>
+        <item name="attr0068">?attr0a29</item>
+        <item name="attr0069">?attr0a29</item>
+        <item name="attr0075">?attr0613</item>
+        <item name="attr0076">@color/color0910</item>
+        <item name="attr0077">?attr0613</item>
+        <item name="attr0085">?attr060c</item>
+        <item name="attr0086">?attr0605</item>
+        <item name="attr0093">?attr0613</item>
+        <item name="attr0094">@color/color0934</item>
+        <item name="attr0095">?attr0613</item>
+        <item name="attr0096">@color/color0934</item>
+        <item name="attr0097">?attr0613</item>
+        <item name="attr00ab">?attr0605</item>
+        <item name="attr00ac">?attr0a29</item>
+        <item name="attr00ad">#0e000000</item>
+        <item name="attr00ae">@color/color00e3</item>
+        <item name="attr00af">@color/color00e5</item>
+        <item name="attr00b0">@color/color00e6</item>
+        <item name="attr00b1">@color/color00e7</item>
+        <item name="attr00b2">@color/color00e9</item>
+        <item name="attr00b3">@color/color00ea</item>
+        <item name="attr00b4">@color/color00eb</item>
+        <item name="attr00b5">@color/color00ec</item>
+        <item name="attr00b6">@color/color00ee</item>
+        <item name="attr00b7">@color/color00ef</item>
+        <item name="attr00b8">@color/color00f2</item>
+        <item name="attr00b9">@color/color00f3</item>
+        <item name="attr00ba">?attr060c</item>
+        <item name="attr00bb">?attr05fd</item>
+        <item name="attr00c2">?attr060e</item>
+        <item name="attr00c3">?attr0a46</item>
+        <item name="attr00c4">?attr060e</item>
+        <item name="attr00c5">?attr060e</item>
+        <item name="attr00d0">?attr060c</item>
+        <item name="attr00d1">?attr0a2e</item>
+        <item name="attr00d2">?attr0610</item>
+        <item name="attr00d3">?attr0a47</item>
+        <item name="attr00d4">?attr0a47</item>
+        <item name="attr00d5">?attr05fe</item>
+        <item name="attr00d6">?attr0603</item>
+        <item name="attr00d7">?attr0612</item>
+        <item name="attr00d8">?attr0604</item>
+        <item name="attr00d9">?attr0603</item>
+        <item name="attr00ec">?attr0611</item>
+        <item name="attr00ed">@color/color08fe</item>
+        <item name="attr00ee">?attr0611</item>
+        <item name="attr00ef">@color/color091e</item>
+        <item name="attr00f0">@color/color09a8</item>
+        <item name="attr00f1">@color/color09a8</item>
+        <item name="attr00f2">?attr060d</item>
+        <item name="attr00f6">?attr0604</item>
+        <item name="attr00f7">?attr0a33</item>
+        <item name="attr00f8">?attr0605</item>
+        <item name="attr00f9">?attr066e</item>
+        <item name="attr00fa">?attr066e</item>
+        <item name="attr010e">?attr060a</item>
+        <item name="attr0111">?attr0611</item>
+        <item name="attr0113">?attr0a29</item>
+        <item name="attr0117">@color/color0933</item>
+        <item name="attr0127">?attr0a65</item>
+        <item name="attr0128">?attr0605</item>
+        <item name="attr0129">@color/color0999</item>
+        <item name="attr012a">?attr060c</item>
+        <item name="attr012b">?attr0a30</item>
+        <item name="attr012d">?attr0a48</item>
+        <item name="attr012e">?attr0a65</item>
+        <item name="attr012f">?attr0611</item>
+        <item name="attr0132">?attr0a48</item>
+        <item name="attr0133">?attr0a46</item>
+        <item name="attr0134">?attr0a2b</item>
+        <item name="attr0135">?attr0a46</item>
+        <item name="attr0136">?attr0a48</item>
+        <item name="attr0137">?attr0a47</item>
+        <item name="attr0138">?attr0a46</item>
+        <item name="attr01ab">?attr066e</item>
+        <item name="attr01ae">?attr060c</item>
+        <item name="attr01b0">?attr060e</item>
+        <item name="attr01b1">@color/color057a</item>
+        <item name="attr01dc">@color/color00f8</item>
+        <item name="attr01f6">?attr0605</item>
+        <item name="attr020f">?attr0605</item>
+        <item name="attr021f">@color/color0905</item>
+        <item name="attr0222">?attr0a2a</item>
+        <item name="attr022d">@color/color090b</item>
+        <item name="attr022e">@color/color090b</item>
+        <item name="attr022f">@color/color090a</item>
+        <item name="attr0237">@color/color091e</item>
+        <item name="attr0239">?attr060c</item>
+        <item name="attr023c">?attr0a29</item>
+        <item name="attr023e">?attr0a2f</item>
+        <item name="attr023f">?attr0a2f</item>
+        <item name="attr0246">?attr0610</item>
+        <item name="attr0247">?attr060c</item>
+        <item name="attr0248">?attr0611</item>
+        <item name="attr0249">?attr0605</item>
+        <item name="attr0260">?attr0610</item>
+        <item name="attr0261">@color/color0931</item>
+        <item name="attr0262">?attr060b</item>
+        <item name="attr0263">?attr0a29</item>
+        <item name="attr0264">?attr0a4b</item>
+        <item name="attr0266">?attr0a29</item>
+        <item name="attr0267">@color/color09b1</item>
+        <item name="attr0269">?attr085b</item>
+        <item name="attr026b">?attr0605</item>
+        <item name="attr026c">?attr00ef</item>
+        <item name="attr026d">?attr0605</item>
+        <item name="attr026e">?attr0605</item>
+        <item name="attr026f">?attr0a4b</item>
+        <item name="attr0270">?attr0605</item>
+        <item name="attr0271">?attr0605</item>
+        <item name="attr0272">?attr0605</item>
+        <item name="attr0273">?attr0603</item>
+        <item name="attr0274">?attr0a4b</item>
+        <item name="attr0275">?attr0a29</item>
+        <item name="attr0276">@color/color0907</item>
+        <item name="attr0277">@color/color0228</item>
+        <item name="attr029b">?attr05fd</item>
+        <item name="attr02a8">@color/color0905</item>
+        <item name="attr02b6">?attr0a46</item>
+        <item name="attr02c0">@color/color0900</item>
+        <item name="attr02c1">?attr0605</item>
+        <item name="attr02cf">?attr060f</item>
+        <item name="attr02df">?attr0605</item>
+        <item name="attr0300">?attr0a4b</item>
+        <item name="attr0302">?attr0a29</item>
+        <item name="attr0303">?attr0612</item>
+        <item name="attr0304">?attr0a2b</item>
+        <item name="attr0305">?attr0613</item>
+        <item name="attr0306">@color/color0924</item>
+        <item name="attr0307">?attr0611</item>
+        <item name="attr030d">?attr0605</item>
+        <item name="attr030e">?attr060c</item>
+        <item name="attr030f">?attr060c</item>
+        <item name="attr0310">?attr0610</item>
+        <item name="attr0311">?attr060c</item>
+        <item name="attr0313">?attr0a29</item>
+        <item name="attr0314">?attr0a29</item>
+        <item name="attr0315">?attr0a2f</item>
+        <item name="attr0319">?attr0a5c</item>
+        <item name="attr031a">@color/color090b</item>
+        <item name="attr031b">?attr0a46</item>
+        <item name="attr032d">?attr0601</item>
+        <item name="attr032e">?attr0602</item>
+        <item name="attr0352">?attr0a7b</item>
+        <item name="attr0364">?attr0612</item>
+        <item name="attr0365">?attr060f</item>
+        <item name="attr0366">?attr0603</item>
+        <item name="attr036d">?attr060c</item>
+        <item name="attr036e">?attr0611</item>
+        <item name="attr0375">?attr0376</item>
+        <item name="attr0376">#ffebedf0</item>
+        <item name="attr0378">?attr0a52</item>
+        <item name="attr0379">?attr0a47</item>
+        <item name="attr037a">?attr0a47</item>
+        <item name="attr037b">?attr0a47</item>
+        <item name="attr0387">?attr0605</item>
+        <item name="attr0388">?attr0a47</item>
+        <item name="attr0389">@color/color092c</item>
+        <item name="attr03ab">?attr0605</item>
+        <item name="attr03ca">?attr0603</item>
+        <item name="attr03d1">?attr060c</item>
+        <item name="attr03d2">?attr060c</item>
+        <item name="attr03d3">?attr0a5a</item>
+        <item name="attr03d5">?attr0605</item>
+        <item name="attr03d6">?attr0603</item>
+        <item name="attr03d8">?attr060c</item>
+        <item name="attr03da">?attr0a4b</item>
+        <item name="attr03db">?attr0a29</item>
+        <item name="attr03dc">?attr060c</item>
+        <item name="attr03dd">?attr0612</item>
+        <item name="attr03de">?attr0603</item>
+        <item name="attr03df">?attr0605</item>
+        <item name="attr03e0">?attr0a59</item>
+        <item name="attr03e2">?attr0610</item>
+        <item name="attr03e3">?attr060c</item>
+        <item name="attr03e5">?attr0612</item>
+        <item name="attr03e7">@color/color0322</item>
+        <item name="attr03fd">?attr0a2f</item>
+        <item name="attr0410">?attr0610</item>
+        <item name="attr0421">@color/color0902</item>
+        <item name="attr0422">?attr0421</item>
+        <item name="attr0424">?attr0611</item>
+        <item name="attr0425">?attr060e</item>
+        <item name="attr042a">?attr0a6d</item>
+        <item name="attr042b">?attr00b3</item>
+        <item name="attr042d">?attr0a2a</item>
+        <item name="attr042e">?attr0a29</item>
+        <item name="attr043b">@color/color09a8</item>
+        <item name="attr043f">?attr0605</item>
+        <item name="attr047c">?attr060c</item>
+        <item name="attr047d">?attr0610</item>
+        <item name="attr047e">?attr060b</item>
+        <item name="attr047f">?attr0610</item>
+        <item name="attr0480">@color/color0914</item>
+        <item name="attr0481">?attr060e</item>
+        <item name="attr0482">?attr0a33</item>
+        <item name="attr04ce">?attr05fd</item>
+        <item name="attr04d7">?attr060d</item>
+        <item name="attr04d8">@color/color0980</item>
+        <item name="attr04d9">@color/color0984</item>
+        <item name="attr04da">?attr0a35</item>
+        <item name="attr04f9">?attr060c</item>
+        <item name="attr04fa">@color/color0577</item>
+        <item name="attr04fb">?attr0a29</item>
+        <item name="attr04fc">?attr060c</item>
+        <item name="attr04fe">?attr0605</item>
+        <item name="attr04ff">?attr0600</item>
+        <item name="attr0500">?attr0608</item>
+        <item name="attr0501">?attr0a2f</item>
+        <item name="attr0502">?attr0a3d</item>
+        <item name="attr0503">?attr05fd</item>
+        <item name="attr0504">?attr0606</item>
+        <item name="attr0505">?attr0603</item>
+        <item name="attr0506">?attr060c</item>
+        <item name="attr0508">?attr060c</item>
+        <item name="attr0509">@color/color08fe</item>
+        <item name="attr0524">?attr0611</item>
+        <item name="attr0525">?attr0a29</item>
+        <item name="attr0526">@color/color09c8</item>
+        <item name="attr0527">?attr0a29</item>
+        <item name="attr056b">?attr0a29</item>
+        <item name="attr056e">@color/color090b</item>
+        <item name="attr056f">?attr0a2f</item>
+        <item name="attr0570">@color/color0577</item>
+        <item name="attr0571">?attr0a2f</item>
+        <item name="attr0572">?attr0a29</item>
+        <item name="attr0573">?attr0a29</item>
+        <item name="attr0574">?attr0603</item>
+        <item name="attr0575">?attr0a29</item>
+        <item name="attr0576">?attr0a5a</item>
+        <item name="attr0577">?attr0a34</item>
+        <item name="attr0579">?attr0a35</item>
+        <item name="attr057a">?attr0610</item>
+        <item name="attr057f">?attr060c</item>
+        <item name="attr0580">@color/color091e</item>
+        <item name="attr0581">?attr0a5b</item>
+        <item name="attr0589">@color/color090b</item>
+        <item name="attr058a">@color/color092c</item>
+        <item name="attr0593">?attr0a46</item>
+        <item name="attr05be">@color/color0503</item>
+        <item name="attr05bf">?attr0a29</item>
+        <item name="attr05c3">?attr060d</item>
+        <item name="attr05c4">?attr0611</item>
+        <item name="attr05c5">?attr0611</item>
+        <item name="attr05c6">?attr0611</item>
+        <item name="attr05c8">?attr0610</item>
+        <item name="attr05c9">?attr05fd</item>
+        <item name="attr05d5">?attr0606</item>
+        <item name="attr05d6">?attr0a29</item>
+        <item name="attr05d7">?attr0611</item>
+        <item name="attr05d8">?attr066c</item>
+        <item name="attr05d9">?attr0605</item>
+        <item name="attr05dd">?attr060c</item>
+        <item name="attr05de">?attr0605</item>
+        <item name="attr05e0">?attr0611</item>
+        <item name="attr05e1">?attr060c</item>
+        <item name="attr05e2">?attr0612</item>
+        <item name="attr05e9">?attr0603</item>
+        <item name="attr05eb">?attr05fd</item>
+        <item name="attr05ee">?attr0a5c</item>
+        <item name="attr05fe">@color/color0912</item>
+        <item name="attr0600">@color/color08fe</item>
+        <item name="attr0601">@color/color090b</item>
+        <item name="attr0602">@color/color09ab</item>
+        <item name="attr0603">@color/color08fe</item>
+        <item name="attr0605">@color/color08fe</item>
+        <item name="attr0606">@color/color057c</item>
+        <item name="attr0607">@color/color057e</item>
+        <item name="attr0608">@color/color0997</item>
+        <item name="attr0609">@color/color0996</item>
+        <item name="attr060a">@color/color0922</item>
+        <item name="attr060b">@color/color0581</item>
+        <item name="attr0618">?attr060f</item>
+        <item name="attr061f">?attr0613</item>
+        <item name="attr0620">?attr0a2f</item>
+        <item name="attr0621">?attr060c</item>
+        <item name="attr0622">@color/color09af</item>
+        <item name="attr0623">?attr0605</item>
+        <item name="attr0624">?attr0601</item>
+        <item name="attr0625">?attr0a29</item>
+        <item name="attr0626">?attr0a5c</item>
+        <item name="attr0627">?attr0a29</item>
+        <item name="attr0628">?attr0605</item>
+        <item name="attr0629">?attr0605</item>
+        <item name="attr064b">@color/color092e</item>
+        <item name="attr064c">?attr0612</item>
+        <item name="attr064d">?attr0612</item>
+        <item name="attr064f">@color/color09a9</item>
+        <item name="attr0652">?attr060c</item>
+        <item name="attr0653">?attr0610</item>
+        <item name="attr0654">?attr0611</item>
+        <item name="attr0667">?attr060e</item>
+        <item name="attr0669">?attr0a4b</item>
+        <item name="attr066a">@color/color09ab</item>
+        <item name="attr066b">?attr0611</item>
+        <item name="attr066c">?attr0a59</item>
+        <item name="attr066d">@color/color0924</item>
+        <item name="attr066e">?attr0605</item>
+        <item name="attr066f">@color/color0924</item>
+        <item name="attr0670">?attr0613</item>
+        <item name="attr068c">?attr0604</item>
+        <item name="attr0691">?attr0610</item>
+        <item name="attr0695">?attr0605</item>
+        <item name="attr0696">?attr0610</item>
+        <item name="attr0697">?attr066e</item>
+        <item name="attr0698">@color/color0315</item>
+        <item name="attr069d">@color/color0907</item>
+        <item name="attr06a0">?attr0611</item>
+        <item name="attr06a7">?attr060f</item>
+        <item name="attr06a8">@color/color090a</item>
+        <item name="attr06a9">?attr0a59</item>
+        <item name="attr06aa">?attr0611</item>
+        <item name="attr06ac">?attr03e7</item>
+        <item name="attr06ae">?attr0605</item>
+        <item name="attr06b3">?attr0a29</item>
+        <item name="attr06b6">?attr0a35</item>
+        <item name="attr06b9">?attr0611</item>
+        <item name="attr073a">?attr0605</item>
+        <item name="attr074a">?attr0610</item>
+        <item name="attr074b">?attr0a5b</item>
+        <item name="attr0750">?attr0611</item>
+        <item name="attr0752">?attr0610</item>
+        <item name="attr0753">?attr060e</item>
+        <item name="attr0754">?attr060e</item>
+        <item name="attr0755">?attr0610</item>
+        <item name="attr0757">?attr0609</item>
+        <item name="attr0758">?attr0a6d</item>
+        <item name="attr0759">?attr0605</item>
+        <item name="attr075a">@color/color00f8</item>
+        <item name="attr075b">?attr066e</item>
+        <item name="attr075e">?attr0a29</item>
+        <item name="attr076f">?attr0610</item>
+        <item name="attr0770">?attr0a29</item>
+        <item name="attr0772">?attr060c</item>
+        <item name="attr0773">?attr060c</item>
+        <item name="attr07b7">?attr0a45</item>
+        <item name="attr07b8">?attr060c</item>
+        <item name="attr07b9">?attr0612</item>
+        <item name="attr07ba">?attr0604</item>
+        <item name="attr07bb">?attr0605</item>
+        <item name="attr07bc">@color/color0577</item>
+        <item name="attr07bd">@color/color06e3</item>
+        <item name="attr07be">@color/color057d</item>
+        <item name="attr07d3">?attr0a29</item>
+        <item name="attr07ea">?attr0610</item>
+        <item name="attr080f">?attr03e7</item>
+        <item name="attr081f">?attr0612</item>
+        <item name="attr0822">?attr0a29</item>
+        <item name="attr0823">?attr0a4b</item>
+        <item name="attr0824">?attr0a29</item>
+        <item name="attr0834">@color/color09a7</item>
+        <item name="attr083d">?attr05fd</item>
+        <item name="attr083e">?attr0605</item>
+        <item name="attr0855">?attr0a46</item>
+        <item name="attr0857">?attr0a47</item>
+        <item name="attr0858">?attr060e</item>
+        <item name="attr0859">?attr060c</item>
+        <item name="attr085a">?attr0a5b</item>
+        <item name="attr085b">?attr060e</item>
+        <item name="attr085c">?attr0613</item>
+        <item name="attr0865">?attr060c</item>
+        <item name="attr087a">?attr0601</item>
+        <item name="attr08f2">?attr066e</item>
+        <item name="attr08f3">?attr0a2d</item>
+        <item name="attr0929">?attr0946</item>
+        <item name="attr0946">@color/color0906</item>
+        <item name="attr0948">@color/color078f</item>
+        <item name="attr094d">?attr094d</item>
+        <item name="attr094e">@color/color0946</item>
+        <item name="attr0951">?attr0610</item>
+        <item name="attr0952">?attr0605</item>
+        <item name="attr0953">?attr0a29</item>
+        <item name="attr0954">?attr0a4b</item>
+        <item name="attr0955">?attr0a46</item>
+        <item name="attr0964">?attr0a5c</item>
+        <item name="attr0965">?attr0605</item>
+        <item name="attr0966">?attr0605</item>
+        <item name="attr0967">?attr0a5c</item>
+        <item name="attr0968">?attr0a46</item>
+        <item name="attr0969">?attr0605</item>
+        <item name="attr0972">?attr0a46</item>
+        <item name="attr0974">@color/color0577</item>
+        <item name="attr0977">?attr00b5</item>
+        <item name="attr097a">@color/color0902</item>
+        <item name="attr097b">@color/color057a</item>
+        <item name="attr097c">?attr097a</item>
+        <item name="attr0983">@color/color09ad</item>
+        <item name="attr0984">@color/color09a9</item>
+        <item name="attr0986">?attr0610</item>
+        <item name="attr0987">?attr060f</item>
+        <item name="attr098b">?attr0276</item>
+        <item name="attr098c">?attr0a29</item>
+        <item name="attr098d">@color/color0574</item>
+        <item name="attr098e">?attr0a29</item>
+        <item name="attr099d">?attr0605</item>
+        <item name="attr09a9">@color/color0790</item>
+        <item name="attr09aa">@color/color0790</item>
+        <item name="attr09ab">?attr060c</item>
+        <item name="attr09ac">?attr066e</item>
+        <item name="attr09ad">?attr060c</item>
+        <item name="attr09b3">?attr0a29</item>
+        <item name="attr09b4">?attr0a65</item>
+        <item name="attr09b5">@color/color09a8</item>
+        <item name="attr09b7">?attr0a65</item>
+        <item name="attr09b8">?attr0a6a</item>
+        <item name="attr09b9">@color/color09a8</item>
+        <item name="attr09ba">?attr0a65</item>
+        <item name="attr09bb">?attr0a65</item>
+        <item name="attr09bc">?attr0a65</item>
+        <item name="attr09bd">?attr0a65</item>
+        <item name="attr09be">?attr0a65</item>
+        <item name="attr09bf">?attr0a68</item>
+        <item name="attr09c0">?attr0a65</item>
+        <item name="attr09c1">?attr0a65</item>
+        <item name="attr09c2">?attr0a65</item>
+        <item name="attr09c3">?attr0a65</item>
+        <item name="attr09c4">@color/color09a8</item>
+        <item name="attr09c5">?attr0a65</item>
+        <item name="attr09c6">@color/color09a8</item>
+        <item name="attr09c7">@color/color09a8</item>
+        <item name="attr09c8">?attr0a65</item>
+        <item name="attr09ca">?attr0601</item>
+        <item name="attr09d2">?attr0a29</item>
+        <item name="attr09d8">?attr0a4b</item>
+        <item name="attr09d9">@color/color087a</item>
+        <item name="attr09de">@color/color09aa</item>
+        <item name="attr09e2">@color/color09aa</item>
+        <item name="attr09e5">@color/color0910</item>
+        <item name="attr0a1d">?attr0a60</item>
+        <item name="attr0a1f">@color/color092a</item>
+        <item name="attr0a20">@color/color0934</item>
+        <item name="attr0a21">@color/color090a</item>
+        <item name="attr0a25">?attr0a29</item>
+        <item name="attr0a26">?attr0a2a</item>
+        <item name="attr0a27">?attr0a2a</item>
+        <item name="attr0a63">?attr060c</item>
+        <item name="attr0a64">?attr0611</item>
+        <item name="attr0a65">@color/color09c0</item>
+        <item name="attr0a67">@color/color09c2</item>
+        <item name="attr0a68">@color/color09c3</item>
+        <item name="attr0a69">@color/color09c4</item>
+        <item name="attr0a6a">@color/color09c5</item>
+        <item name="attr0a6b">@color/color09c6</item>
+        <item name="attr0a6c">@color/color09c7</item>
+        <item name="attr0a6d">@color/color09c8</item>
+        <item name="attr0a6e">@color/color09c9</item>
+        <item name="attr0a6f">@color/color09ca</item>
+        <item name="attr0a70">@color/color09cb</item>
+        <item name="attr0a71">@color/color09cc</item>
+        <item name="attr0a72">@color/color09cd</item>
+        <item name="attr0a73">@color/color09ce</item>
+        <item name="attr0a74">@color/color09cf</item>
+        <item name="attr0a75">@color/color09d0</item>
+        <item name="attr0a76">@color/color09d1</item>
+        <item name="attr0a77">@color/color09d2</item>
+        <item name="attr0a78">@color/color09d3</item>
+        <item name="attr0a79">@color/color09d5</item>
+        <item name="attr0a7a">@color/color09d6</item>
+        <item name="attr0a7b">@color/color09d7</item>
+        <item name="attr0a7c">@color/color09d9</item>
+    </style>
+    <style name="style04bc" parent="@style/style04bd" />
+    <style name="style0522" parent="@style/style04cf">
+        <item name="android:colorBackground">?attr0612</item>
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen102f"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr03ee="@string/str02d2"
+            app:attr03ef="emphasized" />
+        <RadioGroup
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@id/radio_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen103a"
+            android:layout_marginEnd="@dimen/dimen102e" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/discoverability_section"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View
+                style="@style/style0355" />
+            <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+                android:paddingTop="@dimen/dimen102e"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen102e"
+                android:paddingEnd="@dimen/dimen102e"
+                app:attr03ee="@string/str02d0"
+                app:attr03ef="emphasized"
+                app:attr0862="@string/str02d1" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

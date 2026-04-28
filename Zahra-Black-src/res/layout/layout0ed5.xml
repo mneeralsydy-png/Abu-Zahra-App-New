@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_gravity="top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_view"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/str324f" />
+    <ViewStub
+        android:layout_gravity="bottom"
+        android:id="@id/overlay_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0ed2"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0c3d" />
+    <include
+        layout="@layout/layout0ed3" />
+</merge>

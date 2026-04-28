@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/india_upi_savings_offer_selected_background" />
+    <item
+        android:drawable="@drawable/india_upi_savings_offer_unselected_background" />
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:layout_gravity="center|left"
+    android:id="@id/voice_input_button"
+    android:background="@drawable/input_circle_selector"
+    android:padding="@dimen/dimen0f7e"
+    android:layout_width="@dimen/dimen06d8"
+    android:layout_height="@dimen/dimen06d8"
+    android:scaleType="fitCenter"
+    android:adjustViewBounds="true"
+    android:contentDescription="@string/str39ea"
+    app:attr0838="@drawable/vec_ic_voicechat"
+    app:attr090d="?attr0a4b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

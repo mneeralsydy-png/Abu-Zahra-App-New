@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen103b"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingRight="@dimen/dimen1034"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaFrameLayout
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/turn_on_wa_contacts_image"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="@dimen/dimen0b5d"
+            android:layout_marginBottom="@dimen/dimen0b5d"
+            app:attr0838="@drawable/ic_contacts"
+            app:attr090d="@color/color0347" />
+    </com.whatsapp.ui.coreui.WaFrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fc0"
+        android:textColor="@color/color08df"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:id="@id/turn_on_wa_contacts_title_view"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3579"
+        android:maxLines="@null"
+        android:singleLine="false"
+        app:attr0a24="wds_font_headline1" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color0905"
+        android:id="@id/turn_on_wa_contacts_description_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="3.0dip"
+        style="?attr07b1" />
+</LinearLayout>

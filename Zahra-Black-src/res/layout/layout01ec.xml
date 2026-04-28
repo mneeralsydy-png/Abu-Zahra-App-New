@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    android:textAppearance="@style/style0184"
+    android:id="@id/clear_chip"
+    android:layout_width="wrap_content"
+    android:layout_height="32.0dip"
+    app:attr01c3="@color/color00d3"
+    app:attr01c5="@dimen/dimen0dd6"
+    app:attr01d2="@dimen/dimen0dd6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

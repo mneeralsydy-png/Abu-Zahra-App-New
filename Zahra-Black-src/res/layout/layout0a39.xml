@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.KeyboardPopupLayout
+    android:id="@id/root"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/media_album_coordinator_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <View
+            android:id="@id/background"
+            android:background="?attr0a33"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <FrameLayout
+            android:id="@id/title_background"
+            android:background="@color/color00f0"
+            android:paddingBottom="@dimen/dimen0048"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:id="@android:id/list"
+            android:background="@null"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:listSelector="@color/color0790"
+            android:textFilterEnabled="true"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0.0dip"
+            android:fastScrollEnabled="false"
+            android:nestedScrollingEnabled="true" />
+        <FrameLayout
+            android:layout_gravity="top"
+            android:fitsSystemWindows="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+                android:id="@id/toolbar"
+                android:background="?attr0926"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen0048"
+                android:transitionName="toolbar"
+                app:attr0655="@style/style0522"
+                app:attr08f4="@style/style01d5" />
+        </FrameLayout>
+        <ViewStub
+            android:layout_gravity="bottom"
+            android:id="@id/media_album_view_cta_stub"
+            android:layout="@layout/layout0a3a"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_gravity="top"
+            android:id="@id/transition_clipper_top"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:transitionName="@string/str42df" />
+        <View
+            android:layout_gravity="bottom"
+            android:id="@id/transition_clipper_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:transitionName="@string/str42de" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ViewStub
+        android:id="@id/message_selection_bottom_menu_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen103b"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e" />
+    <com.whatsapp.emoji.search.EmojiSearchContainer
+        android:id="@id/emoji_search_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+    <com.whatsapp.emoji.search.EmojiSearchKeyboardContainer
+        android:id="@id/expressions_tray_emoji_search_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</com.whatsapp.ui.coreui.KeyboardPopupLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/header_footer_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/dimen0747"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/contact_selector"
+        android:layout_width="@dimen/dimen0362"
+        android:layout_height="@dimen/dimen034b"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:enabled="false"
+            android:layout_gravity="center"
+            android:id="@id/contactpicker_row_photo"
+            android:layout_width="@dimen/dimen0334"
+            android:layout_height="@dimen/dimen0334"
+            android:scaleType="fitCenter"
+            whatsapp:attr08a9="false"
+            whatsapp:attr08aa="@dimen/dimen0cc5" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_gravity="center|left"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/contact_selector">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/contactpicker_row_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:paddingEnd="@dimen/dimen034d"
+            style="?attr08d4" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textStyle="normal"
+            android:id="@id/contactpicker_row_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:singleLine="false"
+            style="@style/style0285" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/contactpicker_button_two"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0351"
+        android:layout_height="@dimen/dimen034b"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/str4307"
+        android:layout_alignParentEnd="true"
+        whatsapp:attr0838="@drawable/ic_videocam_white"
+        whatsapp:attr090d="?attr0a29"
+        style="@style/style0006" />
+</RelativeLayout>

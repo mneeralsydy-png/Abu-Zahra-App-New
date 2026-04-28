@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.SelectionCheckView
+    android:id="@id/selection_check"
+    android:layout_width="@dimen/dimen0c6e"
+    android:layout_height="@dimen/dimen0c6e"
+    app:attr0494="parent"
+    app:attr04aa="@id/contact_photo_guideline"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

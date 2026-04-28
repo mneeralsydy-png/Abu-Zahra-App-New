@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/password_icon"
+            android:layout_width="72.0dip"
+            android:layout_height="72.0dip"
+            android:layout_marginTop="32.0dip"
+            android:src="@drawable/ic_password_2"
+            android:contentDescription="@null" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?attr08c8"
+            android:id="@id/password_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/str4247" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?attr08b9"
+            android:gravity="center"
+            android:id="@id/password_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:text="@string/str4245" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/change_password_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str4235"
+        app:attr06e2="compact"
+        app:attr06f6="@drawable/ic_password_2"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/delete_password_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str423c"
+        app:attr06e2="compact"
+        app:attr06f6="@drawable/ic_delete"
+        app:attr06f7="destructive"
+        app:attr0702="icon" />
+</LinearLayout>

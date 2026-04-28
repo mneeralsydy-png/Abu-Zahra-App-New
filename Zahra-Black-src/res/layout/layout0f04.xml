@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10.0dip"
+    android:layout_marginRight="@dimen/dimen0c5c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/contact_selector"
+        android:layout_width="@dimen/dimen0c61"
+        android:layout_height="@dimen/dimen0c60">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:enabled="false"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/contact_row_photo"
+            android:layout_width="@dimen/dimen0c5b"
+            android:layout_height="@dimen/dimen0c5b"
+            android:scaleType="fitCenter"
+            app:attr08a9="false"
+            app:attr08aa="@dimen/dimen0cc5" />
+        <FrameLayout
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/close"
+            android:layout_width="21.0dip"
+            android:layout_height="21.0dip">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:background="@drawable/primary_color_circle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/iv_close"
+                android:background="@drawable/grey_circle"
+                android:layout_width="18.0dip"
+                android:layout_height="18.0dip"
+                android:scaleType="center"
+                android:contentDescription="@string/str2b7d"
+                app:attr0838="@drawable/ic_close_white_small_2"
+                app:attr090d="?attr0772" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1031"
+        android:maxWidth="@dimen/dimen0c61"
+        android:singleLine="true"
+        app:attr0a24="wds_font_body3" />
+</LinearLayout>

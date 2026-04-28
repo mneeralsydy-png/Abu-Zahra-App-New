@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen054a"
+            android:layout_marginRight="@dimen/dimen054a">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/encryption_key_confirm_title"
+                style="@style/style0203" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:text="@string/str1243"
+                style="@style/style01fb" />
+            <RelativeLayout
+                android:id="@id/enc_key_background"
+                style="@style/style01fd">
+                <FrameLayout
+                    android:id="@id/encryption_key_confirm_encryption_key_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:layout_marginTop="@dimen/dimen0b5d"
+                android:text="@string/str1242"
+                style="@style/style0201" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/encryption_key_confirm_button_confirm"
+        style="@style/style01ff" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/encryption_key_confirm_button_cancel"
+        android:text="@string/str3d9b"
+        style="@style/style0200" />
+</LinearLayout>

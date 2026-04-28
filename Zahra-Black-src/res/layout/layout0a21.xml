@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/manual_proxy_setting_divider"
+        style="@style/style0360" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginRight="@dimen/dimen0c93"
+        android:text="@string/str2a05"
+        style="?attr07b0" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?android:selectableItemBackground"
+        android:paddingLeft="@dimen/dimen1032"
+        android:paddingTop="15.0dip"
+        android:paddingRight="16.0dip"
+        android:paddingBottom="15.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/manual_proxy_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str2a04"
+            style="?attr07b5" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/proxy_connection_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str0f2c"
+            style="?attr07b1" />
+    </LinearLayout>
+</LinearLayout>

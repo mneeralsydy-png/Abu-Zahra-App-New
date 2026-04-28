@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/request_transparency_report_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/report_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cee"
+        android:layout_marginRight="@dimen/dimen0cee"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        app:attr03ef="emphasized" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/report_button"
+        android:background="?android:selectableItemBackground"
+        android:paddingLeft="@dimen/dimen0cef"
+        android:paddingTop="@dimen/dimen0cea"
+        android:paddingRight="@dimen/dimen0cea"
+        android:paddingBottom="@dimen/dimen0cea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_gravity="left"
+            android:orientation="vertical"
+            android:id="@id/layout1"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/report_button_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3554"
+                android:singleLine="true"
+                style="?attr07b5" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:id="@id/report_button_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str354b"
+                style="?attr07b1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                android:id="@id/report_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/request_report_view_details"
+        android:layout="@layout/layout10e2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="?attr079a"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0f98" />
+</LinearLayout>

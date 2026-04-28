@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0149" parent="@style/style014a">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="style0477" parent="@style/style0475">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="attr0223">?attr0a29</item>
+    </style>
+</resources>

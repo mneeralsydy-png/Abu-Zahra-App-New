@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/explore_payments_row_container"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72.0dip"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.icon.WDSIcon
+        android:id="@id/explore_payments_row_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0a17="neutral"
+        app:attr0a19="medium"
+        app:attr0a1a="borderless" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginStart="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen103a">
+        <com.whatsapp.ui.wds.components.textview.WDSTextView
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:id="@id/explore_payments_row_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:id="@id/explore_payments_row_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/explore_payments_row_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr096b="outline"
+        app:attr09ea="small" />
+    <com.whatsapp.ui.wds.components.icon.WDSIcon
+        android:id="@id/explore_payments_row_chevron"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0411="@drawable/ic_chevron_right"
+        app:attr0a17="neutral"
+        app:attr0a19="medium"
+        app:attr0a1a="borderless" />
+</LinearLayout>

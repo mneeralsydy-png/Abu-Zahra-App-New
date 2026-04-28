@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    android:id="@id/search_view_toolbar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen102a"
+    app:attr0251="0.0dip"
+    style="@style/style0582"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textAppearance="@style/style05a4"
+            android:id="@id/search_view_edit_text"
+            android:background="@null"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionSearch|flagNoExtractUi"
+            android:textDirection="firstStrong" />
+        <ImageButton
+            android:id="@id/search_view_clear_button"
+            android:background="?attr000b"
+            android:padding="@dimen/dimen103a"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vec_ic_close"
+            android:contentDescription="@string/str4212" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/search_by_date_button"
+            android:background="?attr000b"
+            android:padding="@dimen/dimen103a"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/ic_search_by_date" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

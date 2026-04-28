@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/reactions_bottom_sheet"
+    android:background="@drawable/bottom_sheet_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaTabLayout
+        android:layout_gravity="left"
+        android:id="@id/reactions_bottom_sheet_tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr088c="?attr0a29"
+        app:attr088d="false"
+        app:attr0892="@dimen/dimen0bb6"
+        app:attr0893="scrollable"
+        app:attr0896="@dimen/dimen0cec"
+        app:attr0897="@dimen/dimen0cec" />
+    <View
+        android:id="@id/reactions_bottom_sheet_divider"
+        android:background="@color/color0645"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0bb1" />
+    <com.whatsapp.ui.coreui.WaViewPager
+        android:id="@id/reactions_bottom_sheet_view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0bb2" />
+</LinearLayout>

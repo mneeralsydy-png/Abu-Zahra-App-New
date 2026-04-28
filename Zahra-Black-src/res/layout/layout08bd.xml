@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a47"
+        android:id="@id/title"
+        android:paddingTop="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr03ae="?attr03b8"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1_emphasized" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center|right"
+        android:id="@id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        app:attr0494="@id/title"
+        app:attr04ad="parent"
+        app:attr04b1="@id/title"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="@color/color02b3" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/update_mandate_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0b5d"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginRight="@dimen/dimen0b5d"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title" />
+    <include
+        android:id="@id/blurb_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/update_mandate_container"
+        layout="@layout/layout03ab" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/positive_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginRight="10.0dip"
+        android:text="@string/str374c"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/blurb_layout"
+        style="@style/style0555" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/negative_button"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:text="@string/str374e"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/positive_button"
+        style="@style/style055d" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/content_barrier"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="positive_button, negative_button" />
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/content_barrier"
+        layout="@layout/layout08f7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

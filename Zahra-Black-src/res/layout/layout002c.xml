@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/my_profile_badge_imageview"
+    android:background="@drawable/green_circle_badge"
+    android:layout_width="8.0dip"
+    android:layout_height="8.0dip"
+    android:scaleType="fitCenter"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

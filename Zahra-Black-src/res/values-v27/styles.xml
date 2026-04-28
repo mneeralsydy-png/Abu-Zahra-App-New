@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style033d" parent="@style/style010d">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?attr04ce</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="style0455" parent="@style/style04a4">
+        <item name="android:navigationBarColor">?attr04ce</item>
+        <item name="android:contextPopupMenuStyle">@style/style01ab</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="style0457" parent="@style/style0455">
+        <item name="android:windowBackground">?attr0a2d</item>
+        <item name="android:navigationBarColor">@color/color089a</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="attr000f">@style/style0701</item>
+        <item name="attr0221">?attr0a2d</item>
+        <item name="attr0223">@color/color0790</item>
+        <item name="attr0405">@drawable/ic_arrow_back_white</item>
+        <item name="attr0923">?attr0a2d</item>
+    </style>
+    <style name="style0476" parent="@style/style0475">
+        <item name="android:navigationBarColor">@color/color089a</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="style047c" parent="@style/style0455">
+        <item name="android:windowBackground">?attr0a2d</item>
+        <item name="android:navigationBarColor">@color/color089a</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="style0487" parent="@style/style0475">
+        <item name="android:navigationBarColor">@color/color089a</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="style04a8" parent="@style/style0475">
+        <item name="android:navigationBarColor">@color/color089a</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="attr056e">@color/color08f8</item>
+        <item name="attr056f">@color/color08de</item>
+        <item name="attr0570">@color/color08e0</item>
+        <item name="attr0571">@color/color08df</item>
+    </style>
+    <style name="style04c9" parent="@style/style04c2">
+        <item name="android:navigationBarColor">@color/color089a</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="attr0223">@color/color089a</item>
+    </style>
+    <style name="style04ca" parent="@style/style0475">
+        <item name="android:windowBackground">@color/color00e1</item>
+        <item name="android:textColorHint">?attr0a46</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="attr000d">@dimen/dimen0048</item>
+        <item name="attr000f">@style/style06fc</item>
+        <item name="attr0204">?attr0a29</item>
+        <item name="attr0221">?attr066f</item>
+        <item name="attr0223">@color/color00e1</item>
+        <item name="attr0923">?attr0a59</item>
+        <item name="attr0927">@style/style0705</item>
+        <item name="attr099a">?attr0a2f</item>
+        <item name="attr099b">@style/style0553</item>
+    </style>
+    <style name="style059c" parent="@style/style010e">
+        <item name="android:navigationBarColor">?attr0a59</item>
+        <item name="android:windowLightNavigationBar">@bool/notification_action_text_size</item>
+    </style>
+</resources>

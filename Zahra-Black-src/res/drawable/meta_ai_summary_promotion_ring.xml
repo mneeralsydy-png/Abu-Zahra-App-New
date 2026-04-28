@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:height="@dimen/dimen0f5b"
+        android:width="@dimen/dimen0f5b"
+        android:drawable="@drawable/meta_ai_ring_small" />
+</layer-list>

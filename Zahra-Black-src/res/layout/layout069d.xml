@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen0541"
+    android:layout_height="@dimen/dimen0541"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.expressions.ui.app.tray.expression.emoji.view.EmojiImageView
+        android:layout_gravity="center"
+        android:id="@id/emoji"
+        android:background="?attr076d"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

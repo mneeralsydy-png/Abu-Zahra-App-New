@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/conversation_row_lto_offer_content_holder"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen043d"
+    android:paddingEnd="@dimen/dimen043d"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.conversation.ui.conversationrow.businessmessaging.limitedtimeoffer.LimitedTimeOfferView
+        android:id="@id/conversation_row_lto_offer_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_asteria"
+        android:layout="@layout/layout0f24"
+        android:inflatedId="@id/settings_asteria"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/nova_row_item_stub"
+        android:layout="@layout/layout0f33"
+        android:inflatedId="@id/nova_row_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/business_tools"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str0142"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2ec4"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_store"
+        app:attr0702="icon" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/meta_verified_stub"
+        android:layout="@layout/layout0f2a"
+        android:inflatedId="@id/meta_verified"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/premium_tools_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0f2a"
+        android:inflatedId="@id/premium_tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <View
+        android:id="@id/business_tools_divider"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/dimen0c88"
+        style="@style/style0355" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_account_info"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str0142"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2ec4"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06e5="?attr0a29"
+        app:attr06ec="badge_dot"
+        app:attr06f6="@drawable/ic_key"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/companion_settings_account_info"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str0c79"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2ec4"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_key"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/privacy_preference"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str29a1"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2f8d"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_lock"
+        app:attr0702="icon" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_sponsor_controls"
+        android:layout="@layout/layout0f46"
+        android:inflatedId="@id/settings_sponsor_controls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_avatar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str2ed8"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2ed7"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_avatar_v2"
+        app:attr0702="icon" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_lists"
+        android:visibility="gone"
+        android:layout="@layout/layout0f32"
+        android:inflatedId="@id/settings_lists_inflated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_favorites"
+        android:visibility="gone"
+        android:layout="@layout/layout0f31"
+        android:inflatedId="@id/settings_favorites_inflated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_chat"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str0ab8"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2ee4"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/vec_ic_chat"
+        app:attr06f8="true"
+        app:attr0702="icon" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_broadcasts"
+        android:visibility="gone"
+        android:layout="@layout/layout0f26"
+        android:inflatedId="@id/settings_broadcasts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_notifications"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str222f"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2f6e"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_notifications"
+        app:attr06f8="true"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_data_usage"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str0efb"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2f6e"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_data_usage"
+        app:attr06f8="true"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_aura"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_star"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_accessibility"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str00f0"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2ec3"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_accessibility"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_language"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="English"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str1ab4"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_language"
+        app:attr06f8="true"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_help"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str189b"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str4226"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06e5="?attr0a29"
+        app:attr06ec="badge_dot"
+        app:attr06f6="@drawable/ic_help"
+        app:attr06f8="true"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/settings_report_bug"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c8="body2"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/wa_ic_bug_report"
+        app:attr06f8="true"
+        app:attr0702="icon" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_debug_new_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0f2a"
+        android:inflatedId="@id/settings_debug_new_inflated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_old_debug_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0f37"
+        android:inflatedId="@id/settings_old_debug_inflated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?attr07a6" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/setting_tell_a_friend"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c9="@string/str33b9"
+        app:attr06ca="body1"
+        app:attr06e1="true"
+        app:attr06f6="@drawable/ic_group"
+        app:attr06f8="true"
+        app:attr0702="icon" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_early_access_program_stub"
+        android:layout="@layout/layout0f2f"
+        android:inflatedId="@id/settings_early_access_program_inflated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/settings_dogfooding_nudge_stub"
+        android:layout="@layout/layout0d8e"
+        android:inflatedId="@id/settings_dogfooding_nudge_inflated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/from_meta_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3d5b"
+        android:importantForAccessibility="yes">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen00cf"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:paddingTop="@dimen/dimen103b"
+            android:paddingBottom="@dimen/dimen1039"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str3d5a"
+            android:maxLines="1" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen1038"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/attribution_brand"
+            app:attr090d="@color/color077f" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/bookmarks_vertical"
+        android:layout="@layout/layout0215"
+        android:inflatedId="@id/bookmarks_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/bookmarks_horizontal"
+        android:layout="@layout/layout0214"
+        android:inflatedId="@id/bookmarks_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/style053b" />
+</merge>

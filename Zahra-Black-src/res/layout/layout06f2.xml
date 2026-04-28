@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.text.ReadMoreTextView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    whatsapp:attr06be="3"
+    whatsapp:attr06c0="?attr0a29"
+    whatsapp:attr06c1="@string/str2aa4"
+    style="@style/style05a4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

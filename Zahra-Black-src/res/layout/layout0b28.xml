@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center|top"
+        android:orientation="horizontal"
+        android:id="@id/fullscreen_header"
+        android:paddingLeft="@dimen/dimen0920"
+        android:paddingTop="@dimen/dimen0920"
+        android:paddingRight="@dimen/dimen0920"
+        android:paddingStart="@dimen/dimen0920"
+        android:paddingEnd="@dimen/dimen0920"
+        style="?attr053b">
+        <com.google.android.material.button.MaterialButton
+            android:gravity="center"
+            android:layout_gravity="top"
+            android:id="@id/cancel_button"
+            android:padding="12.0dip"
+            android:layout_width="@dimen/dimen095e"
+            android:layout_height="@dimen/dimen095e"
+            android:insetTop="0.0dip"
+            android:insetBottom="0.0dip"
+            android:contentDescription="@string/str404b"
+            app:attr0411="@drawable/material_ic_clear_black_24dp"
+            style="?attr0538" />
+        <FrameLayout
+            android:id="@id/mtrl_picker_header_title_and_selection"
+            android:paddingLeft="@dimen/dimen0925"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:paddingStart="@dimen/dimen0925">
+            <TextView
+                android:gravity="start|bottom|center"
+                android:layout_gravity="start|center|top"
+                android:id="@id/mtrl_picker_title_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr0386="@dimen/dimen0933"
+                style="?attr053d" />
+            <TextView
+                android:gravity="start|bottom|center"
+                android:layout_gravity="start|center|top"
+                android:id="@id/mtrl_picker_header_selection_text"
+                android:paddingBottom="@dimen/dimen092e"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr0386="@dimen/dimen092f"
+                app:attr04d0="@dimen/dimen0924"
+                style="?attr053c" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="@integer/integer002b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton
+                android:layout_gravity="end|center|top"
+                android:id="@id/confirm_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen095e"
+                android:text="@string/str4058"
+                android:contentDescription="@string/str4058"
+                style="?attr0539" />
+            <include
+                layout="@layout/layout0b2b" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0921"
+        style="?attr053a" />
+</merge>

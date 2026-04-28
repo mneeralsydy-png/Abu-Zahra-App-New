@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/upcoming_events_banner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingRight="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <FrameLayout
+            android:layout_gravity="start|center"
+            android:id="@id/upcoming_events_icon_holder"
+            android:background="@drawable/upcoming_events_calendar_bg"
+            android:layout_width="@dimen/dimen0f3c"
+            android:layout_height="@dimen/dimen0f3c"
+            android:layout_marginRight="@dimen/dimen0ce7">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/upcoming_events_icon"
+                android:padding="0.0dip"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:scaleType="centerCrop"
+                app:attr0838="@drawable/vec_ic_calendar_month"
+                app:attr090d="@color/color01e3"
+                style="@style/style0006" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/upcoming_events_details"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1035"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/dimen1039"
+            android:layout_marginEnd="@dimen/dimen1039">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textColor="?attr0a47"
+                android:ellipsize="end"
+                android:id="@id/upcoming_events_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:fontFamily="?attr03b8"
+                app:attr0a24="wds_font_body2_emphasized"
+                style="@style/style05a7" />
+            <ViewStub
+                android:id="@id/upcoming_events_subtitle_stub"
+                android:layout="@layout/layout0592"
+                android:inflatedId="@id/upcoming_events_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/upcoming_events_peer_avatar_stub"
+                android:layout="@layout/layout0591"
+                android:inflatedId="@id/upcoming_events_peer_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ViewStub
+            android:layout_gravity="center_vertical"
+            android:id="@id/upcoming_events_join_btn_stub"
+            android:layout="@layout/layout0590"
+            android:inflatedId="@id/upcoming_events_join_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/upcoming_events_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0838="@drawable/wds_ic_close" />
+    </LinearLayout>
+    <View
+        android:background="@color/color08e5"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+</LinearLayout>

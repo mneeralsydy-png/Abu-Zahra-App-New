@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a47"
+        android:id="@id/dialog_clear_messages_no_media_message_text"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <include
+        layout="@layout/layout0a43" />
+    <include
+        layout="@layout/layout0a42" />
+    <View
+        android:id="@id/dialog_clear_messages_content_divider"
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039" />
+    <include
+        android:id="@id/media_clear_chats_bottom_sheet_dialog_starred_messages_checkbox"
+        layout="@layout/layout0a41" />
+</LinearLayout>

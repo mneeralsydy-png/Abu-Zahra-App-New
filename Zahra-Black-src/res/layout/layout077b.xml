@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/settings_optin_fragment"
+    android:paddingTop="@dimen/dimen0048"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr03bd="content_end"
+    app:attr03eb="@drawable/wds_picto_third_party_chats_android"
+    app:attr0489="view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

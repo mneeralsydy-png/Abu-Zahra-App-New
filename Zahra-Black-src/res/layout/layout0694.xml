@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+    android:orientation="vertical"
+    android:id="@id/email_verification_screen_text_layout"
+    android:paddingTop="@dimen/dimen0cee"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr03eb="@drawable/wds_picto_email"
+    app:attr0489="view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

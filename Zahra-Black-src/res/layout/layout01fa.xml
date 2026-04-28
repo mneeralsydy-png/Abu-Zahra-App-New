@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/block_confirmation_dialog_root"
+    android:background="@drawable/spam_report_dialog_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/block_dialog_content"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen0cee"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:layout_width="24.0sp"
+                android:layout_height="24.0sp"
+                android:tint="@color/color0347"
+                app:attr0838="@drawable/ic_block" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0cee"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginRight="@dimen/dimen0cee"
+                app:attr0a24="wds_font_headline1"
+                style="@style/style05aa" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a46"
+                android:id="@id/dialog_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0cee"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginRight="@dimen/dimen0cee"
+                app:attr0a24="wds_font_body2"
+                style="@style/style05a6" />
+            <RelativeLayout
+                android:id="@id/checkbox_container"
+                android:background="?android:selectableItemBackground"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0ce9"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:layout_marginRight="@dimen/dimen0cee"
+                android:layout_marginBottom="@dimen/dimen0cec">
+                <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox
+                    android:id="@id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cf0"
+                    android:layout_marginRight="@dimen/dimen0ce8" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/checkbox_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cec"
+                    android:layout_toRightOf="@id/checkbox"
+                    android:fontFamily="?attr03b8"
+                    app:attr0a24="wds_font_body1"
+                    style="@style/style05a4" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textColor="?attr0a46"
+                    android:id="@id/checkbox_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cf0"
+                    android:layout_toRightOf="@id/checkbox"
+                    android:layout_below="@id/checkbox_header"
+                    app:attr0a24="wds_font_body2"
+                    style="@style/style05a6" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_gravity="end"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0cee"
+                android:layout_marginTop="@dimen/dimen0ceb"
+                android:layout_marginRight="@dimen/dimen0cee"
+                android:layout_marginBottom="@dimen/dimen0cee">
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/block_dialog_cancel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str094d"
+                    android:layout_marginEnd="8.0dip"
+                    app:attr096b="borderless" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/block_dialog_block_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str060f"
+                    app:attr096b="borderless" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/block_dialog_loading"
+        android:padding="24.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ProgressBar
+                android:id="@id/loader"
+                android:layout_width="48.0dip"
+                android:layout_height="48.0dip" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style05a8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str2b4a"
+                android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

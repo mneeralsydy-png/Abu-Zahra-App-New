@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/bill_summary_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/bill_details"
+        android:background="@color/color00cf"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/bill_summary_recycler_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+    <View
+        android:id="@id/shadow_top"
+        android:background="@drawable/merchant_details_downward_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen011c" />
+    <LinearLayout
+        android:id="@id/continue_button_container"
+        android:paddingTop="@dimen/dimen011a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen011a"
+        android:paddingEnd="@dimen/dimen011a">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/continue_button"
+            android:layout_width="fill_parent"
+            android:text="@string/str3d8c"
+            android:maxLines="1"
+            style="@style/style055c" />
+    </LinearLayout>
+    <include
+        android:id="@id/bbps_branding_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0693"
+        layout="@layout/layout01de" />
+</LinearLayout>

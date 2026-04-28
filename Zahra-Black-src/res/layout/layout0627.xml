@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/title_toolbar"
+        android:background="?attr0923"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr02dd="gone"
+        app:attr049a="parent"
+        app:attr04a2="0.08"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style0520" />
+    <com.whatsapp.calling.ui.dialer.DialerNumberView
+        android:textSize="@dimen/dimen049f"
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:id="@id/dialed_number"
+        android:background="@null"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:fontFamily="?attr0a13"
+        android:layout_marginStart="@dimen/dimen0ce5"
+        android:layout_marginEnd="@dimen/dimen0ce5"
+        app:attr0490="true"
+        app:attr0495="@id/dialer_number_details"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title_toolbar"
+        app:attr0586="@dimen/dimen04a0" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="?attr0a46"
+        android:id="@id/dialer_number_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen04a3"
+        android:maxLines="1"
+        android:drawablePadding="@dimen/dimen0ce7"
+        android:layout_marginStart="@dimen/dimen0ce5"
+        android:layout_marginEnd="@dimen/dimen0ce5"
+        app:attr0490="true"
+        app:attr0495="@id/guideline_top"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/dialed_number"
+        app:attr04b2="0.0"
+        style="@style/style05a4" />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@id/dialer_number_details_shimmer"
+        android:background="@drawable/rounded_corner_dialer_shimmer_background"
+        android:layout_width="@dimen/dimen04a1"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/dialer_number_details"
+        app:attr049a="@id/dialer_number_details"
+        app:attr04ad="@id/dialer_number_details"
+        app:attr04b1="@id/dialer_number_details"
+        app:attr07d4="false" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/guideline_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049e="@dimen/dimen04a2" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/one"
+        android:contentDescription="@string/str3df7"
+        app:attr02d0="@string/str3e11"
+        app:attr0495="@id/four"
+        app:attr049b="@id/two"
+        app:attr04b0="@id/guideline_top"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/two"
+        android:contentDescription="@string/str3df8"
+        app:attr02d0="@string/str3e15"
+        app:attr0495="@id/five"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/guideline_top"
+        app:attr04ca="@string/str3e02"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/three"
+        android:contentDescription="@string/str3df9"
+        app:attr02d0="@string/str3e14"
+        app:attr0495="@id/six"
+        app:attr04ac="@id/two"
+        app:attr04b0="@id/guideline_top"
+        app:attr04ca="@string/str3e03"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/four"
+        android:contentDescription="@string/str3dfa"
+        app:attr02d0="@string/str3e0f"
+        app:attr0495="@id/seven"
+        app:attr049b="@id/five"
+        app:attr04b0="@id/one"
+        app:attr04ca="@string/str3e04"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/five"
+        android:contentDescription="@string/str3dfb"
+        app:attr02d0="@string/str3e0e"
+        app:attr0495="@id/eight"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/two"
+        app:attr04ca="@string/str3e05"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/six"
+        android:contentDescription="@string/str3dfc"
+        app:attr02d0="@string/str3e13"
+        app:attr0495="@id/nine"
+        app:attr04ac="@id/five"
+        app:attr04b0="@id/three"
+        app:attr04ca="@string/str3e06"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/seven"
+        android:contentDescription="@string/str3dfd"
+        app:attr02d0="@string/str3e12"
+        app:attr0495="@id/star"
+        app:attr049b="@id/eight"
+        app:attr04b0="@id/four"
+        app:attr04ca="@string/str3e09"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/eight"
+        android:contentDescription="@string/str3dfe"
+        app:attr02d0="@string/str3e0d"
+        app:attr0495="@id/zero"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/five"
+        app:attr04ca="@string/str3e0b"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/nine"
+        android:contentDescription="@string/str3dff"
+        app:attr02d0="@string/str3e10"
+        app:attr0495="@id/pound"
+        app:attr04ac="@id/eight"
+        app:attr04b0="@id/six"
+        app:attr04ca="@string/str3e0c"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/star"
+        android:contentDescription="@string/str3e01"
+        app:attr02d0="@string/str3e0a"
+        app:attr0495="@id/call"
+        app:attr049b="@id/zero"
+        app:attr04b0="@id/seven"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/zero"
+        android:contentDescription="@string/str3df6"
+        app:attr02d0="@string/str3e16"
+        app:attr0495="@id/call"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/eight"
+        app:attr04ca="@string/str3e07"
+        style="@style/style01e1" />
+    <com.whatsapp.calling.ui.dialer.DialpadKey
+        android:id="@id/pound"
+        android:contentDescription="@string/str3e00"
+        app:attr02d0="@string/str3e08"
+        app:attr0495="@id/call"
+        app:attr04ac="@id/zero"
+        app:attr04b0="@id/nine"
+        style="@style/style01e1" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/message_dialed_number"
+        android:background="@drawable/dialer_action_button_background"
+        android:src="@drawable/ic_action_dialer_chat"
+        android:contentDescription="@string/str1044"
+        app:attr0494="@id/call"
+        app:attr049a="@id/star"
+        app:attr04ad="@id/star"
+        app:attr04b1="@id/call"
+        style="@style/style01e4" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/call"
+        android:background="@drawable/solid_green_circle"
+        android:src="@drawable/ic_action_dialer_call"
+        android:contentDescription="@string/str103e"
+        app:attr0495="@id/guideline_bottom"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/zero"
+        style="@style/style01e4" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/clear_dialed_number"
+        android:background="@drawable/dialer_action_button_background"
+        android:src="@drawable/ic_action_dialer_clear"
+        android:contentDescription="@string/str1041"
+        app:attr0494="@id/call"
+        app:attr049a="@id/pound"
+        app:attr04ad="@id/pound"
+        app:attr04b1="@id/call"
+        style="@style/style01e4" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/guideline_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049e="@dimen/dimen0497" />
+</androidx.constraintlayout.widget.ConstraintLayout>

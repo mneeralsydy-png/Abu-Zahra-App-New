@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/item_list"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        app:attr06ca="body1Emphasized"
+        app:attr06f6="@drawable/ic_call"
+        app:attr0702="icon"
+        app:attr0704="spacing_double" />
+    <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox
+        android:id="@id/item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_marginStart="@dimen/dimen103a" />
+</LinearLayout>

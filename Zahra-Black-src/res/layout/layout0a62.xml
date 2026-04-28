@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="left"
+        android:layout_gravity="center|left"
+        android:id="@id/author"
+        android:paddingBottom="@dimen/dimen1035"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?attr09f1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="left"
+        android:layout_gravity="center|left"
+        android:id="@id/authorColon"
+        android:paddingRight="1.0dip"
+        android:paddingBottom="@dimen/dimen1035"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="?attr09f1" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="left"
+        android:layout_gravity="center|left"
+        android:id="@id/message_type_indicator"
+        android:layout_width="@dimen/dimen0f8e"
+        android:layout_height="@dimen/dimen0f8e"
+        android:layout_marginLeft="1.0dip"
+        android:layout_marginRight="@dimen/dimen1030"
+        android:scaleType="fitStart" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:ellipsize="end"
+        android:gravity="left"
+        android:layout_gravity="center|left"
+        android:id="@id/caption"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:layout_weight="1.0"
+        style="?attr09f1" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.actiontile.WDSActionTile
+    android:icon="@drawable/ic_manage_prefs"
+    android:layout_gravity="center"
+    android:id="@id/uc_action_tile_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str35be"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

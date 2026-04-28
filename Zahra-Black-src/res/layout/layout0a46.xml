@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:descendantFocusability="afterDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.mediacomposer.ui.app.bottombar.filterswipe.FilterSwipeView
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/filter_swipe"
+        android:paddingBottom="3.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="21.0dip"
+        android:layout_above="@id/thumbnails"
+        android:transitionName="@string/str42e0" />
+    <ViewStub
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:id="@id/filter_swipe_button_stub"
+        android:paddingBottom="@dimen/dimen1035"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout="@layout/layout0736"
+        android:inflatedId="@id/filter_swipe_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="21.0dip"
+        android:layout_above="@id/thumbnails" />
+    <ViewStub
+        android:id="@id/media_composer_bottom_bar_status_catalog_music_snackbar_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen09e2"
+        android:layout_marginRight="@dimen/dimen09e2"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:layout_above="@id/view_footer_layout" />
+    <ViewStub
+        android:id="@id/media_composer_bottom_bar_selection_pills_toast_stub"
+        android:layout="@layout/layout0a4c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:layout_above="@id/view_footer_layout" />
+    <ViewStub
+        android:id="@id/bottom_banner_container"
+        android:layout="@layout/layout0a45"
+        android:inflatedId="@id/bottom_banner_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16.0dip"
+        android:layout_above="@id/thumbnails" />
+    <View
+        android:id="@id/view_footer_layout"
+        android:background="@drawable/media_view_footer_gradient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/caption_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_gravity="bottom"
+        android:id="@id/thumbnails"
+        android:paddingTop="@dimen/dimen0211"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/caption_layout"
+        android:layout_centerHorizontal="true" />
+    <ViewStub
+        android:id="@id/bottom_bar_video_controls"
+        android:layout="@layout/layout1167"
+        android:inflatedId="@id/bottom_bar_video_controls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/thumbnails" />
+    <androidx.fragment.app.FragmentContainerView
+        android:name="com.whatsapp.mediacomposer.ui.caption.CaptionFragment"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@id/caption_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen09e2"
+        android:layout_marginRight="@dimen/dimen09e2"
+        android:layout_marginBottom="@dimen/dimen0cec"
+        android:layout_toLeftOf="@id/send"
+        android:layout_above="@id/recipients_container"
+        android:layout_alignParentLeft="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:transitionName="@string/str42e1" />
+    <FrameLayout
+        android:id="@id/recipients_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+        <ViewStub
+            android:layout_gravity="bottom"
+            android:id="@id/media_recipients_stub"
+            android:inflatedId="@id/media_recipients"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            whatsapp:attr048b="bottom" />
+    </FrameLayout>
+    <ViewStub
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/sticker_add_button_stub"
+        android:layout="@layout/layout102a"
+        android:inflatedId="@id/sticker_add_button_stub"
+        android:layout_width="@dimen/dimen08b3"
+        android:layout_height="@dimen/dimen08b3"
+        android:layout_marginRight="@dimen/dimen0216"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:layout_toLeftOf="@id/send"
+        android:layout_above="@id/bottom"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginEnd="@dimen/dimen0216" />
+    <ViewStub
+        android:layout_gravity="bottom"
+        android:id="@id/sticker_add_to_pack_button_stub"
+        android:layout="@layout/layout102c"
+        android:inflatedId="@id/sticker_add_to_pack_button_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen0216"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:layout_above="@id/bottom"
+        android:layout_marginEnd="@dimen/dimen0216" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/send"
+        android:background="@drawable/input_circle_dark"
+        android:layout_width="@dimen/dimen08b3"
+        android:layout_height="@dimen/dimen08b3"
+        android:layout_marginLeft="@dimen/dimen0216"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:scaleType="center"
+        android:layout_above="@id/bottom"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/str4217"
+        android:layout_marginStart="@dimen/dimen0216"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        android:transitionName="@string/str42e7"
+        whatsapp:attr0838="@drawable/input_send"
+        whatsapp:attr090d="?attr0823" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/add_button_standalone"
+        android:background="@drawable/add_more_standalone"
+        android:visibility="gone"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        android:scaleType="center"
+        android:layout_above="@id/bottom"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/str01c4"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        whatsapp:attr0838="@drawable/wa_ic_filter"
+        whatsapp:attr090d="?attr0a2d"
+        style="@style/style0006" />
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_above="@id/expressions_tray_emoji_search_container"
+        android:layout_alignWithParentIfMissing="true"
+        whatsapp:attr048b="bottom" />
+    <com.whatsapp.emoji.search.EmojiSearchKeyboardContainer
+        android:id="@id/expressions_tray_emoji_search_container"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/keyboard_holder" />
+    <View
+        android:id="@id/keyboard_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_alignParentBottom="true" />
+</merge>

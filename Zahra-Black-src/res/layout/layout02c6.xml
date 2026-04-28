@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen01cd"
+    android:paddingEnd="@dimen/dimen01cd"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/avatar"
+        android:focusable="false"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr08aa="@dimen/dimen0cc5"
+        style="@style/style0198" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr049b="@id/contact_additional_info"
+        app:attr04a3="@dimen/dimen0648"
+        app:attr04ac="@id/avatar"
+        app:attr04b1="parent"
+        style="?attr04e1" />
+    <ViewStub
+        android:id="@id/contact_additional_info_stub"
+        android:layout="@layout/layout0700"
+        android:inflatedId="@id/contact_additional_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049b="@id/voice_call"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/voice_call"
+        android:background="@drawable/calls_history_call_action_background"
+        android:layout_width="@dimen/dimen0f56"
+        android:layout_height="@dimen/dimen0f56"
+        android:scaleType="center"
+        android:contentDescription="@string/str3d5c"
+        android:layout_marginEnd="@dimen/dimen0e9a"
+        app:attr0494="parent"
+        app:attr049b="@id/video_call"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_call_white"
+        app:attr090d="?attr0a44" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:id="@id/video_call"
+        android:background="@drawable/selector_orange_gradient"
+        android:layout_width="@dimen/dimen0f56"
+        android:layout_height="@dimen/dimen0f56"
+        android:scaleType="center"
+        android:contentDescription="@string/str4307"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_videocam_white"
+        app:attr090d="?attr0a44" />
+</androidx.constraintlayout.widget.ConstraintLayout>

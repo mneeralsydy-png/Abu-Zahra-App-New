@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facepile="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:id="@id/call_permission_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen0569"
+        android:minHeight="30.0dip">
+        <com.whatsapp.ui.coreui.WaFrameLayout
+            android:id="@id/call_permission_header_frame"
+            android:background="@drawable/conversation_row_event_bubble_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0cec">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/message_bubble_wrapper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ce7"
+                android:layout_marginBottom="@dimen/dimen0ce7"
+                android:layout_marginStart="@dimen/dimen0ce7"
+                android:layout_marginEnd="@dimen/dimen0ce7">
+                <FrameLayout
+                    android:background="@drawable/bubble_circle_incoming"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_marginRight="@dimen/dimen0ce7">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="center"
+                        android:layout_width="@dimen/dimen0fdd"
+                        android:layout_height="@dimen/dimen0fdd"
+                        android:tint="@color/color05f4"
+                        app:attr0838="@drawable/vec_anim_voice_call" />
+                </FrameLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/call_permission_request_title_wrapper"
+                    android:paddingBottom="@dimen/dimen0cec"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                        android:textAppearance="@style/style05a7"
+                        android:id="@id/call_permission_request_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                        android:textAppearance="@style/style05a6"
+                        android:textColor="@color/color08de"
+                        android:gravity="left"
+                        android:id="@id/call_permission_request_subtitle"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:layout_gravity="bottom|center|right"
+                        android:orientation="horizontal"
+                        android:id="@id/date_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:id="@id/date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/style0567" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.whatsapp.ui.coreui.WaFrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/template_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0cec">
+            <com.whatsapp.conversation.ui.conversationrow.businessmessaging.interactive.InteractiveMessageView
+                android:orientation="vertical"
+                android:id="@id/interactive_view"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="right"
+            android:layout_gravity="bottom|center|right"
+            android:orientation="horizontal"
+            android:id="@id/date_wrapper"
+            android:paddingRight="@dimen/dimen01de"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0ce7">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/template_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0a24="wds_font_chat_body2" />
+        </LinearLayout>
+        <View
+            android:id="@id/event_action_divider"
+            style="@style/style035a" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/call_permission_reply_action_button"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textAppearance="@style/style05a5"
+                android:textColor="@color/color08dd"
+                android:gravity="center"
+                android:id="@id/call_permission_reply_button_text"
+                android:layout_width="wrap_content"
+                style="@style/style03c3" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/call_permission_reply_action_button_icon"
+                android:paddingTop="@dimen/dimen0b5f"
+                android:layout_width="@dimen/dimen0f5a"
+                android:layout_height="@dimen/dimen0f5a"
+                android:src="@drawable/ic_keyboard_arrow_down"
+                app:attr090d="@color/color08dd" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

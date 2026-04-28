@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:id="@id/business_details_business_account"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr040b="?attr0a59"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e2="@string/str07d5"
+        app:attr04e6="@drawable/ic_info_2"
+        app:attr04e9="@string/str07d6" />
+</com.whatsapp.ui.coreui.InfoCard>

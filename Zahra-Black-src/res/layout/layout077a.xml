@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/settings_optin_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/reach_banner_stub"
+            android:layout="@layout/layout0934"
+            android:inflatedId="@id/reach_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0ce8" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/interop_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c6="@string/str19fc"
+            app:attr06c8="body2"
+            app:attr06c9="@string/str3577"
+            app:attr06ca="body1"
+            app:attr06f6="@drawable/vec_ic_power"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/notif_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c6="@string/str2a67"
+            app:attr06c8="body2"
+            app:attr06c9="@string/str2a6c"
+            app:attr06ca="body1"
+            app:attr06ec="wds_switch"
+            app:attr06f6="@drawable/wa_ic_notifications_1"
+            app:attr0702="icon" />
+    </LinearLayout>
+</ScrollView>

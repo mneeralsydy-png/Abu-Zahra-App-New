@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="end"
+        android:id="@id/main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dimen05c8"
+        android:minHeight="20.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/flow_response_bg"
+            android:background="@drawable/conversation_row_flows_termination_message_v2_bubble_background"
+            android:paddingTop="@dimen/dimen05c9"
+            android:paddingBottom="@dimen/dimen0cec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen01db"
+            android:paddingStart="@dimen/dimen05c9"
+            android:paddingEnd="@dimen/dimen0cf3">
+            <FrameLayout
+                android:id="@id/flow_response_icon_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr049b="@id/flow_response_title_subtitle_layout"
+                app:attr04a4="packed"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <View
+                    android:id="@id/flow_response_icon_circular_bg"
+                    android:background="@drawable/bubble_circle_outgoing"
+                    android:layout_width="@dimen/dimen01e0"
+                    android:layout_height="@dimen/dimen01e0" />
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center"
+                    android:id="@id/flow_response_icon"
+                    android:layout_width="@dimen/dimen05ca"
+                    android:layout_height="@dimen/dimen05ca"
+                    android:scaleType="centerInside"
+                    android:tint="@color/color08bd" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/flow_response_title_subtitle_layout"
+                android:paddingBottom="@dimen/dimen0ced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen0ce7"
+                android:paddingEnd="@dimen/dimen0ce7"
+                app:attr0490="true"
+                app:attr0494="parent"
+                app:attr049b="@id/flow_response_status_layout"
+                app:attr04ac="@id/flow_response_icon_layout"
+                app:attr04b1="parent">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textStyle="bold"
+                    android:textColor="@color/color02c7"
+                    android:ellipsize="end"
+                    android:id="@id/flow_response_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textStyle="normal"
+                    android:textColor="@color/color02c6"
+                    android:ellipsize="end"
+                    android:id="@id/flow_response_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+            </LinearLayout>
+            <FrameLayout
+                android:id="@id/flow_response_status_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ac="@id/flow_response_title_subtitle_layout">
+                <include
+                    layout="@layout/layout04bb" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</merge>

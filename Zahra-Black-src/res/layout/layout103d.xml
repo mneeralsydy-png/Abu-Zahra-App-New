@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.view.SquareFrameLayout
+    android:layout_gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/str324f" />
+    <ViewStub
+        android:layout_gravity="bottom"
+        android:id="@id/overlay_stub"
+        android:background="@drawable/media_hub_thumbnail_rounded_overlay"
+        android:visibility="visible"
+        android:layout="@layout/layout0a5f"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0c3d" />
+    <View
+        android:id="@id/selection_overlay"
+        android:background="?attr00b2"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/selection_checkmark_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout1056"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="start|bottom|center"
+        android:id="@id/button_image"
+        android:layout_width="@dimen/dimen102e"
+        android:layout_height="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:src="@drawable/ic_sticker"
+        android:layout_marginStart="@dimen/dimen1039"
+        app:attr090d="?attr0a2f" />
+    <LinearLayout
+        android:layout_gravity="end|bottom|center"
+        android:orientation="horizontal"
+        android:layout_width="@dimen/dimen102e"
+        android:layout_height="@dimen/dimen102e"
+        android:layout_margin="@dimen/dimen1039">
+        <ViewStub
+            android:id="@id/starred_status"
+            android:visibility="gone"
+            android:layout="@layout/layout0a5e"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:attr090d="?attr0a2f" />
+        <ViewStub
+            android:id="@id/kept_status"
+            android:visibility="gone"
+            android:layout="@layout/layout0a5d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.base.view.SquareFrameLayout>

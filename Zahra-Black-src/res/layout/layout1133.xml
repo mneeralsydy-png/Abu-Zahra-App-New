@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen102e"
+    android:scrollbars="none"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.chip.WDSChipGroup
+        android:id="@id/search_by_mood_chip_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</HorizontalScrollView>

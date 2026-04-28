@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0899"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/me_tab_cover_photo"
+        android:background="@color/color05ef"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="end|center|top"
+        android:id="@id/edit_cover_photo"
+        android:padding="@dimen/dimen1031"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen0fe2"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:scaleType="centerInside"
+        android:text="@string/str3e30"
+        android:drawablePadding="@dimen/dimen1031"
+        android:contentDescription="@string/str0ce7"
+        android:layout_marginEnd="@dimen/dimen103a"
+        android:backgroundTint="@color/color0911"
+        app:attr02e9="@drawable/ic_photo_camera"
+        app:attr096b="tonal" />
+</FrameLayout>

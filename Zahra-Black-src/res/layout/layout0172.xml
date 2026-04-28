@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.topbar.WDSToolbar
+    android:layout_gravity="center"
+    android:id="@id/internal_ai_voice_toolbar"
+    app:attr02dd="visibleOnScroll"
+    app:attr07f1="never"
+    style="@style/style001c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/ai_voice_toolbar_btn_minimize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0009="calling"
+            app:attr0411="@drawable/vec_ic_calling_header_minimize"
+            app:attr0922="calling"
+            app:attr096b="tonal"
+            app:attr09ea="large" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@id/ai_voice_toolbar_layout_bot_info"
+            android:background="@color/color0790"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textColor="@color/color08df"
+                android:id="@id/ai_voice_toolbar_tv_bot_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                style="@style/style0453" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textColor="@color/color08de"
+                android:id="@id/ai_voice_toolbar_tv_bot_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                style="@style/style0450" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/ai_voice_toolbar_btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0009="calling"
+            app:attr0411="@drawable/vec_ic_tune"
+            app:attr0922="calling"
+            app:attr096b="tonal"
+            app:attr09ea="large" />
+    </LinearLayout>
+</com.whatsapp.ui.wds.components.topbar.WDSToolbar>

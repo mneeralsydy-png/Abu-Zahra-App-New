@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/send_container"
+    android:paddingLeft="0.0dip"
+    android:paddingTop="0.0dip"
+    android:paddingRight="0.0dip"
+    android:paddingBottom="0.0dip"
+    android:addStatesFromChildren="true"
+    android:layout_width="@dimen/dimen06d8"
+    android:layout_height="@dimen/dimen06d8"
+    android:elevation="2.0dip"
+    android:stateListAnimator="@anim/anim0034"
+    style="@style/style01af"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/send"
+        android:layout="@layout/layout0442"
+        android:inflatedId="@id/send"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/next"
+        android:layout="@layout/layout0440"
+        android:inflatedId="@id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.WaAsyncImageButton
+        android:layout_gravity="center"
+        android:id="@id/voice_note_btn"
+        android:background="@color/color0790"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:contentDescription="@string/str430c"
+        app:attr0837="@drawable/ic_mic_filled"
+        app:attr090d="?attr0a4b" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/voice_input_button"
+        android:layout="@layout/layout0444"
+        android:inflatedId="@id/voice_input_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

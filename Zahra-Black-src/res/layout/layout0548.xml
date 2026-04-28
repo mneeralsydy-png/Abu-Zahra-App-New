@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/upload_download_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="no">
+        <FrameLayout
+            android:id="@id/progress_bar_container"
+            android:background="@drawable/circular_background_dark"
+            android:layout_width="@dimen/dimen0405"
+            android:layout_height="@dimen/dimen0405"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:importantForAccessibility="no">
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/progress_bar"
+                android:layout="@layout/layout0350"
+                android:inflatedId="@id/progress_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:importantForAccessibility="no" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/cancel_download"
+                android:layout="@layout/layout0318"
+                android:inflatedId="@id/cancel_download"
+                android:layout_width="12.0dip"
+                android:layout_height="12.0dip"
+                android:importantForAccessibility="yes" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@id/overlay_button_container"
+            android:background="@drawable/download_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:importantForAccessibility="no">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/media_retry_btn"
+                android:visibility="gone"
+                android:importantForAccessibility="yes"
+                style="@style/style01b4" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/play_button"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str28f7"
+                android:importantForAccessibility="yes"
+                app:attr0838="@drawable/ic_video_play_conv" />
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

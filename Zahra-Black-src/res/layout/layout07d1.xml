@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="?attr030e"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="36.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/gif_recents_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:contentDescription="@string/str2ab1"
+            app:attr0838="@drawable/ic_schedule" />
+        <View
+            android:layout_gravity="bottom"
+            android:id="@id/gif_recent_marker"
+            android:background="?attr0a29"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/gif_favorites_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:contentDescription="@string/str3133"
+            app:attr0838="@drawable/ic_star" />
+        <View
+            android:layout_gravity="bottom"
+            android:id="@id/gif_favorites_marker"
+            android:background="?attr0a29"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/gif_category_recycler"
+        android:paddingLeft="@dimen/dimen1035"
+        android:paddingRight="@dimen/dimen1035"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="7.0"
+        android:paddingStart="@dimen/dimen1035"
+        android:paddingEnd="@dimen/dimen1035" />
+</LinearLayout>

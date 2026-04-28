@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/out_of_chat_playback_holder"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        android:id="@id/action_bar"
+        layout="@layout/layout10cd" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/style01a2">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <ViewStub
+                android:id="@id/reachout_timelocks_banner_holder"
+                android:layout="@layout/layout0e18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:orientation="vertical"
+                android:id="@id/warning"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@id/warning_text"
+                    android:padding="@dimen/dimen0cea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    app:attr0a24="wds_font_body2" />
+                <View
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/divider_gray"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dimen0347" />
+            </FrameLayout>
+            <ViewStub
+                android:id="@id/request_contact_info_card"
+                android:layout="@layout/layout0e60"
+                android:inflatedId="@id/request_contact_info_card"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+                <ViewStub
+                    android:id="@id/selected_list_stub"
+                    android:inflatedId="@id/selected_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dimen0c62" />
+                <ListView
+                    android:id="@android:id/list"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="@dimen/dimen032f"
+                    android:paddingRight="@dimen/dimen0330"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:choiceMode="singleChoice"
+                    android:headerDividersEnabled="false"
+                    android:footerDividersEnabled="true" />
+            </FrameLayout>
+            <include
+                android:id="@android:id/empty"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/layout0b32" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.fab.WDSFab
+            android:id="@id/next_btn"
+            android:visibility="invisible"
+            android:src="@drawable/ic_fab_next"
+            android:contentDescription="@string/str2157"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            style="@style/style055f" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

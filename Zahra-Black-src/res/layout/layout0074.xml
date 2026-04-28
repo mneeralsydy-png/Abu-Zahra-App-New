@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        style="@style/style0520" />
+    <ScrollView
+        android:id="@id/community_settings_scroll_view"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/dimen102e"
+                    android:paddingEnd="@dimen/dimen102e"
+                    app:attr03ee="@string/str0c61"
+                    app:attr03ef="defaultHeader" />
+                <ViewStub
+                    android:id="@id/community_settings_permissions_add_members"
+                    android:layout="@layout/layout0393"
+                    android:inflatedId="@id/community_settings_permissions_add_members"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                    android:id="@id/community_settings_permissions_add_groups"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr06c6="@string/str3dc3"
+                    app:attr06c9="@string/str0c55"
+                    app:attr06e1="true" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:id="@id/item_integrator_container"
+    android:paddingTop="@dimen/dimen0126"
+    android:paddingBottom="@dimen/dimen0126"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0702"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/item_integrator_icon"
+        android:layout_width="@dimen/dimen0701"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/dimen103b"
+        android:layout_marginRight="@dimen/dimen103b"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_vertical"
+        android:id="@id/item_integrator_name"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/item_integrator_icon"
+        style="@style/style0271" />
+    <com.whatsapp.ui.coreui.checkbox.RtlCheckBox
+        android:layout_gravity="center"
+        android:id="@id/item_integrator_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="@dimen/dimen103b"
+        android:layout_alignParentRight="true"
+        style="@style/style02f9" />
+    <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+        android:layout_gravity="center"
+        android:id="@id/item_integrator_switch"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="@dimen/dimen103b"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

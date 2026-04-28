@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.media.ui.MediaCaptionTextView
+    android:textSize="18.0sp"
+    android:textColor="?attr0a2f"
+    android:layout_gravity="bottom"
+    android:padding="8.0dip"
+    android:focusable="true"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:shadowColor="?attr0a2d"
+    android:shadowDx="1.0"
+    android:shadowDy="1.0"
+    android:shadowRadius="2.5"
+    android:lineSpacingMultiplier="1.12"
+    android:importantForAccessibility="yes"
+    app:attr06be="2"
+    app:attr06bf="true"
+    app:attr06c0="?attr0a2f"
+    app:attr06c1="@string/str2aa4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

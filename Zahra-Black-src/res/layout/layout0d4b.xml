@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/poll_option_main_layout"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@id/poll_option_vote_checkbox"
+        android:background="@drawable/rounded_hollow_checkbox"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0b1b"
+        android:layout_height="@dimen/dimen0b1a"
+        android:layout_marginTop="1.0dip"
+        android:button="@null"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="-6.0dip"
+        android:layout_marginEnd="@dimen/dimen1031"
+        app:attr0101="@null"
+        app:attr010b="@color/color06cf"
+        app:attr049b="@id/poll_option_name"
+        app:attr04ad="parent"
+        app:attr04b1="@id/poll_option_name" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style02ef"
+        android:textSize="@dimen/dimen0fb0"
+        android:gravity="left"
+        android:id="@id/poll_option_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:importantForAccessibility="no"
+        app:attr0490="true"
+        app:attr049b="@id/poll_option_vote_count"
+        app:attr04ac="@id/poll_option_vote_checkbox"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_chat_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style02f0"
+        android:textSize="@dimen/dimen0fbc"
+        android:id="@id/poll_option_vote_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/dimen1031"
+        app:attr0494="@id/poll_option_name"
+        app:attr049a="parent"
+        app:attr04ac="@id/poll_option_name"
+        app:attr04b1="@id/poll_option_name"
+        app:attr0a24="wds_font_chat_body3" />
+    <com.whatsapp.ui.coreui.components.RoundCornerProgressBarV2
+        android:id="@id/poll_vote_ratio"
+        android:layout_width="0.0dip"
+        android:layout_height="16.0dip"
+        android:layout_marginTop="@dimen/dimen1035"
+        android:layout_marginBottom="1.0dip"
+        android:importantForAccessibility="no"
+        app:attr0494="parent"
+        app:attr049a="@id/poll_option_vote_count"
+        app:attr04ad="@id/poll_option_name"
+        app:attr04b0="@id/poll_option_name"
+        style="@style/style02f3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

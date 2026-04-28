@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/title_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="start|center"
+            android:id="@id/close_button"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close"
+            style="@style/style0001" />
+    </com.whatsapp.ui.wds.components.topbar.WDSToolbar>
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/title_toolbar_text_v2"
+        android:layout="@layout/layout0e45"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+        android:orientation="vertical"
+        android:id="@id/old_device_move_account_notice_text_layout"
+        android:paddingTop="@dimen/dimen0cee"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr03eb="@drawable/registration_device_confirmation"
+        app:attr0489="view" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+.class public final LX/Hh3;
+.super LX/1L9;
+.source ""
+
+
+# instance fields
+.field public A00:LX/00p;
+
+.field public A01:LX/092;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static A00(LX/Hh3;Ljava/lang/Class;)V
+    .locals 1
+
+    new-instance v0, LX/094;
+
+    invoke-direct {v0, p1}, LX/094;-><init>(Ljava/lang/Class;)V
+
+    iput-object v0, p0, LX/Hh3;->A01:LX/092;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public A03()V
+    .locals 1
+
+    iget-object v0, p0, LX/Hh3;->A01:LX/092;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, LX/Hh3;->A00:LX/00p;
+
+    if-eqz v0, :cond_1
+
+    return-void
+
+    :cond_0
+    const-string v0, "integrationInterface was not specified."
+
+    goto :goto_0
+
+    :cond_1
+    const-string v0, "defaultImplementation was not specified."
+
+    :goto_0
+    invoke-virtual {p0, v0}, LX/1L9;->A02(Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    throw v0
+.end method

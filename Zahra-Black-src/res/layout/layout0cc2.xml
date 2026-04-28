@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/payment_method_row_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/payment_method_provider_icon"
+            android:layout_width="@dimen/dimen0ac1"
+            android:layout_height="@dimen/dimen0ac1"
+            android:layout_margin="@dimen/dimen064c"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/str2659"
+            app:attr0838="@drawable/av_bank" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:id="@id/account_number_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginBottom="16.0dip"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:ellipsize="end"
+                    android:id="@id/payment_branding"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str1430"
+                    android:singleLine="true"
+                    app:attr0a24="wds_font_body2" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.facebook.shimmer.ShimmerFrameLayout
+                            android:id="@id/payment_method_name_shimmer"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            app:attr07d4="false"
+                            app:attr07d5="0.5"
+                            app:attr07d6="?attr0a47">
+                            <com.whatsapp.ui.coreui.base.WaTextView
+                                android:textSize="@dimen/dimen0fb0"
+                                android:layout_gravity="start"
+                                android:id="@id/payment_method_bank_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="2"
+                                android:singleLine="false"
+                                android:textAlignment="viewStart"
+                                style="@style/style0289" />
+                        </com.facebook.shimmer.ShimmerFrameLayout>
+                    </LinearLayout>
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:textSize="@dimen/dimen0fb6"
+                        android:layout_gravity="start"
+                        android:id="@id/payment_method_offer_details"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:singleLine="false"
+                        app:attr0a24="wds_font_body2"
+                        style="@style/style0285" />
+                </LinearLayout>
+                <com.whatsapp.ui.coreui.CopyableTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr0a46"
+                    android:id="@id/payment_method_account_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:ellipsize="end"
+                    android:id="@id/payment_method_provider_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    app:attr0a24="wds_font_body2" />
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="end|center"
+                android:id="@id/payment_method_decorate_icon"
+                android:visibility="gone"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginEnd="16.0dip"
+                app:attr0838="@drawable/ic_check_small" />
+            <RadioButton
+                android:layout_gravity="end|center"
+                android:id="@id/payment_method_radio_button"
+                android:background="@color/color0790"
+                android:visibility="gone"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@id/account_number_divider"
+        android:background="@drawable/payments_divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="@dimen/dimen0ac0" />
+</merge>

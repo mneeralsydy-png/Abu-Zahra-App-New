@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/gdrive_restore_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0036" />
+    <com.whatsapp.ui.coreui.WaLinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/gdrive_restore_encrypted_backup"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_width="10.0dip"
+            android:layout_height="10.0dip"
+            app:attr0838="@drawable/ic_lock_small" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.0dip"
+            android:text="@string/str1248"
+            style="@style/style0036" />
+    </com.whatsapp.ui.coreui.WaLinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/restore_general_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:text="@string/str1661"
+        android:layout_weight="1.0"
+        style="@style/style0036" />
+</LinearLayout>

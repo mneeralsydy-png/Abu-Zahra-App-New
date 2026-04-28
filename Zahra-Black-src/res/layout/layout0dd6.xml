@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.AspectRatioFrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr005a="@dimen/dimen0b4b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/product_detail_image_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.business.biz.catalog.view.CarouselScrollbarView
+        android:layout_gravity="bottom"
+        android:id="@id/scrollbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0b51"
+        android:layout_margin="@dimen/dimen0b52" />
+</com.whatsapp.ui.coreui.components.AspectRatioFrameLayout>

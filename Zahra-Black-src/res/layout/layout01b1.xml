@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:layout_width="@dimen/dimen0ea3"
+    android:layout_height="@dimen/dimen0ea3"
+    app:attr090d="@color/color06d8"
+    style="@style/style0544"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

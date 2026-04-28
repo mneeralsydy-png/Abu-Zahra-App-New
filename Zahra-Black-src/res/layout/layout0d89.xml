@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.WaSwitchView
+    android:id="@id/chat_settings_notify_new_message_switch_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr09a5="@string/str03f5"
+    app:attr09a6="?attr07b1"
+    app:attr09a7="@string/str03f4"
+    app:attr09a8="?attr07b5"
+    style="@style/style071b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

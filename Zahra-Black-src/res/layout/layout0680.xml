@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0ce7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        android:text="@string/str1cca"
+        style="@style/style05a7" />
+    <androidx.cardview.widget.CardView
+        android:id="@id/member_tag_preview_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr011d="@android:color/transparent"
+        app:attr011e="@dimen/dimen0f95"
+        app:attr011f="0.0dip">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/bgView"
+            android:padding="@dimen/dimen0ce7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                android:layout_gravity="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cec"
+                layout="@layout/layout081c" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/tag_preview_bubble"
+                android:background="@drawable/bubble_circle_incoming"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0cec"
+                android:layout_marginRight="@dimen/dimen0cec"
+                android:paddingEnd="@dimen/dimen0ced"
+                app:attr090d="?attr0a29">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="14.0sp"
+                    android:id="@id/preview_display_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen0ce9"
+                    android:layout_marginTop="@dimen/dimen0ce7"
+                    android:layout_marginRight="@dimen/dimen0ce9"
+                    android:fontFamily="?attr03b8" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="12.0sp"
+                    android:textColor="@color/color08de"
+                    android:id="@id/member_tag_preview_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen0ce9"
+                    android:layout_marginTop="@dimen/dimen1035"
+                    android:layout_marginRight="@dimen/dimen0ce9"
+                    android:text="@string/str1ccb"
+                    android:fontFamily="?attr03b6" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen0ce9"
+                    android:layout_marginTop="@dimen/dimen0ced"
+                    android:layout_marginRight="@dimen/dimen0ce9"
+                    android:layout_marginBottom="@dimen/dimen0ced">
+                    <View
+                        android:background="@color/color08e5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/dimen0ce7" />
+                    <View
+                        android:background="@color/color08e5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/dimen0ce7"
+                        android:layout_marginTop="@dimen/dimen0ced" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen0ced"
+                        android:layout_marginBottom="@dimen/dimen0ced">
+                        <View
+                            android:background="@color/color08e5"
+                            android:layout_width="0.0dip"
+                            android:layout_height="@dimen/dimen0ce7"
+                            android:layout_weight="0.5" />
+                        <View
+                            android:background="@android:color/transparent"
+                            android:layout_width="0.0dip"
+                            android:layout_height="@dimen/dimen0ce7"
+                            android:layout_weight="0.5" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

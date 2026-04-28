@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/attribution_wave_animation"
+        android:layout="@layout/layout0b65"
+        android:inflatedId="@id/attribution_wave_animation"
+        android:layout_width="@dimen/dimen0fea"
+        android:layout_height="@dimen/dimen0fea"
+        app:attr0494="parent"
+        app:attr049b="@id/attribution_title"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/attribution_muted"
+        android:layout="@layout/layout0b57"
+        android:inflatedId="@id/attribution_muted"
+        android:layout_width="@dimen/dimen0fea"
+        android:layout_height="@dimen/dimen0fea"
+        app:attr0494="parent"
+        app:attr049b="@id/attribution_title"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="end"
+        app:attr0243="attribution_wave_animation,attribution_muted" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color09b1"
+        android:ellipsize="end"
+        android:id="@id/attribution_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:singleLine="true"
+        android:paddingStart="@dimen/dimen1031"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr049b="@id/attribution_explicit"
+        app:attr04ac="@id/barrier"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body3_emphasized"
+        style="@style/style05a9" />
+    <ViewStub
+        android:id="@id/attribution_explicit"
+        android:layout="@layout/layout0b56"
+        android:inflatedId="@id/attribution_explicit"
+        android:layout_width="@dimen/dimen0fea"
+        android:layout_height="@dimen/dimen0fea"
+        android:layout_marginStart="@dimen/dimen1035"
+        app:attr0494="parent"
+        app:attr049b="@id/attribution_chevron"
+        app:attr04ac="@id/attribution_title"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color09b1"
+        android:id="@id/attribution_chevron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen1035"
+        app:attr0490="true"
+        app:attr0492="@id/attribution_title"
+        app:attr049a="parent"
+        app:attr04ac="@id/attribution_explicit"
+        app:attr0a24="wds_font_body3_emphasized"
+        style="@style/style05a9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.button.ThumbnailButton
+    android:id="@id/stacked_contact_icon"
+    android:visibility="visible"
+    android:layout_width="@dimen/dimen059b"
+    android:layout_height="@dimen/dimen059b"
+    android:scaleType="fitCenter"
+    app:attr08a6="?attr0a59"
+    app:attr08a7="@dimen/dimen0597"
+    app:attr08a9="false"
+    app:attr08aa="@dimen/dimen059a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

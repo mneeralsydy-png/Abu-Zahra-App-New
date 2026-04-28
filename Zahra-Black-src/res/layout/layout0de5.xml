@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/avatar_deprecation_banner_placement"
+        android:layout="@layout/layout0de1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e" />
+    <com.whatsapp.profile.ui.ProfileSettingsRowIconText
+        android:id="@id/profile_info_name_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0680="@string/str2fb4"
+        app:attr0681="@drawable/ic_person"
+        app:attr0682="?attr079c"
+        app:attr0684="?attr079b"
+        app:attr0686="@string/str29eb"
+        style="?attr07a6" />
+    <com.whatsapp.profile.ui.ProfileSettingsRowIconText
+        android:id="@id/profile_info_status_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0681="@drawable/ic_info_2"
+        app:attr0682="?attr079c"
+        app:attr0684="?attr079b"
+        app:attr0686="@string/str29e9"
+        style="?attr07a6" />
+    <com.whatsapp.profile.ui.ProfileSettingsRowIconText
+        android:id="@id/profile_info_username_card"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0681="@drawable/vec_ic_at_symbol"
+        app:attr0682="?attr079c"
+        app:attr0684="?attr079b"
+        app:attr0686="@string/str41e2"
+        style="?attr07a6" />
+    <com.whatsapp.profile.ui.ProfileSettingsRowIconText
+        android:id="@id/profile_phone_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0681="@drawable/ic_call"
+        app:attr0682="?attr079c"
+        app:attr0686="@string/str29ed"
+        style="?attr07a6" />
+    <com.whatsapp.profile.ui.ProfileSettingsRowIconText
+        android:id="@id/profile_info_profile_links"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0681="@drawable/ic_link"
+        app:attr0682="?attr079c"
+        app:attr0684="?attr079b"
+        app:attr0686="@string/str29ef"
+        style="?attr07a6" />
+    <ViewStub
+        android:id="@id/banner_stub"
+        android:layout="@layout/layout0dcd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</merge>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/admin_invites_card"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dip"
+    android:layout_weight="1.0"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:background="?attr0a59"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea"
+        style="@style/style0218">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:text="@string/str274f"
+            android:singleLine="true"
+            style="@style/style021b" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/admin_invites_info"
+            style="@style/style0219" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/admin_invites_recycler_view"
+        android:background="?attr0a59"
+        android:paddingTop="@dimen/dimen0ced"
+        android:paddingBottom="@dimen/dimen0ce8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</com.whatsapp.ui.coreui.InfoCard>

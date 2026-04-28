@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/init_contacts_progress"
+        android:padding="16.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="progressBarStyleInverse" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/search_no_matches_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="18.0sp"
+            android:textColor="?android:textColorSecondary"
+            android:gravity="center"
+            android:id="@id/search_no_matches"
+            android:paddingLeft="12.0dip"
+            android:paddingTop="@dimen/dimen1034"
+            android:paddingRight="12.0dip"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.multiplecontactpicker.contact.picker.MultipleContactPickerErrorView
+            android:id="@id/error_layout"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/moreText"
+            android:visibility="gone"
+            android:inflatedId="@id/moreText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/contacts_empty_stub"
+        android:layout="@layout/layout06bd"
+        android:inflatedId="@id/contacts_empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/contacts_empty_permission_denied_stub"
+        android:layout="@layout/layout06b0"
+        android:inflatedId="@id/contacts_empty_permission_denied"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/new_call_blocking_null_state"
+        android:layout="@layout/layout0b7b"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center_vertical"
+    android:id="@id/row_addon_start"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/contact_selector"
+        android:layout_width="@dimen/dimen0fe0"
+        android:layout_height="@dimen/dimen0ffc">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:layout_gravity="center"
+            android:id="@id/contact_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            whatsapp:attr0675="medium" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/subgroup_contact_photo"
+            android:inflatedId="@id/subgroup_contact_photo"
+            android:layout_width="@dimen/dimen0f71"
+            android:layout_height="@dimen/dimen0f64" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/parent_stack_photo"
+            android:inflatedId="@id/parent_stack_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/parent_stack_photo_mark"
+            android:inflatedId="@id/parent_stack_photo_mark"
+            android:layout_width="@dimen/dimen1005"
+            android:layout_height="@dimen/dimen1005"
+            android:layout_marginBottom="12.0dip"
+            android:layout_marginEnd="@dimen/dimen1031" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/group_face_pile"
+            android:inflatedId="@id/group_face_pile"
+            android:layout_width="@dimen/dimen1011"
+            android:layout_height="@dimen/dimen1011" />
+    </FrameLayout>
+    <ViewStub
+        android:id="@id/conversations_row_ephemeral_status"
+        android:inflatedId="@id/conversations_row_ephemeral_status"
+        android:layout_width="@dimen/dimen1005"
+        android:layout_height="@dimen/dimen1005"
+        android:layout_marginLeft="@dimen/dimen1036"
+        android:layout_marginTop="@dimen/dimen1036" />
+    <ViewStub
+        android:id="@id/conversations_row_call_type_indicator"
+        android:inflatedId="@id/conversations_row_call_type_indicator"
+        android:layout_width="@dimen/dimen1005"
+        android:layout_height="@dimen/dimen1005"
+        android:layout_marginLeft="@dimen/dimen1036"
+        android:layout_marginTop="@dimen/dimen1036" />
+    <ViewStub
+        android:id="@id/selection_check"
+        android:inflatedId="@id/selection_check"
+        android:layout_width="@dimen/dimen1005"
+        android:layout_height="@dimen/dimen1005"
+        android:layout_marginLeft="@dimen/dimen1036"
+        android:layout_marginTop="@dimen/dimen1036" />
+</FrameLayout>

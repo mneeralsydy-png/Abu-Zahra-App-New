@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0b62"
+    android:paddingStart="@dimen/dimen0b5d"
+    android:paddingEnd="@dimen/dimen0b5d"
+    style="@style/style012c"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_gravity="left"
+        android:id="@id/title_item"
+        android:background="?attr0a5d"
+        android:layout_width="80.0dip"
+        android:layout_height="16.0dip"
+        style="BusinessLoadingFilterBarShimmerItem" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/popular_categories_recycler_view"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32.0dip"
+        android:cacheColorHint="@color/color0790" />
+</com.facebook.shimmer.ShimmerFrameLayout>

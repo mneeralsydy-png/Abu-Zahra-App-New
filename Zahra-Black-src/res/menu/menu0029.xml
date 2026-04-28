@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_lock"
+        android:id="@id/menu_privacy_settings"
+        android:title="@string/str413c"
+        app:attr041f="@color/color08de"
+        app:attr07f1="never" />
+    <item
+        android:icon="@drawable/ic_help"
+        android:id="@id/menu_sponsor_help_center"
+        android:title="@string/str413d"
+        app:attr041f="@color/color08de"
+        app:attr07f1="never" />
+</menu>

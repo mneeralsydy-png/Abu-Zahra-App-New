@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+    android:id="@id/ai_creation_avatar_action"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr06ca="body1"
+    app:attr06cb="text"
+    app:attr06e1="true"
+    app:attr06f1="spacing_triple"
+    app:attr06f2="spacing_triple"
+    app:attr0702="icon"
+    app:attr0704="spacing_single"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

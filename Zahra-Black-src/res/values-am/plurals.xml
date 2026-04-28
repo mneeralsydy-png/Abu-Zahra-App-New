@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">ከ%d ቡድኖች መውጣት አልተሳካም። እንደገና ይሞክሩ።</item>
+        <item quantity="one">ከ%d ቡድን መውጣት አልተሳካም። እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+</resources>

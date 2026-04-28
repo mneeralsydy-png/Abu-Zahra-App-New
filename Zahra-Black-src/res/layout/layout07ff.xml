@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="12.0dip"
+    android:paddingRight="@dimen/dimen1034"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:id="@id/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginBottom="14.0dip"
+        android:lineSpacingMultiplier="1.3"
+        app:attr0a24="wds_font_body2" />
+    <RelativeLayout
+        android:id="@id/checkbox_container"
+        android:background="?android:selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginBottom="@dimen/dimen1030">
+        <CheckBox
+            android:id="@id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginTop="@dimen/dimen1035"
+            android:layout_marginRight="11.0dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textStyle="bold"
+            android:id="@id/checkbox_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen1030"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="@dimen/dimen1035"
+            android:layout_toRightOf="@id/checkbox" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:id="@id/checkbox_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen1030"
+            android:layout_toRightOf="@id/checkbox"
+            android:layout_below="@id/checkbox_header"
+            android:lineSpacingExtra="4.0sp"
+            app:attr0a24="wds_font_body2" />
+    </RelativeLayout>
+</LinearLayout>

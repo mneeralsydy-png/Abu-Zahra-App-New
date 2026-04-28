@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.conversation.ui.conversationrow.components.contextcard.GroupPhoto
+        android:id="@id/community_media_group_photo"
+        android:layout_width="@dimen/dimen1011"
+        android:layout_height="@dimen/dimen1011"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/community_media_group_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0490="true"
+        app:attr0495="@id/community_media_group_media_count"
+        app:attr049a="parent"
+        app:attr04a3="0.0"
+        app:attr04ac="@id/community_media_group_photo"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="@style/style05a5" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:id="@id/community_media_group_media_count"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/community_media_group_photo"
+        app:attr04b0="@id/community_media_group_name"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+</merge>

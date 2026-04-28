@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_gravity="bottom|center|right"
+    android:orientation="horizontal"
+    android:id="@id/date_wrapper"
+    android:paddingRight="5.0dip"
+    android:paddingBottom="1.0dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/broadcast_icon"
+        android:layout="@layout/layout0495"
+        android:inflatedId="@id/broadcast_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/date"
+        android:layout="@layout/layout04b8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/status"
+        android:paddingLeft="@dimen/dimen1030"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:id="@id/mute_btn"
+    android:background="@drawable/btn_gray_circle_background"
+    android:padding="@dimen/dimen0e8a"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="fitCenter"
+    app:attr0838="@drawable/wa_ic_volume_off"
+    app:attr090d="@color/color08c4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

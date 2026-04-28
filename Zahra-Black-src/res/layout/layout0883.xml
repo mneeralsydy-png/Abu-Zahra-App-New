@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout10cb" />
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:scrollbars="none"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/incentives_value_props_continue"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen102e">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/payments_value_props_image_section"
+                android:layout_width="160.0dip"
+                android:layout_height="92.0dip"
+                android:layout_marginTop="@dimen/dimen103b"
+                app:attr0838="@drawable/ic_incentive_main" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/incentives_value_props_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102f"
+                style="@style/style02c9" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a47"
+                android:gravity="center_horizontal"
+                android:id="@id/incentives_value_props_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102f" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/incentive_security_blurb_view"
+                android:background="@drawable/incentive_info_rounded_bg"
+                android:paddingLeft="@dimen/dimen0b62"
+                android:paddingTop="@dimen/dimen0b62"
+                android:paddingRight="@dimen/dimen064c"
+                android:paddingBottom="@dimen/dimen0b62"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102f"
+                android:layout_marginBottom="@dimen/dimen0b5d">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:id="@id/incentive_security_icon_view"
+                    android:layout_width="@dimen/dimen0ac2"
+                    android:layout_height="@dimen/dimen0ac2"
+                    android:layout_marginRight="@dimen/dimen0b62"
+                    android:layout_marginEnd="@dimen/dimen0b62"
+                    app:attr0838="@drawable/ic_shield_lock" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str193e" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:gravity="center"
+        android:id="@id/incentives_value_props_continue"
+        android:visibility="visible"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:text="@string/str2644"
+        android:maxLines="1"
+        app:attr0495="@id/payment_processor_logo"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        style="@style/style055c" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/payment_processor_logo"
+        android:visibility="gone"
+        android:layout_width="116.0dip"
+        android:layout_height="15.0dip"
+        android:layout_marginTop="@dimen/dimen102f"
+        android:layout_marginBottom="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

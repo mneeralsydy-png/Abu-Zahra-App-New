@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MaxHeightLinearLayout
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:id="@id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:gravity="left"
+        android:layout_gravity="center|left"
+        android:id="@id/call_button"
+        android:paddingLeft="@dimen/dimen00d9"
+        android:paddingTop="@dimen/dimen00db"
+        android:paddingRight="@dimen/dimen00d9"
+        android:paddingBottom="@dimen/dimen00db"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0825"
+        android:drawableLeft="@drawable/ic_btn_call_audio"
+        android:drawablePadding="@dimen/dimen00da"
+        android:contentDescription="@string/str0825"
+        android:textAllCaps="false"
+        style="@style/style0557" />
+</com.whatsapp.ui.coreui.components.MaxHeightLinearLayout>

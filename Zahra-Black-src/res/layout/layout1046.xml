@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/delete_btn"
+    android:layout_width="fill_parent"
+    style="@style/style055a"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

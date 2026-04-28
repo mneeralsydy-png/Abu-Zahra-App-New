@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/contact_info_about_and_phone_v2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/contact_info_about_and_phone_v2_layout"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/list_phone_item"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_call" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/list_about_item"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/wds_ic_sticky_note_2" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

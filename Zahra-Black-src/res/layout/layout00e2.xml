@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/textView_support_requires_phone_number"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:text="@string/str101b"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/country_name_field"
+        android:focusableInTouchMode="false"
+        android:layout_width="260.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:singleLine="true"
+        android:inputType="none"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        android:backgroundTint="?attr0a29"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/textView_support_requires_phone_number"
+        app:attr0a24="wds_font_body1"
+        style="@style/style00e2" />
+    <com.whatsapp.ui.coreui.components.PhoneNumberEntry
+        android:gravity="center"
+        android:id="@id/phone_number_entry"
+        android:layout_width="260.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102f"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/country_name_field"
+        app:attr064a="?attr0a29" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/next_btn"
+        android:layout_margin="@dimen/dimen102e"
+        android:text="@string/str2157"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        style="@style/style055c" />
+</androidx.constraintlayout.widget.ConstraintLayout>

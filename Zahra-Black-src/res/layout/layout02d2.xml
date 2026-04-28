@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/call_permission_request_bottom_sheet_close_button"
+            android:layout_width="@dimen/dimen0cee"
+            android:layout_height="@dimen/dimen0cee"
+            android:tint="@color/color0347"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textAppearance="@style/style05a5"
+                android:gravity="center"
+                android:id="@id/call_permission_request_bottom_sheet_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textAppearance="@style/style05a6"
+                android:gravity="center"
+                android:id="@id/call_permission_request_bottom_sheet_title_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str08e7" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        style="@style/style0355" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05a7"
+        android:textColor="@color/color08de"
+        android:id="@id/call_permission_request_bottom_sheet_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea" />
+    <RadioGroup
+        android:layout_gravity="center_vertical"
+        android:id="@id/call_permission_request_bottom_sheet_reply_options"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea" />
+</LinearLayout>

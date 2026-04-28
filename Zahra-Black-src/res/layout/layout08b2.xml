@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        app:attr0495="@id/content"
+        app:attr049b="@id/content"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout10cb" />
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        app:attr0495="@id/bottom_barrier"
+        app:attr049a="@id/bottom_barrier"
+        app:attr04ac="@id/toolbar"
+        app:attr04b0="@id/toolbar">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen102e">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/hero_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str24b9"
+                app:attr0838="@drawable/wds_illo_international_payments" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="20.0sp"
+                android:textColor="?attr0a47"
+                android:gravity="center"
+                android:id="@id/bank_account_picker_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen103b"
+                android:text="@string/str369e"
+                android:fontFamily="?attr03b8" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textColor="?attr066e"
+                android:gravity="center"
+                android:id="@id/activate_international_payment_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:text="@string/str369c"
+                style="@style/style040c" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:textColorHint="?attr0a46"
+                android:id="@id/start_date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen103b"
+                app:attr0335="@style/style0205">
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:enabled="false"
+                    android:textColor="?attr0a46"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str37b9"
+                    android:drawablePadding="@dimen/dimen1039"
+                    android:inputType="none"
+                    app:attr0083="?attr0a46"
+                    style="@style/style040c" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:textColorHint="?attr0a46"
+                android:id="@id/end_date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen103b"
+                app:attr0335="@style/style0205">
+                <com.whatsapp.ui.coreui.WaEditText
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str36d6"
+                    android:drawableRight="@drawable/payment_dropdown_icon"
+                    android:drawablePadding="@dimen/dimen1039"
+                    android:inputType="none"
+                    app:attr0083="?attr0a46"
+                    style="@style/style040b" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/bottom_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="top" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/scroll_view"
+        app:attr04b0="@id/scroll_view">
+        <View
+            android:background="@drawable/payments_divider_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:text="@string/str369b"
+            app:attr0a24="wds_font_body2" />
+        <FrameLayout
+            android:id="@id/join_group_bottom_sheet_join_button_container"
+            android:background="?attr0a59"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:gravity="center"
+                android:id="@id/continue_button"
+                android:layout_marginLeft="@dimen/dimen1039"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginRight="@dimen/dimen1039"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:text="@string/str0774"
+                android:maxLines="1"
+                style="@style/style055c" />
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@id/turn_on_button_spinner"
+                android:visibility="invisible"
+                android:layout_width="@dimen/dimen0ceb"
+                android:layout_height="@dimen/dimen0ceb"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/progress_indeterminate_white" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

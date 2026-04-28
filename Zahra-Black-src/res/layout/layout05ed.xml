@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/customer_premium_badge"
+    android:background="@drawable/customer_premium_badge_background"
+    android:paddingTop="@dimen/dimen1030"
+    android:paddingBottom="@dimen/dimen1030"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen1039"
+    android:paddingEnd="@dimen/dimen1039"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/premium_badge_icon"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:src="@drawable/ic_verified_blue_16"
+        android:contentDescription="@null" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="11.0sp"
+        android:textStyle="bold"
+        android:textColor="?android:textColorPrimary"
+        android:id="@id/premium_badge_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str0ef5"
+        android:layout_marginStart="@dimen/dimen1035" />
+</LinearLayout>

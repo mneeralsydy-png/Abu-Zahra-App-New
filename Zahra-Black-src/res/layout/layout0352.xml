@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen0b5e"
+    android:paddingBottom="@dimen/dimen0b5d"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:id="@id/title"
+        android:paddingLeft="@dimen/dimen0b5e"
+        android:paddingRight="@dimen/dimen0b5d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str057d"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:paddingStart="@dimen/dimen0b5e"
+        android:paddingEnd="@dimen/dimen0b5d"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style0289" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/info"
+        android:paddingLeft="@dimen/dimen0b5e"
+        android:paddingRight="@dimen/dimen0b5d"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7.0dip"
+        android:text="@string/str057c"
+        android:paddingStart="@dimen/dimen0b5e"
+        android:paddingEnd="@dimen/dimen0b5d"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/cancel_btn"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str3d9b"
+        app:attr049b="@id/clear_btn"
+        app:attr04b0="@id/info"
+        style="@style/style0557" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/clear_btn"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str3da9"
+        app:attr049a="parent"
+        app:attr04b0="@id/info"
+        style="@style/style0557" />
+</androidx.constraintlayout.widget.ConstraintLayout>

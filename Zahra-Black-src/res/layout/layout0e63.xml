@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/request_report_btn_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/report_btn_text"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str09bb"
+        android:drawablePadding="9.0dip"
+        android:textAllCaps="true"
+        app:attr02ed="@color/color06ab"
+        app:attr0a24="wds_font_body2"
+        style="@style/style055d" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/report_btn"
+        android:layout_width="fill_parent"
+        android:contentDescription="@string/str09bb"
+        style="@style/style055d" />
+</FrameLayout>

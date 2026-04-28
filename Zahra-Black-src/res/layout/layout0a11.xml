@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen0cc9"
+        android:paddingRight="@dimen/dimen075d"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0ccb">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/avatar"
+            android:layout_width="@dimen/dimen0cca"
+            android:layout_height="@dimen/dimen0cca"
+            android:layout_marginRight="@dimen/dimen0cc9"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/str3dcf"
+            app:attr0838="@drawable/avatar_contact" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:clipChildren="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:id="@id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/style0289" />
+                <Space
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textColor="?attr0507"
+                    android:layout_gravity="right"
+                    android:id="@id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str1be4"
+                    style="@style/style0285" />
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/time_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style0285" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

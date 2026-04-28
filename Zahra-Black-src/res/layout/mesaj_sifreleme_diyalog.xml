@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:id="@id/mContent"
+    android:background="#00000000"
+    android:paddingBottom="75.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <abu3arab.icerikler.SifreArkaplan
+        android:paddingTop="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <abu3arab.icerikler.BaslikMetni
+                android:textSize="12.0sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:text="@string/mesaj_sifreleme_panel_baslik"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="16.0dip" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginBottom="4.0dip"
+                android:minHeight="40.0dip"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="16.0dip">
+                <abu3arab.icerikler.SifreleMetin
+                    android:textSize="15.0sp"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/mPesan"
+                    android:background="@null"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8.0dip"
+                    android:editable="false" />
+            </androidx.cardview.widget.CardView>
+            <abu3arab.icerikler.BaslikMetni
+                android:textSize="12.0sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:text="@string/mesaj_sifreleme_panel_parola"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="16.0dip" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginBottom="4.0dip"
+                android:minHeight="40.0dip"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="16.0dip">
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <abu3arab.icerikler.SifreleMetin
+                        android:textSize="15.0sp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/mPassword"
+                        android:background="@null"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="textPassword"
+                        android:imeOptions="actionDone"
+                        android:layout_marginStart="8.0dip"
+                        android:layout_marginEnd="8.0dip" />
+                    <abu3arab.icerikler.AccentCheckBox
+                        android:id="@id/mShowPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8.0dip"
+                        android:layout_marginEnd="8.0dip" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </abu3arab.icerikler.SifreArkaplan>
+</FrameLayout>

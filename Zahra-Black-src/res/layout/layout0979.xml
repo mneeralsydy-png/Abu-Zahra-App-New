@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:ellipsize="end"
+    android:id="@id/label_row_subtitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:textAlignment="viewStart"
+    style="@style/style03fc"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@id/share_phone_number_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/share_pn_close_button"
+            android:background="?attr076e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen102e"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/ic_close" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/share_pn_image"
+            android:layout_width="220.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            app:attr0495="@id/share_pn_title"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr04b3="packed"
+            app:attr0838="@drawable/vec_pn_sharing_image"
+            app:attr0a89="true" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="20.0dip"
+            android:textColor="@color/color06ed"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:id="@id/share_pn_own_number"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen1037"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:layout_marginRight="@dimen/dimen103b"
+            android:singleLine="true"
+            android:layout_marginStart="@dimen/dimen1037"
+            android:layout_marginEnd="@dimen/dimen103b"
+            app:attr03ae="?attr03b8"
+            app:attr0494="@id/share_pn_image"
+            app:attr049a="@id/share_pn_image"
+            app:attr04ad="@id/share_pn_image"
+            app:attr04b1="@id/share_pn_image" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/share_pn_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen103b"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginRight="@dimen/dimen103b"
+            app:attr03ae="?attr03b8"
+            app:attr0495="@id/share_pn_text"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/share_pn_image"
+            style="@style/style0411" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/share_pn_text"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            app:attr0495="@id/share_pn_cta_positive"
+            app:attr049a="@id/share_pn_title"
+            app:attr04ad="@id/share_pn_title"
+            app:attr04b0="@id/share_pn_title"
+            style="@style/style0407" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/share_pn_cta_positive"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            app:attr03ae="?attr03b8"
+            app:attr0495="@id/share_pn_cta_negative"
+            app:attr049a="@id/share_pn_title"
+            app:attr04ad="@id/share_pn_title"
+            app:attr04b0="@id/share_pn_text"
+            style="@style/style055e" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/share_pn_cta_negative"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1039"
+            app:attr03ae="?attr03b8"
+            app:attr0494="parent"
+            app:attr049a="@id/share_pn_title"
+            app:attr04ad="@id/share_pn_title"
+            app:attr04b0="@id/share_pn_cta_positive"
+            style="@style/style055e" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
