@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen0cee"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/email_verification_shimmer_view_stub"
+                android:layout="@layout/layout0691"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@id/email_verification_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textColor="?attr0a46"
+                    android:layout_gravity="start"
+                    android:id="@id/email_verification_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cea"
+                    android:layout_marginBottom="@dimen/dimen0cee"
+                    android:text="@string/str1190"
+                    style="@style/style05a6" />
+                <ViewStub
+                    android:id="@id/email_row_view_stub"
+                    android:layout="@layout/layout0690"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/verified_state_view_stub"
+                    android:layout="@layout/layout115e"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/unverified_state_view_stub"
+                    android:layout="@layout/layout10fb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/unconfirmed_state_view_stub"
+                    android:layout="@layout/layout10f4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <Space
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" />
+                <ViewStub
+                    android:id="@id/add_email_btn_view_stub"
+                    android:layout="@layout/layout00f9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ViewStub
+        android:id="@id/email_verification_screen_text_layout_stub"
+        android:layout="@layout/layout0694"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

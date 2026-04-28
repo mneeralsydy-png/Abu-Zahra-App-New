@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.CollapsingToolbarLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04c6="exitUntilCollapsed|scroll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_gravity="bottom|center"
+        android:orientation="vertical"
+        android:id="@id/headerView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@id/communityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cea"
+            android:maxLines="3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            style="@style/style0411" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@id/collapsedCommunityName"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:layout_marginTop="@dimen/dimen0cea"
+            android:layout_marginRight="@dimen/dimen0cea"
+            android:maxLines="1"
+            android:layout_below="@id/communityPhoto"
+            android:layout_centerHorizontal="true"
+            style="@style/style0411" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/communityStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:maxLines="3"
+            android:layout_below="@id/communityName"
+            android:layout_centerHorizontal="true"
+            style="@style/style040f" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0dd7"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/collapsedCommunityStatus"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:layout_marginRight="@dimen/dimen0cea"
+            android:maxLines="1"
+            android:layout_below="@id/collapsedCommunityName"
+            android:layout_centerHorizontal="true"
+            style="@style/style040f" />
+        <Space
+            android:id="@id/community_home_header_bottom_space"
+            android:layout_width="fill_parent"
+            android:layout_height="12.0dip"
+            android:layout_below="@id/communityStatus" />
+        <ViewStub
+            android:id="@id/community_home_header_actions"
+            android:layout="@layout/layout037c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/communityStatus" />
+        <View
+            android:id="@id/community_home_header_bottom_divider_admin"
+            android:background="@drawable/community_divider_shadow"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/community_home_header_actions" />
+        <View
+            android:id="@id/community_home_header_bottom_divider_non_admin"
+            android:background="@drawable/community_divider_shadow"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/community_home_header_bottom_space" />
+    </RelativeLayout>
+</com.google.android.material.appbar.CollapsingToolbarLayout>

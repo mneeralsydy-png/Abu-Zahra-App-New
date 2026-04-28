@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/recommended_newsletter_tile_bg"
+    android:paddingLeft="@dimen/dimen0cec"
+    android:paddingTop="@dimen/dimen0ce7"
+    android:paddingRight="@dimen/dimen0cec"
+    android:paddingBottom="@dimen/dimen0ced"
+    android:layout_width="@dimen/dimen0bc9"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen0cec"
+    android:layout_marginRight="@dimen/dimen0cec"
+    android:paddingStart="@dimen/dimen0cec"
+    android:paddingEnd="@dimen/dimen0cec"
+    android:layout_marginStart="@dimen/dimen0cec"
+    android:layout_marginEnd="@dimen/dimen0cec"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/contact_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:id="@id/contact_thumbnail"
+            android:layout_width="@dimen/dimen0bc8"
+            android:layout_height="@dimen/dimen0bc8"
+            android:layout_margin="@dimen/dimen0cf0"
+            android:src="@drawable/avatar_newsletter"
+            android:scaleType="centerCrop"
+            whatsapp:attr08a6="@color/color0274"
+            whatsapp:attr08a7="@dimen/dimen0a21"
+            whatsapp:attr08a9="false"
+            whatsapp:attr08aa="@dimen/dimen0cc5" />
+        <ViewStub
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/verified_badge_stub"
+            android:layout="@layout/layout1158"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a47"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/contact_name"
+        android:paddingTop="@dimen/dimen0ced"
+        android:paddingBottom="@dimen/dimen0cec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        style="@style/style05a9" />
+    <com.whatsapp.ui.coreui.WaButtonWithLoader
+        android:id="@id/follow_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        whatsapp:attr09ea="small" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="@dimen/dimen0102"
+    android:layout_height="wrap_content"
+    app:attr011d="?attr0a5a"
+    app:attr011e="@dimen/dimen102e"
+    app:attr011f="@dimen/dimen104a"
+    app:attr085d="?attr0a52"
+    app:attr085e="@dimen/dimen1020"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/dimen103b"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/card_icon"
+            android:layout_width="@dimen/dimen0fe7"
+            android:layout_height="@dimen/dimen0fe7"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:tint="?attr0a47" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a47"
+            android:id="@id/card_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

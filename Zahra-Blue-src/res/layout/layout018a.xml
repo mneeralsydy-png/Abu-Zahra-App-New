@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen074b"
+    android:paddingBottom="@dimen/dimen074b"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/dimen0748"
+    android:paddingEnd="@dimen/dimen0748"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/applied_promotion_icon"
+        android:layout_width="@dimen/dimen0751"
+        android:layout_height="@dimen/dimen0751"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/applied_coupon_icon" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/applied_promotion_name"
+        android:layout_marginLeft="@dimen/dimen0749"
+        app:attr0495="@id/applied_promotion_discount_info"
+        app:attr04a3="0.0"
+        app:attr04a4="packed"
+        app:attr04a8="@id/applied_promotion_icon"
+        app:attr04aa="@id/applied_promotion_label"
+        app:attr04b1="parent"
+        app:attr04b3="packed"
+        app:attr04b6="wrap"
+        style="@style/style0326" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="none"
+        android:id="@id/applied_promotion_label"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dimen074a"
+        android:layout_marginRight="@dimen/dimen0749"
+        android:text="@string/str03c3"
+        app:attr0494="@id/applied_promotion_name"
+        app:attr04a8="@id/applied_promotion_name"
+        app:attr04aa="@id/remove_promotion_cta"
+        app:attr04b1="@id/applied_promotion_name"
+        style="@style/style0326" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/applied_promotion_discount_info"
+        android:layout_marginTop="@dimen/dimen1035"
+        android:layout_marginRight="@dimen/dimen0749"
+        app:attr0494="parent"
+        app:attr04a7="@id/applied_promotion_name"
+        app:attr04aa="@id/remove_promotion_cta"
+        app:attr04b0="@id/applied_promotion_name"
+        style="@style/style0325" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/remove_promotion_cta"
+        android:background="?attr076e"
+        android:layout_width="@dimen/dimen0752"
+        android:layout_height="@dimen/dimen0752"
+        android:tint="@color/color08df"
+        android:contentDescription="@string/str2b92"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_close_themed" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:id="@id/title_subtitle_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr04a7="parent"
+        app:attr04ab="@id/barrier"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            style="@style/style0289" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="@color/color0905"
+            android:id="@id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            app:attr0a24="wds_font_body2"
+            style="@style/style0288" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="left"
+        app:attr0243="checkbox" />
+    <CheckBox
+        android:id="@id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr04a7="@id/barrier"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+</merge>

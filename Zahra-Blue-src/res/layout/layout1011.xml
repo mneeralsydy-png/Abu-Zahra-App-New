@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@drawable/status_multi_emoji_button_background"
+    android:padding="0.0dip"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_marginStart="@dimen/dimen0cf0"
+    android:layout_marginEnd="@dimen/dimen0cf0"
+    style="@style/style039f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/multi_emoji_image"
+        android:layout_width="@dimen/dimen0d18"
+        android:layout_height="@dimen/dimen0d18" />
+    <View
+        android:layout_gravity="bottom|center"
+        android:id="@id/multi_emoji_selected_dot"
+        android:background="@drawable/status_multi_emoji_selected_dot"
+        android:visibility="gone"
+        android:layout_width="4.0dip"
+        android:layout_height="4.0dip"
+        android:layout_marginBottom="@dimen/dimen0cec" />
+</FrameLayout>

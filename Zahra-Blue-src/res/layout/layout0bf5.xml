@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@drawable/newsletter_shimmer_bubble_background"
+    android:layout_width="fill_parent"
+    android:layout_height="180.0dip"
+    android:layout_marginTop="@dimen/dimen0a0d"
+    android:layout_marginBottom="@dimen/dimen0a0d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@id/shimmer_layout"
+        android:background="@drawable/newsletter_shimmer_bubble_content_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr07d4="true"
+        app:attr07d5="1.0"
+        app:attr07d6="@color/color08d1"
+        app:attr07d8="true"
+        app:attr07da="0.7"
+        app:attr07db="1000"
+        app:attr07df="1.0"
+        app:attr07e0="@color/color0545"
+        app:attr07e7="20.0" />
+</FrameLayout>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="right"
+    android:layout_gravity="top"
+    android:id="@id/emoji_view"
+    android:visibility="gone"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="230.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <View
+            android:background="?attr030f"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+        <include
+            android:id="@id/avatar_picker_header"
+            layout="@layout/layout01c7" />
+        <include
+            android:id="@id/sticker_picker_header"
+            layout="@layout/layout104e" />
+        <include
+            android:id="@id/gif_picker_header"
+            layout="@layout/layout07d1" />
+        <include
+            android:id="@id/emoji_group_layout"
+            layout="@layout/layout06a2" />
+        <FrameLayout
+            android:background="?attr030e"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <androidx.viewpager.widget.ViewPager
+                android:id="@id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <androidx.viewpager.widget.ViewPager
+                android:id="@id/sticker_pager"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <androidx.viewpager.widget.ViewPager
+                android:id="@id/gif_pager"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <androidx.viewpager.widget.ViewPager
+                android:id="@id/avatar_sticker_pager"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <View
+                android:id="@id/fallback_divider"
+                android:background="?attr0a2d"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:alpha="0.1" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/emoji_tip"
+        android:background="?attr030e"
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer_toolbar_cont">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="8.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:gravity="center"
+                    android:layout_gravity="bottom"
+                    android:paddingLeft="8.0dip"
+                    android:paddingRight="8.0dip"
+                    android:paddingBottom="8.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str306d"
+                    android:lineSpacingMultiplier="1.25"
+                    app:attr0a24="wds_font_body1" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:layout_weight="2.0">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:id="@id/all_samples"
+                        android:background="@drawable/panel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="center|top"
+                        android:id="@id/sample_current"
+                        android:background="?attr0310"
+                        android:padding="8.0dip"
+                        android:layout_width="@dimen/dimen0541"
+                        android:layout_height="@dimen/dimen0541"
+                        android:layout_marginTop="8.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:text="@string/str22aa"
+            style="@style/style0558" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/gif_trending"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <View
+            android:background="?attr030f"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+        <com.whatsapp.infra.graphicsearch.gifsearch.controls.AdaptiveRecyclerView
+            android:id="@id/gif_trending_grid"
+            android:background="?attr03d8"
+            android:paddingLeft="@dimen/dimen1030"
+            android:paddingTop="@dimen/dimen1035"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/footer_toolbar_cont"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0ae7"
+        android:layout_alignParentBottom="true">
+        <com.whatsapp.emoji.EmojiPopupFooter
+            android:id="@id/footer_toolbar"
+            android:background="?attr0310"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:visibility="gone"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="left"
+                android:id="@id/search_button"
+                android:visibility="gone"
+                android:layout_width="@dimen/dimen0fe8"
+                android:layout_height="fill_parent"
+                android:contentDescription="@string/str420c"
+                app:attr0838="@drawable/ic_search_small"
+                app:attr090d="@color/color069c"
+                style="@style/style0006" />
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:clipChildren="false"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/emoji_tab"
+                    android:visibility="visible"
+                    android:layout_width="@dimen/dimen0fe8"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="@dimen/dimen1031"
+                    android:contentDescription="@string/str3e45"
+                    app:attr0838="@drawable/ic_mood_colored"
+                    style="@style/style0006" />
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/gif_tab"
+                    android:visibility="visible"
+                    android:layout_width="@dimen/dimen0fe8"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="@dimen/dimen1031"
+                    android:contentDescription="@string/str167e"
+                    app:attr0838="@drawable/ic_gif_normal"
+                    style="@style/style0006" />
+                <FrameLayout
+                    android:id="@id/sticker_tab"
+                    android:visibility="gone"
+                    android:clipChildren="false"
+                    android:layout_width="@dimen/dimen0fe8"
+                    android:layout_height="fill_parent">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:id="@id/sticker_tab_icon"
+                        android:layout_width="@dimen/dimen0fe8"
+                        android:layout_height="fill_parent"
+                        android:contentDescription="@string/str42a0"
+                        app:attr0838="@drawable/ic_sticker_normal"
+                        style="@style/style0006" />
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="center"
+                        android:id="@id/sticker_onboarding_badge"
+                        android:visibility="gone"
+                        android:clickable="false"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:importantForAccessibility="no"
+                        app:attr0838="@drawable/sticker_store_halo_pulse" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@id/avatar_sticker_tab"
+                    android:visibility="gone"
+                    android:clipChildren="false"
+                    android:layout_width="@dimen/dimen0fe8"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/dimen1031">
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:id="@id/avatar_tab_icon"
+                        android:layout_width="@dimen/dimen0fe8"
+                        android:layout_height="fill_parent"
+                        android:contentDescription="@string/str3d61"
+                        app:attr0838="@drawable/ic_settings_unfilled_avatar"
+                        style="@style/style0006" />
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="center"
+                        android:id="@id/avatar_sticker_onboarding_badge"
+                        android:visibility="gone"
+                        android:clickable="false"
+                        android:layout_width="50.0dip"
+                        android:layout_height="50.0dip"
+                        android:importantForAccessibility="no"
+                        app:attr0838="@drawable/sticker_store_halo_pulse" />
+                </FrameLayout>
+            </LinearLayout>
+            <ViewStub
+                android:layout_gravity="right"
+                android:id="@id/delete_symbol_tb_stub"
+                android:layout="@layout/layout06a1"
+                android:layout_width="@dimen/dimen0fe8"
+                android:layout_height="fill_parent" />
+            <FrameLayout
+                android:layout_gravity="right"
+                android:id="@id/store_button_view"
+                android:visibility="gone"
+                android:layout_width="@dimen/dimen0fe8"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="right"
+                    android:id="@id/store_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:contentDescription="@string/str3276"
+                    app:attr0838="@drawable/vec_add_sticker_pack"
+                    app:attr090d="@color/color069c"
+                    style="@style/style0006" />
+                <View
+                    android:layout_gravity="center|right|top"
+                    android:id="@id/store_badge"
+                    style="@style/style03bc" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_gravity="right"
+                android:id="@id/avatar_edit_button_bottom"
+                android:visibility="gone"
+                android:layout_width="@dimen/dimen0fe8"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    app:attr0838="@drawable/ic_edit_white"
+                    app:attr090d="?attr0856" />
+                <View
+                    android:layout_gravity="center|right|top"
+                    android:id="@id/avatar_home_badge"
+                    android:visibility="gone"
+                    style="@style/style03bc" />
+            </FrameLayout>
+        </com.whatsapp.emoji.EmojiPopupFooter>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/gif_trending_additions"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer_toolbar_cont">
+        <View
+            android:background="?attr030f"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/no_results"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text="@string/str1681"
+            app:attr0a24="wds_font_body1" />
+        <FrameLayout
+            android:id="@id/progress_container"
+            android:background="?attr03d8"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@id/gif_trending_progress"
+                android:layout_width="36.0dip"
+                android:layout_height="36.0dip" />
+        </FrameLayout>
+        <include
+            android:visibility="gone"
+            layout="@layout/layout07d6" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/avatar_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer_toolbar_cont">
+        <View
+            android:background="?attr030f"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+    </FrameLayout>
+</RelativeLayout>

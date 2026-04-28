@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.progressindicator.CircularProgressIndicator
+    android:layout_gravity="center"
+    android:id="@id/media_music_button_progress"
+    android:layout_width="@dimen/dimen0517"
+    android:layout_height="@dimen/dimen0517"
+    android:indeterminate="true"
+    app:attr0432="?attr0a29"
+    app:attr0438="@dimen/dimen0517"
+    app:attr093e="@dimen/dimen0516"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/recent_operator_account_row_container"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="66.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/recent_operator_account_row"
+        android:background="@drawable/recent_biller_account_icon_bg"
+        android:layout_width="@dimen/dimen0bbc"
+        android:layout_height="@dimen/dimen0bbc"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/operator_icon"
+            android:layout_width="@dimen/dimen0bbc"
+            android:layout_height="@dimen/dimen0bbc"
+            android:src="@drawable/ic_receipt"
+            app:attr090d="?attr0a46" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/user_contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04ac="@id/recent_operator_account_row"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

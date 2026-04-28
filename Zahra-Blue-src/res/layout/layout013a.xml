@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.mediacomposer.ui.app.aieditor.tabs.AiEditorTabLayout
+    android:id="@id/ai_editor_tab_layout"
+    android:background="@color/color08a1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:overScrollMode="never"
+    android:splitMotionEvents="false"
+    app:attr0896="0.0dip"
+    app:attr0897="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

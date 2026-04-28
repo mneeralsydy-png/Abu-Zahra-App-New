@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/side_chat_system_message_close_button"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:src="@drawable/wds_ic_close" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/side_chat_system_message_illustration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            app:attr0838="@drawable/whatsapp_sidechat_side_chat_info_sheet_illustration" />
+        <com.whatsapp.ui.wds.components.textview.WDSTextView
+            android:gravity="center"
+            android:id="@id/side_chat_system_message_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:text="@string/str4273"
+            style="@style/style05aa" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/side_chat_system_message_icon_1"
+                android:layout_width="@dimen/dimen0fdb"
+                android:layout_height="@dimen/dimen0fdb"
+                android:layout_marginEnd="@dimen/dimen103a"
+                app:attr0838="@drawable/wds_ic_whatsapp"
+                app:attr090d="?attr0a46" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView
+                android:id="@id/side_chat_system_message_content_1"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str4271"
+                android:layout_weight="1.0"
+                style="@style/style05a6" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/side_chat_system_message_icon_2"
+                android:layout_width="@dimen/dimen0fdb"
+                android:layout_height="@dimen/dimen0fdb"
+                android:layout_marginEnd="@dimen/dimen103a"
+                app:attr0838="@drawable/ic_lock"
+                app:attr090d="?attr0a46" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView
+                android:id="@id/side_chat_system_message_content_2"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str4272"
+                android:layout_weight="1.0"
+                style="@style/style05a6" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/side_chat_system_message_learn_more_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:text="@string/str4274" />
+    </LinearLayout>
+</ScrollView>

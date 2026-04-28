@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array001a">
+        <item>나</item>
+        <item>내 모습 상상하기</item>
+    </string-array>
+    <string-array name="array001b">
+        <item>나</item>
+        <item>내 모습 상상하기</item>
+    </string-array>
+</resources>

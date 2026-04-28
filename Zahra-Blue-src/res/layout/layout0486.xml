@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_gravity="bottom|center|right"
+    android:orientation="horizontal"
+    android:id="@id/date_wrapper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/newsletter_message_view_count"
+        android:layout="@layout/layout0bdf"
+        android:inflatedId="@id/newsletter_message_view_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/search_provider_attribution"
+        android:layout="@layout/layout0edd"
+        android:inflatedId="@id/search_provider_attribution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/date"
+        android:layout="@layout/layout04b8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/wamosub_indicator"
+        android:layout="@layout/layout0584"
+        android:inflatedId="@id/wamosub_indicator"
+        android:layout_width="@dimen/dimen0f29"
+        android:layout_height="@dimen/dimen0f28" />
+</LinearLayout>

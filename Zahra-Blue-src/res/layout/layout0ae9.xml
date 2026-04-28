@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen102f"
+    android:paddingRight="@dimen/dimen102f"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1034"
+        app:attr0838="@drawable/ic_meta_ai_threads_null_state" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a5"
+        android:textSize="@dimen/dimen0fc0"
+        android:textColor="@color/color08df"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dimen102f"
+        android:paddingRight="@dimen/dimen102f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103b"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:text="@string/str1e2c" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a6"
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color08de"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dimen102f"
+        android:paddingRight="@dimen/dimen102f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen103b"
+        android:text="@string/str1e2b" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textSize="@dimen/dimen0fb0"
+        android:id="@id/meta_ai_threads_new_chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1e2a"
+        app:attr0411="@drawable/vec_ic_add" />
+</LinearLayout>

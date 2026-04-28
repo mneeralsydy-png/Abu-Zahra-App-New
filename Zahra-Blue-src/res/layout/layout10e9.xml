@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr076d"
+    android:paddingTop="@dimen/dimen04c0"
+    android:paddingRight="@dimen/dimen04b5"
+    android:paddingBottom="@dimen/dimen04c0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/dimen04b5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircleWaImageView
+        android:id="@id/business_avatar"
+        android:background="@drawable/avatar_frame"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="@dimen/dimen0ce5"
+        android:src="@drawable/avatar_contact"
+        android:layout_marginStart="@dimen/dimen0ce5"
+        whatsapp:attr0494="@id/basic_info"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/basic_info"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ce5"
+        android:layout_marginStart="@dimen/dimen0ce5"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04a8="@id/business_avatar"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04ac="@id/business_avatar"
+        whatsapp:attr04b1="parent">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/business_info_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04a7="parent"
+            whatsapp:attr04ab="parent"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b1="parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:id="@id/business_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr03ae="?attr03b8"
+                    style="@style/style028a" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fbc"
+                    android:id="@id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr049a="parent"
+                    whatsapp:attr04ac="@id/business_avatar"
+                    whatsapp:attr04b0="@id/open_status_layout"
+                    whatsapp:attr0a24="wds_font_body3"
+                    style="@style/style0287" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@id/open_status_layout"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04b0="@id/business_name">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:id="@id/open_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        whatsapp:attr03ae="?attr03b8"
+                        whatsapp:attr0a24="wds_font_body2_emphasized"
+                        style="@style/style0287" />
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="center"
+                        android:id="@id/open_status_dot_divider"
+                        android:background="@drawable/business_directory_dot_divider"
+                        android:layout_width="3.0dip"
+                        android:layout_height="3.0dip"
+                        android:layout_marginLeft="@dimen/dimen04bc"
+                        android:layout_marginRight="@dimen/dimen04bc"
+                        android:layout_marginStart="@dimen/dimen04bc"
+                        android:layout_marginEnd="@dimen/dimen04bc" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:id="@id/price_tier"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        whatsapp:attr0a24="wds_font_body2"
+                        style="@style/style0287" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@id/address_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04b0="@id/business_name">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:id="@id/distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/style0287" />
+                    <com.whatsapp.ui.coreui.base.WaImageView
+                        android:layout_gravity="center"
+                        android:id="@id/address_dot_divider"
+                        android:background="@drawable/business_directory_dot_divider"
+                        android:layout_width="3.0dip"
+                        android:layout_height="3.0dip"
+                        android:layout_marginLeft="@dimen/dimen04bc"
+                        android:layout_marginRight="@dimen/dimen04bc"
+                        android:layout_marginStart="@dimen/dimen04bc"
+                        android:layout_marginEnd="@dimen/dimen04bc" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:id="@id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        whatsapp:attr04ac="parent"
+                        whatsapp:attr04b0="@id/category"
+                        whatsapp:attr0a24="wds_font_body2"
+                        style="@style/style0287" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaImageButton
+                android:layout_gravity="center_vertical"
+                android:id="@id/message_btn"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:contentDescription="@string/str1d36"
+                whatsapp:attr0838="@drawable/vec_ic_chat"
+                whatsapp:attr090d="?attr0a29"
+                style="@style/style01e9" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:id="@id/additional_data_container"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen04b4"
+        android:layout_marginTop="@dimen/dimen04bd"
+        android:layout_marginBottom="@dimen/dimen04bd"
+        android:layout_marginStart="@dimen/dimen04b4"
+        whatsapp:attr0495="@id/additional_info"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ac="@id/business_avatar"
+        whatsapp:attr04b0="@id/basic_info">
+        <com.whatsapp.nativediscovery.businessdirectory.view.custom.DirectoryProductImagesCardView
+            android:id="@id/product_images_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen04aa" />
+        <FrameLayout
+            android:id="@id/description_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="@color/color024a"
+                android:ellipsize="end"
+                android:id="@id/business_description"
+                android:background="@drawable/bg_description"
+                android:paddingLeft="@dimen/dimen04c0"
+                android:paddingTop="@dimen/dimen04bd"
+                android:paddingRight="@dimen/dimen04c0"
+                android:paddingBottom="@dimen/dimen04bd"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:singleLine="false"
+                android:textIsSelectable="false"
+                style="@android:style/TextAppearance" />
+            <include
+                layout="@layout/layout0986" />
+            <FrameLayout
+                android:id="@id/description_error"
+                android:background="@drawable/bg_description"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr0838="@drawable/ic_broken_image_white"
+                    whatsapp:attr090d="?attr0a48" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/additional_info"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen04b4"
+        android:layout_marginStart="@dimen/dimen04b4"
+        whatsapp:attr04ac="@id/business_avatar"
+        whatsapp:attr04b0="@id/additional_data_container">
+        <include
+            layout="@layout/layout027d" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/layout027f" />
+            <include
+                layout="@layout/layout0280" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

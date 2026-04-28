@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/paa_request_footer_content"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/paa_request_chat_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str4159"
+        android:contentDescription="@string/str4159"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/paa_request_chat_button_footer_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/paa_delete_chat_button_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str40e8"
+            android:fontFamily="?attr03b8"
+            app:attr0009="destructive"
+            app:attr0411="@drawable/wds_ic_close"
+            app:attr096b="outline" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/paa_add_chat_button_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str40c5"
+            android:fontFamily="?attr03b8"
+            app:attr0411="@drawable/ic_person_add"
+            app:attr096b="outline" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

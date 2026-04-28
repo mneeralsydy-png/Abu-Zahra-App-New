@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/webPagePreviewImageLarge_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/webPagePreviewImageLarge_thumb_stub"
+            android:layout="@layout/layout12e2"
+            android:inflatedId="@id/webPagePreviewImageLarge_thumb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.webview.webpagepreview.WebPagePreviewCornerShadowView
+            android:id="@id/webPagePreviewImageLarge_logo_platform_shadow"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/webPagePreviewImageLarge_logo_platform"
+            android:padding="8.0dip"
+            android:focusable="false"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="start|bottom|center"
+            android:id="@id/webPagePreviewImageLarge_media_metadata_view"
+            android:layout="@layout/layout12e5"
+            android:inflatedId="@id/web_page_preview_media_metadata_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?android:selectableItemBackground"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingTop="8.0dip"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0048"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/icon"
+        android:layout_width="@dimen/dimen04af"
+        android:layout_height="@dimen/dimen04af"
+        android:layout_marginRight="24.0dip"
+        android:scaleType="center"
+        android:layout_marginEnd="24.0dip"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049b="@id/text_container"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr090d="@color/color03b4" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/text_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049b="@id/action_button"
+        whatsapp:attr04ac="@id/icon"
+        whatsapp:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style028a" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/subtitle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style0287" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/action_button"
+        android:background="@drawable/selector_orange_gradient_round_bg"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen04af"
+        android:layout_height="@dimen/dimen04af"
+        android:layout_marginLeft="24.0dip"
+        android:scaleType="center"
+        android:layout_marginStart="24.0dip"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ac="@id/text_container"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr090d="@color/color03b4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

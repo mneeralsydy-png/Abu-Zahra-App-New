@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/recent_operator_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e"
+        app:attr0039="@string/str2ab2"
+        app:attr003a="textButton" />
+</LinearLayout>

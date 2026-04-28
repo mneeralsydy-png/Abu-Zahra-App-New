@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">‏%d گروپس کو چھوڑنے میں ناکامی۔ دوبارہ کوشش کریں۔</item>
+        <item quantity="one">‏%d گروپ کو چھوڑنے میں ناکامی۔ دوبارہ کوشش کریں۔</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d نوٹیفیکیشنز</item>
+        <item quantity="one">%1$d نوٹیفیکیشن</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+</resources>

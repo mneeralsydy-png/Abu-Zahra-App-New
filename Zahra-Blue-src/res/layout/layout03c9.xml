@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.WaEditText
+        android:id="@id/business_name_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        style="@style/style018e" />
+</com.google.android.material.textfield.TextInputLayout>

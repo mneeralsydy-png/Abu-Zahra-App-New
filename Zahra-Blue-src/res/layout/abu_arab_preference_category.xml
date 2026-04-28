@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:paddingTop="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip">
+        <com.whatsapp.yo.tf
+            android:textSize="16.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/abo_arab_accent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginBottom="0.0dip"
+            android:lines="1" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="20.0dip"
+            android:layout_marginTop="2.0dip"
+            android:src="@drawable/abu_arab_divider"
+            android:scaleType="fitXY"
+            android:tint="@color/abo_arab_accent" />
+    </LinearLayout>
+</LinearLayout>

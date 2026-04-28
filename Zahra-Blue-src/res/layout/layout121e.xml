@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr0499="9:16"
+        app:attr04b1="parent"
+        app:attr04b2="0.0" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textStyle="bold"
+        android:textColor="?attr0a2f"
+        android:gravity="center"
+        android:id="@id/voice_status_tip"
+        android:background="@drawable/tooltip_ptt"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ed9"
+        android:text="@string/str3a16"
+        android:lineSpacingExtra="24.0sp"
+        android:lineSpacingMultiplier="0.0"
+        android:translationX="@dimen/dimen0cf0"
+        android:letterSpacing="0.01"
+        app:attr0083="@color/color0913"
+        app:attr0494="parent"
+        app:attr04ab="parent" />
+    <RelativeLayout
+        android:id="@id/touch_interceptor"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/voice_status_composer_selection_pills_toast_stub"
+        android:layout="@layout/layout0a4c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        app:attr0494="parent" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@id/picker_bottom_bar_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0494="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0d53"
+        android:contentDescription="@string/str3d62"
+        android:paddingStart="0.0dip"
+        android:paddingEnd="0.0dip"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_cam_close"
+        style="@style/style0006" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/done_btn"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0d53"
+        android:text="@string/str3e2a"
+        android:contentDescription="@string/str3e2a"
+        app:attr0009="media"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr096b="filled" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/color_picker_btn"
+        android:layout_width="@dimen/dimen0d52"
+        android:layout_height="@dimen/dimen0d52"
+        android:layout_margin="@dimen/dimen0d53"
+        android:scaleType="center"
+        android:contentDescription="@string/str04b4"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_palette"
+        app:attr090d="?attr0a2f"
+        style="@style/style0006" />
+    <abu3arab.mas.status.c0.b
+        android:gravity="center"
+        android:background="@drawable/input_circle_Abu_Arab"
+        android:layout_width="45.0dip"
+        android:layout_height="45.0dip"
+        android:scaleType="center"
+        app:attr0838="@drawable/abu_arab_status_creator"
+        app:attr090d="?attr0a2f"
+        style="@style/style0006" />
+    <LinearLayout
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60.0dip">
+        <LinearLayout
+            android:layout_gravity="end"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30.0dip"
+            android:layout_marginEnd="12.0dip">
+            <com.whatsapp.ui.coreui.base.WaImageButton
+                android:gravity="center"
+                android:background="@drawable/input_circle_Abu_Arab"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:scaleType="center"
+                android:onClick="fancy"
+                android:contentDescription="@string/str04b4"
+                app:attr0838="@drawable/abu_arab_status_font"
+                app:attr090d="?attr0a2f"
+                style="@style/style0006" />
+            <com.whatsapp.yo.TextStatusCustomizer
+                android:gravity="center"
+                android:id="@id/txt"
+                android:tag="txt"
+                android:background="@drawable/input_circle_Abu_Arab"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:scaleType="center"
+                android:contentDescription="@string/str04b4"
+                app:attr0838="@drawable/color_text"
+                app:attr090d="?attr0a2f"
+                style="@style/style0006" />
+            <com.whatsapp.yo.TextStatusCustomizer
+                android:gravity="center"
+                android:id="@id/bk"
+                android:tag="bk"
+                android:background="@drawable/input_circle_Abu_Arab"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:scaleType="center"
+                android:contentDescription="@string/str04b4"
+                app:attr0838="@drawable/color_bucket"
+                app:attr090d="?attr0a2f"
+                style="@style/style0006" />
+            <com.whatsapp.ui.coreui.base.WaImageButton
+                android:gravity="center"
+                android:background="@drawable/input_circle_Abu_Arab"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:scaleType="fitCenter"
+                android:onClick="statusmaker"
+                android:contentDescription="@string/str04b4"
+                app:attr0838="@drawable/abuarab_statuses_gradientbg"
+                app:attr090d="?attr0a2f"
+                style="@style/style0006" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

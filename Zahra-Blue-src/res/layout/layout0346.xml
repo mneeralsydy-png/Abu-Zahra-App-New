@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaLinearLayout
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/title_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+    <ScrollView
+        android:padding="@dimen/dimen0bd8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_gravity="center_horizontal"
+                android:id="@id/chat_transfer_image_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/chat_transfer_lottie_animation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen0297"
+                    android:layout_marginBottom="@dimen/dimen103b" />
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@id/chat_transfer_image_view"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen0298"
+                    app:attr0838="@drawable/wds_ill_transfer_chat" />
+            </FrameLayout>
+            <ViewStub
+                android:layout_gravity="center_horizontal"
+                android:id="@id/chat_transfer_qr_code_stub"
+                android:layout="@layout/layout0344"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen103b" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fc0"
+                android:textColor="?attr066e"
+                android:gravity="center"
+                android:id="@id/chat_transfer_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen1039"
+                android:layout_marginRight="@dimen/dimen1039"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:fontFamily="?attr03b8"
+                app:attr0a24="wds_font_headline1" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:id="@id/chat_transfer_subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen1039"
+                android:layout_marginRight="@dimen/dimen1039"
+                style="@style/style040c" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:gravity="center"
+                android:id="@id/chat_transfer_second_subtitle"
+                android:focusable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen1039"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginRight="@dimen/dimen1039"
+                style="@style/style05a8" />
+            <ViewStub
+                android:id="@id/chat_transfer_steps_view_stub"
+                android:layout="@layout/layout0345"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen1039"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginRight="@dimen/dimen1039" />
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+            <com.whatsapp.ui.coreui.CircularProgressBar
+                android:layout_gravity="bottom|center"
+                android:id="@id/chat_transfer_progress_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="24.0dip"
+                android:layout_marginBottom="@dimen/dimen1039"
+                android:indeterminateOnly="true" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a46"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:id="@id/chat_transfer_progress_description"
+                android:paddingBottom="@dimen/dimen106f"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1069"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.coreui.components.RoundCornerProgressBar
+                android:layout_gravity="bottom|center"
+                android:id="@id/chat_transfer_progress_bar"
+                android:paddingBottom="@dimen/dimen1039"
+                android:layout_width="fill_parent"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="@dimen/dimen1067"
+                android:layout_marginRight="@dimen/dimen1067"
+                android:layout_marginBottom="@dimen/dimen1066" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/chat_transfer_primary_btn"
+                style="@style/style055c" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:layout_gravity="center_horizontal"
+                android:id="@id/chat_transfer_secondary_btn"
+                style="@style/style0557" />
+        </LinearLayout>
+    </ScrollView>
+</com.whatsapp.ui.coreui.WaLinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/wa_old_device_icon"
+        android:layout_width="@dimen/device_switch_verification_icon_dim"
+        android:layout_height="@dimen/device_switch_verification_icon_dim"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        app:attr0838="@drawable/registration_device_confirmation" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="center_horizontal"
+        android:id="@id/verify_wa_old_content_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:text="@string/str38ee"
+        android:lineSpacingMultiplier="@dimen/dimen0bd5"
+        style="@style/style05a7" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="center_horizontal"
+        android:id="@id/verify_wa_old_content_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:text="@string/str38eb"
+        android:lineSpacingMultiplier="@dimen/dimen0bd5"
+        style="@style/style05a6" />
+</LinearLayout>

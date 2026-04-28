@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/biz_integrity_scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginRight="24.0dip"
+        android:layout_marginBottom="12.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/biz_integrity_icon"
+            android:layout_width="132.0dip"
+            android:layout_height="88.0dip"
+            app:attr0838="@drawable/url_link_warning" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05ac"
+            android:textSize="@dimen/dimen0fc0"
+            android:gravity="center_horizontal"
+            android:id="@id/biz_integrity_title"
+            android:paddingBottom="@dimen/dimen1030"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            app:attr03ae="?attr03b6"
+            app:attr0a24="wds_font_headline1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:gravity="center_horizontal"
+            android:id="@id/biz_integrity_intro"
+            android:paddingBottom="@dimen/dimen1031"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="@dimen/dimen1031"
+            app:attr0a24="wds_font_body2" />
+        <FrameLayout
+            android:id="@id/biz_integrity_body_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="14.0dip" />
+        <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+            android:id="@id/biz_integrity_button_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:textSize="@dimen/dimen0fb6"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/biz_integrity_reject_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14.0dip"
+                style="@style/style0555" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:textSize="@dimen/dimen0fb6"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/biz_integrity_accept_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip"
+                style="@style/style0555" />
+        </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+    </LinearLayout>
+</ScrollView>

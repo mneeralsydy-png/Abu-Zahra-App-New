@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginRight="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen103a">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="end"
+            android:id="@id/quality_survey_dismiss_button"
+            android:background="?attr000b"
+            android:layout_width="10.0dip"
+            android:layout_height="10.0dip"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/vec_ic_bottom_sheet_close"
+            app:attr090d="@color/color0944" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/quality_survey_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        style="@style/style03ff" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/quality_survey_left_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen1030"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/dimen1030"
+            style="@style/style0555" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/quality_survey_right_button"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen1030"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/dimen1030"
+            style="@style/style055d" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/quality_survey_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        style="@style/style03fa" />
+</LinearLayout>

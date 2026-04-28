@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/extra_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0cec"
+        android:paddingEnd="@dimen/dimen0cec"
+        android:layout_marginStart="@dimen/dimen0cea"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/secondary_button"
+            android:background="@drawable/rounded_pill_bg"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:tint="@color/color09be"
+            app:attr0838="@drawable/imagine_regenerate_white" />
+    </FrameLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:ellipsize="end"
+        android:id="@id/text_button"
+        android:layout_width="0.0dip"
+        android:layout_height="40.0dip"
+        android:text="@string/str3ea3"
+        app:attr0009="media"
+        app:attr0411="@drawable/vec_meta_ai_imagine_me_icon"
+        app:attr0494="parent"
+        app:attr049b="@id/primary_button"
+        app:attr04ac="@id/extra_padding"
+        app:attr04b1="parent"
+        app:attr04b6="wrap"
+        app:attr096b="tonal"
+        app:attr09ea="small"
+        style="@style/style024c" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/primary_button"
+        android:background="@drawable/circle_primary_bg"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:scaleType="center"
+        android:contentDescription="@string/str4217"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/input_send"
+        app:attr090d="@color/color08ff"
+        app:attr0a7d="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

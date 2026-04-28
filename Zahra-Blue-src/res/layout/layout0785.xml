@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/order_detail_close_btn"
+            style="@style/style02ce" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/order_detail_title"
+            android:text="@string/str3ce3"
+            android:layout_alignTop="@id/order_detail_close_btn"
+            android:layout_alignBottom="@id/order_detail_close_btn"
+            style="@style/style02cf" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/button_container"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:enabled="false"
+                android:id="@id/create_order"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str0e85"
+                style="@style/style0555" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/decline_order"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str0f20"
+                style="@style/style055d" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/order_detail_recycler_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/message_btn_layout"
+            android:layout_below="@id/order_detail_title"
+            app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+        <ViewStub
+            android:id="@id/message_btn_layout"
+            android:layout="@layout/layout0ab3"
+            android:inflatedId="@id/message_btn_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/order_detail_loading_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="progressBarStyle" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

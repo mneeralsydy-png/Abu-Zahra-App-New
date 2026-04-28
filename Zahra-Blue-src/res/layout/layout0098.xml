@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:background="?attr0926"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0048"
+        app:attr08f4="@style/style01d5"
+        style="@style/style0520" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/description"
+                android:paddingLeft="@dimen/dimen102e"
+                android:paddingTop="@dimen/dimen103a"
+                android:paddingRight="@dimen/dimen102e"
+                android:paddingBottom="@dimen/dimen103a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str1831"
+                app:attr0495="@id/privacy_setting_header"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+                android:id="@id/privacy_setting_header"
+                android:paddingLeft="@dimen/dimen102e"
+                android:paddingTop="@dimen/dimen1039"
+                android:paddingRight="@dimen/dimen102e"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr03ee="@string/str3ca3"
+                app:attr03ef="defaultHeader"
+                app:attr0495="@id/privacy_setting_list"
+                app:attr04b0="@id/description"
+                style="@style/style026e" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/privacy_setting_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr0495="@id/footer"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/privacy_setting_header" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/footer"
+                android:padding="@dimen/dimen103b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3ca2"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/privacy_setting_list"
+                app:attr0a24="wds_font_body2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <include
+        layout="@layout/layout0c32" />
+</LinearLayout>

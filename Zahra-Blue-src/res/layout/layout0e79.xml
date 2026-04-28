@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/rewrite_tray_tab_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/suggestion_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <HorizontalScrollView
+        android:layout_gravity="center_vertical"
+        android:id="@id/expression_rewrite_tone_view"
+        android:background="?attr0a5a"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.chip.ChipGroup
+            android:id="@id/expression_rewrite_tone_chip_group"
+            android:paddingTop="@dimen/dimen1031"
+            android:paddingBottom="@dimen/dimen1030"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen102e"
+            android:paddingEnd="@dimen/dimen102e"
+            app:attr01cf="@dimen/dimen1039"
+            app:attr0771="true" />
+    </HorizontalScrollView>
+    <ViewStub
+        android:id="@id/word_limit_not_met_view_stub"
+        android:layout="@layout/layout0e7c"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/privacy_tos_null_state_view_stub"
+        android:layout="@layout/layout0e7d"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/contextual_nux_view_stub"
+        android:layout="@layout/layout0417"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaLinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/status_details_action_buttons_waffle_ig_crossposting_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/str303e"
+        app:attr0838="@drawable/ic_pip_instagram"
+        style="@style/style0001" />
+</com.whatsapp.ui.coreui.WaLinearLayout>

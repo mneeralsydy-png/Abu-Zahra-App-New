@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">Не вдалося вийти з %d груп. Повторіть спробу.</item>
+        <item quantity="one">Не вдалося вийти з %d групи. Повторіть спробу.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d сповіщень</item>
+        <item quantity="one">%1$d сповіщення</item>
+        <item quantity="few">%1$d сповіщення</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+</resources>

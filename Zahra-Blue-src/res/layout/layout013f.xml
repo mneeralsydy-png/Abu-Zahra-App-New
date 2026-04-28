@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/ai_home_capability_item_background"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen006a"
+    android:paddingStart="@dimen/dimen103a"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/capability_icon"
+        android:layout_width="@dimen/dimen0069"
+        android:layout_height="@dimen/dimen0069" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a47"
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:id="@id/capability_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textAlignment="textStart"
+        android:layout_marginStart="@dimen/dimen1039"
+        app:attr04d0="@dimen/dimen006c"
+        style="@style/style05a6" />
+</androidx.appcompat.widget.LinearLayoutCompat>

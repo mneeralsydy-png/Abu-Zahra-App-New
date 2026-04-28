@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.ChipGroup
+    android:id="@id/loading_variant_chip_group"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr01ce="@dimen/dimen103a"
+    app:attr0817="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.chip.Chip
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="32.0dip"
+        android:layout_height="wrap_content"
+        android:checkable="false"
+        app:attr01bb="false"
+        app:attr0327="false" />
+    <com.google.android.material.chip.Chip
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="32.0dip"
+        android:layout_height="wrap_content"
+        android:checkable="false"
+        app:attr01bb="false"
+        app:attr0327="false" />
+    <com.google.android.material.chip.Chip
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="32.0dip"
+        android:layout_height="wrap_content"
+        android:checkable="false"
+        app:attr01bb="false"
+        app:attr0327="false" />
+    <com.google.android.material.chip.Chip
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="32.0dip"
+        android:layout_height="wrap_content"
+        android:checkable="false"
+        app:attr01bb="false"
+        app:attr0327="false" />
+    <com.google.android.material.chip.Chip
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="32.0dip"
+        android:layout_height="wrap_content"
+        android:checkable="false"
+        app:attr01bb="false"
+        app:attr0327="false" />
+</com.google.android.material.chip.ChipGroup>

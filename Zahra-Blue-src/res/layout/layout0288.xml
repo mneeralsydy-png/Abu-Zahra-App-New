@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/business_row_container"
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0450"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/layout_business_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        layout="@layout/layout0289" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/btn_profile_info"
+        android:background="@drawable/selector_orange_gradient"
+        android:padding="17.0dip"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0b75"
+        android:layout_height="@dimen/dimen0b75"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:attr0838="@drawable/ic_info_white"
+        app:attr090d="?attr0a29" />
+</RelativeLayout>

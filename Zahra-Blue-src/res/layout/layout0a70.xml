@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:id="@id/media_recipients_layout"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen08ae"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a2f"
+        android:layout_gravity="center_vertical"
+        android:id="@id/recipients_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr03ae="?attr03b8" />
+    <HorizontalScrollView
+        android:layout_gravity="center_vertical"
+        android:id="@id/recipients_scroller"
+        android:scrollbars="none"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="60.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen08af"
+        android:layout_marginRight="@dimen/dimen08b0"
+        android:requiresFadingEdge="horizontal"
+        android:importantForAccessibility="yes">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.chip.ChipGroup
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/recipient_chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="locale"
+                app:attr01d0="@dimen/dimen0ce7" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

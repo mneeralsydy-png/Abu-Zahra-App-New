@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/wabloks_checkbox"
+    android:background="@drawable/wabloks_checkbox_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox
+        android:id="@id/checkbox"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginEnd="8.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:id="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginEnd="8.0dip"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

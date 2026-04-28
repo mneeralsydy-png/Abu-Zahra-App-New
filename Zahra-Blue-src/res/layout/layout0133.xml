@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05c5"
+            android:textColor="@color/color0897"
+            android:gravity="center"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:textAlignment="center"
+            android:layout_marginStart="@dimen/dimen102f"
+            android:layout_marginEnd="@dimen/dimen102f" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a6"
+            android:textColor="@color/color08de"
+            android:id="@id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen103a"
+            android:textAlignment="center"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr0a24="wds_font_body2" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:gravity="start|center|top"
+            android:id="@id/ai_creation_user_input_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0060"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:importantForAccessibility="yes"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            android:labelFor="@id/ai_creation_user_input"
+            app:attr0285="true"
+            app:attr0286="1000"
+            app:attr0321="clear_text"
+            app:attr0402="@style/style05be"
+            style="@style/style01ce">
+            <com.whatsapp.ui.coreui.WaEditText
+                android:gravity="start|center|top"
+                android:id="@id/ai_creation_user_input"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Space
+            android:id="@id/space"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="horizontal"
+            android:id="@id/ai_creation_suggestion_list"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen102f"
+            app:attr0488="LinearLayoutManager" />
+        <com.whatsapp.aicreation.product.ui.component.CreationButton
+            android:id="@id/ai_creation_next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102f"
+            android:layout_marginBottom="@dimen/dimen102f"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr096b="filled" />
+    </LinearLayout>
+</ScrollView>

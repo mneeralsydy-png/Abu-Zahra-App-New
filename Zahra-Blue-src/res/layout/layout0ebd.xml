@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    android:textColor="?attr075b"
+    android:ellipsize="end"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/dimen0b62"
+    android:maxWidth="@dimen/dimen0c26"
+    whatsapp:attr01c3="?attr074b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/memory_toggle_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0ae2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/list_header_text"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen102e"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1dfc"
+        android:textAlignment="textStart"
+        style="@style/style05a8" />
+    <com.whatsapp.ui.wds.components.divider.WDSDivider
+        android:id="@id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039"
+        app:attr02db="thin" />
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:layout_gravity="center"
+        android:id="@id/memories_disclaimer"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr03ee="@string/str1dfb"
+        app:attr03ef="emphasized" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0488="LinearLayoutManager" />
+</LinearLayout>

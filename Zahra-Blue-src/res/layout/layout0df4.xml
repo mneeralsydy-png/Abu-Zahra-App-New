@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:layout_gravity="right"
+        android:id="@id/push_to_record_media_tooltip"
+        android:layout="@layout/layout11e6"
+        android:inflatedId="@id/push_to_record_media_tooltip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ecc"
+        android:layout_above="@id/edit_layout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+</merge>

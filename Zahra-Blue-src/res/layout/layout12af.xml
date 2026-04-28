@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:gravity="center"
+    android:id="@id/video_call"
+    android:layout_width="@dimen/dimen0ffe"
+    android:layout_height="@dimen/dimen0ffc"
+    android:scaleType="center"
+    app:attr0494="parent"
+    app:attr04ab="parent"
+    app:attr04b1="parent"
+    app:attr0838="@drawable/ic_videocam_white"
+    app:attr090d="?attr0a44"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

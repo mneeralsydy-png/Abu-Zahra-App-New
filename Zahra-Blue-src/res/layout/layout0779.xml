@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.settings.SettingsRowIconText
+            android:id="@id/settings_turn_off"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr07a5="@color/color077b"
+            app:attr07a8="@drawable/vec_ic_highlight_off"
+            app:attr07aa="@string/str2fdc"
+            app:attr07ab="@string/str356a"
+            style="@style/style0364" />
+        <com.whatsapp.settings.SettingsRowIconText
+            android:id="@id/settings_allowed_apps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr07a5="@color/color077b"
+            app:attr07a8="@drawable/vec_ic_phone_android"
+            app:attr07ab="@string/str2eed"
+            style="@style/style0364" />
+        <com.whatsapp.settings.SettingsRowIconText
+            android:id="@id/settings_unified_inbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr07a5="@color/color077b"
+            app:attr07a8="@drawable/vec_ic_unified_inbox"
+            app:attr07ab="@string/str2ef1"
+            style="@style/style0364" />
+        <com.whatsapp.settings.SettingsRowIconText
+            android:id="@id/groups_privacy_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr07a5="@color/color077b"
+            app:attr07a8="@drawable/ic_group"
+            app:attr07ab="@string/str2f44"
+            style="@style/style0364" />
+    </LinearLayout>
+</ScrollView>

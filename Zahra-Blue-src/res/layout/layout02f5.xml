@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr046c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/contact_photo_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="@dimen/dimen0745" />
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="center"
+        android:id="@id/contact_photo"
+        android:layout_width="?attr0630"
+        android:layout_height="?attr0630"
+        android:scaleType="fitCenter"
+        app:attr0494="parent"
+        app:attr049a="@id/contact_photo_guideline"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr08a9="true"
+        app:attr08aa="@dimen/dimen0cc5" />
+    <com.whatsapp.ui.coreui.components.SelectionCheckView
+        android:id="@id/selection_check"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0c6e"
+        android:layout_height="@dimen/dimen0c6e"
+        android:layout_marginBottom="@dimen/dimen034f"
+        android:layout_marginEnd="@dimen/dimen0350"
+        app:attr0494="parent"
+        app:attr04aa="@id/contact_photo_guideline" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        android:textAlignment="gravity"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr049b="@id/space"
+        app:attr04ac="@id/contact_photo_guideline"
+        app:attr04b1="parent"
+        style="?attr04e1" />
+    <Space
+        android:id="@id/space"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049b="@id/voice_call"
+        app:attr04ac="@id/contact_name"
+        app:attr04b1="parent"
+        app:attr04b7="1.0px" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/voice_call"
+        android:background="@drawable/calls_history_call_action_background"
+        android:layout_width="@dimen/dimen0e9b"
+        android:layout_height="?attr010d"
+        android:scaleType="center"
+        android:contentDescription="@string/str3d5c"
+        android:layout_marginEnd="@dimen/dimen0e9a"
+        app:attr0494="parent"
+        app:attr049b="@id/video_call"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_call_white"
+        app:attr090d="?attr0a44" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:id="@id/video_call"
+        android:background="@drawable/calls_history_call_action_background"
+        android:layout_width="@dimen/dimen0e78"
+        android:layout_height="?attr010d"
+        android:scaleType="center"
+        android:contentDescription="@string/str4307"
+        app:attr0494="parent"
+        app:attr049b="@id/no_call_action_info"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_videocam_white"
+        app:attr090d="?attr0a44" />
+    <ViewStub
+        android:id="@id/no_call_action_info"
+        android:visibility="gone"
+        android:layout="@layout/layout0c11"
+        android:inflatedId="@id/no_call_action_info"
+        android:layout_width="@dimen/dimen0047"
+        android:layout_height="@dimen/dimen0047"
+        android:layout_marginEnd="@dimen/dimen0cec"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

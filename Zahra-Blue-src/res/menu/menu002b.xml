@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@id/menuitem_forward"
+        android:title="@string/str3f05"
+        app:attr07f1="never" />
+    <item
+        android:icon="@drawable/wds_ic_logo_facebook"
+        android:id="@id/menuitem_share_status_facebook"
+        android:contentDescription="@string/str3f06"
+        app:attr07f1="always" />
+    <item
+        android:icon="@drawable/wds_ic_logo_instagram"
+        android:id="@id/menuitem_share_status_instagram"
+        android:contentDescription="@string/str3f06"
+        app:attr07f1="always" />
+    <item
+        android:id="@id/menuitem_delete"
+        android:title="@string/str3f04"
+        app:attr07f1="never" />
+</menu>

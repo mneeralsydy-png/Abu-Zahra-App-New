@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="@dimen/dimen0d30"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/divider"
+        android:background="@color/color090d"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0f9a" />
+    <TextView
+        android:textColor="@color/color0711"
+        android:id="@id/respond_button"
+        android:padding="@dimen/dimen1039"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str4298"
+        android:fontFamily="@dimen/dimen0fcd" />
+</merge>

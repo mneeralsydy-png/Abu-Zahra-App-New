@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/account_switcher_button_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/account_switcher_button_area"
+        android:paddingTop="5.0dip"
+        android:paddingRight="5.0dip"
+        android:paddingBottom="5.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/account_switcher_button"
+            android:layout_width="@dimen/dimen0038"
+            android:layout_height="@dimen/dimen0038"
+            android:tint="?attr0a29"
+            android:contentDescription="@string/str0155"
+            app:attr0838="@drawable/vec_ic_expand_circle_down"
+            style="@style/style0006" />
+    </FrameLayout>
+    <ViewStub
+        android:id="@id/my_profile_badge_viewstub"
+        android:layout="@layout/layout002c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/account_switcher_button_area"
+        android:layout_alignRight="@id/account_switcher_button_area" />
+</RelativeLayout>

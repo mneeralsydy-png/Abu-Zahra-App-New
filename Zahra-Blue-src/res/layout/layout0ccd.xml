@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/account_actions"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05aa"
+        android:textColor="@color/color05f4"
+        android:gravity="center"
+        android:id="@id/payment_title"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0a9f"
+        android:text="@string/str0715" />
+    <com.whatsapp.payments.productinfra.ui.components.PaymentInfoViewV2
+        android:id="@id/pix_key_info_view"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/layout0686" />
+    <include
+        layout="@layout/layout0e4f" />
+</LinearLayout>

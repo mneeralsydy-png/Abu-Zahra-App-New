@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:layout_width="48.0dip"
+    android:layout_height="48.0dip"
+    android:contentDescription="@string/str080d"
+    app:attr0838="@drawable/vec_ic_unified_phone_icon"
+    style="@style/style0001"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

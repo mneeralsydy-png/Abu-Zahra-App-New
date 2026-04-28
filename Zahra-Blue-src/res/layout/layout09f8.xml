@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textSize="@dimen/dimen0fbc"
+    android:textColor="?attr0a35"
+    android:ellipsize="start"
+    android:id="@id/location_host_view"
+    android:paddingLeft="@dimen/dimen03e4"
+    android:paddingRight="@dimen/dimen03e4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    app:attr0a24="wds_font_chat_body3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

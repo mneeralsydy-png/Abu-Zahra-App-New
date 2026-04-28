@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr040b="?attr0a59"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:paddingTop="@dimen/dimen103a"
+        android:paddingBottom="@dimen/dimen103a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0058"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style05a7" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/contact_info_container"
+        android:background="?android:selectableItemBackground"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen103a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:id="@id/contact_photo"
+            android:layout_width="@dimen/dimen0b4a"
+            android:layout_height="@dimen/dimen0b4a"
+            android:scaleType="fitCenter"
+            app:attr04a7="parent"
+            app:attr04b1="parent"
+            app:attr08a9="true"
+            app:attr08aa="@dimen/dimen0cc5" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="?attr066e"
+            android:ellipsize="end"
+            android:gravity="start|center|top"
+            android:id="@id/contact_name"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/dimen0176"
+            android:singleLine="true"
+            android:layout_marginStart="@dimen/dimen103b"
+            app:attr0495="@id/contact_details"
+            app:attr04a8="@id/contact_photo"
+            app:attr04ab="parent"
+            app:attr04b1="parent"
+            app:attr04b3="packed"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:id="@id/contact_details"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            app:attr0494="parent"
+            app:attr04a7="@id/contact_name"
+            app:attr04ab="@id/contact_name"
+            app:attr04b0="@id/contact_name"
+            style="@style/style05a6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.whatsapp.ui.coreui.InfoCard>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">‎%d ग्रुप सोडता आले नाहीत. पुन्हा प्रयत्न करा.</item>
+        <item quantity="one">‎%d ग्रुप सोडता आला नाही. पुन्हा प्रयत्न करा.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d नोटिफिकेशन</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d नवीन सूचना</item>
+        <item quantity="one">%d नवीन सूचना</item>
+    </plurals>
+</resources>

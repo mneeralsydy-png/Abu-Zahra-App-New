@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:id="@id/media_music_button_container"
+    android:layout_width="@dimen/dimen0517"
+    android:layout_height="@dimen/dimen0517"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/media_music_button_album_artwork"
+        android:layout_width="@dimen/dimen0517"
+        android:layout_height="@dimen/dimen0517"
+        android:scaleType="center" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/media_music_button"
+        android:layout_width="@dimen/dimen0517"
+        android:layout_height="@dimen/dimen0517"
+        android:scaleType="center"
+        style="@style/style0006" />
+    <ViewStub
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/media_music_wave"
+        android:layout="@layout/layout0b65"
+        android:inflatedId="@id/media_music_wave"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/media_music_button_progress"
+        android:layout="@layout/layout0a66"
+        android:layout_width="@dimen/dimen0517"
+        android:layout_height="@dimen/dimen0517" />
+</FrameLayout>

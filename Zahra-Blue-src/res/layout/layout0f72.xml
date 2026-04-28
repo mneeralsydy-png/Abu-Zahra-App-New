@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:paddingTop="@dimen/dimen0cf2"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/simplified_creation_flow_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3063"
+        android:textAlignment="center"
+        app:attr0a24="wds_font_body2" />
+</FrameLayout>

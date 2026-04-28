@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/interactive_message_header_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/conversation_row_lto_offer_content_stub"
+        android:layout="@layout/layout0507"
+        android:inflatedId="@id/conversation_row_lto_offer_content_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/suspicious_link_indicator_holder"
+        android:layout="@layout/layout1098"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/bloks_widget_container_stub"
+        android:layout="@layout/layout0205"
+        android:inflatedId="@id/bloks_widget_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="?attr09f0"
+        android:id="@id/description"
+        android:paddingLeft="@dimen/dimen03e4"
+        android:paddingRight="@dimen/dimen0b62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:textDirection="firstStrong" />
+    <com.whatsapp.conversation.ui.conversationrow.dynamicview.DynamicMessageView
+        android:gravity="center_horizontal"
+        android:id="@id/dynamic_content"
+        android:paddingLeft="@dimen/dimen03e4"
+        android:paddingRight="@dimen/dimen0b62"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="?attr09f6"
+        android:id="@id/bottom_message"
+        android:paddingLeft="@dimen/dimen03e4"
+        android:paddingTop="@dimen/dimen1030"
+        android:paddingRight="@dimen/dimen03e4"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="firstStrong" />
+    <ViewStub
+        android:id="@id/conversation_row_reminder_content"
+        android:layout="@layout/layout054f"
+        android:inflatedId="@id/conversation_row_cancel_reminder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</merge>

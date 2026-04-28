@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.selection.ui.MessageSelectionBottomMenu
+    android:id="@id/message_selection_bottom_menu"
+    android:padding="@dimen/dimen102e"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen102e"
+    android:minHeight="@dimen/dimen08c7"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

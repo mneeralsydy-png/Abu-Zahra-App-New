@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@id/nested_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:id="@id/meta_ai_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/dimen0144">
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/meta_ai_static_logo"
+                android:layout="@layout/layout021a"
+                android:layout_width="120.0dip"
+                android:layout_height="120.0dip"
+                android:layout_marginTop="@dimen/dimen0ce9"
+                android:layout_marginBottom="@dimen/dimen0a43" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/meta_ai_animated_logo"
+                android:layout="@layout/layout0219"
+                android:layout_width="120.0dip"
+                android:layout_height="120.0dip"
+                android:layout_marginBottom="@dimen/dimen0cea" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/meta_ai_welcome_view_stub"
+                android:layout="@layout/layout0af2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/empty_state_suggestions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/inline_tos_message"
+                android:layout="@layout/layout0218"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

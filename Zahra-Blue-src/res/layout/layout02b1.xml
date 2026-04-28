@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/layout02ba" />
+    <ViewStub
+        android:gravity="center"
+        android:id="@id/lonely_state_view_stub"
+        android:layout="@layout/layout0a19"
+        android:inflatedId="@id/lonely_state"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:gravity="center"
+        android:id="@id/voice_chat_lonely_state_themed_view_stub"
+        android:layout="@layout/layout11fd"
+        android:inflatedId="@id/voice_chat_lonely_state"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <View
+        android:layout_gravity="top"
+        android:id="@id/call_grid_top_scrolling_peek_overlay"
+        android:background="@drawable/call_grid_top_scrolling_peek_gradient_background"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip" />
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/call_grid_bottom_scrolling_peek_overlay"
+        android:background="@drawable/call_grid_bottom_scrolling_peek_gradient_background"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginStart="@dimen/dimen0eda"
+        android:layout_marginEnd="@dimen/dimen0eda" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/pip_card_container"
+        android:padding="@dimen/dimen01bb"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewStub
+            android:id="@id/ss_pip_indicator_icon"
+            android:visibility="gone"
+            android:layout="@layout/layout0f89"
+            android:inflatedId="@id/ss_pip_indicator_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen01bc"
+            android:layout_marginEnd="@dimen/dimen0c1e"
+            app:attr0494="@id/call_grid_participant_count_icon"
+            app:attr049b="@id/call_grid_participant_count_icon"
+            app:attr04a4="packed"
+            app:attr04ad="parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/call_grid_participant_count_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen01bc"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="@dimen/dimen01ba"
+            android:layout_marginEnd="@dimen/dimen01ba"
+            app:attr0494="@id/call_grid_participant_count"
+            app:attr049b="@id/call_grid_participant_count"
+            app:attr04ac="@id/ss_pip_indicator_icon"
+            app:attr04b1="@id/call_grid_participant_count"
+            app:attr0838="@drawable/vec_ic_person_white" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="@android:color/white"
+            android:id="@id/call_grid_participant_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen01ba"
+            app:attr03ae="?attr03b8"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ac="@id/call_grid_participant_count_icon"
+            app:attr0a24="wds_font_body2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub
+        android:id="@id/waiting_room_pip_overlay_stub"
+        android:layout="@layout/layout02bc"
+        android:inflatedId="@id/waiting_room_pip_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <ViewStub
+        android:id="@id/call_failed_video_blur_stub"
+        android:layout="@layout/layout02af"
+        android:inflatedId="@id/call_failed_video_blur"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</merge>

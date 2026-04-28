@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr03dc"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingTop="@dimen/dimen0b5d"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen04b9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/icon"
+        android:background="@drawable/location_request_icon_bg"
+        android:padding="@dimen/dimen0b5d"
+        android:layout_width="54.0dip"
+        android:layout_height="54.0dip"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:gravity="center|top"
+        android:id="@id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:src="@drawable/ic_near_me"
+        android:text="@string/str058e"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/icon"
+        app:attr0a24="wds_font_body1"
+        style="@style/style0110" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/allow_location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:text="@string/str0577"
+        app:attr0411="@drawable/ic_near_me"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/description" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/more_options_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str0590"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/allow_location_btn"
+        app:attr096b="borderless" />
+</androidx.constraintlayout.widget.ConstraintLayout>

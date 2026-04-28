@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/rich_response_map_container_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/rich_response_map_frame"
+        android:background="@drawable/rich_response_code_block_border"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0c06"
+        android:layout_margin="@dimen/dimen0c07"
+        android:clipToOutline="true"
+        xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/rich_response_map_thumb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            whatsapp:attr0838="@drawable/map_loading" />
+        <com.whatsapp.metaai.plugins.RichResponseMapView
+            android:id="@id/rich_response_map_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05a6"
+        android:gravity="center_vertical"
+        android:id="@id/rich_response_map_annotation_data"
+        android:paddingTop="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

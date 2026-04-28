@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout0844" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textColor="?attr0215"
+        android:id="@id/ok_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str22a9"
+        app:attr0495="@id/learn_more_button"
+        app:attr04b0="@id/privacy_text"
+        app:attr096b="filled" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/learn_more_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3ec9"
+        app:attr0494="parent"
+        app:attr04b0="@id/ok_button"
+        app:attr096b="borderless" />
+</LinearLayout>

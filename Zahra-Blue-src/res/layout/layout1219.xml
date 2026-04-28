@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_gravity="top"
+    android:orientation="vertical"
+    android:id="@id/voice_output_text_response"
+    android:paddingBottom="@dimen/dimen008a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen008c"
+        android:layout_marginBottom="@dimen/dimen008c"
+        android:layout_marginStart="@dimen/dimen008b"
+        android:layout_marginEnd="@dimen/dimen008b">
+        <include
+            layout="@layout/layout121b" />
+        <include
+            layout="@layout/layout1212" />
+        <include
+            layout="@layout/layout1210" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

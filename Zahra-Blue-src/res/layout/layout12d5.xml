@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textfield.WDSTextInputEditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0588"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

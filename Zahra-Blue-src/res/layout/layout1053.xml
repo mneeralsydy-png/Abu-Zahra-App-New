@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/media_container"
+        android:paddingLeft="@dimen/dimen1035"
+        android:paddingTop="@dimen/dimen1035"
+        android:paddingRight="@dimen/dimen1035"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.stickers.StickerView
+            android:id="@id/sticker_image"
+            android:layout_width="@dimen/dimen0416"
+            android:layout_height="@dimen/dimen0416"
+            android:contentDescription="@string/str3222" />
+        <FrameLayout
+            android:layout_gravity="center"
+            android:id="@id/control_frame"
+            android:background="@drawable/download_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/progress_bar"
+                android:layout="@layout/layout0350"
+                android:inflatedId="@id/progress_bar"
+                android:layout_width="64.0dip"
+                android:layout_height="64.0dip" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/cancel_download"
+                android:layout="@layout/layout0318"
+                android:inflatedId="@id/cancel_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/control_btn"
+                style="@style/style01b5" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|center|right"
+        android:orientation="horizontal"
+        android:id="@id/date_wrapper"
+        android:paddingLeft="@dimen/dimen040d"
+        android:paddingRight="@dimen/dimen040d"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen040e">
+        <ViewStub
+            android:id="@id/newsletter_message_view_count"
+            android:layout="@layout/layout0bdf"
+            android:inflatedId="@id/newsletter_message_view_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/broadcast_icon"
+            android:layout="@layout/layout0495"
+            android:inflatedId="@id/broadcast_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/date"
+            android:layout="@layout/layout04b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/wamosub_indicator"
+            android:layout="@layout/layout0584"
+            android:inflatedId="@id/wamosub_indicator"
+            android:layout_width="@dimen/dimen0f29"
+            android:layout_height="@dimen/dimen0f28" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/status"
+            android:paddingLeft="@dimen/dimen1030"
+            android:layout_width="19.0dip"
+            android:layout_height="10.0dip"
+            android:scaleType="center" />
+    </LinearLayout>
+</merge>

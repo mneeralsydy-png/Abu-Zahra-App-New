@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/frame_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1030"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginRight="@dimen/dimen1030">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/header"
+            android:background="@drawable/link_preview_background"
+            android:padding="@dimen/dimen1039"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/thumbnail"
+                android:focusable="false"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:scaleType="fitXY"
+                android:importantForAccessibility="no" />
+            <Space
+                android:layout_width="@dimen/dimen1039"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:gravity="start"
+                android:orientation="vertical"
+                android:id="@id/text_linear_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textColor="?attr0a47"
+                    android:ellipsize="end"
+                    android:id="@id/header_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    style="@style/style05a7" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textColor="?attr0a46"
+                    android:ellipsize="end"
+                    android:id="@id/subtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textAlignment="viewStart"
+                    style="@style/style05a6" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

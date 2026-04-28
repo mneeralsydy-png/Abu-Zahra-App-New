@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dimen0cee"
+    android:paddingBottom="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/dimen0cee"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/dimen0cee"
+        app:attr0a24="wds_font_headline1"
+        style="@style/style05aa" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0906"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cee"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <LinearLayout
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textColor="?attr066e"
+            android:id="@id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style0557" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textColor="?attr066e"
+            android:id="@id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str22a9"
+            android:paddingEnd="0.0dip"
+            style="@style/style0557" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/music_browse_search_suggestion_parent"
+    android:paddingTop="@dimen/dimen0235"
+    android:paddingBottom="@dimen/dimen0235"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0234"
+    android:paddingEnd="@dimen/dimen0234"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/search_icon"
+        android:background="@drawable/music_browse_search_suggestion_bg"
+        android:padding="@dimen/dimen103a"
+        android:layout_width="@dimen/dimen0232"
+        android:layout_height="@dimen/dimen0232"
+        android:src="@drawable/ic_search_white"
+        android:scaleType="centerInside"
+        android:tint="@color/color08de"
+        android:contentDescription="@string/str420c" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/music_browse_search_suggestion_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAlignment="textStart"
+        android:layout_marginStart="@dimen/dimen103a"
+        app:attr0a24="wds_font_body2"
+        style="?attr09f6" />
+</LinearLayout>

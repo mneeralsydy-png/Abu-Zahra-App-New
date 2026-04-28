@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen0cea"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0fdb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/event_waiting_room_icon"
+        android:layout_width="@dimen/dimen0fdb"
+        android:layout_height="@dimen/dimen0fdb"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0838="@drawable/wds_ic_person_pending"
+        app:attr090d="@color/color08de" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_gravity="center_vertical"
+        android:id="@id/event_waiting_room_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str13ac"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/dimen0cec"
+        style="@style/style0406" />
+    <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+        android:id="@id/event_waiting_room_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

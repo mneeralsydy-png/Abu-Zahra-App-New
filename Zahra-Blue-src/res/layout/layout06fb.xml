@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="?android:selectableItemBackground"
+    android:padding="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0fdb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="top"
+        android:layout_width="@dimen/dimen0fdb"
+        android:layout_height="@dimen/dimen0fdb"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0838="@drawable/ic_location_on"
+        app:attr090d="@color/color08de" />
+    <com.whatsapp.ui.coreui.WaEditText
+        android:textColorHint="?attr0a46"
+        android:layout_gravity="center_vertical"
+        android:id="@id/event_location_edit_text"
+        android:background="@null"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:hint="@string/str133a"
+        android:layout_weight="1.0"
+        android:inputType="textCapSentences|textMultiLine"
+        style="@style/style05a4" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/event_location_picker_section"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_gravity="center_vertical"
+            android:id="@id/event_location_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style0406" />
+        <ViewStub
+            android:id="@id/event_location_description"
+            android:layout="@layout/layout06fa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/event_location_remove"
+        android:layout="@layout/layout06fd"
+        android:layout_width="@dimen/dimen0fdd"
+        android:layout_height="@dimen/dimen0fdd" />
+</LinearLayout>

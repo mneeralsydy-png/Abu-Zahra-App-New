@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/community_name_container"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen09e9"
+    android:layout_marginTop="@dimen/dimen09ea"
+    android:layout_marginRight="@dimen/dimen09e9"
+    app:attr048f="true"
+    app:attr0495="@id/community_description_container"
+    app:attr049a="parent"
+    app:attr04ad="parent"
+    app:attr04b0="@id/icon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textfield.WDSTextField
+        android:id="@id/name_text_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str3dc2"
+        android:inputType="textCapWords"
+        android:imeOptions="flagNoExtractUi"
+        android:importantForAccessibility="yes"
+        android:labelFor="@id/group_name"
+        app:attr08e4="single_line"
+        style="@style/style0587" />
+</RelativeLayout>

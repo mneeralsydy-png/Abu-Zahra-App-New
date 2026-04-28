@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen103b"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen103b">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/plan_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen103b"
+            app:attr0a24="wds_font_headline1"
+            style="@style/style05aa" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/plan_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1030"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/plan_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1030"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <View
+            android:layout_marginTop="@dimen/dimen103a"
+            android:layout_marginBottom="@dimen/dimen103a"
+            style="@style/style0355" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/plan_validity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1030"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/plan_talk_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1030"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/select_plan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:text="@string/str0540"
+            style="@style/style0555" />
+    </LinearLayout>
+</ScrollView>

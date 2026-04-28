@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/conversations_swipe_to_reveal_container"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/conversations_swipe_to_reveal_header_combo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/conversations_swipe_to_reveal_interop_stub"
+            android:layout="@layout/layout05bb"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0444" />
+        <ViewStub
+            android:id="@id/conversations_swipe_to_reveal_filters_stub"
+            android:layout="@layout/layout05ba"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen043f" />
+        <ViewStub
+            android:id="@id/conversations_swipe_to_reveal_suspended_group_row_stub"
+            android:layout="@layout/layout05be"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0446" />
+        <ViewStub
+            android:id="@id/conversations_swipe_to_reveal_locked_chats_stub"
+            android:layout="@layout/layout05bc"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0446" />
+    </LinearLayout>
+</FrameLayout>

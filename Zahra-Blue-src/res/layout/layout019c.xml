@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a2f"
+            android:id="@id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen00b5"
+            android:layout_marginBottom="@dimen/dimen00b5"
+            android:text="@string/str03d5"
+            android:includeFontPadding="false"
+            app:attr0a24="wds_font_body3_emphasized"
+            style="@style/style05a9" />
+        <ViewStub
+            android:id="@id/arrow"
+            android:layout="@layout/layout019d"
+            android:inflatedId="@id/arrow"
+            android:layout_width="@dimen/dimen00b2"
+            android:layout_height="@dimen/dimen00af"
+            android:layout_marginTop="@dimen/dimen00b1"
+            android:layout_marginStart="@dimen/dimen00b0" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/button"
+        android:layout="@layout/layout019e"
+        android:inflatedId="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</merge>

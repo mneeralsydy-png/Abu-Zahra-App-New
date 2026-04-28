@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimen0cea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textStyle="bold"
+                android:id="@id/booking_confirmation_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea"
+                style="@style/style05ab" />
+            <ViewStub
+                android:id="@id/booking_confirmation_details_calendar_container"
+                android:layout="@layout/layout0209"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+            <ViewStub
+                android:id="@id/booking_confirmation_details_location_container"
+                android:layout="@layout/layout020c"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+            <ViewStub
+                android:id="@id/booking_confirmation_details_video_call_container"
+                android:layout="@layout/layout020f"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+            <ViewStub
+                android:id="@id/booking_confirmation_details_description_container"
+                android:layout="@layout/layout020a"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+            <ViewStub
+                android:id="@id/booking_confirmation_details_phone_call_container"
+                android:layout="@layout/layout020d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+            <ViewStub
+                android:id="@id/booking_confirmation_details_email_container"
+                android:layout="@layout/layout020b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+            <ViewStub
+                android:id="@id/booking_confirmation_details_add_reminder_container"
+                android:layout="@layout/layout0208"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+            <ViewStub
+                android:id="@id/booking_confirmation_details_remove_reminder_container"
+                android:layout="@layout/layout020e"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginStart="@dimen/dimen0cea"
+                android:layout_marginEnd="@dimen/dimen0cea" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout
+        android:id="@id/booking_confirmation_details_action_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

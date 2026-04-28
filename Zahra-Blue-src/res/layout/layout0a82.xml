@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/motion_photo_container"
+    android:paddingLeft="@dimen/dimen0ce8"
+    android:paddingTop="@dimen/dimen0ce8"
+    android:paddingRight="@dimen/dimen0ce8"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.mediaview.ui.MotionPhotoIcon
+        android:id="@id/motion_photo_icon"
+        android:background="@drawable/reaction_button_background"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginLeft="@dimen/dimen0ce7"
+        android:scaleType="center"
+        app:attr090d="@color/color09a6" />
+</FrameLayout>

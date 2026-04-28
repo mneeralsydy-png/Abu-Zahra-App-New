@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/connect_icon"
+    android:focusable="false"
+    android:layout_width="@dimen/dimen0a84"
+    android:layout_height="@dimen/dimen0a84"
+    android:layout_marginLeft="@dimen/dimen1031"
+    android:layout_marginRight="@dimen/dimen1031"
+    android:contentDescription="@string/str3a21"
+    whatsapp:attr0838="@drawable/voip_bottom_sheet_joined_indicator"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

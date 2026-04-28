@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/emoji_section_layout"
+    android:background="?android:actionBarItemBackground"
+    android:layout_width="40.0dip"
+    android:layout_height="40.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/selector"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen057f"
+        android:layout_height="@dimen/dimen057f"
+        android:scaleType="fitCenter"
+        app:attr0838="@drawable/shape_category_selected_item" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/icon"
+        android:padding="@dimen/dimen1035"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        android:scaleType="fitCenter"
+        app:attr0838="@drawable/selector_sticker_pack_error"
+        app:attr090d="?attr0a47" />
+    <FrameLayout
+        android:id="@id/tap_area"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

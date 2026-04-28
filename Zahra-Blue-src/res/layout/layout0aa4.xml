@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_gravity="center"
+    android:id="@id/my_profile_photo_tap_area"
+    android:focusable="true"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="2.0dip"
+    android:paddingEnd="2.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:id="@id/my_profile_photo_area"
+        android:background="@drawable/me_tab_me_background"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="@dimen/dimen08bf"
+        android:layout_height="@dimen/dimen08bf">
+        <com.whatsapp.ui.coreui.CircleWaImageView
+            android:layout_gravity="center"
+            android:id="@id/my_profile_photo"
+            android:layout_width="@dimen/dimen08c2"
+            android:layout_height="@dimen/dimen08c2"
+            android:layout_margin="@dimen/dimen08c1"
+            android:foreground="?attr076e"
+            android:contentDescription="@string/str3f03" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/my_profile_badge_viewstub"
+        android:layout="@layout/layout0847"
+        android:layout_width="@dimen/dimen0fee"
+        android:layout_height="@dimen/dimen0fee"
+        android:layout_marginRight="-1.0dip"
+        android:layout_alignTop="@id/my_profile_photo_area"
+        android:layout_alignRight="@id/my_profile_photo_area"
+        android:layout_alignEnd="@id/my_profile_photo_area" />
+</RelativeLayout>

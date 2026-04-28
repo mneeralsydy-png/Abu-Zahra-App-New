@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="center_horizontal"
+    android:id="@id/status_reactions_type_toggle_container"
+    android:paddingTop="22.0dip"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingStart="20.0dip"
+    android:paddingEnd="20.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/footer_toolbar"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="@dimen/dimen1035"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="@dimen/dimen1035"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="@dimen/dimen0d44"
+        android:layout_height="@dimen/dimen0d43"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent">
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:layout_gravity="center_vertical"
+            android:id="@id/reactions_toggle_tabs"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:attr0771="true"
+            app:attr0819="true">
+            <com.google.android.material.button.MaterialButton
+                android:id="@id/emojis"
+                android:paddingLeft="19.0dip"
+                android:paddingRight="16.0dip"
+                android:visibility="visible"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/str3e45"
+                app:attr0411="@drawable/vec_ic_mood"
+                style="@style/style03b5" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@id/avatar_stickers"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:visibility="visible"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/str3d61"
+                app:attr0411="@drawable/ic_settings_unfilled_avatar"
+                style="@style/style03b5" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@id/recent_stickers"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="19.0dip"
+                android:visibility="visible"
+                android:layout_weight="1.0"
+                android:contentDescription="@string/str42a0"
+                app:attr0411="@drawable/vec_ic_sticker"
+                style="@style/style03b5" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

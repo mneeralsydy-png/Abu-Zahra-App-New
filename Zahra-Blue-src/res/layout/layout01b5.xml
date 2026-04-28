@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MaxHeightLinearLayout
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:id="@id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0069"
+        android:layout_gravity="left"
+        android:paddingLeft="@dimen/dimen00d9"
+        android:paddingTop="@dimen/dimen00dd"
+        android:paddingRight="@dimen/dimen00d9"
+        android:paddingBottom="@dimen/dimen00dc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0444"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/audio_call_item"
+        android:background="?attr076d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3d5c"
+        app:attr04e6="@drawable/ic_call_white"
+        app:attr04e7="?attr0a29"
+        app:attr04e8="false"
+        app:attr04e9="@string/str3d5c" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/video_call_item"
+        android:background="?attr076d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str4307"
+        app:attr04e6="@drawable/ic_videocam_white"
+        app:attr04e7="?attr0a29"
+        app:attr04e8="false"
+        app:attr04e9="@string/str4307" />
+</com.whatsapp.ui.coreui.components.MaxHeightLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">An gaza fita daga guruf-guruf %d. Sake gwadawa.</item>
+        <item quantity="one">An gaza fita daga guruf %d. Sake gwadawa.</item>
+    </plurals>
+</resources>

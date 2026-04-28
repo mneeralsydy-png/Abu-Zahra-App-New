@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.TextEmojiLabel
+    android:textColor="@color/color08de"
+    android:gravity="center"
+    android:id="@id/sponsor_manage_account_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str4184"
+    android:layout_marginStart="@dimen/dimen1039"
+    android:layout_marginEnd="@dimen/dimen1039"
+    app:attr0a24="wds_font_body2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

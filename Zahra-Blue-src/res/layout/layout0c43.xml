@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:background="?attr0926"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:paddingLeft="@dimen/dimen103b"
+            android:paddingTop="@dimen/dimen103b"
+            android:paddingRight="@dimen/dimen103b"
+            android:paddingBottom="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+                android:id="@id/sponsor_graduation_profile_photo"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_marginBottom="@dimen/dimen103b"
+                android:src="@drawable/avatar_contact"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent"
+                app:attr0674="circle"
+                app:attr0675="large" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center_horizontal"
+                android:id="@id/sponsor_graduation_title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:text="@string/str4172"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/sponsor_graduation_profile_photo"
+                app:attr0a24="wds_font_headline1"
+                style="@style/style05aa" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/sponsor_graduation_bullet_text_1"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen103b"
+                android:text="@string/str416e"
+                android:layout_marginStart="@dimen/dimen102e"
+                app:attr049a="parent"
+                app:attr04ac="@id/sponsor_graduation_bullet_icon_1"
+                app:attr04b0="@id/sponsor_graduation_title"
+                app:attr0a24="wds_font_body1"
+                style="@style/style05a4" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/sponsor_graduation_bullet_icon_1"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                app:attr0494="@id/sponsor_graduation_bullet_text_1"
+                app:attr04ad="parent"
+                app:attr04b1="@id/sponsor_graduation_bullet_text_1"
+                app:attr0838="@drawable/wa_ic_check_circle"
+                app:attr090d="?attr0a46" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/sponsor_graduation_bullet_text_2"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:text="@string/str416f"
+                android:layout_marginStart="@dimen/dimen102e"
+                app:attr049a="parent"
+                app:attr04ac="@id/sponsor_graduation_bullet_icon_2"
+                app:attr04b0="@id/sponsor_graduation_bullet_text_1"
+                app:attr0a24="wds_font_body1"
+                style="@style/style05a4" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/sponsor_graduation_bullet_icon_2"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                app:attr0494="@id/sponsor_graduation_bullet_text_2"
+                app:attr04ad="parent"
+                app:attr04b1="@id/sponsor_graduation_bullet_text_2"
+                app:attr0838="@drawable/wa_ic_settings"
+                app:attr090d="?attr0a46" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/sponsor_graduation_bullet_text_3"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:text="@string/str4170"
+                android:layout_marginStart="@dimen/dimen102e"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ac="@id/sponsor_graduation_bullet_icon_3"
+                app:attr04b0="@id/sponsor_graduation_bullet_text_2"
+                app:attr04b2="0.0"
+                app:attr0a24="wds_font_body1"
+                style="@style/style05a4" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/sponsor_graduation_bullet_icon_3"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                app:attr0494="@id/sponsor_graduation_bullet_text_3"
+                app:attr04ad="parent"
+                app:attr04b1="@id/sponsor_graduation_bullet_text_3"
+                app:attr0838="@drawable/vec_ic_notifications_off"
+                app:attr090d="?attr0a46" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/sponsor_graduation_button_container"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingRight="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/sponsor_graduation_ok_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str4171"
+            app:attr096b="filled"
+            style="@style/style05a7" />
+    </LinearLayout>
+</LinearLayout>

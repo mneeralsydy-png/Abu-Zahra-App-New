@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/add_participant_contact"
+    android:background="@drawable/chat_info_list_selector"
+    android:paddingLeft="@dimen/dimen06a3"
+    android:paddingRight="@dimen/dimen06a3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/add_participant_contact_icon"
+        android:background="@drawable/primary_light_circle_background"
+        app:attr0838="@drawable/vec_ic_recent_actors"
+        app:attr090d="?attr0a4b"
+        style="@style/style0284" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/add_participant_contact_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str01d1"
+        style="@style/style0289" />
+</LinearLayout>

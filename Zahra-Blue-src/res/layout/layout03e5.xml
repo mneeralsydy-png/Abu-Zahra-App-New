@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/list_bottom_shadow"
+        style="@style/style0282" />
+    <com.whatsapp.ui.coreui.InfoCard
+        android:orientation="vertical"
+        android:id="@id/other_phones_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <FrameLayout
+            android:paddingLeft="@dimen/dimen06a4"
+            style="@style/style0218">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:text="@string/str0d24"
+                style="@style/style021b" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/other_phones_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard
+        android:id="@id/favorite_contact_card"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@id/favorite_contact_btn"
+            android:background="@drawable/selector_orange_gradient"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen06a6">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/favorite_contact_icon"
+                app:attr0838="@drawable/vec_ic_favourite"
+                app:attr090d="@color/color06ac"
+                style="@style/style0190" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="17.0sp"
+                android:textColor="?attr066e"
+                android:gravity="center|left"
+                android:id="@id/favorite_contact_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str1484" />
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard
+        android:id="@id/list_contact_card"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@id/list_contact_btn"
+            android:background="@drawable/selector_orange_gradient"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen06a6">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/list_contact_icon"
+                android:layout_width="@dimen/dimen0cca"
+                android:layout_height="@dimen/dimen0cca"
+                android:layout_marginRight="@dimen/dimen0cc9"
+                android:scaleType="center"
+                app:attr0838="@drawable/vec_list_icon" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="17.0sp"
+                android:id="@id/list_contact_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str01f3" />
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard
+        android:id="@id/block_contact_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@id/block_contact_btn"
+            android:background="@drawable/selector_orange_gradient"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen06a6">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/block_contact_icon"
+                android:layout_width="@dimen/dimen0cca"
+                android:layout_height="@dimen/dimen0cca"
+                android:layout_marginRight="@dimen/dimen0cc9"
+                android:scaleType="center"
+                app:attr0838="@drawable/ic_block" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="17.0sp"
+                android:id="@id/block_contact_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str0608" />
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard
+        android:id="@id/report_contact_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="?attr0a59"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@id/report_contact_btn"
+                style="@style/style0192">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center"
+                    android:id="@id/report_contact_icon"
+                    app:attr0838="@drawable/ic_thumb_down"
+                    style="@style/style0190" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/report_contact_text"
+                    android:text="@string/str2bdf"
+                    style="@style/style0191" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.whatsapp.ui.coreui.InfoCard>
+</LinearLayout>

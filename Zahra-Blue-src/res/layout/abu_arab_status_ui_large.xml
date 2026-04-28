@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="?attr076d"
+    android:layout_width="fill_parent"
+    android:layout_height="240.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/status_preview"
+        android:padding="0.0dip"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="160.0dip"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:attr07d0="@style/style03b7"
+        app:attr085d="@color/color089d"
+        app:attr085e="@dimen/dimen0d6b" />
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+        android:layout_gravity="center|left"
+        android:id="@id/wds_profile_picture"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_margin="@dimen/dimen102e"
+        android:layout_alignParentLeft="true"
+        app:attr0675="medium" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/contact_text_container"
+        android:paddingRight="@dimen/dimen0747"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_toRightOf="@id/wds_profile_picture">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/contact_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0d19"
+            style="?attr08d4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:id="@id/date_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            style="?attr04e0" />
+    </LinearLayout>
+</RelativeLayout>

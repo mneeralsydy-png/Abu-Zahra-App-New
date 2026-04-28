@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.tabs.TabLayout
+    android:id="@id/gallery_tab_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="46.0dip"
+    app:attr0886="fill"
+    app:attr088f="2.5dip"
+    app:attr0891="0.0dip"
+    app:attr0893="fixed"
+    app:attr089c="?attr066e"
+    app:attr089e="@style/style03c2"
+    app:attr089f="?attr0a46"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

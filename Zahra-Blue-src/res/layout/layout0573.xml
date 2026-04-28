@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/business_verified_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="center_vertical"
+        android:id="@id/verify_icon"
+        android:layout_width="@dimen/dimen0fe6"
+        android:layout_height="@dimen/dimen0fe6"
+        android:src="@drawable/ic_shield_lock"
+        android:scaleType="centerInside" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a35"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@id/verify_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:fontFamily="?attr03b6"
+        style="@style/style05a6" />
+</LinearLayout>

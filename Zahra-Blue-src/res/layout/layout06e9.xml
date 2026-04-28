@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MainChildCoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr0566="@id/event_creation_activity_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/event_creation_activity_container"
+        android:background="@drawable/wds_bottom_sheet_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0cea">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:gravity="center_vertical"
+                android:id="@id/event_creation_close_button"
+                android:layout_width="@dimen/dimen0cee"
+                android:layout_height="@dimen/dimen0cee"
+                android:tint="@color/color0347"
+                android:contentDescription="@string/str3dac"
+                app:attr0838="@drawable/ic_close" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:id="@id/event_creation_bottom_sheet_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str135b"
+                android:fontFamily="?attr03b6"
+                style="@style/style0121" />
+        </FrameLayout>
+        <View
+            style="@style/style0355" />
+        <FrameLayout
+            android:id="@id/container_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.components.MainChildCoordinatorLayout>

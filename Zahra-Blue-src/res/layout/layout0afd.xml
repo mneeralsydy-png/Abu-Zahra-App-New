@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+                android:id="@id/direct_migration_confirm_transfer_screen_toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr08f4="@style/style0704" />
+            <ViewStub
+                android:layout_gravity="center|top"
+                android:id="@id/restore_from_consumer_transfer_illustration_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen103b"
+                android:layout_marginTop="@dimen/dimen103b"
+                android:layout_marginRight="@dimen/dimen103b"
+                android:layout_marginBottom="@dimen/dimen103b" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView
+                android:textColor="?attr0a47"
+                android:gravity="center"
+                android:id="@id/direct_migration_transfer_in_progress_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen103b"
+                android:layout_marginRight="@dimen/dimen103b"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:text="@string/str3e1a"
+                app:attr0a24="wds_font_large_title2"
+                style="@style/style05ad" />
+            <com.whatsapp.ui.wds.components.textview.WDSTextView
+                android:textColor="?attr0a46"
+                android:gravity="center"
+                android:id="@id/direct_migration_transfer_in_progress_subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen103b"
+                android:layout_marginRight="@dimen/dimen103b"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:text="@string/str3e1b"
+                app:attr0a24="wds_font_body1"
+                style="@style/style05a4" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/direct_migration_restore_chats_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str106e"
+                app:attr06ca="body1"
+                app:attr06e1="true"
+                app:attr06f1="spacing_single"
+                app:attr06f2="spacing_triple"
+                app:attr06f6="@drawable/wds_ic_chat"
+                app:attr0702="icon"
+                app:attr0704="spacing_single_plus" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/direct_migration_restore_media_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str1070"
+                app:attr06ca="body1"
+                app:attr06e1="true"
+                app:attr06f1="spacing_single"
+                app:attr06f2="spacing_triple"
+                app:attr06f6="@drawable/ic_perm_media"
+                app:attr0702="icon"
+                app:attr0704="spacing_single_plus" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/direct_migration_restore_settings_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str1072"
+                app:attr06ca="body1"
+                app:attr06e1="true"
+                app:attr06f1="spacing_single"
+                app:attr06f2="spacing_triple"
+                app:attr06f6="@drawable/ic_settings"
+                app:attr0702="icon"
+                app:attr0704="spacing_single_plus" />
+        </LinearLayout>
+    </ScrollView>
+    <ViewStub
+        android:layout_gravity="bottom|center"
+        android:id="@id/migrate_finish_transfer_next_btn"
+        android:layout="@layout/layout0afc"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        style="@style/style055c" />
+    <ViewStub
+        android:layout_gravity="bottom|center"
+        android:id="@id/migrate_failed_transfer_btn_group"
+        android:layout="@layout/layout0afb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e" />
+</LinearLayout>

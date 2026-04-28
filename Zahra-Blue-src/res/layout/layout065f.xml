@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04e2="@string/str0b47"
+    app:attr04e6="@drawable/wa_ic_filter"
+    app:attr04e7="?attr0a29"
+    app:attr04e8="false"
+    app:attr04e9="@string/str0b4a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/bottom_nav_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/bottom_nav_divider"
+        android:background="?attr00d2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip" />
+    <com.whatsapp.ui.wds.components.bottombar.WDSBottomBar
+        android:theme="@style/style04ae"
+        android:id="@id/bottom_nav"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style05c9" />
+</LinearLayout>

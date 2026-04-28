@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr06c6="@string/str0c56"
+    app:attr06c9="@string/str0c58"
+    app:attr06e1="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/selector_orange_gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        style="@style/style035a" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="12.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="@color/color0218"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/action_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1a72"
+            android:includeFontPadding="false"
+            android:fontFamily="?attr03b8" />
+        <ViewStub
+            android:id="@id/viewstub_action_button_badge"
+            android:layout="@layout/layout11be"
+            android:inflatedId="@id/action_button_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0ced" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/preview_container"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.stickers.coinflip.CoinFlipAnimatedProfileView
+        android:id="@id/avatar_animated_profile_view"
+        android:layout_width="@dimen/dimen02b1"
+        android:layout_height="@dimen/dimen02b1"
+        android:src="@drawable/ic_settings_profile"
+        android:contentDescription="@string/str41e1"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/swipe_profile_text_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen02b0"
+        android:text="@string/str0b7e"
+        android:layout_marginStart="@dimen/dimen02ac"
+        android:layout_marginEnd="@dimen/dimen02ac"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/avatar_animated_profile_view"
+        style="@style/style040b" />
+</androidx.constraintlayout.widget.ConstraintLayout>

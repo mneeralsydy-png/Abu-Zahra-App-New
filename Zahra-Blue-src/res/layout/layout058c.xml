@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style052e"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/icon"
+        style="@style/style052d" />
+    <include
+        layout="@layout/layout042d" />
+</LinearLayout>

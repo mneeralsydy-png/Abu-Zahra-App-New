@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen0ed2"
+    android:layout_height="@dimen/dimen0ed2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_gravity="center"
+        android:id="@id/voice_option_non_selected"
+        android:padding="@dimen/dimen0ecf"
+        android:layout_width="@dimen/dimen0ece"
+        android:layout_height="@dimen/dimen0ece"
+        android:scaleType="centerCrop"
+        app:attr07d0="@style/style0549"
+        app:attr085e="@dimen/dimen0ecf" />
+</FrameLayout>

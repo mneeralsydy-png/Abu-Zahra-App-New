@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:scrollbars="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.BottomSheetListView
+            android:id="@id/delete_logout_chat_bottom_sheet"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:attr0495="@id/delete_chat_headline_text"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center_horizontal"
+            android:id="@id/delete_chat_headline_text"
+            android:paddingLeft="@dimen/dimen0cee"
+            android:paddingTop="@dimen/dimen0cee"
+            android:paddingRight="@dimen/dimen0cee"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str0fd6"
+            app:attr0440="true"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/delete_logout_chat_bottom_sheet"
+            app:attr0a24="wds_font_headline1"
+            style="@style/style05ab" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/delete_chat_description_text"
+            android:paddingLeft="@dimen/dimen0cea"
+            android:paddingTop="@dimen/dimen0cee"
+            android:paddingRight="@dimen/dimen0cea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:layout_marginRight="@dimen/dimen0cea"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/delete_chat_headline_text"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox
+            android:textColor="?attr0a46"
+            android:gravity="start"
+            android:id="@id/delete_chat_acknowledgement_container"
+            android:paddingBottom="@dimen/dimen0cee"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cee"
+            android:layout_marginTop="@dimen/dimen0cee"
+            android:layout_marginRight="@dimen/dimen0cee"
+            android:text="@string/str3df1"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/delete_chat_description_text"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+            android:id="@id/delete_chat_button_group"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            android:layout_marginStart="@dimen/dimen0cee"
+            android:layout_marginEnd="@dimen/dimen0cee"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/delete_chat_acknowledgement_container"
+            app:attr0a1e="vertical">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/delete_chat_primary_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str0fd3"
+                app:attr0009="destructive"
+                style="@style/style0555" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/delete_chat_secondary_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3d9b"
+                app:attr096b="borderless"
+                style="@style/style055d" />
+        </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

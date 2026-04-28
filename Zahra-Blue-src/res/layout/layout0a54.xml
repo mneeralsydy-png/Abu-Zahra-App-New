@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/coordinator"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:theme="@style/style04ce"
+        android:id="@id/appbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0308="0.0dip">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+            android:id="@id/toolbar"
+            app:attr02dd="gone"
+            app:attr04c6="enterAlways|scroll|snap"
+            style="@style/style0520" />
+        <androidx.appcompat.widget.SearchView
+            android:id="@id/search_view"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style0603" />
+        <ViewStub
+            android:id="@id/tab_layout_view_stub"
+            android:layout="@layout/layout0a57"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/chip_layout_view_stub"
+            android:layout="@layout/layout0a55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:id="@id/media_gallery_separator"
+            style="@style/style0355" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr048c="@string/str3d52" />
+    <ViewStub
+        android:id="@id/media_hub_fragment_container"
+        android:layout="@layout/layout0a5b"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr048c="@string/str3d52" />
+    <View
+        android:id="@id/split_view_divider"
+        android:background="?attr0834"
+        android:visibility="gone"
+        android:layout_width="1.0dip"
+        android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

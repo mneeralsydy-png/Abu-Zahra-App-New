@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/sticker_detail_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/close_button"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/dimen0ce7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cea"
+            android:layout_marginStart="@dimen/dimen0cea"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/ic_close_themed" />
+        <FrameLayout
+            android:id="@id/sticker_view_container"
+            android:layout_width="@dimen/dimen09f7"
+            android:layout_height="@dimen/dimen09f7"
+            android:layout_marginTop="@dimen/dimen0cee"
+            android:layout_marginBottom="@dimen/dimen0cea"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.coreui.CircularProgressBar
+                android:layout_gravity="center"
+                android:id="@id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr028b="@color/color0790"
+                app:attr028c="@color/color08bd" />
+            <ViewStub
+                android:id="@id/sticker_view_stub"
+                android:layout="@layout/layout11b7"
+                android:inflatedId="@id/sticker_view_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+        <ViewStub
+            android:layout_gravity="center_horizontal"
+            android:id="@id/sticker_pack_info_view_stub"
+            android:layout="@layout/layout11b6"
+            android:inflatedId="@id/sticker_pack_info_view_stub"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cea"
+            android:layout_marginBottom="@dimen/dimen0ce9"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/sticker_view_container" />
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/separator_top_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr009b="false"
+            app:attr009c="bottom"
+            app:attr0243="sticker_pack_info_view_stub, squid_description_info, sticker_view_container"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+        <View
+            android:id="@id/separator_view"
+            android:background="@color/color08eb"
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_marginTop="@dimen/dimen0cea"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/separator_top_barrier" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/button_container_view"
+            android:paddingBottom="@dimen/dimen0ce7"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/separator_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

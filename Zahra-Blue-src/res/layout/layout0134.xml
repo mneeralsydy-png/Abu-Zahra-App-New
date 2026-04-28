@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:fadingEdgeLength="@dimen/dimen1034"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:requiresFadingEdge="vertical">
+        <androidx.fragment.app.FragmentContainerView
+            android:name="com.whatsapp.aicreation.product.ui.SharedVoiceSelectorFragment"
+            android:id="@id/shared_voice_selector_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+    <com.whatsapp.aicreation.product.ui.component.CreationButton
+        android:id="@id/ai_creation_step_next_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0f7c"
+        android:layout_marginBottom="@dimen/dimen102f"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr096b="filled" />
+</LinearLayout>

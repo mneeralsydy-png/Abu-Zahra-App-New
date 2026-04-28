@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style0367"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/status_row"
+        android:maxLines="1"
+        android:singleLine="true"
+        style="@style/style0369" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/status_selected_check"
+        app:attr0838="@drawable/ic_check_white"
+        app:attr090d="?attr0a29"
+        style="@style/style035e" />
+</LinearLayout>

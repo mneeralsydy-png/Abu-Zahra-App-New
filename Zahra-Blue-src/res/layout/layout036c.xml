@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.comments.ui.CommentSendFailedIconView
+    android:background="@drawable/ic_msg_fail"
+    android:layout_width="@dimen/dimen03f0"
+    android:layout_height="@dimen/dimen03f0"
+    android:scaleType="center"
+    android:contentDescription="@string/str1d62"
+    app:attr090d="@color/color0209"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

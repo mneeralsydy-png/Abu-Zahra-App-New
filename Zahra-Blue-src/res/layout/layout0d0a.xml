@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="@drawable/pen_mode_view_gradient_background"
+    android:paddingBottom="@dimen/dimen0ce7"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0509"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom"
+        android:id="@id/pen_mode_thin"
+        android:padding="@dimen/dimen0ade"
+        android:layout_width="@dimen/dimen0adf"
+        android:layout_height="@dimen/dimen0adf"
+        android:contentDescription="@string/str004c"
+        app:attr0838="@drawable/pen_mode_thin" />
+    <Space
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom"
+        android:id="@id/pen_mode_medium"
+        android:background="@drawable/pen_mode_selected_background"
+        android:padding="@dimen/dimen0ade"
+        android:layout_width="@dimen/dimen0adf"
+        android:layout_height="@dimen/dimen0adf"
+        android:contentDescription="@string/str0030"
+        app:attr0838="@drawable/pen_mode_medium" />
+    <Space
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom"
+        android:id="@id/pen_mode_thick"
+        android:padding="@dimen/dimen0ade"
+        android:layout_width="@dimen/dimen0adf"
+        android:layout_height="@dimen/dimen0adf"
+        android:contentDescription="@string/str004b"
+        app:attr0838="@drawable/pen_mode_thick" />
+    <Space
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom"
+        android:id="@id/pen_mode_blur"
+        android:padding="@dimen/dimen0124"
+        android:layout_width="@dimen/dimen0adf"
+        android:layout_height="@dimen/dimen0adf"
+        android:contentDescription="@string/str001f"
+        app:attr0838="@drawable/pen_mode_blur" />
+    <Space
+        android:id="@id/pen_mode_blur_space"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+</LinearLayout>

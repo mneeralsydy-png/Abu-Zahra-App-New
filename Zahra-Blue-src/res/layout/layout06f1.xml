@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textColor="@color/color08e8"
+    android:background="@drawable/group_info_label_negative"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str134a"
+    style="@style/style023f"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="?attr000d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:enabled="false"
+        android:orientation="horizontal"
+        android:id="@id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style0001">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="start|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            app:attr0838="?attr0405"
+            app:attr090d="?attr0a47" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        app:attr0494="parent"
+        app:attr04ac="@id/back"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_headline2"
+        style="@style/style05ab" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/bill_payments_be_assured"
+        android:layout_width="@dimen/dimen011e"
+        android:layout_height="@dimen/dimen011e"
+        android:layout_marginRight="@dimen/dimen1031"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/bill_payments_be_assured" />
+</androidx.constraintlayout.widget.ConstraintLayout>

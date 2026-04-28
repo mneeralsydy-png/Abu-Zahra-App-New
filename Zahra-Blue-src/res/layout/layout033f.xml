@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0ce7"
+    android:layout_marginBottom="0.0dip"
+    app:attr0494="parent"
+    app:attr049a="parent"
+    app:attr04ad="parent"
+    app:attr04b0="@id/scroll_view"
+    style="@style/style01a2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center"
+        android:id="@id/chat_lock_primary_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        android:layout_marginStart="@dimen/dimen0b5e"
+        android:layout_marginEnd="@dimen/dimen0b5e"
+        style="@style/style0555" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center"
+        android:id="@id/chat_lock_secondary_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        android:layout_marginStart="@dimen/dimen0b5e"
+        android:layout_marginEnd="@dimen/dimen0b5e"
+        app:attr096b="borderless"
+        style="@style/style055d" />
+</LinearLayout>

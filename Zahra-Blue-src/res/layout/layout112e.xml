@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/create_fun_stickers_container"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0575"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dimen0571"
+        android:layout_height="@dimen/dimen0571"
+        layout="@layout/layout05ce" />
+</FrameLayout>

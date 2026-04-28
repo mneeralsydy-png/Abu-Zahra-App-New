@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.calling.ui.callgrid.view.VoiceParticipantAudioWave
+    android:layout_width="@dimen/dimen0789"
+    android:layout_height="@dimen/dimen0787"
+    style="@style/style0272"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

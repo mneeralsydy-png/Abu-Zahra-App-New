@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/suggested_contacts_list_container"
+    android:paddingBottom="9.0dip"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="9.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/suggested_contacts_loading_spinner_stub"
+        android:layout="@layout/layout0413"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/suggested_contacts_list_stub"
+        android:layout="@layout/layout0412"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

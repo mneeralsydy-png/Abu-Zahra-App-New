@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/style0252"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/calling_source_selection_menu_item_left_icon"
+        android:layout_width="@dimen/dimen00d3"
+        android:layout_height="@dimen/dimen00d3"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/calling_source_selection_menu_item_title"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0495="@id/calling_source_selection_menu_item_subtitle"
+        app:attr04ac="@id/calling_source_selection_menu_item_left_icon"
+        app:attr04b1="parent"
+        app:attr04b3="packed"
+        style="@style/style0253" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/calling_source_selection_menu_item_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04ac="@id/calling_source_selection_menu_item_left_icon"
+        app:attr04b0="@id/calling_source_selection_menu_item_title"
+        style="@style/style0253" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/calling_source_selection_menu_item_right_icon"
+        android:layout_width="@dimen/dimen00d3"
+        android:layout_height="@dimen/dimen00d3"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

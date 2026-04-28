@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/bullet_icon"
+        android:layout_width="@dimen/dimen0fd9"
+        android:layout_height="@dimen/dimen0fd9"
+        android:tint="@color/color08de"
+        android:layout_marginStart="@dimen/dimen1039"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a4"
+        android:textColor="?attr0a47"
+        android:id="@id/bullet_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:layout_marginStart="@dimen/dimen103b"
+        app:attr0495="@id/bullet_subtitle"
+        app:attr049a="parent"
+        app:attr04ac="@id/bullet_icon"
+        app:attr04b1="parent"
+        app:attr04b3="packed"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a6"
+        android:textColor="?attr0a46"
+        android:id="@id/bullet_subtitle"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="@id/bullet_title"
+        app:attr04b0="@id/bullet_title"
+        app:attr0a24="wds_font_body2" />
+</merge>

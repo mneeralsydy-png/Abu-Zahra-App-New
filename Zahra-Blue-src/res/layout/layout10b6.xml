@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.settings.ui.chat.wallpaper.WallpaperImagePreview
+        android:id="@id/theme_preview_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.settings.ui.chat.wallpaper.WallpaperMockChatView
+        android:id="@id/theme_preview_mock_chat"
+        android:paddingTop="@dimen/dimen1030"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</merge>

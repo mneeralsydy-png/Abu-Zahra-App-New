@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    whatsapp:attr0009="media"
+    whatsapp:attr0411="@drawable/waving_hand_emoji_static"
+    whatsapp:attr0441="true"
+    whatsapp:attr096b="borderless"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

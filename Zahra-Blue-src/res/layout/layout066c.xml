@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:id="@id/doodle_pen_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/canvas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:id="@id/doodle_pen_top_bar"
+        android:padding="@dimen/dimen0511"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="@dimen/dimen0fb6"
+            android:gravity="center"
+            android:id="@id/pen_dialog_done"
+            android:paddingLeft="@dimen/dimen0ce7"
+            android:paddingRight="@dimen/dimen0ce7"
+            android:nextFocusLeft="@id/pen_mode_view"
+            android:nextFocusUp="@id/pen_mode_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0507"
+            android:minWidth="@dimen/dimen0506"
+            android:minHeight="@dimen/dimen0505"
+            android:text="@string/str3e2a"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="true"
+            android:layout_alignParentStart="true"
+            app:attr0009="media"
+            app:attr096b="tonal"
+            app:attr09ea="small" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/pen_dialog_icon_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0513"
+            android:layout_marginRight="@dimen/dimen0512"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/dimen0512"
+            android:layout_alignParentEnd="true">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:gravity="center"
+                android:id="@id/pen_dialog_undo"
+                android:visibility="invisible"
+                android:layout_width="@dimen/dimen0517"
+                android:layout_height="@dimen/dimen0517"
+                android:scaleType="center"
+                android:contentDescription="@string/str3619"
+                app:attr0838="@drawable/ic_cam_undo_new" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:gravity="center"
+                android:id="@id/pen_dialog_pen"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="@dimen/dimen0517"
+                android:layout_height="@dimen/dimen0517"
+                android:scaleType="center"
+                android:contentDescription="@string/str110e"
+                app:attr0838="@drawable/ic_cam_draw" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.whatsapp.mediacomposer.doodle.ColorPickerComponent
+        android:id="@id/pen_dialog_color_picker_component"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr0292="@dimen/dimen050f"
+        app:attr0293="@dimen/dimen0510"
+        app:attr0294="10.0dip" />
+    <com.whatsapp.mediacomposer.doodle.penmode.PenModeView
+        android:layout_gravity="bottom"
+        android:id="@id/pen_mode_view"
+        android:nextFocusRight="@id/pen_dialog_color_picker_component"
+        android:nextFocusDown="@id/pen_dialog_color_picker_component"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

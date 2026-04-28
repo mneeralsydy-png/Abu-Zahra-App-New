@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.qrcode.contactqr.ContactQrContactCardView
+    android:gravity="center"
+    android:id="@id/qr_code_card"
+    android:paddingTop="8.0dip"
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

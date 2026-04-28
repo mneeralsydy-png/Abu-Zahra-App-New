@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/title_toolbar"
+        android:background="?attr0923"
+        android:layout_width="0.0dip"
+        android:layout_height="?attr000d"
+        android:minHeight="?attr000d"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style0521" />
+    <ViewStub
+        android:id="@id/upcoming_calls_stub"
+        android:layout="@layout/layout10fe"
+        android:inflatedId="@id/upcoming_calls"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title_toolbar" />
+    <ViewStub
+        android:id="@id/upcoming_call_list_empty_state_stub"
+        android:layout="@layout/layout10fd"
+        android:inflatedId="@id/upcoming_call_list_empty_state"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title_toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="horizontal"
+    android:id="@id/linearLayout"
+    android:background="?attr0626"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0ad5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/banner_image_circle_background"
+        android:background="@drawable/payments_incentive_banner_circle"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/banner_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/banner_image_circle_background"
+        app:attr049a="@id/banner_image_circle_background"
+        app:attr04ad="@id/banner_image_circle_background"
+        app:attr04b1="@id/banner_image_circle_background"
+        app:attr0838="@drawable/ic_gift_reward"
+        app:attr090d="?attr0a29" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="15.0sp"
+        android:textColor="?attr0a47"
+        android:gravity="center_vertical"
+        android:id="@id/banner_title"
+        android:paddingTop="12.0dip"
+        android:paddingBottom="12.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="16.0dip"
+        app:attr0494="parent"
+        app:attr049b="@id/cancel"
+        app:attr04ac="@id/banner_image_circle_background"
+        app:attr04b1="parent"
+        style="@style/style03c7" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/cancel"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:contentDescription="@string/str3dac"
+        android:layout_marginEnd="16.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="@color/color01cd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

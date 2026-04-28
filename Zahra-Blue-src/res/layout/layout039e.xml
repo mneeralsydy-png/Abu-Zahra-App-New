@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_horizontal"
+        android:id="@id/compare_number_header"
+        android:paddingTop="@dimen/dimen103b"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str0ca5"
+        android:fontFamily="?attr03b8"
+        android:layout_marginStart="@dimen/dimen0c93"
+        android:layout_marginEnd="@dimen/dimen0c93"
+        style="?attr07b0" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:gravity="center_horizontal"
+        android:id="@id/identity_verification_number"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1034"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/dimen1030"
+        android:fontFamily="?attr03b8"
+        app:attr0a24="wds_font_body1_emphasized" />
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/numerical_code_toggle_parent"
+        android:paddingTop="@dimen/dimen0ceb"
+        android:paddingBottom="@dimen/dimen0cf1"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textStyle="bold"
+            android:textColor="?attr0a45"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/numerical_code_toggle"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str226e"
+            android:drawablePadding="10.0dip"
+            app:attr02ed="?attr0a45" />
+    </LinearLayout>
+</LinearLayout>

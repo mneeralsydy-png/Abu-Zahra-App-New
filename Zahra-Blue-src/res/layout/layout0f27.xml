@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.settings.SettingsRowPrivacyLinearLayout
+            android:orientation="horizontal"
+            android:id="@id/silence_call_layout"
+            android:paddingTop="@dimen/dimen0c97"
+            android:paddingBottom="@dimen/dimen0c97"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:paddingStart="@dimen/dimen0c93"
+            android:paddingEnd="@dimen/dimen0c93"
+            style="@style/style0363">
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingRight="@dimen/dimen102e"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:ellipsize="none"
+                    android:id="@id/switch_label_view"
+                    android:paddingBottom="@dimen/dimen1030"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str305b"
+                    android:maxLines="@null"
+                    android:singleLine="false"
+                    style="?attr07b5" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:id="@id/description_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3.0dip"
+                    style="?attr07b1" />
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:layout_gravity="end|center|top"
+                    android:id="@id/silence_switch"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false" />
+                <ProgressBar
+                    android:layout_gravity="end|center|top"
+                    android:id="@id/silence_progress_bar"
+                    android:visibility="invisible"
+                    android:layout_width="@dimen/dimen1034"
+                    android:layout_height="@dimen/dimen1034" />
+            </FrameLayout>
+        </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.TextEmojiLabel
+    android:textColor="?attr0a47"
+    android:id="@id/broadcast_list_header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen1039"
+    android:text="@string/str0972"
+    android:lineSpacingExtra="5.0sp"
+    android:textAlignment="viewStart"
+    android:layout_marginStart="@dimen/dimen102e"
+    android:layout_marginEnd="@dimen/dimen102e"
+    app:attr049a="parent"
+    app:attr04ad="parent"
+    app:attr04b0="@id/broadcast_counter_view_stub"
+    style="@style/style05a5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

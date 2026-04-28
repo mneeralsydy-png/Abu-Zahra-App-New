@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/location_picker_shape_placeholder"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12.0dip"
+        app:attr0495="@id/location_shape_tooltip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ProgressBar
+        android:id="@id/map_loading_progress_bar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a2f"
+        android:id="@id/location_shape_tooltip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1bfc"
+        android:shadowColor="@color/color08c2"
+        android:shadowDx="0.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="9.6"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr0a24="wds_font_body2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

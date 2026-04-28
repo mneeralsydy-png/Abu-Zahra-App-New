@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:icon="@drawable/abo_arab_ic_layout"
+        android:entries="@array/home_theme"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/yoconh"
+        android:key="HomeEntry"
+        android:summary="@string/yoconhS"
+        android:defaultValue="0"
+        android:entryValues="@array/home_theme_values" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_deslizar"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoSwipeRow"
+        android:key="isSwipeEnabledV2"
+        android:summary="@string/yoSwipeRowS"
+        android:defaultValue="false" />
+    <com.whatsapp.yo.SeekBarPreference
+        android:max="35"
+        android:title="@string/MainSize"
+        android:key="main_text"
+        android:summary="@string/MainSizeS"
+        android:defaultValue="17"
+        robobunny:unitsLeft=""
+        robobunny:unitsRight="sp"
+        robobunny:min="10" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_subtitlecolor"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/textcoloruni"
+        android:key="ModConTextColor"
+        android:summary="@string/textcolormain" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_nomes"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoContactNameC"
+        android:key="ModContactNameColor"
+        android:summary="@string/yoContactNameCS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_contrafundo"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/unread_counter"
+        android:key="HomeCounterBK"
+        android:summary="@string/unread_counterS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_countercolor"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/unread_textcounter"
+        android:key="HomeCounterText"
+        android:summary="@string/unread_textcounterS" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_onlinecor"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/contact_online_mod"
+        android:key="ModOnlineColor"
+        android:summary="@string/contact_online_summary" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_offstats"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/contact_lastseen_mod"
+        android:key="ModlastseenColor"
+        android:summary="@string/contact_lastseen_mod_summary" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_mentionbg"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/MentionIndicatorBackgroundColor"
+        android:key="ModHomeMentionIndBackground" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_mentionborder"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/MentionIndicatorIconColor"
+        android:key="ModHomeMentionIconColor" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_priv"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoArchvChat"
+        android:key="key_mas_hide_archive_home"
+        android:summary="@string/yoArchvChatSum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_button_archived"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/archiv_text"
+        android:key="arch_chats_top"
+        android:summary="@string/archiv_text_sum"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_onlinestyle"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoOnlineHome"
+        android:key="onlinechat"
+        android:summary="@string/yoOnlineSum"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_onlinedot"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/OnlineDotHome"
+        android:key="onlineDotchat"
+        android:defaultValue="false" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_profilecircle"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/OnlineDotHomeColor"
+        android:key="onlineDotchatColor" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_elapsed"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/elapsedT"
+        android:key="elapsed_time"
+        android:summary="@string/elapsedTS"
+        android:defaultValue="false" />
+</PreferenceScreen>

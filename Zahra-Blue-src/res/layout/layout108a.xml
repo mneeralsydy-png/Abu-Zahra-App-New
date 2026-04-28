@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen103b"
+        android:paddingEnd="@dimen/dimen103b">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/imageView_chat_with_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/vec_support_chat" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="center"
+            android:id="@id/textView_chat_with_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:text="@string/str0b15"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/imageView_chat_with_support"
+            app:attr0a24="wds_font_headline1"
+            style="@style/style05aa" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:gravity="start"
+            android:id="@id/title_secure_chat"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ceb"
+            android:text="@string/str3446"
+            android:layout_marginStart="@dimen/dimen0cee"
+            app:attr049a="parent"
+            app:attr04ac="@id/ai_signal_icon"
+            app:attr04b0="@id/textView_chat_with_support"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/ai_signal_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginStart="@dimen/dimen1039"
+            app:attr04ad="parent"
+            app:attr04b1="@id/title_secure_chat"
+            app:attr0838="@drawable/vec_ic_verified_user"
+            app:attr090d="@color/color08de" />
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/barrier_meta_ai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr009c="bottom"
+            app:attr0243="title_secure_chat, ai_signal_icon" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:gravity="start"
+            android:id="@id/title_answers_ai_generated"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ceb"
+            android:text="@string/str3438"
+            android:layout_marginStart="@dimen/dimen0cee"
+            app:attr049a="parent"
+            app:attr04ac="@id/help_ai_icon"
+            app:attr04b0="@id/barrier_meta_ai"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/help_ai_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/dimen1039"
+            app:attr04ad="parent"
+            app:attr04b1="@id/title_answers_ai_generated"
+            app:attr0838="@drawable/wds_ic_ai"
+            app:attr090d="@color/color08de" />
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/barrier_custom_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr009c="bottom"
+            app:attr0243="title_answers_ai_generated, help_ai_icon" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:gravity="start"
+            android:id="@id/title_help_us_improve_with_feedback"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ceb"
+            android:text="@string/str3440"
+            android:layout_marginStart="@dimen/dimen0cee"
+            app:attr049a="parent"
+            app:attr04ac="@id/help_ai_icon"
+            app:attr04b0="@id/barrier_custom_support"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/icon_thumbs_up_down"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/dimen1039"
+            app:attr04ad="parent"
+            app:attr04b1="@id/title_help_us_improve_with_feedback"
+            app:attr0838="@drawable/vec_ic_thumbs_up_down"
+            app:attr090d="@color/color08de" />
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/barrier_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr009c="bottom"
+            app:attr0243="title_help_us_improve_with_feedback, icon_thumbs_up_down" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/description_review_technical_information"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/barrier_feedback"
+            style="@style/style05a8" />
+        <ViewStub
+            android:id="@id/start_chat_view_stub"
+            android:layout="@layout/layout0997"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/description_review_technical_information" />
+        <ViewStub
+            android:id="@id/ok_button_view_stub"
+            android:layout="@layout/layout0991"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginBottom="@dimen/dimen103b"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/description_review_technical_information"
+            style="@style/style0555" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen014f">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="start|center"
+            android:id="@id/bottom_sheet_close_button"
+            android:background="?attr076e"
+            android:layout_width="@dimen/dimen1011"
+            android:layout_height="@dimen/dimen1011"
+            android:contentDescription="@string/str3dac"
+            android:layout_marginStart="@dimen/dimen0cec"
+            app:attr0838="@drawable/ic_close"
+            app:attr090d="@color/color08df" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0149"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/bottom_sheet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1178"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="end|center"
+            android:id="@id/bottom_sheet_done_button"
+            android:background="?attr076e"
+            android:layout_width="@dimen/dimen1011"
+            android:layout_height="@dimen/dimen1011"
+            android:contentDescription="@string/str3e2a"
+            android:layout_marginStart="@dimen/dimen0cec"
+            android:layout_marginEnd="@dimen/dimen0cec"
+            app:attr0838="@drawable/ic_check_white"
+            app:attr090d="@color/color08df" />
+    </FrameLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

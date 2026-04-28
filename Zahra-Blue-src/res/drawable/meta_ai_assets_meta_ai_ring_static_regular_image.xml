@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.drawable.custom.AppThemedDrawable
+    fbui:attr096c="@drawable/meta_ai_assets_meta_ai_ring_static_regular_image__dark"
+    fbui:attr096e="@drawable/meta_ai_assets_meta_ai_ring_static_regular_image__light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbui="http://schemas.android.com/apk/res-auto" />

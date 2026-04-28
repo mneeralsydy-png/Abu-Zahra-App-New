@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0064" parent="@style/style00a5" />
+    <style name="style0068" parent="@style/style00a6" />
+    <style name="style00e5" parent="@style/style00a7" />
+    <style name="style0462" parent="@style/style0459">
+        <item name="android:windowBackground">?attr00bb</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">?attr00bb</item>
+    </style>
+    <style name="style0584" parent="@style/style0582">
+        <item name="android:textAppearance">@style/style05a4</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:imeOptions">actionSearch|flagNoExtractUi</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:importantForAutofill">no</item>
+        <item name="attr055f">1</item>
+    </style>
+    <style name="style0611" parent="@android:style/Widget">
+        <item name="android:background">?attr0221</item>
+        <item name="android:stateListAnimator">@animator/notification_action_background</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="style00a5" parent="@style/style00a1">
+        <item name="attr020d">?android:colorError</item>
+    </style>
+    <style name="style00a6" parent="@style/style00a2">
+        <item name="attr020d">?android:colorError</item>
+    </style>
+    <style name="style00a7" parent="@style/style00af">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaButtonWithLoader
+        android:id="@id/follow_channel_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ce7"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0cec"
+        android:text="@string/str3e80" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/privacy_banner_text"
+        android:paddingLeft="@dimen/dimen0cea"
+        android:paddingRight="@dimen/dimen0cea"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        app:attr04d0="@dimen/dimen0a06" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.evolvedabout.ui.bubble.AboutChatViewBubble
+    android:id="@id/about_chat_view_bubble_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:translationY="@dimen/dimen0032"
+    android:paddingStart="@dimen/dimen0031"
+    android:translationZ="@dimen/dimen0033"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

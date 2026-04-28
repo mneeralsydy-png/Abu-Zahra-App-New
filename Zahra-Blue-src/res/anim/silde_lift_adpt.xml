@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation
+    android:delay="7.0000052%"
+    android:animation="@anim/side_lift_l1"
+    android:animationOrder="normal"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

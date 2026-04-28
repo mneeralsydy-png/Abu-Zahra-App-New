@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/camera_image_preview_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/camera_image_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0eb7"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/str3e9e"
+        app:attr07d0="@style/style037d" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:layout_gravity="end|center|top"
+        android:id="@id/camera_image_preview_close_button"
+        android:background="@drawable/background_circle_gray"
+        android:layout_width="@dimen/dimen0eba"
+        android:layout_height="@dimen/dimen0eba"
+        android:layout_margin="@dimen/dimen1039"
+        android:scaleType="center"
+        android:contentDescription="@string/str3dae"
+        app:attr0838="@drawable/wds_ic_close"
+        app:attr090d="?attr0a2f" />
+</FrameLayout>

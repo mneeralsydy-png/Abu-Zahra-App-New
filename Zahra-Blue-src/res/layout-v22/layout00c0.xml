@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1034">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/paa_debug_authenticate_success_button"
+            android:padding="@dimen/dimen103b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str40c8"
+            android:layout_marginEnd="@dimen/dimen102e"
+            style="@style/style0555" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/paa_debug_authenticate_failure_button"
+            android:padding="@dimen/dimen103b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str40c7"
+            style="@style/style0555" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.CodeInputField
+        android:textSize="22.0sp"
+        android:gravity="bottom|center"
+        android:id="@id/paa_pin_input"
+        android:background="@drawable/pin_input_debug_background"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen1034"
+        android:hint="@string/str4142"
+        android:singleLine="true"
+        android:maxLength="6"
+        android:digits=" 0123456789"
+        android:inputType="number"
+        android:imeOptions="flagNoExtractUi|flagNoFullscreen"
+        android:importantForAutofill="no" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/paa_set_button"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str415d"
+            android:layout_marginEnd="@dimen/dimen1039"
+            style="@style/style0555" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/paa_auth_button"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str40c6"
+            android:layout_marginEnd="@dimen/dimen1039"
+            style="@style/style0555" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/paa_clear_button"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str40d3"
+            style="@style/style0555" />
+    </LinearLayout>
+</LinearLayout>

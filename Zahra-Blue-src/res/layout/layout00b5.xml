@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@id/toolbar_holder"
+        layout="@layout/layout10cd" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.collections.ObservableRecyclerView
+            android:id="@id/directory_category_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ViewStub
+            android:id="@id/categories_search_stub"
+            android:layout="@layout/layout032e"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr0a46"
+                android:textColorLink="?attr0a49"
+                android:gravity="center"
+                android:id="@id/device_confirmation_learn_more"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5.0sp" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr0a46"
+                android:textColorLink="?attr0a49"
+                android:gravity="center"
+                android:id="@id/device_confirmation_resend_notice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee"
+                android:layout_marginBottom="@dimen/dimen1032"
+                android:text="@string/device_confirmation_resend_notice"
+                android:lineSpacingExtra="5.0sp" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/footer"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/scroll_view"
+        style="@style/style01a2">
+        <View
+            android:layout_gravity="center_horizontal"
+            android:id="@id/divider"
+            android:background="@color/color0119"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/device_confirmation_second_code_help_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:layout_marginTop="@dimen/dimen0cea"
+            android:layout_marginRight="@dimen/dimen0cea"
+            android:text="@string/device_confirmation_no_old_device_message"
+            android:lineSpacingExtra="4.0sp" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColorLink="?attr0a49"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/device_confirmation_second_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:layout_marginRight="@dimen/dimen0cea"
+            android:layout_marginBottom="@dimen/dimen0cea"
+            android:text="@string/device_confirmation_second_code_link"
+            android:lineSpacingExtra="4.0sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

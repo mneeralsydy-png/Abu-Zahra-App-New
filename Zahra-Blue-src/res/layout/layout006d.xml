@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="0.0dip"
+        android:layout_weight="1.0"
+        app:attr0495="@id/footer"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen0b5e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:id="@id/secret_code_description"
+                android:paddingLeft="@dimen/dimen103b"
+                android:paddingRight="@dimen/dimen103b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str2daf"
+                android:textAlignment="center"
+                app:attr0a24="wds_font_body2"
+                style="@style/style03c9" />
+            <include
+                android:id="@id/secret_code_input_layout"
+                layout="@layout/layout0eea" />
+        </LinearLayout>
+    </ScrollView>
+    <include
+        android:id="@id/footer"
+        layout="@layout/layout033f" />
+</androidx.constraintlayout.widget.ConstraintLayout>

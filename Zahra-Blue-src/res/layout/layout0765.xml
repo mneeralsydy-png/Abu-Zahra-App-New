@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/catalog_web_content_bottom_sheet"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr00a1="false"
+        app:attr00a7="0.0dip"
+        app:attr00a8="all"
+        app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <com.whatsapp.webview.ui.WebViewWrapperView
+            android:id="@id/webview_wrapper_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.catalog.product.biz.view.CatalogWebInitialLoadingView
+            android:id="@id/loading_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_gravity="end|bottom|center"
+    android:id="@id/transcription_expand_icon"
+    android:padding="10.0dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_transcription_expand_icon"
+    android:adjustViewBounds="true"
+    android:contentDescription="@string/str34fe"
+    app:attr090d="@color/color0789"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

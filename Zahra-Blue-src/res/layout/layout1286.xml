@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:gravity="start"
+        android:id="@id/wamo_w_description_context_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0f25"
+        android:layout_marginTop="@dimen/dimen1034"
+        android:layout_marginRight="@dimen/dimen0f25"
+        android:textAlignment="viewStart"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:gravity="start"
+        android:id="@id/wamo_w_footnote_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0f25"
+        android:layout_marginTop="@dimen/dimen0f27"
+        android:layout_marginRight="@dimen/dimen0f25"
+        android:textAlignment="viewStart"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/wamo_w_description_context_id"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/wamo_w_footnote_id">
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:gravity="start"
+            android:id="@id/wamo_h_all"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0f26"
+            app:attr06c9="@string/str3b82"
+            app:attr06ca="body1"
+            app:attr06e1="true"
+            app:attr06e2="compact"
+            app:attr06f2="no_space"
+            app:attr06f6="@drawable/ic_visibility_off"
+            app:attr0702="icon"
+            app:attr096b="outline" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:gravity="start"
+            android:id="@id/wamo_uh_all"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0f26"
+            app:attr06c9="@string/str3b90"
+            app:attr06ca="body1"
+            app:attr06e1="true"
+            app:attr06e2="compact"
+            app:attr06f2="no_space"
+            app:attr06f6="@drawable/ic_visibility"
+            app:attr0702="icon"
+            app:attr096b="outline" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:gravity="start"
+            android:id="@id/wamo_update_preferences_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str3b91"
+            app:attr06ca="body1"
+            app:attr06e1="true"
+            app:attr06e2="compact"
+            app:attr06f2="no_space"
+            app:attr06f6="@drawable/vec_ic_tune"
+            app:attr0702="icon"
+            app:attr096b="outline" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

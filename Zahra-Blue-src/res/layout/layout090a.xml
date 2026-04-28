@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr0093"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/banner_icon"
+        android:background="@drawable/banner_alert_circle"
+        android:padding="@dimen/dimen0107"
+        android:layout_width="@dimen/dimen0106"
+        android:layout_height="@dimen/dimen0106"
+        app:attr0494="@id/desc"
+        app:attr04ad="parent"
+        app:attr04b1="@id/title"
+        app:attr0838="@drawable/ic_warning_large"
+        app:attr090d="@color/color00c9" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0109"
+        android:textColor="?attr066e"
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str377c"
+        app:attr03ae="?attr03b8"
+        app:attr0495="@id/desc"
+        app:attr049a="parent"
+        app:attr04a3="0.5"
+        app:attr04ac="@id/banner_icon"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0105"
+        android:textColor="?attr066e"
+        android:id="@id/desc"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:text="@string/str3772"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04a3="0.5"
+        app:attr04ac="@id/banner_icon"
+        app:attr04b0="@id/title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

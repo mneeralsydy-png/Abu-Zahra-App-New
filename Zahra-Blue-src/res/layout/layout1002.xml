@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/status_reaction_green_heart"
+    android:visibility="gone"
+    android:layout_width="18.0dip"
+    android:layout_height="18.0dip"
+    android:contentDescription="@string/str3181"
+    app:attr0838="@drawable/vec_green_heart"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

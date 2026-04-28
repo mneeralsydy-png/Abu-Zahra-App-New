@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:layout_gravity="bottom"
+    android:id="@id/rewrite_button_in_edit"
+    android:layout_width="@dimen/dimen03a6"
+    android:layout_height="@dimen/dimen03a5"
+    android:layout_marginRight="@dimen/dimen103a"
+    android:scaleType="center"
+    app:attr0009="section_header"
+    app:attr0411="@drawable/wds_ic_ai"
+    app:attr096b="borderless"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

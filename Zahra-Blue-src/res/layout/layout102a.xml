@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="bottom|center|right"
+    android:layout_width="@dimen/dimen08b3"
+    android:layout_height="@dimen/dimen08b3"
+    android:layout_marginRight="@dimen/dimen0216"
+    android:layout_marginBottom="@dimen/dimen0ce7"
+    android:layout_toLeftOf="@id/send"
+    android:layout_above="@id/bottom"
+    android:layout_marginEnd="@dimen/dimen0216"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/sticker_add_button"
+        android:background="@drawable/secondary_btn_gray_circle_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:contentDescription="@string/str01f6"
+        whatsapp:attr0838="@drawable/vec_sticker_info_add_sticker_pack"
+        whatsapp:attr090d="?attr0823" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:layout_gravity="center"
+        android:id="@id/sticker_add_button_loading"
+        android:visibility="gone"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:indeterminate="true"
+        whatsapp:attr0432="@color/color08bd"
+        whatsapp:attr093e="2.0dip" />
+</FrameLayout>

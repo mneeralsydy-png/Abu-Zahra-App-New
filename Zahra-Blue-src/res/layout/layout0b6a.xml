@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:background="@drawable/video_preview_label_background"
+    android:layout_width="36.0dip"
+    android:layout_height="28.0dip"
+    android:tint="?attr0a66"
+    app:attr0838="@drawable/ic_volume_up"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

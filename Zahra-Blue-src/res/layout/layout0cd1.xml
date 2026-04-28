@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/payment_settings_account_header"
+        android:text="@string/str2652"
+        style="@style/style02e0" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="?android:selectableItemBackground"
+        android:paddingLeft="@dimen/dimen0c93"
+        android:paddingTop="@dimen/dimen0c98"
+        android:paddingRight="@dimen/dimen0c93"
+        android:paddingBottom="@dimen/dimen0c98"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/account_details_qr_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/ic_qr_code"
+            android:tint="@color/color059f"
+            android:layout_marginEnd="@dimen/dimen0c93" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/account_details_qr_row_section"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ac6"
+            android:layout_marginBottom="@dimen/dimen0ac6"
+            android:layout_marginEnd="@dimen/dimen0ac6">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr0a47"
+                android:id="@id/account_details_qr_row_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str2654"
+                android:layout_marginEnd="@dimen/dimen0c93"
+                app:attr0a24="wds_font_body1" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:id="@id/account_details_qr_row_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str2653"
+                android:layout_marginEnd="@dimen/dimen0c93"
+                app:attr0a24="wds_font_body2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen103b"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginRight="@dimen/dimen103b"
+            android:layout_marginBottom="@dimen/dimen103b">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/verify_passkey_header_image"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen0549"
+                android:layout_marginBottom="@dimen/dimen103b" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:id="@id/verify_passkey_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:text="@string/str1260"
+                app:attr0a24="wds_font_headline2"
+                style="@style/style05ab" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center_vertical"
+                android:id="@id/verify_passkey_paragraph1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:text="@string/str125e"
+                android:lineSpacingExtra="4.0dip"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center_vertical"
+                android:id="@id/verify_passkey_paragraph2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:text="@string/str125f"
+                android:lineSpacingExtra="4.0dip"
+                app:attr0a24="wds_font_body2" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center"
+        android:id="@id/verify_passkey_use_passkey_button"
+        android:text="@string/str1235"
+        style="@style/style01ff" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center"
+        android:id="@id/verify_passkey_turn_off_button"
+        android:text="@string/str127a"
+        style="@style/style0557" />
+</LinearLayout>

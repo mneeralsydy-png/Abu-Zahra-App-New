@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/join_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str430e"
+    whatsapp:attr0009="normal"
+    whatsapp:attr0411="@drawable/ic_videocam_white"
+    whatsapp:attr09ea="small"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

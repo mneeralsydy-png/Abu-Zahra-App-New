@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:textColor="?attr066e"
+    android:gravity="center"
+    android:id="@id/india_upi_biz_add_upi_id_cta"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str05e4"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

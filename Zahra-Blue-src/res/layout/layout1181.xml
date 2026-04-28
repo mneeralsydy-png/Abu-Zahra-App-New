@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/stickers_upsell_image_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1031"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049b="@id/textContainer"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="top"
+            android:id="@id/stickers_upsell_info_icon"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen00ee"
+            android:layout_height="@dimen/dimen00ee"
+            android:layout_marginTop="@dimen/dimen1031"
+            android:importantForAccessibility="no"
+            app:attr0838="@drawable/ic_info_white"
+            app:attr090d="@color/color0906" />
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:layout_gravity="center"
+            android:id="@id/stickers_upsell_info_loading"
+            android:layout_width="@dimen/dimen00ee"
+            android:layout_height="@dimen/dimen00ee"
+            android:layout_margin="@dimen/dimen1039"
+            android:importantForAccessibility="no" />
+        <com.whatsapp.stickers.coinflip.CoinFlipAnimatedProfileView
+            android:layout_gravity="center"
+            android:id="@id/stickers_upsell_info_avatar"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen00ec"
+            android:layout_height="@dimen/dimen00ec"
+            android:importantForAccessibility="no" />
+    </FrameLayout>
+    <LinearLayout
+        android:gravity="top"
+        android:orientation="vertical"
+        android:id="@id/textContainer"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049b="@id/stickers_upsell_close"
+        app:attr04ac="@id/stickers_upsell_image_all"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:id="@id/stickers_upsell_subtitle"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            style="@style/style03fb" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:gravity="center"
+        android:id="@id/stickers_upsell_close"
+        android:background="?attr076e"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:tint="@color/color0347"
+        android:contentDescription="@string/str0476"
+        android:importantForAccessibility="yes"
+        android:layout_marginStart="@dimen/dimen1039"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/textContainer"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/vec_ic_close" />
+</merge>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="@dimen/dimen1034"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/your_interests_content_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style05a6"
+                android:textColor="?android:textColorSecondary"
+                android:gravity="left"
+                android:id="@id/your_interests_subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:text="@string/str3cdf" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/your_interests_categories_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1039" />
+        </LinearLayout>
+    </ScrollView>
+    <ViewStub
+        android:id="@id/your_interests_error_container_stub"
+        android:layout="@layout/layout1301"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/your_interests_save_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:text="@string/str3cde"
+        app:attr0009="normal"
+        app:attr096b="filled" />
+</LinearLayout>

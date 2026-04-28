@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.ui.conversationrow.AiRichResponseFooterView
+    android:gravity="center_vertical"
+    android:layout_gravity="bottom|center|right"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0ce9"
+    android:paddingEnd="@dimen/dimen0ce7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color08dd"
+        android:ellipsize="end"
+        android:id="@id/footer_see_details_button"
+        android:background="?android:selectableItemBackground"
+        android:paddingTop="@dimen/dimen0ce9"
+        android:paddingBottom="@dimen/dimen0ce9"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str1d99"
+        android:maxLines="1"
+        android:layout_weight="1.0"
+        android:paddingEnd="@dimen/dimen0ce8"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style05a7" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|center|right"
+        android:orientation="horizontal"
+        android:id="@id/footer_date_wrapper"
+        android:paddingLeft="@dimen/dimen1031"
+        android:paddingTop="@dimen/dimen1031"
+        android:paddingRight="@dimen/dimen1031"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/ai_private_processing_badge_stub"
+            android:layout="@layout/layout0161"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/footer_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style0567" />
+    </LinearLayout>
+</com.whatsapp.conversation.ui.conversationrow.AiRichResponseFooterView>

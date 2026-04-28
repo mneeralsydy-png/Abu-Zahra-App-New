@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr0798"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        app:attr0495="@id/bottom_button_container"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/dimen0125"
+                app:attr0494="parent"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr07b6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14.0dip"
+                    android:text="@string/str0a00"
+                    app:attr0a24="wds_font_body1" />
+                <com.whatsapp.ui.coreui.components.PhoneNumberEntry
+                    android:gravity="center_vertical"
+                    android:id="@id/registration_fields"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen103b" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr07b6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14.0dip"
+                    android:text="@string/str09f3"
+                    app:attr0a24="wds_font_body1" />
+                <com.whatsapp.ui.coreui.components.PhoneNumberEntry
+                    android:gravity="center_vertical"
+                    android:id="@id/registration_new_fields"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen1039" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@id/bottom_button_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.0dip"
+        android:layout_marginBottom="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/scroll_view"
+        style="@style/style01a2">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/next_btn"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:text="@string/str2157"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            style="@style/style0555" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

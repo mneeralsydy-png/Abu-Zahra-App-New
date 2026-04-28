@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/bg_rounded_top_xmds_light"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/photo_requirements_sheet_handle"
+        android:background="@drawable/bg_sheet_handle"
+        android:layout_width="?attr070e"
+        android:layout_height="4.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:textSize="17.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/color0689"
+        android:gravity="center"
+        android:id="@id/tv_photo_requirements_item_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_below="@id/photo_requirements_sheet_handle" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/photo_requirements_item_container"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:layout_below="@id/tv_photo_requirements_item_title" />
+</RelativeLayout>

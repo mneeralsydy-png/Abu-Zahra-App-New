@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <inset
+            android:insetLeft="@dimen/dimen0182"
+            android:insetRight="@dimen/dimen0182"
+            android:insetTop="@dimen/dimen0183"
+            android:insetBottom="@dimen/dimen0183">
+            <shape
+                android:shape="rectangle">
+                <corners
+                    android:radius="6.0dip" />
+                <solid
+                    android:color="?attr0691" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset
+            android:insetLeft="@dimen/dimen0182"
+            android:insetRight="@dimen/dimen0182"
+            android:insetTop="@dimen/dimen0183"
+            android:insetBottom="@dimen/dimen0183">
+            <shape
+                android:shape="rectangle">
+                <corners
+                    android:radius="6.0dip" />
+                <solid
+                    android:color="?attr0a5b" />
+            </shape>
+        </inset>
+    </item>
+</selector>

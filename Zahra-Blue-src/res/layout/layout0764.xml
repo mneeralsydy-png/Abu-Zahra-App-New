@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/container_catalog_search"
+    android:background="?attr0a59"
+    android:visibility="gone"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/search_call_to_action"
+        android:paddingLeft="@dimen/dimen0ce8"
+        android:paddingTop="@dimen/dimen0cea"
+        android:paddingRight="@dimen/dimen0ce8"
+        android:paddingBottom="@dimen/dimen0cea"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/search_call_to_action_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/str420c"
+            app:attr0838="@drawable/vec_ic_search" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:layout_marginStart="@dimen/dimen0cea">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr0a46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str09bd"
+                android:includeFontPadding="false"
+                app:attr0a24="wds_font_body1" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr066e"
+                android:ellipsize="end"
+                android:id="@id/search_call_to_action_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0cec"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:layout_marginStart="@dimen/dimen0cec"
+                app:attr0a24="wds_font_body1" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/search_results_error_view_holder"
+        android:paddingLeft="@dimen/dimen0ce8"
+        android:paddingTop="@dimen/dimen0ce8"
+        android:paddingRight="@dimen/dimen0ce8"
+        android:paddingBottom="@dimen/dimen0ce8"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cf1">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:gravity="center"
+            android:id="@id/search_results_error_view_text"
+            android:layout_width="@dimen/dimen023a"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/dimen023b"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/search_results_error_view_retry_btn"
+            android:text="@string/str2caa"
+            android:contentDescription="@string/str2caa"
+            style="@style/style0557" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/search_child_categories_fragment_holder"
+        android:background="?attr0a59"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/search_child_products_fragment_holder"
+        android:background="?attr0a59"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</FrameLayout>

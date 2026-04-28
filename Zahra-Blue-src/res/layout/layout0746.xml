@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:theme="@style/style04ce"
+        android:id="@id/flows_bottom_sheet_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr02dd="visible"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr05ca="@string/str3d62" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color08df"
+        android:gravity="center"
+        android:id="@id/toolbar_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str14e7"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:paddingStart="@dimen/dimen0cf4"
+        android:paddingEnd="@dimen/dimen0cf4"
+        app:attr0495="@id/toolbar_subtitle_tv"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="@id/flows_bottom_sheet_toolbar"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="@color/color08de"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/toolbar_subtitle_tv"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:paddingStart="@dimen/dimen0cf4"
+        android:paddingEnd="@dimen/dimen0cf4"
+        app:attr0494="@id/flows_bottom_sheet_toolbar"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar_title_tv"
+        app:attr0a24="wds_font_body3" />
+    <View
+        android:id="@id/divider_under_nav_bar"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/flows_bottom_sheet_toolbar"
+        style="@style/style0355" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="@dimen/dimen0cee"
+        app:attr04ad="parent" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr049d="@dimen/dimen0cee" />
+    <RadioButton
+        android:id="@id/download_response_rb_only_this"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/rb_only_this_title"
+        app:attr04ad="@id/guideline_left"
+        app:attr04b1="@id/rb_only_this_title" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color05f4"
+        android:gravity="start"
+        android:id="@id/rb_only_this_title"
+        android:paddingTop="@dimen/dimen0cea"
+        android:paddingBottom="@dimen/dimen0cea"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:text="@string/str14e6"
+        android:maxLines="2"
+        app:attr0495="@id/rb_all_title"
+        app:attr049a="@id/guideline_right"
+        app:attr04ac="@id/download_response_rb_only_this"
+        app:attr04b0="@id/divider_under_nav_bar"
+        app:attr0a24="wds_font_body1" />
+    <RadioButton
+        android:id="@id/download_response_rb_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="@id/rb_all_subtitle"
+        app:attr04ad="@id/guideline_left"
+        app:attr04b1="@id/rb_all_title" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color05f4"
+        android:gravity="start"
+        android:id="@id/rb_all_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:text="@string/str14e5"
+        android:maxLines="2"
+        app:attr0495="@id/rb_all_subtitle"
+        app:attr049a="@id/guideline_right"
+        app:attr04ac="@id/download_response_rb_all"
+        app:attr04b0="@id/rb_only_this_title"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color08de"
+        android:gravity="start"
+        android:id="@id/rb_all_subtitle"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str14e4"
+        android:maxLines="2"
+        app:attr0495="@id/button_download_flows_responses"
+        app:attr049a="@id/rb_all_title"
+        app:attr04ad="@id/rb_all_title"
+        app:attr04b0="@id/rb_all_title"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textColor="@color/color08e3"
+        android:gravity="center"
+        android:id="@id/button_download_flows_responses"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginBottom="@dimen/dimen0cee"
+        android:text="@string/str14e3"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/rb_all_subtitle"
+        style="@style/style055c" />
+</androidx.constraintlayout.widget.ConstraintLayout>

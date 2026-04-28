@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaFrameLayout
+    android:id="@id/invite_layout"
+    android:background="@drawable/link_preview_background"
+    android:paddingTop="@dimen/dimen1030"
+    android:paddingBottom="@dimen/dimen1030"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen1030"
+    android:layout_marginTop="@dimen/dimen1030"
+    android:layout_marginRight="@dimen/dimen1030"
+    android:layout_marginBottom="@dimen/dimen1030"
+    whatsapp:attr09b1="?attr0a39"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen0cc9"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingRight="@dimen/dimen075d"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:id="@id/avatar"
+            android:layout_width="@dimen/dimen1038"
+            android:layout_height="@dimen/dimen1038"
+            android:layout_marginRight="@dimen/dimen0cc9"
+            android:src="@drawable/avatar_contact"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/str3dcf"
+            whatsapp:attr08a9="false"
+            whatsapp:attr08aa="@dimen/dimen0cc5" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:clipChildren="false"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr0a47"
+                android:ellipsize="end"
+                android:id="@id/group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:id="@id/instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str17aa" />
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.ui.coreui.WaFrameLayout>

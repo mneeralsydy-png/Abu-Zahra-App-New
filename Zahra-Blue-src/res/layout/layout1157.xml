@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="4">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/instrumentation_companion_code_d1"
+            style="@style/style0269" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/instrumentation_companion_code_d2"
+            style="@style/style0269" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/instrumentation_companion_code_d3"
+            style="@style/style0269" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/instrumentation_companion_code_d4"
+            style="@style/style0269" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/instrumentation_companion_code_d5"
+            style="@style/style0269" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/instrumentation_companion_code_d6"
+            style="@style/style0269" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/instrumentation_companion_code_d7"
+            style="@style/style0269" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/instrumentation_companion_code_d8"
+            style="@style/style0269" />
+    </GridLayout>
+</LinearLayout>

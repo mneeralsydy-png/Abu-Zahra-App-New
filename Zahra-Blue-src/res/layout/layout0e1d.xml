@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.reactions.ui.ReactionPlusView
+    android:id="@id/reactions_plus_button"
+    android:layout_width="@dimen/dimen0bad"
+    android:layout_height="@dimen/dimen0bab"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

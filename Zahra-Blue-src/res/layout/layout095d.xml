@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/item_meta_ai_recommendation_background_voice_v2"
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen103a"
+    android:layout_marginStart="@dimen/dimen102e"
+    android:layout_marginEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a2f"
+        android:ellipsize="none"
+        android:id="@id/recommendation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

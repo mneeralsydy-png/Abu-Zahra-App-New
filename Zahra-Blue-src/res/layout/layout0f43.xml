@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.settings.SettingsRowIconText
+    android:id="@id/settings_result_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr07a5="?attr0a46"
+    style="?attr07a6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

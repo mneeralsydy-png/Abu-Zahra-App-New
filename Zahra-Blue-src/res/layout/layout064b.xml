@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen04cc"
+        android:paddingTop="@dimen/dimen04cf"
+        android:paddingRight="@dimen/dimen04cc"
+        android:paddingBottom="@dimen/dimen04cf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen04ce"
+            android:textColor="?attr066e"
+            android:id="@id/disappearing_messages_settings_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen04d0"
+            android:text="@string/str12aa"
+            app:attr03ae="?attr03b8" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:id="@id/disappearing_messages_settings_dialog_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen04d0"
+            android:text="@string/str10a3"
+            android:lineSpacingExtra="4.0sp" />
+        <RadioGroup
+            android:id="@id/disappearing_messages_settings_dialog_radio_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

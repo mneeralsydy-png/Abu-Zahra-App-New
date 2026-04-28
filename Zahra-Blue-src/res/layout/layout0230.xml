@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/source_item"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen103b"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/source_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textDirection="locale"
+        android:textAlignment="viewStart"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1035">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/source_logo"
+            android:background="@color/color0790"
+            android:layout_width="@dimen/dimen073f"
+            android:layout_height="@dimen/dimen073f"
+            android:src="@drawable/ic_language"
+            android:scaleType="centerCrop"
+            app:attr090d="@color/color08de" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08de"
+            android:ellipsize="end"
+            android:layout_gravity="center_vertical"
+            android:id="@id/source_link"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            android:textAlignment="viewStart"
+            android:paddingStart="@dimen/dimen1030"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+</LinearLayout>

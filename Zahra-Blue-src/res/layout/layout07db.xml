@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:id="@id/google_drive_restore_animation_view_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="28.0dip"
+    android:layout_marginTop="0.0dip"
+    android:layout_marginRight="28.0dip"
+    android:layout_marginBottom="24.0dip"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.backup.googlemanager.GoogleDriveRestoreAnimationView
+        android:id="@id/google_drive_restore_animation_view"
+        android:visibility="gone"
+        android:layout_width="280.0dip"
+        android:layout_height="80.0dip"
+        app:attr03cd="@color/color0347"
+        app:attr03d0="@color/color0347" />
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@id/google_drive_progress"
+        android:visibility="gone"
+        android:layout_width="280.0dip"
+        android:layout_height="10.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:progressTint="?attr0573"
+        android:indeterminateTint="?attr0573"
+        android:indeterminateTintMode="src_atop"
+        style="progressBarStyleHorizontal" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/google_drive_progress_info"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:text="@string/str2f38"
+        style="@style/style0036" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="bottom|center"
+        android:id="@id/nextBtn"
+        android:visibility="gone"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:text="@string/str2157"
+        style="@style/style0555" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@id/msgrestore_result_box"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0036" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@id/google_drive_media_will_be_downloaded_later_notice"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str018d"
+        style="@style/style0036" />
+</LinearLayout>

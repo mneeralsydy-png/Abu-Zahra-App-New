@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen1039"
+    android:layout_marginBottom="@dimen/dimen1039"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a5"
+        android:textColor="?attr0a47"
+        android:gravity="start"
+        android:id="@id/send_link_via"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:text="@string/str2e4f"
+        android:singleLine="false"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="@style/style0285" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/send_via_recyclerview"
+        android:paddingBottom="@dimen/dimen1039"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

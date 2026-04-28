@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/document_composer_icon_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@id/document_composer_icon_container"
+            android:layout_width="@dimen/dimen04fa"
+            android:layout_height="@dimen/dimen04fa"
+            app:attr011e="@dimen/dimen04f9"
+            app:attr011f="0.0dip"
+            app:attr0252="0.0dip"
+            app:attr085d="?android:windowBackground"
+            app:attr085e="@dimen/dimen04ec">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/document_composer_icon"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop" />
+        </com.google.android.material.card.MaterialCardView>
+        <ViewStub
+            android:id="@id/document_composer_multi_icon_stub"
+            android:layout="@layout/layout0655"
+            android:layout_width="@dimen/dimen04f8"
+            android:layout_height="@dimen/dimen04f8" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.WaEditText
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorSecondary"
+        android:id="@id/document_composer_entry"
+        android:background="@null"
+        android:paddingTop="@dimen/dimen0cec"
+        android:paddingBottom="@dimen/dimen0cec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen04f7"
+        android:hint="@string/str3d55"
+        android:maxLines="@integer/integer0008"
+        android:layout_centerVertical="true"
+        android:inputType="textCapSentences|textMultiLine"
+        android:imeOptions="actionNone"
+        android:paddingStart="@dimen/dimen0ce7"
+        android:paddingEnd="@dimen/dimen0ce7"
+        android:layout_toStartOf="@id/document_composer_send_container"
+        android:layout_toEndOf="@id/document_composer_icon_wrapper" />
+    <FrameLayout
+        android:id="@id/document_composer_send_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/document_composer_send"
+            android:background="@drawable/input_circle_dark"
+            android:layout_width="@dimen/dimen08b3"
+            android:layout_height="@dimen/dimen08b3"
+            android:scaleType="center"
+            android:contentDescription="@string/str4217"
+            android:layout_marginStart="@dimen/dimen0cec"
+            app:attr0838="@drawable/input_send"
+            app:attr090d="?attr0823" />
+        <ViewStub
+            android:layout_gravity="end|center|top"
+            android:id="@id/document_composer_count_badge_stub"
+            android:layout="@layout/layout0654"
+            android:layout_width="@dimen/dimen04ee"
+            android:layout_height="@dimen/dimen04ee" />
+    </FrameLayout>
+</merge>

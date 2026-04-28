@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/newsletter_pinning_layout"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+        android:id="@id/switch_pin_newsletter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color05f4"
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str20cf"
+        android:maxLines="1"
+        android:layout_toLeftOf="@id/switch_pin_newsletter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        style="?attr07b5" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color06ac"
+        android:id="@id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str20ce"
+        android:layout_toLeftOf="@id/switch_pin_newsletter"
+        android:layout_below="@id/title"
+        android:layout_alignParentLeft="true"
+        style="?attr07b1" />
+</RelativeLayout>

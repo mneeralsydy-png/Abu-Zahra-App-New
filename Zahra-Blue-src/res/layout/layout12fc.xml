@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/no_contact_placeholder"
+    android:layout_width="64.0dip"
+    android:layout_height="64.0dip"
+    android:layout_margin="@dimen/dimen0cf0"
+    app:attr090d="?attr0a47"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

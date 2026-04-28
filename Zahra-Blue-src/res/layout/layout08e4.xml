@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dimen1035"
+    android:paddingBottom="@dimen/dimen1035"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/icon"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        app:attr0838="@drawable/ic_info_white"
+        app:attr090d="?attr0a4f" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a4f"
+        android:ellipsize="end"
+        android:layout_gravity="center|left"
+        android:id="@id/transaction_invoice_url_note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1030"
+        android:text="@string/str377c"
+        android:singleLine="true"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

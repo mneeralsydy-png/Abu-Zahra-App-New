@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/premium_customization_call_ringtone_container"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0ffd"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/premium_call_ringtone_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str422f"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:ellipsize="end"
+        android:id="@id/premium_call_ringtone_subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0763"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/nta_phone_number_picker_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/nta_phone_number_picker_title_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen0ce7"
+            android:paddingBottom="@dimen/dimen0ce7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cea"
+            android:paddingEnd="@dimen/dimen0cea">
+            <include
+                android:layout_gravity="center"
+                android:id="@id/nta_phone_number_picker_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                layout="@layout/layout0e45" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textColor="?attr0a46"
+                android:gravity="center_horizontal"
+                android:id="@id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str225b"
+                android:paddingStart="@dimen/dimen0ce7"
+                android:paddingEnd="@dimen/dimen0ce7"
+                style="@style/style05a6" />
+            <RadioGroup
+                android:layout_gravity="start"
+                android:orientation="vertical"
+                android:id="@id/nta_phone_number_radio_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cee" />
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+            <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:layout_gravity="bottom|center"
+                    android:id="@id/nta_phone_number_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="@dimen/dimen0ce7"
+                    android:text="@string/str2157"
+                    style="@style/style0555" />
+            </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+        android:layout_gravity="start|center"
+        android:id="@id/wds_profile_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cec"
+        android:scaleType="fitCenter"
+        app:attr0675="small" />
+    <ViewStub
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/view_stub_status_reaction"
+        android:layout="@layout/layout0741"
+        android:inflatedId="@id/status_reaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/view_stub_status_reaction_green_heart"
+        android:layout="@layout/layout0742"
+        android:inflatedId="@id/status_reaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

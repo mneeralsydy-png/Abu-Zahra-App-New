@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/toolbar_layout"
+        android:background="?attr0a59"
+        android:layout_width="0.0dip"
+        android:layout_height="?attr000d"
+        app:attr0495="@id/fragment_container"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="start|center"
+            android:id="@id/enc_backup_toolbar_button"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:contentDescription="@string/str1209"
+            app:attr0838="@drawable/ic_arrow_back_white"
+            app:attr090d="?attr0a46"
+            style="@style/style0001" />
+    </FrameLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@id/fragment_container"
+        android:paddingLeft="@dimen/dimen0125"
+        android:paddingRight="@dimen/dimen0125"
+        android:paddingBottom="@dimen/dimen0125"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar_layout"
+        style="@style/style01a2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

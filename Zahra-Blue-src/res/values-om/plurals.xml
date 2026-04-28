@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">"Gareewwan %d keessaa bahuun hin milkoofne. Irra deebi'ii yaali."</item>
+        <item quantity="one">"Garee %d keessaa bahuun hin milkoofne. Irra deebi'ii yaali."</item>
+    </plurals>
+</resources>

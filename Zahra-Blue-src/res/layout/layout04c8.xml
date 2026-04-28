@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.TextEmojiLabel
+    android:textAppearance="@style/style05a6"
+    android:textColor="?attr0a46"
+    android:ellipsize="end"
+    android:layout_gravity="left"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:maxLines="1"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

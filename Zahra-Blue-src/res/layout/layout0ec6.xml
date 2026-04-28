@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:layout_gravity="start|center"
+    android:id="@id/send"
+    android:background="@drawable/input_circle"
+    android:padding="@dimen/dimen0f7e"
+    android:layout_width="@dimen/dimen0f3c"
+    android:layout_height="@dimen/dimen0f3c"
+    android:scaleType="fitCenter"
+    android:adjustViewBounds="true"
+    android:contentDescription="@string/str4217"
+    app:attr0838="@drawable/ic_ai_send_filled"
+    app:attr090d="?attr0a4b"
+    app:attr0a7d="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

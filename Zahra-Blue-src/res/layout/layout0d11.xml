@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textAppearance="?android:textAppearanceListItemSmall"
+    android:textSize="@dimen/dimen0fbc"
+    android:textColor="?attr0a46"
+    android:gravity="center_vertical"
+    android:id="@id/phone_hyperlink_list_item_text"
+    android:paddingLeft="?android:listPreferredItemPaddingLeft"
+    android:paddingTop="18.0dip"
+    android:paddingRight="?android:listPreferredItemPaddingRight"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr0a24="wds_font_body3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

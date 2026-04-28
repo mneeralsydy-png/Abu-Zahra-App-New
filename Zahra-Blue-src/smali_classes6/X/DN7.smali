@@ -1,0 +1,52 @@
+.class public final LX/DN7;
+.super LX/04y;
+.source ""
+
+# interfaces
+.implements LX/00h;
+
+
+# static fields
+.field public static final A00:LX/DN7;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/DN7;
+
+    invoke-direct {v0}, LX/DN7;-><init>()V
+
+    sput-object v0, LX/DN7;->A00:LX/DN7;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LX/04y;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 2
+
+    const-wide/high16 v0, 0x4032000000000000L    # 18.0
+
+    invoke-static {v0, v1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, LX/Cah;->A04(J)LX/Cah;
+
+    move-result-object v0
+
+    return-object v0
+.end method

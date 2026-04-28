@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/status_catalog_music_snackbar_background"
+    android:padding="@dimen/dimen0d0c"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:id="@id/status_catalog_music_snackbar_progress_bar"
+        android:layout_width="@dimen/dimen0d0d"
+        android:layout_height="@dimen/dimen0d0d"
+        android:layout_marginRight="@dimen/dimen0d0e" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr066e"
+        android:id="@id/status_catalog_music_snackbar_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_body2" />
+</LinearLayout>

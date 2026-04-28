@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array001a">
+        <item>jag</item>
+        <item>visualisera mig</item>
+    </string-array>
+    <string-array name="array001b">
+        <item>jag</item>
+        <item>visualisera mig</item>
+    </string-array>
+</resources>

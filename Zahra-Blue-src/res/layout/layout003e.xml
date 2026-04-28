@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/icon"
+            android:layout="@layout/layout003a"
+            android:layout_width="@dimen/dimen0fdd"
+            android:layout_height="@dimen/dimen0fdd"
+            android:layout_weight="0.0"
+            android:layout_marginStart="@dimen/dimen0cec"
+            android:layout_marginEnd="@dimen/dimen0cec" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color0947"
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/dimen0cec"
+            android:layout_marginEnd="@dimen/dimen0cec"
+            app:attr0a24="wds_font_body3_emphasized"
+            style="@style/style05a9" />
+        <ViewStub
+            android:id="@id/secondary_action"
+            android:layout="@layout/layout003c"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:layout_marginStart="@dimen/dimen0cec"
+            android:layout_marginEnd="@dimen/dimen0cec" />
+        <ViewStub
+            android:id="@id/action"
+            android:layout="@layout/layout0036"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:layout_marginStart="@dimen/dimen0cec"
+            android:layout_marginEnd="@dimen/dimen0cec" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/action_group_below"
+        android:layout="@layout/layout0037"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</merge>

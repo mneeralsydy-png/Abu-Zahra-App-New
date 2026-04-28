@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16.0dip"
+    android:layout_marginBottom="36.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/upi_logo"
+        style="@style/style02f5" />
+    <ViewStub
+        android:id="@id/rupay_on_upi_logo_stub"
+        android:layout="@layout/layout0e9c"
+        android:inflatedId="@id/rupay_on_upi_logo_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>

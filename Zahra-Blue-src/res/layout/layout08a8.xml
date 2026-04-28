@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/contact_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str36bf"
+            android:fontFamily="?attr03b8"
+            style="?attr04f8" />
+        <ViewStub
+            android:id="@id/contact_shimmer_stub"
+            android:layout="@layout/layout08a9"
+            android:inflatedId="@id/contact_shimmer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/contact_details_stub"
+            android:layout="@layout/layout08a6"
+            android:inflatedId="@id/contact_details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/error_label_stub"
+        android:layout="@layout/layout08a7"
+        android:inflatedId="@id/error_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.0dip"
+        android:layout_marginBottom="18.0dip" />
+</LinearLayout>

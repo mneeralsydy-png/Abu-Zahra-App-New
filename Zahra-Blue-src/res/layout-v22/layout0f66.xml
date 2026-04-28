@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.LockableCoordinatorLayout
+    android:id="@id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/side_chat_bottom_sheet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:elevation="?attr002f">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/side_chat_drag_bar_background"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:clipToOutline="true">
+            <FrameLayout
+                android:id="@id/side_chat_drag_handle_container"
+                android:paddingTop="@dimen/dimen103a"
+                android:paddingBottom="@dimen/dimen1030"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <include
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout12a2" />
+            </FrameLayout>
+            <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+                android:id="@id/side_chat_context_action_toolbar"
+                android:background="?attr002e"
+                android:layout_width="fill_parent"
+                android:layout_height="?attr000d"
+                app:attr05cb="@drawable/abc_ic_ab_back_material"
+                app:attr091d="?attr0a47" />
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@id/fragment_container"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.ui.coreui.LockableCoordinatorLayout>

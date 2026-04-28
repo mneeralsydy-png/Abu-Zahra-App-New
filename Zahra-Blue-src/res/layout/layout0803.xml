@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:orientation="vertical"
+    android:id="@id/group_info_add_group_to_community"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr040b="?attr0a59"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/selector_orange_gradient"
+        android:padding="@dimen/dimen06a4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/add_to_community_icon"
+            android:layout_width="@dimen/dimen0cf4"
+            android:layout_height="@dimen/dimen0cf4"
+            android:scaleType="fitCenter" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen06a4"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="?attr066e"
+                android:id="@id/add_to_community_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str179a" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a46"
+                android:id="@id/add_to_community_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str1799"
+                app:attr0a24="wds_font_body2" />
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

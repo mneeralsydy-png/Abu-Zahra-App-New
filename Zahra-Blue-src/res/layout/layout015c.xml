@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a7"
+        android:textSize="@dimen/dimen0b13"
+        android:textColor="@color/color08de"
+        android:id="@id/step_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0b12"
+        android:paddingEnd="@dimen/dimen0b11" />
+    <androidx.cardview.widget.CardView
+        android:id="@id/shimmer_card"
+        android:background="?attr0a3d"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0afc"
+        android:layout_marginTop="@dimen/dimen0afd"
+        android:layout_marginStart="@dimen/dimen0b12"
+        android:layout_marginEnd="@dimen/dimen0afb"
+        app:attr011e="@dimen/dimen0afa"
+        app:attr011f="0.0dip">
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@id/shimmer_layout"
+            android:background="?attr0a3d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

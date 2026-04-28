@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style054d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/avatar"
+        android:focusable="false"
+        app:attr08aa="@dimen/dimen0cc5"
+        app:attr08ab="@android:color/transparent"
+        style="@style/style0198" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr099a"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/name"
+        android:focusable="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/dimen1030" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/deny_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3b46"
+        android:layout_marginEnd="@dimen/dimen1035"
+        app:attr0009="media"
+        app:attr0411="@drawable/wds_ic_close"
+        app:attr096b="tonal"
+        app:attr09ea="Small" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/approve_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3b45"
+        app:attr0009="media"
+        app:attr0411="@drawable/wa_ic_check"
+        app:attr096b="filled"
+        app:attr09ea="Small" />
+</LinearLayout>

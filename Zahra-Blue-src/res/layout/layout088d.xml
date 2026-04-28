@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/profile_container"
+            android:paddingTop="@dimen/dimen1039"
+            android:paddingBottom="@dimen/dimen1039"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/profile_image"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:layout_margin="@dimen/dimen102e"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/str2a28"
+                app:attr0838="@drawable/avatar_contact" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/profile_info_container"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:ellipsize="end"
+                    android:id="@id/profile_payment_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    app:attr0a24="wds_font_body1"
+                    style="@style/style0289" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:id="@id/profile_payment_handler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:attr0a24="wds_font_body2" />
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/profile_details_icon"
+                android:background="@drawable/selector_orange_gradient_round_bg"
+                android:visibility="gone"
+                android:layout_width="16.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="@dimen/dimen1039"
+                android:layout_marginRight="26.0dip"
+                android:contentDescription="@string/str24e4"
+                app:attr0838="@drawable/chevron_right" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/send_payment_container"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/payments_drawable_image_view"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_marginLeft="@dimen/dimen103b"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginRight="@dimen/dimen103b"
+                android:layout_marginBottom="@dimen/dimen102e"
+                android:src="@drawable/wds_ic_currency_rupee"
+                app:attr090d="@color/color035c" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:ellipsize="end"
+                android:id="@id/send_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18.0dip"
+                android:layout_marginBottom="18.0dip"
+                android:text="@string/str2e5f"
+                android:singleLine="true"
+                app:attr0a24="wds_font_body1"
+                style="@style/style0289" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/scan_qr_container"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_marginLeft="@dimen/dimen103b"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginRight="@dimen/dimen103b"
+                android:layout_marginBottom="@dimen/dimen102e"
+                app:attr0838="@drawable/ic_qr_code"
+                app:attr090d="@color/color035c" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:id="@id/scan_qr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18.0dip"
+                android:layout_marginBottom="18.0dip"
+                android:text="@string/str2d16"
+                android:singleLine="false"
+                app:attr0a24="wds_font_body1"
+                style="@style/style0289" />
+        </LinearLayout>
+        <ViewStub
+            android:id="@id/bill_payments_mobile_recharge_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

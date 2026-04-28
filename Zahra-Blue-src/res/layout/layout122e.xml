@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style054d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/avatar"
+        android:focusable="false"
+        whatsapp:attr08aa="@dimen/dimen0cc5"
+        whatsapp:attr08ab="@android:color/transparent"
+        style="@style/style0198" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/name_container"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:layout_marginEnd="@dimen/dimen0a85">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr099a"
+            android:gravity="center_vertical"
+            android:id="@id/name"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style0289" />
+        <ViewStub
+            android:id="@id/subtitle_stub"
+            android:layout="@layout/layout122a"
+            android:inflatedId="@id/subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub
+        android:layout_gravity="end|center"
+        android:id="@id/additional_info_label"
+        android:layout="@layout/layout0700"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen0ce7" />
+    <ViewStub
+        android:id="@id/connect_icon_stub"
+        android:layout="@layout/layout122c"
+        android:inflatedId="@id/connect_icon"
+        android:layout_width="@dimen/dimen0a84"
+        android:layout_height="@dimen/dimen0a84"
+        android:layout_marginRight="@dimen/dimen0a83" />
+    <ViewStub
+        android:id="@id/ring_btn_stub"
+        android:layout="@layout/layout0c4f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen0a89" />
+    <ViewStub
+        android:id="@id/ringing_dots_stub"
+        android:layout="@layout/layout122d"
+        android:inflatedId="@id/ringing_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0a8b"
+        android:layout_marginEnd="@dimen/dimen0a8a" />
+    <ViewStub
+        android:id="@id/wave_one_btn_stub"
+        android:layout="@layout/layout122f"
+        android:inflatedId="@id/wave_one_btn"
+        android:layout_width="34.0dip"
+        android:layout_height="45.0dip" />
+    <ViewStub
+        android:id="@id/wave_one_btn_stub_v2"
+        android:layout="@layout/layout0c50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

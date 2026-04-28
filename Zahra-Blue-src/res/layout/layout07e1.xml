@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dimen103b"
+    android:paddingBottom="@dimen/dimen103b"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/stw_illustration"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wds_picto_websearch" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/stw_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str2d8d"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr0a24="wds_font_headline1"
+        style="@style/style05aa" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:gravity="center"
+        android:id="@id/stw_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:text="@string/str2d88"
+        android:lineSpacingExtra="4.0sp"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:gravity="center"
+        android:id="@id/stw_disclaimer_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str2d89"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr0a24="wds_font_body3"
+        style="@style/style05a8" />
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen103b" />
+    <ViewStub
+        android:id="@id/single_format_action_container"
+        android:layout="@layout/layout07e2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e" />
+</LinearLayout>

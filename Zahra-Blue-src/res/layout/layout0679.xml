@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@id/edit_actions_flow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0243="edit_add_container, edit_remove_container, edit_change_container, edit_animate_container"
+        app:attr039d="center"
+        app:attr039f="@dimen/dimen0cea"
+        app:attr03a0="packed"
+        app:attr03aa="none"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/edit_add_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/edit_add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0009="media"
+            app:attr0083="@color/color09a9"
+            app:attr0411="@drawable/vec_ic_add"
+            app:attr096b="tonal"
+            app:attr09ea="large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a2f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:text="@string/str02ea"
+            style="@style/style05a8" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/edit_remove_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/edit_remove_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0009="media"
+            app:attr0083="@color/color09a9"
+            app:attr0411="@drawable/vec_ic_imagine_remove"
+            app:attr096b="tonal"
+            app:attr09ea="large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a2f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:text="@string/str02ee"
+            style="@style/style05a8" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/edit_change_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/edit_change_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0009="media"
+            app:attr0083="@color/color09a9"
+            app:attr0411="@drawable/vec_ic_imagine_change"
+            app:attr096b="tonal"
+            app:attr09ea="large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a2f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:text="@string/str02ec"
+            style="@style/style05a8" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/edit_animate_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/edit_animate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0009="media"
+            app:attr0083="@color/color09a9"
+            app:attr0411="@drawable/vec_ic_imagine_animate"
+            app:attr096b="tonal"
+            app:attr09ea="large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a2f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:text="@string/str02eb"
+            style="@style/style05a8" />
+    </LinearLayout>
+</merge>

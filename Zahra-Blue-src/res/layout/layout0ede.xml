@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/plugin_bottom_component_viewgroup"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0ce8"
+    android:layout_marginBottom="@dimen/dimen0ce8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.conversation.carousel.CarouselView
+        android:id="@id/conversation_links_carousel_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cec"
+        app:attr04b1="parent" />
+    <View
+        android:id="@id/clickable_space"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr04b1="@id/provider_logo" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/provider_logo"
+        android:visibility="gone"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen0ce8"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        android:scaleType="centerInside"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/conversation_links_carousel_recycler_view" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color0397"
+        android:ellipsize="end"
+        android:id="@id/search_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dimen0ce6"
+        android:layout_marginEnd="@dimen/dimen0ce6"
+        app:attr0494="@id/provider_logo"
+        app:attr049b="@id/plugin_date_wrapper"
+        app:attr04ac="@id/provider_logo"
+        app:attr04b1="@id/provider_logo"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style05a7" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/plugin_date_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        app:attr0494="@id/provider_logo"
+        app:attr049a="parent"
+        app:attr04b1="@id/provider_logo">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/plugin_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/style0567" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

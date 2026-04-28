@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/view_conversation_media">
+        <SwitchPreference
+            android:icon="@drawable/images_hide"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/settings_autodownload_images"
+            android:key="yohide_inimages" />
+        <SwitchPreference
+            android:icon="@drawable/video_hide"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/settings_autodownload_videos"
+            android:key="yohide_invideos" />
+        <SwitchPreference
+            android:icon="@drawable/gif_hide"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/search_gifs"
+            android:key="yohide_ingifs" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/settings_help">
+        <Preference
+            android:icon="@drawable/ic_action_refresh"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/reset"
+            android:key="yohide_mediashow"
+            android:summary="@string/abc_activity_chooser_view_see_all" />
+        <Preference
+            android:icon="@drawable/abo_arab_ic_extradanger"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/media_in_gallery"
+            android:summary="@string/restart_phone" />
+    </PreferenceCategory>
+</PreferenceScreen>

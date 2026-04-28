@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        style="@style/style0520" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fc4"
+        android:textColor="@color/color08df"
+        android:gravity="center"
+        android:id="@id/storage_empty_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/str2d33"
+        android:lineSpacingExtra="2.0sp"
+        app:attr03ae="?attr03b6"
+        app:attr04d0="28.0sp"
+        app:attr0a24="wds_font_headline2" />
+</LinearLayout>

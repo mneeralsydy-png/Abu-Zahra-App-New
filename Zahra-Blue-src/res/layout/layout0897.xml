@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/selector_orange_gradient"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/provider_icon"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/str2659"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/bank_logo_placeholder_with_circle_bg" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a47"
+        android:ellipsize="end"
+        android:id="@id/account_number"
+        android:paddingTop="12.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:singleLine="true"
+        app:attr0495="@id/account_name"
+        app:attr049b="@id/barrier"
+        app:attr04ac="@id/provider_icon"
+        style="@style/style0289" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/account_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:singleLine="true"
+        app:attr049b="@id/barrier"
+        app:attr04ac="@id/provider_icon"
+        app:attr04b0="@id/account_number"
+        style="@style/style0285" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/account_type"
+        android:paddingBottom="12.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:singleLine="true"
+        app:attr049b="@id/barrier"
+        app:attr04ac="@id/provider_icon"
+        app:attr04b0="@id/account_name"
+        style="@style/style0285" />
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/progress"
+        android:visibility="gone"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        app:attr0494="parent"
+        app:attr049b="@id/right_padding"
+        app:attr04b1="parent"
+        style="progressBarStyleInverse" />
+    <RadioButton
+        android:id="@id/radio_button"
+        android:focusable="false"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049b="@id/right_padding"
+        app:attr04b1="parent" />
+    <View
+        android:id="@id/right_padding"
+        android:layout_width="16.0dip"
+        android:layout_height="1.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="left"
+        app:attr0243="progress,radio_button, right_padding" />
+    <View
+        android:id="@id/divider"
+        android:background="@drawable/payments_divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/business_avatar"
+        android:background="@drawable/business_avatar_template"
+        android:layout_width="@dimen/dimen0122"
+        android:layout_height="@dimen/dimen0122"
+        android:layout_marginLeft="@dimen/dimen064b"
+        android:layout_marginRight="@dimen/dimen064b"
+        android:layout_marginStart="@dimen/dimen064b"
+        android:layout_marginEnd="@dimen/dimen064b" />
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@id/business_name"
+        android:background="@drawable/business_line_template"
+        android:layout_width="128.0dip"
+        android:layout_height="16.0dip" />
+</LinearLayout>

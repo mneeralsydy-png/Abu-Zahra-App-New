@@ -1,0 +1,78 @@
+.class public final synthetic LX/1Qt;
+.super LX/09k;
+.source ""
+
+# interfaces
+.implements LX/095;
+
+
+# static fields
+.field public static final A00:LX/1Qt;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/1Qt;
+
+    invoke-direct {v0}, LX/1Qt;-><init>()V
+
+    sput-object v0, LX/1Qt;->A00:LX/1Qt;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 6
+
+    const-class v2, LX/1Qs;
+
+    const-string v4, "<init>(Lcom/whatsapp/infra/fmessage/base/protocol/FMessageKey;J)V"
+
+    const/4 v5, 0x0
+
+    const/4 v1, 0x2
+
+    const-string v3, "<init>"
+
+    move-object v0, p0
+
+    invoke-direct/range {v0 .. v5}, LX/09k;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 5
+
+    check-cast p1, LX/1Kt;
+
+    check-cast p2, Ljava/lang/Number;
+
+    invoke-virtual {p2}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v3
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0}, LX/00C;->A0A(Ljava/lang/Object;I)V
+
+    const/4 v2, 0x0
+
+    const/16 v0, 0x54
+
+    new-instance v1, LX/1Qs;
+
+    invoke-direct {v1, p1, v0, v3, v4}, LX/1J1;-><init>(LX/1Kt;IJ)V
+
+    iput-object v2, v1, LX/1Me;->A00:Ljava/lang/String;
+
+    sget-object v0, LX/01d;->A00:LX/01d;
+
+    iput-object v0, v1, LX/1Qs;->A00:Ljava/util/List;
+
+    return-object v1
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.conversation.ui.conversationrow.OrderTypePaymentLinkMessageView
+    android:orientation="vertical"
+    android:id="@id/order_type_interactive_view"
+    android:focusable="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/dimen03d9"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

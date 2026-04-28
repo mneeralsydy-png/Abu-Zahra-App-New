@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        style="@style/style0520" />
+    <com.whatsapp.ui.coreui.components.WaSwitchView
+        android:id="@id/notify_new_message_switch_view"
+        android:paddingLeft="@dimen/dimen103b"
+        android:paddingTop="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        whatsapp:attr09a5="@string/str03f5"
+        whatsapp:attr09a6="?attr07b1"
+        whatsapp:attr09a7="@string/str03f4"
+        whatsapp:attr09a8="?attr07b5" />
+    <com.whatsapp.ui.coreui.components.WaSwitchView
+        android:id="@id/auto_hide_switch_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        whatsapp:attr09a5="@string/str3d53"
+        whatsapp:attr09a7="@string/str3d54" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_gravity="center|top"
+    android:id="@id/restore_from_consumer_transfer_image"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen103b"
+    android:layout_marginTop="@dimen/dimen103b"
+    android:layout_marginRight="@dimen/dimen103b"
+    android:layout_marginBottom="@dimen/dimen103b"
+    app:attr0838="@drawable/wds_ill_smb_chat_group_lock_status_onboarding"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

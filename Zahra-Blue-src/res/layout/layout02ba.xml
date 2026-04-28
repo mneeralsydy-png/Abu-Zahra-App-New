@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/call_grid_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:importantForAccessibility="no" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="horizontal"
+            android:id="@id/call_grid_h_scroll_recycler_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+        <View
+            android:id="@id/left_gradient"
+            android:background="@drawable/hscroll_gradient"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen01b5"
+            android:layout_height="0.0dip"
+            android:importantForAccessibility="no"
+            app:attr0494="@id/call_grid_h_scroll_recycler_view"
+            app:attr04a7="parent"
+            app:attr04b1="@id/call_grid_h_scroll_recycler_view" />
+        <View
+            android:id="@id/right_gradient"
+            android:background="@drawable/hscroll_gradient"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen01b5"
+            android:layout_height="0.0dip"
+            android:rotation="180.0"
+            android:importantForAccessibility="no"
+            app:attr0494="@id/call_grid_h_scroll_recycler_view"
+            app:attr04ab="parent"
+            app:attr04b1="@id/call_grid_h_scroll_recycler_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

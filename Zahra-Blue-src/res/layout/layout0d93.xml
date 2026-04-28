@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="?attr0798"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style01a4">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/dimen0126"
+            android:layout_marginBottom="@dimen/dimen0126"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/get_help_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c6="@string/str2f46"
+                app:attr06c9="@string/str2f45"
+                app:attr06e1="true"
+                app:attr06f6="@drawable/ic_group"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/bug_reporting_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c6="@string/str32ee"
+                app:attr06c9="@string/str2e2f"
+                app:attr06e1="true"
+                app:attr06f6="@drawable/ic_group"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/terms_and_privacy_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2fd0"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_description"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/upi_payment_notice"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2ff6"
+                app:attr06e1="true"
+                app:attr06e2="compact" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/notice_list"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/newsletter_reports_stub"
+                android:inflatedId="@id/newsletter_reports"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/newsletter_reports_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2f64"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_message_report"
+                app:attr0702="icon" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/about_preference"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str2ec1"
+                app:attr06e1="true"
+                app:attr06e2="compact"
+                app:attr06f6="@drawable/ic_info_2"
+                app:attr0702="icon" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.contact.ui.picker.view.LayoutIssueFixListViewParentLayout
+    android:id="@android:id/content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:layout_gravity="top"
+        android:id="@id/selected_contacts_list_stub"
+        android:layout="@layout/layout040a"
+        android:inflatedId="@id/selected_contacts_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.collections.observablelistview.ObservableListView
+        android:id="@android:id/list"
+        android:background="?attr04f9"
+        android:paddingLeft="@dimen/dimen032f"
+        android:paddingRight="@dimen/dimen0330"
+        android:paddingBottom="@dimen/dimen08ae"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:nestedScrollingEnabled="true" />
+    <FrameLayout
+        android:gravity="center"
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/contacts_empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/init_contacts_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="progressBarStyle" />
+        <ViewStub
+            android:id="@id/error_container"
+            android:layout="@layout/layout03f7"
+            android:inflatedId="@id/error_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.whatsapp.contact.ui.picker.view.LayoutIssueFixListViewParentLayout>

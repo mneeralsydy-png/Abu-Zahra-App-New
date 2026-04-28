@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout10cb" />
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        app:attr0495="@id/bottom_barrier"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/hero_img"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:contentDescription="@string/str24b9"
+                app:attr0838="@drawable/wds_picto_add_bank" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:id="@id/bank_account_picker_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102f"
+                android:text="@string/str2873"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="16.0dip"
+                style="@style/style02c9" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a46"
+                android:gravity="center"
+                android:id="@id/bank_account_picker_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/str2872"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="16.0dip"
+                app:attr0a24="wds_font_body2" />
+            <View
+                android:id="@id/header_divider"
+                android:background="@drawable/payments_divider_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginTop="24.0dip"
+                android:layout_marginRight="16.0dip" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/recycler_view"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+            <include
+                android:id="@id/shimmer_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout08ce" />
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout0898" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/bottom_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="top"
+        app:attr0243="add_button,progress,upi_logo" />
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/progress"
+        android:visibility="gone"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginBottom="16.0dip"
+        app:attr0495="@id/upi_logo"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        style="progressBarStyleInverse" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:gravity="center"
+        android:id="@id/add_button"
+        android:visibility="gone"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:text="@string/str253f"
+        android:maxLines="1"
+        app:attr0494="@id/progress"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="@id/progress"
+        style="@style/style055c" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/upi_logo"
+        android:visibility="gone"
+        android:layout_marginBottom="16.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        style="@style/style02f5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

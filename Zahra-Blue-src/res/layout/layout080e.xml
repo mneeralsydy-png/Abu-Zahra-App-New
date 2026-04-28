@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View
+    android:id="@id/divider"
+    android:background="@drawable/group_membership_approval_requests_divider"
+    android:layout_width="fill_parent"
+    android:layout_height="0.5dip"
+    android:layout_marginTop="@dimen/dimen0ce8"
+    android:layout_marginBottom="@dimen/dimen0ce7"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

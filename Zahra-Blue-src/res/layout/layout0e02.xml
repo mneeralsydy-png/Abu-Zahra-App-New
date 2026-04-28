@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/check_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:src="@drawable/vec_circle_outline"
+        android:layout_marginEnd="@dimen/dimen102e" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:id="@id/check_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a46"
+            android:id="@id/check_text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dbasdbas dbasd asdh adh asdbas dhas "
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+</LinearLayout>

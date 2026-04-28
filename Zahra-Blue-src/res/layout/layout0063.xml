@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/broadcast_counter_view_stub"
+        android:layout="@layout/layout0245"
+        android:inflatedId="@id/broadcast_counter_view_stub"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/broadcast_lists_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/broadcast_counter_view_stub" />
+    <ViewStub
+        android:id="@id/broadcast_home_list_empty_state"
+        android:layout="@layout/layout0246"
+        android:inflatedId="@id/broadcast_home_list_empty_state"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/broadcast_counter_view_stub" />
+    <com.whatsapp.ui.wds.components.fab.WDSFab
+        android:id="@id/create_new_broadcast_button"
+        android:src="@drawable/ic_add_white"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        style="@style/style055f" />
+</androidx.constraintlayout.widget.ConstraintLayout>

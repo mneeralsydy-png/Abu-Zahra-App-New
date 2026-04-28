@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/divider"
+        android:background="@drawable/dashed_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a47"
+        android:ellipsize="end"
+        android:id="@id/field_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a47"
+        android:ellipsize="end"
+        android:id="@id/field_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style05a6" />
+</merge>

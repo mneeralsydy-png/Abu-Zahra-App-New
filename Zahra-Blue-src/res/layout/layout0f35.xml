@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/me_tab_profile_picture_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/me_tab_about_bubble_stub"
+        android:layout="@layout/layout001c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:id="@id/me_tab_profile_info_photo_section"
+        android:background="@color/color0790"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0b26"
+        android:layout_marginTop="@dimen/dimen089b"
+        android:adjustViewBounds="true">
+        <ViewStub
+            android:layout_gravity="bottom"
+            android:id="@id/me_tab_profile_info_photo_section_background_stub"
+            android:layout="@layout/layout0a38"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen089c" />
+        <androidx.cardview.widget.CardView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/dimen0b26"
+            android:layout_height="fill_parent"
+            app:attr011d="?attr0a59"
+            app:attr011e="@dimen/dimen0b25"
+            app:attr011f="0.0dip">
+            <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+                android:layout_gravity="center"
+                android:id="@id/me_tab_profile_info_photo"
+                android:layout_width="110.0dip"
+                android:layout_height="110.0dip"
+                android:src="@drawable/avatar_contact"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/str41e1"
+                app:attr08a9="true"
+                app:attr08aa="@dimen/dimen08da"
+                app:attr08ac="true" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</LinearLayout>

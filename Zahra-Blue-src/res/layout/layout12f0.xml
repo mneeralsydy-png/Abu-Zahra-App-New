@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingBottom="@dimen/dimen103b"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05ab"
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:id="@id/webview_learn_more_sheet_title_label"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:text="@string/str3c55"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        whatsapp:attr04a7="parent"
+        whatsapp:attr04ab="parent"
+        whatsapp:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/webview_learn_more_sheet_desc1_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginStart="@dimen/dimen103b"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b0="@id/webview_learn_more_sheet_title_label"
+        whatsapp:attr0838="@drawable/ic_verified_user"
+        whatsapp:attr090d="@color/color0346" />
+    <com.whatsapp.ui.coreui.FAQTextView
+        android:textAppearance="@style/style05a6"
+        android:textColor="?attr0a47"
+        android:id="@id/webview_learn_more_sheet_desc1_label"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        whatsapp:attr005d=" 182446338158487"
+        whatsapp:attr0301="@string/str4331"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ac="@id/webview_learn_more_sheet_desc1_icon"
+        whatsapp:attr04b1="@id/webview_learn_more_sheet_desc1_icon" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/webview_learn_more_sheet_desc2_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginStart="@dimen/dimen103b"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b0="@id/webview_learn_more_sheet_desc1_label"
+        whatsapp:attr0838="@drawable/ic_action_compose"
+        whatsapp:attr090d="@color/color0346" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05a6"
+        android:textColor="?attr0a47"
+        android:id="@id/webview_learn_more_sheet_desc2_label"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str3c54"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ac="@id/webview_learn_more_sheet_desc2_icon"
+        whatsapp:attr04b1="@id/webview_learn_more_sheet_desc2_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

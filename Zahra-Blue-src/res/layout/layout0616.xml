@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/who_can_contact_section"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0126"
+    android:layout_marginBottom="@dimen/dimen0125"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/who_can_contact_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginRight="@dimen/dimen0c93"
+        app:attr03ee="@string/str3df4" />
+    <RadioGroup
+        android:id="@id/who_can_contact_radio_group"
+        android:paddingLeft="@dimen/dimen0c90"
+        android:paddingRight="@dimen/dimen0c93"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="yes">
+        <RadioButton
+            android:theme="?attr079e"
+            android:id="@id/everyone_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str41da" />
+        <RadioButton
+            android:theme="?attr079e"
+            android:id="@id/my_contacts_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str41d9" />
+    </RadioGroup>
+    <com.whatsapp.ui.wds.components.list.footer.WDSSectionFooter
+        android:id="@id/who_can_contact_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginRight="@dimen/dimen0c93"
+        app:attr03bc="@string/str3df3" />
+</LinearLayout>

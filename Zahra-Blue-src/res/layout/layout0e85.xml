@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/media_container"
+    android:paddingLeft="@dimen/dimen0bf6"
+    android:paddingTop="@dimen/dimen0bf7"
+    android:paddingRight="@dimen/dimen0bf6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.conversation.ui.conversationrow.BotRichResponseGridImageLayout
+        android:id="@id/bot_image_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0c04">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.whatsapp.metaai.inlineimage.InlineImageView
+                android:id="@id/image_0"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.whatsapp.metaai.inlineimage.InlineImageView
+            android:id="@id/image_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <FrameLayout
+            android:id="@id/image_2_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.whatsapp.metaai.inlineimage.InlineImageView
+                android:id="@id/image_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/more"
+                style="@style/style01b2" />
+        </FrameLayout>
+    </com.whatsapp.conversation.ui.conversationrow.BotRichResponseGridImageLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/grid_image_control_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/grid_image_progress_bar"
+            android:layout="@layout/layout0912"
+            android:inflatedId="@id/progress_bar"
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip" />
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@id/grid_image_cancel_download"
+            android:layout="@layout/layout0911"
+            android:inflatedId="@id/cancel_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:layout_gravity="center"
+            android:id="@id/grid_image_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0009="media"
+            app:attr0411="@drawable/ic_download_small"
+            app:attr09ea="large" />
+    </FrameLayout>
+</FrameLayout>

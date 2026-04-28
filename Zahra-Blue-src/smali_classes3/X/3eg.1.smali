@@ -1,0 +1,50 @@
+.class public final LX/3eg;
+.super LX/4zP;
+.source ""
+
+
+# direct methods
+.method public constructor <init>(Landroid/widget/Magnifier;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, LX/4zP;-><init>(Landroid/widget/Magnifier;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public CCj(JF)V
+    .locals 5
+
+    invoke-static {p3}, Ljava/lang/Float;->isNaN(F)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-virtual {p0}, LX/4zP;->A00()Landroid/widget/Magnifier;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p3}, Landroid/widget/Magnifier;->setZoom(F)V
+
+    :cond_0
+    const-wide v3, 0xffffffffL
+
+    invoke-virtual {p0}, LX/4zP;->A00()Landroid/widget/Magnifier;
+
+    move-result-object v2
+
+    invoke-static {p1, p2}, LX/3bE;->A00(J)F
+
+    move-result v1
+
+    invoke-static {p1, p2, v3, v4}, LX/3bE;->A01(JJ)F
+
+    move-result v0
+
+    invoke-virtual {v2, v1, v0}, Landroid/widget/Magnifier;->show(FF)V
+
+    return-void
+.end method

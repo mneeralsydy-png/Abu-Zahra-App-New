@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/scroll_view_container"
+    android:background="?attr0798"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style01a4">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/dimen0126"
+            android:layout_marginBottom="@dimen/dimen0126"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <LinearLayout
+                android:id="@id/conversation_sound_setting"
+                style="@style/style02c2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingEnd="16.0dip">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2ee9"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2eea"
+                        style="?attr07b1" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:id="@id/conversation_sound_switch"
+                    style="@style/style02c3" />
+            </LinearLayout>
+            <ViewStub
+                android:id="@id/reminder_setting"
+                android:layout="@layout/layout0d9f"
+                android:inflatedId="@id/reminder_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <View
+                style="?attr0799" />
+            <ViewStub
+                android:id="@id/message_notifications_section_header"
+                android:inflatedId="@id/message_notifications_section_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24.0dip"
+                android:layout_marginEnd="24.0dip" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/notification_tone_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str422f"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple"
+                style="@style/style0363" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/vibrate_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str4233"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple"
+                style="@style/style0363" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/popup_notification_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str422d"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple"
+                style="@style/style0363" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/notification_light_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str422b"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple"
+                style="@style/style0363" />
+            <LinearLayout
+                android:id="@id/high_priority_notifications_setting"
+                style="@style/style02c2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingEnd="16.0dip">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str4231"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str4232"
+                        style="?attr07b1" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:id="@id/high_priority_notifications_switch"
+                    style="@style/style02c3" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/reaction_notifications_setting"
+                android:visibility="gone"
+                style="@style/style02c2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingEnd="16.0dip">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2f67"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2f68"
+                        style="?attr07b1" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:id="@id/reactions_switch"
+                    style="@style/style02c3" />
+            </LinearLayout>
+            <View
+                style="?attr0799" />
+            <ViewStub
+                android:id="@id/group_message_notifications_section_header"
+                android:inflatedId="@id/group_message_notifications_section_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24.0dip"
+                android:layout_marginEnd="24.0dip" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/group_notification_tone_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str422f"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/group_vibrate_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str4233"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/group_popup_notification_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str422d"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/group_notification_light_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str422b"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple" />
+            <LinearLayout
+                android:id="@id/group_high_priority_notifications_setting"
+                style="@style/style02c2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingEnd="16.0dip">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str4231"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str4232"
+                        style="?attr07b1" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:id="@id/group_high_priority_notifications_switch"
+                    style="@style/style02c3" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/group_reaction_notifications_setting"
+                android:visibility="gone"
+                style="@style/style02c2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingEnd="16.0dip">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2f67"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2f68"
+                        style="?attr07b1" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:id="@id/group_reactions_switch"
+                    style="@style/style02c3" />
+            </LinearLayout>
+            <View
+                style="?attr0799" />
+            <ViewStub
+                android:id="@id/call_notifications_section_header"
+                android:inflatedId="@id/call_notifications_section_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24.0dip"
+                android:layout_marginEnd="24.0dip" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/call_tone_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str4220"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/call_vibrate_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str4233"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple" />
+            <View
+                android:id="@id/divider_status_notifications"
+                android:visibility="gone"
+                style="?attr0799" />
+            <ViewStub
+                android:id="@id/status_notifications_section_header"
+                android:inflatedId="@id/status_notifications_section_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24.0dip"
+                android:layout_marginEnd="24.0dip" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/status_notification_tone_setting"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str422f"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/status_vibrate_setting"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c9="@string/str4233"
+                app:attr06e1="true"
+                app:attr06f2="spacing_triple" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:orientation="vertical"
+                android:id="@id/status_high_priority_setting"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr06c6="@string/str4232"
+                app:attr06c9="@string/str4231"
+                app:attr06e1="true"
+                app:attr06ec="wds_switch"
+                app:attr06f2="spacing_triple" />
+            <LinearLayout
+                android:id="@id/status_reaction_notifications_setting"
+                android:visibility="gone"
+                style="@style/style02c2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingEnd="16.0dip">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2fc9"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2fca"
+                        style="?attr07b1" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:id="@id/status_reactions_switch"
+                    style="@style/style02c3" />
+            </LinearLayout>
+            <ViewStub
+                android:id="@id/use_clear_message_notification_setting_view_stub"
+                android:layout="@layout/layout0d9a"
+                android:inflatedId="@id/use_clear_message_notification_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/recommended_channels_notification_setting_view_stub"
+                android:layout="@layout/layout0d7f"
+                android:inflatedId="@id/recommended_channels_notification_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:id="@id/divider_wearable_notifications"
+                android:visibility="gone"
+                style="?attr0799" />
+            <ViewStub
+                android:id="@id/wearable_notifications_section_header"
+                android:inflatedId="@id/wearable_notifications_section_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24.0dip"
+                android:layout_marginEnd="24.0dip" />
+            <LinearLayout
+                android:id="@id/group_smartglasses_notifications_setting"
+                android:visibility="gone"
+                style="@style/style02c2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingEnd="16.0dip">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2f65"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_gravity="center_vertical"
+                        android:id="@id/smartglasses_large_group_notification_subtitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="?attr07b1" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:id="@id/group_smartglasses_notifications_switch"
+                    style="@style/style02c3" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@id/smartglasses_reaction_notifications_setting"
+                android:visibility="gone"
+                style="@style/style02c2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:paddingEnd="16.0dip">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2f69"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2f6a"
+                        style="?attr07b1" />
+                </LinearLayout>
+                <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                    android:id="@id/smartglasses_reaction_notifications_switch"
+                    style="@style/style02c3" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

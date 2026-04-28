@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.banners.WDSBanner
+    android:id="@id/coversations_biz_shop_sunset_chat_wds_banner"
+    style="@style/style0576"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

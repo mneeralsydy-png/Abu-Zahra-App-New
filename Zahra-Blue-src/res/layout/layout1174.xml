@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/video_end_overlay_root"
+    android:background="@color/color08a1"
+    android:visibility="invisible"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center"
+        android:id="@id/video_promotion_final_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="media"
+        app:attr0495="@id/video_promotion_restart_button"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr04b3="packed" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center"
+        android:id="@id/video_promotion_restart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:text="@string/str432b"
+        app:attr0009="media"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/video_promotion_final_action_button"
+        app:attr04b3="packed"
+        app:attr096b="borderless"
+        app:attr09ea="small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

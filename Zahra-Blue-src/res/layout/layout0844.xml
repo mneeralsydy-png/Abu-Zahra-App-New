@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dip"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/illustration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33.0dip"
+            android:layout_marginBottom="33.0dip"
+            android:importantForAccessibility="no"
+            app:attr0495="@id/title"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/vec_group_history_education_illustration" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textStyle="bold"
+            android:textColor="?attr0a47"
+            android:gravity="center_horizontal"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            android:text="@string/str16e7"
+            android:textAlignment="center"
+            app:attr0495="@id/shared_time_text"
+            app:attr04b0="@id/illustration"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/forward_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/dimen0cee"
+            app:attr0494="@id/shared_time_text"
+            app:attr04a7="parent"
+            app:attr04aa="@id/shared_time_text"
+            app:attr04b1="@id/shared_time_text"
+            app:attr0838="@drawable/ic_forward_white"
+            app:attr090d="@color/color0347" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/shared_time_text"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0ceb"
+            android:text="@string/str16e6"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cee"
+            app:attr0495="@id/privacy_text"
+            app:attr04a8="@id/forward_icon"
+            app:attr04ab="parent"
+            app:attr04b0="@id/title" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/privacy_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/dimen0cee"
+            app:attr0494="@id/privacy_text"
+            app:attr04a7="parent"
+            app:attr04aa="@id/privacy_text"
+            app:attr04b1="@id/privacy_text"
+            app:attr0838="@drawable/ic_lock"
+            app:attr090d="@color/color0347" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/privacy_text"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            android:text="@string/str16e5"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cee"
+            app:attr0494="parent"
+            app:attr04a8="@id/privacy_icon"
+            app:attr04ab="parent"
+            app:attr04b0="@id/shared_time_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

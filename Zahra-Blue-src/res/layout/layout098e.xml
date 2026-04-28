@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:background="@drawable/background_media_uploading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ProgressBar
+        android:id="@id/upload_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="progressBarStyleInverse" />
+</androidx.constraintlayout.widget.ConstraintLayout>

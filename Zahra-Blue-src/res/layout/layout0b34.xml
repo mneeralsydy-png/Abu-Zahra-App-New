@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?android:textColorSecondary"
+        android:gravity="center"
+        android:id="@id/error_text_line1"
+        android:paddingLeft="@dimen/dimen103a"
+        android:paddingTop="@dimen/dimen1034"
+        android:paddingRight="@dimen/dimen103a"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="?attr03b8"
+        app:attr0a24="wds_font_body2_emphasized" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?android:textColorSecondary"
+        android:gravity="center"
+        android:id="@id/error_text_line2"
+        android:paddingLeft="@dimen/dimen103a"
+        android:paddingRight="@dimen/dimen103a"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/retry_button"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3563"
+        style="@style/style0558" />
+</merge>

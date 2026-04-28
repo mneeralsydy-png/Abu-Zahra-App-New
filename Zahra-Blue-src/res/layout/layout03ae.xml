@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/offer_container"
+            android:layout="@layout/layout03a6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:layout_gravity="start|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0b62"
+                android:layout_marginBottom="@dimen/dimen0b60"
+                android:text="@string/str0cc7"
+                android:layout_marginStart="@dimen/dimen1032"
+                app:attr03ae="?attr03b8"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:layout_gravity="end|center"
+                android:id="@id/convenience_fees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0b62"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginBottom="@dimen/dimen0b60"
+                android:layout_marginEnd="16.0dip"
+                app:attr03ae="?attr03b8"
+                app:attr0a24="wds_font_body2" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a47"
+                android:layout_gravity="start|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0b60"
+                android:layout_marginBottom="@dimen/dimen0b62"
+                android:text="@string/str0ccf"
+                android:layout_marginStart="@dimen/dimen1032"
+                app:attr03ae="?attr03b8"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a47"
+                android:layout_gravity="end|center"
+                android:id="@id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0b60"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginBottom="@dimen/dimen0b62"
+                android:layout_marginEnd="16.0dip"
+                app:attr03ae="?attr03b8"
+                app:attr0a24="wds_font_body2" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/info_gray_border"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen0b5b"
+            android:layout_marginEnd="@dimen/dimen0b5b">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip"
+                android:layout_margin="@dimen/dimen0b5b"
+                app:attr0838="@drawable/ic_icon_bulb" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fbc"
+                android:textColor="?attr0a47"
+                android:layout_gravity="end|center"
+                android:id="@id/convenience_fees_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0b62"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginBottom="@dimen/dimen0b62"
+                android:layout_marginEnd="16.0dip"
+                app:attr03ae="?attr03b6" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

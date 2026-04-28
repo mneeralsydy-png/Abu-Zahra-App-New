@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8.0dip"
+    style="@style/style0112"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0295">
+        <ProgressBar
+            android:id="@id/progress_bar"
+            android:layout_width="16.0dip"
+            android:layout_height="16.0dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/default_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:text="@string/str05cc"
+            android:layout_marginStart="6.0dip"
+            style="@style/style0296" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

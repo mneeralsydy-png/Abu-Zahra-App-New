@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/legal_disclaimer_section"
+    android:padding="@dimen/dimen064c"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="?attr0a46"
+        android:id="@id/br_bottom_sheet_add_pix_disclaimer_text_view"
+        android:lineHeight="@dimen/dimen0fbb"
+        style="@style/style02df" />
+</LinearLayout>

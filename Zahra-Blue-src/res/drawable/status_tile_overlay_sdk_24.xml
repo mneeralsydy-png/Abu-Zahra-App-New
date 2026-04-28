@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="@dimen/dimen0d68"
+    android:width="@dimen/dimen0d6c"
+    android:viewportWidth="85.0"
+    android:viewportHeight="150.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <path
+        android:fillColor="@drawable/$status_tile_overlay_sdk_24__0"
+        android:pathData="M0,0H85V75H0V0Z" />
+    <path
+        android:fillColor="@drawable/$status_tile_overlay_sdk_24__1"
+        android:pathData="M0,67H85V150H0V67Z" />
+</vector>

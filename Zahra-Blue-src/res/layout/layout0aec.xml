@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/color07c3"
+    android:paddingTop="@dimen/dimen0e48"
+    android:paddingBottom="@dimen/dimen0e48"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0ce8"
+    android:paddingEnd="@dimen/dimen0ce8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:textAppearance="?attr09fd"
+        android:textColor="?attr0952"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/container"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1039"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/meta_ai_unread_tv_ripple">
+        <FrameLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/unread_tv_background"
+            android:background="@drawable/meta_ai_unread_tv_background"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="?attr09fd"
+                android:textColor="?attr0a47"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/meta_ai_unread_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen1034"
+                android:drawablePadding="@dimen/dimen0e47"
+                android:drawableStart="@drawable/icn_summarization_android"
+                android:paddingStart="@dimen/dimen0e49"
+                android:paddingEnd="@dimen/dimen0e49"
+                app:attr0a24="wds_font_body3_emphasized" />
+        </FrameLayout>
+        <ViewStub
+            android:id="@id/meta_ai_summarization"
+            android:layout="@layout/layout0ae5"
+            android:inflatedId="@id/meta_ai_summarization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

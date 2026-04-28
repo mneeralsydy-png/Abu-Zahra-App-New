@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+    android:orientation="vertical"
+    android:id="@id/enc_backup_create_passkey"
+    android:paddingTop="@dimen/dimen103b"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr03eb="@drawable/vec_settings_passkeys_filled_large_wds"
+    app:attr0489="card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

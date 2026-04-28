@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen054a"
+            android:layout_marginRight="@dimen/dimen054a">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/enable_info_header_image"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen0549"
+                android:layout_marginTop="@dimen/dimen054d"
+                android:layout_marginBottom="@dimen/dimen054c" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/enable_info_title"
+                android:text="@string/str1207"
+                style="@style/style0203" />
+            <include
+                android:id="@id/enc_backup_enable_list_no_image"
+                layout="@layout/layout06c5" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/enable_info_backup_size_message"
+                android:visibility="gone"
+                style="@style/style01fb" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/enable_info_turn_on_button"
+        android:text="@string/str1234"
+        style="@style/style01ff" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/enable_info_more_options_button"
+        android:visibility="gone"
+        android:text="@string/str1231"
+        style="@style/style0200" />
+</LinearLayout>

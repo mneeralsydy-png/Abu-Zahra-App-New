@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/row_addon_end"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:id="@id/voice_call"
+        android:layout="@layout/layout12b0"
+        android:layout_width="@dimen/dimen0ffe"
+        android:layout_height="@dimen/dimen0ffc"
+        android:layout_marginRight="@dimen/dimen0ff1"
+        android:scaleType="center"
+        app:attr0494="parent"
+        app:attr04aa="@id/video_call"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_call_white"
+        app:attr090d="?attr0a44" />
+    <ViewStub
+        android:gravity="center"
+        android:id="@id/video_call"
+        android:layout="@layout/layout12af"
+        android:layout_width="@dimen/dimen0ffe"
+        android:layout_height="@dimen/dimen0ffc"
+        android:layout_marginRight="@dimen/dimen0ff1"
+        android:scaleType="center"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_videocam_white"
+        app:attr090d="?attr0a44" />
+</androidx.constraintlayout.widget.ConstraintLayout>

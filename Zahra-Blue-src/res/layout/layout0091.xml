@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/bbps_branding_footer"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <include
+        android:id="@id/bbps_branding_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0693"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        layout="@layout/layout01de" />
+</androidx.constraintlayout.widget.ConstraintLayout>

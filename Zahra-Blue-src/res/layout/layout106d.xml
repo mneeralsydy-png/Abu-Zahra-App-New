@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView
+    android:orientation="horizontal"
+    android:id="@id/storage_chat_pills_recycler_view"
+    android:paddingLeft="@dimen/dimen103a"
+    android:paddingRight="@dimen/dimen103a"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="58.0dip"
+    app:attr0488="LinearLayoutManager"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

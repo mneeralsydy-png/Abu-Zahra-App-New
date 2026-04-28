@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="?attr01b0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0450"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/banner_image_container"
+        android:layout_width="@dimen/dimen0744"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="20.0dip"
+            android:textColor="?attr0a4a"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/banner_image"
+            android:background="@drawable/payments_banner_circle"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr01b1"
+        android:layout_gravity="center|left"
+        android:id="@id/banner_title"
+        android:paddingTop="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        style="@style/style03c7" />
+    <FrameLayout
+        android:layout_width="52.0dip"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/cancel"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close"
+            app:attr090d="@color/color01cd" />
+    </FrameLayout>
+</LinearLayout>

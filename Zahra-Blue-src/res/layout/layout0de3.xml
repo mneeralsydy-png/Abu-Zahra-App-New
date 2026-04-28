@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@id/avatar_profile_info"
+    android:visibility="gone"
+    android:clipChildren="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.stickers.coinflip.CoinFlipAnimatedProfileView
+        android:layout_gravity="center"
+        android:id="@id/avatar_coin_flip_animated_view"
+        android:layout_width="@dimen/dimen0b27"
+        android:layout_height="@dimen/dimen0b27"
+        android:contentDescription="@string/str3db0"
+        android:transitionName="@string/str42e4"
+        app:attr0835="height" />
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:layout_gravity="center"
+        android:id="@id/avatar_profile_pic_progress_bar"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip" />
+</FrameLayout>

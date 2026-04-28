@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr040b="?attr0a59"
+    style="@style/style0257"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.util.InlineBadgedTextEmojiLabel
+        android:textSize="@dimen/dimen0fc0"
+        android:textColor="?attr0a47"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/group_title"
+        android:paddingLeft="@dimen/dimen06a4"
+        android:paddingTop="@dimen/dimen06a4"
+        android:paddingRight="@dimen/dimen06a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/group_details_card_subtitle"
+        android:paddingLeft="@dimen/dimen06a4"
+        android:paddingRight="@dimen/dimen06a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginBottom="@dimen/dimen0cec" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/announcements_subtitle_number_of_participants"
+        android:paddingLeft="@dimen/dimen06a4"
+        android:paddingRight="@dimen/dimen06a4"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginBottom="@dimen/dimen0cec" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/group_second_subtitle"
+        android:background="@drawable/contact_info_last_seen_background"
+        android:paddingLeft="@dimen/dimen0ce7"
+        android:paddingTop="@dimen/dimen0cf0"
+        android:paddingRight="@dimen/dimen0ce7"
+        android:paddingBottom="@dimen/dimen0cf0"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cf0"
+        android:layout_marginBottom="@dimen/dimen0cf0" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="11.0sp"
+        android:textColor="@color/color08e3"
+        android:id="@id/group_internal_label"
+        android:background="@drawable/internal_label_background"
+        android:paddingLeft="@dimen/dimen0ced"
+        android:paddingTop="@dimen/dimen0cf0"
+        android:paddingRight="@dimen/dimen0ced"
+        android:paddingBottom="@dimen/dimen0cf0"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:text="@string/str19ec"
+        app:attr03ae="@font/TextAppearance.Compat.Notification.Media" />
+    <include
+        layout="@layout/layout07fc" />
+</com.whatsapp.ui.coreui.InfoCard>

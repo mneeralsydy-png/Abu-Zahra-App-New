@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.caverock.androidsvg.SVGImageView
+    android:layout_gravity="center"
+    android:id="@id/image"
+    android:layout_width="@dimen/dimen065c"
+    android:layout_height="@dimen/dimen065b"
+    android:scaleType="centerInside"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

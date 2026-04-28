@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen0ed2"
+    android:layout_height="@dimen/dimen0ed2"
+    android:layout_marginStart="@dimen/dimen0ed0"
+    android:layout_marginEnd="@dimen/dimen0ed0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_gravity="center"
+        android:id="@id/voice_option_selected"
+        android:padding="@dimen/dimen0ed3"
+        android:layout_width="@dimen/dimen0ed2"
+        android:layout_height="@dimen/dimen0ed2"
+        android:scaleType="centerCrop"
+        app:attr0252="@dimen/dimen0ed1"
+        app:attr07d0="@style/style0549"
+        app:attr085e="@dimen/dimen0ed3" />
+</FrameLayout>

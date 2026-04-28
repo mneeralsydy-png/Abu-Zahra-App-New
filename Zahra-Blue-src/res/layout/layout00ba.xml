@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0126"
+        android:layout_marginBottom="@dimen/dimen0125">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/newsletter_admin_settings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+                android:id="@id/newsletter_reaction_settings_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen102e"
+                android:paddingEnd="@dimen/dimen102e"
+                app:attr03ee="@string/str20db"
+                app:attr03ef="defaultHeader" />
+            <RadioGroup
+                android:id="@id/newsletter_reactions_settings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen102e"
+                android:paddingEnd="@dimen/dimen102e">
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reactions_all_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reactions_default_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+                <RadioButton
+                    android:theme="?attr079e"
+                    android:id="@id/reactions_none_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2" />
+            </RadioGroup>
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.divider.WDSDivider
+            android:id="@id/admin_profile_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039"
+            app:attr02db="thin" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/admin_profile_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c6="@string/str022d"
+            app:attr06c9="@string/str022e"
+            app:attr06ec="wds_switch" />
+        <ViewStub
+            android:id="@id/admin_profile_create_stub"
+            android:layout="@layout/layout010b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/admin_profile_existing_stub"
+            android:layout="@layout/layout010c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

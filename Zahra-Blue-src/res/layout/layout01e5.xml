@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:gravity="center"
+    android:id="@id/container"
+    android:background="@drawable/recharge_plan_details_item_background"
+    android:layout_width="fill_parent"
+    android:layout_height="98.0dip"
+    android:layout_marginTop="@dimen/dimen1039"
+    android:layout_marginBottom="@dimen/dimen1039"
+    android:layout_marginStart="@dimen/dimen102e"
+    android:layout_marginEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RadioButton
+        android:theme="?attr079e"
+        android:id="@id/select_plan"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/dimen102e"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/select_plan"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:id="@id/plan_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            app:attr0a24="wds_font_body1_emphasized"
+            style="@style/style05a5" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:id="@id/plan_details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1030"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

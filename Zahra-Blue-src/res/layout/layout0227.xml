@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/bot_rich_response_block_latex_overlay_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/rich_response_block_latex_overlay_stub_left"
+        android:layout="@layout/layout0228"
+        android:inflatedId="@id/rich_response_block_latex_overlay_left_inflated"
+        android:layout_width="@dimen/dimen0beb"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <HorizontalScrollView
+        android:gravity="start"
+        android:id="@id/bot_rich_response_block_latex"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049b="@id/rich_response_block_latex_overlay_stub_right"
+        app:attr04ac="@id/rich_response_block_latex_overlay_stub_left"
+        app:attr04b1="parent">
+        <com.whatsapp.metaai.inlineimage.BlockLatexInlineImageView
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/bot_rich_response_block_latex_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/bot_rich_response_block_latex_image"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </com.whatsapp.metaai.inlineimage.BlockLatexInlineImageView>
+    </HorizontalScrollView>
+    <ViewStub
+        android:id="@id/rich_response_block_latex_overlay_stub_right"
+        android:layout="@layout/layout0228"
+        android:inflatedId="@id/rich_response_block_latex_overlay_right_inflated"
+        android:layout_width="@dimen/dimen0beb"
+        android:layout_height="fill_parent"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/bot_rich_response_block_latex_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

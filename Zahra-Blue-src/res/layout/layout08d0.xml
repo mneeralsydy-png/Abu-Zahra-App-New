@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/bank_picker_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/bank_picker_list_toolbar"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout10cd" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@id/bank_picker_list"
+        android:scrollbars="none"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@color/color0790"
+        android:divider="@null"
+        android:choiceMode="none"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:splitMotionEvents="false"
+        app:attr0495="@id/footer_text"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/bank_picker_list_toolbar" />
+    <com.whatsapp.ui.coreui.scroller.RecyclerFastScroller
+        android:id="@id/fastscroller"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/footer_text"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/bank_picker_list_toolbar" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:gravity="center"
+        android:id="@id/bank_picker_empty_tv"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/footer_text"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <include
+        android:id="@id/shimmer_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/footer_text"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout08d7" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_horizontal"
+        android:id="@id/footer_text"
+        android:paddingTop="@dimen/dimen102e"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102f"
+        android:layout_marginRight="@dimen/dimen102f"
+        android:text="@string/str36c9"
+        app:attr0495="@id/upi_logo"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/fastscroller"
+        style="?attr03bc" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/upi_logo"
+        android:layout_marginTop="@dimen/dimen0ac6"
+        android:layout_marginBottom="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/footer_text"
+        style="@style/style02f5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

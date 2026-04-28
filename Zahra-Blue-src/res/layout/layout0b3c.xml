@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/row_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen034a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_vertical_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="@dimen/dimen102e" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_vertical_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="@dimen/dimen1032" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_vertical_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049d="@dimen/dimen102e" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/guideline_horizontal_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="@dimen/dimen103a" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/guideline_horizontal_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049d="@dimen/dimen103a" />
+    <com.whatsapp.privateai.ui.PrivateAiBadgeContainer
+        android:id="@id/private_ai_badge_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr008b="small"
+        app:attr0494="@id/guideline_horizontal_2"
+        app:attr04ad="@id/guideline_vertical_1"
+        app:attr04b1="@id/guideline_horizontal_1">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:enabled="false"
+            android:layout_gravity="center"
+            android:id="@id/contact_photo"
+            android:layout_width="@dimen/dimen0334"
+            android:layout_height="@dimen/dimen0334"
+            android:scaleType="fitCenter"
+            app:attr08a9="false"
+            app:attr08aa="@dimen/dimen0cc5" />
+    </com.whatsapp.privateai.ui.PrivateAiBadgeContainer>
+    <include
+        android:id="@id/include_name_status"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        app:attr0494="parent"
+        app:attr049b="@id/actions_view"
+        app:attr04ad="@id/guideline_vertical_2"
+        app:attr04b1="parent"
+        layout="@layout/layout0b3b" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/actions_view"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent">
+        <include
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            layout="@layout/layout0b39" />
+        <com.whatsapp.ui.coreui.components.SelectionCheckView
+            android:id="@id/selection_check"
+            android:background="@drawable/selection_check_deemphasized"
+            android:layout_width="@dimen/dimen0c6e"
+            android:layout_height="@dimen/dimen0c6e"
+            android:layout_margin="@dimen/dimen102e"
+            app:attr0746="0.0dip" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.divider.WDSDivider
+        android:id="@id/divider"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr02db="thin"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="@id/guideline_vertical_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

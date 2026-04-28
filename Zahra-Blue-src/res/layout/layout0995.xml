@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/rageshake_divider"
+        android:background="?attr0a4d"
+        android:layout_width="0.0dip"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="@dimen/dimen103b"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.settings.SettingsRowPrivacyLinearLayout
+        android:id="@id/rageshake_toggle_glow_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/rageshake_divider"
+        style="@style/style0363">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/rageshake_toggle_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0125"
+            android:paddingEnd="@dimen/dimen0125"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/rageshake_toggle_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dimen102e"
+                app:attr0494="@id/rageshake_toggle_text_container"
+                app:attr04ad="parent"
+                app:attr04b1="@id/rageshake_toggle_text_container"
+                app:attr0838="@drawable/vec_edgesensor_high"
+                app:attr090d="@color/color08de" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/rageshake_toggle_text_container"
+                android:paddingTop="@dimen/dimen103a"
+                android:paddingBottom="@dimen/dimen103a"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dimen102e"
+                app:attr049b="@id/rageshake_toggle_switch"
+                app:attr04ac="@id/rageshake_toggle_icon"
+                app:attr04b1="parent">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr066e"
+                    android:id="@id/rageshake_toggle_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str2a4c"
+                    app:attr0a24="wds_font_body1" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fbc"
+                    android:textColor="?attr0a46"
+                    android:id="@id/rageshake_toggle_description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str2a4b"
+                    app:attr0a24="wds_font_body3" />
+            </LinearLayout>
+            <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                android:id="@id/rageshake_toggle_switch"
+                android:background="@null"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0494="@id/rageshake_toggle_text_container"
+                app:attr049a="parent"
+                app:attr04ac="@id/rageshake_toggle_text_container"
+                app:attr04b1="@id/rageshake_toggle_text_container" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.whatsapp.settings.SettingsRowPrivacyLinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

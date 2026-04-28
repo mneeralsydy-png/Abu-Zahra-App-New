@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:layout_gravity="center"
+            android:id="@id/wds_handle_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            layout="@layout/layout12a2" />
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fc4"
+                android:textColor="?attr0a47"
+                android:layout_gravity="center"
+                android:id="@id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginBottom="16.0dip"
+                app:attr03ae="?attr03b8" />
+            <com.whatsapp.ui.coreui.base.WaImageButton
+                android:layout_gravity="center_vertical"
+                android:id="@id/icon"
+                android:background="?attr076e"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_marginTop="16.0dip"
+                android:layout_marginBottom="16.0dip"
+                android:contentDescription="@string/str3d62"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="16.0dip"
+                app:attr090d="@color/color02b3" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

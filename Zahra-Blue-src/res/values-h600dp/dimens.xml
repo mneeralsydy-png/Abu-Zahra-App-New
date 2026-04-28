@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen014d">148.0dip</dimen>
+    <dimen name="dimen0152">12.0dip</dimen>
+    <dimen name="dimen0156">32.0dip</dimen>
+    <dimen name="dimen0498">40.0dip</dimen>
+    <dimen name="dimen0499">28.0dip</dimen>
+    <item type="dimen" name="dimen049a">0.12</item>
+    <dimen name="dimen049b">12.0sp</dimen>
+    <dimen name="dimen049c">36.0sp</dimen>
+    <dimen name="dimen049e">28.0dip</dimen>
+    <dimen name="dimen049f">36.0sp</dimen>
+</resources>

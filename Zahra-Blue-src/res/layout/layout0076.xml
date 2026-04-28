@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/status_composer_layout"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/composer_fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.status.composer.ComposerModeTabLayout
+        android:id="@id/composer_tab_layout"
+        android:background="@color/color08a1"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen0d02"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04a5="0.8"
+        app:attr04ad="parent"
+        app:attr0886="fill"
+        app:attr0889="@drawable/status_composer_tab_selected_background"
+        app:attr088b="elastic"
+        app:attr088c="@color/color09a8"
+        app:attr088e="center"
+        app:attr088f="@dimen/dimen0d03"
+        app:attr0893="scrollable"
+        app:attr0899="@null"
+        app:attr089c="@color/color08c4"
+        app:attr089e="@style/style03a0"
+        app:attr089f="?attr0a2f" />
+    <ViewStub
+        android:id="@id/overlay_add_yours_sticker_view_stub"
+        android:layout="@layout/layout010a"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/overlay_question_answer_sticker_view_stub"
+        android:layout="@layout/layout0e06"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/consolidated_status_composer_selection_pills_toast_stub"
+        android:layout="@layout/layout0a4c"
+        android:inflatedId="@id/consolidated_status_composer_selection_pills_toast_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        app:attr0495="@id/text_status_creation_mode_bottom_bar" />
+    <ViewStub
+        android:id="@id/consolidated_text_status_composer_add_music_snackbar_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_marginRight="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0d01"
+        app:attr0495="@id/text_status_creation_mode_bottom_bar" />
+    <ViewStub
+        android:id="@id/consolidated_text_status_composer_captions_stub"
+        android:layout="@layout/layout10ad"
+        android:inflatedId="@id/caption_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ce7"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        app:attr0495="@id/text_status_creation_mode_bottom_bar"
+        app:attr049a="parent"
+        app:attr04a7="@id/text_status_creation_mode_bottom_bar"
+        app:attr04ad="parent" />
+    <com.whatsapp.status.composer.textcomposer.bottombar.CreationModeBottomBar
+        android:id="@id/text_status_creation_mode_bottom_bar"
+        android:visibility="gone"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen0d02"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/thunderstorm_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cee"
+        android:fillViewport="true"
+        android:layout_weight="1.0"
+        app:attr048f="true"
+        app:attr0495="@id/thunderstorm_bottomsheet_buttons"
+        app:attr04ad="parent"
+        app:attr04b2="0.0"
+        app:attr04b3="packed">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="parent">
+            <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+                android:layout_gravity="center"
+                android:id="@id/thunderstorm_receiver_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen0d05"
+                android:layout_marginTop="@dimen/dimen0ce7"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:attr04a8="@id/left_guideline"
+                app:attr04aa="@id/right_guideline"
+                app:attr04b1="parent"
+                app:attr0675="large"
+                app:attr0838="@drawable/ic_settings_profile" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="@color/color090b"
+                android:gravity="center"
+                android:id="@id/thunderstorm_receiver_title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:text="@string/str340b"
+                android:includeFontPadding="false"
+                android:fontFamily="?attr03b8"
+                app:attr04a7="@id/left_guideline"
+                app:attr04ab="@id/right_guideline"
+                app:attr04b0="@id/thunderstorm_receiver_profile"
+                style="@style/style0410" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="@color/color0948"
+                android:gravity="center"
+                android:id="@id/thunderstorm_receiver_file_description"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:lineSpacingExtra="@dimen/dimen0cec"
+                app:attr04a7="@id/left_guideline"
+                app:attr04aa="@id/right_guideline"
+                app:attr04b0="@id/thunderstorm_receiver_title"
+                app:attr0a24="wds_font_body1"
+                style="@style/style040b" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="@color/color0948"
+                android:gravity="center"
+                android:id="@id/thunderstorm_receiver_pin"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:lineSpacingExtra="@dimen/dimen0cec"
+                app:attr04a7="@id/left_guideline"
+                app:attr04aa="@id/right_guideline"
+                app:attr04b0="@id/thunderstorm_receiver_file_description"
+                app:attr0a24="wds_font_body1"
+                style="@style/style040b" />
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="vertical"
+                android:id="@id/left_guideline"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr049c="@dimen/dimen0cee" />
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="vertical"
+                android:id="@id/right_guideline"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr049d="@dimen/dimen0cee" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:orientation="vertical"
+        android:id="@id/thunderstorm_bottomsheet_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0cee"
+        android:layout_marginEnd="@dimen/dimen0cee"
+        app:attr0494="parent">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/thunderstorm_accept_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str3409"
+            style="@style/style055c" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/thunderstorm_deny_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str340a"
+            style="@style/style055b" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

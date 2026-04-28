@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ceb"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="top"
+            android:id="@id/event_info_date_icon"
+            android:layout_width="@dimen/dimen0fdb"
+            android:layout_height="@dimen/dimen0fdb"
+            android:layout_marginTop="@dimen/dimen0cf0"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            app:attr0838="@drawable/vec_ic_calendar_month"
+            app:attr090d="@color/color0347" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:layout_gravity="center_vertical"
+                android:id="@id/event_info_date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr0a24="wds_font_body1"
+                style="@style/style05a4" />
+            <ViewStub
+                android:id="@id/event_add_to_calendar"
+                android:layout="@layout/layout06d6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/event_info_location_container"
+        android:layout="@layout/layout06f8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea" />
+    <ViewStub
+        android:id="@id/event_info_call_container"
+        android:layout="@layout/layout06f0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea" />
+    <ViewStub
+        android:id="@id/event_info_reminder_container"
+        android:layout="@layout/layout06f9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea" />
+    <View
+        android:layout_marginTop="@dimen/dimen0ceb"
+        style="@style/style035a" />
+</LinearLayout>

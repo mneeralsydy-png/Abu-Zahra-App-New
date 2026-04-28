@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102f"
+    android:paddingEnd="@dimen/dimen0ce7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color0904"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:id="@id/video_playback_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/dimen0e7e"
+        android:letterSpacing="0.01" />
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_gravity="center_vertical"
+        android:id="@id/video_progress_seekbar"
+        android:paddingTop="@dimen/dimen0e81"
+        android:paddingBottom="@dimen/dimen0e81"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxHeight="@dimen/dimen0e80"
+        android:progressDrawable="@drawable/wa_exoplayer_seekbar_progress"
+        android:minHeight="@dimen/dimen0e80"
+        android:layout_weight="1.0"
+        android:layoutDirection="ltr" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color0904"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:id="@id/video_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/dimen0e7e"
+        android:layout_marginEnd="@dimen/dimen1039"
+        android:letterSpacing="0.01" />
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dimen0e82"
+        android:layout_height="@dimen/dimen0e82">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/trim_video"
+            android:layout_width="@dimen/dimen0e7f"
+            android:layout_height="@dimen/dimen0e7f"
+            app:attr0838="@drawable/vec_content_cut"
+            app:attr090d="?attr0a66" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dimen0e82"
+        android:layout_height="@dimen/dimen0e82"
+        android:layout_marginEnd="@dimen/dimen0ce7">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/mute_video"
+            android:layout_width="@dimen/dimen0e7f"
+            android:layout_height="@dimen/dimen0e7f"
+            app:attr0838="@drawable/ic_volume_up"
+            app:attr090d="?attr0a66" />
+    </FrameLayout>
+</LinearLayout>

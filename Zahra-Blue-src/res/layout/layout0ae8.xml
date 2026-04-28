@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.WDSList
+    android:id="@id/meta_ai_threads_recycler_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

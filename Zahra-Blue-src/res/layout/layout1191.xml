@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.gallery.views.MediaPickerRecyclerView
+    android:paddingBottom="@dimen/dimen1033"
+    android:scrollbars="none"
+    android:clipToPadding="false"
+    android:layout_width="0.0dip"
+    android:layout_height="0.0dip"
+    android:cacheColorHint="@color/color0790"
+    android:nestedScrollingEnabled="true"
+    whatsapp:attr0494="parent"
+    whatsapp:attr049a="parent"
+    whatsapp:attr04ad="parent"
+    whatsapp:attr04b1="parent"
+    whatsapp:attr05ba="@dimen/dimen05fc"
+    whatsapp:attr05bc="@dimen/dimen05fb"
+    whatsapp:attr05bd="4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

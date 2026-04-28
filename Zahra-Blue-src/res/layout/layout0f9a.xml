@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+    android:id="@id/title"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    app:attr03ef="defaultHeader"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

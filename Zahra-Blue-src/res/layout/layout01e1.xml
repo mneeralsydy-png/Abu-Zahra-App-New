@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/bill_containet"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="68.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/bill_date"
+        android:paddingTop="@dimen/dimen103a"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingStart="@dimen/dimen102e"
+        app:attr049b="@id/bill_amount"
+        app:attr04a4="spread_inside"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/bill_amount"
+        android:paddingTop="@dimen/dimen103a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingEnd="@dimen/dimen102e"
+        app:attr049a="parent"
+        app:attr04ac="@id/bill_date"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:ellipsize="end"
+        android:id="@id/account_id"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingStart="@dimen/dimen102e"
+        app:attr049b="@id/bill_status"
+        app:attr04a4="spread_inside"
+        app:attr04ad="parent"
+        app:attr04b0="@id/bill_date"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/bill_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingEnd="@dimen/dimen102e"
+        app:attr049a="parent"
+        app:attr04ac="@id/account_id"
+        app:attr04b0="@id/bill_amount"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_gravity="center_horizontal"
+                android:id="@id/shimmer_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:layout_marginBottom="@dimen/dimen102f"
+                whatsapp:attr0494="parent"
+                whatsapp:attr049a="parent"
+                whatsapp:attr04ad="parent"
+                whatsapp:attr04b1="parent"
+                whatsapp:attr07d5="1.0"
+                whatsapp:attr07d6="@color/color08ff"
+                whatsapp:attr07d8="true"
+                whatsapp:attr07da="0.9"
+                whatsapp:attr07db="1500"
+                whatsapp:attr07df="1.0"
+                whatsapp:attr07e0="@color/color0907"
+                whatsapp:attr07e7="5.0">
+                <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+                    android:id="@id/ai_creation_photo"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/dimen0063"
+                    android:layout_height="@dimen/dimen0063"
+                    android:scaleType="fitCenter"
+                    whatsapp:attr08a9="false"
+                    whatsapp:attr08aa="@dimen/dimen0140" />
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="@dimen/dimen0063"
+                    android:layout_height="@dimen/dimen0063">
+                    <com.whatsapp.ui.wds.components.button.WDSButton
+                        android:id="@id/ai_creation_edit_image"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen1039"
+                        android:layout_marginEnd="@dimen/dimen1039"
+                        whatsapp:attr0009="media"
+                        whatsapp:attr0411="@drawable/wa_ic_edit"
+                        whatsapp:attr0494="parent"
+                        whatsapp:attr049a="parent"
+                        whatsapp:attr096b="tonal"
+                        whatsapp:attr09ea="normal" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/ai_creation_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr06c9="@string/str02be"
+                whatsapp:attr06e1="true"
+                whatsapp:attr06f1="spacing_single"
+                whatsapp:attr06f2="spacing_double"
+                whatsapp:attr06f6="@drawable/vec_ic_account_circle"
+                whatsapp:attr0702="icon"
+                whatsapp:attr0704="spacing_single" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/ai_creation_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr06c9="@string/str02d3"
+                whatsapp:attr06e1="true"
+                whatsapp:attr06f1="spacing_single"
+                whatsapp:attr06f2="spacing_double"
+                whatsapp:attr06f6="@drawable/ic_info_2"
+                whatsapp:attr0702="icon"
+                whatsapp:attr0704="spacing_single" />
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen102e" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/ai_creation_audience"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr06c9="@string/str02a1"
+                whatsapp:attr06e1="true"
+                whatsapp:attr06f1="spacing_single"
+                whatsapp:attr06f2="spacing_double"
+                whatsapp:attr06f6="@drawable/vec_ic_public"
+                whatsapp:attr0702="icon"
+                whatsapp:attr0704="spacing_single" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/ai_creation_voice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr06c9="@string/str02d7"
+                whatsapp:attr06e1="true"
+                whatsapp:attr06f1="spacing_single"
+                whatsapp:attr06f2="spacing_double"
+                whatsapp:attr06f6="@drawable/vec_ic_volume_up"
+                whatsapp:attr0702="icon"
+                whatsapp:attr0704="spacing_single" />
+            <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+                android:id="@id/ai_creation_advanced_settings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                whatsapp:attr06c9="@string/str0289"
+                whatsapp:attr06e1="true"
+                whatsapp:attr06f1="spacing_single"
+                whatsapp:attr06f2="spacing_double"
+                whatsapp:attr06f6="@drawable/ic_settings"
+                whatsapp:attr0702="icon"
+                whatsapp:attr0704="spacing_single" />
+            <ViewStub
+                android:id="@id/ai_creation_delete_stub"
+                android:visibility="gone"
+                android:layout="@layout/layout0126"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102f"
+                android:layout_marginBottom="@dimen/dimen1039" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.aicreation.product.ui.component.CreationButton
+            android:id="@id/btn_ai_creation_create"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:layout_marginStart="@dimen/dimen0f77"
+            android:layout_marginEnd="@dimen/dimen0f77"
+            whatsapp:attr0009="normal"
+            whatsapp:attr096b="filled" />
+        <com.whatsapp.aicreation.product.ui.component.CreationButton
+            android:id="@id/btn_ai_creation_edit_save"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen102f"
+            android:layout_marginStart="@dimen/dimen0f77"
+            android:layout_marginEnd="@dimen/dimen0f77"
+            whatsapp:attr0009="normal"
+            whatsapp:attr096b="filled" />
+    </LinearLayout>
+</LinearLayout>

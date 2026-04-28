@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="center"
+    android:id="@id/video_outer_container"
+    android:background="@color/color08a5"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/status_bar_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="0.0dip" />
+    <FrameLayout
+        android:id="@id/video_playback_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/anchor"
+        app:attr0499="9:16"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="@id/status_bar_guideline"
+        app:attr04b3="packed" />
+    <ViewStub
+        android:id="@id/anchor"
+        android:layout="@layout/layout0fc1"
+        android:inflatedId="@id/anchor"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen0d1d"
+        app:attr0494="@id/nav_bar_guideline"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/video_playback_container" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/nav_bar_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049d="0.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

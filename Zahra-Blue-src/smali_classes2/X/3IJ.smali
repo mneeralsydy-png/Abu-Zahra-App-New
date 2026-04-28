@@ -1,0 +1,50 @@
+.class public final LX/3IJ;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/0la;
+
+
+# instance fields
+.field public final A00:LX/05V;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/16 v0, 0xdb9
+
+    invoke-static {v0}, LX/05Q;->A00(I)LX/05V;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/3IJ;->A00:LX/05V;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public Bcc(Z)V
+    .locals 2
+
+    iget-object v0, p0, LX/3IJ;->A00:LX/05V;
+
+    invoke-static {v0}, LX/05V;->A02(LX/05V;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, LX/0WM;
+
+    new-instance v0, Lcom/whatsapp/accountsyncnotificationhandler/accountsync/BlocklistInitialSyncJob;
+
+    invoke-direct {v0}, Lcom/whatsapp/accountsyncnotificationhandler/accountsync/BlocklistInitialSyncJob;-><init>()V
+
+    invoke-virtual {v1, v0}, LX/0WM;->A02(Lorg/whispersystems/jobqueue/Job;)V
+
+    return-void
+.end method

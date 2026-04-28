@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/user_location_picker"
+    android:background="?attr0a59"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent"
+        layout="@layout/layout10cb" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        whatsapp:attr0308="2.0dip"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b0="@id/toolbar">
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:layout_gravity="center"
+            android:id="@id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="24.0dip"
+            android:layout_height="0.0dip"
+            android:layout_marginRight="@dimen/dimen0b5d"
+            android:indeterminate="true"
+            android:indeterminateOnly="true"
+            android:layout_marginEnd="@dimen/dimen0b5d"
+            whatsapp:attr028b="@color/color0790"
+            whatsapp:attr028c="?attr0a29"
+            whatsapp:attr0494="parent"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/geolocation_address"
+            android:padding="@dimen/dimen103a"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            whatsapp:attr0494="parent"
+            whatsapp:attr049b="@id/progress_bar"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b1="parent"
+            style="@style/style0289" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@id/map_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b0="@id/header">
+        <FrameLayout
+            android:id="@id/map_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <View
+            android:id="@id/map_center_anchor"
+            android:layout_width="1.0px"
+            android:layout_height="1.0px"
+            android:layout_centerInParent="true" />
+        <FrameLayout
+            android:id="@id/map_center"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/map_center_anchor"
+            android:layout_centerHorizontal="true">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="bottom|center"
+                android:id="@id/map_center_pos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                whatsapp:attr0838="@drawable/ic_live_location_shadow" />
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="7.0dip"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="12.0dip" />
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:id="@id/map_center_pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr0838="@drawable/ic_map_pin" />
+                <View
+                    android:id="@id/map_center_filler"
+                    android:layout_width="fill_parent"
+                    android:layout_height="12.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/my_location"
+            android:background="@drawable/map_button_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            android:scaleType="center"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/str1edf"
+            whatsapp:attr0838="@drawable/btn_myl"
+            whatsapp:attr090d="@color/color089a" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"
+            whatsapp:attr0838="@drawable/shadow_send_location" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

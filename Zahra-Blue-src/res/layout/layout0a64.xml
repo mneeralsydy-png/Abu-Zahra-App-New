@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.communitymedia.itemviews.MediaMetadataView
+    android:textColor="@color/color08de"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?attr09f6"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

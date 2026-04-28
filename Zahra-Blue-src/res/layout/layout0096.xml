@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:id="@id/compose_select_toolbar"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        layout="@layout/layout0935" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/opted_in_integrators"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/compose_select_toolbar" />
+    <ViewStub
+        android:id="@id/empty_choose_app_text_view_stub"
+        android:layout="@layout/layout06ac"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/str0238"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.settings.ui.preference.WaListPreference
+        android:persistent="false"
+        android:entries="@array/array001c"
+        android:visibility="gone"
+        android:title="@string/str422d"
+        android:key="jid_message_popup"
+        android:summary="@string/str422e"
+        android:defaultValue="0"
+        android:entryValues="@array/array001d"
+        app:attr0048="false"
+        app:attr004a="false"
+        app:attr041d="false" />
+    <com.whatsapp.settings.ui.preference.WaListPreference
+        android:persistent="false"
+        android:visibility="gone"
+        android:title="@string/str422b"
+        android:key="jid_message_light"
+        android:summary="@string/str422c"
+        android:defaultValue="FFFFFF"
+        android:entryValues="@array/array0018"
+        app:attr0048="false"
+        app:attr004a="false"
+        app:attr041d="false" />
+    <com.whatsapp.settings.ui.preference.WaCheckBoxPreference
+        android:persistent="false"
+        android:visibility="gone"
+        android:title="@string/str4231"
+        android:key="jid_use_high_priority_notifications"
+        android:summary="@string/str4232"
+        android:defaultValue="true"
+        app:attr0048="false"
+        app:attr041d="false" />
+</PreferenceScreen>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0b5d"
+        android:layout_marginRight="@dimen/dimen0b5d"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.WaFrameLayout
+            android:layout_gravity="center"
+            android:background="@drawable/panel_popup_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr09af="?attr0a29">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/secure_verification_image"
+                android:layout_width="@dimen/dimen0e6b"
+                android:layout_height="@dimen/dimen0e6b"
+                android:layout_marginTop="@dimen/dimen0b5d"
+                android:layout_marginBottom="@dimen/dimen0b5d"
+                app:attr0838="@drawable/ic_verified_user"
+                app:attr090d="?attr0a2f" />
+        </com.whatsapp.ui.coreui.WaFrameLayout>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.WaLinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/panel_popup_bot"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr09b2="?attr0618">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="20.0sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr066e"
+                    android:gravity="left"
+                    android:id="@id/dialog_title"
+                    android:paddingLeft="@dimen/dimen103a"
+                    android:paddingTop="@dimen/dimen102e"
+                    android:paddingRight="@dimen/dimen103a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dummy title"
+                    style="@style/style03c7" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr0a46"
+                    android:gravity="left"
+                    android:id="@id/dialog_message"
+                    android:paddingLeft="@dimen/dimen103a"
+                    android:paddingTop="@dimen/dimen102e"
+                    android:paddingRight="@dimen/dimen103a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dummy message" />
+                <LinearLayout
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.wds.components.button.WDSButton
+                        android:textColor="?attr0a29"
+                        android:id="@id/continue_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str38f3"
+                        android:textAllCaps="false"
+                        style="@style/style0558" />
+                </LinearLayout>
+            </com.whatsapp.ui.coreui.WaLinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

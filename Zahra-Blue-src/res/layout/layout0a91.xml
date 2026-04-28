@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.CircularProgressBar
+    android:layout_gravity="center"
+    android:layout_width="32.0dip"
+    android:layout_height="32.0dip"
+    app:attr028c="@color/color057a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

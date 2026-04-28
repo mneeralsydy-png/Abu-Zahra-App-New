@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/container"
+        android:background="?attr0a5a"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/add_shipping_address_label"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/add_shipping_address_icon"
+        android:layout_width="@dimen/dimen0fd9"
+        android:layout_height="@dimen/dimen0fd9"
+        android:layout_margin="@dimen/dimen0a5d"
+        android:src="@drawable/wa_ic_add_circle"
+        android:tint="?attr0a46"
+        app:attr04a7="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:id="@id/add_shipping_address_label"
+        android:paddingLeft="@dimen/dimen0a63"
+        android:paddingTop="@dimen/dimen0a5d"
+        android:paddingBottom="@dimen/dimen0a5d"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str22df"
+        app:attr04a8="@id/add_shipping_address_icon"
+        app:attr04aa="@id/error_badge"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/error_badge"
+        android:background="@drawable/circular_background_primary"
+        android:visibility="visible"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_margin="@dimen/dimen0a5d"
+        app:attr0494="@id/add_shipping_address_label"
+        app:attr04a8="@id/add_shipping_address_label"
+        app:attr04ab="parent"
+        app:attr04b1="@id/add_shipping_address_label"
+        app:attr0838="@drawable/ic_error_badge" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a4f"
+        android:gravity="left"
+        android:id="@id/error_label"
+        android:paddingLeft="@dimen/dimen0a5d"
+        android:paddingTop="@dimen/dimen0a63"
+        android:paddingRight="@dimen/dimen0a5d"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str22e0"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/container"
+        app:attr0a24="wds_font_body2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

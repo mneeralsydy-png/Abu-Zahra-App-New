@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0126"
+        android:layout_marginBottom="@dimen/dimen0126">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/hide_locked_chats_setting"
+            android:paddingLeft="@dimen/dimen103b"
+            android:paddingTop="@dimen/dimen102e"
+            android:paddingRight="25.0dip"
+            android:paddingBottom="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style0363">
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingRight="@dimen/dimen102e"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr0a47"
+                    android:paddingBottom="@dimen/dimen0b60"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str18b3"
+                    app:attr0a24="wds_font_body1" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str18b4"
+                    style="?attr07b1" />
+            </LinearLayout>
+            <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                android:layout_gravity="top"
+                android:id="@id/hide_locked_chats_switch"
+                android:padding="0.0dip"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/secret_code_setting"
+            android:paddingLeft="@dimen/dimen0c93"
+            android:paddingTop="@dimen/dimen0c97"
+            android:paddingRight="@dimen/dimen0b5d"
+            android:paddingBottom="@dimen/dimen0c97"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style0363">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb0"
+                    android:textColor="?attr0a47"
+                    android:id="@id/secret_code_setting_title"
+                    android:paddingBottom="@dimen/dimen0b60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str2db8"
+                    app:attr0a24="wds_font_body1" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a46"
+                    android:id="@id/secret_code_setting_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str2db9"
+                    app:attr0a24="wds_font_body2" />
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr0a46"
+                android:layout_gravity="center"
+                android:id="@id/secret_code_state"
+                android:paddingLeft="@dimen/dimen102e"
+                android:paddingRight="@dimen/dimen103a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0a24="wds_font_body2" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/payment_methods"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str36f8"
+            app:attr06ca="body3"
+            app:attr06e1="true"
+            app:attr06f1="spacing_half"
+            app:attr06f6="@drawable/ic_info_2"
+            app:attr0702="icon" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/next_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0b5d"
+            android:layout_marginRight="@dimen/dimen0b5d"
+            android:layout_marginBottom="@dimen/dimen0b62"
+            android:text="@string/str2157"
+            style="@style/style0555" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/dimen0b5d"
+            style="@style/style02f5" />
+    </LinearLayout>
+</LinearLayout>

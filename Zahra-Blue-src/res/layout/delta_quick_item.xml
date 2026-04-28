@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/mHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:layout_width="70.0dip"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="54.0dip"
+                android:layout_height="54.0dip">
+                <com.whatsapp.status.api.ContactStatusThumbnail
+                    android:layout_gravity="center"
+                    android:id="@id/mContactPhoto"
+                    android:layout_width="40.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:layout_marginBottom="4.0dip"
+                    whatsapp:tbtnBorderSize="2.5dip"
+                    whatsapp:tbtnForegroundOnly="false"
+                    whatsapp:tbtnRadius="@dimen/small_avatar_radius" />
+                <abu3arab.mas.SideBar.views.BadgeTextView
+                    android:textSize="10.0sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="end|bottom|center"
+                    android:id="@id/mCounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20.0dip"
+                    android:layout_margin="2.0dip"
+                    android:minWidth="20.0dip"
+                    android:singleLine="true" />
+            </FrameLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="12.0sp"
+                android:textColor="?android:textColorPrimary"
+                android:gravity="center"
+                android:id="@id/mContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginBottom="8.0dip"
+                android:maxLines="2" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

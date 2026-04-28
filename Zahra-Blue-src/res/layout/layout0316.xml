@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:gravity="center"
+    android:id="@id/cancel_call_back_btn"
+    android:background="@drawable/decline_call_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/str3d9b"
+    app:attr0083="?attr0a2f"
+    app:attr0838="@drawable/ic_close_large"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

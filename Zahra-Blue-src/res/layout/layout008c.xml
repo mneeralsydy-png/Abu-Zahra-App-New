@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/enter_user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:text="@string/str25c0"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2_emphasized"
+        style="@style/style05a7" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/custom_params_list"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/terms_of_services_footer"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/enter_user_details"
+        app:attr04bc="@dimen/dimen102e" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fbc"
+        android:gravity="center_horizontal"
+        android:id="@id/terms_of_services_footer"
+        android:padding="@dimen/dimen0a63"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.33"
+        app:attr0495="@id/confirm_button"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        style="@style/style05a8" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:enabled="false"
+        android:gravity="bottom|center"
+        android:id="@id/confirm_button"
+        android:layout_marginLeft="@dimen/dimen0a5d"
+        android:layout_marginRight="@dimen/dimen0a5d"
+        android:text="@string/str25bc"
+        android:maxLines="1"
+        app:attr0495="@id/bbps_branding_footer"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        style="@style/style055c" />
+    <include
+        android:id="@id/bbps_branding_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0693"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        layout="@layout/layout01de" />
+</androidx.constraintlayout.widget.ConstraintLayout>

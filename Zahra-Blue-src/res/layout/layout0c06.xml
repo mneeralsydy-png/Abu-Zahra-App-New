@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.fab.WDSExtendedFab
+    android:id="@id/next_btn"
+    android:visibility="invisible"
+    android:src="@drawable/ic_fab_next"
+    android:text="@string/str2157"
+    android:contentDescription="@string/str2157"
+    app:attr0494="parent"
+    app:attr049a="parent"
+    style="@style/style055f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

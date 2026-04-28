@@ -1,0 +1,509 @@
+.class public final LX/7is;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/8As;
+
+
+# instance fields
+.field public final A00:LX/07B;
+
+.field public final A01:LX/075;
+
+.field public final A02:LX/07T;
+
+.field public final A03:LX/06w;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {}, LX/1ag;->A0g()LX/06w;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/7is;->A03:LX/06w;
+
+    invoke-static {}, LX/1ag;->A0e()LX/07T;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/7is;->A02:LX/07T;
+
+    invoke-static {}, LX/1ag;->A0Z()LX/075;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/7is;->A01:LX/075;
+
+    invoke-static {}, LX/1ag;->A0M()LX/07B;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/7is;->A00:LX/07B;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic AGI(Ljava/lang/Object;F)LX/8BR;
+    .locals 5
+
+    check-cast p1, [I
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0}, LX/00C;->A0A(Ljava/lang/Object;I)V
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v3
+
+    const-wide/16 v1, 0x0
+
+    new-instance v0, LX/7iv;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, v0, LX/7iv;->A04:[I
+
+    iput p2, v0, LX/7iv;->A00:F
+
+    iput-wide v3, v0, LX/7iv;->A01:J
+
+    iput-wide v3, v0, LX/7iv;->A02:J
+
+    iput-wide v1, v0, LX/7iv;->A03:J
+
+    return-object v0
+.end method
+
+.method public B1V()Ljava/util/ArrayList;
+    .locals 13
+
+    invoke-static {}, LX/5oR;->A10()Ljava/io/File;
+
+    move-result-object v1
+
+    const-string v0, "reactions"
+
+    invoke-static {v1, v0}, LX/5oR;->A11(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Ljava/io/File;->exists()Z
+
+    move-result v0
+
+    const/4 v12, 0x0
+
+    if-eqz v0, :cond_4
+
+    :try_start_0
+    invoke-static {}, LX/1ac;->A16()Ljava/util/ArrayList;
+
+    move-result-object v9
+
+    new-instance v0, Ljava/io/FileReader;
+
+    invoke-direct {v0, v4}, Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+
+    new-instance v11, Landroid/util/JsonReader;
+
+    invoke-direct {v11, v0}, Landroid/util/JsonReader;-><init>(Ljava/io/Reader;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :try_start_1
+    invoke-virtual {v11}, Landroid/util/JsonReader;->beginObject()V
+
+    :goto_0
+    invoke-virtual {v11}, Landroid/util/JsonReader;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    const-string v1, "data"
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->beginObject()V
+
+    :goto_1
+    invoke-virtual {v11}, Landroid/util/JsonReader;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, LX/00C;->A06(Ljava/lang/Object;)V
+
+    invoke-static {v0}, LX/7M8;->A00(Ljava/lang/String;)LX/5pB;
+
+    move-result-object v3
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->beginObject()V
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextDouble()D
+
+    move-result-wide v0
+
+    double-to-float v10, v0
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextLong()J
+
+    move-result-wide v7
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextLong()J
+
+    move-result-wide v5
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->nextLong()J
+
+    move-result-wide v1
+
+    iget-object v3, v3, LX/5pB;->A00:[I
+
+    new-instance v0, LX/7iv;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    iput-object v3, v0, LX/7iv;->A04:[I
+
+    iput v10, v0, LX/7iv;->A00:F
+
+    iput-wide v5, v0, LX/7iv;->A01:J
+
+    iput-wide v7, v0, LX/7iv;->A02:J
+
+    iput-wide v1, v0, LX/7iv;->A03:J
+
+    invoke-virtual {v9, v0}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->endObject()V
+
+    goto :goto_1
+
+    :cond_0
+    invoke-virtual {v11}, Landroid/util/JsonReader;->endObject()V
+
+    goto :goto_0
+
+    :cond_1
+    invoke-virtual {v11}, Landroid/util/JsonReader;->skipValue()V
+
+    goto :goto_0
+
+    :cond_2
+    invoke-virtual {v11}, Landroid/util/JsonReader;->endObject()V
+
+    invoke-virtual {v11}, Landroid/util/JsonReader;->close()V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    :try_start_2
+    invoke-virtual {v11}, Landroid/util/JsonReader;->close()V
+
+    move-object v12, v9
+
+    iget-object v1, p0, LX/7is;->A00:LX/07B;
+
+    const/16 v0, 0xb40
+
+    invoke-virtual {v1, v0}, LX/00I;->A0Z(I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_4
+
+    sget-object v0, LX/6v2;->A00:LX/00r;
+
+    invoke-virtual {v0}, LX/00r;->get()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/util/Set;
+
+    invoke-virtual {v9}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
+
+    move-result-object v2
+
+    :cond_3
+    :goto_2
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/7iv;
+
+    iget-object v0, v0, LX/7iv;->A04:[I
+
+    invoke-static {v0}, LX/7Qx;->A07([I)[I
+
+    move-result-object v1
+
+    new-instance v0, LX/5pB;
+
+    invoke-direct {v0, v1}, LX/5pB;-><init>([I)V
+
+    invoke-interface {v3, v0}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    invoke-interface {v2}, Ljava/util/Iterator;->remove()V
+
+    goto :goto_2
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+
+    :catchall_0
+    move-exception v1
+
+    :try_start_3
+    throw v1
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    :catchall_1
+    :try_start_4
+    move-exception v0
+
+    invoke-static {v11, v1}, LX/0L6;->A00(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
+    throw v0
+    :try_end_4
+    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
+
+    :catch_0
+    move-exception v1
+
+    const-string v0, "frequentreactions/readfrequent "
+
+    invoke-static {v0, v1}, Lcom/whatsapp/infra/logging/Log;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    iget-object v3, p0, LX/7is;->A01:LX/075;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v1, 0x0
+
+    const-string v0, "frequentreactions/load-error"
+
+    invoke-virtual {v3, v0, v2, v1}, LX/075;->A0L(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    invoke-virtual {v4}, Ljava/io/File;->delete()Z
+
+    :cond_4
+    if-nez v12, :cond_5
+
+    invoke-static {}, LX/1ac;->A16()Ljava/util/ArrayList;
+
+    move-result-object v12
+
+    :cond_5
+    return-object v12
+.end method
+
+.method public BpM(Ljava/util/List;)V
+    .locals 7
+
+    const/4 v3, 0x0
+
+    invoke-static {p1, v3}, LX/00C;->A0A(Ljava/lang/Object;I)V
+
+    :try_start_0
+    invoke-static {}, LX/5oR;->A10()Ljava/io/File;
+
+    move-result-object v1
+
+    const-string v0, "reactions"
+
+    invoke-static {v1, v0}, LX/5oR;->A11(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
+
+    move-result-object v0
+
+    new-instance v1, Ljava/io/FileWriter;
+
+    invoke-direct {v1, v0}, Ljava/io/FileWriter;-><init>(Ljava/io/File;)V
+
+    new-instance v0, Ljava/io/BufferedWriter;
+
+    invoke-direct {v0, v1}, Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
+
+    new-instance v4, Landroid/util/JsonWriter;
+
+    invoke-direct {v4, v0}, Landroid/util/JsonWriter;-><init>(Ljava/io/Writer;)V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :try_start_1
+    invoke-virtual {v4}, Landroid/util/JsonWriter;->beginObject()Landroid/util/JsonWriter;
+
+    const-string v0, "data"
+
+    invoke-virtual {v4, v0}, Landroid/util/JsonWriter;->name(Ljava/lang/String;)Landroid/util/JsonWriter;
+
+    invoke-virtual {v4}, Landroid/util/JsonWriter;->beginObject()Landroid/util/JsonWriter;
+
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v6
+
+    :goto_0
+    invoke-interface {v6}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v6}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, LX/7iv;
+
+    iget-object v0, v5, LX/7iv;->A04:[I
+
+    invoke-static {v0}, LX/7M8;->A02([I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v4, v0}, Landroid/util/JsonWriter;->name(Ljava/lang/String;)Landroid/util/JsonWriter;
+
+    invoke-virtual {v4}, Landroid/util/JsonWriter;->beginObject()Landroid/util/JsonWriter;
+
+    const-string v0, "weight"
+
+    invoke-virtual {v4, v0}, Landroid/util/JsonWriter;->name(Ljava/lang/String;)Landroid/util/JsonWriter;
+
+    move-result-object v1
+
+    iget v0, v5, LX/7iv;->A00:F
+
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Landroid/util/JsonWriter;->value(Ljava/lang/Number;)Landroid/util/JsonWriter;
+
+    const-string v0, "lastUsed"
+
+    invoke-virtual {v4, v0}, Landroid/util/JsonWriter;->name(Ljava/lang/String;)Landroid/util/JsonWriter;
+
+    move-result-object v2
+
+    iget-wide v0, v5, LX/7iv;->A02:J
+
+    invoke-virtual {v2, v0, v1}, Landroid/util/JsonWriter;->value(J)Landroid/util/JsonWriter;
+
+    const-string v0, "added"
+
+    invoke-virtual {v4, v0}, Landroid/util/JsonWriter;->name(Ljava/lang/String;)Landroid/util/JsonWriter;
+
+    move-result-object v2
+
+    iget-wide v0, v5, LX/7iv;->A01:J
+
+    invoke-virtual {v2, v0, v1}, Landroid/util/JsonWriter;->value(J)Landroid/util/JsonWriter;
+
+    const-string v0, "reactsAgo"
+
+    invoke-virtual {v4, v0}, Landroid/util/JsonWriter;->name(Ljava/lang/String;)Landroid/util/JsonWriter;
+
+    move-result-object v2
+
+    iget-wide v0, v5, LX/7iv;->A03:J
+
+    invoke-virtual {v2, v0, v1}, Landroid/util/JsonWriter;->value(J)Landroid/util/JsonWriter;
+
+    invoke-virtual {v4}, Landroid/util/JsonWriter;->endObject()Landroid/util/JsonWriter;
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v4}, Landroid/util/JsonWriter;->endObject()Landroid/util/JsonWriter;
+
+    invoke-virtual {v4}, Landroid/util/JsonWriter;->endObject()Landroid/util/JsonWriter;
+
+    invoke-virtual {v4}, Landroid/util/JsonWriter;->close()V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    :try_start_2
+    invoke-virtual {v4}, Landroid/util/JsonWriter;->close()V
+
+    return-void
+    :try_end_2
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
+
+    :catchall_0
+    move-exception v1
+
+    :try_start_3
+    throw v1
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    :catchall_1
+    :try_start_4
+    move-exception v0
+
+    invoke-static {v4, v1}, LX/0L6;->A00(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
+    throw v0
+    :try_end_4
+    .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_0
+
+    :catch_0
+    move-exception v0
+
+    invoke-static {v0}, Lcom/whatsapp/infra/logging/Log;->e(Ljava/lang/Throwable;)V
+
+    iget-object v2, p0, LX/7is;->A01:LX/075;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v0, "frequentreactions/save-error"
+
+    invoke-virtual {v2, v0, v1, v3}, LX/075;->A0L(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    return-void
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">Kon %d groepe nie verlaat nie. Probeer weer.</item>
+        <item quantity="one">Kon %d groep nie verlaat nie. Probeer weer.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d kennisgewings</item>
+        <item quantity="one">%1$d kennisgewing</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d nuwe kennisgewings</item>
+        <item quantity="one">%d nuwe kennisgewing</item>
+    </plurals>
+</resources>

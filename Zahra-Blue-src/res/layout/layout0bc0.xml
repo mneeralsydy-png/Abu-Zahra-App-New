@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/header_placeholder"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen06a1" />
+    <View
+        android:id="@id/header_bottom_shadow"
+        android:visibility="gone"
+        style="@style/style0282" />
+    <ViewStub
+        android:id="@id/newsletter_details_card_stub"
+        android:layout="@layout/layout0bab"
+        android:inflatedId="@id/newsletter_details_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/layout0ba9" />
+    <ViewStub
+        android:id="@id/newsletter_info_insights_card_stub"
+        android:layout="@layout/layout0bc1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/media_card_stub"
+        android:layout="@layout/layout0bc6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/layout0b9a" />
+    <ViewStub
+        android:id="@id/newsletter_info_similar_newsletters_card_stub"
+        android:layout="@layout/layout0bc8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/layout0bc7" />
+    <include
+        layout="@layout/layout0bbe" />
+    <include
+        layout="@layout/layout0bb6" />
+</LinearLayout>

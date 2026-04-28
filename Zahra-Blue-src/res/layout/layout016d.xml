@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/call_failure_hung_up_button"
+            android:background="@drawable/decline_call_background"
+            android:layout_width="@dimen/dimen0ebd"
+            android:layout_height="@dimen/dimen0ebd"
+            android:contentDescription="@string/str1e3e"
+            app:attr0083="?attr0a2f"
+            app:attr0838="@drawable/vec_ic_close_large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a8"
+            android:textColor="@color/color0902"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/dimen0ce7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1e3e"
+            android:shadowColor="@color/color089a"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="2.0"
+            android:importantForAccessibility="no"
+            app:attr0a24="wds_font_body3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/call_failure_message_button"
+            android:background="@drawable/background_circle_gray"
+            android:layout_width="@dimen/dimen0ebd"
+            android:layout_height="@dimen/dimen0ebd"
+            android:contentDescription="@string/str1e3f"
+            app:attr0838="@drawable/vec_ic_chat_filled_large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a8"
+            android:textColor="@color/color0902"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/dimen0ce7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1e3f"
+            android:shadowColor="@color/color089a"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="2.0"
+            android:importantForAccessibility="no"
+            app:attr0a24="wds_font_body3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/call_failure_call_again_button"
+            android:background="@drawable/background_circle_green"
+            android:layout_width="@dimen/dimen0ebd"
+            android:layout_height="@dimen/dimen0ebd"
+            android:scaleType="center"
+            android:contentDescription="@string/str1e3d"
+            app:attr0838="@drawable/ic_action_audio_call_large"
+            app:attr090d="?attr0a2f" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a8"
+            android:textColor="@color/color0902"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/dimen0ce7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1e3d"
+            android:shadowColor="@color/color089a"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="2.0"
+            android:importantForAccessibility="no"
+            app:attr0a24="wds_font_body3" />
+    </LinearLayout>
+</merge>

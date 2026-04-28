@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="start"
+    android:orientation="horizontal"
+    android:id="@id/mQuickHolder"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/mContent"
+        android:background="@color/white"
+        android:layout_width="70.0dip"
+        android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/mRecyclerView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164.0dip"
+        android:layout_marginStart="-2.0dip">
+        <ImageView
+            android:layout_gravity="left"
+            android:id="@id/mOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delta_drop_bg" />
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/mIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delta_drop_icon" />
+        <abu3arab.mas.SideBar.views.BadgeTextView
+            android:textSize="12.0sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:id="@id/mCounter"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="20.0dip"
+            android:layout_marginTop="12.0dip"
+            android:minWidth="20.0dip"
+            android:singleLine="true" />
+    </FrameLayout>
+</LinearLayout>

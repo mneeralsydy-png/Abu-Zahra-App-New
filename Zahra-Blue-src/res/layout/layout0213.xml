@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/icon_container"
+        android:background="@drawable/bookmarks_item_view_icon_background"
+        android:padding="@dimen/dimen103a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/icon"
+            android:layout_width="@dimen/dimen0fdc"
+            android:layout_height="@dimen/dimen0fdc"
+            android:tint="?attr0a47"
+            android:contentDescription="@null" />
+    </FrameLayout>
+    <Space
+        android:id="@id/spacing"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen103a" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+</merge>

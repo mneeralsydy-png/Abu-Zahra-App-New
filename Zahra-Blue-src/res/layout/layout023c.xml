@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="@dimen/dimen0cea"
+    android:paddingEnd="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@id/options_flow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0243="edit_ai_option, imagine_animate"
+        app:attr039d="center"
+        app:attr039f="@dimen/dimen0663"
+        app:attr03a0="packed"
+        app:attr03a6="center"
+        app:attr03a7="0.0"
+        app:attr03a8="@dimen/dimen0663"
+        app:attr03aa="aligned"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/edit_ai_option"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen0664"
+        android:text="@string/str18f7"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0009="media"
+        app:attr0083="@color/color0907"
+        app:attr0411="@drawable/imagine_edit"
+        app:attr096b="tonal"
+        app:attr09ea="normal" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/imagine_animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen0664"
+        android:text="@string/str18ee"
+        app:attr0009="media"
+        app:attr0083="@color/color0907"
+        app:attr0411="@drawable/imagine_animate_white"
+        app:attr096b="tonal"
+        app:attr09ea="normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen103a"
+            android:layout_marginRight="@dimen/dimen103a"
+            android:contentDescription="@string/str3d62"
+            android:layout_marginStart="@dimen/dimen103a"
+            android:layout_marginEnd="@dimen/dimen103a"
+            app:attr0838="@drawable/ic_arrow_back_white"
+            app:attr090d="?attr02a8"
+            style="?attr0015" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0625"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102f"
+            android:layout_marginBottom="@dimen/dimen102f"
+            android:text="@string/str24ee"
+            app:attr03ae="?attr03b8"
+            app:attr0a24="wds_font_body1_emphasized" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/payment_rail_debit_card_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1032"
+        android:layout_marginBottom="@dimen/dimen102f">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:ellipsize="end"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str24ed"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            android:textDirection="locale"
+            app:attr0a24="wds_font_body1"
+            style="@style/style0289" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center|right"
+            android:id="@id/debit_card_check"
+            android:paddingLeft="@dimen/dimen102e"
+            android:paddingRight="@dimen/dimen102e"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            app:attr0838="@drawable/ic_check"
+            app:attr090d="?attr0a29" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/payment_rail_credit_card_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1032"
+        android:layout_marginBottom="@dimen/dimen102f">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:ellipsize="end"
+                android:id="@id/payment_rail_credit_card_text"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/str24eb"
+                android:singleLine="true"
+                app:attr0a24="wds_font_body1"
+                style="@style/style0289" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="13.0sp"
+                android:textColor="?attr0a48"
+                android:ellipsize="end"
+                android:id="@id/payment_rail_credit_card_education"
+                android:paddingTop="1.0dip"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str24ec"
+                android:singleLine="true"
+                style="@style/style0289" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center|right"
+            android:id="@id/credit_card_check"
+            android:paddingLeft="@dimen/dimen102e"
+            android:paddingRight="@dimen/dimen102e"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            app:attr0838="@drawable/ic_check"
+            app:attr090d="?attr0a29" />
+    </LinearLayout>
+</LinearLayout>

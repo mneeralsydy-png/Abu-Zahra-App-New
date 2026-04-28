@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/sticker_pack_preview_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        style="@style/style0520" />
+    <ViewStub
+        android:id="@id/stub_details_container"
+        android:layout="@layout/layout1049"
+        android:inflatedId="@id/details_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/toolbar"
+        style="@style/style01a2" />
+    <ProgressBar
+        android:id="@id/loading_progress"
+        android:layout_width="@dimen/dimen0d9b"
+        android:layout_height="@dimen/dimen0d9b"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

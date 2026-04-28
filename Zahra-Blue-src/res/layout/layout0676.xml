@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen0cf4"
+    android:paddingBottom="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/e2ee_bottom_sheet_image"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen052b"
+        app:attr04a8="@id/left_guideline"
+        app:attr04aa="@id/right_guideline"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_encryption_lock_round" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:id="@id/e2ee_bottom_sheet_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cf4"
+        android:text="@string/str07a6"
+        android:singleLine="false"
+        android:includeFontPadding="false"
+        app:attr0440="true"
+        app:attr04a7="@id/left_guideline"
+        app:attr04ab="@id/right_guideline"
+        app:attr04b0="@id/e2ee_bottom_sheet_image"
+        app:attr0a24="wds_font_body1"
+        style="?attr07b5" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:id="@id/e2ee_bottom_sheet_summary"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen053b"
+        android:text="@string/str07a3"
+        android:lineSpacingExtra="@dimen/dimen0cec"
+        app:attr04a7="@id/left_guideline"
+        app:attr04aa="@id/right_guideline"
+        app:attr04b0="@id/e2ee_bottom_sheet_title"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/e2ee_bottom_sheet_list_image_one"
+        android:layout_width="@dimen/dimen0534"
+        android:layout_height="@dimen/dimen0534"
+        app:attr0494="@id/e2ee_bottom_sheet_list_item_one"
+        app:attr04a8="@id/left_guideline"
+        app:attr04b1="@id/e2ee_bottom_sheet_list_item_one"
+        app:attr0838="@drawable/ic_action_compose"
+        app:attr090d="?attr0a29" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center_vertical"
+        android:id="@id/e2ee_bottom_sheet_list_item_one"
+        android:paddingLeft="@dimen/dimen0530"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen052d"
+        android:text="@string/str07a5"
+        app:attr04a8="@id/e2ee_bottom_sheet_list_image_one"
+        app:attr04ab="@id/right_guideline"
+        app:attr04b0="@id/e2ee_bottom_sheet_summary"
+        app:attr0a24="wds_font_body2"
+        style="?attr07b1" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/e2ee_bottom_sheet_list_image_two"
+        android:layout_width="@dimen/dimen0534"
+        android:layout_height="@dimen/dimen0534"
+        app:attr0494="@id/e2ee_bottom_sheet_list_item_two"
+        app:attr04a8="@id/left_guideline"
+        app:attr04b1="@id/e2ee_bottom_sheet_list_item_two"
+        app:attr0838="@drawable/ic_call_white"
+        app:attr090d="?attr0a29" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center_vertical"
+        android:id="@id/e2ee_bottom_sheet_list_item_two"
+        android:paddingLeft="@dimen/dimen0530"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0535"
+        android:text="@string/str079f"
+        app:attr04a8="@id/e2ee_bottom_sheet_list_image_two"
+        app:attr04ab="@id/right_guideline"
+        app:attr04b0="@id/e2ee_bottom_sheet_list_item_one"
+        app:attr0a24="wds_font_body2"
+        style="?attr07b1" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/e2ee_bottom_sheet_list_image_three"
+        android:layout_width="@dimen/dimen0534"
+        android:layout_height="@dimen/dimen0534"
+        app:attr0494="@id/e2ee_bottom_sheet_list_item_three"
+        app:attr04a8="@id/left_guideline"
+        app:attr04b1="@id/e2ee_bottom_sheet_list_item_three"
+        app:attr0838="@drawable/ic_attach_file"
+        app:attr090d="?attr0a29" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center_vertical"
+        android:id="@id/e2ee_bottom_sheet_list_item_three"
+        android:paddingLeft="@dimen/dimen0530"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0535"
+        android:text="@string/str07a1"
+        app:attr04a8="@id/e2ee_bottom_sheet_list_image_three"
+        app:attr04ab="@id/right_guideline"
+        app:attr04b0="@id/e2ee_bottom_sheet_list_item_two"
+        app:attr0a24="wds_font_body2"
+        style="?attr07b1" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/e2ee_bottom_sheet_list_image_four"
+        android:layout_width="@dimen/dimen0534"
+        android:layout_height="@dimen/dimen0534"
+        app:attr0494="@id/e2ee_bottom_sheet_list_item_four"
+        app:attr04a8="@id/left_guideline"
+        app:attr04b1="@id/e2ee_bottom_sheet_list_item_four"
+        app:attr0838="@drawable/ic_location_on"
+        app:attr090d="?attr0a29" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center_vertical"
+        android:id="@id/e2ee_bottom_sheet_list_item_four"
+        android:paddingLeft="@dimen/dimen0530"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0535"
+        android:text="@string/str07a0"
+        app:attr04a8="@id/e2ee_bottom_sheet_list_image_two"
+        app:attr04ab="@id/right_guideline"
+        app:attr04b0="@id/e2ee_bottom_sheet_list_item_three"
+        app:attr0a24="wds_font_body2"
+        style="?attr07b1" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/e2ee_bottom_sheet_list_image_five"
+        android:layout_width="@dimen/dimen0534"
+        android:layout_height="@dimen/dimen0534"
+        app:attr0494="@id/e2ee_bottom_sheet_list_item_five"
+        app:attr04a8="@id/left_guideline"
+        app:attr04b1="@id/e2ee_bottom_sheet_list_item_five"
+        app:attr0838="@drawable/ic_status"
+        app:attr090d="?attr0a29" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:gravity="center_vertical"
+        android:id="@id/e2ee_bottom_sheet_list_item_five"
+        android:paddingLeft="@dimen/dimen0530"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0535"
+        android:text="@string/str07a2"
+        app:attr04a8="@id/e2ee_bottom_sheet_list_image_two"
+        app:attr04ab="@id/right_guideline"
+        app:attr04b0="@id/e2ee_bottom_sheet_list_item_four"
+        app:attr0a24="wds_font_body2"
+        style="?attr07b1" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a49"
+        android:id="@id/security_settings_learn_more"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:text="@string/str3ec9"
+        app:attr04a8="@id/left_guideline"
+        app:attr04aa="@id/right_guideline"
+        app:attr04b0="@id/e2ee_bottom_sheet_list_item_five" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/left_guideline"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        app:attr049c="@dimen/dimen0cee" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/right_guideline"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        app:attr049d="@dimen/dimen0cee" />
+</androidx.constraintlayout.widget.ConstraintLayout>

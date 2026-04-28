@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/typing_indicator_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/ti_facepile_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/face_pile_stub"
+            android:layout="@layout/layout10ed"
+            android:inflatedId="@id/face_pile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub
+        android:id="@id/ti_bubble_stub"
+        android:layout="@layout/layout10ee"
+        android:inflatedId="@id/ti_bubble"
+        android:layout_width="@dimen/dimen0e2f"
+        android:layout_height="@dimen/dimen0e2e" />
+    <ViewStub
+        android:id="@id/ti_bubble_avd_stub"
+        android:layout="@layout/layout10ec"
+        android:inflatedId="@id/ti_bubble"
+        android:layout_width="@dimen/dimen0e2f"
+        android:layout_height="@dimen/dimen0e2e" />
+</LinearLayout>

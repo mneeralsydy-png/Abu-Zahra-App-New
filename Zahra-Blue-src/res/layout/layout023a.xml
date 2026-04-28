@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:layout_width="@dimen/dimen0661"
+    android:layout_height="@dimen/dimen0661"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_gravity="center"
+        android:id="@id/imagine_carousel_image"
+        android:layout_width="@dimen/dimen065e"
+        android:layout_height="@dimen/dimen065e"
+        android:adjustViewBounds="true"
+        app:attr07d0="@style/style0249" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/imagine_loading_item_stub"
+        android:inflatedId="@id/imagine_item_stub"
+        android:layout_width="@dimen/dimen065e"
+        android:layout_height="@dimen/dimen065e" />
+</FrameLayout>

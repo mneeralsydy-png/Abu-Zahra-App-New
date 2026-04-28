@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/search_toolbar"
+        android:background="?attr0923"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr000d"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0655="@style/style058c"
+        app:attr08f4="@style/style051d" />
+    <FrameLayout
+        android:id="@id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/search_toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

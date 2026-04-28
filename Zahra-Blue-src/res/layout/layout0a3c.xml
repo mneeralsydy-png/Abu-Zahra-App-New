@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <ViewStub
+                android:id="@id/media_caption_entry_fb_reel_add_music_snackbar_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen09e2"
+                android:layout_marginRight="@dimen/dimen09e2"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                android:layout_above="@id/input_container" />
+            <ViewStub
+                android:id="@id/media_caption_entry_selection_pills_toast_stub"
+                android:layout="@layout/layout0a4c"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                android:layout_above="@id/input_container" />
+            <LinearLayout
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:id="@id/input_container"
+                android:background="@drawable/media_caption_background"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen09e2"
+                android:layout_marginRight="@dimen/dimen09e2"
+                android:layout_marginBottom="@dimen/dimen0cec"
+                android:minHeight="@dimen/dimen0214"
+                android:layout_toLeftOf="@id/send"
+                android:layout_above="@id/media_recipients"
+                android:layout_alignParentLeft="true"
+                android:layout_alignWithParentIfMissing="true">
+                <FrameLayout
+                    android:id="@id/mention_attach"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <androidx.fragment.app.FragmentContainerView
+                    android:name="com.whatsapp.mediacomposer.ui.caption.CaptionFragment"
+                    android:orientation="horizontal"
+                    android:id="@id/input_container_inner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ViewStub
+                android:layout_gravity="bottom"
+                android:id="@id/media_recipients_stub"
+                android:inflatedId="@id/media_recipients"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cec"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                app:attr048b="bottom" />
+            <com.whatsapp.ui.coreui.base.WaImageButton
+                android:layout_gravity="bottom|center|right"
+                android:id="@id/send"
+                android:background="@drawable/input_circle_dark"
+                android:layout_width="@dimen/dimen08b3"
+                android:layout_height="@dimen/dimen08b3"
+                android:layout_marginLeft="@dimen/dimen0216"
+                android:layout_marginRight="@dimen/dimen0ce7"
+                android:layout_marginBottom="@dimen/dimen0ce7"
+                android:scaleType="center"
+                android:layout_alignBottom="@id/media_recipients"
+                android:layout_alignParentRight="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:contentDescription="@string/str4217"
+                android:elevation="6.0dip"
+                android:stateListAnimator="@anim/anim0034"
+                app:attr0838="@drawable/input_send"
+                app:attr090d="?attr0823" />
+        </RelativeLayout>
+        <com.whatsapp.emoji.search.EmojiSearchContainer
+            android:id="@id/emoji_search_container"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

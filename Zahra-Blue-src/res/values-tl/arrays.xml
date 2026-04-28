@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array001a">
+        <item>ako</item>
+        <item>i-imagine ako</item>
+    </string-array>
+    <string-array name="array001b">
+        <item>ako</item>
+        <item>i-imagine ako</item>
+    </string-array>
+</resources>

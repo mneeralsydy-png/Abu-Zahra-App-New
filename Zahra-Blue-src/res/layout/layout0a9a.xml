@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+    android:id="@id/textlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr02c6="@string/str1ce0"
+    app:attr03f0="@string/str1ce2"
+    app:attr0489="view"
+    app:attr0668="@string/str1cdf"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

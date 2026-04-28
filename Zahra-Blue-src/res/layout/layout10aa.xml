@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/quick_reply_btn_background_1"
+        style="@style/style03c5" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/quick_reply_btn_1"
+        style="@style/style03c6" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/quick_reply_btn_background_2"
+        style="@style/style03c5" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/quick_reply_btn_2"
+        style="@style/style03c6" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/quick_reply_btn_background_3"
+        style="@style/style03c5" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/quick_reply_btn_3"
+        style="@style/style03c6" />
+</merge>

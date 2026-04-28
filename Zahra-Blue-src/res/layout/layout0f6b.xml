@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:layout_gravity="end|center"
+    android:orientation="horizontal"
+    android:id="@id/side_chat_swipe_tooltip"
+    android:background="@drawable/side_chat_swipe_tooltip_bg"
+    android:paddingTop="@dimen/dimen1031"
+    android:paddingBottom="@dimen/dimen1031"
+    android:layout_width="@dimen/dimen0cc0"
+    android:layout_height="@dimen/dimen0cbc"
+    android:paddingStart="@dimen/dimen1039"
+    android:paddingEnd="@dimen/dimen102f"
+    android:layout_marginEnd="@dimen/dimen0cbe"
+    android:elevation="@dimen/dimen1035"
+    android:backgroundTint="?attr0a5a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/side_chat_swipe_tooltip_icon"
+        android:layout_width="@dimen/dimen0cbd"
+        android:layout_height="@dimen/dimen0cbd">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:layout_width="@dimen/dimen0cbf"
+            android:layout_height="@dimen/dimen0cbf"
+            android:scaleType="fitCenter"
+            app:attr0838="@drawable/meta_ai_ring_small" />
+        <FrameLayout
+            android:layout_gravity="end|bottom|center"
+            android:background="@drawable/side_chat_badge_background"
+            android:layout_width="@dimen/dimen0cba"
+            android:layout_height="@dimen/dimen0cba">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:tint="?attr0a46"
+                app:attr0838="@drawable/ic_private_processing_ai_lock_sparkle_fill" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1031">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a46"
+            android:id="@id/side_chat_swipe_tooltip_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str4270"
+            style="@style/style05a8" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr066e"
+            android:id="@id/side_chat_swipe_tooltip_bottom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str426f"
+            style="@style/style05a7" />
+    </LinearLayout>
+</LinearLayout>

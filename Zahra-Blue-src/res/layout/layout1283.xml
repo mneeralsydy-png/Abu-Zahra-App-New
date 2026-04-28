@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/feedback_banner_container"
+    android:background="@drawable/wamo_ad_feedback_banner_background"
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen102e"
+    android:focusable="true"
+    android:clickable="false"
+    android:layout_width="wrap_content"
+    android:layout_height="48.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color09b1"
+        android:ellipsize="end"
+        android:id="@id/feedback_question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3b84"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049b="@id/thumbs_up_button"
+        app:attr04a4="packed"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/thumbs_up_button"
+        android:background="?attr076e"
+        android:padding="2.0dip"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="@dimen/dimen0f0d"
+        android:layout_height="@dimen/dimen0f0d"
+        android:tint="@color/color09b1"
+        android:contentDescription="@string/str3b87"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049b="@id/thumbs_down_button"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/vec_ic_thumb_up" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/thumbs_down_button"
+        android:background="?attr076e"
+        android:padding="2.0dip"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="@dimen/dimen0f0d"
+        android:layout_height="@dimen/dimen0f0d"
+        android:tint="@color/color09b1"
+        android:contentDescription="@string/str3b86"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/vec_ic_thumb_down" />
+</androidx.constraintlayout.widget.ConstraintLayout>

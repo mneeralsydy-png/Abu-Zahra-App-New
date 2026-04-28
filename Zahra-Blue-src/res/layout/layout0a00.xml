@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/filter_bottom_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@id/rv_location_options"
+        android:paddingLeft="@dimen/dimen103a"
+        android:paddingTop="@dimen/dimen0b62"
+        android:paddingRight="@dimen/dimen103a"
+        android:paddingBottom="@dimen/dimen0b62"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr049f="wrap"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

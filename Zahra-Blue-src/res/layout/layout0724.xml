@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0450"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/contact_photo_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr049c="@dimen/dimen0744" />
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="center"
+        android:id="@id/contact_photo"
+        android:layout_width="@dimen/dimen0333"
+        android:layout_height="@dimen/dimen0333"
+        android:layout_marginTop="@dimen/dimen01fb"
+        android:scaleType="fitCenter"
+        whatsapp:attr049a="@id/contact_photo_guideline"
+        whatsapp:attr04ad="parent"
+        whatsapp:attr04b1="parent"
+        whatsapp:attr08a9="true"
+        whatsapp:attr08aa="@dimen/dimen0cc5" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="left"
+        android:id="@id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        whatsapp:attr0490="true"
+        whatsapp:attr0494="parent"
+        whatsapp:attr04a3="0.0"
+        whatsapp:attr04a4="packed"
+        whatsapp:attr04a8="@id/contact_photo_guideline"
+        whatsapp:attr04aa="@id/voice_call_delete_fav"
+        whatsapp:attr04b1="parent"
+        style="?attr04e1" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/voice_call_delete_fav"
+        android:background="@drawable/calls_history_call_action_background"
+        android:layout_width="@dimen/dimen0e9b"
+        android:layout_height="@dimen/dimen0187"
+        android:scaleType="center"
+        android:layout_marginEnd="@dimen/dimen0e9a"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049b="@id/video_call_reorder_fav"
+        whatsapp:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:id="@id/video_call_reorder_fav"
+        android:background="@drawable/selector_orange_gradient"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0e78"
+        android:layout_height="@dimen/dimen0e77"
+        android:scaleType="center"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/no_call_action_info"
+        android:visibility="gone"
+        android:layout="@layout/layout0c11"
+        android:inflatedId="@id/no_call_action_info"
+        android:layout_width="@dimen/dimen0047"
+        android:layout_height="@dimen/dimen0047"
+        android:layout_marginEnd="@dimen/dimen0cec"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

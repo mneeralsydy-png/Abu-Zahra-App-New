@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:id="@id/data_disclosure_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0256"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/data_disclosure_card_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/vec_ic_datasharing"
+            app:attr04e8="false"
+            app:attr04e9="@string/str1eaa" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

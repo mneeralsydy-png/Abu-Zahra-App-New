@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:gravity="end|center"
+        android:id="@id/content"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen03d9"
+        android:minHeight="30.0dip">
+        <ViewStub
+            android:id="@id/conversation_row_participant_header_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <include
+            android:id="@id/quoted_frame_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04ad="parent"
+            app:attr04b0="@id/conversation_row_participant_header_view_stub"
+            layout="@layout/layout054e" />
+        <ViewStub
+            android:id="@id/order_type_interactive_view_stub"
+            android:layout="@layout/layout0525"
+            android:inflatedId="@id/order_type_interactive_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr04ad="parent"
+            app:attr04b0="@id/quoted_frame_view_stub" />
+        <ViewStub
+            android:id="@id/og_tag_payment_link_header_stub"
+            android:layout="@layout/layout051d"
+            android:inflatedId="@id/conversation_row_og_tag_payment_link_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr04ad="parent"
+            app:attr04b0="@id/quoted_frame_view_stub" />
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/payment_views_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr009c="bottom"
+            app:attr0243="order_type_interactive_view,conversation_row_og_tag_payment_link_content" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="end|bottom|center"
+            android:orientation="horizontal"
+            android:id="@id/date_wrapper"
+            android:paddingLeft="@dimen/dimen1031"
+            android:paddingRight="@dimen/dimen1031"
+            android:focusable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            app:attr049a="parent"
+            app:attr04b0="@id/payment_views_barrier">
+            <ViewStub
+                android:id="@id/broadcast_icon"
+                android:layout="@layout/layout0495"
+                android:inflatedId="@id/broadcast_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/date"
+                android:paddingBottom="@dimen/dimen1035"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style0569" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen1030"
+                android:paddingEnd="@dimen/dimen1035" />
+        </LinearLayout>
+        <View
+            android:id="@id/button_div"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/date_wrapper"
+            style="@style/style0356" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="@color/color0218"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/action_btn"
+            android:padding="@dimen/dimen103a"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1fcb"
+            android:fontFamily="?attr03b8"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/button_div" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

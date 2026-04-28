@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05ab"
+        android:textColor="@color/color08df"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        android:text="@string/str0f7a"
+        android:importantForAccessibility="yes"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea"
+        app:attr0a24="wds_font_headline2" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/get_help_container"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style03bf">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2f45"
+            app:attr04a7="parent"
+            app:attr04b1="parent"
+            style="@style/style03c0" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_width="@dimen/dimen0fd9"
+            android:layout_height="@dimen/dimen0fd9"
+            android:tint="@color/color08df"
+            android:contentDescription="@null"
+            app:attr049a="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/chevron_right"
+            app:attr0a89="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/contact_support_container"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style03bf">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2ae5"
+            app:attr04a7="parent"
+            app:attr04b1="parent"
+            style="@style/style03c0" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_width="@dimen/dimen0fd9"
+            android:layout_height="@dimen/dimen0fd9"
+            android:tint="@color/color08df"
+            android:contentDescription="@null"
+            app:attr049a="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/chevron_right"
+            app:attr0a89="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

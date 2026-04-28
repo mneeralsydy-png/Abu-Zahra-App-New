@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/status_reshare_privacy_setting"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/status_reshare_setting_icon"
+            android:layout_width="@dimen/dimen0d4e"
+            android:layout_height="@dimen/dimen0d4e"
+            android:scaleType="fitCenter"
+            app:attr0838="@drawable/vec_ic_repeat"
+            app:attr090d="?attr0a46" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/status_reshare_title_parent"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="@color/color08df"
+                android:layout_gravity="center_vertical"
+                android:id="@id/status_reshare_privacy_setting_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str31b3"
+                app:attr0a24="wds_font_body1" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="@color/color08de"
+                android:id="@id/status_reshare_privacy_setting_subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str31b1"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:id="@id/status_reshare_privacy_setting_link"
+                android:focusable="true"
+                android:visibility="gone"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr0a24="wds_font_body2" />
+        </LinearLayout>
+        <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+            android:id="@id/status_reshare_privacy_setting_switch"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
