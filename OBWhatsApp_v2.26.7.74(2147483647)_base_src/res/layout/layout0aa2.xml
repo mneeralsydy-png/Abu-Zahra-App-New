@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.whatsapp.ui.wds.components.badge.WDSBadge
-    android:layout_gravity="end|center|top"
-    android:id="@id/menu_item_indicator_badge"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="@dimen/dimen08be"
-    android:layout_marginEnd="@dimen/dimen08bd"
-    xmlns:android="http://schemas.android.com/apk/res/android" />

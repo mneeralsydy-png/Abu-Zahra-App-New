@@ -1,3 +1,0 @@
-.class public interface abstract LX/JrT;
-.super Ljava/lang/Object;
-.source ""

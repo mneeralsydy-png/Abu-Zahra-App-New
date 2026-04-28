@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.whatsapp.ui.coreui.base.WaTextView
-    android:id="@id/second_fab_tool_tip"
-    android:textIsSelectable="true"
-    style="@style/style0565"
-    xmlns:android="http://schemas.android.com/apk/res/android" />

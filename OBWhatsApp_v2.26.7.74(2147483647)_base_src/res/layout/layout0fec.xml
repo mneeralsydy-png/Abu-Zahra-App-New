@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.whatsapp.ui.coreui.base.WaTextView
-    android:textColor="@color/color08df"
-    android:background="@drawable/poll_option_bg"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    style="@style/style03a5"
-    xmlns:android="http://schemas.android.com/apk/res/android" />
