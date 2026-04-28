@@ -1084,7 +1084,7 @@
     <string name="inconvo_trans_option_explainer">اختر كيف تعمل أيقونة الترجمة. الخادم = لا توجد تطبيقات خارجية.</string>
     <string name="inside_bubble">داخل الفقاعه</string>
     <string name="last_message">الرساله الأخيره</string>
-    <string name="launcher_app_name">واتساب</string>
+    <string name="launcher_app_name">واتس الزهراء أسود</string>
     <string name="launchericons">تغيير أيقونة التطبيق</string>
     <string name="launchericonsSum">اختر ايقونتك المفضلة للتطبيق</string>
     <string name="listBackground">خلفية القائمة (واجهة مستخدم واحدة فقط)</string>
@@ -1898,7 +1898,7 @@
     <string name="live_location_new_user_dialog_description">‏سيطَّلع المشاركون في هذه الدردشة على موقعك في الوقت الفعلي. عند السماح بالوصول إلى بيانات موقعك، فإنك بذلك توافق على قيام واتساب بمشاركة موقعك مع المشاركين في هذه الدردشة فقط، علمًا بأن واتساب لا تستطيع رؤية بيانات موقعك الذي تمت مشاركته. &lt;a href=%s>معرفة المزيد&lt;/a>.</string>
     <string name="loading_expressive_background_themes">‏جارٍ الحصول على خلفيات...</string>
     <string name="loading_failed_expressive_background_themes">‏حدث خطأ ما</string>
-    <string name="localized_app_name">‏واتساب</string>
+    <string name="localized_app_name">واتس الزهراء أسود</string>
     <string name="log_out_preference_confirmation_message">‏هل تريد حقًا تسجيل الخروج؟</string>
     <string name="manage_storage">‏إدارة التخزين</string>
     <string name="map_cancel_btn">الغاء</string>

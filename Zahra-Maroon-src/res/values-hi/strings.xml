@@ -997,7 +997,7 @@
     <string name="inconvo_trans_option_explainer">चुनें कि अनुवाद आइकन कैसे काम करता है। सर्वर = कोई बाहरी ऐप नहीं।</string>
     <string name="inside_bubble">अंदर</string>
     <string name="last_message">अंतिम संदेश</string>
-    <string name="launcher_app_name">Whatsapp</string>
+    <string name="launcher_app_name">واتس الزهراء عنابي</string>
     <string name="launchericons">लॉन्चर आइकन</string>
     <string name="launchericonsSum">अपना आइकन लॉन्चर में सेट करें</string>
     <string name="listBackground">सूची पृष्ठभूमि (केवल एक UI के लिए)</string>
@@ -1801,7 +1801,7 @@
     <string name="live_location_new_user_dialog_description">इस चैट में भाग लेने वालों को वास्तविक समय में आपका स्थान दिखाई देगा। जब आप अपने स्थान डेटा तक पहुंच की अनुमति देते हैं, तो आप व्हाट्सएप को केवल इस चैट में भाग लेने वालों के साथ अपना स्थान साझा करने की सहमति देते हैं, व्हाट्सएप आपके साझा किए गए स्थान डेटा को नहीं देख सकता है। <a href="%s">और जानें</a>।</string>
     <string name="loading_expressive_background_themes">वॉलपेपर प्राप्त हो रहे हैं...</string>
     <string name="loading_failed_expressive_background_themes">कुछ गलत हो गया</string>
-    <string name="localized_app_name">WhatsApp</string>
+    <string name="localized_app_name">واتس الزهراء عنابي</string>
     <string name="log_out_preference_confirmation_message">क्या आप सचमुच साइन आउट करना चाहते हैं?</string>
     <string name="manage_storage">भंडारण प्रबंधन</string>
     <string name="map_cancel_btn">रद्द</string>

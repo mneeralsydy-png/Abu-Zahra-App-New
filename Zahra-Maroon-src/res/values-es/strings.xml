@@ -947,7 +947,7 @@
     <string name="inconvo_trans_option_explainer">Elija cómo funciona el icono de traducción. Server = Sin aplicaciones externas.</string>
     <string name="inside_bubble">Foto dentro del mensaje</string>
     <string name="last_message">Ultimo mensaje</string>
-    <string name="launcher_app_name">Whatsapp</string>
+    <string name="launcher_app_name">واتس الزهراء عنابي</string>
     <string name="launchericons">Iconos</string>
     <string name="launchericonsSum">Escoge tu icono favorito</string>
     <string name="listBackground">Fondo del menú (solo una interfaz de usuario)</string>
@@ -1747,7 +1747,7 @@ Los grupos han sido eliminados de la comunidad."</string>
     <string name="live_location_new_user_dialog_description">Los participantes de este chat verán tu ubicación en tiempo real. Cuando permites el acceso a tus datos de ubicación, aceptas que WhatsApp comparta tu ubicación solo con los participantes de este chat. WhatsApp no ​​puede ver tus datos de ubicación compartidos. <a href="%s">Más información</a>.</string>
     <string name="loading_expressive_background_themes">Obteniendo fondos de pantalla...</string>
     <string name="loading_failed_expressive_background_themes">algo salió mal</string>
-    <string name="localized_app_name">WhatsApp</string>
+    <string name="localized_app_name">واتس الزهراء عنابي</string>
     <string name="log_out_preference_confirmation_message">¿Realmente quieres cerrar sesión?</string>
     <string name="manage_storage">Gestión de almacenamiento</string>
     <string name="map_cancel_btn">cancelación</string>

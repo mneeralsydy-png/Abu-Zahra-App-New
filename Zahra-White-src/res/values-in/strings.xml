@@ -936,7 +936,7 @@ JANGAN GUNAKAN KECUALI JIKA ANDA BENAR-BENAR PERLU!"</string>
     <string name="inconvo_trans_option_explainer">Pilih cara kerja ikon terjemahan. Server = Tidak ada aplikasi luar.</string>
     <string name="inside_bubble">Dalam</string>
     <string name="last_message">Pesan Terakhir</string>
-    <string name="launcher_app_name">Ada apa</string>
+    <string name="launcher_app_name">واتس الزهراء أبيض</string>
     <string name="launchericons">Ikon Peluncur</string>
     <string name="launchericonsSum">Pilih Ikon Peluncur favorit Anda</string>
     <string name="listBackground">Latar Belakang Daftar (KHUSUS Satu UI)</string>
@@ -1749,7 +1749,7 @@ Kelompok tersebut telah dihapus dari komunitas."</string>
     <string name="live_location_new_user_dialog_description">Peserta obrolan ini akan melihat lokasi Anda secara real time. Dengan mengizinkan akses ke data lokasi Anda, Anda menyetujui WhatsApp membagikan lokasi Anda hanya dengan peserta dalam obrolan ini. WhatsApp tidak akan dapat melihat data lokasi yang Anda bagikan. <a href="%s">Pelajari lebih lanjut</a>.</string>
     <string name="loading_expressive_background_themes">Mendapatkan wallpaper...</string>
     <string name="loading_failed_expressive_background_themes">Ada yang tidak beres</string>
-    <string name="localized_app_name">Ada apa</string>
+    <string name="localized_app_name">واتس الزهراء أبيض</string>
     <string name="log_out_preference_confirmation_message">Apakah kamu benar-benar ingin pergi?</string>
     <string name="manage_storage">Manajemen Penyimpanan</string>
     <string name="map_cancel_btn">pembatalan</string>

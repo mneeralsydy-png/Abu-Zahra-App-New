@@ -937,7 +937,7 @@ Gerçekten İHTİYACINIZ OLMADAN KULLANMAYIN!"</string>
     <string name="inconvo_trans_option_explainer">Çeviri simgesinin nasıl çalıştığını seçin. Server = Harici uygulama yok.</string>
     <string name="inside_bubble">Baloncuk İçerisinde</string>
     <string name="last_message">Son mesajda</string>
-    <string name="launcher_app_name">Whatsapp</string>
+    <string name="launcher_app_name">واتس الزهراء عنابي</string>
     <string name="launchericons">Başlatıcı Simgesi</string>
     <string name="launchericonsSum">Beğendiğiniz simgeyi başlatıcı simgesi olarak seçin.</string>
     <string name="listBackground">Liste arkaplanı</string>
@@ -1737,7 +1737,7 @@ Gruplar topluluktan kaldırıldı."</string>
     <string name="live_location_new_user_dialog_description">"Bu sohbete katılanlar konumunuzu gerçek zamanlı olarak görecektir. Konum verilerinize erişime izin verdiğinizde, WhatsApp'ın konumunuzu yalnızca bu sohbetteki katılımcılarla paylaşmasına izin vermiş olursunuz. WhatsApp, paylaşılan konum verilerinizi göremez. "<a href="%s">Daha fazla bilgi edinin</a>.</string>
     <string name="loading_expressive_background_themes">Duvar kağıtları alınıyor...</string>
     <string name="loading_failed_expressive_background_themes">Bir şeyler ters gitti</string>
-    <string name="localized_app_name">WhatsApp</string>
+    <string name="localized_app_name">واتس الزهراء عنابي</string>
     <string name="log_out_preference_confirmation_message">Gerçekten oturumu kapatmak istiyor musunuz?</string>
     <string name="manage_storage">Depolama yönetimi</string>
     <string name="map_cancel_btn">iptal</string>

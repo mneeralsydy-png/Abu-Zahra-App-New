@@ -997,7 +997,7 @@
     <string name="inconvo_trans_option_explainer">منتخب کریں کہ ترجمہ کا آئیکن کیسے کام کرتا ہے۔ سرور = کوئی بیرونی درخواست نہیں۔</string>
     <string name="inside_bubble">میں</string>
     <string name="last_message">آخری پیغام</string>
-    <string name="launcher_app_name">واٹس ایپ</string>
+    <string name="launcher_app_name">واتس الزهراء أزرق</string>
     <string name="launchericons">لانچر کا آئیکن</string>
     <string name="launchericonsSum">اپنا پسندیدہ لانچر آئیکن منتخب کریں۔</string>
     <string name="listBackground">فہرست پس منظر (صرف ایک UI)</string>
@@ -1794,7 +1794,7 @@
     <string name="live_location_new_user_dialog_description">اس چیٹ کے شرکاء آپ کا مقام حقیقی وقت میں دیکھیں گے۔ جب آپ اپنے مقام کے ڈیٹا تک رسائی کی اجازت دیتے ہیں، تو آپ اس بات پر رضامندی دیتے ہیں کہ WhatsApp آپ کے مقام کا اشتراک صرف اس چیٹ کے شرکاء کے ساتھ کرے گا۔ <a href="%s">مزید جانیں</a>۔</string>
     <string name="loading_expressive_background_themes">وال پیپر حاصل کیے جا رہے ہیں...</string>
     <string name="loading_failed_expressive_background_themes">کچھ غلط ہو گیا۔</string>
-    <string name="localized_app_name">واٹس ایپ</string>
+    <string name="localized_app_name">واتس الزهراء أزرق</string>
     <string name="log_out_preference_confirmation_message">کیا آپ واقعی سائن آؤٹ کرنا چاہتے ہیں؟</string>
     <string name="manage_storage">اسٹوریج مینجمنٹ</string>
     <string name="map_cancel_btn">منسوخی</string>

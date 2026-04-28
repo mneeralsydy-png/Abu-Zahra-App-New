@@ -932,7 +932,7 @@
     <string name="inconvo_trans_option_explainer">"Choisissez le fonctionnement de l'icône de traduction. Serveur = Aucune application externe."</string>
     <string name="inside_bubble">À l intérieur</string>
     <string name="last_message">Dernier message</string>
-    <string name="launcher_app_name">WhatsApp</string>
+    <string name="launcher_app_name">واتس الزهراء أسود</string>
     <string name="launchericons">Icône du lanceur</string>
     <string name="launchericonsSum">Définissez votre icône dans le lanceur</string>
     <string name="listBackground">Liste d arrière-plan (une seule interface utilisateur)</string>
@@ -1736,7 +1736,7 @@ Des groupes ont été supprimés de la communauté."</string>
     <string name="live_location_new_user_dialog_description">"Les participants à ce chat verront votre position en temps réel. Lorsque vous autorisez l'accès à vos données de localisation, vous consentez à ce que WhatsApp partage votre position uniquement avec les participants à cette discussion. WhatsApp ne peut pas voir vos données de localisation partagées. "<a href="%s">En savoir plus</a>.</string>
     <string name="loading_expressive_background_themes">"Obtenir des fonds d'écran..."</string>
     <string name="loading_failed_expressive_background_themes">"Quelque chose s'est mal passé"</string>
-    <string name="localized_app_name">WhatsApp</string>
+    <string name="localized_app_name">واتس الزهراء أسود</string>
     <string name="log_out_preference_confirmation_message">Voulez-vous vraiment vous déconnecter ?</string>
     <string name="manage_storage">Gestion du stockage</string>
     <string name="map_cancel_btn">annulation</string>

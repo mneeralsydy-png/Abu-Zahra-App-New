@@ -939,7 +939,7 @@
     <string name="inconvo_trans_option_explainer">Выберите приложение для перевода</string>
     <string name="inside_bubble">Внутри</string>
     <string name="last_message">Последнее сообщение</string>
-    <string name="launcher_app_name">WhatsApp</string>
+    <string name="launcher_app_name">واتس الزهراء أبيض</string>
     <string name="launchericons">Иконка лаунчера</string>
     <string name="launchericonsSum">Установить свою иконку в лаунчере</string>
     <string name="listBackground">Фон списка (ТОЛЬКО для одного пользовательского интерфейса)</string>
@@ -1743,7 +1743,7 @@
     <string name="live_location_new_user_dialog_description">Участники этого чата будут видеть ваше местоположение в режиме реального времени. Разрешая доступ к данным о вашем местоположении, вы разрешаете WhatsApp делиться вашим местоположением только с участниками этого чата. WhatsApp не может видеть ваши общие данные о местоположении. <a href="%s">Подробнее</a>.</string>
     <string name="loading_expressive_background_themes">Получение обоев...</string>
     <string name="loading_failed_expressive_background_themes">Что-то пошло не так</string>
-    <string name="localized_app_name">WhatsApp</string>
+    <string name="localized_app_name">واتس الزهراء أبيض</string>
     <string name="log_out_preference_confirmation_message">Вы действительно хотите выйти?</string>
     <string name="manage_storage">Управление хранилищем</string>
     <string name="map_cancel_btn">отмена</string>

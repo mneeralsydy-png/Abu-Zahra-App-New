@@ -935,7 +935,7 @@
     <string name="inconvo_trans_option_explainer">"Scegli come funziona l'icona di traduzione. Server = Nessuna app esterna."</string>
     <string name="inside_bubble">Dentro</string>
     <string name="last_message">Ultimo messsaggio</string>
-    <string name="launcher_app_name">Whatsapp</string>
+    <string name="launcher_app_name">واتس الزهراء أبيض</string>
     <string name="launchericons">Icona nel launcher</string>
     <string name="launchericonsSum">"Imposta lo stile dell'icona nel launcher"</string>
     <string name="listBackground">Sfondo lista (solo One UI)</string>
@@ -1735,7 +1735,7 @@ I gruppi sono stati rimossi dalla comunità."</string>
     <string name="live_location_new_user_dialog_description">"I partecipanti a questa chat vedranno la tua posizione in tempo reale. Quando consenti l'accesso ai dati sulla tua posizione, acconsenti a che WhatsApp condivida la tua posizione solo con i partecipanti a questa chat WhatsApp non può vedere i tuoi dati sulla posizione condivisi. "<a href="%s">Ulteriori informazioni</a>.</string>
     <string name="loading_expressive_background_themes">Ottenere gli sfondi...</string>
     <string name="loading_failed_expressive_background_themes">Qualcosa è andato storto</string>
-    <string name="localized_app_name">Whatsapp</string>
+    <string name="localized_app_name">واتس الزهراء أبيض</string>
     <string name="log_out_preference_confirmation_message">Vuoi davvero disconnetterti?</string>
     <string name="manage_storage">"Gestione dell'archiviazione"</string>
     <string name="map_cancel_btn">cancellazione</string>

@@ -782,7 +782,7 @@ LAZIM OLMAYANA QƏDƏR İŞLƏTMƏ!"</string>
     <string name="inconvo_trans_option_explainer">Tərcümə ikonasının necə işlədiyini seçin. Server = Xarici proqramlar yoxdur.</string>
     <string name="inside_bubble">İçində</string>
     <string name="last_message">Son mesaj</string>
-    <string name="launcher_app_name">Whatsapp</string>
+    <string name="launcher_app_name">واتس الزهراء أسود</string>
     <string name="launchericons">Giriş işarələri</string>
     <string name="launchericonsSum">Öz favorit giriş işarəni seç</string>
     <string name="listBackground">Siyahı fonu (Yalnız bir UI)</string>
@@ -1582,7 +1582,7 @@ Qruplar icmadan çıxarılıb."</string>
     <string name="live_location_new_user_dialog_description">Bu söhbətin iştirakçıları real vaxtda yerinizi görəcəklər. Məkan məlumatlarınıza girişə icazə verdikdə, WhatsApp-ın məkanınızı yalnız bu söhbətin iştirakçıları ilə paylaşmasına razılaşırsınız. <a href="%s">Ətraflı məlumat</a>.</string>
     <string name="loading_expressive_background_themes">Divar kağızları əldə edilir...</string>
     <string name="loading_failed_expressive_background_themes">Nəsə xəta baş verdi</string>
-    <string name="localized_app_name">WhatsApp</string>
+    <string name="localized_app_name">واتس الزهراء أسود</string>
     <string name="log_out_preference_confirmation_message">Həqiqətən çıxmaq istəyirsiniz?</string>
     <string name="manage_storage">Saxlama idarəetməsi</string>
     <string name="map_cancel_btn">ləğv</string>
