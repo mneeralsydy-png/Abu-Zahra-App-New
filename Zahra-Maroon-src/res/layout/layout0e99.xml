@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingTop="@dimen/dimen0b62"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:paddingBottom="@dimen/dimen0b5d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0b5d"
+    android:paddingEnd="@dimen/dimen0b5d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/education_icon"
+        android:background="@drawable/white_circle"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="12.0dip"
+        android:layout_width="@dimen/dimen0def"
+        android:layout_height="@dimen/dimen0def"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:layout_marginBottom="@dimen/dimen0b5d"
+        android:paddingStart="12.0dip"
+        android:paddingEnd="12.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_store_white" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="17.0sp"
+        android:textColor="?attr066e"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dimen1035"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str054c"
+        app:attr03ae="?attr03b8" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="15.0sp"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dimen1035"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str054b"
+        app:attr03ae="?attr03b6" />
+</androidx.appcompat.widget.LinearLayoutCompat>

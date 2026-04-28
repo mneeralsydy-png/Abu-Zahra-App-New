@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/mas_toast_ozellestirmeleri">
+        <abu3arab.mas.preferences.widget.ToastPreference
+            android:layout="@layout/delight_setting_layout_preview"
+            android:key="abu_arab_toast_online" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/yoOnlineTo">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_show"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoOnlineTo"
+            android:key="abu_arab_toast_online_view"
+            android:summary="@string/yoOnline"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_see"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/mas_bildirimler_metin2"
+            android:key="abu_arab_toast_online_cs"
+            android:summary="@string/mas_bildirimler_metin2_a"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abu_arab_icon_notifelev"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_fab_elevation"
+            android:key="abu_arab_toast_online_el"
+            android:dependency="abu_arab_toast_online_cs"
+            android:defaultValue="false"
+            android:summaryOn="@string/sum_enable"
+            android:summaryOff="@string/sum_disable" />
+        <abu3arab.mas.preferences.widget.DialogSeekBarPreference
+            android:icon="@drawable/abu_arab_icon_notifround"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:max="23"
+            android:title="@string/mas_bildirimler_metin3"
+            android:key="abu_arab_toast_online_rd"
+            android:summary="%s"
+            android:dependency="abu_arab_toast_online_cs"
+            android:defaultValue="23" />
+        <RingtonePreference
+            android:icon="@drawable/abo_arab_ic_toastoque"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/settings_calls_ringtone"
+            android:key="abu_arab_toast_online_rt"
+            android:summary="@string/mas_bildirimler_metin5_a"
+            android:dependency="abu_arab_toast_online_view"
+            android:defaultValue=""
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true" />
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_toastposi"
+            android:entries="@array/mas_toast_pozisyon_isimler"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/contact_online_tone_do"
+            android:key="abu_arab_toast_online_gv"
+            android:summary="%s"
+            android:defaultValue="0"
+            android:entryValues="@array/mas_toast_pozisyon_degerler" />
+        <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+            android:icon="@drawable/abo_arab_ic_toastfundo"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoTost"
+            android:key="abu_arab_toast_online_bc"
+            android:summary="%s"
+            android:defaultValue="@color/abo_arab_primary_v2" />
+        <abu3arab.mas.preferences.colorpicker.ColorCheckPreference
+            android:icon="@drawable/abo_arab_ic_toastext"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoText"
+            android:key="abu_arab_toast_online_tc"
+            android:summary="%s"
+            android:defaultValue="@color/mas_white" />
+    </PreferenceCategory>
+    <abu3arab.mas.preferences.widget.ToastPreference
+        android:layout="@layout/delight_setting_layout_preview"
+        android:key="abu_arab_toast_status" />
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/viewed_your_status_toast">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_show"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/viewed_your_status_toast"
+            android:key="abu_arab_toast_status_view"
+            android:summary="@string/viewed_your_status_toastS"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_see"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/mas_bildirimler_metin2"
+            android:key="abu_arab_toast_status_cs"
+            android:summary="@string/mas_bildirimler_metin2_a"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abu_arab_icon_notifelev"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_fab_elevation"
+            android:key="abu_arab_toast_status_el"
+            android:dependency="abu_arab_toast_status_cs"
+            android:defaultValue="false"
+            android:summaryOn="@string/sum_enable"
+            android:summaryOff="@string/sum_disable" />
+        <abu3arab.mas.preferences.widget.DialogSeekBarPreference
+            android:icon="@drawable/abu_arab_icon_notifround"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:max="23"
+            android:title="@string/mas_bildirimler_metin3"
+            android:key="abu_arab_toast_status_rd"
+            android:summary="%s"
+            android:dependency="abu_arab_toast_status_cs"
+            android:defaultValue="23" />
+        <RingtonePreference
+            android:icon="@drawable/abo_arab_ic_toastoque"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/settings_calls_ringtone"
+            android:key="abu_arab_toast_status_rt"
+            android:summary="@string/mas_bildirimler_metin6_a"
+            android:dependency="abu_arab_toast_status_view"
+            android:defaultValue=""
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true" />
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_toastposi"
+            android:entries="@array/mas_toast_pozisyon_isimler"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/contact_online_tone_do"
+            android:key="abu_arab_toast_status_gv"
+            android:summary="%s"
+            android:dependency="abu_arab_toast_status_view"
+            android:defaultValue="0"
+            android:entryValues="@array/mas_toast_pozisyon_degerler" />
+        <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+            android:icon="@drawable/abo_arab_ic_toastfundo"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoTost"
+            android:key="abu_arab_toast_status_bc"
+            android:summary="%s"
+            android:defaultValue="@color/abo_arab_primary_v2" />
+        <abu3arab.mas.preferences.colorpicker.ColorCheckPreference
+            android:icon="@drawable/abo_arab_ic_toastext"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoText"
+            android:key="abu_arab_toast_status_tc"
+            android:summary="%s"
+            android:defaultValue="@color/mas_white" />
+    </PreferenceCategory>
+    <abu3arab.mas.preferences.widget.ToastPreference
+        android:layout="@layout/delight_setting_layout_preview"
+        android:key="abu_arab_toast_profile" />
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/title_pref_profile_toast">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_show"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/title_pref_profile_toast"
+            android:key="abu_arab_toast_profile_view"
+            android:summary="@string/title_pref_profile_toast_a1"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_see"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/mas_bildirimler_metin2"
+            android:key="abu_arab_toast_profile_cs"
+            android:summary="@string/mas_bildirimler_metin2_a"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abu_arab_icon_notifelev"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_fab_elevation"
+            android:key="abu_arab_toast_profile_el"
+            android:dependency="abu_arab_toast_profile_cs"
+            android:defaultValue="false"
+            android:summaryOn="@string/sum_enable"
+            android:summaryOff="@string/sum_disable" />
+        <abu3arab.mas.preferences.widget.DialogSeekBarPreference
+            android:icon="@drawable/abu_arab_icon_notifround"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:max="23"
+            android:title="@string/mas_bildirimler_metin3"
+            android:key="abu_arab_toast_profile_rd"
+            android:summary="%s"
+            android:dependency="abu_arab_toast_profile_cs"
+            android:defaultValue="23" />
+        <RingtonePreference
+            android:icon="@drawable/abo_arab_ic_toastoque"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/settings_calls_ringtone"
+            android:key="abu_arab_toast_profile_rt"
+            android:summary="@string/abo_arab_bildirimler_metin"
+            android:dependency="abu_arab_toast_profile_view"
+            android:defaultValue=""
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true" />
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_toastposi"
+            android:entries="@array/mas_toast_pozisyon_isimler"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/contact_online_tone_do"
+            android:key="abu_arab_toast_profile_gv"
+            android:summary="%s"
+            android:dependency="abu_arab_toast_profile_view"
+            android:defaultValue="0"
+            android:entryValues="@array/mas_toast_pozisyon_degerler" />
+        <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+            android:icon="@drawable/abo_arab_ic_toastfundo"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoTost"
+            android:key="abu_arab_toast_profile_bc"
+            android:summary="%s"
+            android:defaultValue="@color/abo_arab_primary_v2" />
+        <abu3arab.mas.preferences.colorpicker.ColorCheckPreference
+            android:icon="@drawable/abo_arab_ic_toastext"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoText"
+            android:key="abu_arab_toast_profile_tc"
+            android:summary="%s"
+            android:defaultValue="@color/mas_white" />
+    </PreferenceCategory>
+    <abu3arab.mas.preferences.widget.ToastPreference
+        android:layout="@layout/delight_setting_layout_preview"
+        android:key="abu_arab_toast_typing" />
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/typing_toast">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_show"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/title_pref_typing_toast"
+            android:key="abu_arab_toast_typing_view"
+            android:summary="@string/title_pref_typing_toast_a1"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_see"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/mas_bildirimler_metin2"
+            android:key="abu_arab_toast_typing_cs"
+            android:summary="@string/mas_bildirimler_metin2_a"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abu_arab_icon_notifelev"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_fab_elevation"
+            android:key="abu_arab_toast_typing_el"
+            android:dependency="abu_arab_toast_typing_cs"
+            android:defaultValue="false"
+            android:summaryOn="@string/sum_enable"
+            android:summaryOff="@string/sum_disable" />
+        <abu3arab.mas.preferences.widget.DialogSeekBarPreference
+            android:icon="@drawable/abu_arab_icon_notifround"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:max="23"
+            android:title="@string/mas_bildirimler_metin3"
+            android:key="abu_arab_toast_typing_rd"
+            android:summary="%s"
+            android:dependency="abu_arab_toast_typing_cs"
+            android:defaultValue="23" />
+        <RingtonePreference
+            android:icon="@drawable/abo_arab_ic_toastoque"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/settings_calls_ringtone"
+            android:key="abu_arab_toast_typing_rt"
+            android:dependency="abu_arab_toast_typing_view"
+            android:defaultValue=""
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true" />
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_toastposi"
+            android:entries="@array/mas_toast_pozisyon_isimler"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/contact_online_tone_do"
+            android:key="abu_arab_toast_typing_gv"
+            android:summary="%s"
+            android:dependency="abu_arab_toast_typing_view"
+            android:defaultValue="0"
+            android:entryValues="@array/mas_toast_pozisyon_degerler" />
+        <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+            android:icon="@drawable/abo_arab_ic_toastfundo"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoTost"
+            android:key="abu_arab_toast_typing_bc"
+            android:summary="%s"
+            android:defaultValue="@color/abo_arab_primary_v2" />
+        <abu3arab.mas.preferences.colorpicker.ColorCheckPreference
+            android:icon="@drawable/abo_arab_ic_toastext"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoText"
+            android:key="abu_arab_toast_typing_tc"
+            android:summary="%s"
+            android:defaultValue="@color/mas_white" />
+    </PreferenceCategory>
+</PreferenceScreen>

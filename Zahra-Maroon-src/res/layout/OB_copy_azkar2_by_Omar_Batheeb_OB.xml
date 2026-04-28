@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingRight="?android:scrollbarSize"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.OB.MODS.by.Omar.Batheeb.OB_copy_azkar2_by_Omar_Batheeb_OB
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

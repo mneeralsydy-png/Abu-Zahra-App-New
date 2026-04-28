@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:paddingLeft="@dimen/dimen0a86"
+    android:paddingRight="@dimen/dimen0a88"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0ccb">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/avatar"
+            android:layout_width="@dimen/dimen0cca"
+            android:layout_height="@dimen/dimen0cca"
+            android:layout_marginRight="@dimen/dimen0cc9"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/str3dcf"
+            whatsapp:attr0838="@drawable/avatar_contact" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:layout_gravity="left"
+                android:id="@id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style028a" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:layout_gravity="left"
+                android:id="@id/aboutInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/style0288" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@id/divider"
+        android:background="@drawable/divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    android:scrollbars="none"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.chip.WDSChipGroup
+        android:id="@id/chip_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:layout_marginRight="@dimen/dimen1039" />
+</HorizontalScrollView>

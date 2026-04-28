@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textSize="@dimen/dimen0fbc"
+    android:textColor="?attr0a46"
+    android:background="@drawable/archived_background"
+    android:paddingLeft="@dimen/dimen1030"
+    android:paddingTop="@dimen/dimen1035"
+    android:paddingRight="@dimen/dimen1030"
+    android:paddingBottom="@dimen/dimen1035"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str0df4"
+    app:attr0a24="wds_font_body3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

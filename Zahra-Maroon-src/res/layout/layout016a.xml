@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/ai_voice_call_control_keyboard"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen103a"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_keyboard"
+        app:attr0922="calling"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/ai_voice_call_control_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen103a"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_volume_up_filled"
+        app:attr0922="calling"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/ai_voice_call_control_mic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen103a"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_voip_mute_filled_selector"
+        app:attr0441="true"
+        app:attr0922="calling"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/ai_voice_call_control_end_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="destructive"
+        app:attr0441="true"
+        app:attr09ea="large" />
+</merge>

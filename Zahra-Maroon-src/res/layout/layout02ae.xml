@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@id/message"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/message_btn"
+        android:background="@drawable/decline_message_call_background"
+        android:layout_width="@dimen/dimen01ac"
+        android:layout_height="@dimen/dimen01ac"
+        android:contentDescription="@string/str3a97"
+        app:attr0838="@drawable/vec_ic_chat_filled" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:id="@id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3a97"
+        android:shadowColor="@color/color089a"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:importantForAccessibility="no"
+        style="@style/style013b" />
+</LinearLayout>

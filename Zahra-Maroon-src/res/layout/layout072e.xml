@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/round_rectangle"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.payments.common.ui.widget.PayToolbar
+        android:id="@id/pay_service_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        app:attr024e="0.0dip"
+        app:attr0251="0.0dip" />
+    <ScrollView
+        android:orientation="vertical"
+        android:id="@id/scroll_view_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/account_info_container"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/business_container"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/business_section_header"
+                    android:text="@string/str266f"
+                    style="@style/style0210" />
+                <include
+                    layout="@layout/layout0c71" />
+                <include
+                    layout="@layout/layout0651" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/payment_methods_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/banks_and_cards"
+                    android:text="@string/str2669"
+                    style="@style/style0210" />
+                <ListView
+                    android:id="@id/methods_list"
+                    android:scrollbars="none"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:listSelector="@android:color/transparent"
+                    android:cacheColorHint="@color/color0790"
+                    android:divider="@null"
+                    android:choiceMode="none"
+                    android:headerDividersEnabled="false"
+                    android:footerDividersEnabled="false" />
+                <include
+                    layout="@layout/layout0102" />
+            </LinearLayout>
+            <include
+                layout="@layout/layout0cc5" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/pin_container"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <include
+                    layout="@layout/layout0651" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/settings_section"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:id="@id/title_settings_section"
+                        android:text="@string/str266c"
+                        style="@style/style0210" />
+                    <FrameLayout
+                        android:orientation="vertical"
+                        android:id="@id/country_specific_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:id="@id/change_pin"
+                        android:background="?android:selectableItemBackground"
+                        android:paddingLeft="@dimen/dimen0c93"
+                        android:paddingTop="@dimen/dimen0c98"
+                        android:paddingRight="@dimen/dimen0c93"
+                        android:paddingBottom="@dimen/dimen0c98"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.whatsapp.ui.coreui.base.WaImageView
+                            android:id="@id/change_pin_icon"
+                            android:layout_width="@dimen/dimen0ac8"
+                            android:layout_height="@dimen/dimen0ac8"
+                            android:layout_marginRight="@dimen/dimen0c8a"
+                            app:attr0838="@drawable/ic_lock" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textSize="@dimen/dimen0fb0"
+                            android:textColor="?attr0a47"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str265c"
+                            app:attr0a24="wds_font_body1" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:id="@id/fingerprint_container"
+                        android:background="?android:selectableItemBackground"
+                        android:paddingLeft="@dimen/dimen0c93"
+                        android:paddingTop="@dimen/dimen0c98"
+                        android:paddingRight="@dimen/dimen0c93"
+                        android:paddingBottom="@dimen/dimen0c98"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.whatsapp.ui.coreui.base.WaImageView
+                            android:id="@id/fingerprint_setting_icon"
+                            android:layout_width="@dimen/dimen0ac8"
+                            android:layout_height="@dimen/dimen0ac8"
+                            android:layout_marginRight="@dimen/dimen0c8a"
+                            app:attr0838="@drawable/settings_fingerprint_icon" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textSize="@dimen/dimen0fb0"
+                            android:textColor="?attr0a47"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:text="@string/str265e"
+                            android:layout_weight="1.0"
+                            app:attr0a24="wds_font_body1" />
+                        <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+                            android:theme="@style/style0211"
+                            android:id="@id/toggle_fingerprint"
+                            android:focusable="false"
+                            android:clickable="false"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/account_actions_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <include
+                    layout="@layout/layout0651" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/account_actions"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:id="@id/title_account_actions_section"
+                        android:text="@string/str2651"
+                        style="@style/style0210" />
+                    <include
+                        layout="@layout/layout0e62" />
+                    <include
+                        layout="@layout/layout0e4f" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fbc"
+                android:textColor="@color/color02b2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0c97"
+                android:layout_marginBottom="24.0dip"
+                android:text="@string/str29f5"
+                app:attr0a24="wds_font_body3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

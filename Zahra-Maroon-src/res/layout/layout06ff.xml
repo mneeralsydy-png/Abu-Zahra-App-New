@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/event_response_header_divider_thick"
+        android:background="@drawable/community_divider_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0495="@id/event_response_header_text"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:gravity="center|left"
+        android:id="@id/event_response_header_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0ce8"
+        app:attr049b="@id/event_response_header_count"
+        app:attr04a5="1.0"
+        app:attr04ad="parent"
+        app:attr04b0="@id/event_response_header_divider_thick"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="@style/style05a5" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center_vertical"
+        android:id="@id/event_response_header_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0490="true"
+        app:attr049a="parent"
+        app:attr04ac="@id/event_response_header_text"
+        app:attr04b0="@id/event_response_header_divider_thick"
+        app:attr0a24="wds_font_body3"
+        style="@style/style05a8" />
+    <View
+        android:id="@id/event_response_header_divider"
+        android:layout_marginTop="@dimen/dimen0cea"
+        app:attr04ad="parent"
+        app:attr04b0="@id/event_response_header_count"
+        style="@style/style035a" />
+</androidx.constraintlayout.widget.ConstraintLayout>

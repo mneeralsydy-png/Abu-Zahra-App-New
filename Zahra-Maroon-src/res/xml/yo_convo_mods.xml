@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:icon="@drawable/abu_arab_icon_bubbles"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_extsendz"
+        android:key="key_send_hidden_msg"
+        android:summary="@string/abu_arab_extsendzz"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:icon="@drawable/abo_arab_hidenotifs"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/abu_arab_extltz"
+        android:key="key_edit_hidden_msg"
+        android:summary="@string/abu_arab_exthiddenz"
+        android:dependency="key_send_hidden_msg"
+        android:defaultValue="@string/abu_arab_exthiddenz"
+        android:dialogTitle="@string/abu_arab_extltz" />
+    <SwitchPreference
+        android:icon="@drawable/link_variant"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/aerodireklink_baslik"
+        android:key="direkt_link_degistir"
+        android:defaultValue="false"
+        android:summaryOn="@string/aerodireklink_baslik_acik"
+        android:summaryOff="@string/aerodireklink_baslik_kapali" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_confirm_sticker"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/convo_confirm_before_sendingStkr"
+        android:key="stkr_wantsendconfirmation"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_attachstyle"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/new_convoattachment_design"
+        android:key="newAttach_BottomDesign"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_hidenamedat"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoHideInfo"
+        android:key="yo_hideinfo"
+        android:summary="@string/yoHideInfoSum"
+        android:defaultValue="true" />
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/groups_participation">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_admin_shield"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/aboarabadmin"
+            android:key="admin_aboarab"
+            android:summary="@string/aboarabadminsum"
+            android:defaultValue="false" />
+        <com.whatsapp.yo.ImageListPreference
+            android:icon="@drawable/abo_arab_admin_shield"
+            android:entries="@array/abu_arab_admin_icons"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/abu_arab_adminicontlt"
+            android:key="key_admicon_list"
+            android:summary="@string/abu_arab_adminicontlt_sum"
+            android:defaultValue="0"
+            android:entryValues="@array/abu_arab_admin_icons_values"
+            app:entryImages="@array/abu_arab_admin_icons_img" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_mentionborder"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/aboarab_gpmention"
+            android:key="aboarab_mention_member"
+            android:summary="@string/aboarab_gpmention_sum"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:icon="@drawable/abo_arab_ic_mentionborder"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/abu_arab_extraz_menreplyz"
+            android:key="key_reply_mention"
+            android:summary="@string/abu_arab_extraz_menreplyzz"
+            android:dialogTitle="@string/abu_arab_extraz_menreplyz"
+            android:dialogMessage="@string/abu_arab_extraz_menreplyzzz" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_group"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_fix_group_exitend"
+            android:key="key_method_endgp"
+            android:summary="@string/abu_arab_fix_group_exitend_sum"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/quickreplies">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_speedctt"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_quick_contact"
+            android:key="key_quick_view"
+            android:summary="@string/sum_enable"
+            android:defaultValue="false"
+            android:summaryOn="@string/sum_enable"
+            android:summaryOff="@string/sum_disable" />
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_speedloc"
+            android:entries="@array/quick_entry"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/title_quick_position"
+            android:key="key_quick_position"
+            android:summary="%s"
+            android:defaultValue="top"
+            android:entryValues="@array/quick_value" />
+        <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+            android:icon="@drawable/abu_arab_bgcolor"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_quick_bg"
+            android:key="quickBK"
+            android:summary="%s"
+            android:defaultValue="@color/abo_arab_primary_v2" />
+        <abu3arab.mas.preferences.colorpicker.ColorCheckPreference
+            android:icon="@drawable/abo_arab_ic_colortxt"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_quick_textcolor"
+            android:key="quickText"
+            android:summary="%s"
+            android:defaultValue="@color/mas_white" />
+        <SwitchPreference
+            android:icon="@drawable/fab_add1"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abuarab_fab_chat_hide"
+            android:key="abu_arab_key_fab_caht"
+            android:summary="@string/abuarab_fab_chat_hide_sum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abu_arab_ic_up"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_bubbz_hidupz"
+            android:key="key_hide_scrollup"
+            android:summary="@string/sum_enable"
+            android:defaultValue="false"
+            android:summaryOn="@string/sum_enable"
+            android:summaryOff="@string/sum_disable" />
+        <SwitchPreference
+            android:icon="@drawable/abu_arab_ic_down"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_bubbz_hidowntz"
+            android:key="key_hide_scrolldown"
+            android:summary="@string/sum_enable"
+            android:defaultValue="false"
+            android:summaryOn="@string/sum_enable"
+            android:summaryOff="@string/sum_disable" />
+        <com.whatsapp.yo.ImageListPreference
+            android:icon="@drawable/abo_arab_ic_arrows_style_up"
+            android:entries="@array/abu_arab_upmsg_style"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/abu_arab_bubbz_upiconz"
+            android:key="key_custom_iconup"
+            android:summary="%s"
+            android:defaultValue="0"
+            android:entryValues="@array/abu_arab_upmsg_style_values"
+            app:entryImages="@array/abu_arab_upmsg_style_imgs" />
+        <com.whatsapp.yo.ImageListPreference
+            android:icon="@drawable/abu3arab_ic_download"
+            android:entries="@array/abu_arab_upmsg_style"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/abu_arab_bubbz_downiconz"
+            android:key="key_custom_icondown"
+            android:summary="%s"
+            android:defaultValue="0"
+            android:entryValues="@array/abu_arab_upmsg_style_values"
+            app:entryImages="@array/abu_arab_downmsg_style_imgs" />
+        <abu3arab.mas.preferences.colorpicker.BackgroundPickerPreference
+            android:icon="@drawable/abu_arab_bgcolor"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_fab_color"
+            android:key="key_updown_bgcolor"
+            android:summary="%s"
+            android:defaultValue="@color/abo_arab_primary_v2" />
+        <abu3arab.mas.preferences.colorpicker.ColorCheckPreference
+            android:icon="@drawable/abu_arab_ic_wallpaper"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/pref_fab_icon"
+            android:key="key_updown_iconcolor"
+            android:summary="%s"
+            android:defaultValue="@color/mas_white" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/abu_arab_click">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_homechata"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_popup"
+            android:key="MasOption"
+            android:summary="@string/abu_arab_popup_sum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_readmore"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_bubble_more_options"
+            android:key="bubble_more_options_dlg"
+            android:summary="@string/abu_arab_bubble_more_optionss"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_emojibg"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/disable_dttl"
+            android:key="disableDTTL"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/inconvo_trans_option">
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_translatedialog"
+            android:entries="@array/translation_preference"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/inconvo_trans_option"
+            android:key="inconvo_trans_option"
+            android:summary="@string/inconvo_trans_option_explainer"
+            android:defaultValue="in-y"
+            android:entryValues="@array/translation_preferenceVals" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_translatelist"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/trans_icon"
+            android:key="hide_translation_icon"
+            android:summary="@string/trans_icon_sum"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/wallpaper">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_customwall"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/customwall"
+            android:key="custom_wall"
+            android:summary="@string/customwallS"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_customimg"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/custom_wall_profilepic"
+            android:key="custom_wall_profilepic"
+            android:summary="@string/custom_wall_profilepicS"
+            android:dependency="custom_wall"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/yoAudio">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_proxsensor"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoAudioSensor"
+            android:key="Audio_sensor"
+            android:summary="@string/yoAudioSensorSum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_comutexit"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoAudioEars"
+            android:key="Audio_ears"
+            android:summary="@string/yoAudioEarsSum"
+            android:dependency="Audio_sensor"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_playnotes"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_autoplaynotes"
+            android:key="abu_arab_play_voice_note"
+            android:summary="@string/abu_arab_autoplaynotes_sum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_audioff"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_audioforward"
+            android:key="abu_arab_forward_tovoice"
+            android:summary="@string/abu_arab_audioforward_sum"
+            android:defaultValue="false" />
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_toastoque"
+            android:entries="@array/hazar_bozkurt_sesler_gelenmesaj"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/hazar_bozkurt_sesler_gelenmesaj"
+            android:key="hazar_bozkurt_sesler_gelenmesaj"
+            android:summary="@string/hazar_bozkurt_sesler_gelenmesaj_aciklama"
+            android:defaultValue="0"
+            android:entryValues="@array/hazar_bozkurt_sesler_gelenmesaj_degerler" />
+        <ListPreference
+            android:icon="@drawable/abo_arab_ic_toastoque"
+            android:entries="@array/hazar_bozkurt_sesler_gelenmesaj"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/hazar_bozkurt_sesler_gidenmesaj"
+            android:key="hazar_bozkurt_sesler_gidenmesaj"
+            android:summary="@string/hazar_bozkurt_sesler_gidenmesaj_aciklama"
+            android:defaultValue="0"
+            android:entryValues="@array/hazar_bozkurt_sesler_gelenmesaj_degerler" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/storage_usage_save_space_tools_top_divider"
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="@dimen/dimen1039" />
+    <ViewStub
+        android:id="@id/storage_usage_save_space_tools_header_view"
+        android:inflatedId="@id/storage_usage_save_space_tools_header_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/storage_usage_save_space_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c8="body2"
+        app:attr06ca="body1"
+        app:attr06f6="@drawable/ic_group_ephemeral_v2"
+        app:attr0702="icon" />
+    <ViewStub
+        android:id="@id/ml_models_storage_usage_row_view_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout1077"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@id/storage_usage_save_space_tools_bottom_divider"
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="@dimen/dimen1039" />
+</LinearLayout>

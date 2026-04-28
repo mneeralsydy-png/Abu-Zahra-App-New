@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/send_current_location_btn"
+    android:background="@drawable/selector_orange_gradient"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimen0776"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="left"
+        android:layout_width="@dimen/dimen0776"
+        android:layout_height="@dimen/dimen0776">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/send_current_location_icon"
+            android:background="@drawable/send_current_location_background"
+            android:layout_width="@dimen/dimen0772"
+            android:layout_height="@dimen/dimen0772"
+            android:scaleType="center"
+            app:attr0838="@drawable/ic_location_on_white"
+            app:attr090d="?attr0a29" />
+    </FrameLayout>
+    <LinearLayout
+        android:gravity="left"
+        android:layout_gravity="center|left"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen0776"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/send_current_location_text"
+            android:text="@string/str2e81"
+            style="@style/style0294" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/location_description"
+            style="@style/style0293" />
+    </LinearLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/this_location_divider"
+        android:visibility="gone"
+        style="@style/style0355" />
+</FrameLayout>

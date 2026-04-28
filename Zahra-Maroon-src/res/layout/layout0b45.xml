@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen0235"
+    android:paddingBottom="@dimen/dimen0235"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0234"
+    android:paddingEnd="@dimen/dimen0234"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/music_artwork"
+        android:layout_width="@dimen/dimen0232"
+        android:layout_height="@dimen/dimen0232"
+        android:layout_marginEnd="@dimen/dimen0237"
+        app:attr0494="parent"
+        app:attr04a3="0.0"
+        app:attr04a4="packed"
+        app:attr04a7="parent"
+        app:attr04aa="@id/music_title"
+        app:attr04b1="parent"
+        app:attr08aa="-1.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/music_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAlignment="textStart"
+        app:attr0495="@id/music_subtitle"
+        app:attr04a8="@id/music_artwork"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body2"
+        style="?attr09f6" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:id="@id/music_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0236"
+        android:text="@string/str1f19"
+        android:maxLines="1"
+        android:textAlignment="textStart"
+        app:attr0494="parent"
+        app:attr04a7="@id/music_title"
+        app:attr04b0="@id/music_title"
+        app:attr0a24="wds_font_body3"
+        style="?attr09fc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

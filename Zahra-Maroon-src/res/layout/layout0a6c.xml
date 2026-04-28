@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_gravity="bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/media_quality_bottom_sheet"
+        android:paddingLeft="@dimen/dimen0cee"
+        android:paddingTop="@dimen/dimen0cef"
+        android:paddingRight="@dimen/dimen0cee"
+        android:paddingBottom="0.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="20.0sp"
+            android:id="@id/media_quality_bottom_sheet_title"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0ce7"
+            android:singleLine="false"
+            android:fontFamily="?attr03b8"
+            style="@style/style0289" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:id="@id/media_bottom_sheet_description"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cef"
+            app:attr04d0="20.0sp"
+            app:attr0a24="wds_font_body2" />
+        <RadioGroup
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@id/media_quality"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

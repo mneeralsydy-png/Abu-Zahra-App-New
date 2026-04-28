@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/selector_orange_gradient"
+    android:paddingLeft="@dimen/dimen04b5"
+    android:paddingTop="@dimen/dimen04b4"
+    android:paddingRight="@dimen/dimen04b5"
+    android:paddingBottom="@dimen/dimen04b4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/category_icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="18.0dip"
+        app:attr0494="parent"
+        app:attr049b="@id/category_name"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr090d="@color/color0347" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/category_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/category_icon"
+        app:attr04b1="parent"
+        style="@style/style0289" />
+</androidx.constraintlayout.widget.ConstraintLayout>

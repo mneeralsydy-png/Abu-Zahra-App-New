@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.icon.WDSIcon
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/str10cd"
+    app:attr0411="@drawable/ic_close"
+    app:attr0a17="neutral"
+    app:attr0a19="small"
+    app:attr0a1a="borderless"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

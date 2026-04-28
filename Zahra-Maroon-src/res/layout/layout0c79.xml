@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="?attr0a5a"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:paddingBottom="@dimen/dimen0a5b"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/charge_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/dashed_underline2"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            app:attr0838="@drawable/order_details_dashed_underline_gray" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/subtotal_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/str2323"
+            android:layout_toLeftOf="@id/subtotal_amount"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/subtotal_amount"
+            android:layout_alignParentStart="true"
+            style="@style/style02cc" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/subtotal_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.0dip"
+            android:layout_alignBaseline="@id/subtotal_key"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/style02cd" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/discount_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str22ed"
+            android:layout_toLeftOf="@id/subtotal_amount"
+            android:layout_below="@id/subtotal_key"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/discount_amount"
+            android:layout_alignParentStart="true"
+            style="@style/style02cc" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/discount_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/discount_key"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/style02cd" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/offer_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str22f5"
+            android:layout_toLeftOf="@id/discount_amount"
+            android:layout_below="@id/discount_key"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/discount_amount"
+            android:layout_alignParentStart="true"
+            style="@style/style02cc" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/offer_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/offer_key"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/style02cd" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/shipping_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2317"
+            android:layout_toLeftOf="@id/offer_amount"
+            android:layout_below="@id/offer_key"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/offer_amount"
+            android:layout_alignParentStart="true"
+            style="@style/style02cc" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/shipping_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/shipping_key"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/style02cd" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/taxes_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2324"
+            android:layout_toLeftOf="@id/taxes_amount"
+            android:layout_below="@id/shipping_key"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/taxes_amount"
+            android:layout_alignParentStart="true"
+            style="@style/style02cc" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/taxes_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/taxes_key"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/style02cd" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/installment_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1999"
+            android:layout_toLeftOf="@id/installment_amount"
+            android:layout_below="@id/taxes_key"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/installment_amount"
+            android:layout_alignParentStart="true"
+            style="@style/style02cc" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/installment_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/installment_key"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/style02cd" />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/fees_key_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/fees_amount"
+            android:layout_below="@id/installment_key"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/fees_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen1030"
+                android:layout_marginRight="3.0dip"
+                android:layout_marginBottom="@dimen/dimen1030"
+                android:text="@string/str149f"
+                style="@style/style02cc" />
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/fee_info"
+                android:visibility="gone"
+                android:layout_width="18.0dip"
+                android:layout_height="18.0dip"
+                android:layout_marginTop="@dimen/dimen1030"
+                android:layout_marginBottom="@dimen/dimen1030"
+                app:attr0838="@drawable/ic_info_icon" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/fees_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1030"
+            android:layout_alignBottom="@id/fees_key_layout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/style02cd" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr066e"
+            android:id="@id/total_charge_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0a5b"
+            android:text="@string/str232e"
+            android:layout_toLeftOf="@id/total_charge_amount"
+            android:layout_below="@id/fees_key_layout"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="?attr03b8"
+            android:layout_toStartOf="@id/total_charge_amount"
+            android:layout_alignParentStart="true"
+            style="@style/style02cc" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr066e"
+            android:id="@id/total_charge_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/total_charge_key"
+            android:layout_alignParentRight="true"
+            android:fontFamily="?attr03b8"
+            android:layout_alignParentEnd="true"
+            style="@style/style02cd" />
+    </RelativeLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="center"
+        android:id="@id/installment_disclaimer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:text="@string/str3491"
+        android:layout_below="@id/charge_container"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        style="@style/style02cd" />
+</RelativeLayout>

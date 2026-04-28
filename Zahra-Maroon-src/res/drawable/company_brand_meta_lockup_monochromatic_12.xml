@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.drawable.custom.AppThemedDrawable
+    fbui:attr096c="@drawable/company_brand_meta_lockup_monochromatic_12__dark"
+    fbui:attr096e="@drawable/company_brand_meta_lockup_monochromatic_12__light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbui="http://schemas.android.com/apk/res-auto" />

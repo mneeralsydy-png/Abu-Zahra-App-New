@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_edit"
+        android:id="@id/menu_avatar_profile_photo_edit"
+        android:title="@string/str3db1"
+        android:contentDescription="@string/str3db1"
+        app:attr07f1="never" />
+    <item
+        android:icon="@drawable/ic_share_small"
+        android:id="@id/menu_avatar_profile_photo_share"
+        android:title="@string/str424a"
+        android:contentDescription="@string/str424a"
+        app:attr07f1="never" />
+</menu>

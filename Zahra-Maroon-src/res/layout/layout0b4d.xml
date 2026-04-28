@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textColor="@color/color08de"
+    android:id="@id/music_section_title"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    app:attr0a24="wds_font_body2_emphasized"
+    style="?attr09f7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

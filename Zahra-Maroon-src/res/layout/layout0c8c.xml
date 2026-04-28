@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:id="@id/order_detail_shimmer_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="?attr0a5a"
+        android:paddingLeft="@dimen/dimen0a5d"
+        android:paddingTop="@dimen/dimen0a5b"
+        android:paddingRight="@dimen/dimen0a5d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_gravity="center"
+            android:id="@id/shimmer_order_description"
+            android:background="@drawable/category_loading_bg"
+            android:paddingTop="@dimen/dimen0a5f"
+            android:paddingRight="@dimen/dimen0a63"
+            android:paddingBottom="@dimen/dimen0a60"
+            android:layout_width="120.0dip"
+            android:layout_height="14.0dip"
+            android:layout_centerHorizontal="true" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/dashed_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginTop="@dimen/dimen0a5d"
+            android:layout_marginBottom="@dimen/dimen0a63"
+            android:layout_below="@id/shimmer_order_description"
+            app:attr0838="@drawable/order_details_dashed_underline_gray" />
+    </RelativeLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

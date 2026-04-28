@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.metaai.inlineimage.InlineLatexView
+    android:textAppearance="?attr09f0"
+    android:layout_gravity="start"
+    android:id="@id/bot_rich_response_inline_latex"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

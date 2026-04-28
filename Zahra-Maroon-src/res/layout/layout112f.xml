@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="@dimen/dimen0575"
+    android:layout_height="@dimen/dimen0575"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/expressions_bottom_sheet_loading_icon"
+        android:layout_width="@dimen/dimen0571"
+        android:layout_height="@dimen/dimen0571"
+        app:attr0838="@drawable/sticker_loading_indicator" />
+</FrameLayout>

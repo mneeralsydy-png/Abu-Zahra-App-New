@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com">
+    <PreferenceScreen
+        android:icon="@drawable/quran_by_omar_ob_pic"
+        android:title="@string/old_add_ob">
+        <PreferenceScreen
+            android:icon="@drawable/quran_by_omar_ob_pic"
+            android:title="@string/quran_by_omar_ob_title"
+            android:summary="@string/quran_by_omar_ob_summary">
+            <Preference
+                android:layout="@layout/quran_pic_by_Omar_Batheeb_OB" />
+            <PreferenceScreen
+                android:title="@string/quran_chosen_by_omar_ob">
+                <Preference
+                    android:layout="@layout/quran_chosen_by_omar_ob"
+                    android:selectable="true" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:title="@string/read_as_sora_by_omar_ob">
+                <Preference
+                    android:layout="@layout/quran_pic_by_Omar_Batheeb_OB" />
+                <PreferenceScreen
+                    android:title="@string/no1_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no1_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no2_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no2_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no3_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no3_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no4_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no4_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no5_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no5_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no6_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no6_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no7_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no7_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no8_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no8_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no9_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no9_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no10_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no10_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no11_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no11_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no12_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no12_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no13_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no13_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no14_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no14_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no15_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no15_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no16_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no16_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no17_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no17_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no18_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no18_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no19_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no19_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no20_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no20_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no21_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no21_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no22_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no22_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no23_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no23_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no24_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no24_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no25_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no25_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no26_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no26_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no27_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no27_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no28_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no28_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no29_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no29_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no30_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no30_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no31_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no31_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no32_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no32_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no33_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no33_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no34_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no34_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no35_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no35_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no36_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no36_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no37_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no37_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no38_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no38_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no39_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no39_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no40_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no40_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no41_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no41_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no42_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no42_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no43_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no43_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no44_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no44_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no45_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no45_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no46_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no46_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no47_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no47_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no48_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no48_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no49_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no49_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no50_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no50_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no51_by_omar_ob_part_1">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no51_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no52_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no52_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no53_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no53_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no54_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no54_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no55_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no55_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no56_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no56_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no57_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no57_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no58_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no58_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no59_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no59_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no60_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no60_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no61_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no61_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no62_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no62_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no63_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no63_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no64_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no64_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no65_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no65_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no66_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no66_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no67_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no67_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no68_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no68_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no69_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no69_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no70_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no70_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no71_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no71_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no72_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no72_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no73_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no73_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no74_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no74_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no75_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no75_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no76_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no76_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no77_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no77_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no78_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no78_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no79_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no79_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no80_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no80_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no81_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no81_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no82_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no82_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no83_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no83_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no84_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no84_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no85_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no85_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no86_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no86_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no87_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no87_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no88_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no88_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no89_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no89_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no90_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no90_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no91_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no91_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no92_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no92_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no93_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no93_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no94_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no94_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no95_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no95_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no96_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no96_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no97_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no97_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no98_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no98_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no99_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no99_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no100_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no100_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no101_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no101_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no102_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no102_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no103_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no103_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no104_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no104_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no105_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no105_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no106_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no106_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no107_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no107_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no108_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no108_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no109_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no109_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no110_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no110_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no111_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no111_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no112_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no112_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no113_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no113_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/no114_by_omar_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_no114_full_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:title="@string/read_as_part_by_omar_ob">
+                <Preference
+                    android:layout="@layout/quran_pic_by_Omar_Batheeb_OB" />
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part1_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part1_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part2_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part2_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part3_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part3_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part4_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part4_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part5_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part5_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part6_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part6_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part7_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part7_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part8_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part8_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part9_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part9_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part10_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part10_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part11_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part11_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part12_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part12_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part13_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part13_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part14_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part14_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part15_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part15_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part16_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part16_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part17_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part17_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part18_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part18_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part19_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part19_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part20_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part20_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part21_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part21_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part22_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part22_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part23_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part23_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part24_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part24_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part25_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part25_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part26_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part26_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part27_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part27_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part28_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part28_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part29_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part29_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+                <PreferenceScreen
+                    android:title="@string/quran_by_omar_part30_ob">
+                    <Preference
+                        android:layout="@layout/quran_by_omar_part30_ob"
+                        android:selectable="true" />
+                </PreferenceScreen>
+            </PreferenceScreen>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/islamic_add_pic_by_omar_ob"
+            android:title="@string/islamic_add_by_omar_ob"
+            android:summary="@string/islamic_add_sum_by_omar_ob">
+            <Preference
+                android:layout="@layout/oasis_of_athkar_by_omar_ob" />
+            <PreferenceScreen
+                android:icon="@drawable/hadeeth"
+                android:title="@string/ha_legend"
+                android:summary="@string/ha_legend_sum">
+                <Preference
+                    android:layout="@layout/ha"
+                    android:selectable="true" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:icon="@drawable/morning_pic_by_omar_ob"
+                android:title="@string/morning_azkar_by_omar_ob"
+                android:summary="@string/morning_azkar_sum_by_omar_ob">
+                <Preference
+                    android:layout="@layout/morning_pic_by_omar_ob" />
+                <Preference
+                    android:layout="@layout/morning_azkar_by_Omar_Batheeb_OB"
+                    android:selectable="true" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:icon="@drawable/evening_pic_by_omar_ob"
+                android:title="@string/evening_azkar_by_omar_ob"
+                android:summary="@string/evening_azkar_sum_by_omar_ob">
+                <Preference
+                    android:layout="@layout/evening_pic_by_omar_ob" />
+                <Preference
+                    android:layout="@layout/evening_azkar_by_omar_ob"
+                    android:selectable="true" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:icon="@drawable/sleep_pic_by_omar_ob"
+                android:title="@string/sleep_azkar_by_omar_ob"
+                android:summary="@string/sleep_azkar_sum_by_omar_ob">
+                <Preference
+                    android:layout="@layout/sleep_pic_by_omar_ob" />
+                <Preference
+                    android:layout="@layout/sleep_azkar_by_omar_ob"
+                    android:selectable="true" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:icon="@drawable/wakingup_pic_by_omar_ob"
+                android:title="@string/wakingup_azkar_by_omar_ob"
+                android:summary="@string/wakingup_azkar_sum_by_omar_ob">
+                <Preference
+                    android:layout="@layout/wakingup_pic_by_omar_ob" />
+                <Preference
+                    android:layout="@layout/wakingup_azkar_by_omar_ob"
+                    android:selectable="true" />
+            </PreferenceScreen>
+        </PreferenceScreen>
+
+    </PreferenceScreen>
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_widgetphone"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/acj_bg"
+        android:key="ModWdgBKColor" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_name"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/yoContactNameC"
+        android:key="ModWdgTitleColor" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_colortxt"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/contactstatusTC"
+        android:key="ModWdgStatusColor" />
+</PreferenceScreen>

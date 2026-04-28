@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="center"
+    android:id="@id/loading_error_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:layout_gravity="center"
+        android:id="@id/loading"
+        android:layout_width="@dimen/dimen104c"
+        android:layout_height="@dimen/dimen104c"
+        android:indeterminate="true"
+        android:indeterminateOnly="false"
+        android:indeterminateTint="?attr0a29"
+        android:indeterminateTintMode="src_atop"
+        app:attr028b="?attr030e"
+        app:attr028c="?attr0a29"
+        app:attr0290="4.0" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/error"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/dimen104b"
+        android:layout_marginRight="@dimen/dimen104b"
+        app:attr03ae="?attr03b6"
+        app:attr04d0="@dimen/dimen0faf"
+        app:attr0a24="wds_font_body1" />
+</FrameLayout>

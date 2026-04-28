@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/my_contacts_layout"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/my_contacts_icon"
+        android:background="@drawable/status_privacy_gray_circle"
+        android:padding="@dimen/dimen103a"
+        android:layout_width="@dimen/dimen0d24"
+        android:layout_height="@dimen/dimen0d24"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:src="@drawable/vec_ic_person_white"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr090d="?attr0a47" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a47"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str2dfb"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049b="@id/my_contacts_button"
+        app:attr04ac="@id/my_contacts_icon"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.wds.components.radiobutton.WDSRadioButton
+        android:id="@id/my_contacts_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

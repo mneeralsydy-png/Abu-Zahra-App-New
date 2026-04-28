@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    android:textAppearance="@style/style05a7"
+    android:textColor="@color/color0677"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checkable="true"
+    android:paddingStart="@dimen/dimen103a"
+    android:paddingEnd="@dimen/dimen103a"
+    app:attr01c0="false"
+    app:attr01c3="@color/color0676"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

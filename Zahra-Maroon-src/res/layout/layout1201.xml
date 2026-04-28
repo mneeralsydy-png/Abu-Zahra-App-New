@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@id/lonely_state_parent"
+    android:background="?attr0a32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a6"
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/lonely_state_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/lonely_state_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen077d"
+        android:textAlignment="center"
+        app:attr0009="calling_themed"
+        app:attr0922="calling_themed"
+        app:attr096b="tonal"
+        app:attr09ea="small" />
+</LinearLayout>

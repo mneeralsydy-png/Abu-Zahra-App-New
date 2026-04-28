@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="@dimen/dimen0d8e"
+    android:layout_height="@dimen/dimen0d8e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/selector"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:importantForAccessibility="no"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/shape_bundle_child_selector" />
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/icon"
+        android:padding="1.0dip"
+        android:duplicateParentState="true"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:scaleType="fitCenter"
+        android:importantForAccessibility="no"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr07c8="@style/style033f"
+        app:attr085d="?attr0350"
+        app:attr085e="1.0dip" />
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/badge"
+        android:layout_width="@dimen/dimen09d8"
+        android:layout_height="@dimen/dimen09d8"
+        android:layout_margin="@dimen/dimen0cf0"
+        android:importantForAccessibility="no"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/shape_circle_badge" />
+</androidx.constraintlayout.widget.ConstraintLayout>

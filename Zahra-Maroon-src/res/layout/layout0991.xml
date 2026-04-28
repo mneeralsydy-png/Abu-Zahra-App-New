@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/button_ok"
+    android:text="@string/str22a9"
+    style="@style/style055c"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

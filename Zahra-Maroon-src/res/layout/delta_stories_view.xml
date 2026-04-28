@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/idMarginStart"
+        android:visibility="gone"
+        android:layout_width="8.0dip"
+        android:layout_height="0.0dip" />
+    <FrameLayout
+        android:id="@id/idHolder"
+        android:layout_width="60.0dip"
+        android:layout_height="100.0dip">
+        <ImageView
+            android:id="@id/idThumbnail"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip" />
+        <com.whatsapp.status.api.ContactStatusThumbnail
+            android:layout_gravity="center|top"
+            android:id="@id/idContactPhoto"
+            android:padding="2.5dip"
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip"
+            android:layout_marginTop="12.0dip"
+            android:scaleType="centerCrop"
+            style="@style/StatusRing" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:id="@id/idContactName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2" />
+        <com.whatsapp.yo.tf
+            android:gravity="center"
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/idCounter"
+            android:background="@drawable/primary_color_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="22.0dip"
+            android:layout_marginBottom="32.0dip"
+            android:minWidth="22.0dip"
+            android:singleLine="true" />
+    </FrameLayout>
+    <View
+        android:id="@id/idMarginEnd"
+        android:visibility="visible"
+        android:layout_width="8.0dip"
+        android:layout_height="0.0dip" />
+</LinearLayout>

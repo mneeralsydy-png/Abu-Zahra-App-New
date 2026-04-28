@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/status_like_button_container"
+    style="@style/style039f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:layout_gravity="center"
+        android:id="@id/status_like_button"
+        android:background="@null"
+        android:paddingTop="1.5dip"
+        android:focusable="true"
+        android:clickable="false"
+        android:layout_width="@dimen/dimen0cfd"
+        android:layout_height="@dimen/dimen0cfd"
+        android:scaleType="centerInside"
+        android:tint="@color/color0712"
+        android:contentDescription="@string/str317f"
+        app:attr0838="@drawable/status_reply_like_button_selector" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/lottie_status_likes_button"
+        android:layout="@layout/layout0fb9"
+        android:inflatedId="@id/lottie_status_likes_button"
+        android:layout_width="@dimen/dimen0cfd"
+        android:layout_height="@dimen/dimen0cfd" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButtonGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/stw_search_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str420c"
+        app:attr096b="filled" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/stw_cancel_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3d9b"
+        app:attr096b="borderless" />
+</com.whatsapp.ui.wds.components.button.WDSButtonGroup>

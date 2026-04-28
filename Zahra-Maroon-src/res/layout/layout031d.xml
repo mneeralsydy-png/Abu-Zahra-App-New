@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MaxHeightLinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/sheet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="@style/style05a5" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:gravity="center"
+        android:id="@id/privacy_label"
+        android:padding="@dimen/dimen0cea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0ce8"
+        android:layout_marginStart="@dimen/dimen0cea"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+    <View
+        android:id="@id/divider_under_nav_bar"
+        style="@style/style0355" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/call_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        app:attr0411="@drawable/ic_call_white"
+        app:attr058c="true"
+        style="@style/style055c" />
+</com.whatsapp.ui.coreui.components.MaxHeightLinearLayout>

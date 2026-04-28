@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/header_placeholder"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen06a1" />
+    <include
+        layout="@layout/layout0f7c" />
+    <View
+        android:id="@id/header_bottom_shadow"
+        android:visibility="gone"
+        style="@style/style0282" />
+    <ViewStub
+        android:id="@id/business_details_card_stub"
+        android:inflatedId="@id/business_details_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/data_disclosure_card_stub"
+        android:inflatedId="@id/data_disclosure_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/layout09e9" />
+    <ViewStub
+        android:id="@id/upcoming_events_card"
+        android:layout="@layout/layout1101"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/meta_ai_disclaimer_card_stub"
+        android:layout="@layout/layout0ad2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/meta_ai_banner_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0aca"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/privacy_card_v2" />
+    <ViewStub
+        android:id="@id/media_card_stub"
+        android:layout="@layout/layout033e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/layout004d" />
+    <ViewStub
+        android:id="@id/ai_card_view_stub"
+        android:layout="@layout/layout0118"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/layout03e9" />
+    <include
+        layout="@layout/layout03ed" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/groups_card"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            style="@style/style0290" />
+        <FrameLayout
+            android:background="?attr0a59"
+            android:paddingLeft="@dimen/dimen06a4"
+            style="@style/style0218">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:ellipsize="end"
+                android:id="@id/groups_in_common"
+                android:paddingRight="@dimen/dimen1034"
+                android:text="@string/str1888"
+                android:singleLine="true"
+                style="@style/style021b" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/groups_info"
+                style="@style/style0219" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="?attr0a59"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/layout05d0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:paddingTop="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    app:attr07d5="1.0"
+    app:attr07d6="?attr00c4"
+    app:attr07d8="true"
+    app:attr07db="1200"
+    app:attr07df="1.0"
+    app:attr07e0="@color/color0159"
+    app:attr07e7="0.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/variant_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0a24="wds_font_body2_emphasized"
+            style="@style/style05a7" />
+        <include
+            layout="@layout/layout113d" />
+        <ViewStub
+            android:id="@id/variant_drop_down_selection_stub"
+            android:layout="@layout/layout113f"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/variant_chip_selection_stub"
+            android:layout="@layout/layout113e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

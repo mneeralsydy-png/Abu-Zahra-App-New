@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaLinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@id/user_problems_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen01ec" />
+    <com.whatsapp.ui.coreui.WaLinearLayout
+        android:orientation="vertical"
+        android:id="@id/user_problem_free_text_layout"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen01ec">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textStyle="bold"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            android:layout_marginTop="@dimen/dimen01ec"
+            android:text="@string/str082c"
+            android:paddingStart="5.0dip"
+            android:paddingEnd="5.0dip"
+            style="@style/style04a6" />
+        <com.whatsapp.ui.coreui.WaEditText
+            android:id="@id/user_problem_descriptive_text"
+            android:layout_marginTop="@dimen/dimen01ec"
+            android:hint="@string/str37f0"
+            style="@style/style04a7" />
+    </com.whatsapp.ui.coreui.WaLinearLayout>
+</com.whatsapp.ui.coreui.WaLinearLayout>

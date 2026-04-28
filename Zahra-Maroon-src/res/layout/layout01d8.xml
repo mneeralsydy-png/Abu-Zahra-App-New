@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+    android:orientation="vertical"
+    android:id="@id/ban_info_text_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr0489="view"
+    app:attr049a="parent"
+    app:attr04ad="parent"
+    app:attr04b1="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

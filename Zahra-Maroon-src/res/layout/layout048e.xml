@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:id="@id/main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="30.0dip">
+        <ViewStub
+            android:id="@id/conversation_row_participant_header_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            layout="@layout/layout054e" />
+        <ViewStub
+            android:id="@id/conversation_row_ai_disclaimer_view_stub"
+            android:layout="@layout/layout046f"
+            android:inflatedId="@id/conversation_row_ai_disclaimer_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/suspicious_link_indicator_holder"
+            android:layout="@layout/layout1098"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            layout="@layout/layout0588" />
+        <ViewStub
+            android:id="@id/conversation_row_call_link_preview_view_stub"
+            android:layout="@layout/layout04a5"
+            android:inflatedId="@id/conversation_row_call_link_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:id="@id/conversation_content_container_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.components.AiRichTextAndDateLayout
+                android:layout_gravity="start"
+                android:id="@id/conversation_text_row"
+                android:paddingLeft="@dimen/dimen0cf0"
+                android:paddingRight="@dimen/dimen0cf0"
+                android:paddingBottom="@dimen/dimen0cf0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr04ad="parent"
+                app:attr04b1="parent">
+                <com.whatsapp.conversation.ui.conversationrow.WrappingRecyclerView
+                    android:layout_gravity="start"
+                    android:id="@id/rich_response_container"
+                    android:paddingLeft="@dimen/dimen03e4"
+                    android:paddingTop="@dimen/dimen1035"
+                    android:paddingRight="@dimen/dimen03e4"
+                    android:paddingBottom="@dimen/dimen0c13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never"
+                    android:nestedScrollingEnabled="false"
+                    app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+                <ViewStub
+                    android:id="@id/unified_rich_response_container"
+                    android:layout="@layout/layout022f"
+                    android:inflatedId="@id/unified_rich_response_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <include
+                    layout="@layout/layout04ba" />
+            </com.whatsapp.ui.coreui.components.AiRichTextAndDateLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ViewStub
+            android:layout_gravity="left"
+            android:id="@id/ai_planner_summary_stub"
+            android:layout="@layout/layout015f"
+            android:inflatedId="@id/ai_planner_summary_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="left"
+            android:id="@id/carousel_bottom_component_stub"
+            android:layout="@layout/layout0ede"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="left"
+            android:id="@id/meta_ai_search_sources_bottom_component_stub"
+            android:layout="@layout/layout0ae4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="left"
+            android:id="@id/meta_ai_footer_component_stub"
+            android:layout="@layout/layout0ad3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="center_horizontal"
+            android:id="@id/meta_ai_app_cta_footer_component_stub"
+            android:layout="@layout/layout0ac9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="center_horizontal"
+            android:id="@id/side_by_side_cta_footer_component_stub"
+            android:layout="@layout/layout0f64"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="center_horizontal"
+            android:id="@id/meta_ai_age_collection_stub"
+            android:layout="@layout/layout0ac5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

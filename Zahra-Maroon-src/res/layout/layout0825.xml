@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen0cee"
+    android:paddingRight="@dimen/dimen0cee"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="@dimen/dimen0cee"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+                android:layout_gravity="center_horizontal"
+                android:id="@id/group_suspend_bottomsheet_profile_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/avatar_group"
+                app:attr0675="xx_large" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style0410"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/group_suspend_bottomsheet_title"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cef"
+                android:text="@string/str1877"
+                android:lineSpacingExtra="1.0sp" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/group_suspend_bottomsheet_learn_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cea"
+                android:lineSpacingExtra="4.0sp"
+                style="@style/style040b" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/group_suspend_bottomsheet_support"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ceb"
+                android:drawablePadding="@dimen/dimen0cee"
+                android:lineSpacingExtra="5.0sp"
+                app:attr02e9="@drawable/ic_help"
+                app:attr02ed="@color/color0347"
+                style="@style/style0406" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/group_suspend_bottomsheet_messaging_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ceb"
+                android:drawablePadding="@dimen/dimen0cee"
+                android:lineSpacingExtra="5.0sp"
+                app:attr02e9="@drawable/ic_block"
+                app:attr02ed="@color/color0347"
+                style="@style/style0406" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0cea">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/group_suspend_bottomsheet_delete_group_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str1878"
+            app:attr096b="filled" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/group_suspend_bottomsheet_see_group_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str061a"
+            app:attr096b="borderless" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

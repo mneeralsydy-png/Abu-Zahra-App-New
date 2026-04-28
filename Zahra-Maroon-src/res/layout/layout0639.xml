@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen103b"
+    android:paddingBottom="@dimen/dimen103b"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049c="24.0dip" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="vertical"
+        android:id="@id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr049d="24.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style0448"
+        android:gravity="start"
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str314f"
+        android:textAlignment="viewStart"
+        app:attr049a="@id/guideline_end"
+        app:attr04ad="@id/guideline_start"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style0447"
+        android:gravity="start"
+        android:id="@id/body"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:textAlignment="viewStart"
+        app:attr049a="@id/guideline_end"
+        app:attr04ad="@id/guideline_start"
+        app:attr04b0="@id/title" />
+    <Space
+        android:id="@id/body_and_switch"
+        android:layout_width="0.0dip"
+        android:layout_height="16.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/body" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/layout_archived_settings"
+        android:background="?android:selectableItemBackground"
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/body_and_switch">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/icon_download"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginStart="@dimen/dimen103b"
+            app:attr0838="@drawable/ic_download"
+            app:attr090d="@color/color0347" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style0449"
+            android:gravity="start"
+            android:id="@id/switch_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str2d11"
+            android:layout_weight="1.0"
+            android:textAlignment="viewStart"
+            android:paddingStart="@dimen/dimen103b" />
+        <com.whatsapp.ui.wds.components.toggle.WDSSwitch
+            android:id="@id/switch_button"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/dimen102e" />
+    </LinearLayout>
+    <Space
+        android:id="@id/switch_and_button"
+        android:layout_width="0.0dip"
+        android:layout_height="16.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/layout_archived_settings" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/button_done"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str3150"
+        android:layout_marginStart="18.0dip"
+        android:layout_marginEnd="18.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/switch_and_button"
+        style="@style/style0555" />
+</androidx.constraintlayout.widget.ConstraintLayout>

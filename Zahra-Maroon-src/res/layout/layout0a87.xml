@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/media_view_reaction_reply_root_layout"
+    android:paddingLeft="@dimen/dimen0ce8"
+    android:paddingTop="@dimen/dimen0ce8"
+    android:paddingRight="@dimen/dimen0ce8"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_alignWithParentIfMissing="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.KeyboardPopupLayout
+        android:id="@id/media_view_keyboard_popup_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip">
+        <com.whatsapp.reactions.ui.conversation.conversationrow.ReactionsBubbleLayout
+            android:id="@id/reactions_bubble_layout"
+            android:background="@drawable/reaction_bubble_background_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/reaction_picker_btn"
+            android:background="@drawable/reaction_button_background"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="@dimen/dimen0ce7"
+            android:scaleType="center"
+            android:layout_toRightOf="@id/reactions_bubble_layout"
+            android:contentDescription="@string/str2a90"
+            app:attr0838="@drawable/ic_add_reaction"
+            app:attr090d="@color/color09a6"
+            style="@style/style0006" />
+        <LinearLayout
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:id="@id/reply_button"
+            android:background="@drawable/ib_new_round_night"
+            android:paddingLeft="@dimen/dimen0ce8"
+            android:paddingTop="@dimen/dimen0ced"
+            android:paddingRight="@dimen/dimen0ce8"
+            android:paddingBottom="@dimen/dimen0ced"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="#80222c32">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/reply_icon"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="@dimen/dimen0ced" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb6"
+                android:textStyle="bold"
+                android:textColor="@color/color09a6"
+                android:layout_gravity="center_vertical"
+                android:id="@id/entry"
+                android:background="@null"
+                android:focusable="false"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/str1ca9"
+                android:maxLines="1"
+                android:autoText="true"
+                android:layout_weight="1.0"
+                android:imeOptions="actionSend" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

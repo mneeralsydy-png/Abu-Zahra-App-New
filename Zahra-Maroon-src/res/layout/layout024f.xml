@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout024e" />
+    <com.whatsapp.ui.coreui.collections.MarginCorrectedViewPager
+        android:id="@id/browser_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:nestedScrollingEnabled="true"
+        app:attr0494="parent"
+        app:attr04b0="@id/header_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

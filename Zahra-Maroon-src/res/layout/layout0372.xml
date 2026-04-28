@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/illustration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cf1"
+            android:layout_marginBottom="@dimen/dimen0cf1"
+            android:importantForAccessibility="no"
+            app:attr0838="@drawable/communities_moving_illustration" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:gravity="center_horizontal"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            android:text="@string/str0bf3"
+            android:textAlignment="center"
+            app:attr0a24="wds_font_headline1"
+            style="@style/style05aa" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/communities_moving_nux_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0ceb"
+            android:text="@string/str0bf2"
+            android:textAlignment="center"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cee" />
+    </LinearLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/create_communities_list_button"
+        android:text="@string/str0bf1"
+        style="@style/style055c" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/skip_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0bf4"
+        app:attr096b="borderless" />
+</LinearLayout>

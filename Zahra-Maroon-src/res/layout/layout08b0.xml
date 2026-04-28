@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr049a="parent"
+    app:attr04ad="parent"
+    app:attr04b1="parent"
+    app:attr04c4="none"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:gravity="center"
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:text="@string/str270a"
+        app:attr03ae="?attr03b8"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1_emphasized" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/close"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:contentDescription="@string/str3d62"
+        app:attr0494="@id/title"
+        app:attr04ad="parent"
+        app:attr04b1="@id/title"
+        app:attr0838="@drawable/ic_close" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="close, title" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:id="@id/desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:text="@string/str270b"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/barrier"
+        app:attr0a24="wds_font_body2" />
+    <include
+        android:id="@id/security_note_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="@dimen/dimen102f"
+        android:layout_marginRight="16.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/desc"
+        layout="@layout/layout08ec" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:gravity="center"
+        android:id="@id/continue_button"
+        android:visibility="visible"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="@dimen/dimen102f"
+        android:layout_marginRight="10.0dip"
+        android:text="@string/str3d8c"
+        android:maxLines="1"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/security_note_layout"
+        style="@style/style055c" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:gravity="center"
+        android:id="@id/forgot_pin_button"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="9.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="9.0dip"
+        android:text="@string/str153d"
+        android:maxLines="1"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/continue_button"
+        style="@style/style055d" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/upi_logo"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/forgot_pin_button"
+        style="@style/style02f5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

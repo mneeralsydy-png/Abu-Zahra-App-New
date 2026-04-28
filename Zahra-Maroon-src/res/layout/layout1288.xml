@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/wamosub_onboarding_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04a7="parent"
+            app:attr04ab="parent">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="start"
+                android:id="@id/wamosub_active_title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ceb"
+                android:layout_marginBottom="@dimen/dimen0cea"
+                android:text="@string/str3bf5"
+                android:includeFontPadding="false"
+                android:layout_marginStart="@dimen/dimen0ce8"
+                android:layout_marginEnd="@dimen/dimen0ce8"
+                app:attr04a7="@id/left_guideline"
+                app:attr04ab="@id/right_guideline"
+                app:attr04b1="parent"
+                app:attr0a24="wds_font_headline1"
+                style="@style/style05aa" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?android:textColorSecondary"
+                android:gravity="start"
+                android:id="@id/wamosub_active_message"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ced"
+                android:layout_marginBottom="@dimen/dimen0ceb"
+                android:text="@string/str3bf2"
+                android:textDirection="locale"
+                android:layout_marginStart="@dimen/dimen0ce8"
+                android:layout_marginEnd="@dimen/dimen0ce8"
+                app:attr04a7="@id/left_guideline"
+                app:attr04ab="@id/right_guideline"
+                app:attr04b0="@id/wamosub_active_title"
+                app:attr0a24="wds_font_body2"
+                style="@style/style05a6" />
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="vertical"
+                android:id="@id/left_guideline"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr049c="@dimen/dimen0cee" />
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="vertical"
+                android:id="@id/right_guideline"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr049d="@dimen/dimen0cee" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/wamosub_cancel_wamosub_button"
+        android:paddingTop="@dimen/dimen102c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ceb"
+        android:layout_marginTop="@dimen/dimen0ceb"
+        android:layout_marginRight="@dimen/dimen0ceb"
+        android:text="@string/str3bf8"
+        style="@style/style055a" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/wamosub_cancel_not_now_button"
+        android:paddingTop="@dimen/dimen102c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0ceb"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginRight="@dimen/dimen0ceb"
+        android:text="@string/str4087"
+        style="@style/style055d" />
+</LinearLayout>

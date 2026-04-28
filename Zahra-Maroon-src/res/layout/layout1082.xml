@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/parent_group_image"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/dimen0cf1"
+        android:layout_height="@dimen/dimen0cf1"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="18.0dip"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="28.0dip"
+        android:scaleType="centerCrop"
+        android:strokeColor="@color/color058b"
+        android:strokeWidth="1.0" />
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/subgroup_pile_front_profile_photo"
+        android:layout_width="@dimen/dimen0dbe"
+        android:layout_height="@dimen/dimen0dbe"
+        android:layout_marginRight="0.0dip"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="0.0dip"
+        app:attr08a6="?attr0865"
+        app:attr08a7="@dimen/dimen0dbb"
+        app:attr08a9="false"
+        app:attr08aa="@dimen/dimen0cc5" />
+</merge>

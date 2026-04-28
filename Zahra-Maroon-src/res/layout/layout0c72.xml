@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="bottom"
+    android:id="@id/payment_button_holder"
+    android:clipChildren="false"
+    android:layout_width="@dimen/dimen03a6"
+    android:layout_height="@dimen/dimen03a5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:layout_gravity="center"
+        android:id="@id/payment_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:contentDescription="@string/str247e"
+        app:attr090d="?attr0a46"
+        style="@style/style0006" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/payment_button_nux"
+        android:layout="@layout/layout0c73"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip" />
+</FrameLayout>

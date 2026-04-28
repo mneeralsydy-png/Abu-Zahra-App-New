@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/ai_creation_more_voice_play_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="media"
+        app:attr0441="true"
+        app:attr096b="tonal"
+        app:attr09ea="medium" />
+    <ViewStub
+        android:id="@id/ai_creation_more_voice_wave"
+        android:layout="@layout/layout0b65"
+        android:inflatedId="@id/ai_creation_more_voice_wave"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="?attr08da"
+        android:ellipsize="end"
+        android:id="@id/ai_creation_more_voice_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1.0"
+        android:textDirection="locale"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen1030"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.wds.components.radiobutton.WDSRadioButton
+        android:id="@id/ai_creation_more_voice_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginStart="@dimen/dimen1039" />
+</LinearLayout>

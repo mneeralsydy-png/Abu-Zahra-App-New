@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/carousel_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.google.android.material.tabs.TabLayout
+        android:layout_gravity="bottom|center"
+        android:id="@id/pager_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0e94"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:overScrollMode="never"
+        app:attr0884="@drawable/calls_tab_carousel_dot_indicator_selector"
+        app:attr0886="center"
+        app:attr088f="0.0dip"
+        app:attr0891="@dimen/dimen0e95" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/calls_tab_nux_invite_button_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0304"
+        android:inflatedId="@id/calls_tab_nux_invite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e" />
+</merge>

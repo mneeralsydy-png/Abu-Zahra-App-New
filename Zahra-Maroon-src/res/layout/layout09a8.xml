@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/container"
+    android:background="@drawable/simple_groups_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style01a2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/add_groups_new_group"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen105c">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/green_circle"
+            android:padding="@dimen/dimen105d"
+            android:layout_width="@dimen/dimen0cf4"
+            android:layout_height="@dimen/dimen0cf4"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            app:attr0838="@drawable/ic_group_large"
+            app:attr090d="?attr0a4b" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="left"
+            android:layout_gravity="center_vertical"
+            android:id="@id/create_new_group_text"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:text="@string/str1b18"
+            android:layout_weight="1.0"
+            style="@style/style0289" />
+    </LinearLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:background="@drawable/divider_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:gravity="left"
+        android:id="@id/link_existing_group_picker_title"
+        android:paddingLeft="@dimen/dimen0b5d"
+        android:paddingTop="@dimen/dimen105f"
+        android:paddingRight="@dimen/dimen0b5d"
+        android:paddingBottom="@dimen/dimen105e"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        style="@style/style0285" />
+</LinearLayout>

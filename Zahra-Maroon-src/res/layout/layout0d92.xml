@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/external_dir_migration_section"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/setting_manual_external_dir_migration_divider"
+        style="@style/style0360" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0c93"
+        android:layout_marginTop="14.0dip"
+        android:layout_marginRight="@dimen/dimen0c93"
+        android:text="@string/str2f54"
+        style="?attr07b0" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/manual_external_dir_migration_layout"
+        android:paddingLeft="@dimen/dimen1032"
+        android:paddingTop="15.0dip"
+        android:paddingRight="16.0dip"
+        android:paddingBottom="15.0dip"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0363">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/manual_external_dir_migration"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str1c3c"
+            style="?attr07b5" />
+    </LinearLayout>
+</LinearLayout>

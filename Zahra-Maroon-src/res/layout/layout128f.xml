@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/wamosub_onboarding_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/wamosub_onboarding_content_layout"
+        android:layout="@layout/layout1290"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/wamosub_onboarding_error_layout"
+        android:layout="@layout/layout128a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.coreui.CircularProgressBar
+        android:layout_gravity="center"
+        android:id="@id/wamosub_loading_bar"
+        android:paddingTop="@dimen/dimen0f2d"
+        android:paddingBottom="@dimen/dimen0f2d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:attr028b="@color/color0790"
+        app:attr028c="?attr0a29"
+        style="progressBarStyle" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

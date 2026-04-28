@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a7"
+        android:textColor="@color/color08de"
+        android:id="@id/report_duration_title"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3553"
+        android:singleLine="true"
+        android:paddingStart="@dimen/dimen103b"
+        android:paddingEnd="@dimen/dimen103b"
+        app:attr0a24="wds_font_body2_emphasized" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a9"
+        android:textColor="?attr0a46"
+        android:gravity="center_vertical"
+        android:id="@id/report_duration_description"
+        android:paddingTop="@dimen/dimen1030"
+        android:paddingBottom="@dimen/dimen1030"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3550"
+        android:lineSpacingExtra="@dimen/dimen0e27"
+        android:paddingStart="@dimen/dimen103b"
+        android:paddingEnd="@dimen/dimen103b"
+        app:attr0a24="wds_font_body3_emphasized" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen103b"
+        android:paddingEnd="@dimen/dimen103b">
+        <RadioButton
+            android:id="@id/report_duration_15_minutes_radio_button"
+            android:paddingRight="@dimen/dimen103b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:gravity="center"
+            android:id="@id/report_duration_15_minutes_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str3551"
+            app:attr0494="@id/report_duration_15_minutes_radio_button"
+            app:attr04ac="@id/report_duration_15_minutes_radio_button"
+            app:attr04b1="@id/report_duration_15_minutes_radio_button"
+            app:attr0a24="wds_font_body2" />
+        <RadioButton
+            android:id="@id/report_duration_3_days_radio_button"
+            android:paddingRight="@dimen/dimen103b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            app:attr04ad="parent"
+            app:attr04b0="@id/report_duration_15_minutes_radio_button" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="?attr0a47"
+            android:gravity="center"
+            android:id="@id/report_duration_3_days_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str3552"
+            app:attr0494="@id/report_duration_3_days_radio_button"
+            app:attr04ac="@id/report_duration_3_days_radio_button"
+            app:attr04b1="@id/report_duration_3_days_radio_button"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/request_report_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen1036"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen0e26"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:text="@string/str354a"
+            app:attr04ad="parent"
+            app:attr04b0="@id/report_duration_3_days_radio_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

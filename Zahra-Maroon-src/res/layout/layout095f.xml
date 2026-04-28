@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingTop="@dimen/dimen0b5d"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/business_icons_container"
+        android:layout_width="wrap_content"
+        android:layout_height="44.0dip"
+        android:layout_marginTop="@dimen/dimen0b62"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/businesses_nux_placeholder" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:gravity="center|top"
+        android:id="@id/nearby_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:src="@drawable/ic_near_me"
+        android:text="@string/str0593"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/business_icons_container"
+        app:attr0a24="wds_font_body1"
+        style="@style/style0110" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a2f"
+        android:id="@id/allow_location_btn"
+        android:background="@drawable/rounded_rect"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingRight="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:drawablePadding="@dimen/dimen1030"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/nearby_hint" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a29"
+        android:gravity="center|top"
+        android:id="@id/more_options_btn"
+        android:background="?attr076d"
+        android:paddingTop="@dimen/dimen0b5d"
+        android:paddingBottom="@dimen/dimen0b5d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0590"
+        android:fontFamily="?attr03b8"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/allow_location_btn"
+        style="@style/style0111" />
+</androidx.constraintlayout.widget.ConstraintLayout>

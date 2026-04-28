@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen1002"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/menu_icon"
+        android:layout="@layout/layout0299"
+        android:inflatedId="@id/menu_icon"
+        android:layout_width="@dimen/dimen0f3a"
+        android:layout_height="@dimen/dimen0f3a"
+        android:layout_marginStart="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen103a"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen103a"
+        app:attr0490="true"
+        app:attr0495="@id/menu_sub_title"
+        app:attr049b="@id/menu_more"
+        app:attr04a3="@dimen/dimen0321"
+        app:attr04ac="@id/menu_icon"
+        app:attr04b1="parent"
+        app:attr04b2="0.5"
+        app:attr0a24="wds_font_body1"
+        style="@style/style05a4" />
+    <ViewStub
+        android:id="@id/menu_sub_title"
+        android:layout="@layout/layout029a"
+        android:inflatedId="@id/menu_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen103a"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr049b="@id/menu_more"
+        app:attr04a3="@dimen/dimen0321"
+        app:attr04ac="@id/menu_icon"
+        app:attr04b0="@id/menu_title" />
+    <ViewStub
+        android:id="@id/menu_more"
+        android:layout="@layout/layout0299"
+        android:inflatedId="@id/menu_more"
+        android:layout_width="@dimen/dimen0f3a"
+        android:layout_height="@dimen/dimen0f3a"
+        android:layout_marginStart="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen103a"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

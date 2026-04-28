@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+        android:id="@id/text_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0489="card" />
+    <ViewStub
+        android:layout_gravity="center"
+        android:id="@id/calls_tab_nux_invite_button_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0304"
+        android:inflatedId="@id/calls_tab_nux_invite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e" />
+</merge>

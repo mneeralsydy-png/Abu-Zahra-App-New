@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/edit_input_prompt_container"
+    android:paddingTop="@dimen/dimen0ce8"
+    android:paddingBottom="@dimen/dimen0ce8"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.metaai.imagine.InputPrompt
+        android:id="@id/edit_input_prompt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen066f"
+        app:attr007a="@color/color090a"
+        app:attr0100="@color/color092f"
+        app:attr0104="@color/color08c2"
+        app:attr043c="@string/str18f5"
+        app:attr06c4="true"
+        app:attr08e0="@color/color08c4" />
+</FrameLayout>

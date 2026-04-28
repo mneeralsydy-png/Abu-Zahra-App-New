@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon
+    android:id="@id/meta_ai_experience_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04e2="@string/str1d9b"
+    app:attr04e6="@drawable/vec_meta_ai_imagine_me_icon"
+    app:attr04e9="@string/str1d9a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

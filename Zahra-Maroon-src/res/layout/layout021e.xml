@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/root"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/background"
+        android:background="?attr0a33"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/title_background"
+        android:background="@color/color00f0"
+        android:paddingBottom="@dimen/dimen0048"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@android:id/list"
+        android:background="@null"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@color/color0790"
+        android:textFilterEnabled="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0.0dip"
+        android:fastScrollEnabled="false"
+        android:nestedScrollingEnabled="true" />
+    <FrameLayout
+        android:layout_gravity="top"
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+            android:id="@id/toolbar"
+            android:background="?attr0926"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0048"
+            android:transitionName="toolbar"
+            app:attr0655="@style/style0522"
+            app:attr08f4="@style/style01d5" />
+    </FrameLayout>
+    <View
+        android:layout_gravity="top"
+        android:id="@id/transition_clipper_top"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:transitionName="@string/str42df" />
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/transition_clipper_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:transitionName="@string/str42de" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

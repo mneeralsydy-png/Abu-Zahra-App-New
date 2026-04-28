@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/music_shape_static_content_1"
+            android:layout_width="@dimen/dimen09c9"
+            android:layout_height="@dimen/dimen09c9"
+            android:layout_marginLeft="98.5dip"
+            android:layout_marginTop="24.5dip"
+            android:rotation="10.8" />
+        <ImageView
+            android:id="@id/music_shape_static_content_2"
+            android:layout_width="@dimen/dimen09c9"
+            android:layout_height="@dimen/dimen09c9"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginTop="89.5dip"
+            android:rotation="346.5" />
+        <ImageView
+            android:id="@id/music_shape_background"
+            android:layout_width="@dimen/dimen09ca"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView
+        android:textSize="@dimen/dimen09cc"
+        android:textStyle="bold"
+        android:textColor="@color/color09a6"
+        android:ellipsize="end"
+        android:id="@id/music_shape_title"
+        android:paddingTop="@dimen/dimen1039"
+        android:paddingBottom="@dimen/dimen1030"
+        android:layout_width="@dimen/dimen09ca"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:paddingStart="@dimen/dimen1039"
+        android:paddingEnd="@dimen/dimen1039"
+        android:elevation="2.0dip" />
+    <TextView
+        android:textSize="@dimen/dimen09cc"
+        android:textColor="@color/color09a6"
+        android:ellipsize="end"
+        android:id="@id/music_shape_artist"
+        android:paddingBottom="@dimen/dimen1030"
+        android:layout_width="@dimen/dimen09ca"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:paddingStart="@dimen/dimen1039"
+        android:paddingEnd="@dimen/dimen1039" />
+</LinearLayout>

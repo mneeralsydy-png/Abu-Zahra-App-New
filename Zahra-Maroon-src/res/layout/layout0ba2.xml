@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen102e">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:id="@id/admin_profile_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avatar_contact_colorable"
+            android:importantForAccessibility="no"
+            app:attr0674="circle"
+            app:attr0675="xx_large" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen09f9"
+            android:textColor="?attr0a2f"
+            android:gravity="center"
+            android:id="@id/admin_profile_initials"
+            android:background="@drawable/newsletter_admin_initials_background"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen100c"
+            android:layout_height="@dimen/dimen100c"
+            android:importantForAccessibility="no"
+            app:attr03ae="?attr03b8" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen0fc8"
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:id="@id/admin_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen103a" />
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView
+        android:layout_gravity="center_vertical"
+        android:id="@id/search_input_container"
+        android:scrollbars="none"
+        android:fadingEdgeLength="10.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:layout_weight="1.0"
+        android:requiresFadingEdge="horizontal">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/input_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@id/focus_dummy"
+                android:focusableInTouchMode="true"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip" />
+            <ViewStub
+                android:id="@id/search_input_type_token_view_stub"
+                android:layout="@layout/layout0ec8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen0c4d" />
+            <ViewStub
+                android:id="@id/search_input_chat_token_view_stub"
+                android:layout="@layout/layout0ec2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen0c4d" />
+            <ViewStub
+                android:id="@id/search_input_smart_filter_token_view_stub"
+                android:layout="@layout/layout0ec7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen0c4d" />
+            <ViewStub
+                android:id="@id/remote_entity_filter_token_stub"
+                android:layout="@layout/layout0ec1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen0c4d" />
+            <ViewStub
+                android:id="@id/search_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen0c4a"
+                android:minWidth="@dimen/dimen0c33"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ViewStub
+        android:id="@id/grid_list_toggle_view_stub"
+        android:layout="@layout/layout0ec3"
+        android:layout_width="@dimen/dimen0c36"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen0c35"
+        android:layout_marginEnd="@dimen/dimen0c35" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center|left"
+        android:id="@id/search_clear_btn"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3da9"
+        android:layout_marginEnd="@dimen/dimen1039"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="@color/color069c"
+        style="?attr0015" />
+    <ViewStub
+        android:id="@id/search_input_send_button_view_stub"
+        android:paddingLeft="@dimen/dimen1039"
+        android:paddingRight="@dimen/dimen1039"
+        android:layout="@layout/layout0ec6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ViewStub
+        android:id="@id/search_meta_ai_input_send_button"
+        android:visibility="gone"
+        android:layout="@layout/layout0ed7"
+        android:inflatedId="@id/search_meta_ai_input_send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:layout_marginEnd="@dimen/dimen1030" />
+    <ViewStub
+        android:id="@id/search_input_voice_input_button_view_stub"
+        android:layout="@layout/layout1203"
+        android:layout_width="@dimen/dimen0f3c"
+        android:layout_height="@dimen/dimen0f3c"
+        android:layout_marginStart="@dimen/dimen1039"
+        android:layout_marginEnd="@dimen/dimen1039" />
+</merge>

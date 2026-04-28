@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/fast_scroll_circle"
+        android:padding="@dimen/dimen1031"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:attr0838="@drawable/ic_alternate_email"
+        app:attr090d="?attr0a46" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="10.5sp"
+        android:textStyle="bold"
+        android:textColor="?attr0264"
+        android:gravity="center"
+        android:id="@id/important_badge"
+        android:background="@drawable/new_messages_indicator"
+        android:padding="@dimen/dimen102c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="16.0sp"
+        app:attr0083="?attr0263" />
+</FrameLayout>

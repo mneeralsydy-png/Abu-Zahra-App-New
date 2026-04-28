@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/add_pix_scrollview"
+        android:paddingBottom="@dimen/dimen1038"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        app:attr0495="@id/br_bottom_sheet_add_pix_button">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/br_bottom_sheet_pix_input_fields_container"
+            android:paddingLeft="@dimen/dimen102e"
+            android:paddingRight="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/pix_information_view_stub"
+                android:layout="@layout/layout0103"
+                android:inflatedId="@id/pix_information_view_inflated"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/smb_pix_information_view_stub"
+                android:layout="@layout/layout0f77"
+                android:inflatedId="@id/smb_pix_information_view_inflated"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+            <ViewStub
+                android:id="@id/legal_disclaimer_view_holder"
+                android:layout="@layout/layout09a4"
+                android:inflatedId="@id/legal_disclaimer_view_inflated"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.coreui.WaButtonWithLoader
+        android:textColor="?attr0a2f"
+        android:id="@id/br_bottom_sheet_add_pix_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen064c"
+        android:layout_marginBottom="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

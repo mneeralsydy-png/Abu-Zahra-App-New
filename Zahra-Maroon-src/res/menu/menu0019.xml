@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:enabled="true"
+        android:id="@id/default_item"
+        android:visible="true"
+        android:title=""
+        android:titleCondensed=""
+        app:attr07f1="always" />
+    <item
+        android:icon="@drawable/vec_ic_more"
+        android:enabled="true"
+        android:id="@id/more"
+        android:visible="true"
+        android:title="@string/str4035"
+        android:titleCondensed="@string/str4035"
+        app:attr07f1="always">
+        <menu>
+            <item
+                android:title="Placeholder" />
+        </menu>
+    </item>
+</menu>

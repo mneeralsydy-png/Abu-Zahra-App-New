@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/edit_selector"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout0ad6" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea">
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@id/edit_options_flow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cee"
+            app:attr0243="imagine_add_container, imagine_remove_container, imagine_change_container, imagine_animate_container, imagine_expand_container_wrapper"
+            app:attr039d="center"
+            app:attr039f="@dimen/dimen0cea"
+            app:attr03a0="packed"
+            app:attr03a6="center"
+            app:attr03a7="0.0"
+            app:attr03a8="@dimen/dimen0cea"
+            app:attr03aa="none"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent" />
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/imagine_add_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/imagine_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str02e6"
+                app:attr0009="media"
+                app:attr0083="@color/color09a9"
+                app:attr0411="@drawable/vec_ic_add"
+                app:attr096b="tonal"
+                app:attr09ea="large" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a2f"
+                android:id="@id/imagine_add_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cec"
+                android:text="@string/str02ea"
+                app:attr0a24="wds_font_body3"
+                style="@style/style05a8" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/imagine_remove_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/imagine_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str02ef"
+                app:attr0009="media"
+                app:attr0083="@color/color09a9"
+                app:attr0411="@drawable/vec_ic_imagine_remove"
+                app:attr096b="tonal"
+                app:attr09ea="large" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a2f"
+                android:id="@id/imagine_remove_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cec"
+                android:text="@string/str02ee"
+                app:attr0a24="wds_font_body3"
+                style="@style/style05a8" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/imagine_change_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/imagine_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str02e8"
+                app:attr0009="media"
+                app:attr0083="@color/color09a9"
+                app:attr0411="@drawable/vec_ic_imagine_change"
+                app:attr096b="tonal"
+                app:attr09ea="large" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a2f"
+                android:id="@id/imagine_change_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cec"
+                android:text="@string/str02ec"
+                app:attr0a24="wds_font_body3"
+                style="@style/style05a8" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/imagine_animate_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/imagine_animate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str02e7"
+                app:attr0009="media"
+                app:attr0083="@color/color09a9"
+                app:attr0411="@drawable/vec_ic_imagine_animate"
+                app:attr096b="tonal"
+                app:attr09ea="large" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a2f"
+                android:id="@id/imagine_animate_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0cec"
+                android:text="@string/str02eb"
+                app:attr0a24="wds_font_body3"
+                style="@style/style05a8" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/imagine_expand_container_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/imagine_expand_stub"
+                android:layout="@layout/layout086d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

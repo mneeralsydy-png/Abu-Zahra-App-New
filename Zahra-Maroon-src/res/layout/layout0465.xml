@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="@drawable/poll_invalid_text_background"
+    android:paddingLeft="@dimen/dimen103a"
+    android:paddingTop="@dimen/dimen1031"
+    android:paddingRight="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen1031"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:importantForAccessibility="no"
+        app:attr0838="@drawable/ic_warning_large"
+        app:attr090d="@color/color05d9" />
+    <TextView
+        android:textSize="@dimen/dimen0b14"
+        android:textColor="?attr066e"
+        android:layout_gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen1039"
+        android:text="@string/str41d0"
+        android:importantForAccessibility="yes"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen1039" />
+</LinearLayout>

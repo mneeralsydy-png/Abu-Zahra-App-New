@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="?attr0095"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="72.0dip"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/banner_icon"
+            android:background="@drawable/banner_info_circle"
+            android:padding="@dimen/dimen0107"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            app:attr0838="@drawable/ic_info_2"
+            app:attr090d="?attr0a2b" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen0cec"
+        android:paddingBottom="@dimen/dimen0cec"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:id="@id/banner_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="?attr03b8" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr066e"
+            android:id="@id/banner_subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str23e0" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="56.0dip"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/button_close"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close"
+            app:attr090d="@color/color01cd" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@id/rich_response_table_container_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen1030"
+    app:attr011e="@dimen/dimen0c12"
+    app:attr011f="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView
+        android:background="@drawable/rich_response_code_block_border"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:id="@id/table_layout"
+            android:background="@drawable/rich_response_table_cell_background"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:stretchColumns="*" />
+    </HorizontalScrollView>
+</androidx.cardview.widget.CardView>

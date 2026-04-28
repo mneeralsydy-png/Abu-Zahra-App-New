@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:id="@id/age_collection_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:background="@color/color08f8"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0cf3"
+        android:layout_alignParentTop="true" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color06c7"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/meta_ai_age_collection_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea"
+        android:text="@string/str07fc"
+        android:layout_centerInParent="true"
+        app:attr0a24="wds_font_body1_emphasized"
+        style="@style/style05a5" />
+</RelativeLayout>

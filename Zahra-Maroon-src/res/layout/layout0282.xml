@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen0b5e"
+    android:paddingTop="36.0dip"
+    android:paddingRight="@dimen/dimen0b5e"
+    android:paddingBottom="36.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/guideline"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:attr049e="0.5" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/nux_icon_3"
+            android:background="@drawable/gray_circle_with_border"
+            android:padding="@dimen/dimen0b5a"
+            android:layout_width="46.0dip"
+            android:layout_height="46.0dip"
+            android:layout_marginLeft="@dimen/dimen0b5c"
+            android:scaleType="center"
+            android:tint="@color/color0347"
+            app:attr0494="parent"
+            app:attr04ac="@id/guideline"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/ic_storefront" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/nux_icon_2"
+            android:background="@drawable/gray_circle_with_border"
+            android:padding="@dimen/dimen0b5a"
+            android:layout_width="46.0dip"
+            android:layout_height="46.0dip"
+            android:scaleType="center"
+            android:tint="@color/color0347"
+            app:attr0494="parent"
+            app:attr049a="@id/guideline"
+            app:attr04ad="@id/guideline"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/ic_home_work" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/nux_icon_1"
+            android:background="@drawable/gray_circle_with_border"
+            android:padding="@dimen/dimen0b5a"
+            android:layout_width="46.0dip"
+            android:layout_height="46.0dip"
+            android:layout_marginRight="@dimen/dimen0b5c"
+            android:scaleType="center"
+            android:tint="@color/color0347"
+            app:attr0494="parent"
+            app:attr049b="@id/guideline"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/ic_store_white_filled" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a46"
+        android:layout_gravity="center"
+        android:id="@id/business_search_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0b5d"
+        android:text="@string/str05eb"
+        android:textAlignment="center"
+        style="@style/style05a4" />
+</LinearLayout>

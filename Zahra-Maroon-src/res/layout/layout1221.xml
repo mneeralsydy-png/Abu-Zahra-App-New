@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.status.composer.infra.VoiceStatusProfileAvatarView
+        android:id="@id/voice_status_profile_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/voice_status_preview_playback"
+        android:padding="@dimen/dimen0cec"
+        android:visibility="gone"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_marginLeft="@dimen/dimen0ce8"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/str41c4"
+        app:attr0494="parent"
+        app:attr04a8="@id/voice_status_profile_avatar"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_play_arrow_gray"
+        app:attr090d="?attr0a2f"
+        style="@style/style0006" />
+    <com.whatsapp.status.composer.textcomposer.voice.VoiceStatusRecordingVisualizer
+        android:id="@id/voice_status_recording_visualizer"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        app:attr04a8="@id/voice_status_profile_avatar"
+        app:attr04aa="@id/voice_status_remaining_seconds_view" />
+    <com.whatsapp.media.conversation.waveforms.VoiceVisualizer
+        android:id="@id/voice_status_preview_visualizer"
+        android:paddingLeft="@dimen/dimen0d77"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:paddingRight="@dimen/dimen0d78"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:visibility="invisible"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0490="true"
+        app:attr04a8="@id/voice_status_preview_playback"
+        app:attr04aa="@id/voice_status_preview_delete"
+        app:attr067a="?attr0a2f"
+        app:attr067b="@dimen/dimen0d79"
+        app:attr067c="@color/color090e"
+        app:attr067d="@dimen/dimen0d7b"
+        app:attr067e="?attr0a2f"
+        app:attr0769="@color/color0910"
+        app:attr076a="@dimen/dimen0d7d"
+        app:attr076b="@dimen/dimen0d7e" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/voice_status_flashing_recording_view"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr04a8="@id/voice_status_profile_avatar"
+        app:attr04aa="@id/voice_status_remaining_seconds_view"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="12.0dip"
+            android:layout_height="12.0dip"
+            app:attr0838="@drawable/red_circle" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a2f"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen1039"
+            android:text="@string/str3a15"
+            app:attr0a24="wds_font_body1" />
+    </LinearLayout>
+    <com.whatsapp.voicerecorder.VoiceNoteSeekBar
+        android:id="@id/voice_status_preview_seek_bar"
+        android:visibility="invisible"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/voice_status_preview_visualizer"
+        app:attr04a7="@id/voice_status_preview_visualizer"
+        app:attr04ab="@id/voice_status_preview_visualizer"
+        app:attr04b1="@id/voice_status_preview_visualizer"
+        app:attr0980="0.0dip"
+        app:attr0981="0.0dip"
+        style="@style/style0547" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a2f"
+        android:id="@id/voice_status_remaining_seconds_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/voice_status_preview_delete"
+        android:padding="@dimen/dimen0cec"
+        android:visibility="gone"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_marginRight="@dimen/dimen0ce8"
+        android:scaleType="center"
+        android:contentDescription="@string/str3a06"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/ic_delete_red"
+        app:attr090d="?attr0a2f"
+        style="@style/style0006" />
+</merge>

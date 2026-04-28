@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/content"
+    android:paddingLeft="@dimen/dimen042e"
+    android:paddingTop="@dimen/dimen042e"
+    android:paddingRight="@dimen/dimen042e"
+    android:paddingBottom="@dimen/dimen042f"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.conversation.ui.conversationrow.DocumentPreviewView
+        android:id="@id/preview"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen03d7"
+        android:scaleType="centerCrop" />
+    <View
+        android:id="@id/preview_separator"
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="0.30000007dip" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/document_info_container"
+        android:background="?attr0a3d"
+        android:paddingLeft="@dimen/dimen03e4"
+        android:paddingRight="@dimen/dimen03e4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/icon"
+            android:paddingTop="@dimen/dimen03e4"
+            android:paddingBottom="@dimen/dimen03e4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter" />
+        <ViewStub
+            android:id="@id/thumb_container"
+            android:layout="@layout/layout04c5"
+            android:inflatedId="@id/thumb_container"
+            android:layout_width="@dimen/dimen0736"
+            android:layout_height="@dimen/dimen0734" />
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen03e4"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingRight="@dimen/dimen03e4"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="15.0sp"
+                    android:textColor="?attr0271"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:id="@id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/media_transfer_eta"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/style01ad" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/metadata_container"
+                android:paddingBottom="3.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/style01ad" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/bullet_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/style01ae" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/file_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/style01ad" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/bullet_file_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/style01ae" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/file_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/style01ad" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/control_btn_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/control_btn"
+                android:background="@null"
+                android:padding="@dimen/dimen03e4"
+                android:layout_width="42.0dip"
+                android:layout_height="42.0dip"
+                android:scaleType="fitCenter"
+                android:alpha="0.7"
+                app:attr090d="?attr02df" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/progress_bar"
+                android:layout="@layout/layout034d"
+                android:inflatedId="@id/progress_bar"
+                android:layout_width="42.0dip"
+                android:layout_height="42.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

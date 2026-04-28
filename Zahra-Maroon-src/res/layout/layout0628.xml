@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.calling.ui.dialer.DialpadKeyTextView
+        android:id="@id/dialpad_key_number"
+        style="@style/style01e2" />
+    <com.whatsapp.calling.ui.dialer.DialpadKeyTextView
+        android:id="@id/dialpad_key_letters"
+        style="@style/style01e3" />
+</merge>

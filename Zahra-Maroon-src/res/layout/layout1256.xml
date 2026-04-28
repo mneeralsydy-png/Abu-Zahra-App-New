@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08fe"
+        android:gravity="center"
+        android:id="@id/waiting_room_join_request_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0a1e="horizontal">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/waiting_room_join_request_deny_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/dimen0efb"
+            android:text="@string/str3b46"
+            app:attr0009="media"
+            app:attr0411="@drawable/wds_ic_close"
+            app:attr096b="outline"
+            app:attr09ea="Medium" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/waiting_room_join_request_approve_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/dimen0efb"
+            android:text="@string/str3b45"
+            app:attr0009="calling"
+            app:attr0411="@drawable/wa_ic_check"
+            app:attr0922="calling"
+            app:attr096b="tonal"
+            app:attr09ea="Medium" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</merge>

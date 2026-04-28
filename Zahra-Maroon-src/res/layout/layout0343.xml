@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.settings.SettingsRowIconText
+    android:id="@id/wallpaper_preference"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr07a5="?attr0a46"
+    app:attr07a8="@drawable/ic_palette"
+    app:attr07ab="@string/str0f2a"
+    style="?attr07a6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,35 @@
+.class public final LX/EAO;
+.super LX/GB9;
+.source ""
+
+
+# instance fields
+.field public final synthetic A00:LX/E5W;
+
+
+# direct methods
+.method public constructor <init>(LX/E5W;)V
+    .locals 0
+
+    iput-object p1, p0, LX/EAO;->A00:LX/E5W;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic BEQ(Ljava/lang/Object;)V
+    .locals 1
+
+    iget-object v0, p0, LX/EAO;->A00:LX/E5W;
+
+    check-cast p1, LX/FUb;
+
+    iget-object v0, v0, LX/E5W;->A00:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, LX/FUb;->A00(Ljava/lang/String;)V
+
+    return-void
+.end method

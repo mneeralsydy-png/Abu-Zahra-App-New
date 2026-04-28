@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen102e"
+    android:paddingRight="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen1036" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@id/lock_animation"
+        android:layout_width="@dimen/dimen0fe9"
+        android:layout_height="@dimen/dimen0fe9"
+        app:attr0510="false"
+        app:attr051a="false" />
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen1030" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05ab"
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:id="@id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1944" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a7"
+        android:textColor="?attr0a47"
+        android:id="@id/action_button"
+        android:background="?attr076e"
+        android:paddingLeft="@dimen/dimen103b"
+        android:paddingTop="@dimen/dimen103a"
+        android:paddingRight="@dimen/dimen103b"
+        android:paddingBottom="@dimen/dimen103a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:text="@string/str1943" />
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen103a" />
+</LinearLayout>

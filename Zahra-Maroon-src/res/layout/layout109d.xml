@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="?attr09f1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/template_message_bottom_sheet_title"
+            android:paddingBottom="@dimen/dimen0dd5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str33bf" />
+        <androidx.core.widget.NestedScrollView
+            android:id="@id/template_button_list_bottom_sheet_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="false">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_1"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_1"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_2"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_2"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_3"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_3"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_4"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_4"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_5"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_5"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_6"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_6"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_7"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_7"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_8"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_8"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_9"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_divider_9"
+                    android:layout="@layout/layout0240"
+                    android:inflatedId="@id/bottom_sheet_template_message_divider_9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <ViewStub
+                    android:id="@id/hidden_bottom_sheet_template_message_button_10"
+                    android:layout="@layout/layout10a0"
+                    android:inflatedId="@id/bottom_sheet_template_message_button_10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/button_list_bottom_sheet_close_button"
+        android:background="?attr076e"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="@dimen/dimen102e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str3dac"
+        app:attr0838="@drawable/ic_close"
+        app:attr090d="@color/color01cd" />
+</FrameLayout>

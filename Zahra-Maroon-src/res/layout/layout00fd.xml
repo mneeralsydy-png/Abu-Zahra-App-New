@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@id/add_or_update_profile_link_content"
+    android:paddingTop="@dimen/dimen0126"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:isScrollContainer="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/dimen1039">
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/leftGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr049c="@dimen/dimen1037" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08bd"
+            android:id="@id/username_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:text="@string/str29c8"
+            app:attr04ac="@id/leftGuideline"
+            app:attr04b1="parent"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/icon_account"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:tint="@color/color08de"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr04ad="parent"
+            app:attr04b0="@id/username_title" />
+        <com.whatsapp.ui.coreui.WaEditText
+            android:id="@id/username_input"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen1039"
+            app:attr049a="parent"
+            app:attr04ac="@id/leftGuideline"
+            app:attr04b0="@id/username_title" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08ea"
+            android:id="@id/format_error_text"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:text="@string/str29c1"
+            android:layout_marginEnd="@dimen/dimen1039"
+            app:attr04ac="@id/leftGuideline"
+            app:attr04b0="@id/username_input"
+            app:attr0a24="wds_font_body2"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.wds.components.divider.WDSDivider
+            android:id="@id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            app:attr02db="thin"
+            app:attr04ad="parent"
+            app:attr04b0="@id/format_error_text" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="@color/color08de"
+            android:id="@id/help_text"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen103b"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/divider"
+            style="@style/style05a6" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/save_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen102e"
+            android:text="@string/str29c6"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr0494="parent"
+            app:attr04ad="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

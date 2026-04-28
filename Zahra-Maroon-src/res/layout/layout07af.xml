@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dimen0ce7"
+    android:paddingBottom="@dimen/dimen0ce7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0cea"
+    android:paddingEnd="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/thumbnail"
+        android:layout_width="@dimen/dimen05f7"
+        android:layout_height="@dimen/dimen05f7"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr07d0="@style/style01f1" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/barrier_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="start"
+        app:attr0243="checkmark,arrow_right" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/content"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0ce8"
+        android:paddingEnd="@dimen/dimen0ce8"
+        app:attr0494="@id/thumbnail"
+        app:attr049b="@id/barrier_end"
+        app:attr04ac="@id/thumbnail"
+        app:attr04b1="@id/thumbnail">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="?attr09f5"
+            android:textColor="?attr0a47"
+            android:layout_gravity="start"
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:textAlignment="viewStart" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="?attr0a01"
+            android:textColor="?attr0a46"
+            android:layout_gravity="start"
+            android:id="@id/count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/arrow_right"
+        android:layout="@layout/layout07ad"
+        android:inflatedId="@id/arrow_right"
+        android:layout_width="@dimen/dimen0fdb"
+        android:layout_height="@dimen/dimen0fdb"
+        app:attr0494="@id/thumbnail"
+        app:attr049a="parent"
+        app:attr04b1="@id/thumbnail" />
+    <ViewStub
+        android:id="@id/checkmark"
+        android:layout="@layout/layout07ae"
+        android:inflatedId="@id/checkmark"
+        android:layout_width="@dimen/dimen0fdb"
+        android:layout_height="@dimen/dimen0fdb"
+        app:attr0494="@id/thumbnail"
+        app:attr049a="parent"
+        app:attr04b1="@id/thumbnail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

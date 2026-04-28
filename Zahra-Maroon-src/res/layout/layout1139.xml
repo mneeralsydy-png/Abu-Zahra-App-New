@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@id/sticker_maker_button"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen0575"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/action_button"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/str321a"
+        app:attr0083="@color/color0930"
+        app:attr02ed="?attr0a2f"
+        app:attr096b="filled"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textStyle="bold"
+        android:textColor="@color/color0930"
+        android:id="@id/action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str321c"
+        android:importantForAccessibility="no" />
+</LinearLayout>

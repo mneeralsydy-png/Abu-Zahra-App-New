@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginStart="-12.0dip"
+        android:layout_marginEnd="@dimen/dimen0cea"
+        app:attr0838="@drawable/vec_ic_vertical_dashed_line"
+        app:attr090d="@color/color0347" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_width="@dimen/dimen0fdb"
+            android:layout_height="@dimen/dimen0fdb"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            app:attr0838="@drawable/vec_ic_calendar_month"
+            app:attr090d="@color/color08de" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="start"
+            android:id="@id/event_end_date"
+            android:background="?android:selectableItemBackground"
+            android:paddingTop="@dimen/dimen1035"
+            android:paddingBottom="@dimen/dimen1035"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            style="@style/style0406" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="end"
+            android:id="@id/event_end_time"
+            android:background="?android:selectableItemBackground"
+            android:paddingTop="@dimen/dimen1035"
+            android:paddingBottom="@dimen/dimen1035"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            style="@style/style0406" />
+    </LinearLayout>
+</LinearLayout>

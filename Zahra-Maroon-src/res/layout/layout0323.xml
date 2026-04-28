@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:id="@id/imagine_carousel_loading_lottie_static"
+    android:background="@drawable/carousel_loading_item_background"
+    android:layout_width="@dimen/dimen065e"
+    android:layout_height="@dimen/dimen065e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dimen065d"
+        android:layout_height="@dimen/dimen065d"
+        android:contentDescription="@string/str3ea2"
+        app:attr0838="@drawable/ic_vec_bot_magic" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.media.ui.MediaCardGrid
+    android:id="@id/product_catalog_media_card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr040b="?attr0a59"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

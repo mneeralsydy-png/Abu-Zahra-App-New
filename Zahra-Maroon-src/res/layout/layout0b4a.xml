@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+    android:id="@id/music_catalog_category_header"
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0234"
+    android:paddingEnd="@dimen/dimen0234"
+    app:attr003a="textButton"
+    app:attr02de="false"
+    app:attr03ed="1"
+    app:attr03ef="emphasized"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

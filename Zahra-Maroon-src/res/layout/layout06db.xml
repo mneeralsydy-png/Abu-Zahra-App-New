@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/call_type_dialog_disclaimer"
+        android:layout="@layout/layout06dc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginStart="@dimen/dimen0cee"
+        android:layout_marginEnd="@dimen/dimen0cee" />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea">
+        <RadioButton
+            android:theme="?attr079e"
+            android:id="@id/video_call_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:layout_marginBottom="@dimen/dimen0ce7"
+            android:paddingStart="@dimen/dimen0cea" />
+        <RadioButton
+            android:theme="?attr079e"
+            android:id="@id/voice_call_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:layout_marginBottom="@dimen/dimen0ce7"
+            android:paddingStart="@dimen/dimen0cea" />
+    </RadioGroup>
+</LinearLayout>

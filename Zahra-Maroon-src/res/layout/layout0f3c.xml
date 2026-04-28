@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:id="@id/main_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen0fed"
+            android:layout_marginTop="@dimen/dimen103b"
+            app:attr0838="@drawable/ic_note_lock_meta_ai" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08df"
+            android:id="@id/private_processing_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cee"
+            android:layout_marginBottom="@dimen/dimen0ce7"
+            android:text="@string/str2fa8"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="@color/color08de"
+            android:id="@id/private_processing_subheader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0ce7"
+            android:text="@string/str2fab"
+            android:layout_marginStart="@dimen/dimen0cea"
+            android:layout_marginEnd="@dimen/dimen0cea"
+            style="@style/style05a6" />
+        <View
+            android:id="@id/settings_divider"
+            android:background="?attr079a"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0c87"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/private_processing_toggle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c6="@string/str2fad"
+            app:attr06c8="body2"
+            app:attr06c9="@string/str2eba"
+            app:attr06ca="body1"
+            app:attr06e1="true"
+            app:attr06ec="wds_switch"
+            app:attr06f1="spacing_triple"
+            app:attr06f2="spacing_double"
+            app:attr0704="spacing_double" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/writing_help_title"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str2fae"
+            app:attr06e1="true"
+            app:attr06e2="compact"
+            app:attr06f2="spacing_single"
+            app:attr06f6="@drawable/wds_pencil_ai"
+            app:attr0702="icon"
+            app:attr0704="spacing_double" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/message_summaries_title"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c9="@string/str2faa"
+            app:attr06e1="true"
+            app:attr06e2="compact"
+            app:attr06f2="spacing_single"
+            app:attr06f6="@drawable/icn_summarization_android"
+            app:attr0702="icon"
+            app:attr0704="spacing_double" />
+        <View
+            android:id="@id/advanced_divider"
+            android:background="?attr079a"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0c87"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textColor="@color/color08de"
+            android:id="@id/advanced_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:text="@string/str2fa7"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e"
+            app:attr04d0="@dimen/dimen0fb5"
+            style="@style/style05a7" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/web_search_consent_toggle"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c6="@string/str2ec0"
+            app:attr06c8="body2"
+            app:attr06c9="@string/str2ebf"
+            app:attr06ca="body1"
+            app:attr06e1="true"
+            app:attr06ec="wds_switch"
+            app:attr06f1="spacing_triple"
+            app:attr06f2="spacing_double"
+            app:attr0704="spacing_double" />
+        <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+            android:id="@id/private_processing_internal_setting_toggle"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr06c6="@string/str2ebe"
+            app:attr06c8="body2"
+            app:attr06c9="@string/str2ebd"
+            app:attr06ca="body1"
+            app:attr06e1="true"
+            app:attr06ec="wds_switch"
+            app:attr06f1="spacing_triple"
+            app:attr06f2="spacing_double"
+            app:attr0704="spacing_double" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

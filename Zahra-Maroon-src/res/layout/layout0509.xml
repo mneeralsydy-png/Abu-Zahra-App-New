@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:id="@id/main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="30.0dip">
+        <ViewStub
+            android:id="@id/conversation_row_participant_header_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            layout="@layout/layout054e" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="top"
+                android:id="@id/paa_managed_account_message_icon"
+                android:padding="@dimen/dimen1035"
+                android:layout_width="@dimen/dimen0fdf"
+                android:layout_height="@dimen/dimen0fdf"
+                android:layout_marginLeft="@dimen/dimen1039"
+                android:layout_marginTop="@dimen/dimen1039"
+                android:layout_marginRight="@dimen/dimen1030"
+                android:layout_marginBottom="@dimen/dimen1039"
+                app:attr0838="@drawable/ic_info_2"
+                app:attr090d="@color/color08de" />
+            <view
+                android:layout_gravity="left"
+                android:paddingBottom="@dimen/dimen1035"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="com.whatsapp.ui.coreui.components.TextAndDateLayout">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textAppearance="?attr09f6"
+                    android:textColor="?attr0a46"
+                    android:textColorHighlight="?attr0955"
+                    android:layout_gravity="center|left|top"
+                    android:id="@id/paa_managed_account_message_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen1039"
+                    android:layout_marginRight="@dimen/dimen1039"
+                    android:layout_marginBottom="@dimen/dimen1039" />
+                <include
+                    layout="@layout/layout04ba" />
+            </view>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

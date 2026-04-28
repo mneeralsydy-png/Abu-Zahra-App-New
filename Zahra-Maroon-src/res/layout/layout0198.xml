@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View
+    android:background="@drawable/ar_effects_tab_active_indicator"
+    android:layout_width="@dimen/dimen00aa"
+    android:layout_height="@dimen/dimen00aa"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

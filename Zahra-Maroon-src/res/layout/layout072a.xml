@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.videoplayback.ExoPlayerErrorFrame
+        android:id="@id/exoplayer_error_elements"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.videoplayback.FbHeroPlaybackControlView
+        android:id="@id/controlView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:background="@color/color0911"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0048">
+        <ViewStub
+            android:layout_gravity="end"
+            android:id="@id/hidden_captions_img_stub"
+            android:layout="@layout/layout00e3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen102e" />
+    </com.whatsapp.ui.wds.components.topbar.WDSToolbar>
+</FrameLayout>

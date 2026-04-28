@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/conversation_row_participant_header_view_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <include
+                layout="@layout/layout054e" />
+            <include
+                layout="@layout/layout0588" />
+            <include
+                layout="@layout/layout04c3" />
+        </LinearLayout>
+        <com.whatsapp.ui.coreui.components.TextAndDateLayout
+            android:id="@id/text_and_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/layout050e" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="bottom|center|right"
+                android:orientation="horizontal"
+                android:id="@id/date_wrapper"
+                android:paddingLeft="@dimen/dimen03e4"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ViewStub
+                    android:id="@id/broadcast_icon"
+                    android:layout="@layout/layout0495"
+                    android:inflatedId="@id/broadcast_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/date"
+                    android:layout="@layout/layout04b8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:id="@id/status"
+                    android:paddingLeft="@dimen/dimen040c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center" />
+            </LinearLayout>
+        </com.whatsapp.ui.coreui.components.TextAndDateLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.CircularProgressBar
+    android:layout_gravity="center"
+    android:id="@id/loading"
+    android:layout_width="@dimen/dimen06c9"
+    android:layout_height="@dimen/dimen06c9"
+    android:indeterminateOnly="true"
+    app:attr028b="@color/color099d"
+    app:attr028c="@color/color09ad"
+    app:attr028d="@color/color099d"
+    app:attr028e="?attr00b0"
+    app:attr028f="@dimen/dimen02a4"
+    app:attr0290="10.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

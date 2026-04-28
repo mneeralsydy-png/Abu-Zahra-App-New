@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/eula_layout"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/eula_toolbar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView
+            android:id="@id/eula_scroll_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:fillViewport="true"
+            app:attr0495="@id/eula_accept_view"
+            app:attr04b1="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/container"
+                android:paddingBottom="@dimen/dimen103b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ViewStub
+                    android:id="@id/eula_logo"
+                    android:layout="@layout/layout06d4"
+                    android:inflatedId="@id/eula_logo"
+                    android:layout_width="@dimen/dimen104a"
+                    android:layout_height="@dimen/dimen0fd0"
+                    app:attr0495="@id/title"
+                    app:attr0499="1:1"
+                    app:attr04a7="parent"
+                    app:attr04ab="parent"
+                    app:attr04b1="parent"
+                    app:attr04b8="0.75" />
+                <ViewStub
+                    android:id="@id/eula_animation"
+                    android:layout="@layout/layout06d3"
+                    android:inflatedId="@id/eula_animation"
+                    android:layout_width="@dimen/dimen104a"
+                    android:layout_height="@dimen/dimen0fd0"
+                    app:attr0495="@id/title"
+                    app:attr0499="1:1"
+                    app:attr04a7="parent"
+                    app:attr04ab="parent"
+                    app:attr04b1="parent"
+                    app:attr04b8="0.75" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textColor="?attr0a47"
+                    android:id="@id/title"
+                    android:paddingLeft="@dimen/dimen102f"
+                    android:paddingRight="@dimen/dimen102f"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="@dimen/dimen0cf4"
+                    android:text="@string/str1338"
+                    android:maxLines="1"
+                    app:attr006d="@dimen/dimen0fcc"
+                    app:attr006e="@dimen/dimen0bd7"
+                    app:attr0071="uniform"
+                    app:attr0440="true"
+                    app:attr04b0="@id/eula_logo"
+                    style="@style/style0330" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:gravity="center"
+                    android:id="@id/eula_view"
+                    android:paddingLeft="@dimen/dimen102f"
+                    android:paddingRight="@dimen/dimen102f"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen0cea"
+                    android:text="@string/str1335"
+                    android:lineSpacingMultiplier="1.25"
+                    android:letterSpacing="0.018"
+                    app:attr04b0="@id/title"
+                    style="@style/style032f" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:gravity="center"
+                    android:id="@id/eula_manage_data"
+                    android:paddingLeft="@dimen/dimen102f"
+                    android:paddingRight="@dimen/dimen102f"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen103b"
+                    android:layout_marginBottom="@dimen/dimen103b"
+                    android:text="@string/str1331"
+                    android:lineSpacingMultiplier="1.25"
+                    android:letterSpacing="0.018"
+                    app:attr04b0="@id/eula_view"
+                    style="@style/style032f" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/div"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:layout_marginRight="18.0dip"
+                    android:layout_marginBottom="4.0dip"
+                    android:text="@string/norah_permission_setting"
+                    android:onClick="norah_permission_setting"
+                    app:attr04a7="parent"
+                    app:attr04ab="parent"
+                    app:attr04b0="@id/eula_manage_data"
+                    style="@style/style055c" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/show_accounts"
+                    android:layout_width="1.0dip"
+                    android:layout_height="1.0dip"
+                    android:layout_marginLeft="18.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:layout_marginRight="18.0dip"
+                    android:layout_marginBottom="4.0dip"
+                    android:text="@string/show_accounts"
+                    app:attr04a7="parent"
+                    app:attr04ab="parent"
+                    app:attr04b0="@id/div"
+                    style="@style/style055c" />
+                <com.whatsapp.youbasha.backuprestore.RestoreBtn
+                    android:id="@id/div2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:layout_marginRight="18.0dip"
+                    android:layout_marginBottom="4.0dip"
+                    android:text="@string/str0190"
+                    app:attr04a7="parent"
+                    app:attr04ab="parent"
+                    app:attr04b0="@id/show_accounts"
+                    style="@style/style055c" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/eula_accept"
+                    android:layout_marginLeft="18.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:layout_marginRight="18.0dip"
+                    android:layout_marginBottom="4.0dip"
+                    android:text="@string/str1330"
+                    app:attr04a7="parent"
+                    app:attr04ab="parent"
+                    app:attr04b0="@id/div2"
+                    style="@style/style055c" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="top"
+        android:id="@id/fade_view"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen1037"
+        app:attr0838="@drawable/scroll_gradient_language_selector" />
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/debug_toolbar"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+</FrameLayout>

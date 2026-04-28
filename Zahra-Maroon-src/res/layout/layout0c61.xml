@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen103a"
+    android:layout_marginBottom="@dimen/dimen103a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/bank_image_border"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:src="@drawable/br_payments_bank_border" />
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:id="@id/bank_image"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:scaleType="centerCrop"
+            app:attr08aa="@dimen/dimen0f94" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/green_check"
+            android:background="@drawable/green_check_circular_border"
+            android:padding="@dimen/dimen1035"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:attr0838="@drawable/ic_check_circle_filled" />
+    </RelativeLayout>
+    <WebView
+        android:id="@id/bank_image_webview"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginEnd="@dimen/dimen102e" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:gravity="start"
+        android:layout_gravity="center_vertical"
+        android:id="@id/bank_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        app:attr0a24="wds_font_body1" />
+</LinearLayout>

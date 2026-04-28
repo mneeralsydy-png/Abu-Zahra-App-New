@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen1034"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen102e"
+            android:paddingEnd="@dimen/dimen102e">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/dimen0ce8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wds_illo_ptt_transcripts"
+                app:attr0838="@drawable/wds_illo_ptt_transcripts" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/dimen0ce8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3510"
+                android:paddingStart="@dimen/dimen102e"
+                android:paddingEnd="@dimen/dimen102e"
+                app:attr0a24="wds_font_headline1"
+                style="@style/style05aa" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/transcription_settings_subheading"
+                android:paddingBottom="@dimen/dimen0cee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3512"
+                android:paddingStart="@dimen/dimen102e"
+                android:paddingEnd="@dimen/dimen102e"
+                app:attr0a24="wds_font_body2"
+                style="@style/style05a6" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen103b"
+            android:paddingEnd="@dimen/dimen103b">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:paddingTop="@dimen/dimen0cea"
+                android:paddingBottom="@dimen/dimen0ce7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3514"
+                app:attr0a24="wds_font_body2_emphasized"
+                style="@style/style05a7" />
+            <RadioGroup
+                android:id="@id/transcription_settings_trigger_radio_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle
+                    android:id="@id/transcription_settings_trigger_automatic_radio_button"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen0cea"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr069a="@dimen/dimen103b"
+                    app:attr069b="@string/str42d8"
+                    app:attr069c="@string/str42d9" />
+                <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle
+                    android:id="@id/transcription_settings_trigger_manual_radio_button"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen0cea"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr069a="@dimen/dimen103b"
+                    app:attr069b="@string/str42da"
+                    app:attr069c="@string/str42db" />
+                <com.whatsapp.ui.coreui.radio.RadioButtonWithSubtitle
+                    android:id="@id/transcription_settings_trigger_none_radio_button"
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen0cea"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr069a="@dimen/dimen103b"
+                    app:attr069c="@string/str42dc" />
+            </RadioGroup>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/preferences_voice_message_transcription_choose_language_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:paddingTop="@dimen/dimen0cea"
+                    android:paddingBottom="@dimen/dimen0ce7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str3511"
+                    app:attr0a24="wds_font_body2_emphasized"
+                    style="@style/style05a7" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/preferences_voice_message_transcription_choose_language_view"
+                    android:paddingLeft="56.0dip"
+                    android:paddingTop="15.0dip"
+                    android:paddingRight="16.0dip"
+                    android:paddingBottom="15.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/style0363">
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str2ff9"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        style="?attr07b5" />
+                    <com.whatsapp.ui.coreui.base.WaTextView
+                        android:id="@id/preferences_voice_message_transcription_choose_language_name"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="?attr07b1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

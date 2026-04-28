@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@id/layout_frame"
+    android:background="?attr0a33"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+            android:id="@id/product_detail_image_toolbar"
+            android:background="@drawable/product_detail_image_toolbar_background"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr000d"
+            android:alpha="0.7"
+            android:importantForAccessibility="yes"
+            android:touchscreenBlocksFocus="false"
+            app:attr0655="@style/style0522"
+            app:attr08f4="@style/style01d5" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <ScrollView
+                android:id="@id/pdp_scroll_view"
+                android:background="?attr0a59"
+                android:scrollbars="none"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:overScrollMode="never">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@id/product_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <com.whatsapp.businessproduct.ui.biz.catalog.view.CatalogCarouselDetailImageView
+                        android:id="@id/catalog_carousel_detail_image_view"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <ViewStub
+                        android:id="@id/loading_product_text_view_stub"
+                        android:layout="@layout/layout09f1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <ViewStub
+                        android:id="@id/catalog_product_status_stub"
+                        android:inflatedId="@id/catalog_product_status"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <ViewStub
+                        android:layout_gravity="center_horizontal"
+                        android:id="@id/catalog_resubmit_button"
+                        android:layout="@layout/layout0329"
+                        android:inflatedId="@id/catalog_resubmit_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ViewStub
+                        android:id="@id/product_availability_label_view_stub"
+                        android:layout="@layout/layout0dd1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                    <com.whatsapp.ui.coreui.InfoCard
+                        android:orientation="vertical"
+                        android:id="@id/product_detail_container"
+                        android:paddingTop="@dimen/dimen102f"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                            android:textColor="?attr066e"
+                            android:ellipsize="end"
+                            android:id="@id/catalog_detail_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen0b62"
+                            android:maxLines="3"
+                            android:paddingStart="@dimen/dimen102e"
+                            android:paddingEnd="@dimen/dimen102e"
+                            style="@style/style05ab" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textColor="?attr066e"
+                            android:id="@id/catalog_detail_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen102e"
+                            android:paddingStart="@dimen/dimen102e"
+                            android:paddingEnd="@dimen/dimen102e"
+                            app:attr0a24="wds_font_body1"
+                            style="@style/style05a4" />
+                        <ViewStub
+                            android:id="@id/loading_indicator_view_stub"
+                            android:layout="@layout/layout0ddb"
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/dimen0b49" />
+                        <ViewStub
+                            android:id="@id/catalog_variants_carousel_fragment_stub"
+                            android:layout="@layout/layout032a"
+                            android:inflatedId="@id/catalog_variants_carousel_fragment"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+                        <com.whatsapp.business.biz.catalog.view.EllipsizedTextEmojiLabel
+                            android:textColor="?attr0a46"
+                            android:id="@id/catalog_detail_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen1039"
+                            android:layout_marginBottom="@dimen/dimen1039"
+                            android:paddingStart="@dimen/dimen102e"
+                            android:paddingEnd="@dimen/dimen102e"
+                            style="@style/style05a4" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textColor="?attr0a49"
+                            android:ellipsize="end"
+                            android:id="@id/catalog_detail_link"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen1039"
+                            android:layout_marginBottom="@dimen/dimen1039"
+                            android:maxLines="3"
+                            android:paddingStart="@dimen/dimen102e"
+                            android:paddingEnd="@dimen/dimen102e"
+                            app:attr0a24="wds_font_body1"
+                            style="@style/style05a4" />
+                        <com.whatsapp.ui.coreui.base.WaTextView
+                            android:textSize="@dimen/dimen0fb0"
+                            android:textColor="?attr0a46"
+                            android:ellipsize="end"
+                            android:id="@id/catalog_detail_sku"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen1039"
+                            android:layout_marginBottom="@dimen/dimen1039"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/dimen102e"
+                            android:paddingEnd="@dimen/dimen102e"
+                            app:attr0a24="wds_font_body1" />
+                        <ViewStub
+                            android:id="@id/message_business_btn"
+                            android:layout="@layout/layout0ab2"
+                            android:inflatedId="@id/message_business_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" />
+                        <ViewStub
+                            android:id="@id/product_actions_container"
+                            android:inflatedId="@id/product_actions_container"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+                        <ViewStub
+                            android:id="@id/request_report_btn_container"
+                            android:layout="@layout/layout0e63"
+                            android:inflatedId="@id/request_report_btn_container"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/dimen0b5d" />
+                    </com.whatsapp.ui.coreui.InfoCard>
+                    <ViewStub
+                        android:id="@id/divider_bizinfo"
+                        android:layout="@layout/layout0652"
+                        android:inflatedId="@id/divider_bizinfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dimen0b50" />
+                    <ViewStub
+                        android:id="@id/product_business_info_container"
+                        android:layout="@layout/layout0dd4"
+                        android:inflatedId="@id/product_business_info_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <ViewStub
+                        android:id="@id/divider_catalog_card"
+                        android:layout="@layout/layout0652"
+                        android:inflatedId="@id/divider_catalog_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dimen0b50" />
+                    <ViewStub
+                        android:id="@id/product_message_catalog_media_card"
+                        android:layout="@layout/layout0ddc"
+                        android:inflatedId="@id/product_message_catalog_media_card"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </ScrollView>
+            <ViewStub
+                android:layout_gravity="bottom"
+                android:id="@id/shadow_bottom"
+                android:layout="@layout/layout0ddd"
+                android:inflatedId="@id/shadow_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen0b62" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <ViewStub
+            android:id="@id/quantity_selector_cart_container"
+            android:layout="@layout/layout0e04"
+            android:inflatedId="@id/quantity_selector_cart_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/catalog_product_fab_stub"
+        android:inflatedId="@id/catalog_product_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e" />
+    <View
+        android:layout_gravity="top"
+        android:id="@id/transition_clipper_top"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:transitionName="@string/str42df" />
+    <View
+        android:layout_gravity="bottom"
+        android:id="@id/transition_clipper_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:transitionName="@string/str42de" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButtonGroup
+    android:layout_gravity="bottom|center"
+    android:id="@id/migrate_failed_transfer_btn_group"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen102e"
+    android:layout_marginRight="@dimen/dimen102e"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/transfer_failed_primary_cta_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1060"
+        style="@style/style055c" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/transfer_failed_secondary_cta_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str1062"
+        app:attr096b="tonal"
+        style="@style/style055e" />
+</com.whatsapp.ui.wds.components.button.WDSButtonGroup>

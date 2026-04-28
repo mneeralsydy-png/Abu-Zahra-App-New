@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/mute_icon"
+    android:background="@drawable/voice_chat_grid_view_mute_button_bg"
+    android:padding="@dimen/dimen1039"
+    android:layout_width="@dimen/dimen0fe7"
+    android:layout_height="@dimen/dimen0fe7"
+    android:layout_marginTop="@dimen/dimen1031"
+    android:src="@drawable/ic_voip_mute_filled"
+    android:tint="@color/color0902"
+    android:layout_marginStart="@dimen/dimen1031"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

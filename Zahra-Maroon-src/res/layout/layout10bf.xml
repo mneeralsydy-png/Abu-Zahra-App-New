@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/thunderstorm_contact_row_container"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/dimen0df0"
+    android:paddingBottom="@dimen/dimen0df0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/dimen0cee"
+    android:paddingEnd="@dimen/dimen0cee"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/contact_row_profile"
+        android:layout_width="@dimen/dimen0df3"
+        android:layout_height="@dimen/dimen0df3">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:id="@id/thunderstorm_contact_row_profile_icon"
+            android:layout_width="@dimen/dimen0cee"
+            android:layout_height="@dimen/dimen0cee"
+            android:src="@drawable/input_circle_normal"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true" />
+        <ViewStub
+            android:id="@id/thunderstorm_transfer_status_stub"
+            android:layout="@layout/layout10c5"
+            android:inflatedId="@id/thunderstorm_transfer_status_animation_view"
+            android:layout_width="@dimen/dimen0df3"
+            android:layout_height="@dimen/dimen0df3"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a47"
+            android:layout_gravity="start"
+            android:id="@id/thunderstorm_contact_row_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen0cf0"
+            android:textAlignment="viewStart"
+            whatsapp:attr03ae="?attr03b6"
+            whatsapp:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0759"
+            android:textColor="?attr0a46"
+            android:layout_gravity="start"
+            android:id="@id/thunderstorm_contact_row_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            whatsapp:attr03ae="?attr03b6" />
+    </LinearLayout>
+</LinearLayout>

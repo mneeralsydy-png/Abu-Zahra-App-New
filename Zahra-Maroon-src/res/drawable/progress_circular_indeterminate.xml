@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="16.0dip"
+    android:width="16.0dip"
+    android:viewportWidth="48.0"
+    android:viewportHeight="48.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:name="rotationGroup"
+        android:pivotX="24.0"
+        android:pivotY="24.0">
+        <path
+            android:name="progressPath"
+            android:pathData="M24,4 A20,20 0 1,1 4,24"
+            android:strokeColor="?attr0265"
+            android:strokeWidth="4.0"
+            android:trimPathStart="0.0"
+            android:trimPathEnd="1.0"
+            android:trimPathOffset="0.0"
+            android:strokeLineCap="round" />
+    </group>
+</vector>

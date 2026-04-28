@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/recent_activity_item_row_container"
+    android:background="@null"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen0450"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/item_photo_container"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:minWidth="@dimen/dimen1012"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:layout_gravity="top"
+            android:id="@id/recent_activity_detail_channel_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            app:attr0675="x_small" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_gravity="center"
+            android:id="@id/recent_activity_detail_status_photo"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen1012"
+            android:layout_height="@dimen/dimen0bba"
+            android:scaleType="centerCrop"
+            app:attr07d0="@style/style0725" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/item_info_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen102e"
+        whatsapp:attr0494="parent"
+        whatsapp:attr049a="parent"
+        whatsapp:attr04ac="@id/item_photo_container"
+        whatsapp:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:ellipsize="end"
+            android:id="@id/recent_activity_title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b1="parent"
+            whatsapp:attr04b2="0.0"
+            style="?attr09f0" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:ellipsize="end"
+            android:id="@id/recent_activity_subtitle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b0="@id/recent_activity_title"
+            whatsapp:attr04b2="0.0"
+            style="?attr09f6" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:ellipsize="none"
+            android:id="@id/recent_activity_subtitle_suffix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:singleLine="false"
+            whatsapp:attr04a3="0.0"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b0="@id/recent_activity_subtitle"
+            whatsapp:attr04b2="0.0"
+            style="?attr09f6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

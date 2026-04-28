@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/status_reactions_new_grid"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="@color/color09be"
+                android:layout_gravity="center_horizontal"
+                android:id="@id/status_reactions_nux_title"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str31c3"
+                app:attr0a24="wds_font_body1" />
+            <ViewStub
+                android:layout_gravity="center_horizontal"
+                android:id="@id/status_reactions_type_toggle_container_viewstub"
+                android:layout="@layout/layout100d"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+            <ViewStub
+                android:layout_gravity="center_horizontal"
+                android:id="@id/status_reactions_viewpager_type_toggle_container_viewstub"
+                android:layout="@layout/layout100e"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/avatar_grid_viewstub"
+                android:layout="@layout/layout100b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="16.0dip" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/new_emoji_grid_viewstub"
+                android:paddingBottom="24.0dip"
+                android:layout="@layout/layout1005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/reaction_viewpager_viewstub"
+                android:layout="@layout/layout0e21"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/squid_description_info"
+                android:layout="@layout/layout1014"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/avatar_coinflip_banner_placement"
+                android:inflatedId="@id/avatar_coinflip_banner_placement"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

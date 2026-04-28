@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/pinnedMessagesBanner"
+    android:background="?attr01ae"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:accessibilityTraversalBefore="@android:id/list"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0268"
+        android:paddingStart="0.0dip"
+        android:paddingEnd="0.0dip"
+        style="@style/style0577">
+        <com.whatsapp.pininchat.banner.PinInChatBannerMultiplePinsIndicator
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@id/pinnedMessagesBanner_multiple_pins_indicator"
+            android:paddingTop="@dimen/dimen0cec"
+            android:paddingBottom="@dimen/dimen0cec"
+            android:visibility="invisible"
+            android:layout_width="@dimen/dimen0af2"
+            android:layout_height="fill_parent" />
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/pinnedMessagesBanner_pinned_icon"
+            android:background="@drawable/rounded_square"
+            android:padding="@dimen/dimen1030"
+            android:clickable="false"
+            android:contentDescription="@string/str0516"
+            app:attr0838="@drawable/wa_ic_push_pin"
+            app:attr090d="@color/color08de"
+            style="@style/style0579" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@id/pinnedMessagesBanner_content"
+            android:layout_width="0.0dip"
+            android:minWidth="@dimen/dimen0aef"
+            android:lines="1"
+            android:layout_weight="1.0"
+            android:paddingEnd="@dimen/dimen1039"
+            style="@style/style057a" />
+        <ViewStub
+            android:id="@id/pinnedMessagesBanner_secondary_content_stub"
+            android:layout="@layout/layout0d21"
+            android:inflatedId="@id/pinnedMessagesBanner_secondary_content"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+        <ViewStub
+            android:id="@id/pinnedMessagesBanner_thumbnail_stub"
+            android:layout="@layout/layout0d22"
+            android:inflatedId="@id/pinnedMessagesBanner_thumbnail"
+            android:layout_width="@dimen/dimen0269"
+            android:layout_height="@dimen/dimen0269" />
+    </LinearLayout>
+    <View
+        android:layout_gravity="bottom"
+        style="@style/style0356" />
+</LinearLayout>

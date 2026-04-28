@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/details_bottom_sheet_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageButton
+                android:layout_gravity="start"
+                android:id="@id/ai_planner_bottom_sheet_close_button"
+                android:background="@color/color0790"
+                android:padding="@dimen/dimen0cea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/str3dac"
+                app:attr0838="@drawable/ic_close"
+                app:attr090d="@color/color08df" />
+            <com.whatsapp.ui.coreui.WaTabLayout
+                android:layout_gravity="center_horizontal"
+                android:id="@id/details_tab_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0bf5"
+                app:attr0884="@drawable/rich_response_details_bottom_sheet_tab_background"
+                app:attr088c="@color/info"
+                app:attr089f="@color/color08de" />
+        </FrameLayout>
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@id/details_view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

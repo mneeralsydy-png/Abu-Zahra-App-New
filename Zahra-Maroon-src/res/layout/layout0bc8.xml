@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.InfoCard
+    android:id="@id/newsletter_info_similar_newsletters_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style0257"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr0a59"
+        android:paddingBottom="@dimen/dimen0ce7"
+        style="@style/style0218">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:ellipsize="end"
+            android:paddingBottom="@dimen/dimen0ce7"
+            android:text="@string/str3062"
+            android:paddingStart="@dimen/dimen06a4"
+            android:paddingEnd="@dimen/dimen06a4"
+            style="@style/style021c" />
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@id/newsletter_info_similar_newsletters_shimmer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:orientation="horizontal"
+                android:id="@id/newsletter_info_similar_newsletters_list"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen0ce7"
+                android:layout_marginBottom="@dimen/dimen0ce7"
+                android:paddingStart="@dimen/dimen0ce8"
+                android:paddingEnd="@dimen/dimen0ce8"
+                app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+</com.whatsapp.ui.coreui.InfoCard>

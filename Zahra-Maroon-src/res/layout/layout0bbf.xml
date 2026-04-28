@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/message_translation_layout"
+        android:layout="@layout/layout0ac4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/newsletter_follower_list_footer_text_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="?attr0a4d"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/newsletter_followers_footer_text"
+            android:background="?attr0a59"
+            android:padding="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str2066"
+            app:attr0a24="wds_font_body2" />
+        <View
+            android:id="@id/list_bottom_shadow"
+            style="@style/style0282" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.InfoCard
+        android:id="@id/mv_action_card"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/mv_action_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_verified_badge_remove"
+            app:attr04e7="@color/color0347"
+            app:attr04e9="@string/str2125"
+            app:attr04ea="?attr0a47" />
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard
+        android:id="@id/unfollow_and_report_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <ViewStub
+            android:id="@id/transfer_ownership_btn"
+            android:layout="@layout/layout0bc9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/delete_newsletter_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_delete_white"
+            app:attr04e7="?attr0a4f"
+            app:attr04e9="@string/str0fdf"
+            app:attr04ea="?attr0a4f" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/unfollow_newsletter_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_logout"
+            app:attr04e7="?attr0a4f"
+            app:attr04e9="@string/str3620"
+            app:attr04ea="?attr0a4f" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/dismiss_yourself_newsletter_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_do_not_disturb_on"
+            app:attr04e7="?attr0a4f"
+            app:attr04e9="@string/str10d7"
+            app:attr04ea="?attr0a4f" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/report_contact_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_thumb_down"
+            app:attr04e7="?attr0a4f"
+            app:attr04e8="false"
+            app:attr04e9="@string/str2bf9"
+            app:attr04ea="?attr0a4f" />
+    </com.whatsapp.ui.coreui.InfoCard>
+</LinearLayout>

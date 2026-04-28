@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.divider.WDSDivider
+        android:id="@id/list_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039"
+        app:attr02db="thin" />
+    <com.whatsapp.ui.wds.components.list.footer.WDSSectionFooter
+        android:id="@id/block_list_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr03bc="@string/str1bda" />
+</LinearLayout>

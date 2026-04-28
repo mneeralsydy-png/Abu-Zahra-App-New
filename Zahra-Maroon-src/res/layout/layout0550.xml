@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:gravity="center"
+        android:id="@id/conversation_row_rta_folder_tip_header"
+        android:paddingTop="@dimen/dimen102e"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50.0dip"
+        android:text="@string/str2c13"
+        android:paddingStart="@dimen/dimen103b"
+        android:paddingEnd="@dimen/dimen103b"
+        app:attr0a24="wds_font_body2" />
+</FrameLayout>

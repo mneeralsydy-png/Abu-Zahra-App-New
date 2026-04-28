@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="@string/sleep_azkar1_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar2_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar2_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar3_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar4_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar4_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar5_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar5_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar6_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar6_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar7_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar7_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar2_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar8_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar9_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar4_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar10_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar5_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar11_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar6_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/sleep_azkar12_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar7_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+</LinearLayout>

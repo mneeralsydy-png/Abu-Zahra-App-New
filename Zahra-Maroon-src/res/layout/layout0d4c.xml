@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/color0806"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen103b"
+        android:paddingEnd="@dimen/dimen103b">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/pancake_parental_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen103b"
+            android:src="@drawable/wds_picto_communities_admin"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fc0"
+            android:textColor="@color/color0897"
+            android:id="@id/pancake_parental_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/pancake_parental_image"
+            app:attr0a24="wds_font_headline1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="@color/color0897"
+            android:id="@id/pancake_parental_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:textAlignment="center"
+            app:attr049a="@id/pancake_parental_title"
+            app:attr04ad="@id/pancake_parental_title"
+            app:attr04b0="@id/pancake_parental_title"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="@color/color0897"
+            android:id="@id/pancake_parental_link"
+            android:background="@drawable/link_background"
+            android:paddingTop="@dimen/dimen103a"
+            android:paddingBottom="@dimen/dimen103a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:drawablePadding="@dimen/dimen1030"
+            android:drawableStart="@drawable/wa_ic_link"
+            android:paddingStart="@dimen/dimen102e"
+            android:paddingEnd="@dimen/dimen102e"
+            app:attr02ed="@color/color0897"
+            app:attr049a="@id/pancake_parental_text"
+            app:attr04ad="@id/pancake_parental_text"
+            app:attr04b0="@id/pancake_parental_text"
+            app:attr0a24="wds_font_body2" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/pancake_parental_cta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:layout_marginBottom="@dimen/dimen103b"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04ad="parent"
+            app:attr04b0="@id/pancake_parental_link"
+            app:attr04b2="1.0"
+            app:attr04b4="1.0"
+            app:attr096b="filled"
+            style="@style/style0555" />
+    </LinearLayout>
+</ScrollView>

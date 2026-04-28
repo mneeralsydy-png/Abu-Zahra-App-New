@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.WaLinearLayout
+    android:orientation="vertical"
+    android:id="@id/encryption_key_vertical_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.WaLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4.0">
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+    </com.whatsapp.ui.coreui.WaLinearLayout>
+    <com.whatsapp.ui.coreui.WaLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4.0">
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+    </com.whatsapp.ui.coreui.WaLinearLayout>
+    <com.whatsapp.ui.coreui.WaLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4.0">
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+    </com.whatsapp.ui.coreui.WaLinearLayout>
+    <com.whatsapp.ui.coreui.WaLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4.0">
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+        <com.whatsapp.ui.coreui.CodeInputField
+            style="@style/style01fc" />
+    </com.whatsapp.ui.coreui.WaLinearLayout>
+</com.whatsapp.ui.coreui.WaLinearLayout>

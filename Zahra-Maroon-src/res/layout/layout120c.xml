@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/picture_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:id="@id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            app:attr0675="medium"
+            app:attr0838="@drawable/avatar_contact" />
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:id="@id/participant_picture"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            app:attr0675="medium" />
+    </FrameLayout>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:layout_gravity="center"
+        android:id="@id/fast_playback_overlay"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginBottom="3.0dip"
+        android:minWidth="74.0dip"
+        app:attr0009="media"
+        app:attr096b="tonal"
+        app:attr09ea="small" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom|center|left"
+        android:id="@id/headphone_overlay"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:attr0838="@drawable/headphone_played" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom|center|left"
+        android:id="@id/mic_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:attr0838="@drawable/mic_played" />
+</merge>

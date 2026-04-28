@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:paddingTop="@dimen/dimen1039"
+    android:paddingBottom="@dimen/dimen1039"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a47"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/unread_divider_tv"
+        android:background="@drawable/bar_new_messages_rounded"
+        android:paddingLeft="@dimen/dimen102f"
+        android:paddingRight="@dimen/dimen102f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0083="?attr0951"
+        app:attr0a24="wds_font_body3_emphasized" />
+</FrameLayout>

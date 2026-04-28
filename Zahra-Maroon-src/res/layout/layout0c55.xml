@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr000d">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center|left"
+            android:id="@id/back"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:contentDescription="@string/str3d62"
+            app:attr0838="@drawable/ic_arrow_back_white"
+            app:attr090d="@color/color02b3"
+            style="?attr0015" />
+        <FrameLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/title_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/fbpay_logo"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0838="@drawable/fbpay_logo" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style05c5"
+                android:textSize="@dimen/dimen0fb0"
+                android:textColor="@color/color02b1"
+                android:gravity="center_horizontal"
+                android:id="@id/title"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str1430"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                app:attr03ae="?attr03b8"
+                app:attr0a24="wds_font_body1" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center|right"
+            android:id="@id/lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16.0dip"
+            app:attr0838="@drawable/ic_fbpay_lock_gray"
+            app:attr090d="@color/color02b3" />
+    </FrameLayout>
+</merge>

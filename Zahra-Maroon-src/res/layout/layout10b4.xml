@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/content_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0"
+        android:importantForAccessibility="no"
+        android:paddingStart="@dimen/dimen1045"
+        android:paddingEnd="@dimen/dimen1045">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/entire_content_holder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.wds.components.internal.header.WDSHeader
+                android:id="@id/header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/content_container"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:layout_gravity="center_horizontal"
+                android:id="@id/footnote"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102e"
+                android:textAlignment="center"
+                style="@style/style0231" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen1045"
+        android:layout_marginEnd="@dimen/dimen1045">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_gravity="center_horizontal"
+            android:id="@id/footnote_footer"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103a"
+            android:textAlignment="center"
+            style="@style/style0231" />
+        <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+            android:layout_gravity="end"
+            android:id="@id/button_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102e"
+            android:layout_marginBottom="@dimen/dimen1039"
+            app:attr0a1e="vertical">
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/primary_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.ui.wds.components.button.WDSButton
+                android:id="@id/secondary_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr096b="borderless" />
+        </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen103a"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:id="@id/text_options_value"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr0a48"
+        android:id="@id/text_options_availability"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr04a3="0.1"
+        app:attr04a8="@id/text_options_value"
+        app:attr04aa="@id/text_options_selection_mark"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/text_options_selection_mark"
+        android:focusable="false"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:tint="?attr0a44"
+        app:attr0494="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/vec_ic_done" />
+</androidx.constraintlayout.widget.ConstraintLayout>

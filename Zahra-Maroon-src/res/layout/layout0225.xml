@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/bot_message_prompt"
+    android:background="@drawable/bot_message_prompt_background"
+    android:padding="@dimen/dimen0ce7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen0cea"
+    android:layout_marginRight="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr00c3"
+        android:id="@id/bot_message_prompt_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxWidth="200.0dip"
+        android:layout_weight="1.0"
+        style="?attr09f0" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:tint="?attr0a29"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        app:attr0838="@drawable/wa_ic_send" />
+</LinearLayout>

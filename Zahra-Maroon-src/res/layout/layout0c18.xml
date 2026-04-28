@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style0552"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        style="@style/style02c1" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:theme="?attr099b"
+        android:textSize="@dimen/dimen0fbc"
+        android:textColor="@color/color09da"
+        android:id="@id/ring_all_btn"
+        android:background="@drawable/btn_default"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="36.0dip"
+        android:text="@string/str2cf9"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="-6.0dip"
+        whatsapp:attr0009="calling"
+        whatsapp:attr096b="tonal"
+        whatsapp:attr09ea="small" />
+</LinearLayout>

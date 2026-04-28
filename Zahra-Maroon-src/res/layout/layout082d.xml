@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:layout_gravity="start|center"
+        android:id="@id/text"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingTop="11.0dip"
+        android:paddingRight="@dimen/dimen102e"
+        android:paddingBottom="11.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?attr04f8" />
+</FrameLayout>

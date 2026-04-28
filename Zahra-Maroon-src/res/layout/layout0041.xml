@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view
+    android:id="@id/action_needed_container"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    custom:attr075f="@drawable/view_history_icon"
+    class="com.whatsapp.payments.common.ui.widget.TransactionsExpandableView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen06a4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center|left|top"
+        android:id="@id/list_item_icon"
+        android:layout_width="@dimen/dimen0755"
+        android:layout_height="@dimen/dimen0755"
+        android:layout_marginLeft="@dimen/dimen0ce7"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginRight="@dimen/dimen0cee"
+        android:scaleType="center"
+        android:tint="?attr0a46"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0cee"
+        app:attr0838="@drawable/vec_ic_datasharing_v2" />
+    <LinearLayout
+        android:gravity="left"
+        android:layout_gravity="center|left"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/dimen0757"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <ViewStub
+            android:id="@id/mm_new_icon"
+            android:layout="@layout/layout05f1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:gravity="left"
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1eac"
+            style="@style/style010b" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0759"
+            android:textColor="?attr0a46"
+            android:gravity="left"
+            android:id="@id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str1eab" />
+    </LinearLayout>
+</LinearLayout>

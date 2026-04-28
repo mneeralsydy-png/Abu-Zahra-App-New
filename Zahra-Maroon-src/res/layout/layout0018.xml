@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="@style/style03dd"
+        android:textColor="?attr092a"
+        android:ellipsize="end"
+        android:id="@id/message"
+        android:background="?attr092b"
+        android:paddingLeft="@dimen/dimen0e04"
+        android:paddingTop="@dimen/dimen0e0c"
+        android:paddingRight="@dimen/dimen0e04"
+        android:paddingBottom="@dimen/dimen0e0c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0e05"
+        android:maxWidth="256.0dip"
+        android:maxLines="3"
+        android:paddingStart="@dimen/dimen0e04"
+        android:paddingEnd="@dimen/dimen0e04" />
+</LinearLayout>

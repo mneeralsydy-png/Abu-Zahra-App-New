@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/icon_container"
+    android:paddingTop="@dimen/dimen001a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/alert_icon"
+        android:tint="@color/color08de"
+        style="@style/style02a6" />
+</FrameLayout>

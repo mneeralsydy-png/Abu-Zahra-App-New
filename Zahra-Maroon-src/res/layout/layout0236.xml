@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/bottom_create_group"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str16e4"
+    app:attr0411="@drawable/ic_action_new_group"
+    style="@style/style055d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

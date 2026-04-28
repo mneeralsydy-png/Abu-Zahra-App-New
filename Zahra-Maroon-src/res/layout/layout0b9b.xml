@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:gravity="center"
+    android:id="@id/newsletter_admin_context_card_body"
+    android:focusable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    style="@style/style01a5"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

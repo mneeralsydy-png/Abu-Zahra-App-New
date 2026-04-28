@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/payment_details_row"
+    android:padding="@dimen/dimen0cea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_body2" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:id="@id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0a24="wds_font_body1" />
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.chatinfo.view.custom.ContactDetailsCard
+    android:orientation="vertical"
+    android:id="@id/contact_details_card"
+    android:visibility="visible"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.InfoCard
+        android:gravity="center"
+        android:id="@id/top_info_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0257">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fc0"
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/contact_title"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:paddingRight="@dimen/dimen06a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen06a0"
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/contact_subtitle"
+            android:paddingLeft="@dimen/dimen06a4"
+            android:paddingRight="@dimen/dimen06a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:layout_marginBottom="@dimen/dimen0cec" />
+        <ViewStub
+            android:id="@id/verified_profile_links_view_stub"
+            android:visibility="gone"
+            android:layout="@layout/layout115d"
+            android:inflatedId="@id/verified_profile_links_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1039"
+            android:layout_marginBottom="@dimen/dimen1039"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/contact_chat_status"
+            android:background="@drawable/contact_info_last_seen_background"
+            android:paddingLeft="@dimen/dimen0ce7"
+            android:paddingTop="@dimen/dimen0cf0"
+            android:paddingRight="@dimen/dimen0ce7"
+            android:paddingBottom="@dimen/dimen0cf0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cf0"
+            android:layout_marginBottom="@dimen/dimen0cf0" />
+        <TextSwitcher
+            android:gravity="center"
+            android:id="@id/status_text_switcher"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec"
+            android:layout_marginBottom="@dimen/dimen0cf0"
+            android:layout_marginStart="@dimen/dimen102f"
+            android:layout_marginEnd="@dimen/dimen102f">
+            <include
+                layout="@layout/layout10b0" />
+            <include
+                layout="@layout/layout10b0" />
+        </TextSwitcher>
+        <ViewStub
+            android:id="@id/hidden_contact_member_label"
+            android:layout="@layout/layout0841"
+            android:inflatedId="@id/hidden_contact_member_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce9"
+            android:layout_marginBottom="@dimen/dimen0ce9" />
+        <ViewStub
+            android:id="@id/paa_sponsor_manage_account_stub"
+            android:layout="@layout/layout0c44"
+            android:inflatedId="@id/paa_sponsor_manage_account_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            layout="@layout/layout0d13" />
+        <include
+            layout="@layout/layout03be" />
+        <ViewStub
+            android:id="@id/lists_management_card_stub"
+            android:inflatedId="@id/lists_management_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/customer_profile_actions_stub"
+            android:layout="@layout/layout05ee"
+            android:inflatedId="@id/customer_profile_actions_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/contact_note_card_stub"
+            android:visibility="gone"
+            android:inflatedId="@id/contact_note_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </com.whatsapp.ui.coreui.InfoCard>
+</com.whatsapp.chatinfo.view.custom.ContactDetailsCard>

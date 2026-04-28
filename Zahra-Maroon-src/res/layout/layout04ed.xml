@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen03a2"
+        android:gravity="center"
+        android:id="@id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0ce8"
+        android:paddingEnd="@dimen/dimen0ce8"
+        android:layout_marginStart="@dimen/dimen0cee"
+        android:layout_marginEnd="@dimen/dimen0cee"
+        app:attr04d0="18.0sp" />
+</merge>

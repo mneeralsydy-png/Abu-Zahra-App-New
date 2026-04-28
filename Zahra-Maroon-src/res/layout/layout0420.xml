@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:enabled="false"
+    android:orientation="horizontal"
+    android:id="@id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaDrawableNavigationImageView
+        android:layout_gravity="center|left"
+        android:id="@id/whatsapp_toolbar_home"
+        android:layout_width="@dimen/dimen0047"
+        android:layout_height="@dimen/dimen0047"
+        android:scaleType="center"
+        android:contentDescription="@string/str3d0d"
+        app:attr0838="?attr0405"
+        app:attr090d="?attr0a47"
+        style="@style/style0001" />
+    <FrameLayout
+        android:layout_gravity="center_vertical"
+        android:id="@id/contact_photo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+            android:layout_gravity="center|left"
+            android:id="@id/conversation_contact_photo"
+            android:layout_width="@dimen/dimen0047"
+            android:layout_height="@dimen/dimen0047"
+            android:layout_margin="@dimen/dimen0cec"
+            android:scaleType="fitCenter"
+            app:attr0675="small" />
+        <ViewStub
+            android:id="@id/conversation_interop_profile_photo"
+            android:layout="@layout/layout045f"
+            android:inflatedId="@id/conversation_interop_profile_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:id="@id/transition_start"
+            style="@style/style01ca" />
+        <ViewStub
+            android:id="@id/change_photo_progress_stub"
+            android:layout="@layout/layout0424"
+            style="@style/style01c9" />
+        <ViewStub
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/profile_photo_badge"
+            android:layout="@layout/layout0423"
+            android:inflatedId="@id/profile_photo_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/data_disclosure_status"
+            android:layout="@layout/layout11ce"
+            android:layout_width="@dimen/dimen08e7"
+            android:layout_height="@dimen/dimen08e7" />
+        <ViewStub
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/data_disclosure_status_v2"
+            android:layout="@layout/layout11d1"
+            android:layout_width="@dimen/dimen08e8"
+            android:layout_height="@dimen/dimen08e8" />
+        <ViewStub
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/data_disclosure_status_india_v2"
+            android:layout="@layout/layout11d0"
+            android:layout_width="@dimen/dimen08e8"
+            android:layout_height="@dimen/dimen08e8" />
+        <ViewStub
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/data_disclosure_status_bizai_v2"
+            android:layout="@layout/layout11cf"
+            android:layout_width="@dimen/dimen08e8"
+            android:layout_height="@dimen/dimen08e8" />
+    </FrameLayout>
+</LinearLayout>

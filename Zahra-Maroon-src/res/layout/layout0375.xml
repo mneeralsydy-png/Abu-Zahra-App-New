@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="?attr0a59"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/community_description_top_divider"
+        android:layout="@layout/layout037a"
+        android:inflatedId="@id/community_description_top_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen02dd"
+        android:layout_marginLeft="@dimen/dimen0cea"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:layout_marginRight="@dimen/dimen0cea" />
+    <com.whatsapp.ui.coreui.base.text.ReadMoreTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:gravity="start|center"
+        android:id="@id/community_description_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen02d6"
+        whatsapp:attr06be="2"
+        whatsapp:attr06c0="?attr0a29"
+        whatsapp:attr06c1="@string/str2aa4" />
+    <ViewStub
+        android:id="@id/community_description_bottom_divider"
+        android:layout="@layout/layout0379"
+        android:inflatedId="@id/community_description_bottom_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/my_search_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen0ce7"
+    android:contentDescription="@string/str420c"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center_vertical"
+        android:id="@id/search_bar_inner_layout"
+        android:background="@drawable/rounded_corner_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48.0dip"
+        android:layout_marginStart="@dimen/dimen0ce8"
+        android:layout_marginEnd="@dimen/dimen0ce8">
+        <ViewStub
+            android:id="@id/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen102e" />
+        <ViewStub
+            android:id="@id/search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

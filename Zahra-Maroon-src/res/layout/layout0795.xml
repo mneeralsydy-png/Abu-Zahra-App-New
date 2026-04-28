@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/thunderstorm_qr_code_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b1="parent"
+            app:attr0838="@drawable/vec_ios_to_android_finished" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?attr0a47"
+            android:id="@id/thunderstorm_qr_code_textview_headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102f"
+            android:text="@string/str3430"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/thunderstorm_qr_code_image" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:id="@id/thunderstorm_qr_code_textview_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen102f"
+            android:text="@string/str342f"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/thunderstorm_qr_code_textview_headline" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:gravity="center"
+            android:id="@id/thunderstorm_qr_code_textview_button_primary"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen103b"
+            android:text="@string/str342e"
+            app:attr04a7="parent"
+            app:attr04ab="parent"
+            app:attr04b0="@id/thunderstorm_qr_code_textview_body" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

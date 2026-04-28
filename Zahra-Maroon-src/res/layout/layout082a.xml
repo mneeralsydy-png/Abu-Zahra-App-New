@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:gravity="center"
+        android:id="@id/cag_non_admin_footer_disclaimer"
+        android:background="?attr0a59"
+        android:paddingTop="@dimen/dimen0cea"
+        android:paddingBottom="@dimen/dimen0cea"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str0806"
+        app:attr0a24="wds_font_body2" />
+    <View
+        android:id="@id/list_bottom_shadow"
+        style="@style/style0282" />
+    <com.whatsapp.ui.coreui.InfoCard
+        android:id="@id/third_party_chat_info_card"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/third_party_chat_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_info_small"
+            app:attr04e9="@string/str33fe" />
+    </com.whatsapp.ui.coreui.InfoCard>
+    <com.whatsapp.ui.coreui.InfoCard
+        android:id="@id/leave_and_report_info_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr040b="?attr0a59"
+        style="@style/style0256">
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/favorite_group_btn"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/vec_ic_favourite"
+            app:attr04e9="@string/str1484" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/list_group_btn"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/vec_list_icon"
+            app:attr04e9="@string/str01f3" />
+        <ViewStub
+            android:id="@id/action_remove_from_community_viewstub"
+            android:layout="@layout/layout0042"
+            android:inflatedId="@id/remove_or_deactivate_group_from_community"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/group_chat_info_clear_chat_option_view_stub"
+            android:layout="@layout/layout07f4"
+            android:inflatedId="@id/group_chat_info_clear_chat_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/exit_group_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_logout"
+            app:attr04e7="?attr0a4f"
+            app:attr04e9="@string/str13df"
+            app:attr04ea="?attr0a4f" />
+        <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+            android:id="@id/report_group_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04e6="@drawable/ic_thumb_down"
+            app:attr04e7="?attr0a4f"
+            app:attr04e8="false"
+            app:attr04e9="@string/str2bf6"
+            app:attr04ea="?attr0a4f" />
+    </com.whatsapp.ui.coreui.InfoCard>
+</LinearLayout>

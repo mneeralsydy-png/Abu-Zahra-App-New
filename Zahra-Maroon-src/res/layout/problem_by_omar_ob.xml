@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingRight="?android:scrollbarSize"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask48_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask49_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask37_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask38_by_omar_ob"
+        style="@style/omar3_ob" />
+    <TextView
+        android:text="@string/ask39_by_omar_ob"
+        style="@style/omar3_ob" />
+    <TextView
+        android:text="@string/ask40_by_omar_ob"
+        style="@style/omar3_ob" />
+    <TextView
+        android:text="@string/ask41_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask33_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask34_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask35_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask36_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask31_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask32_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask29_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask30_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask12_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask13_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask14_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask15_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask16_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask17_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask20_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask21_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:gravity="center"
+        android:text="@string/ask24_by_omar_ob"
+        style="@style/omar2_ob" />
+    <TextView
+        android:text="@string/ask25_by_omar_ob"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+</LinearLayout>

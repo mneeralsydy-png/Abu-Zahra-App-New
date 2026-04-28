@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">Nie można opuścić %d grup. Spróbuj ponownie.</item>
+        <item quantity="one">Nie udało się opuścić %d grupy. Spróbuj ponownie.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d powiadomień</item>
+        <item quantity="one">%1$d powiadomienie</item>
+        <item quantity="few">%1$d powiadomienia</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+    </plurals>
+</resources>

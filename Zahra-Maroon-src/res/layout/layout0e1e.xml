@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.reactions.ui.ReactionPlusView
+    android:id="@id/reactions_plus_button_recent_reactions"
+    android:layout_width="@dimen/dimen0bc1"
+    android:layout_height="@dimen/dimen0bc0"
+    android:layout_marginTop="@dimen/dimen0bbe"
+    android:layout_marginBottom="@dimen/dimen0bbe"
+    android:layout_marginStart="@dimen/dimen0bbf"
+    android:layout_marginEnd="@dimen/dimen0bbe"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

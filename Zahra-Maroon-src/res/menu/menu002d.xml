@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/vec_sticker_info_show_in_chat"
+        android:id="@id/menu_show_in_chat"
+        android:visible="false"
+        android:title="@string/str424e"
+        app:attr07f1="ifRoom" />
+    <item
+        android:icon="@drawable/ic_forward_white"
+        android:id="@id/menu_sticker_pack_share"
+        android:title="@string/str421a"
+        app:attr07f1="ifRoom" />
+</menu>

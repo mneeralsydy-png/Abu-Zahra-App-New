@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen103a"
+    android:paddingTop="12.0dip"
+    android:paddingRight="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox
+        android:id="@id/delete_media_checkbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.checkbox.WDSCheckbox
+        android:id="@id/delete_starred_checkbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3daa" />
+    <ViewStub
+        android:id="@id/dialog_clear_chat_radio_group"
+        android:layout="@layout/layout062c"
+        android:inflatedId="@id/dialog_clear_chat_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

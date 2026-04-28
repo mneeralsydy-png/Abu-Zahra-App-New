@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/verify_email_title_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+    <ScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen0ce7"
+            android:paddingBottom="@dimen/dimen0ce7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cee"
+            android:paddingEnd="@dimen/dimen0cee">
+            <ViewStub
+                android:layout_gravity="center"
+                android:id="@id/title_v2"
+                android:layout="@layout/layout0e45"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0cea" />
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textColor="?attr0a46"
+                android:gravity="center_horizontal"
+                android:id="@id/verify_email_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0cee"
+                android:text="@string/str38b3"
+                android:breakStrategy="simple"
+                style="@style/style05a6" />
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.CodeInputField
+                    android:textSize="@dimen/dimen0fc4"
+                    android:gravity="bottom|center"
+                    android:id="@id/verify_email_code_input"
+                    android:background="@null"
+                    android:layout_width="160.0sp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:digits=" 0123456789"
+                    android:inputType="phone" />
+                <ProgressBar
+                    android:id="@id/progress_bar_code_input_blocked"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dimen0cf0"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginBottom="@dimen/dimen0cee"
+                    android:progressDrawable="@drawable/email_auth_selector_progress_bar"
+                    android:importantForAccessibility="no"
+                    style="@android:style/Widget.ProgressBar.Horizontal" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/resend_code_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str38db"
+                    app:attr096b="borderless" />
+                <ViewStub
+                    android:id="@id/shortest_wait_time_text_view_stub"
+                    android:layout="@layout/layout0f63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+            <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:enabled="false"
+                    android:id="@id/verify_email_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="@dimen/dimen0ce7"
+                    android:text="@string/str2157"
+                    style="@style/style0555" />
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:id="@id/verify_email_skip"
+                    android:layout_width="fill_parent"
+                    android:text="@string/str427b"
+                    style="@style/style0557" />
+            </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

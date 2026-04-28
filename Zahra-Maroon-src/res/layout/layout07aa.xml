@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.view.SquareFrameLayout
+    android:background="@drawable/gallery_camera_holder_background"
+    android:paddingLeft="@dimen/dimen1030"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingRight="@dimen/dimen1030"
+    android:paddingBottom="@dimen/dimen103a"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="@dimen/dimen05fc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/action_tile_icon"
+            android:duplicateParentState="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/color08bd"
+            app:attr0838="@drawable/ic_photo_camera" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style05a6"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:id="@id/action_tile_label"
+            android:duplicateParentState="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen1030"
+            android:text="@string/str15ba"
+            android:maxLines="1"
+            app:attr0a24="wds_font_body2" />
+    </LinearLayout>
+</com.whatsapp.ui.coreui.base.view.SquareFrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:id="@id/add_newsletter_description"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/str1fde"
+    app:attr0411="@drawable/ic_edit"
+    app:attr096b="outline"
+    app:attr09ea="normal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

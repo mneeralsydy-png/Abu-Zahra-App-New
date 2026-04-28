@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/add_passkey_container"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/dimen099c"
+    android:paddingBottom="@dimen/dimen099c"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/add_passkey_icon_container"
+        android:background="@drawable/add_passkey_icon_circle_background"
+        android:layout_width="@dimen/dimen0999"
+        android:layout_height="@dimen/dimen0999"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/add_passkey_icon"
+            android:layout_width="@dimen/dimen099b"
+            android:layout_height="@dimen/dimen099b"
+            android:src="@drawable/vec_ic_add"
+            android:tint="@color/color08df" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen099d"
+        android:textColor="@color/color08df"
+        android:gravity="center_vertical"
+        android:id="@id/add_passkey_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str1f12"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/add_passkey_icon_container"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

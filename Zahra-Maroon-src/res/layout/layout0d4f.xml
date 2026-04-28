@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0b5d"
+    android:layout_marginBottom="@dimen/dimen0b5d"
+    style="@style/style012c"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_gravity="center_horizontal"
+        android:id="@id/popular_biz_shimmer_items"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/color0790" />
+</com.facebook.shimmer.ShimmerFrameLayout>

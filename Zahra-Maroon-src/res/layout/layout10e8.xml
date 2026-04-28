@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/camera_button"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_action_video_call_filled"
+        app:attr049b="@id/audio_route_button"
+        app:attr04a4="spread_inside"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0922="calling"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/audio_route_button"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_volume_up_filled"
+        app:attr049b="@id/mute_button"
+        app:attr04ac="@id/camera_button"
+        app:attr04b1="parent"
+        app:attr0922="calling"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/mute_button"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_voip_mute_filled_selector"
+        app:attr0441="true"
+        app:attr049a="parent"
+        app:attr04ac="@id/audio_route_button"
+        app:attr04b1="parent"
+        app:attr0922="calling"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a2f"
+        android:id="@id/camera_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str4308"
+        app:attr049a="@id/camera_button"
+        app:attr04ad="@id/camera_button"
+        app:attr04b0="@id/camera_button"
+        app:attr0a24="wds_font_body3" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a2f"
+        android:id="@id/audio_route_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        app:attr049a="@id/audio_route_button"
+        app:attr04ad="@id/audio_route_button"
+        app:attr04b0="@id/audio_route_button"
+        app:attr0a24="wds_font_body3" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a2f"
+        android:id="@id/mute_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str430f"
+        app:attr049a="@id/mute_button"
+        app:attr04ad="@id/mute_button"
+        app:attr04b0="@id/mute_button"
+        app:attr0a24="wds_font_body3" />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@id/row_1_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr009c="bottom"
+        app:attr0243="camera_text,audio_route_text,mute_text" />
+    <Space
+        android:id="@id/row_1_space"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen103b"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/row_1_barrier" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/more_button"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="calling"
+        app:attr0411="@drawable/ic_more_horiz"
+        app:attr049b="@id/screen_sharing_button"
+        app:attr04a4="spread_inside"
+        app:attr04ad="parent"
+        app:attr04b0="@id/row_1_space"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/screen_sharing_button"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0009="calling"
+        app:attr0411="@drawable/vec_ic_mobile_screen_share"
+        app:attr049b="@id/end_call_button"
+        app:attr04ac="@id/more_button"
+        app:attr04b0="@id/row_1_space"
+        app:attr0922="calling"
+        app:attr096b="tonal"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/end_call_button"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0411="@drawable/ic_action_end_call_filled"
+        app:attr049a="parent"
+        app:attr04ac="@id/screen_sharing_button"
+        app:attr04b0="@id/row_1_space"
+        app:attr0922="calling"
+        app:attr09ea="large" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a2f"
+        android:id="@id/more_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str4035"
+        app:attr049a="@id/more_button"
+        app:attr04ad="@id/more_button"
+        app:attr04b0="@id/more_button"
+        app:attr0a24="wds_font_body3" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a2f"
+        android:id="@id/screen_sharing_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str424b"
+        app:attr049a="@id/screen_sharing_button"
+        app:attr04ad="@id/screen_sharing_button"
+        app:attr04b0="@id/screen_sharing_button"
+        app:attr0a24="wds_font_body3" />
+    <com.whatsapp.ui.wds.components.textview.WDSTextView
+        android:textColor="?attr0a2f"
+        android:id="@id/end_call_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:text="@string/str3d79"
+        app:attr049a="@id/end_call_button"
+        app:attr04ad="@id/end_call_button"
+        app:attr04b0="@id/end_call_button"
+        app:attr0a24="wds_font_body3" />
+</merge>

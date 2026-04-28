@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/dc_postcode_bottom_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:layout_gravity="start"
+        android:id="@id/change_postcode_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen025f"
+        android:layout_marginTop="@dimen/dimen0260"
+        android:layout_marginRight="@dimen/dimen025f"
+        android:layout_marginBottom="@dimen/dimen0260"
+        android:lineSpacingExtra="5.0sp"
+        android:textAlignment="viewStart"
+        app:attr03ae="?attr03b8"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="?attr066e"
+        android:layout_gravity="start"
+        android:id="@id/change_postcode_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0264"
+        android:layout_marginRight="@dimen/dimen0264"
+        android:layout_marginBottom="@dimen/dimen0263"
+        android:lineSpacingExtra="5.0sp"
+        android:textAlignment="viewStart"
+        app:attr03ae="?attr03b6"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.WaEditText
+        android:textSize="@dimen/dimen0fb0"
+        android:layout_gravity="start"
+        android:id="@id/change_postcode_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0262"
+        android:layout_marginRight="@dimen/dimen0262"
+        android:layout_marginBottom="@dimen/dimen0261"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textAlignment="viewStart"
+        app:attr03ae="?attr03b6" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="@color/color0788"
+        android:layout_gravity="start"
+        android:id="@id/change_postcode_privacy_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0262"
+        android:layout_marginRight="@dimen/dimen0262"
+        android:layout_marginBottom="@dimen/dimen0265"
+        android:textAlignment="viewStart"
+        app:attr03ae="?attr03b6" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a4f"
+        android:layout_gravity="start"
+        android:id="@id/change_postcode_invalid_message"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0262"
+        android:layout_marginRight="@dimen/dimen0262"
+        android:layout_marginBottom="@dimen/dimen0265"
+        android:lines="3"
+        android:textAlignment="viewStart"
+        app:attr03ae="?attr03b6"
+        app:attr0a24="wds_font_body2" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen025d"
+        android:layout_marginBottom="@dimen/dimen025e">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/postcode_button_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str0a18"
+            android:maxLines="1"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            app:attr096b="borderless"
+            app:attr09ea="small" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/postcode_button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str0a17"
+            android:maxLines="1"
+            android:layout_toLeftOf="@id/postcode_button_enter"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/postcode_button_enter"
+            app:attr096b="borderless"
+            app:attr09ea="small" />
+    </RelativeLayout>
+</LinearLayout>

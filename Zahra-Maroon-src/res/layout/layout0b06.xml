@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/from_meta_logo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/str33a3"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:paddingTop="24.0dip"
+        android:paddingBottom="@dimen/dimen1038"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0838="@drawable/splash_from_meta" />
+</LinearLayout>

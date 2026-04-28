@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/multiple_passkey_settings_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/passkey_icon"
+        android:layout_width="@dimen/dimen099e"
+        android:layout_height="@dimen/dimen099e"
+        android:src="@drawable/vec_ic_key"
+        android:tint="@color/color08de"
+        android:layout_marginStart="@dimen/dimen103b"
+        app:attr048f="true"
+        app:attr0494="@id/passkey_row_secondary_text"
+        app:attr04ad="parent"
+        app:attr04b1="@id/passkey_row_primary_text"
+        app:attr04b2="0.5" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen099f"
+        android:textColor="@color/color08df"
+        android:id="@id/passkey_row_primary_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen102e"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr049b="@id/three_dot_button"
+        app:attr04ac="@id/passkey_icon"
+        app:attr04b1="parent"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen09a0"
+        android:textColor="@color/color08de"
+        android:id="@id/passkey_row_secondary_text"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen102e"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen103b"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr049b="@id/three_dot_button"
+        app:attr04ac="@id/passkey_icon"
+        app:attr04b0="@id/passkey_row_primary_text"
+        style="@style/style05a6" />
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:id="@id/three_dot_button"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:focusable="false"
+        android:layout_width="@dimen/dimen09a1"
+        android:layout_height="@dimen/dimen09a1"
+        android:layout_marginEnd="@dimen/dimen103b"
+        app:attr048f="true"
+        app:attr0494="@id/passkey_row_secondary_text"
+        app:attr049a="parent"
+        app:attr04b1="@id/passkey_row_primary_text"
+        app:attr04b2="0.5"
+        app:attr0838="@drawable/wa_ic_more_horiz"
+        app:attr090d="@color/color08dc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

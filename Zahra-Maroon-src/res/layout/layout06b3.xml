@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/empty_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/style01a4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/empty_list_heading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1dfb"
+        app:attr0495="@id/empty_list_footer_text"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr04b3="packed"
+        app:attr0a24="wds_font_headline1"
+        style="@style/style05aa" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/empty_list_footer_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:text="@string/str1dfa"
+        android:textAlignment="center"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/empty_list_heading_text"
+        style="@style/style05a6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

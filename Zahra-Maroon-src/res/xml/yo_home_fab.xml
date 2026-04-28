@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:icon="@drawable/home_floating1"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/HideFAB"
+        android:key="hide_fab"
+        android:defaultValue="false" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_fabutton"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/acj_fab_normal"
+        android:key="ModFabNormalColor"
+        android:summary="@string/acj_fab_normal_sum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_fabpressed"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/acj_fab_pressed"
+        android:key="ModFabPressedColor"
+        android:summary="@string/acj_fab_pressed_sum" />
+    <com.whatsapp.yo.ColorPref
+        android:icon="@drawable/abo_arab_ic_fabicon"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/acj_fab_icons"
+        android:key="ModFabTextColor" />
+    <SwitchPreference
+        android:icon="@drawable/abu_arab_meta_ai"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abu_arab_metaai"
+        android:key="MetaAI"
+        android:summary="@string/abu_arab_metaai_sum"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_fabmessage"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/hide_actionm"
+        android:key="hide_action_m"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_fabseen"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/hide_actionb"
+        android:key="hide_action_b"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abc_ic_menu_cut_mtrl_alpha"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/hide_action_s"
+        android:key="hide_action_s"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_fablog"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/hide_actionl"
+        android:key="hide_action_l"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_menu"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/abo_arab_home_fab"
+        android:key="hide_action_mas"
+        android:defaultValue="false" />
+    <SwitchPreference
+        android:icon="@drawable/abo_arab_ic_fabfouad"
+        android:layout="@layout/abu_arab_preference_layout"
+        android:title="@string/hide_actiona"
+        android:key="hide_action_a"
+        android:defaultValue="false" />
+</PreferenceScreen>

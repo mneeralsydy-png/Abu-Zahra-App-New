@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:id="@id/delete_wamo_sub_warning_text"
+    style="@style/style035f"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

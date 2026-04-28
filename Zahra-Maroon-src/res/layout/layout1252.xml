@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@id/wabai_message_label_layout"
+    android:paddingBottom="@dimen/dimen0ef6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="4.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str3aec"
+        android:paddingEnd="@dimen/dimen1035"
+        style="@style/style0567" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0838="@drawable/ic_wabai_stardust_message" />
+</LinearLayout>

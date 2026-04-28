@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/joinable_voice_chat_banner"
+    android:background="?attr01ae"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:ellipsize="end"
+        android:id="@id/title"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:paddingStart="@dimen/dimen0ce7"
+        android:paddingEnd="@dimen/dimen0ce7"
+        app:attr03ae="?attr03b6"
+        app:attr0495="@id/peer_avatar_layout"
+        app:attr049b="@id/join_btn"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_body3"
+        style="?attr04e0" />
+    <com.whatsapp.calling.ui.PeerAvatarLayout
+        android:id="@id/peer_avatar_layout"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:paddingStart="@dimen/dimen0ce7"
+        app:attr0494="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/title" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="@color/color092e"
+        android:ellipsize="end"
+        android:id="@id/subtitle"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/str1c1f"
+        android:paddingStart="@dimen/dimen0ce7"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        app:attr03ae="?attr03b8"
+        app:attr0494="@id/peer_avatar_layout"
+        app:attr049b="@id/join_btn"
+        app:attr04ac="@id/peer_avatar_layout"
+        app:attr04b1="@id/peer_avatar_layout"
+        app:attr0a24="wds_font_body2_emphasized" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/join_btn_pulse"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:scaleType="fitXY"
+        app:attr0494="@id/join_btn"
+        app:attr049a="@id/join_btn"
+        app:attr04ad="@id/join_btn"
+        app:attr04b1="@id/join_btn" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/join_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str430e"
+        android:contentDescription="@string/str3a73"
+        android:layout_marginStart="@dimen/dimen0ce7"
+        android:layout_marginEnd="@dimen/dimen0ce7"
+        app:attr0009="normal"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr09ea="small" />
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+        app:attr0494="parent"
+        style="@style/style0356" />
+</androidx.constraintlayout.widget.ConstraintLayout>

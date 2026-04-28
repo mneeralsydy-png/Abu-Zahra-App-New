@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView
+    android:gravity="right"
+    android:layout_gravity="center|right"
+    android:id="@id/music_shape_animated_background"
+    android:layout_width="@dimen/dimen09cf"
+    android:layout_height="@dimen/dimen09ce"
+    app:attr0510="false"
+    app:attr051a="true"
+    app:attr051c="@raw/lottie_vinyl_record_fullrotation_cropped"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

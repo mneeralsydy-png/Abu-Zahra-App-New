@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dimen103a"
+    android:paddingBottom="@dimen/dimen103a"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:paddingStart="@dimen/dimen103b"
+    android:paddingEnd="@dimen/dimen103b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:gravity="center"
+        android:id="@id/icon"
+        android:layout_width="@dimen/dimen0f15"
+        android:layout_height="@dimen/dimen0f15"
+        android:scaleType="fitXY"
+        android:textAlignment="center"
+        whatsapp:attr0838="@drawable/vec_ic_id_card"
+        whatsapp:attr090d="@color/color08de" />
+    <com.whatsapp.ui.coreui.base.text.ReadMoreTextView
+        android:textSize="@dimen/dimen0fb0"
+        android:textColor="@color/color08df"
+        android:gravity="start"
+        android:id="@id/wamo_group_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/dimen103b"
+        whatsapp:attr06be="3"
+        whatsapp:attr06c1="@string/str2aa4" />
+</LinearLayout>

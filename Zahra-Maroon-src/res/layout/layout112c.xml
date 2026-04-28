@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.avatar.style2.AvatarStyle2UpsellView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0db1"
+    android:layout_marginBottom="@dimen/dimen0db1"
+    android:layout_marginStart="@dimen/dimen05f1"
+    android:layout_marginEnd="@dimen/dimen0db0"
+    app:attr0836="StickerTray"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

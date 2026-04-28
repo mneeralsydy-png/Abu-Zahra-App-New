@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.stickers.StickerView
+    android:layout_gravity="center"
+    android:id="@id/sticker_view"
+    android:layout_width="@dimen/dimen00f0"
+    android:layout_height="@dimen/dimen00f0"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

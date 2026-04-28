@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.WaEditText
+        android:textSize="@dimen/dimen1043"
+        android:textColor="@color/color08c2"
+        android:textColorHint="@color/color08de"
+        android:gravity="center"
+        android:id="@id/prompt_edit_text"
+        android:background="@null"
+        android:paddingTop="@dimen/dimen0cea"
+        android:paddingBottom="@dimen/dimen0ce8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:inputType="textCapSentences|textMultiLine"
+        android:paddingStart="@dimen/dimen0cea"
+        android:paddingEnd="@dimen/dimen0cea"
+        style="@style/style05a4" />
+    <TextSwitcher
+        android:layout_gravity="center"
+        android:id="@id/hints_text_switch"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen1043"
+            android:textColor="@color/color08de"
+            android:gravity="center"
+            android:paddingTop="@dimen/dimen0cea"
+            android:paddingBottom="@dimen/dimen0ce8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cea"
+            android:paddingEnd="@dimen/dimen0cea"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen1043"
+            android:textColor="@color/color08de"
+            android:gravity="center"
+            android:paddingTop="@dimen/dimen0cea"
+            android:paddingBottom="@dimen/dimen0ce8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen0cea"
+            android:paddingEnd="@dimen/dimen0cea"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+    </TextSwitcher>
+</FrameLayout>

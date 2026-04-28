@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/imagine_animate_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <VideoView
+        android:id="@id/imagine_animate_video"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <Space
+        android:id="@id/imagine_animate_video_anchor"
+        android:layout_width="1.0dip"
+        android:layout_height="4.0dip"
+        app:attr049a="@id/imagine_animate_video"
+        app:attr04b1="@id/imagine_animate_video" />
+</androidx.constraintlayout.widget.ConstraintLayout>

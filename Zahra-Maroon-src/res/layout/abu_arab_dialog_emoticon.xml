@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:id="@id/mContent"
+    android:background="@color/delta_transparent"
+    android:paddingBottom="56.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <abu3arab.mas.views.RoundedLayout
+        android:id="@id/mRounded"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/abu_arab_dialog"
+        android:paddingTop="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16.0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@id/mSpinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16.0dip" />
+            <GridView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/mGrid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="10.0dip"
+                android:verticalSpacing="24.0dip"
+                android:stretchMode="spacingWidthUniform"
+                android:columnWidth="100.0dip"
+                android:numColumns="auto_fit" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

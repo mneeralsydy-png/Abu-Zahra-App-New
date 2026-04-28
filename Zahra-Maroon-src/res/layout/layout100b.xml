@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:id="@id/sticker_grid"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="3"
+    android:paddingStart="@dimen/dimen102e"
+    android:paddingEnd="@dimen/dimen102e"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_one"
+        style="@style/style03b2" />
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_two"
+        style="@style/style03b2" />
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_three"
+        style="@style/style03b2" />
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_four"
+        android:layout_marginBottom="@dimen/dimen103b"
+        style="@style/style03b2" />
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_five"
+        android:layout_marginBottom="@dimen/dimen103b"
+        style="@style/style03b2" />
+    <com.whatsapp.stickers.StickerView
+        android:id="@id/sticker_six"
+        android:layout_marginBottom="@dimen/dimen103b"
+        style="@style/style03b2" />
+</GridLayout>

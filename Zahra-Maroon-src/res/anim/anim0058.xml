@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    android:interpolator="@anim/anim0023"
+    android:duration="250"
+    android:startOffset="250"
+    android:fromXDelta="0.0"
+    android:toXDelta="5.0"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

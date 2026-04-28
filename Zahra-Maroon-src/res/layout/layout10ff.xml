@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/upcoming_call_log_root_view"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/call_row_container"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0716"
+        android:layout_marginTop="0.0dip"
+        android:layout_marginRight="@dimen/dimen0716"
+        android:layout_marginBottom="@dimen/dimen03b2">
+        <FrameLayout
+            android:id="@id/contact_photo_container"
+            android:layout_width="@dimen/dimen0715"
+            android:layout_height="@dimen/dimen0715"
+            whatsapp:attr04ad="parent"
+            whatsapp:attr04b1="parent">
+            <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+                android:layout_gravity="center"
+                android:id="@id/contact_photo"
+                android:padding="@dimen/dimen0ce7"
+                android:focusable="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                whatsapp:attr04ad="parent"
+                whatsapp:attr04b1="parent"
+                whatsapp:attr08a9="true"
+                whatsapp:attr08aa="@dimen/dimen0cc5" />
+            <ViewStub
+                android:layout_gravity="end|bottom|center"
+                android:id="@id/contact_badge_stub"
+                android:layout="@layout/layout02ce"
+                android:layout_width="@dimen/dimen01da"
+                android:layout_height="@dimen/dimen01da"
+                android:layout_marginBottom="@dimen/dimen01d8"
+                android:layout_marginEnd="@dimen/dimen01d8" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/call_info"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce8"
+            android:paddingStart="@dimen/dimen0ce7"
+            android:paddingEnd="@dimen/dimen0ce7"
+            whatsapp:attr049a="@id/barrier"
+            whatsapp:attr04ac="@id/contact_photo_container"
+            whatsapp:attr04b1="parent">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="17.0sp"
+                android:textColor="?attr099d"
+                android:ellipsize="end"
+                android:id="@id/call_title"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen0717"
+                android:layout_marginBottom="@dimen/dimen0332"
+                android:maxLines="2"
+                android:singleLine="false"
+                style="?attr04e1" />
+            <ViewStub
+                android:id="@id/upcoming_subtitle_stub"
+                android:layout="@layout/layout0973"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen0332" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="15.0sp"
+                android:textColor="@color/color036e"
+                android:id="@id/time_label"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3a7e" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@id/barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            whatsapp:attr009c="start"
+            whatsapp:attr0243="join_btn,rsvp_label" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/join_btn"
+            android:paddingLeft="@dimen/dimen0ce7"
+            android:paddingRight="@dimen/dimen0ce7"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7"
+            android:layout_marginBottom="@dimen/dimen0ce9"
+            android:text="@string/str430e"
+            whatsapp:attr0009="normal"
+            whatsapp:attr0411="@drawable/ic_videocam_white"
+            whatsapp:attr0494="parent"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04a5="1.0"
+            whatsapp:attr04ac="@id/barrier"
+            whatsapp:attr04b1="parent"
+            whatsapp:attr09ea="small" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/rsvp_label"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            whatsapp:attr0494="parent"
+            whatsapp:attr049a="parent"
+            whatsapp:attr04a5="1.0"
+            whatsapp:attr04ac="@id/barrier"
+            whatsapp:attr04b1="parent"
+            style="@style/style0241" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

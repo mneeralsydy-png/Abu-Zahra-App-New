@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="right"
+    android:id="@id/contextual_action_button_holder"
+    android:layout_width="40.0dip"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/contextual_action_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr090d="?attr0346"
+        style="@style/style0006" />
+    <View
+        android:layout_gravity="center|right|top"
+        android:id="@id/contextual_action_badge"
+        android:visibility="gone"
+        style="@style/style03bc" />
+</FrameLayout>

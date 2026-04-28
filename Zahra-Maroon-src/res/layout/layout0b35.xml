@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/row_container"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen034a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.profilephoto.WDSProfilePhoto
+        android:id="@id/photo"
+        android:layout_width="@dimen/dimen0334"
+        android:layout_height="@dimen/dimen0334"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr0675="small" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:id="@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:layout_marginStart="@dimen/dimen103a"
+        app:attr0494="parent"
+        app:attr04ac="@id/photo"
+        app:attr04b1="parent"
+        style="@style/style0289" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/invite_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        android:text="@string/str1a0d"
+        app:attr0009="normal"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr096b="borderless"
+        app:attr09ea="normal" />
+    <com.whatsapp.ui.wds.components.divider.WDSDivider
+        android:id="@id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr02db="thin"
+        app:attr0494="parent"
+        app:attr04ad="@id/name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

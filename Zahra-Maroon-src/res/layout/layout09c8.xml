@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/selector_orange_gradient"
+    android:paddingRight="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@id/cart_item_thumbnail_card"
+        android:layout_width="@dimen/dimen0750"
+        android:layout_height="@dimen/dimen0750"
+        android:layout_marginLeft="@dimen/dimen102e"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a"
+        app:attr011e="@dimen/dimen0233"
+        app:attr011f="0.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/cart_item_thumbnail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/cart_item_description_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103a"
+        android:layout_toLeftOf="@id/cart_item_price_container"
+        android:layout_toRightOf="@id/cart_item_thumbnail_card"
+        android:layout_marginStart="@dimen/dimen102e"
+        android:layout_marginEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/cart_item_title"
+            style="@style/style0321" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/cart_item_variant_info_1"
+            android:visibility="gone"
+            style="@style/style0323" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:id="@id/cart_item_variant_info_2"
+            android:visibility="gone"
+            style="@style/style0323" />
+        <com.whatsapp.business.biz.catalog.view.widgets.QuantitySelector
+            android:textAppearance="@style/style05a7"
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:id="@id/cart_item_quantity_selector"
+            android:paddingTop="@dimen/dimen1030"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="-6.0dip"
+            android:layout_marginTop="@dimen/dimen1039" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/cart_item_price_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a47"
+            android:id="@id/cart_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textColor="?attr0a46"
+            android:layout_gravity="end"
+            android:id="@id/cart_item_original_price"
+            style="@style/style031f" />
+    </LinearLayout>
+</RelativeLayout>

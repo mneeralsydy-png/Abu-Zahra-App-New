@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen054a"
+            android:layout_marginRight="@dimen/dimen054a">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:text="@string/str1246"
+                style="@style/style0203" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/encryption_key_info_info"
+                android:text="@string/str1245"
+                style="@style/style01fb" />
+            <RelativeLayout
+                android:id="@id/enc_key_background"
+                style="@style/style01fe">
+                <com.whatsapp.ui.wds.components.button.WDSButton
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textColor="?attr0a29"
+                    android:id="@id/encryption_key_info_middle_button"
+                    android:background="@color/color0790"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAllCaps="false"
+                    app:attr096b="borderless" />
+                <FrameLayout
+                    android:id="@id/encryption_key_info_encryption_key_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/encryption_key_info_bottom_button"
+        android:text="@string/str1244"
+        style="@style/style01ff" />
+</LinearLayout>

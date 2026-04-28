@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/add_participant_icon"
+        android:layout_width="@dimen/dimen0334"
+        android:layout_height="@dimen/dimen0334"
+        android:layout_marginLeft="@dimen/dimen1071"
+        android:layout_marginTop="@dimen/dimen1072"
+        android:layout_marginRight="@dimen/dimen1071"
+        android:layout_marginBottom="@dimen/dimen1072"
+        whatsapp:attr0838="@drawable/vec_ic_community_activity" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:layout_gravity="start|center"
+        android:id="@id/community_activity_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:layout_weight="1.0"
+        android:textAlignment="viewStart"
+        style="@style/style0285" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/community_unread_indicator"
+        android:visibility="visible"
+        android:layout_width="10.0dip"
+        android:layout_height="10.0dip"
+        android:layout_marginLeft="@dimen/dimen0746"
+        android:layout_marginRight="@dimen/dimen0747"
+        whatsapp:attr0838="@drawable/green_circle"
+        whatsapp:attr090d="?attr0953" />
+</merge>

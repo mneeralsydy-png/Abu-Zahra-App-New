@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/edit_community_info_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_edit_white"
+        app:attr04e8="false"
+        app:attr04e9="@string/str1162"
+        app:attr04eb="@dimen/dimen02d9" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/manage_groups_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_group_add"
+        app:attr04e8="false"
+        app:attr04e9="@string/str1c2d"
+        app:attr04eb="@dimen/dimen02d9" />
+    <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+        android:id="@id/community_settings_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04e6="@drawable/ic_settings"
+        app:attr04e9="@string/str0c4f"
+        app:attr04eb="@dimen/dimen02d9" />
+    <View
+        android:background="@drawable/community_divider_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

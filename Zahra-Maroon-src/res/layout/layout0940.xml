@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/link_btn"
+        android:background="@drawable/selector_orange_gradient"
+        android:paddingLeft="16.0dip"
+        android:paddingTop="@dimen/dimen1034"
+        android:paddingRight="16.0dip"
+        android:paddingBottom="@dimen/dimen1034"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+            android:enabled="false"
+            android:id="@id/icon"
+            android:layout_width="@dimen/dimen06fa"
+            android:layout_height="@dimen/dimen06fa"
+            android:scaleType="fitCenter"
+            app:attr08aa="@dimen/dimen06f9" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style05a5"
+                android:textColor="?attr0a47"
+                android:gravity="left"
+                android:id="@id/name"
+                android:paddingLeft="16.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                app:attr0a24="wds_font_body1_emphasized"
+                style="@style/style0285" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textColor="?attr0a45"
+                android:gravity="left"
+                android:id="@id/link"
+                android:paddingLeft="16.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                app:attr0a24="wds_font_body2"
+                style="@style/style05a6" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/qr_code_card_stub"
+        android:layout="@layout/layout0807"
+        android:inflatedId="@id/qr_code_card"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

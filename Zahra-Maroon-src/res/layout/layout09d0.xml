@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.settings.SettingsRowIconText
+        android:id="@id/ephemeral_duration_setting_row_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cea"
+        android:layout_marginBottom="@dimen/dimen0cea"
+        app:attr07a5="@color/color0347"
+        app:attr07a8="@drawable/ic_group_ephemeral_v3"
+        app:attr07ab="@string/str10df"
+        style="?attr07a6" />
+    <View
+        android:background="?attr0a33"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0ce7" />
+</LinearLayout>

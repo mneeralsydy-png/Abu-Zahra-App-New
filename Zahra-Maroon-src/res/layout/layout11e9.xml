@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_gravity="center_vertical"
+    android:id="@id/status_indicator"
+    android:layout_width="@dimen/dimen0fdf"
+    android:layout_height="@dimen/dimen0fdf"
+    android:layout_marginRight="@dimen/dimen1017"
+    android:scaleType="fitCenter"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

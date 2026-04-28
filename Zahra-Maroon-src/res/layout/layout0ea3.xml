@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <abu3arab.mas.chat.OnChatScrollUp
+        android:layout_gravity="center|top"
+        android:id="@id/scroll_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <abu3arab.mas.chat.CustomIconUp
+            android:background="@drawable/fast_scroll_circle"
+            android:padding="6.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            app:attr0838="@drawable/fast_scroll_arrow_up"
+            app:attr090e="src_in" />
+    </abu3arab.mas.chat.OnChatScrollUp>
+    <abu3arab.mas.chat.OnChatScrollDown
+        android:layout_gravity="bottom|center"
+        android:id="@id/scroll_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <abu3arab.mas.chat.CustomIconDown
+            android:background="@drawable/fast_scroll_circle"
+            android:padding="6.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            app:attr0838="@drawable/fast_scroll_arrow_down"
+            app:attr090e="src_in" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="10.5sp"
+            android:textStyle="bold"
+            android:textColor="?attr0264"
+            android:gravity="center"
+            android:id="@id/unseen_badge"
+            android:background="@drawable/new_messages_indicator"
+            android:padding="@dimen/dimen102c"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="16.0sp"
+            app:attr0083="?attr0263" />
+    </abu3arab.mas.chat.OnChatScrollDown>
+</FrameLayout>

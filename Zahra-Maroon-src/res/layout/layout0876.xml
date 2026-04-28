@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/imagine_pager_image_item_root"
+    android:padding="@dimen/dimen0662"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/imagine_pager_image_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent"
+        app:attr07d0="@style/style024d" />
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/image_pager_gray_loading_background"
+        android:background="@color/color0914"
+        android:visibility="invisible"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/imagine_pager_image_item"
+        app:attr049a="@id/imagine_pager_image_item"
+        app:attr04ad="@id/imagine_pager_image_item"
+        app:attr04b1="@id/imagine_pager_image_item"
+        app:attr07d0="@style/style024d" />
+</androidx.constraintlayout.widget.ConstraintLayout>

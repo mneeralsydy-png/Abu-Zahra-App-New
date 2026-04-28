@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub
+        android:id="@id/search_empty_state_transparency_banner_stub"
+        android:layout="@layout/layout0167"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:layout_marginStart="@dimen/dimen103a"
+        android:layout_marginEnd="@dimen/dimen103a" />
+    <include
+        android:id="@id/search_empty_state_prompt_1"
+        layout="@layout/layout0eaa" />
+    <include
+        android:id="@id/search_empty_state_prompt_2"
+        layout="@layout/layout0eaa" />
+    <include
+        android:id="@id/search_empty_state_prompt_3"
+        layout="@layout/layout0eaa" />
+    <View
+        android:id="@id/search_empty_state_divider"
+        style="@style/style0355" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/mute_icon"
+    android:layout_width="@dimen/dimen01c4"
+    android:layout_height="@dimen/dimen01c4"
+    android:layout_margin="?attr05c2"
+    android:contentDescription="@string/str4310"
+    app:attr0838="@drawable/vec_ic_voip_video_mute"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

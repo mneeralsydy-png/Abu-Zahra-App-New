@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center|right"
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:id="@id/main_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="30.0dip">
+        <ViewStub
+            android:id="@id/conversation_row_participant_header_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <include
+            layout="@layout/layout054e" />
+        <view
+            android:id="@id/conversation_text_row"
+            android:paddingLeft="@dimen/dimen0cf0"
+            android:paddingRight="@dimen/dimen0cec"
+            android:paddingBottom="@dimen/dimen0cf0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.whatsapp.ui.coreui.components.TextAndDateLayout">
+            <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                android:textSize="@dimen/dimen0fb6"
+                android:textColor="?attr075d"
+                android:gravity="start|center"
+                android:layout_gravity="left"
+                android:id="@id/message_text"
+                android:paddingLeft="@dimen/dimen03e4"
+                android:paddingTop="@dimen/dimen042e"
+                android:paddingRight="@dimen/dimen03e4"
+                android:paddingBottom="@dimen/dimen042e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:drawablePadding="@dimen/dimen05c6"
+                android:textAlignment="center" />
+            <include
+                layout="@layout/layout04bb" />
+        </view>
+    </LinearLayout>
+</merge>

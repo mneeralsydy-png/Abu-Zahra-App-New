@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/main_container"
+    android:paddingLeft="@dimen/dimen102f"
+    android:paddingRight="@dimen/dimen102f"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:orientation="vertical"
+        android:id="@id/main_layout"
+        android:background="?attr0798"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ViewStub
+                android:id="@id/proxy_host_text_input_layout"
+                android:inflatedId="@id/proxy_host_text_input_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen102f"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b1="parent" />
+            <View
+                android:id="@id/manual_proxy_setting_divider"
+                android:layout_marginTop="@dimen/dimen102e"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/proxy_host_text_input_layout"
+                style="@style/style0360" />
+            <ViewStub
+                android:id="@id/ports_header"
+                android:inflatedId="@id/ports_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr049b="@id/proxy_host_text_input_layout"
+                app:attr04a3="0.0"
+                app:attr04ad="parent"
+                app:attr04b0="@id/manual_proxy_setting_divider" />
+            <include
+                android:id="@id/chat_port_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/ports_header"
+                layout="@layout/layout11bc" />
+            <include
+                android:id="@id/media_port_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr049a="parent"
+                app:attr04ad="parent"
+                app:attr04b0="@id/chat_port_layout"
+                layout="@layout/layout11bc" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.fab.WDSFab
+        android:id="@id/save_proxy_button"
+        android:src="@drawable/ic_check_white"
+        android:contentDescription="@string/str3e2a"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        style="@style/style055f" />
+</androidx.constraintlayout.widget.ConstraintLayout>

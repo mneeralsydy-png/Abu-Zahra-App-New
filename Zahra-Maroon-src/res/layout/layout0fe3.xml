@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.status.textstatus.ui.RoundRectCardView
+        android:layout_gravity="center"
+        android:id="@id/web_page_preview_container"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen0d59"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0d55"
+        android:layout_marginRight="@dimen/dimen0d55"
+        android:layout_marginBottom="@dimen/dimen0d66"
+        app:attr011d="?attr0a5a"
+        app:attr011e="@dimen/dimen0d5b"
+        app:attr011f="0.0dip">
+        <LinearLayout
+            android:layout_gravity="center|top"
+            android:orientation="vertical"
+            android:id="@id/web_page_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.webpage.webpagepreview.WebPagePreviewView
+                android:id="@id/link_preview_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.whatsapp.status.textstatus.ui.RoundRectCardView>
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textColor="?attr0a2f"
+        android:textColorLink="?attr0a2f"
+        android:gravity="center"
+        android:id="@id/message_text"
+        android:paddingLeft="@dimen/dimen0d64"
+        android:paddingTop="@dimen/dimen0d66"
+        android:paddingRight="@dimen/dimen0d64"
+        android:paddingBottom="@dimen/dimen0d66"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.15" />
+</LinearLayout>

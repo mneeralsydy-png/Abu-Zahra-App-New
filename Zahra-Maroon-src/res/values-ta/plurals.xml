@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals02a1">
+        <item quantity="other">‎%d குழுக்களில் இருந்து வெளியேற முடியவில்லை. மீண்டும் முயலவும்.</item>
+        <item quantity="one">‎%d குழுவிலிருந்து வெளியேற முடியவில்லை. மீண்டும் முயலவும்.</item>
+    </plurals>
+    <plurals name="plurals02a3">
+        <item quantity="other">%1$d அறிவிப்புகள்</item>
+        <item quantity="one">%1$d அறிவிப்பு</item>
+    </plurals>
+    <plurals name="plurals02a4">
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+    </plurals>
+</resources>

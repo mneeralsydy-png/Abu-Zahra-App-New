@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/accounts_header"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0036="@drawable/ic_add_small"
+        app:attr0037="Add"
+        app:attr0039="@string/str2aaf"
+        app:attr003a="iconTextButton"
+        app:attr03ee="@string/str2aae"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/user_accounts"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/accounts_header" />
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/history_header"
+        android:paddingLeft="@dimen/dimen102e"
+        android:paddingRight="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr003a="none"
+        app:attr03ee="@string/str2ab0"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/user_accounts" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/history_list"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/bbps_branding_footer"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/history_header" />
+    <include
+        android:id="@id/bbps_branding_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0693"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        layout="@layout/layout01de" />
+</androidx.constraintlayout.widget.ConstraintLayout>

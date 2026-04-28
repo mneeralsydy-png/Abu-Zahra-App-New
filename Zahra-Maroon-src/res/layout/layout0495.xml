@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/broadcast_icon"
+    android:paddingLeft="@dimen/dimen1035"
+    android:paddingRight="@dimen/dimen1035"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/broadcast_status_icon"
+    android:contentDescription="@string/str0760"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

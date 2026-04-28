@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.components.MaxHeightLinearLayout
+    android:orientation="vertical"
+    android:id="@id/audio_chat_bottom_sheet"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr00a5="true"
+    app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:id="@id/header_v2_stub"
+        android:layout="@layout/layout11fa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen0cea" />
+    <ViewStub
+        android:id="@id/confirmation_lobby_stub"
+        android:layout="@layout/layout11f9"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:minHeight="@dimen/dimen0ea5"
+        android:layout_weight="1.0" />
+    <ViewStub
+        android:id="@id/call_grid_stub"
+        android:layout="@layout/layout11f8"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <ViewStub
+        android:layout_gravity="center_horizontal"
+        android:id="@id/timeout_state_stub"
+        android:layout="@layout/layout1201"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ea9" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        android:minHeight="@dimen/dimen0ea6">
+        <ViewStub
+            android:id="@id/voice_chat_footer_stub"
+            android:layout="@layout/layout11f5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:layout_gravity="center_horizontal"
+            android:id="@id/controls_card_stub"
+            android:layout="@layout/layout1227"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0cec" />
+    </FrameLayout>
+</com.whatsapp.ui.coreui.components.MaxHeightLinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@id/status_custom_audience_bottom_sheet"
+    android:paddingTop="@dimen/dimen102e"
+    android:paddingBottom="@dimen/dimen1034"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:textAlignment="center"
+    app:attr03bd="content_end"
+    app:attr0489="view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

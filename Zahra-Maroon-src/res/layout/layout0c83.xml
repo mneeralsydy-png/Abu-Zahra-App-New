@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:id="@id/order_detail_shimmer_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/order_detail_container"
+        android:background="?attr0a5a"
+        android:paddingLeft="@dimen/dimen0b5d"
+        android:paddingRight="@dimen/dimen0b5d"
+        android:paddingBottom="@dimen/dimen0b62"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:id="@id/item_thumbnail_container"
+            android:layout_width="@dimen/dimen0a6d"
+            android:layout_height="@dimen/dimen0a6d"
+            android:layout_marginTop="@dimen/dimen0b62"
+            android:layout_marginBottom="@dimen/dimen0b62"
+            app:attr011d="?attr0a5c"
+            app:attr011e="@dimen/dimen0a69"
+            app:attr011f="0.0dip"
+            app:attr04ad="parent"
+            app:attr04b1="parent" />
+        <View
+            android:layout_gravity="center"
+            android:id="@id/item_title_shimmer"
+            android:background="@drawable/category_loading_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="22.0dip"
+            android:layout_marginLeft="@dimen/dimen0a5b"
+            android:layout_marginTop="@dimen/dimen0a5b"
+            app:attr04ab="parent"
+            app:attr04ac="@id/item_thumbnail_container"
+            app:attr04b1="parent"
+            app:attr04bf="0.0dip" />
+        <View
+            android:layout_gravity="center"
+            android:id="@id/item_quantity_shimmer"
+            android:background="@drawable/category_loading_bg"
+            android:layout_width="80.0dip"
+            android:layout_height="16.0dip"
+            android:layout_marginLeft="@dimen/dimen0a5b"
+            android:layout_marginTop="@dimen/dimen1035"
+            app:attr04ac="@id/item_thumbnail_container"
+            app:attr04b0="@id/item_title_shimmer"
+            app:attr04bf="0.0dip" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

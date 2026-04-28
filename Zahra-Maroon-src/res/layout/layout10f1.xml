@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:layout_gravity="center"
+        android:id="@id/photo_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        whatsapp:attr08a9="false" />
+    <ViewStub
+        android:id="@id/foreground_video_stub"
+        android:layout="@layout/layout10f0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</merge>

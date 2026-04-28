@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    android:textColor="?attr075b"
+    android:id="@id/search_suggestion_chip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr01c3="?attr074b"
+    app:attr01c7="@drawable/ic_search_white"
+    app:attr01c9="16.0dip"
+    app:attr01ca="@color/color06a8"
+    app:attr01d2="1.0dip"
+    app:attr0415="@dimen/dimen0b60"
+    app:attr041e="@dimen/dimen0b62"
+    app:attr08f1="1.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

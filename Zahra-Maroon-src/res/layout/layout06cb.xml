@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.WaLinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen054a"
+            android:layout_marginRight="@dimen/dimen054a">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:id="@id/enc_backup_forced_reg_landing_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen054d"
+                android:layout_marginBottom="@dimen/dimen054c" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/enc_backup_validate_password_info_title"
+                android:text="@string/str1279"
+                style="@style/style0203" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/enc_backup_validate_password_info_subtitle_info"
+                android:text="@string/str1278"
+                style="@style/style01fb" />
+        </com.whatsapp.ui.coreui.WaLinearLayout>
+    </ScrollView>
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/enc_backup_validate_password_continue_button"
+        android:text="@string/str1274"
+        style="@style/style01ff" />
+    <com.whatsapp.ui.wds.components.button.WDSButton
+        android:id="@id/enc_backup_validate_password_turn_off_button"
+        android:text="@string/str127a"
+        style="@style/style0200" />
+</LinearLayout>

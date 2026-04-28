@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/cl_capture_activity_container"
+    android:background="?attr0709"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/camera_fragment_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="?attr070d"
+        app:attr0499="H,3:4"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <FrameLayout
+        android:id="@id/capture_overlay_fragment_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <FrameLayout
+        android:id="@id/diagnostic_view_container"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/camera_fragment_container"
+        app:attr049a="@id/camera_fragment_container"
+        app:attr04ad="@id/camera_fragment_container"
+        app:attr04b1="@id/camera_fragment_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

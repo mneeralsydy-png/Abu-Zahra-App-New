@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/wds_bottom_sheet_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr048c="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dimen103a"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen1039"
+        android:paddingEnd="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/close_button"
+            android:background="?attr076e"
+            android:padding="@dimen/dimen1039"
+            android:layout_width="@dimen/dimen0047"
+            android:layout_height="@dimen/dimen0047"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/wds_ic_close"
+            app:attr090d="?attr0a47" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str4082"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/dimen1039"
+            app:attr0a24="wds_font_headline2"
+            style="@style/style05ab" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/newsletter_list"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager" />
+    <ViewStub
+        android:id="@id/empty_state_stub"
+        android:layout="@layout/layout0bfb"
+        android:inflatedId="@id/empty_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/map_pin_layout"
+    android:background="@drawable/map_pin_background"
+    android:layout_width="@dimen/dimen0c09"
+    android:layout_height="@dimen/dimen0c09"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a9"
+        android:textColor="@color/color04be"
+        android:gravity="center"
+        android:id="@id/map_pin_text"
+        android:paddingBottom="1.0dip"
+        android:layout_width="@dimen/dimen0c09"
+        android:layout_height="@dimen/dimen0c09"
+        app:attr0a24="wds_font_body3_emphasized" />
+</FrameLayout>

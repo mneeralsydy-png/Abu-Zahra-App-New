@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:gravity="center_vertical"
+        android:padding="@dimen/dimen0afb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/tvSatisfactionLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr0494="parent"
+            app:attr04ad="parent"
+            app:attr04b1="parent"
+            style="@style/style0715" />
+        <RadioButton
+            android:id="@id/rbSelect"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="@null"
+            android:buttonTint="@color/color0643"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04b1="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:id="@id/divider"
+        android:background="@color/color0107"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+</LinearLayout>

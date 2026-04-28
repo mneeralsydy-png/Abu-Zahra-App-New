@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/survey_layout_content"
+    android:background="@drawable/in_chat_survey_bubble_background"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a47"
+        android:layout_gravity="center"
+        android:id="@id/sheet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen103a"
+        android:lineSpacingExtra="@dimen/dimen0cec"
+        android:fontFamily="@dimen/dimen0fce"
+        android:letterSpacing="0.02" />
+    <com.whatsapp.ui.wds.components.button.WDSButtonGroup
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/action_view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen103a"
+        android:layout_marginRight="@dimen/dimen103a"
+        android:layout_marginBottom="@dimen/dimen103a">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="@dimen/dimen0fb0"
+            android:id="@id/dismiss_btn"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str10cd"
+            android:lineSpacingExtra="@dimen/dimen0cec"
+            android:fontFamily="@dimen/dimen0fcd"
+            android:letterSpacing="0.01"
+            app:attr096b="outline"
+            app:attr09ea="small" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:textSize="@dimen/dimen0fb0"
+            android:id="@id/start_survey_btn"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/dimen0cec"
+            android:fontFamily="@dimen/dimen0fcd"
+            android:letterSpacing="0.01"
+            app:attr096b="tonal"
+            app:attr09ea="small" />
+    </com.whatsapp.ui.wds.components.button.WDSButtonGroup>
+</LinearLayout>

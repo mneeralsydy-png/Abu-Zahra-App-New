@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.search.WDSSearchBar
+        android:id="@id/search_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fb6"
+        android:textColor="?attr0a46"
+        android:id="@id/choose_category_hint_text_view"
+        android:paddingBottom="@dimen/dimen1039"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen103b"
+        android:text="@string/str079b"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr03ae="?attr03b8"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/search_bar"
+        app:attr0a24="wds_font_body2_emphasized" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/category_list"
+        android:paddingBottom="@dimen/dimen102e"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e"
+        app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/choose_category_hint_text_view" />
+    <ViewStub
+        android:id="@id/no_search_result_text_view"
+        android:layout="@layout/layout0990"
+        android:inflatedId="@id/no_search_result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1038"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/search_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

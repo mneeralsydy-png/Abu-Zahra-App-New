@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/layout12eb" />
+        <include
+            layout="@layout/layout12e1" />
+        <include
+            layout="@layout/layout12e0" />
+    </LinearLayout>
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center|right|top"
+        android:id="@id/cancel"
+        android:background="?attr076e"
+        android:paddingLeft="@dimen/dimen1030"
+        android:paddingTop="@dimen/dimen1030"
+        android:paddingRight="@dimen/dimen1030"
+        android:paddingBottom="@dimen/dimen1030"
+        android:visibility="gone"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        android:contentDescription="@string/str3c36"
+        app:attr0838="@drawable/ic_close" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center|right|top"
+        android:id="@id/full_screen_button"
+        android:background="?attr076e"
+        android:padding="@dimen/dimen1030"
+        android:visibility="gone"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        app:attr0838="@drawable/ic_pip_expand" />
+</merge>

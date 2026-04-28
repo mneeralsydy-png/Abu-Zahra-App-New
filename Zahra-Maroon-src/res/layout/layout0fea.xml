@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_gravity="center"
+    android:id="@id/polls_main_layout"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen102f"
+    android:shadowColor="@color/color089f"
+    app:attr011d="@color/color09be"
+    app:attr011e="12.0dip"
+    app:attr011f="3.0dip"
+    app:attr0122="true"
+    app:attr0123="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingBottom="5.0dip"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:gravity="start|center"
+            android:id="@id/poll_name"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style03a9" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/conversation_poll_type"
+            android:paddingLeft="@dimen/dimen103a"
+            android:paddingRight="@dimen/dimen103a"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen1030">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/multi_selection_poll_check_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0838="@drawable/ic_check_circle_small"
+                app:attr090d="?attr0a46" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textAppearance="@style/style02f2"
+                android:gravity="top"
+                android:layout_gravity="start"
+                android:id="@id/poll_subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/str41f8"
+                android:textAlignment="viewStart"
+                app:attr0a24="wds_font_chat_body3" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/poll_options_container"
+            android:paddingBottom="5.0dip"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04e6="@drawable/wds_ic_memory_ai"
+    app:attr04e9="@string/str1dff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

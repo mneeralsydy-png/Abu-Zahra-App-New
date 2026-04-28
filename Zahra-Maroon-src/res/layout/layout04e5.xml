@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/frame_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen1030">
+        <com.whatsapp.ui.coreui.WaFrameLayout
+            android:id="@id/conversation_row_payment_header_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <include
+                    android:id="@id/conversation_row_payment_amount_summary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/layout052e" />
+                <ViewStub
+                    android:id="@id/conversation_row_pay_with_methods"
+                    android:layout="@layout/layout0497"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+                <ViewStub
+                    android:id="@id/conversation_row_transaction_status"
+                    android:layout="@layout/layout0499"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </com.whatsapp.ui.coreui.WaFrameLayout>
+    </FrameLayout>
+</merge>

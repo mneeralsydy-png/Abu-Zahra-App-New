@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="center"
+    android:background="@drawable/music_shape_background"
+    android:padding="@dimen/dimen1031"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/music_shape_artwork"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04b1="parent" />
+    <ViewStub
+        android:id="@id/music_artwork_error"
+        android:layout="@layout/layout0b42"
+        android:inflatedId="@id/music_artwork_error"
+        android:layout_width="@dimen/dimen09c2"
+        android:layout_height="@dimen/dimen09c2"
+        app:attr0494="@id/music_shape_artwork"
+        app:attr049a="@id/music_shape_artwork"
+        app:attr04ad="@id/music_shape_artwork"
+        app:attr04b1="@id/music_shape_artwork" />
+    <TextView
+        android:textSize="@dimen/dimen09cd"
+        android:textStyle="bold"
+        android:textColor="@color/color089a"
+        android:ellipsize="end"
+        android:id="@id/music_shape_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:paddingStart="@dimen/dimen1039"
+        android:paddingEnd="@dimen/dimen1039"
+        app:attr0495="@id/music_shape_artist"
+        app:attr04a3="0.0"
+        app:attr04a8="@id/music_shape_artwork"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr04b5="percent" />
+    <TextView
+        android:textSize="@dimen/dimen09cd"
+        android:textColor="@color/color089a"
+        android:ellipsize="end"
+        android:id="@id/music_shape_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:paddingStart="@dimen/dimen1039"
+        android:paddingEnd="@dimen/dimen1039"
+        app:attr0494="parent"
+        app:attr04a3="0.0"
+        app:attr04a8="@id/music_shape_artwork"
+        app:attr04ab="parent"
+        app:attr04b0="@id/music_shape_title"
+        app:attr04b5="percent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

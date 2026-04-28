@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="@string/evning_azkar1_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar2_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar2_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar3_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar4_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar4_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar5_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar5_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar6_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar6_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar7_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar7_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar2_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar8_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar9_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar4_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar10_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar5_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar11_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar6_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar12_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar7_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar13_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar2_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar14_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar15_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar4_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar16_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar5_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar17_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar6_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar18_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar7_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar19_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar2_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar20_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar21_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar4_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar22_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar5_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar23_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar6_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar24_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar7_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar25_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar2_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar26_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar27_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar4_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar28_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar5_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar29_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar6_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar30_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar7_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar31_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar2_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+    <TextView
+        android:text="@string/evning_azkar32_by_omar_ob"
+        android:textIsSelectable="true"
+        style="@style/omar3_ob" />
+    <ImageView
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:src="@drawable/devider_by_omar_ob"
+        android:layout_weight="0.2" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.textfield.WDSTextField
+    android:id="@id/business_name_field"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen102e"
+    android:inputType="textCapWords"
+    android:imeOptions="flagNoExtractUi"
+    android:layout_marginStart="@dimen/dimen0327"
+    style="@style/style0587"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

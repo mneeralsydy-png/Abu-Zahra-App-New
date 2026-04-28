@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/profile_about_pill_background"
+    android:paddingTop="@dimen/dimen1031"
+    android:paddingBottom="@dimen/dimen1031"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxWidth="@dimen/dimen0035"
+    android:minWidth="@dimen/dimen0036"
+    android:paddingStart="@dimen/dimen1039"
+    android:paddingEnd="@dimen/dimen1039"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/profile_about_emoji_button"
+        android:layout_width="@dimen/dimen0034"
+        android:layout_height="@dimen/dimen0034"
+        android:src="@drawable/ic_mood"
+        android:contentDescription="@string/str29bb"
+        app:attr090d="@color/color08bd" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textAppearance="@style/style05a9"
+        android:textSize="@dimen/dimen1041"
+        android:textColor="@color/color08bd"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/profile_about_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str29bb"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dimen1030" />
+</LinearLayout>

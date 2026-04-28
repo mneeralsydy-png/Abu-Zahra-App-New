@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/left_segment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen0d33"
+        android:paddingEnd="@dimen/dimen0d31"
+        android:layout_marginEnd="@dimen/dimen1035"
+        app:attr0416="textStart"
+        app:attr041b="@dimen/dimen0d32"
+        app:attr041f="@null"
+        app:attr07c8="@style/style0279"
+        style="@style/style03af" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/right_segment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen0d34"
+        android:paddingStart="@dimen/dimen0ce6"
+        app:attr0411="@drawable/ic_keyboard_arrow_down"
+        app:attr0416="start"
+        app:attr041f="?attr0a2f"
+        app:attr07c8="@style/style033b"
+        style="@style/style03af" />
+</LinearLayout>

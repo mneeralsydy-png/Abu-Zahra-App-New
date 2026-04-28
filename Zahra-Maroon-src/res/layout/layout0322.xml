@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:id="@id/imagine_carousel_loading_lottie"
+    android:background="@drawable/carousel_loading_item_background"
+    android:layout_width="@dimen/dimen065e"
+    android:layout_height="@dimen/dimen065e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dimen065d"
+        android:layout_height="@dimen/dimen065d"
+        app:attr0510="true"
+        app:attr051a="true"
+        app:attr051c="@raw/ai_loader_clockwise" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.CircularProgressBar
+    android:layout_gravity="center"
+    android:id="@id/quick_follow_progressBar"
+    android:paddingTop="@dimen/dimen04c9"
+    android:paddingBottom="@dimen/dimen04c9"
+    android:layout_width="@dimen/dimen04ca"
+    android:layout_height="@dimen/dimen0450"
+    android:indeterminate="true"
+    android:paddingStart="@dimen/dimen04c8"
+    android:paddingEnd="@dimen/dimen04c8"
+    whatsapp:attr028b="@color/color0790"
+    whatsapp:attr028c="?attr0a29"
+    whatsapp:attr0494="parent"
+    whatsapp:attr04ab="parent"
+    whatsapp:attr04b1="parent"
+    style="progressBarStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

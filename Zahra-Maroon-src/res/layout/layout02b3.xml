@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/select_list_layout"
+    android:paddingBottom="16.0dip"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_gravity="start"
+        android:id="@id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:gravity="center_vertical"
+            android:id="@id/close"
+            android:background="@null"
+            android:padding="@dimen/dimen06b6"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/str3dac"
+            app:attr0838="@drawable/ic_close"
+            app:attr090d="@color/color0347" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0605"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/menu_title"
+            android:paddingLeft="0.0dip"
+            android:paddingRight="12.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="100.0dip"
+            android:maxLines="1"
+            android:layout_centerInParent="true"
+            android:paddingStart="0.0dip"
+            android:paddingEnd="12.0dip"
+            app:attr03ae="?attr03b8" />
+    </RelativeLayout>
+    <View
+        android:layout_gravity="bottom"
+        android:background="@color/color09d8"
+        android:layout_marginBottom="16.0dip"
+        style="@style/style0355" />
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/body"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="42.0sp"
+            android:textColor="?attr066e"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/amount"
+            android:paddingTop="@dimen/dimen0cee"
+            android:paddingBottom="@dimen/dimen0cee"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0cea"
+            android:layout_marginRight="@dimen/dimen0cea"
+            app:attr049a="parent"
+            app:attr04ac="parent"
+            app:attr04b1="parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/receiver_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04b0="@id/amount">
+            <ViewStub
+                android:id="@id/transaction_status_view"
+                android:layout="@layout/layout0c6f"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ViewStub
+                android:id="@id/seller_details_view"
+                android:layout="@layout/layout0c70"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:id="@id/separator1"
+            android:background="@drawable/payments_divider_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginTop="@dimen/dimen0ce8"
+            app:attr04b0="@id/receiver_view" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/seller_details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr04ad="@id/amount"
+            app:attr04b0="@id/separator1" />
+        <View
+            android:id="@id/separator2"
+            android:background="@drawable/payments_divider_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginTop="@dimen/dimen0ce8"
+            app:attr04b0="@id/seller_details" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:gravity="center_vertical"
+            android:id="@id/help"
+            android:padding="@dimen/dimen0cea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str28da"
+            android:drawablePadding="@dimen/dimen0cea"
+            android:drawableTint="?attr0a46"
+            app:attr02ec="@drawable/ic_share"
+            app:attr04b0="@id/separator2"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr066e"
+            android:gravity="center_vertical"
+            android:id="@id/share"
+            android:padding="@dimen/dimen0cea"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str28d9"
+            android:drawablePadding="@dimen/dimen0cea"
+            android:drawableTint="?attr0a46"
+            app:attr02ec="@drawable/ic_help"
+            app:attr04b0="@id/help"
+            app:attr0a24="wds_font_body1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

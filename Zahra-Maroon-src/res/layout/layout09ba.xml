@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen0cf1"
+    android:layout_marginTop="@dimen/dimen0cea"
+    android:layout_marginRight="@dimen/dimen0cf1"
+    android:layout_marginBottom="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/e2ee_description_image"
+        android:layout_width="wrap_content"
+        android:layout_height="12.0dip"
+        android:layout_marginTop="2.0dip"
+        app:attr0494="@id/image_container"
+        app:attr04a4="packed"
+        app:attr04a7="parent"
+        app:attr04aa="@id/e2ee_description_text"
+        app:attr04b1="@id/image_container"
+        app:attr0838="@drawable/ic_lock_small"
+        app:attr090d="@color/color0905" />
+    <com.whatsapp.ui.coreui.base.TextEmojiLabel
+        android:textSize="@dimen/dimen052f"
+        android:textColor="?attr0a46"
+        android:gravity="center_horizontal"
+        android:id="@id/e2ee_description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/dimen0741"
+        app:attr0490="true"
+        app:attr0494="parent"
+        app:attr04a8="@id/e2ee_description_image"
+        app:attr04ab="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:id="@id/image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        app:attr0492="@id/e2ee_description_text"
+        app:attr04ad="parent"
+        app:attr0a24="wds_font_body2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

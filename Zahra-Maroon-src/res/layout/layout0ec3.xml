@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageButton
+    android:layout_gravity="center|left"
+    android:id="@id/grid_list_toggle"
+    android:visibility="gone"
+    android:layout_width="@dimen/dimen0c36"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/dimen0c35"
+    android:contentDescription="@string/str332d"
+    android:layout_marginEnd="@dimen/dimen0c35"
+    app:attr0838="@drawable/ic_list"
+    app:attr090d="@color/color069c"
+    style="?attr0015"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

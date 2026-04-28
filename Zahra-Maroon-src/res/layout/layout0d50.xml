@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="@dimen/dimen0b1e"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageButton
+        android:layout_gravity="center"
+        android:id="@id/category_icon"
+        android:background="@drawable/white_circle"
+        android:paddingLeft="12.0dip"
+        android:paddingRight="12.0dip"
+        android:layout_width="@dimen/dimen0b1f"
+        android:layout_height="@dimen/dimen0b1f"
+        android:paddingStart="12.0dip"
+        android:paddingEnd="12.0dip"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:gravity="center_horizontal"
+        android:id="@id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        app:attr03ae="?attr03b6"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/category_icon"
+        app:attr0a24="wds_font_body3"
+        style="@style/style0289" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/abu_arab_video_player_title">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_motion_video"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_video_player"
+            android:key="abu3arab_media_video_player"
+            android:summary="@string/abu_arab_video_player_sum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abu_arab_icon_vplayer"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_previewbtn"
+            android:key="Abu_Arab_Previewbtn"
+            android:summary="@string/abu_arab_previewbtn_sum"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/abu_arab_preference_category"
+        android:title="@string/yoImg">
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_viewcolor"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abu_arab_keep_media"
+            android:key="abuarab_media"
+            android:summary="@string/abu_arab_keep_media_sum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_quality"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoImgHiBtn"
+            android:key="abu_arab_image_quality"
+            android:summary="@string/yoImgHiBtnSum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/ic_videocam_black"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoUpSizeLimit"
+            android:key="Up_size_limit"
+            android:summary="@string/yoUpSizeLimitSum"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_audio"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abo_arab_multimedia_note_item"
+            android:key="abo_arab_audio_limit_check"
+            android:summary="@string/abo_arab_send_audios_up_sum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_image"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoImgShareLimit"
+            android:key="Img_share_limit"
+            android:summary="@string/yoImgShareLimitSum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_docsend"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/abo_sale_docshare_limit"
+            android:key="key_more_docs_send"
+            android:summary="@string/abo_sale_docshare_limit_sum"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:icon="@drawable/abo_arab_ic_fivemin"
+            android:layout="@layout/abu_arab_preference_layout"
+            android:title="@string/yoFiveMinStatus"
+            android:key="enable_fivminstatus"
+            android:summary="@string/yoFiveMinStatusS"
+            android:defaultValue="true" />
+        <Preference
+            android:icon="@drawable/abo_arab_ic_customimg"
+            android:layout="@layout/abu_arab_preference_cevron"
+            android:title="@string/abu_arab_settz_gallmngrz"
+            android:summary="@string/abu_arab_gallerytool_title_sum">
+            <intent
+                android:targetPackage="com.zahra.whatsapp"
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.whatsapp.gallerypicker.ui.GalleryPickerLauncher" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

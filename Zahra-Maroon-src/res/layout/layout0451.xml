@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="end"
+    android:layout_gravity="center_vertical"
+    android:id="@id/conversations_folder_badge_container"
+    android:layout_width="0.0dip"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    android:layout_marginEnd="@dimen/dimen0747"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0fbc"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:id="@id/conversations_folder_badge"
+        android:paddingLeft="@dimen/dimen0419"
+        android:paddingRight="@dimen/dimen0419"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen02fd"
+        android:minHeight="@dimen/dimen02fd"
+        android:layout_marginStart="@dimen/dimen03e3"
+        app:attr0a24="wds_font_body3_emphasized"
+        style="@style/style0030" />
+</FrameLayout>

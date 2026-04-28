@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    android:textColor="@color/color06d3"
+    android:gravity="center"
+    android:id="@id/chip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dimen1034"
+    android:checkable="true"
+    android:layout_marginStart="@dimen/dimen1030"
+    android:layout_marginEnd="@dimen/dimen1030"
+    app:attr01bb="false"
+    app:attr01c3="@color/color06be"
+    app:attr01c5="@dimen/dimen029e"
+    app:attr01d2="@dimen/dimen029e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

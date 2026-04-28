@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/comment_container"
+    android:background="?android:selectableItemBackground"
+    android:paddingLeft="@dimen/dimen0cea"
+    android:paddingRight="@dimen/dimen0cea"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen0ce8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.conversation.comments.ui.CommentContactPictureView
+        android:layout_gravity="top"
+        android:id="@id/comment_profile_pic"
+        android:focusable="true"
+        android:layout_width="@dimen/dimen062b"
+        android:layout_height="@dimen/dimen062b"
+        android:layout_marginTop="@dimen/dimen0cec"
+        android:layout_marginRight="@dimen/dimen0ce8"
+        android:src="@drawable/avatar_contact"
+        android:scaleType="centerCrop"
+        app:attr08aa="@dimen/dimen062a" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <com.whatsapp.conversation.comments.ui.CommentHeaderView
+            android:id="@id/comment_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/comment_suspicious_links"
+            android:layout="@layout/layout1097"
+            android:inflatedId="@id/comment_suspicious_links"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.components.TextAndDateLayout
+            android:id="@id/comment_text_date_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.conversation.comments.ui.CommentTextView
+                android:textAppearance="?attr09f0"
+                android:id="@id/comment_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.whatsapp.conversation.comments.ui.CommentDateView
+                android:layout_gravity="end|bottom|center"
+                android:id="@id/comment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen0ce7"
+                android:maxLines="1"
+                style="@style/style0567" />
+        </com.whatsapp.ui.coreui.components.TextAndDateLayout>
+    </LinearLayout>
+    <ViewStub
+        android:layout_gravity="center_vertical"
+        android:id="@id/comment_row_failed_icon"
+        android:layout="@layout/layout036c"
+        android:inflatedId="@id/comment_row_failed_icon"
+        android:layout_width="@dimen/dimen03f0"
+        android:layout_height="@dimen/dimen03f0" />
+</LinearLayout>

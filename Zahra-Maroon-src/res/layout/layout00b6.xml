@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        app:attr0495="@id/action_buttons_container"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/content_container"
+                android:paddingTop="@dimen/dimen103b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen103b"
+                android:paddingEnd="@dimen/dimen103b">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center|top"
+                    android:id="@id/newsletter_enforcement_badge"
+                    android:layout_width="@dimen/dimen0fe9"
+                    android:layout_height="@dimen/dimen0fe9" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textAppearance="@style/style05aa"
+                    android:gravity="center_horizontal"
+                    android:id="@id/header_title"
+                    android:paddingTop="@dimen/dimen103a"
+                    android:paddingBottom="@dimen/dimen103a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr0a24="wds_font_headline1" />
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@id/newsletter_guidelines_fragment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ViewStub
+                    android:id="@id/violating_message_list_view_stub"
+                    android:layout="@layout/layout11f1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen103b" />
+                <ViewStub
+                    android:id="@id/violating_message_single_view"
+                    android:layout="@layout/layout0baf"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen103b" />
+                <ViewStub
+                    android:id="@id/view_newsletter_what_you_need_to_know_section"
+                    android:layout="@layout/layout1194"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen103b"
+                    android:layout_marginStart="@dimen/dimen103b"
+                    android:layout_marginEnd="@dimen/dimen103b" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/action_buttons_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginBottom="@dimen/dimen1039"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ad="parent">
+        <View
+            android:id="@id/section_divider"
+            android:layout_marginBottom="@dimen/dimen1039"
+            style="@style/style0355" />
+        <ViewStub
+            android:id="@id/see_options_button_view_stub"
+            android:layout="@layout/layout0bf3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen102e"
+            android:layout_marginEnd="@dimen/dimen102e" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

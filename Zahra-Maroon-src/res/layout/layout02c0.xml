@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="@dimen/dimen1032"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/photo"
+        android:layout_width="@dimen/dimen1037"
+        android:layout_height="@dimen/dimen1037"
+        android:scaleType="fitCenter"
+        app:attr0495="@id/name"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b1="parent"
+        app:attr08a9="false"
+        app:attr08aa="@dimen/dimen0cc5"
+        app:attr08ac="true" />
+    <FrameLayout
+        android:id="@id/badge"
+        android:background="@drawable/call_h_scroll_badge_background"
+        android:layout_width="@dimen/dimen0f3b"
+        android:layout_height="@dimen/dimen0f3b"
+        android:layout_marginTop="@dimen/dimen1034"
+        android:layout_marginStart="34.0dip"
+        app:attr04a7="@id/photo"
+        app:attr04b1="@id/photo">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:id="@id/badge_icon"
+            android:background="@drawable/call_h_scroll_badge_icon_background"
+            android:padding="@dimen/dimen1030"
+            android:layout_width="@dimen/dimen0f39"
+            android:layout_height="@dimen/dimen0f39"
+            android:scaleType="fitCenter"
+            app:attr0838="@drawable/wa_ic_call_filled"
+            app:attr090d="?attr0a46" />
+    </FrameLayout>
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        app:attr0494="parent"
+        app:attr04a7="parent"
+        app:attr04ab="parent"
+        app:attr04b0="@id/photo"
+        app:attr0a24="wds_font_body3"
+        style="@style/style05a8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

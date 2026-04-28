@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView
+    android:orientation="horizontal"
+    android:id="@id/bread_crumbs_list"
+    android:paddingLeft="@dimen/dimen0b5d"
+    android:paddingRight="@dimen/dimen0b5d"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr0488="androidx.recyclerview.widget.LinearLayoutManager"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

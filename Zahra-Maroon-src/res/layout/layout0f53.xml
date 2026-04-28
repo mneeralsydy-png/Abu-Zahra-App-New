@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/call_notification_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:background="?attr0923"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr000d"
+        android:minHeight="?attr000d"
+        whatsapp:attr0655="@style/style0522"
+        whatsapp:attr08f4="@style/style051f" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/share_link_root"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                whatsapp:attr049a="parent"
+                whatsapp:attr04ad="parent"
+                whatsapp:attr04b1="parent">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="15.0sp"
+                    android:textColor="?attr0a47"
+                    android:id="@id/share_link_description"
+                    android:paddingLeft="16.0dip"
+                    android:paddingTop="24.0dip"
+                    android:paddingRight="16.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/poll_option_main_layout"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@id/poll_option_vote_checkbox"
+        android:background="@drawable/rounded_hollow_checkbox"
+        android:layout_width="@dimen/dimen0b1b"
+        android:layout_height="@dimen/dimen0b1a"
+        android:layout_marginTop="1.0dip"
+        android:button="@null"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="-6.0dip"
+        app:attr0101="@null"
+        app:attr010b="@color/color06cf"
+        app:attr04ad="parent"
+        app:attr04b1="@id/poll_option_name" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style02ef"
+        android:textSize="@dimen/dimen0fb0"
+        android:gravity="start"
+        android:id="@id/poll_option_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.5dip"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/dimen1031"
+        app:attr0490="true"
+        app:attr049b="@id/poll_option_media_clickable_area"
+        app:attr04ac="@id/poll_option_vote_checkbox"
+        app:attr04b1="parent"
+        app:attr0a24="wds_font_chat_body1" />
+    <com.whatsapp.ui.coreui.components.RoundCornerProgressBarV2
+        android:id="@id/poll_vote_ratio"
+        android:layout_width="0.0dip"
+        android:layout_height="16.0dip"
+        android:layout_marginTop="3.0dip"
+        android:importantForAccessibility="no"
+        app:attr049b="@id/poll_option_media"
+        app:attr04ad="@id/poll_option_name"
+        app:attr04b0="@id/poll_option_name"
+        style="@style/style02f3" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7.0dip"
+        app:attr04ad="@id/poll_vote_ratio"
+        app:attr04b0="@id/poll_vote_ratio">
+        <ViewStub
+            android:id="@id/poll_option_vote_second_profile_image_view"
+            android:layout="@layout/layout0468"
+            android:inflatedId="@id/poll_option_vote_second_profile_image_view"
+            android:layout_width="18.0dip"
+            android:layout_height="18.0dip"
+            android:importantForAccessibility="no"
+            android:layout_marginEnd="3.0dip"
+            app:attr0494="@id/poll_option_vote_count"
+            app:attr049b="@id/poll_option_vote_count"
+            app:attr04b1="@id/poll_option_vote_count" />
+        <ViewStub
+            android:id="@id/poll_option_vote_first_profile_circle_view"
+            android:layout="@layout/layout0466"
+            android:inflatedId="@id/poll_option_vote_first_profile_circle_view"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:importantForAccessibility="no"
+            app:attr0494="@id/poll_option_vote_first_profile_image_view"
+            app:attr049a="@id/poll_option_vote_first_profile_image_view"
+            app:attr04ad="@id/poll_option_vote_first_profile_image_view"
+            app:attr04b1="@id/poll_option_vote_first_profile_image_view" />
+        <ViewStub
+            android:id="@id/poll_option_vote_first_profile_image_view"
+            android:layout="@layout/layout0467"
+            android:inflatedId="@id/poll_option_vote_first_profile_image_view"
+            android:layout_width="18.0dip"
+            android:layout_height="18.0dip"
+            android:importantForAccessibility="no"
+            android:layout_marginEnd="14.0dip"
+            app:attr0494="@id/poll_option_vote_second_profile_image_view"
+            app:attr049a="@id/poll_option_vote_second_profile_image_view"
+            app:attr04b1="@id/poll_option_vote_second_profile_image_view" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textAppearance="@style/style02f0"
+            android:textSize="@dimen/dimen0fbc"
+            android:gravity="center"
+            android:id="@id/poll_option_vote_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            app:attr0494="parent"
+            app:attr049a="parent"
+            app:attr04b1="parent"
+            app:attr0a24="wds_font_chat_body3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+        android:id="@id/poll_option_media"
+        android:layout_width="@dimen/dimen08a7"
+        android:layout_height="@dimen/dimen08a7"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="10.0dip"
+        app:attr049a="parent"
+        app:attr04ac="@id/poll_vote_ratio"
+        app:attr04b1="@id/poll_option_name"
+        app:attr08aa="@dimen/dimen0f94" />
+    <View
+        android:id="@id/poll_option_media_clickable_area"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:contentDescription="@string/str3d32"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04ac="@id/poll_vote_ratio"
+        app:attr04b1="parent" />
+    <View
+        android:id="@id/poll_option_vote_clickable_area"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0494="parent"
+        app:attr049b="@id/poll_option_media_clickable_area"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

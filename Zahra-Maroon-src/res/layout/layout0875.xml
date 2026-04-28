@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="@dimen/dimen067b"
+    android:layout_height="@dimen/dimen067b"
+    android:layout_marginLeft="@dimen/dimen067c"
+    android:layout_marginRight="@dimen/dimen067c"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_gravity="center"
+        android:id="@id/carousel_item_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/str3e9f"
+        app:attr07d0="@style/style0249" />
+    <View
+        android:id="@id/selection_indicator"
+        android:background="@drawable/imagine_v2_carousel_selection_border"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <FrameLayout
+        android:id="@id/carousel_loading_overlay"
+        android:background="@drawable/imagine_v2_carousel_loading_background"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_gravity="center"
+            android:id="@id/carousel_loading_animation"
+            android:layout_width="@dimen/dimen065d"
+            android:layout_height="@dimen/dimen065d"
+            android:contentDescription="@string/str3ea2"
+            app:attr0510="true"
+            app:attr051a="true"
+            app:attr051c="@raw/ai_loader_clockwise" />
+    </FrameLayout>
+</FrameLayout>

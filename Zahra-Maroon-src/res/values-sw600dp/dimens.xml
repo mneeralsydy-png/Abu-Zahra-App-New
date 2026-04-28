@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cancel_button_image_alpha">24.0dip</dimen>
+    <dimen name="status_bar_notification_info_maxnum">80.0dip</dimen>
+    <dimen name="dimen0002">64.0dip</dimen>
+    <dimen name="dimen0003">8.0dip</dimen>
+    <dimen name="dimen0004">8.0dip</dimen>
+    <dimen name="dimen0010">580.0dip</dimen>
+    <dimen name="dimen0125">0.0dip</dimen>
+    <dimen name="dimen0126">0.0dip</dimen>
+    <dimen name="dimen0127">32.0dip</dimen>
+    <dimen name="dimen0128">16.0dip</dimen>
+    <dimen name="dimen0210">96.0dip</dimen>
+    <dimen name="dimen02fe">40.0dip</dimen>
+    <dimen name="dimen031f">64.0dip</dimen>
+    <dimen name="dimen0485">320.0dip</dimen>
+    <dimen name="dimen0486">0.0dip</dimen>
+    <dimen name="dimen0488">2.0dip</dimen>
+    <dimen name="dimen048a">24.0dip</dimen>
+    <dimen name="dimen048b">576.0dip</dimen>
+    <dimen name="dimen048c">320.0dip</dimen>
+    <item type="dimen" name="dimen048f">@dimen/dimen048e</item>
+    <dimen name="dimen0492">160.0dip</dimen>
+    <dimen name="dimen051c">14.0dip</dimen>
+    <dimen name="dimen051d">28.0dip</dimen>
+    <dimen name="dimen0541">54.0dip</dimen>
+    <dimen name="dimen08fe">64.0dip</dimen>
+    <dimen name="dimen098f">64.0dip</dimen>
+    <dimen name="dimen0ec2">200.0dip</dimen>
+</resources>

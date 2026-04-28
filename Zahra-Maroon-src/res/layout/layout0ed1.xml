@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_gravity="top"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.searchui.search.views.MessageThumbView
+        android:id="@id/thumb_view"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+    <ViewStub
+        android:layout_gravity="bottom"
+        android:id="@id/overlay_stub"
+        android:visibility="gone"
+        android:layout="@layout/layout0ed2"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0c3d" />
+    <include
+        layout="@layout/layout0ed3" />
+    <ViewStub
+        android:layout_gravity="center|left|top"
+        android:id="@id/motion_photo_stub"
+        android:layout="@layout/layout0b0c"
+        android:inflatedId="@id/motion_photo_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cec" />
+</merge>

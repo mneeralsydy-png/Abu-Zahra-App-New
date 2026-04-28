@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:alpha="0.7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.status.question.shape.StatusQuestionAnswerShapeView
+        android:id="@id/answering_question_shape"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96.0dip"
+        app:attr0495="@id/prompt_footer_text"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color0904"
+        android:gravity="center"
+        android:id="@id/prompt_footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0cea"
+        android:text="@string/str2a35"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/answering_question_shape"
+        app:attr0a24="wds_font_body2"
+        style="@style/style05a6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

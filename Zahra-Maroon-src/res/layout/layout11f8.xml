@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.calling.ui.callgrid.view.CallGrid
+    android:id="@id/call_grid"
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dip"
+    android:layout_weight="1.0"
+    android:paddingStart="@dimen/dimen0cec"
+    android:paddingEnd="@dimen/dimen0cec"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

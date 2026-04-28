@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.ListItemWithLeftIcon
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:attr04e6="@drawable/vec_ic_arrow_forward"
+    app:attr04e7="@color/color08bd"
+    app:attr04e9="@string/str3524"
+    app:attr04ea="@color/color08bd"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@id/green_alert_sticky_top_panel"
+        android:background="?attr0a59"
+        android:layout_width="0.0dip"
+        android:layout_height="?attr000d"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b1="parent">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/green_alert_dismiss_button"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:layout_marginRight="8.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/str16d5"
+            app:attr0838="@drawable/ic_close"
+            app:attr090d="?attr0a46"
+            style="@style/style0001" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:id="@id/green_alert_back_button"
+            android:layout_width="36.0dip"
+            android:layout_height="36.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/str16d3"
+            app:attr0838="@drawable/ic_arrow_back_white"
+            app:attr090d="?attr0a46"
+            app:attr0a7d="true"
+            style="@style/style0001" />
+    </RelativeLayout>
+    <com.whatsapp.ui.coreui.WaViewPager
+        android:id="@id/green_alert_viewpager"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr0495="@id/green_alert_sticky_bottom_panel"
+        app:attr049a="parent"
+        app:attr04ad="parent"
+        app:attr04b0="@id/green_alert_sticky_top_panel"
+        style="@style/style01a2" />
+    <RelativeLayout
+        android:id="@id/green_alert_sticky_bottom_panel"
+        android:background="?attr0a59"
+        android:paddingBottom="12.0dip"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        app:attr0494="parent"
+        app:attr049a="@id/green_alert_viewpager"
+        app:attr04ad="@id/green_alert_viewpager"
+        app:attr04b0="@id/green_alert_viewpager">
+        <com.whatsapp.ui.coreui.WaTabLayout
+            android:id="@id/green_alert_tab_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0e94"
+            android:layout_marginTop="@dimen/dimen0e96"
+            android:layout_marginBottom="@dimen/dimen0e96"
+            android:layout_centerHorizontal="true"
+            app:attr0884="@drawable/tab_dot_selector"
+            app:attr0886="center"
+            app:attr088f="0.0dip"
+            app:attr0891="@dimen/dimen0e95" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/green_alert_continue_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str16d4"
+            android:layout_below="@id/green_alert_tab_layout"
+            android:layout_centerHorizontal="true"
+            app:attr0494="parent"
+            app:attr04b0="@id/green_alert_tab_layout"
+            style="@style/style0555" />
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:theme="@style/style023a"
+            android:id="@id/green_alert_scroll_tos_button"
+            android:background="@drawable/green_alert_scroll_button_background"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_marginLeft="@dimen/dimen0182"
+            android:layout_marginTop="@dimen/dimen0183"
+            android:layout_marginRight="@dimen/dimen0182"
+            android:layout_marginBottom="@dimen/dimen0183"
+            android:layout_below="@id/green_alert_tab_layout"
+            android:layout_alignLeft="@id/green_alert_continue_button"
+            android:layout_alignTop="@id/green_alert_continue_button"
+            android:layout_alignRight="@id/green_alert_continue_button"
+            android:layout_alignBottom="@id/green_alert_continue_button"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/str16e2"
+            app:attr0838="@drawable/ic_keyboard_arrow_down"
+            app:attr090d="?attr03de" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

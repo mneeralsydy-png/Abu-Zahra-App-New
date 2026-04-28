@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.aura.WaThemableLottieAnimationView
+    android:id="@id/linked_devices_header_image"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen1034"
+    android:scaleType="fitXY"
+    app:attr04b1="parent"
+    app:attr0510="true"
+    app:attr051a="true"
+    app:attr051c="@raw/wds_illustration_animation_linked_devices"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

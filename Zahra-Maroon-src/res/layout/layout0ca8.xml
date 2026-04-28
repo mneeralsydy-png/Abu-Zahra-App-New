@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="@dimen/dimen102e"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/view_img"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        app:attr0494="@id/who_can_see_pix_key"
+        app:attr04ad="parent"
+        app:attr04b1="@id/who_can_see_pix_key"
+        app:attr0838="@drawable/ic_visibility"
+        app:attr090d="?attr0a46" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a47"
+        android:gravity="start"
+        android:id="@id/who_can_see_pix_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str41b5"
+        android:layout_marginStart="@dimen/dimen102e"
+        app:attr04a8="@id/view_img"
+        app:attr04b1="parent"
+        style="@style/style05a4" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="?attr0a46"
+        android:gravity="start"
+        android:id="@id/pix_privacy_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr04a7="@id/who_can_see_pix_key"
+        app:attr04b0="@id/who_can_see_pix_key"
+        style="@style/style05a6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

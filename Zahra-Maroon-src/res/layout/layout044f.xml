@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/read_only_chat_info_container"
+    android:background="?attr0a59"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:background="?attr0a4d"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/read_only_chat_info_content"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:paddingBottom="@dimen/dimen0ce7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/newsletter_follow_privacy_banner_stub"
+            android:layout="@layout/layout0ba6"
+            android:inflatedId="@id/newsletter_follow_privacy_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/newsletter_privacy_banner_stub"
+            android:layout="@layout/layout0ba7"
+            android:inflatedId="@id/newsletter_privacy_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/blocked_chat_delete_unblock_footer_stub"
+            android:layout="@layout/layout0200"
+            android:inflatedId="@id/blocked_chat_delete_unblock_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/paa_request_chat_footer_stub"
+            android:layout="@layout/layout0c40"
+            android:inflatedId="@id/paa_request_chat_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/paa_review_connection_footer_stub"
+            android:layout="@layout/layout0c41"
+            android:inflatedId="@id/paa_review_connection_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ViewStub
+            android:id="@id/wabai_auto_reply_banner_stub"
+            android:layout="@layout/layout0ba7"
+            android:inflatedId="@id/wabai_auto_reply_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb6"
+            android:textColor="?attr0a46"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/read_only_chat_info"
+            android:paddingLeft="@dimen/dimen0cea"
+            android:paddingRight="@dimen/dimen0cea"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+        <ViewStub
+            android:layout_gravity="center_horizontal"
+            android:id="@id/exit_delete_group_button"
+            android:layout="@layout/layout11d4"
+            android:inflatedId="@id/exit_delete_group_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0ce7" />
+    </LinearLayout>
+</LinearLayout>

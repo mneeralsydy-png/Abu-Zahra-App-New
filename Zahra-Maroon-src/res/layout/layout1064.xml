@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/tray_footer"
+    android:background="?attr0350"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    android:layout_marginBottom="5.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/packs"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:overScrollMode="never"
+        app:attr0494="parent"
+        app:attr049b="@id/action_icon"
+        app:attr04ad="parent"
+        app:attr04b1="parent" />
+    <View
+        android:background="@drawable/shape_fading_edge_end"
+        android:layout_width="@dimen/dimen05d3"
+        android:layout_height="0.0dip"
+        app:attr0494="@id/packs"
+        app:attr049a="@id/packs"
+        app:attr04b1="@id/packs" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:id="@id/action_icon"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_marginTop="@dimen/dimen1030"
+        android:layout_marginBottom="@dimen/dimen1030"
+        android:contentDescription="@string/str3276"
+        app:attr0494="parent"
+        app:attr049a="parent"
+        app:attr04b1="parent"
+        app:attr0838="@drawable/vec_add_sticker_pack"
+        app:attr090d="?attr0856"
+        style="@style/style0006" />
+</androidx.constraintlayout.widget.ConstraintLayout>

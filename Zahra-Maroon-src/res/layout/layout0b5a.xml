@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@id/parent_view"
+    android:paddingTop="8.0dip"
+    android:paddingBottom="16.0dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="12.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textSize="@dimen/dimen0e09"
+        android:textColor="@color/color08e2"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@id/music_promo_tooltip"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str1fcd"
+        android:lineSpacingExtra="4.0sp"
+        android:letterSpacing="0.02" />
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/music_promo_tooltip_close_button"
+        android:visibility="visible"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:contentDescription="@string/str0b63"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="8.0dip"
+        app:attr0838="@drawable/ic_close_button"
+        app:attr090d="@color/color08e2" />
+</LinearLayout>

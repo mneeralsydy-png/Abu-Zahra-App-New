@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textColor="@color/color08de"
+        android:ellipsize="end"
+        android:id="@id/link_metadata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textAlignment="viewStart"
+        app:attr0a24="wds_font_body2"
+        style="?attr09f6" />
+    <ViewStub
+        android:id="@id/suspicious_link_view"
+        android:layout="@layout/layout1097"
+        android:inflatedId="@id/suspicious_link_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</merge>

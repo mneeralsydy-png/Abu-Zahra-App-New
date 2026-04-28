@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/wds_picto_find_bank_account"
+        android:top="5.0dip"
+        android:bottom="5.0dip" />
+</layer-list>

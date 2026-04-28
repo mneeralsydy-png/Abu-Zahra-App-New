@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/frame_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0168">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/header"
+            android:background="@drawable/link_preview_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+                android:id="@id/thumbnail"
+                android:layout_width="@dimen/dimen0736"
+                android:layout_height="@dimen/dimen0734"
+                android:scaleType="centerCrop" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/text_linear_layout"
+                android:padding="@dimen/dimen1030"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textSize="@dimen/dimen0fb6"
+                    android:textStyle="bold"
+                    android:textColor="?attr066e"
+                    android:ellipsize="end"
+                    android:id="@id/header_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textColor="?attr0a46"
+                    android:ellipsize="end"
+                    android:id="@id/subtitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:textColor="?attr0a46"
+                    android:id="@id/surface"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr0a24="wds_font_body2" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

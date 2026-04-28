@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="oval">
+                    <solid
+                        android:color="?attr0a3b" />
+                </shape>
+            </item>
+            <item
+                android:left="24.0dip"
+                android:top="24.0dip"
+                android:right="24.0dip"
+                android:bottom="24.0dip">
+                <shape
+                    android:shape="oval">
+                    <solid
+                        android:color="?attr0a59" />
+                </shape>
+            </item>
+            <item
+                android:drawable="@drawable/wa_ic_check_circle_filled"
+                android:left="22.0dip"
+                android:top="22.0dip"
+                android:right="22.0dip"
+                android:bottom="22.0dip" />
+        </layer-list>
+    </item>
+    <item>
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="?attr0a3b" />
+        </shape>
+    </item>
+</selector>

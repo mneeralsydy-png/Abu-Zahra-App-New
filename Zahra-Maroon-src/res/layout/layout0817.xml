@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.group.product.GroupPermissionsLayout
+    android:orientation="vertical"
+    android:id="@id/group_settings_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/toolbar"
+        android:background="?attr0923"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr000d"
+        whatsapp:attr08f4="@style/style051d"
+        style="@style/style0520" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            style="@style/style01a4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                whatsapp:attr049a="parent"
+                whatsapp:attr04ad="parent"
+                whatsapp:attr04b1="parent">
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/general_section_title"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen103b"
+                    android:layout_marginTop="14.0dip"
+                    android:layout_marginRight="@dimen/dimen103b"
+                    android:layout_marginBottom="@dimen/dimen1035"
+                    android:text="@string/str1668"
+                    style="?attr07b0" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/manage_history"
+                    android:background="@color/color05f3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e2="@string/str18cb"
+                    whatsapp:attr04e6="@drawable/ic_history"
+                    whatsapp:attr04e9="@string/str1175" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen103b"
+                    android:layout_marginTop="14.0dip"
+                    android:layout_marginRight="@dimen/dimen103b"
+                    android:layout_marginBottom="@dimen/dimen1035"
+                    android:text="@string/str244a"
+                    style="?attr07b0" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/restricted_mode_layout"
+                    android:background="?attr0a59"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e2="@string/str1170"
+                    whatsapp:attr04e6="@drawable/ic_edit"
+                    whatsapp:attr04e8="false"
+                    whatsapp:attr04e9="@string/str1173" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/announcement_group_layout"
+                    android:background="?attr0a59"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e6="@drawable/ic_action_compose"
+                    whatsapp:attr04e9="@string/str184b" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/member_add_mode_layout"
+                    android:background="?attr0a59"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e6="@drawable/ic_person_add_large"
+                    whatsapp:attr04e9="@string/str01ce" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/share_group_history_mode_layout"
+                    android:background="?attr0a59"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e2="@string/str301b"
+                    whatsapp:attr04e6="@drawable/ic_history"
+                    whatsapp:attr04e9="@string/str301a" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/member_link_mode_layout"
+                    android:background="?attr0a59"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e6="@drawable/ic_link"
+                    whatsapp:attr04e9="@string/str1a59" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/report_to_admin_row"
+                    android:background="?attr0a59"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e2="@string/str1853"
+                    whatsapp:attr04e6="@drawable/vec_ic_report_to_admin"
+                    whatsapp:attr04e9="@string/str1854" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/admins_can_section_title"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen103b"
+                    android:layout_marginTop="14.0dip"
+                    android:layout_marginRight="@dimen/dimen103b"
+                    android:layout_marginBottom="@dimen/dimen1035"
+                    android:text="@string/str0235"
+                    style="?attr07b0" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/require_membership_approval"
+                    android:background="?attr0a59"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e2="@string/str1856"
+                    whatsapp:attr04e6="@drawable/vec_ic_pending_participants"
+                    whatsapp:attr04e9="@string/str1858" />
+                <com.whatsapp.ui.coreui.base.WaTextView
+                    android:id="@id/admins_section_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen103b"
+                    android:layout_marginTop="14.0dip"
+                    android:layout_marginRight="@dimen/dimen103b"
+                    android:layout_marginBottom="@dimen/dimen1035"
+                    android:text="@string/str1157"
+                    style="?attr07b0" />
+                <com.whatsapp.ui.coreui.ListItemWithLeftIcon
+                    android:id="@id/manage_admins"
+                    android:background="?attr0a59"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    whatsapp:attr04e6="@drawable/ic_manage_accounts"
+                    whatsapp:attr04e9="@string/str116e" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</com.whatsapp.group.product.GroupPermissionsLayout>

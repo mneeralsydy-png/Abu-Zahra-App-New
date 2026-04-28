@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen0526">
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textAppearance="?attr09f0"
+            android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/header_title"
+            android:paddingLeft="@dimen/dimen03e4"
+            android:paddingRight="@dimen/dimen0b62"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3" />
+        <com.whatsapp.ui.coreui.base.TextEmojiLabel
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a35"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@id/subtitle"
+            android:paddingLeft="@dimen/dimen03e4"
+            android:paddingTop="@dimen/dimen1030"
+            android:paddingRight="@dimen/dimen03e4"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3" />
+    </LinearLayout>
+</merge>

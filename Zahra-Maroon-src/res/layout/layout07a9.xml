@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textSize="@dimen/dimen0fbc"
+    android:textColor="?attr0351"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:lineSpacingExtra="2.0sp"
+    android:fontFamily="?attr03b8"
+    android:letterSpacing="0.02"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

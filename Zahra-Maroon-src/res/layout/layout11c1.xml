@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/chat_list_ai_agent_indicator_background"
+    android:padding="3.0dip"
+    android:layout_width="@dimen/dimen0cce"
+    android:layout_height="@dimen/dimen0cce"
+    android:src="@drawable/ic_wabai_stardust_message_wds"
+    android:tint="@color/color08de"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

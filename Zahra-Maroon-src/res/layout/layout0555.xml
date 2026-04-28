@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaTextView
+    android:textAppearance="@style/style05a9"
+    android:textSize="@dimen/dimen0fbc"
+    android:id="@id/ai_search_partner_attribution"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr0a24="wds_font_body3_emphasized"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

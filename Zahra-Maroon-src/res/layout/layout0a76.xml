@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.coreui.base.WaImageView
+    android:id="@id/undo"
+    android:visibility="invisible"
+    android:layout_width="@dimen/dimen0517"
+    android:layout_height="@dimen/dimen0517"
+    android:contentDescription="@string/str3619"
+    app:attr0838="@drawable/ic_cam_undo_new"
+    style="@style/style0006"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:icon="@drawable/abo_arab_ic_databases"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/clearlogs"
+        android:key="clear_logs" />
+    <Preference
+        android:icon="@drawable/abo_arab_ic_linecard"
+        android:layout="@layout/abu_arab_preference_cevron"
+        android:title="@string/abu_arab_settz_armanagz">
+        <intent
+            android:targetPackage="com.zahra.whatsapp"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.whatsapp.storage.StorageUsageActivity" />
+    </Preference>
+</PreferenceScreen>

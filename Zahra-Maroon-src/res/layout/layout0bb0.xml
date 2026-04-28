@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@id/newsletter_impact_item_1"
+        style="@style/style02b9">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/newsletter_impact_item_icon_1"
+            style="@style/style02b8" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/newsletter_impact_item_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4.0sp"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/newsletter_impact_item_2"
+        style="@style/style02b9">
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:id="@id/newsletter_impact_item_icon_2"
+            style="@style/style02b8" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/newsletter_impact_item_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4.0sp"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+    </LinearLayout>
+    <ViewStub
+        android:id="@id/newsletter_where_this_happened"
+        android:layout="@layout/layout0bb1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen102e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str2091"
+            android:lineSpacingExtra="5.0sp"
+            app:attr0a24="wds_font_body1_emphasized"
+            style="@style/style05a5" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:id="@id/newsletter_impact_description"
+            android:paddingTop="@dimen/dimen1030"
+            android:paddingBottom="@dimen/dimen1030"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4.0sp"
+            app:attr0a24="wds_font_body1"
+            style="@style/style05a4" />
+    </LinearLayout>
+</LinearLayout>

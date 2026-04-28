@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/edit_pack_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style0520" />
+    <com.whatsapp.stickers.ui.BottomFadeRecyclerView
+        android:id="@id/pack_recycler_view"
+        android:paddingTop="@dimen/dimen0ce7"
+        android:fadingEdgeLength="@dimen/dimen0cea"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:requiresFadingEdge="vertical" />
+    <FrameLayout
+        android:id="@id/custom_pack_edit_btn_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/custom_pack_edit_btn_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0ce7"
+            android:text="@string/str1188"
+            style="@style/style055d" />
+        <com.whatsapp.ui.wds.components.button.WDSButton
+            android:id="@id/custom_pack_edit_btn_done"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen0ce7"
+            android:text="@string/str1187"
+            style="@style/style0555" />
+    </FrameLayout>
+</LinearLayout>

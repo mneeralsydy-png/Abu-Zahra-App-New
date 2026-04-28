@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/afs_ad_preference_option"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/ad_preference_list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen0cec"
+        app:attr06c6="@string/str2aa4"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2aa4"
+        app:attr06ca="body1"
+        app:attr06cb="text"
+        app:attr06e2="compact"
+        app:attr06e6="@drawable/chevron_right"
+        app:attr06e8="false"
+        app:attr06ea="medium"
+        app:attr06ec="icon" />
+</LinearLayout>

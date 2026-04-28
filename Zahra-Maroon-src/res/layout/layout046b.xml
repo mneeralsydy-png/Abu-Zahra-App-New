@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/quick_reply_attach"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen1030"
+    android:layout_marginBottom="-5.0dip"
+    android:layout_marginStart="@dimen/dimen1030"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

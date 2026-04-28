@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@id/mRounded"
+    android:layout_width="46.0dip"
+    android:layout_height="46.0dip"
+    android:foreground="?android:selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/mSwatchImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</androidx.cardview.widget.CardView>

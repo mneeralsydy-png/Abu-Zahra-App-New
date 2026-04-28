@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:orientation="vertical"
+    android:id="@id/rich_response_code_block"
+    android:background="@drawable/rich_response_code_block_border"
+    android:paddingTop="@dimen/dimen0ce7"
+    android:paddingBottom="@dimen/dimen0cf3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0cea"
+    android:layout_marginBottom="@dimen/dimen0cea"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="center"
+        android:id="@id/rich_response_code_block_icon"
+        android:layout_width="@dimen/dimen0bf0"
+        android:layout_height="@dimen/dimen0bee"
+        android:src="@drawable/bot_rich_response_code_icon"
+        android:scaleType="centerInside"
+        android:tint="@color/color08de"
+        android:paddingStart="@dimen/dimen0ce8"
+        android:paddingEnd="@dimen/dimen0ce8"
+        app:attr04ad="@id/rich_response_code_block"
+        app:attr04b1="@id/rich_response_code_block" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a4"
+        android:ellipsize="end"
+        android:id="@id/rich_response_code_block_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str2ce8"
+        android:maxLines="1"
+        android:textDirection="locale"
+        android:textAlignment="viewStart"
+        app:attr04ac="@id/rich_response_code_block_icon"
+        app:attr04b1="@id/rich_response_code_block_icon"
+        app:attr0a24="wds_font_body1" />
+    <com.whatsapp.ui.coreui.base.WaTextView
+        android:textAppearance="@style/style05a9"
+        android:textColor="@color/color08dd"
+        android:id="@id/rich_response_code_block_link"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str2ce6"
+        android:textAlignment="viewStart"
+        app:attr04ac="@id/rich_response_code_block_icon"
+        app:attr04b0="@id/rich_response_code_block_header"
+        app:attr0a24="wds_font_body3_emphasized" />
+    <View
+        android:id="@id/rich_response_code_block_divider"
+        android:background="@color/color08f8"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen0cf3"
+        android:layout_marginTop="@dimen/dimen0ce7"
+        app:attr049a="@id/rich_response_code_block"
+        app:attr04ad="@id/rich_response_code_block"
+        app:attr04b0="@id/rich_response_code_block_icon" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr04b0="@id/rich_response_code_block_divider">
+        <com.whatsapp.conversation.ui.conversationrow.BotCodeView
+            android:textAppearance="@style/style05a6"
+            android:id="@id/rich_response_code_block_code"
+            android:paddingTop="@dimen/dimen0ce7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:layoutDirection="locale"
+            android:paddingStart="@dimen/dimen0ce8"
+            android:paddingEnd="@dimen/dimen0ce8"
+            android:elevation="@dimen/dimen0cf0" />
+        <ViewStub
+            android:layout_gravity="bottom"
+            android:id="@id/rich_response_code_block_overlay_stub"
+            android:background="@drawable/bot_rich_response_code_overlay_background"
+            android:layout="@layout/layout0e84"
+            android:inflatedId="@id/rich_response_code_block_overlay_inflated"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen0bf2"
+            android:layout_marginStart="@dimen/dimen0cf3"
+            android:layout_marginEnd="@dimen/dimen0cf3" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

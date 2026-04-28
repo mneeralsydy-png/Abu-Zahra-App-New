@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition
+        motion:attr0241="@id/end"
+        motion:attr0242="@id/start"
+        motion:attr02f6="500"
+        motion:attr05b1="easeInOut" />
+    <ConstraintSet
+        android:id="@id/start">
+        <Constraint
+            android:id="@id/wds_search_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1.0"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b1="parent" />
+        <Constraint
+            android:id="@id/me_tab_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1.0"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b0="@id/wds_search_bar" />
+    </ConstraintSet>
+    <ConstraintSet
+        android:id="@id/end">
+        <Constraint
+            android:id="@id/me_tab_container"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:alpha="0.0"
+            android:translationY="-500.0dip"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b1="parent" />
+        <Constraint
+            android:id="@id/wds_search_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="?attr000d"
+            android:alpha="1.0"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b1="@id/me_tab_container" />
+        <Constraint
+            android:id="@id/toolbar_profile_name"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:alpha="0.0"
+            motion:attr049a="parent"
+            motion:attr04ad="parent"
+            motion:attr04b1="parent"
+            style="@style/style02aa" />
+    </ConstraintSet>
+</MotionScene>

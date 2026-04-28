@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen103b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="?attr0a59"
+            android:paddingTop="@dimen/dimen102e"
+            android:paddingBottom="@dimen/dimen102e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/dimen103b"
+            android:paddingEnd="@dimen/dimen103b">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center|top"
+                android:id="@id/newsletter_enforcement_badge"
+                android:layout_width="@dimen/dimen0fe9"
+                android:layout_height="@dimen/dimen0fe9" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/newsletter_appeal_outcome_title"
+                android:paddingTop="@dimen/dimen103a"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                app:attr0a24="wds_font_headline1"
+                style="@style/style05aa" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/newsletter_appeal_outcome_description"
+                android:paddingTop="@dimen/dimen103a"
+                android:paddingBottom="@dimen/dimen103a"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4.0sp"
+                android:textAlignment="center"
+                app:attr0a24="wds_font_body1"
+                style="@style/style05a4" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:layout_gravity="center"
+                android:id="@id/newsletter_appeal_outcome_request_date"
+                android:paddingBottom="@dimen/dimen0cee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr0a24="wds_font_body2" />
+            <ViewStub
+                android:id="@id/newsletter_appeal_outcome_additional_section"
+                android:layout="@layout/layout0ba4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@id/newsletter_guidelines_fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

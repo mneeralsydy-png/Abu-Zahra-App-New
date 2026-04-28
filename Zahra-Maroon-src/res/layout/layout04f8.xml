@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/frame_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0168"
+        android:layout_marginTop="@dimen/dimen0168"
+        android:layout_marginRight="@dimen/dimen0168"
+        android:layout_marginBottom="@dimen/dimen0680">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:background="@drawable/bubble_circle_incoming"
+                android:layout_width="@dimen/dimen0684"
+                android:layout_height="@dimen/dimen0684"
+                android:layout_marginLeft="@dimen/dimen0682"
+                android:layout_marginTop="@dimen/dimen0682">
+                <com.whatsapp.ui.coreui.base.WaImageView
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/dimen0fdd"
+                    android:layout_height="@dimen/dimen0fdd"
+                    android:tint="@color/color05f4"
+                    app:attr0838="@drawable/ic_person_badge_key_fill" />
+            </FrameLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textColor="?attr0a47"
+                    android:ellipsize="end"
+                    android:id="@id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen0682"
+                    android:layout_marginTop="@dimen/dimen0683"
+                    android:layout_marginRight="@dimen/dimen0682"
+                    android:text="@string/str191f"
+                    stype="@style/style05a7" />
+                <com.whatsapp.ui.coreui.base.TextEmojiLabel
+                    android:textColor="?attr0a46"
+                    android:ellipsize="end"
+                    android:id="@id/subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen0682"
+                    android:layout_marginTop="@dimen/dimen0681"
+                    android:layout_marginRight="@dimen/dimen0682"
+                    android:text="@string/str191e"
+                    style="@style/style05a8" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.coreui.base.WaImageView
+        android:layout_gravity="bottom|center"
+        android:id="@id/contact_photo_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr0838="@drawable/ic_live_location_shadow" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="7.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_width="@dimen/dimen0cc6"
+                android:layout_height="@dimen/dimen0cc6"
+                app:attr0838="@drawable/ic_live_location_places"
+                app:attr090d="?attr0a29" />
+            <com.whatsapp.ui.coreui.components.button.ThumbnailButton
+                android:layout_gravity="center"
+                android:id="@id/contact_photo"
+                android:layout_width="@dimen/dimen0cc7"
+                android:layout_height="@dimen/dimen0cc7"
+                android:scaleType="fitCenter"
+                app:attr08a6="?attr0503"
+                app:attr08a7="1.0dip"
+                app:attr08a9="false"
+                app:attr08aa="@dimen/dimen0cc5" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.base.WaImageView
+            android:layout_gravity="center"
+            android:background="@drawable/primary_color_circle"
+            android:layout_width="@dimen/dimen1030"
+            android:layout_height="@dimen/dimen1030"
+            android:layout_marginTop="1.0dip"
+            android:scaleType="center" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.ui.wds.components.button.WDSButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str2b5f"
+    whatsapp:attr0009="normal"
+    whatsapp:attr096b="borderless"
+    whatsapp:attr09ea="normal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

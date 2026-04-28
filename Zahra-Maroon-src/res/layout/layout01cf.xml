@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.topbar.WDSToolbar
+        android:id="@id/backup_token_education_screen_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr08f4="@style/style0704" />
+    <com.whatsapp.ui.wds.components.textlayout.WDSTextLayout
+        android:orientation="vertical"
+        android:id="@id/backup_token_education_screen_text_layout"
+        android:paddingTop="@dimen/dimen0048"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr03eb="@drawable/wds_picto_key_horizontal_right"
+        app:attr0489="view" />
+</LinearLayout>

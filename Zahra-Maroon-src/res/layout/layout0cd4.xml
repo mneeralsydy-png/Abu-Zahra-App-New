@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ui.wds.components.list.header.WDSSectionHeader
+        android:id="@id/manage_payments_section_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen102e"
+        android:paddingEnd="@dimen/dimen102e"
+        app:attr0039="@string/str2660"
+        app:attr003a="textButton"
+        app:attr03ee="@string/str2661"
+        app:attr03ef="emphasized" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/nux_manage_payment_settings_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str2666"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2667"
+        app:attr06f6="@drawable/vec_ic_account_circle"
+        app:attr0702="icon" />
+    <include
+        android:id="@id/pux_manage_payments_setting_row"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout0df8" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/manage_payments_history_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str2664"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2665"
+        app:attr06f6="@drawable/view_history_icon"
+        app:attr0702="icon" />
+    <com.whatsapp.ui.wds.components.list.listitem.WDSListItem
+        android:id="@id/manage_payments_support_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:attr06c6="@string/str2662"
+        app:attr06c8="body2"
+        app:attr06c9="@string/str2663"
+        app:attr06f6="@drawable/ic_help"
+        app:attr0702="icon" />
+</LinearLayout>

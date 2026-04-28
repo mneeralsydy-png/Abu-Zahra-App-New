@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:minHeight="74.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_gravity="center"
+            android:id="@id/audio_file_thumb_frame"
+            android:background="@drawable/audio_picker_thumb_frame_background"
+            android:visibility="visible"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="@dimen/dimen102e"
+            android:layout_marginRight="@dimen/dimen102e">
+            <com.whatsapp.ui.coreui.base.WaImageView
+                android:layout_gravity="center"
+                android:id="@id/audio_file_thumb"
+                android:background="@drawable/audio_picker_filled_thumb_background"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:layout_margin="1.0dip" />
+        </FrameLayout>
+        <com.whatsapp.ui.coreui.components.SelectionCheckView
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/selection_check"
+            android:visibility="invisible"
+            android:layout_width="@dimen/dimen0c6f"
+            android:layout_height="@dimen/dimen0c6f"
+            android:layout_marginTop="34.0dip"
+            android:layout_marginRight="@dimen/dimen1039" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/audio_file_details"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen1039"
+        android:layout_marginRight="@dimen/dimen102e"
+        android:layout_marginBottom="@dimen/dimen1039"
+        android:layout_weight="1.0">
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="@dimen/dimen0fb0"
+            android:textColor="?attr0a47"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:id="@id/audio_file_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            app:attr03ae="?attr03b6"
+            app:attr0a24="wds_font_body1" />
+        <com.whatsapp.ui.coreui.base.WaTextView
+            android:textSize="13.0sp"
+            android:textColor="?attr0a46"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:id="@id/audio_file_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="13.0sp"
+                android:textColor="?attr0a46"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:id="@id/audio_file_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:id="@id/bullet_duration_size"
+                android:paddingLeft="4.0sp"
+                android:paddingRight="4.0sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str3dd3"
+                app:attr0a24="wds_font_body2" />
+            <com.whatsapp.ui.coreui.base.WaTextView
+                android:textSize="13.0sp"
+                android:textColor="?attr0a46"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:id="@id/audio_file_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:gravity="center|right"
+        android:id="@id/play_button_frame"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:layout_marginRight="@dimen/dimen102e">
+        <com.whatsapp.ui.coreui.base.WaImageButton
+            android:layout_gravity="center"
+            android:id="@id/audio_file_play_btn"
+            android:background="@drawable/audio_picker_row_start_button_background"
+            android:padding="9.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
+            app:attr090d="@color/color00b0" />
+        <com.whatsapp.ui.coreui.CircularProgressBar
+            android:id="@id/progress_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:indeterminateOnly="false" />
+    </FrameLayout>
+</LinearLayout>
